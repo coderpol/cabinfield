@@ -531,3 +531,96 @@ body {
 .header-area .cart-area .cart-list li + li {
   margin-left: 35px;
 }
+
+.navigation-area {
+  background: #F0F2F5;
+  padding: 5px;
+}
+.navigation-area .main-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+.navigation-area .main-nav > li > a {
+  color: #3F4B5C;
+  font-weight: 500;
+  display: inline-block;
+  padding: 10px 30px;
+  font-size: 1.285em;
+  position: relative;
+}
+.navigation-area .main-nav > li > a:before {
+  content: "";
+  display: inline-block;
+  height: 5px;
+  width: 5px;
+  border-radius: 10px;
+  background-color: #3F4B5C;
+  position: absolute;
+  right: -2px;
+  top: 50%;
+  margin-top: -2px;
+}
+.navigation-area .main-nav > li:last-child a:before {
+  content: none;
+}
+.navigation-area .main-nav > li .submenu-block {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  -webkit-box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.05);
+          box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.05);
+}
+.navigation-area .main-nav > li .submenu-block h3 {
+  font-size: 1.714em;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+.navigation-area .main-nav > li .submenu-block .submenu-area {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 50px 1fr 50px 1fr 50px 1fr;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 50px;
+}
+.navigation-area .main-nav > li .submenu-block .category h4 {
+  font-size: 1.14em;
+  line-height: 1em;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+.navigation-area .main-nav > li .submenu-block .category .submenu {
+  list-style-type: disc;
+  list-style-position: inside;
+  color: #B3522C;
+  margin-left: 15px;
+}
+.navigation-area .main-nav > li .submenu-block .category .submenu li {
+  margin: 10px 0;
+}
+.navigation-area .main-nav > li .submenu-block .category .submenu li a {
+  color: #B3522C;
+  font-size: 1.14em;
+  font-weight: 500;
+}

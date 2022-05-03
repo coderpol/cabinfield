@@ -1,4 +1,4 @@
-<div class="header-area clearfix">
+<header class="header-area clearfix">
     <div class="container">
         <div class="row">
             <div class="logo-area">
@@ -22,4 +22,4 @@
             </div>
         </div>
     </div>
-</div>
+</header>
