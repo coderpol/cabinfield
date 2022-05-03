@@ -220,19 +220,19 @@ footer:before {
 
 /********* placeholder color **********/
 ::-webkit-input-placeholder {
-  color: #4F4F4F;
+  color: #9DA8B7;
 }
 
 :-moz-placeholder {
-  color: #4F4F4F;
+  color: #9DA8B7;
 }
 
 ::-moz-placeholder {
-  color: #4F4F4F;
+  color: #9DA8B7;
 }
 
 :-ms-input-placeholder {
-  color: #4F4F4F;
+  color: #9DA8B7;
 }
 
 .bold,
@@ -274,6 +274,7 @@ em {
 
 a {
   text-decoration: none;
+  color: #627590;
 }
 
 a,

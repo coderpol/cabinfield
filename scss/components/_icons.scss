@@ -1,0 +1,28 @@
+$icons : 
+    'phone-white', 
+    'mail-white',
+    'search-gray', 
+    'shopping-cart-blue';
+
+$icon-sizes: 15,20,22;
+
+.cabincon{
+    display: inline-block;
+
+    @each $icon in $icons{
+        &.#{$icon}{
+            background: url('../icons/lucide/#{$icon}.svg');
+        }
+    }
+
+    @each $size in $icon-sizes{
+        &.size-#{$size}{
+            width:#{$size}px;
+            height:#{$size}px;
+            background-size: #{$size}px;
+            &+a{
+                line-height:#{$size}px;
+            }
+        }
+    }
+}

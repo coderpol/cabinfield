@@ -4,6 +4,7 @@
 @import 'base/fonts';
 @import 'base/reset';
 @import 'base/preset';
+@import 'base/layouts';
 
 // components scss
 @import "components/icons";
@@ -12,4 +13,5 @@
 @import "components/tooltip";
 
 // section scss
+@import 'sections/topbar';
 @import 'sections/header';

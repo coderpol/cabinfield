@@ -1,0 +1,67 @@
+.header-area{
+    background: $white;
+    padding:22px 0;
+    .logo-area {
+        width: 30%;
+        margin-right: 10%;
+        float: left;
+    }
+    .search-area {
+        float: left;
+        width: 30%;
+        margin-right: 10%;
+        .searchform{
+            position:relative;
+            margin-top: 12px;
+            .cabincon{
+                position:absolute;
+                left:10px;
+                top:10px;
+            }
+            input{
+                width:100%;
+                border-radius: 20px;
+                padding-left: 35px;
+                border:1px solid $gray-border;
+                margin-bottom:0;
+            }
+        }
+    }
+    .cart-area{
+        width:20%;
+        float:left;
+        .cart-list{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-content: center;
+            justify-content: flex-end;
+            margin-top: 18px;
+            li{
+                a{
+                    display:inline-block;
+                    i{
+                        position:relative;
+                        .counter{
+                            position:absolute;
+                            right: -4px;
+                            top: -4px;
+                            display: block;
+                            width: 12px;
+                            height: 14px;
+                            background: $primary-color;
+                            border-radius: 50%;
+                            color: #fff;
+                            font-size: 10px;
+                            text-align: center;
+                            line-height: 15px;
+                        }
+                    }
+                }
+                &+li{
+                    margin-left:35px;
+                }
+            }
+        }
+    }
+}

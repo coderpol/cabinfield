@@ -1,0 +1,50 @@
+.topbar-area{
+    background: $blue;
+    color:$white;
+    height:40px;
+    li{
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        a{
+            color:white;
+            padding: 10px;
+            display: inline-block;
+        }
+    }
+    .topbar-nav{
+        width:60%;
+        float:left;
+        ul{
+            li{
+                margin-right: 10px;
+                a{
+                   text-transform: capitalize;
+                }
+            }
+        }
+    }
+    .contact-area{
+        width:40%;
+        float:left;
+        text-align: right;
+        .contact-details{
+            padding: 10px;
+            li{
+                i{
+                    float:left;
+                    margin-right:5px;
+                }
+                a{
+                    padding:0;
+                }
+                &+li{
+                    margin-left:20px;
+                }
+            }
+        }
+    }
+}

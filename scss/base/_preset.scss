@@ -82,7 +82,10 @@ em {
 .content-wrap:after {
     clear: both;
 }
-a {text-decoration: none;}
+a {
+    text-decoration: none;
+    color:$blue;
+}
 a,
 button,
 select,

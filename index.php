@@ -16,7 +16,7 @@
             
             <div class="content">
                 <ol class="page-list">
-                    <li class="working"><a href="/home.php">Homepage</a></li>
+                    <li class="working"><a href="home.php">Homepage</a></li>
                 </ol>
             </div>
         </div>
