@@ -1,0 +1,77 @@
+// base scss
+@import 'base/variables';
+@import 'base/mixin';
+@import 'base/fonts';
+@import 'base/reset';
+@import 'base/preset';
+
+.font-page{
+    background: $bg-main;
+    .container{
+        width:100%;
+        max-width: 600px;
+        margin:0 auto;
+        .header{
+            padding:20px;
+            margin-top:30px;
+            text-align:center;
+            h1{
+                font-size:2em;
+                font-weight: $font-bold;
+                margin-bottom:0;
+                text-transform: uppercase;
+                color:$primary-color;
+                span{
+                    color:$gray-dark;
+                    text-transform: capitalize;
+                }
+            }
+            margin-bottom:25px;
+        }
+        .content{
+            border:1px solid $gray-dark;
+            padding:20px;
+            .page-list{
+                list-style-type: decimal;
+                list-style-position: inside;
+                li{
+                    font-size:1.5em;
+                    line-height:1.5em;
+                    margin-bottom:10px;
+                    a{
+                        font-weight: $font-medium;
+                    }
+                    &:after{
+                        margin-left:15px;
+                        color:inherit;
+                        font-size:0.8em;
+                    }
+                    &.working{
+                        &:after{
+                            content:"(On Develop)";
+                        }
+                        &:after, a{color:#8e0101;}
+                    }
+                    &.review{
+                        &:after{
+                            content:"(On Review)";
+                        }
+                        &:after, a{color:$primary-color;}
+                    }
+                    &.done{
+                        &:after{
+                            content:"(Completed)";
+                        }
+                        &:after, a{color:#167702;}
+                    }
+                    &.hold{
+                        &:after{
+                            content:"(On Hold)";
+                        }
+                        &:after, a{color:#ac00c3;}
+                    }
+                }
+            }
+        }
+    }
+}
