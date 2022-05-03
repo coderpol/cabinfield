@@ -1,0 +1,44 @@
+@import 'breakpoints';
+
+@mixin until-phone {
+    @media only screen and (max-width:($breakpoint-md - 1px)) {
+        @content;
+    }
+}
+@mixin phone {
+    @media only screen and (max-width:($breakpoint-sm - 1px)) {
+        @content;
+    }
+}
+@mixin phone-landscape {
+    @media only screen and (min-width:$breakpoint-sm) and (max-width:$breakpoint-md) {
+        @content;
+    }
+}
+
+@mixin until-tablet {
+    @media only screen and (max-width:($breakpoint-xl - 1px)) {
+        @content;
+    }
+}
+@mixin tablet {
+    @media only screen and (min-width:$breakpoint-md) and (max-width:($breakpoint-lg - 1px)) {
+        @content;
+    }
+}
+@mixin tablet-landscape {
+    @media only screen and (min-width:$breakpoint-lg) and (max-width:($breakpoint-xl - 1px)) {
+        @content;
+    }
+}
+
+@mixin normal {
+    @media only screen and (min-width:$breakpoint-xl) and (max-width:($breakpoint-xxl - 1px)) {
+        @content;
+    }
+}
+@mixin widescreen {
+    @media only screen and (min-width:$breakpoint-xxl) {
+        @content;
+    }
+}

@@ -1,0 +1,15 @@
+// base scss
+@import 'scss/base/variables';
+@import 'scss/base/mixin';
+@import 'scss/base/fonts';
+@import 'scss/base/reset';
+@import 'scss/base/preset';
+
+// components scss
+@import "scss/components/icons";
+@import "scss/components/buttons";
+@import "scss/components/modal";
+@import "scss/components/tooltip";
+
+// section scss
+@import 'scss/sections/header';
