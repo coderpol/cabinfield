@@ -1,0 +1,31 @@
+.header-banner{
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    .primary-gradient{
+        @include gradient(rgba(179,82,44,1), rgba(179,82,44,0),linear);
+    }
+    .banner-text{
+        color:$white;
+        margin:10vw 0;
+        width: 60%;
+        @include until-phone{
+            width:100%;
+        }
+        .tagline{
+            font-size:2.14em;
+            line-height:1.6em;
+            font-weight: $font-normal;
+        }
+        .heading{
+            font-size:3.857em;
+            line-height:130%;
+            font-weight: $font-bold;
+            margin-bottom: 26px;
+        }
+        .btn{
+            width:200px;
+            font-size:1.14em;
+        }
+    }
+}
