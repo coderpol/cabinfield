@@ -2,9 +2,11 @@
     <div class="container">
         <div class="row">
             <div class="logo-area">
-                <h1><a href="home.php">
-                    <img src="images/logo.png" alt="">
-                </a></h1>
+                <h1>
+                    <a href="home.php">
+                        <img src="images/logo.png" alt=""> Cabinfield | Classic Amish Craftmanship
+                    </a>
+                </h1>
             </div>
             <div class="search-area">
                 <form action="/" class="searchform">

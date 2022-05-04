@@ -649,6 +649,9 @@ body {
 .header-area .logo-area img {
   max-width: 350px;
 }
+.header-area .logo-area a {
+  font-size: 0;
+}
 .header-area .search-area {
   float: left;
   width: 42%;
@@ -1200,7 +1203,7 @@ body {
 
 /* Slider */
 .slick-loading .slick-list {
-  background: #fff url("images/ajax-loader.gif") center center no-repeat;
+  background: #fff url("../images/ajax-loader.gif") center center no-repeat;
 }
 
 /* Arrows */
