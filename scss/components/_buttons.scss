@@ -19,6 +19,14 @@
         padding:$m-20 $m-60;
         font-size:$font-16;
     }
+    &.btn-medium{
+        padding:$m-15 $m-40;
+        font-size: $font-14;;
+    }
+    &.btn-wide{
+        padding:$m-10 $m-60;
+        font-size:$font-14;
+    }
     
     &:hover{
         text-decoration: none;

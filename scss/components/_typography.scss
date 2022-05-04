@@ -5,4 +5,10 @@
     span{
         color:$primary-color;
     }
+    h2,h3,h4{
+        font-size:$font-44;
+        font-weight:$font-bold;
+        line-height:100%;
+        margin-bottom:$m-20;
+    }
 }

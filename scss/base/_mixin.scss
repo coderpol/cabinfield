@@ -37,6 +37,11 @@
         @content;
     }
 }
+@mixin above-normal {
+    @media only screen and (min-width:$breakpoint-xl) {
+        @content;
+    }
+}
 @mixin widescreen {
     @media only screen and (min-width:$breakpoint-xxl) {
         @content;
