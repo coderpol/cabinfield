@@ -1,4 +1,7 @@
-<?php include_once('sections/layouts/header.php') ?>
+<?php 
+$page_title="Homepage";
+include_once('sections/layouts/header.php') 
+?>
 
 <?php include_once('sections/topbar.php') ?>
 <?php include_once('sections/header.php') ?>
