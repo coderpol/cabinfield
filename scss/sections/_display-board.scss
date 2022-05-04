@@ -33,6 +33,7 @@
                 }
                 .btn{
                     margin-top:$m-30;
+                    box-shadow: 0 $m-10 $m-10 rgb($black, 0.1);
                 }
             }
             &:nth-child(2n+2){
