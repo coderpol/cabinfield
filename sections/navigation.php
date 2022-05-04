@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <ul class="main-nav">
-                <li>
+                <li class="megamenu">
                     <a href="#">Fine Furniture</a>
                     <div class="submenu-block">
                         <h3>Fine Furniture</h3>
@@ -42,7 +42,7 @@
                         </div>
                     </div>
                 </li>
-                <li><a href="#">Rustic & Live Edge</a>
+                <li class="normal"><a href="#">Rustic & Live Edge</a>
                     <div class="submenu-block">
                         <h3>Rustic & Live Edge</h3>
                         <div class="submenu-area">
@@ -55,7 +55,7 @@
                         </div>
                     </div>
                 </li>
-                <li><a href="#">Outdoor</a>
+                <li class="normal"><a href="#">Outdoor</a>
                     <div class="submenu-block">
                         <h3>Outdoor</h3>
                         <div class="submenu-area">

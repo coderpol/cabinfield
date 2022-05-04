@@ -1,0 +1,91 @@
+.footer{
+    border-top: $thin solid $gray-4;
+    padding:$m-30 0;
+    a,p{
+        color:$blue-3;
+    }
+    .footer-area{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: space-between;
+        align-items: center;
+        
+        .footer-logo{
+            img{
+                margin-bottom:$m-20;
+            }
+            .copyright{
+                color:$blue-3;
+                font-size:$font-16;
+                line-height:$font-24;
+            }
+        }
+        
+        .footer-social{
+            .social-icons{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                align-content: center;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom:$m-25;
+                li{
+                    a{
+                        display:block;
+                        width:$m-25+1px;
+                        height:$m-25+1px;
+                        background:url('../images/footer-social-sprite.png') no-repeat;
+                        background-position:0 0;
+                        font-size:0;
+                        &.facebook{
+                            background-position:0 0;
+                        }
+                        &.pinterest{
+                            background-position:0 -36px;
+                        }
+                        &.instagram{
+                            background-position:0 -71px;
+                        }
+                        &:hover{
+                            background-position-x: -32px !important;
+                        }
+                    }
+                }
+                
+            }
+            .newsletter{
+                line-height:$font-24;
+                a{
+                    &:hover{
+                        color:$primary-color;
+                    }
+                }
+                i{
+                    float:left;
+                    margin-right:$m-10;
+                }
+            }
+        }
+        .footer-rating{
+            img{
+            }
+        }
+        .footer-links{
+            .links{
+                li{
+                    margin-bottom:$m-10;
+                    a{
+                        font-size:$font-14;
+                        line-height:$font-16;
+                        &:hover{
+                            color:$primary-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -237,6 +237,25 @@ footer:before {
   color: #9DA8B7;
 }
 
+input[type=text]::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+input[type=text]::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+input[type=search]::-webkit-search-decoration,
+input[type=search]::-webkit-search-cancel-button,
+input[type=search]::-webkit-search-results-button,
+input[type=search]::-webkit-search-results-decoration {
+  display: none;
+}
+
 .bold,
 strong {
   font-weight: 700;
@@ -476,14 +495,14 @@ body {
 .cabincon.mail-white {
   background: url("../icons/lucide/mail-white.svg");
 }
+.cabincon.mail-blue {
+  background: url("../icons/lucide/mail-blue.svg");
+}
 .cabincon.search-gray {
   background: url("../icons/lucide/search-gray.svg");
 }
-.cabincon.chevron-left {
-  background: url("../icons/lucide/chevron-left.svg");
-}
-.cabincon.chevron-right shopping-cart-blue {
-  background: url("../icons/lucide/chevron-right shopping-cart-blue.svg");
+.cabincon.shopping-cart-blue {
+  background: url("../icons/lucide/shopping-cart-blue.svg");
 }
 .cabincon.size-15 {
   width: 15px;
@@ -508,6 +527,14 @@ body {
 }
 .cabincon.size-22 + a {
   line-height: 22px;
+}
+.cabincon.size-24 {
+  width: 24px;
+  height: 24px;
+  background-size: 24px;
+}
+.cabincon.size-24 + a {
+  line-height: 24px;
 }
 
 .btn {
@@ -642,6 +669,9 @@ body {
   padding-left: 35px;
   border: 1px solid #C6CDD7;
   margin-bottom: 0;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
 }
 .header-area .cart-area {
   width: 17%;
@@ -712,6 +742,9 @@ body {
           align-items: center;
   position: relative;
 }
+.navigation-area .main-nav > li {
+  position: relative;
+}
 .navigation-area .main-nav > li > a {
   color: #3F4B5C;
   font-weight: 500;
@@ -719,6 +752,8 @@ body {
   padding: 10px 30px;
   font-size: 1.28571em;
   position: relative;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
 }
 .navigation-area .main-nav > li > a:hover {
   text-decoration: none;
@@ -754,7 +789,6 @@ body {
 }
 .navigation-area .main-nav > li .submenu-block {
   position: absolute;
-  top: 100%;
   left: 0;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -764,22 +798,17 @@ body {
   border-radius: 10px;
   -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.05);
           box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.05);
-  width: 100%;
   display: none;
+  min-width: 300px;
+}
+.navigation-area .main-nav > li .submenu-block.full-width {
+  width: 100%;
 }
 .navigation-area .main-nav > li .submenu-block h3 {
   font-size: 1.71424em;
   margin-bottom: 30px;
   font-weight: 700;
   text-transform: capitalize;
-}
-.navigation-area .main-nav > li .submenu-block .submenu-area {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 50px 1fr 50px 1fr 50px 1fr;
-  grid-template-columns: repeat(4, 1fr);
-  grid-column-gap: 50px;
-  grid-row-gap: 30px;
 }
 .navigation-area .main-nav > li .submenu-block .category h4 {
   font-size: 1.14285em;
@@ -805,6 +834,23 @@ body {
   color: #B3522C;
   font-size: 1.14285em;
   font-weight: 500;
+}
+.navigation-area .main-nav > li.megamenu {
+  position: static;
+}
+.navigation-area .main-nav > li.megamenu .submenu-block {
+  width: 100%;
+}
+.navigation-area .main-nav > li.megamenu .submenu-block .submenu-area {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 50px 1fr 50px 1fr 50px 1fr;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 50px;
+  grid-row-gap: 30px;
+}
+.navigation-area .main-nav > li:hover > a {
+  color: #B3522C;
 }
 .navigation-area .main-nav > li:hover > a:after {
   display: block;
@@ -1268,4 +1314,99 @@ body {
   line-height: 40px;
   margin-bottom: 40px;
   font-weight: 700;
+}
+
+.footer {
+  border-top: 1px solid #DDDDDD;
+  padding: 30px 0;
+}
+.footer a, .footer p {
+  color: #424F61;
+}
+.footer .footer-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.footer .footer-area .footer-logo img {
+  margin-bottom: 20px;
+}
+.footer .footer-area .footer-logo .copyright {
+  color: #424F61;
+  font-size: 1.14285em;
+  line-height: 1.71424em;
+}
+.footer .footer-area .footer-social .social-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 25px;
+}
+.footer .footer-area .footer-social .social-icons li a {
+  display: block;
+  width: 26px;
+  height: 26px;
+  background: url("../images/footer-social-sprite.png") no-repeat;
+  background-position: 0 0;
+  font-size: 0;
+}
+.footer .footer-area .footer-social .social-icons li a.facebook {
+  background-position: 0 0;
+}
+.footer .footer-area .footer-social .social-icons li a.pinterest {
+  background-position: 0 -36px;
+}
+.footer .footer-area .footer-social .social-icons li a.instagram {
+  background-position: 0 -71px;
+}
+.footer .footer-area .footer-social .social-icons li a:hover {
+  background-position-x: -32px !important;
+}
+.footer .footer-area .footer-social .newsletter {
+  line-height: 1.71424em;
+}
+.footer .footer-area .footer-social .newsletter a:hover {
+  color: #B3522C;
+}
+.footer .footer-area .footer-social .newsletter i {
+  float: left;
+  margin-right: 10px;
+}
+.footer .footer-area .footer-links .links li {
+  margin-bottom: 10px;
+}
+.footer .footer-area .footer-links .links li a {
+  font-size: 14px;
+  line-height: 1.14285em;
+}
+.footer .footer-area .footer-links .links li a:hover {
+  color: #B3522C;
 }
