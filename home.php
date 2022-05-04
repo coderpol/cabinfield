@@ -12,5 +12,6 @@
     <?php include_once('sections/topbar.php') ?>
     <?php include_once('sections/header.php') ?>
     <?php include_once('sections/navigation.php') ?>
+    <?php include_once('sections/header-banner.php') ?>
 </body>
 </html>

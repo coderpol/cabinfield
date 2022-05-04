@@ -18,6 +18,10 @@
                 padding:10px 30px;
                 font-size:1.285em;
                 position:relative;
+                &:hover{
+                    text-decoration: none;
+                    color:$primary-color;
+                }
                 
                 &:before{
                     content:"";
@@ -30,6 +34,17 @@
                     right: -2px;
                     top: 50%;
                     margin-top: -2px;
+                }
+                &:after{
+                    content:"";
+                    @include triangle(10px, up, #fff);
+                    position: absolute;
+                    left: 50%;
+                    margin-left: -5px;
+                    display: none;
+                    @extend .animate;
+                    @extend .fadeIn;
+                    @extend .animate_faster;
                 }
             }
             &:last-child{
@@ -48,15 +63,22 @@
                 padding:30px;
                 border-radius:10px;
                 box-shadow: 6px 6px 10px rgb(0 0 0 / 5%);
+                width:100%;
+                @extend .animate;
+                @extend .fadeIn;
+                @extend .animate_faster;
+                display: none;
                 h3{
                     font-size:1.714em;
                     margin-bottom:30px;
                     font-weight: $font-bold;
+                    text-transform: capitalize;
                 }
                 .submenu-area{
                     display: grid;
                     grid-template-columns: repeat(4,1fr);
                     grid-column-gap: 50px;
+                    grid-row-gap: 30px;
                 }
                 .category{
                     h4{
@@ -64,22 +86,38 @@
                         line-height:1em;
                         margin-bottom:15px;
                         font-weight: $font-medium;
+                        text-transform: capitalize;
                     }
                     .submenu{
-                        list-style-type: disc;
-                        list-style-position: inside;
-                        color:$primary-color;
+                        list-style-type: disc; 
                         margin-left:15px;
-                        li{
-                            margin:10px 0;
-                            a{
-                                color:$primary-color;
-                                font-size:1.14em;
-                                font-weight: $font-medium;
-                            }
-                        }
-                        
                     }
+                }
+                .submenu{
+                    list-style-type: none;
+                    list-style-position: inside;
+                    color:$primary-color;
+                    margin-left:0px;
+                    li{
+                        margin:12px 0;
+                        a{
+                            color:$primary-color;
+                            font-size:1.14em;
+                            font-weight: $font-medium;
+                        }
+                    }
+                    
+                }
+            }
+            &:hover{
+                &>a{
+                    &:after{
+                        display: block;
+                    }
+                }
+                &>.submenu-block{
+                    display: block;
+                    top:100%;
                 }
             }
         }

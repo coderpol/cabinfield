@@ -42,3 +42,40 @@
         @content;
     }
 }
+
+@mixin triangle($size:5px,$direction:up,$color:#fff){
+    display: block;
+    height:0;
+    width:0;
+    @if $direction==up{
+        border-left: $size solid transparent;
+        border-right: $size solid transparent;
+        border-bottom: $size solid $color;
+    }
+    @if $direction==down{
+        border-left: $size solid transparent;
+        border-right: $size solid transparent;
+        border-top: $size solid $color;
+    }
+    @if $direction==right{
+        border-top: $size solid transparent;
+        border-bottom: $size solid transparent;
+        border-left: $size solid $color;
+    }
+    @if $direction==left{
+        border-top: $size solid transparent;
+        border-bottom: $size solid transparent;
+        border-right: $size solid $color;
+    }
+}
+
+@mixin gradient($start_color,$end_color,$type) {
+    background: $start_color;
+    @if $type ==linear {
+        background: linear-gradient(90deg, $start_color 0%, $end_color 100%);
+    }
+    @if $type==radial {
+        background: radial-gradient(circle, $start_color 0%, $end_color 100%);
+        
+    }
+}
