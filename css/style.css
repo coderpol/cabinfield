@@ -815,7 +815,6 @@ body {
 }
 
 .header-banner {
-  background-attachment: fixed;
   background-position: center center;
   background-size: cover;
 }
@@ -1160,11 +1159,11 @@ body {
 
 /* Arrows */
 .slick-arrow {
-  display: none;
+  display: none !important;
 }
 
 .slick-slider:hover .slick-arrow {
-  display: inline-block;
+  display: inline-block !important;
 }
 
 .slick-prev,
