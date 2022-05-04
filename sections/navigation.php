@@ -1,7 +1,11 @@
 <nav class="navigation-area clearfix">
     <div class="container">
         <div class="row">
-            <ul class="main-nav">
+            <span class="main-nav-trigger" id="main_nav_trigger">
+                <span class="default">&#9776;</span>
+                <span class="open">&#9747;</span>
+            </span>
+            <ul class="main-nav" id="main_nav">
                 <li class="megamenu">
                     <a href="#">Fine Furniture</a>
                     <div class="submenu-block">

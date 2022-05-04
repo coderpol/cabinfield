@@ -1,3 +1,11 @@
+$('body').on( 'click', '#main_nav_trigger', function () {
+        
+  $('#main_nav').toggleClass('active');
+  
+  $(this).toggleClass('selected').toggleClass('active');
+  
+});
+
 $('#testimonial-slider').slick({
   centerMode: true,
   dots: true,
@@ -9,8 +17,8 @@ $('#testimonial-slider').slick({
       settings: {
         arrows: false,
         centerMode: true,
-        centerPadding: '40px',
-        slidesToShow: 3
+        centerPadding: '30px',
+        slidesToShow: 1
       }
     },
     {
@@ -18,7 +26,7 @@ $('#testimonial-slider').slick({
       settings: {
         arrows: false,
         centerMode: true,
-        centerPadding: '40px',
+        centerPadding: '20px',
         slidesToShow: 1
       }
     }

@@ -608,35 +608,38 @@ body {
   padding: 10px;
   display: inline-block;
 }
-.topbar-area .topbar-nav {
+.topbar-area .topbar-nav .top-nav {
   width: 60%;
   float: left;
 }
-.topbar-area .topbar-nav ul li {
+.topbar-area .topbar-nav .top-nav li {
   margin-right: 10px;
 }
-.topbar-area .topbar-nav ul li a {
+.topbar-area .topbar-nav .top-nav li a {
   text-transform: capitalize;
 }
-.topbar-area .contact-area {
+.topbar-area .topbar-nav .contact-details {
   width: 40%;
   float: left;
   text-align: right;
-}
-.topbar-area .contact-area .contact-details {
   padding: 10px;
 }
-.topbar-area .contact-area .contact-details li i {
+.topbar-area .topbar-nav .contact-details li i {
   float: left;
   margin-right: 5px;
 }
-.topbar-area .contact-area .contact-details li a {
+.topbar-area .topbar-nav .contact-details li a {
   padding: 0;
 }
-.topbar-area .contact-area .contact-details li + li {
+.topbar-area .topbar-nav .contact-details li + li {
   margin-left: 20px;
 }
 
+@media only screen and (max-width: 1199px) {
+  .topbar-area {
+    display: none;
+  }
+}
 .header-area {
   background: #fff;
   padding: 22px 0;
@@ -721,9 +724,25 @@ body {
   margin-left: 35px;
 }
 
+@media only screen and (max-width: 1199px) {
+  .header-area .logo-area {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .header-area .search-area {
+    width: 47%;
+  }
+  .header-area .cart-area {
+    width: 50%;
+  }
+}
 .navigation-area {
   background: #F0F2F5;
   padding: 5px;
+}
+.navigation-area .main-nav-trigger {
+  display: none;
 }
 .navigation-area .main-nav {
   display: -webkit-box;
@@ -863,6 +882,31 @@ body {
   top: 100%;
 }
 
+@media only screen and (max-width: 1199px) {
+  .navigation-area .main-nav-trigger {
+    display: inline-block;
+    font-size: 1.71424em;
+    border: 1px solid #121212;
+    padding: 5px;
+    width: 40px;
+    text-align: center;
+  }
+  .navigation-area .main-nav-trigger .default {
+    display: block;
+  }
+  .navigation-area .main-nav-trigger .open {
+    display: none;
+  }
+  .navigation-area .main-nav-trigger.active .default {
+    display: none;
+  }
+  .navigation-area .main-nav-trigger.active .open {
+    display: block;
+  }
+  .navigation-area .main-nav {
+    display: none;
+  }
+}
 .header-banner {
   background-position: center center;
   background-size: cover;

@@ -16,9 +16,9 @@
         }
     }
     .topbar-nav{
-        width:60%;
-        float:left;
-        ul{
+        .top-nav{
+            width:60%;
+            float:left;
             li{
                 margin-right: $m-10;
                 a{
@@ -26,12 +26,10 @@
                 }
             }
         }
-    }
-    .contact-area{
-        width:40%;
-        float:left;
-        text-align: right;
         .contact-details{
+            width:40%;
+            float:left;
+            text-align: right;
             padding: $m-10;
             li{
                 i{
@@ -46,5 +44,11 @@
                 }
             }
         }
+    }
+}
+
+@include until-tablet{
+    .topbar-area{
+        display:none;    
     }
 }

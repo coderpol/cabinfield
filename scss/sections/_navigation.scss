@@ -1,6 +1,9 @@
 .navigation-area{
     background: $bg-gray-1;
     padding:$m-5;
+    .main-nav-trigger{
+        display:none;
+    }
     .main-nav{
         display: flex;
         flex-direction: row;
@@ -135,6 +138,32 @@
                     top:100%;
                 }
             }
+        }
+    }
+}
+
+@include until-tablet{
+    .navigation-area{
+        .main-nav-trigger{
+            display:inline-block;
+            font-size:$font-24;
+            border:$thin solid $gray-dark;
+            padding:$m-5;
+            width:$m-40;
+            text-align:center;
+            .default{
+                display: block;
+            }
+            .open{
+                display:none;
+            }
+            &.active{
+                .default{display:none}
+                .open{display:block}
+            }
+        }
+        .main-nav{
+            display:none;
         }
     }
 }
