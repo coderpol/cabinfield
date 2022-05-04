@@ -1,0 +1,68 @@
+.testimonial-area{
+    padding:$m-40 0;
+    .testimonial-slider{
+        padding:$m-20 0;
+        margin-top:$m-50;
+        margin-bottom:$m-40 !important;
+        .slide{
+            display: grid;
+            grid-template-columns: auto 265px;
+            grid-column-gap:$m-90;
+            grid-row-gap:$m-90;
+            margin:0 $m-20;
+            border-radius:$m-20;
+            box-shadow: 0 0 $m-50 rgba($black,0.2);
+            padding: $m-40 $m-50;
+            .quotation{
+                &:before{
+                    content:'';
+                    display: block;
+                    height:$m-45;
+                    width:$m-60;
+                    background: url('../images/blockquote.png') no-repeat;
+                    background-size:$m-60;
+                }
+                blockquote{
+                    margin:$m-30 0;
+                    color:$blue-2;
+                    font-size:$font-16;
+                    line-height:$m-25;
+                    font-weight: $font-medium;
+                }
+                p{
+                    letter-spacing: 0.3px;
+                    .author{
+                        font-size:$font-20;
+                        line-height:$m-25;
+                        color:$gray-dark;
+                        display: inline-block;
+                        position:relative;
+                        &.verified{
+                            &:after{
+                                content:"";
+                                display: block;
+                                width:$m-20;
+                                height:$m-20;
+                                background:url('../images/verified.svg') no-repeat;
+                                background-size:$m-20;
+                                position:absolute;
+                                bottom:3px;
+                                right: -$m-25;
+                            }
+                        }
+                    }
+                    .company{
+                        display:block;
+                        color:$gray-3;
+                        font-size:$font-16;
+                        line-height:$m-20;
+                        margin-top:$m-5;
+                    }
+                }
+            }
+            .image{
+                border-radius:$m-10;
+            }
+        }
+    }
+}

@@ -31,6 +31,29 @@
                 img{
                     width:50%;
                 }
+                i{
+                    width: 40px;
+                    height: 40px;
+                    background-size: 75px !important;
+                    background-position: center center !important;
+                    background-repeat: no-repeat !important;
+                    
+                    $icons : 
+                        'extensive-collection', 
+                        'heirloom-quality',
+                        'affordable-elegance',
+                        'custom-options',
+                        'trusted-source',
+                        'stellar-service'
+                        ;
+                    
+                    @each $icon in $icons{
+                        &.#{$icon}{
+                            background: url('../images/points/#{$icon}.svg');
+                            
+                        }
+                    } 
+                }
             }
             h3{
                 font-size:$font-24;
