@@ -211,11 +211,13 @@ footer:before {
 ::-moz-selection {
   background: #B3522C;
   text-shadow: none;
+  color: #fff;
 }
 
 ::selection {
   background: #B3522C;
   text-shadow: none;
+  color: #fff;
 }
 
 /********* placeholder color **********/

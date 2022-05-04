@@ -35,10 +35,12 @@ footer:before {
 ::-moz-selection {
     background: $selection-color;
     text-shadow: none;
+    color:$white;
 }
 ::selection {
     background: $selection-color;
     text-shadow: none;
+    color:$white;
 }
 /********* placeholder color **********/
 ::-webkit-input-placeholder {
