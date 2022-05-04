@@ -16,17 +16,18 @@
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
 }
+
+.animate_fastest {
+    animation-duration: 0.25s;
+}
 .animate_faster {
-    -webkit-animation-duration: calc(1s / 2);
-    animation-duration: calc(1s / 2);
-    -webkit-animation-duration: calc(var(--animate-duration) / 2);
-    animation-duration: calc(var(--animate-duration) / 2);
-  }
+    animation-duration: 0.6s;
+}
 .animate_fast {
-    -webkit-animation-duration: calc(1s * 0.8);
-    animation-duration: calc(1s * 0.8);
-    -webkit-animation-duration: calc(var(--animate-duration) * 0.8);
-    animation-duration: calc(var(--animate-duration) * 0.8);
+    animation-duration: 0.8s;
+}
+.animate_slow {
+    animation-duration: 1.25s;
 }
 
 @keyframes fadeIn {

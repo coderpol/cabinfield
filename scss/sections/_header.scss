@@ -18,14 +18,14 @@
             margin-top: 10px;
             .cabincon{
                 position:absolute;
-                left:10px;
-                top:10px;
+                left:$m-10;
+                top:$m-10;
             }
             input{
                 width:100%;
-                border-radius: 20px;
-                padding-left: 35px;
-                border:1px solid $gray-border;
+                border-radius: $m-20;
+                padding-left: $m-35;
+                border:$thin solid $gray-border;
                 margin-bottom:0;
             }
         }
@@ -39,7 +39,7 @@
             flex-wrap: nowrap;
             align-content: center;
             justify-content: flex-end;
-            margin-top: 20px;
+            margin-top: $m-20;
             li{
                 a{
                     display:inline-block;
@@ -55,14 +55,14 @@
                             background: $primary-color;
                             border-radius: 50%;
                             color: #fff;
-                            font-size: 10px;
+                            font-size: $m-10;
                             text-align: center;
-                            line-height: 15px;
+                            line-height: $m-15;
                         }
                     }
                 }
                 &+li{
-                    margin-left:35px;
+                    margin-left:$m-35;
                 }
             }
         }

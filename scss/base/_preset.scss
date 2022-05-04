@@ -99,10 +99,10 @@ img {
 input,
 select,
 textarea {
-    padding: 10px 15px;
+    padding: $m-10 $m-50;
     border: 1px solid darken($white,50%);
-    font-size: 1.1em;
-    margin-bottom: 10px;
+    font-size: $base-font-size;
+    margin-bottom: $m-10;
 }
 input:focus,
 select:focus,
@@ -122,11 +122,11 @@ input{
     &[type="checkbox"]{
         width:auto;
         transform: scale(1.75);
-        margin-right:10px;
+        margin-right:$m-10;
     }
 }
 /* custom scrollbar */
-::-webkit-scrollbar {width: 10px;}
+::-webkit-scrollbar {width: $m-10;}
 ::-webkit-scrollbar-track {background: $scroll-track-color;}
 ::-webkit-scrollbar-thumb {background: $scroll-thumb-color;}
 ::-webkit-scrollbar-thumb:hover {background: $scroll-hover-color;}

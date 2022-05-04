@@ -8,6 +8,7 @@
 @import 'base/layouts';
 
 // components scss
+@import "components/typography";
 @import "components/icons";
 @import "components/buttons";
 @import "components/modal";
@@ -19,3 +20,5 @@
 @import 'sections/header';
 @import 'sections/navigation';
 @import 'sections/header-banner';
+@import 'sections/choice-points';
+@import 'sections/display-board';

@@ -1,0 +1,55 @@
+.choice-points{
+    padding:$m-50 $m-0;
+    background-color: $white;
+    .section-title{
+        margin-top:$m-20;
+        margin-bottom:$m-0;
+        h2,h3,h4{
+            font-size:$font-44;
+            line-height:100%;
+            margin-bottom:$m-0;
+        }
+    }
+    .points-area{
+        display: grid;
+        justify-content: space-evenly;
+        align-content: stretch;
+        align-items: stretch;
+        justify-items: stretch;
+        grid-template-columns: repeat(3,1fr);
+        grid-row-gap: $m-100;
+        grid-column-gap: $m-80;
+        margin-top:$m-80;
+        .point{
+            text-align:left;
+            .icon{
+                width:66px;
+                height:66px;
+                border-radius:50%;
+                padding:$m-20;
+                background-color: $primary-color;
+                text-align:center;
+                margin-bottom:$m-30;
+            }
+            h3{
+                font-size:$font-24;
+                line-height: 100%;
+                font-weight: $font-bold;
+                margin-bottom:$m-20;
+            }
+            p{
+                font-size:$font-16;
+                line-height:$font-26;
+                color:$gray-light;
+            }
+        }
+    }
+    
+    .action-area{
+        text-align: center;
+        margin-top:$m-100;
+        .btn{
+            font-weight: $font-bold;
+        }
+    }
+}

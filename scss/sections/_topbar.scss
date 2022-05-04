@@ -1,7 +1,7 @@
 .topbar-area{
     background: $blue;
     color:$white;
-    height:40px;
+    height:$m-40;
     li{
         display: inline-flex;
         flex-direction: row;
@@ -11,7 +11,7 @@
         align-items: center;
         a{
             color:white;
-            padding: 10px;
+            padding: $m-10;
             display: inline-block;
         }
     }
@@ -20,7 +20,7 @@
         float:left;
         ul{
             li{
-                margin-right: 10px;
+                margin-right: $m-10;
                 a{
                    text-transform: capitalize;
                 }
@@ -32,17 +32,17 @@
         float:left;
         text-align: right;
         .contact-details{
-            padding: 10px;
+            padding: $m-10;
             li{
                 i{
                     float:left;
-                    margin-right:5px;
+                    margin-right:$m-5;
                 }
                 a{
                     padding:0;
                 }
                 &+li{
-                    margin-left:20px;
+                    margin-left:$m-20;
                 }
             }
         }
