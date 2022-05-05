@@ -1,9 +1,12 @@
 .display-board{
+    margin-top:$m-30;
+    margin-bottom:$m-30;
     .display-area{
         margin:$m-30 0 $m-50;
         .display{
-            &+.display{
-                margin-top:2 * $m-75;
+            margin-bottom:2 * $m-75;
+            &:last-child{
+                margin-bottom:$m-55;
             }
             .display-image{
                 width: 49%;

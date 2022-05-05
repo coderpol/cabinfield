@@ -1,0 +1,32 @@
+.breadcrumb-area{
+    margin:$m-25 0;
+    .breadcrumb{
+        background:none;
+        justify-content: flex-start;
+        align-items: center;
+        align-content: center;
+        padding:0;
+        li{
+            color:$white;
+            font-size: $font-16;
+            line-height: $font-20;
+            a{
+                color:$white;
+            }
+            &:after{
+                content: ">";
+                margin:0 10px;
+                font-size:$font-18;
+                font-family: $font-dm;
+            }
+            &:last-child{
+                &:after{
+                    content:none;
+                }
+            }
+        }
+    }
+    &+.banner-text{
+        margin-top:5vw !important;
+    }
+}

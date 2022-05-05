@@ -17,7 +17,7 @@
                 </div>
                 <div class="display clearfix">
                     <div class="col-md-6 col-12 display-image">
-                        <img src="images/display/fine-furniture.png" alt="">
+                        <img src="images/display/rustic-live-edge.png" alt="">
                     </div>
                     <article class="col-md-6 col-12 display-text">
                         <header class="section-title">

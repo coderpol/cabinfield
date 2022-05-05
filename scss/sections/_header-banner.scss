@@ -2,9 +2,14 @@
     // background-attachment: fixed;
     background-position: center center;
     background-size: cover;
+    margin-bottom:$m-20;
     .primary-gradient{
         @include gradient(rgba(179,82,44,1), rgba(179,82,44,0),linear);
     }
+    .blue-gradient{
+        @include gradient(rgba(98, 117, 144,1), rgba(98, 117, 144,0),linear);
+    }
+    
     .banner-text{
         color:$white;
         margin:12vw 0;
@@ -34,6 +39,7 @@
 @include until-normal{
     .header-banner{
         .banner-text{
+            margin:15vw 0;
             .tagline{
                 font-size:$font-20;
             }
