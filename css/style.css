@@ -1156,6 +1156,7 @@ a:hover {
 .display-board .display-area .display {
   margin-bottom: 150px;
   width: 100%;
+  padding: 0;
 }
 .display-board .display-area .display:last-child {
   margin-bottom: 55px;
@@ -1195,6 +1196,42 @@ a:hover {
   float: right;
   padding-right: 0;
   padding-left: 15px;
+}
+.display-board.type-row {
+  margin-bottom: 30px;
+}
+.display-board.type-row .display-area .display {
+  border-bottom: 1px dashed #c4c4c4;
+  padding-bottom: 70px;
+  margin-bottom: 70px;
+}
+.display-board.type-row .display-area .display:last-child {
+  border-bottom: 0;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+}
+.display-board.type-row .display-area .display-text .counter {
+  display: inline-block;
+  text-align: center;
+  border: 1px solid #B3522C;
+  padding: 3px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+.display-board.type-row .display-area .display-text .counter span {
+  line-height: 28px;
+  display: block;
+  border-radius: 20px;
+  background-color: #B3522C;
+  color: #fff;
+  width: 28px;
+  height: 28px;
+}
+.display-board.type-row .display-area .display-text p {
+  color: #514646;
+}
+.display-board.type-row .display-area .display-image img {
+  border-radius: 20px;
 }
 
 @media only screen and (max-width: 1199px) {
@@ -1706,8 +1743,10 @@ a:hover {
     padding-left: 0;
   }
 }
-.page-heading-section .page-headline .section-title text-align:left h2,
-.page-heading-section .page-headline .section-title h3, .page-heading-section .page-headline .section-title h4 {
+.page-heading-section .page-headline .section-title {
+  text-align: left;
+}
+.page-heading-section .page-headline .section-title h2, .page-heading-section .page-headline .section-title h3, .page-heading-section .page-headline .section-title h4 {
   font-size: 2.57142em;
 }
 .page-heading-section .page-headline .section-title p {
@@ -1715,6 +1754,9 @@ a:hover {
   font-size: 1.14285em;
   line-height: 25px;
   font-weight: 400;
+}
+.page-heading-section .page-headline .section-title p + p {
+  margin-top: 30px;
 }
 .page-heading-section .page-headline .button-area {
   text-align: right;
@@ -1864,50 +1906,13 @@ a:hover {
     min-height: 180px;
   }
 }
-.fabric-section {
-  margin-bottom: 30px;
-}
-.fabric-section .display-area .display {
-  border-bottom: 1px dashed #c4c4c4;
-  padding-bottom: 70px;
-  margin-bottom: 70px;
-}
-.fabric-section .display-area .display:last-child {
-  border-bottom: 0;
-  padding-bottom: 30px;
-  margin-bottom: 20px;
-}
-.fabric-section .display-area .display-text .counter {
-  display: inline-block;
-  text-align: center;
-  border: 1px solid #B3522C;
-  padding: 3px;
-  border-radius: 20px;
-  margin-bottom: 30px;
-}
-.fabric-section .display-area .display-text .counter span {
-  line-height: 28px;
-  display: block;
-  border-radius: 20px;
-  background-color: #B3522C;
-  color: #fff;
-  width: 28px;
-  height: 28px;
-}
-.fabric-section .display-area .display-text p {
-  color: #514646;
-}
-.fabric-section .display-area .display-image img {
-  border-radius: 20px;
-}
-
-.popular-fabric-area {
+.popular-section {
   margin: 100px 0;
 }
-.popular-fabric-area .section-title {
+.popular-section .section-title {
   margin-bottom: 40px;
 }
-.popular-fabric-area .sample-area .sample {
+.popular-section.type-box .sample-area .sample {
   -ms-flex-preferred-size: 23%;
       flex-basis: 23%;
   border-radius: 20px;
@@ -1916,30 +1921,30 @@ a:hover {
   margin: 1%;
 }
 @media only screen and (max-width: 767px) {
-  .popular-fabric-area .sample-area .sample {
+  .popular-section.type-box .sample-area .sample {
     -ms-flex-preferred-size: 44%;
         flex-basis: 44%;
     margin: 3%;
   }
 }
 @media only screen and (max-width: 575px) {
-  .popular-fabric-area .sample-area .sample {
+  .popular-section.type-box .sample-area .sample {
     -ms-flex-preferred-size: 94%;
         flex-basis: 94%;
     margin: 3%;
   }
 }
-.popular-fabric-area .sample-area .sample .text {
+.popular-section.type-box .sample-area .sample .text {
   padding: 15px;
 }
-.popular-fabric-area .sample-area .sample .text h4 {
+.popular-section.type-box .sample-area .sample .text h4 {
   font-size: 1.42857em;
   line-height: 26px;
   font-weight: 700;
   margin-bottom: 10px;
   margin-top: 15px;
 }
-.popular-fabric-area .sample-area .sample .text p {
+.popular-section.type-box .sample-area .sample .text p {
   font-size: 1.14285em;
   line-height: 25px;
   font-weight: 700;

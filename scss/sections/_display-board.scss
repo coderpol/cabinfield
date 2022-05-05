@@ -6,6 +6,7 @@
         .display{
             margin-bottom:2 * $m-75;
             width:100%;
+            padding: 0;
             &:last-child{
                 margin-bottom:$m-55;
             }
@@ -49,6 +50,50 @@
                 }
             }
            
+        }
+    }
+    
+    &.type-row{
+        margin-bottom:$m-30;
+        .display-area{
+            .display{
+                border-bottom:$thin dashed #c4c4c4;
+                padding-bottom:$m-70;
+                margin-bottom:$m-70;
+                &:last-child{
+                    border-bottom:0;
+                    padding-bottom:$m-30;
+                    margin-bottom:$m-20;
+                }
+            }
+            .display-text{
+                .counter{
+                    display: inline-block;
+                    text-align: center;
+                    border: $thin solid $primary-color;
+                    padding:3px;
+                    border-radius:20px;
+                    margin-bottom:$m-30;
+                    span{
+                        line-height: 28px;
+                        display: block;
+                        border-radius:20px;
+                        background-color: $primary-color;
+                        color:$white;
+                        width: 28px;
+                        height: 28px;
+                    }
+                    
+                }
+                p{
+                    color:$text-primary-color;
+                }
+            }
+            .display-image{
+                img{
+                    border-radius:$m-20;
+                }
+            }
         }
     }
 }

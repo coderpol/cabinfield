@@ -22,7 +22,7 @@ include_once('sections/layouts/header.php')
 <div class="section page-heading-section clearfix mb-5">
     <div class="container">
         <div class="row page-headline">
-            <div class="col-md-12 col-12 section-title text-start">
+            <div class="col-md-12 col-12 section-title text-left">
                 <h2><span>Fabric</span> Samples</h2>
                 <p>Enhance your furniture with patterns, textures, and sumptuous softness. Discover environmentally friendly choices, designed with you and your lifestyle in mind. Order samples so you can run your fingers across it, experience the feel, and better envision the final product.</p>
             </div>
@@ -30,7 +30,7 @@ include_once('sections/layouts/header.php')
     </div>
 </div>
 
-<div class="section fabric-section display-board clearfix">
+<div class="section display-board type-row clearfix">
     <div class="container">
         <div class="row">
             <div class="col-md-12 mb-2 section-sub-title">
@@ -119,7 +119,7 @@ include_once('sections/layouts/header.php')
 </div>
 
 
-<div class="section popular-fabric-area clearfix">
+<div class="section popular-section type-box clearfix">
     <div class="container">
         <div class="row">
             <div class="section-title col-md-12">
