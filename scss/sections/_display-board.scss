@@ -63,6 +63,9 @@
                     margin-top:20px;
                     float:none;
                     width:100%;
+                    @include upto-phone{
+                        padding-left:0px;
+                    }
                 }
                 .display-image{
                     width:100%;
@@ -72,6 +75,14 @@
                     .display-text{
                         padding-left:20px;
                         margin-top:20px;
+                        @include upto-phone{
+                            padding-left:0px;
+                        }
+                    }
+                    .display-image{
+                        @include upto-phone{
+                            padding-left:0px;
+                        }
                     }
                 }
                 &+.display{

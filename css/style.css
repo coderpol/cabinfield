@@ -214,6 +214,11 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 1em;
 }
 
+a:hover {
+  color: #B3522C;
+  text-decoration: underline;
+}
+
 :root {
   --animate-duration: 1s;
   --animate-delay: 1s;
@@ -1202,14 +1207,35 @@ h1, h2, h3, h4, h5, h6 {
     float: none;
     width: 100%;
   }
+}
+@media only screen and (max-width: 1199px) and (max-width: 767px) {
+  .display-board .display-area .display .display-text {
+    padding-left: 0px;
+  }
+}
+@media only screen and (max-width: 1199px) {
   .display-board .display-area .display .display-image {
     width: 100%;
     float: none;
   }
+}
+@media only screen and (max-width: 1199px) {
   .display-board .display-area .display:nth-child(2n+2) .display-text {
     padding-left: 20px;
     margin-top: 20px;
   }
+}
+@media only screen and (max-width: 1199px) and (max-width: 767px) {
+  .display-board .display-area .display:nth-child(2n+2) .display-text {
+    padding-left: 0px;
+  }
+}
+@media only screen and (max-width: 1199px) and (max-width: 767px) {
+  .display-board .display-area .display:nth-child(2n+2) .display-image {
+    padding-left: 0px;
+  }
+}
+@media only screen and (max-width: 1199px) {
   .display-board .display-area .display + .display {
     margin-top: 50px;
   }
@@ -1680,7 +1706,8 @@ h1, h2, h3, h4, h5, h6 {
     padding-left: 0;
   }
 }
-.page-heading-section .page-headline .section-title h2, .page-heading-section .page-headline .section-title h3, .page-heading-section .page-headline .section-title h4 {
+.page-heading-section .page-headline .section-title text-align:left h2,
+.page-heading-section .page-headline .section-title h3, .page-heading-section .page-headline .section-title h4 {
   font-size: 2.57142em;
 }
 .page-heading-section .page-headline .section-title p {
