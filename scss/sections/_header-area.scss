@@ -80,7 +80,7 @@
         display:none;
     }
 }
-@include until-normal{
+@include upto-pc{
     .header-area{
         .logo-area{
             // width:100%;

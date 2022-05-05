@@ -27,15 +27,94 @@
                 }
             }
         }
+        &.type-b{
+            .product{
+                border-bottom: $thin solid #ccc;
+                padding-bottom:$m-50;
+                &+.product{
+                    margin-top:$m-50;
+                }
+                &:last-child{
+                    border-bottom:none;
+                    padding-bottom:$m-30;
+                }
+                .details{
+                    img{
+                        margin-bottom:$m-20;
+                    }
+                    p{
+                        font-size:$font-16;
+                        line-height:$line-26;
+                        color:$text-dark-color;
+                    }
+                }
+                .action-area{
+                    .action{
+                        background-color: $bg-gray-1;
+                        padding:$m-20;
+                        border-radius: $m-10;
+                        margin-bottom:$m-20;
+                        h4{
+                            font-size:$font-20;
+                            line-height:$line-26;
+                            font-weight: $font-bold;
+                            color:$text-dark-color;
+                            margin-bottom:$m-20;
+                        }
+                        .features{
+                            color:$text-primary-color;
+                            font-size:$font-14;
+                            line-height: $line-18;
+                            padding-left:0;
+                            margin-left:$m-20;
+                            li{
+                                margin-bottom:$m-10;
+                            }
+                        }
+                        .btn{
+                            
+                        }
+                    }
+                    .thumb-area{
+                        display: flex;
+                        flex-wrap: nowrap;
+                        justify-content: space-between;
+                        list-style-type: none;
+                        padding-left:0;
+                        li{
+                            flex-basis: 30%;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
-@include until-tablet{
+@include upto-tablet{
     .products-section{
         .products-area{
             &.type-a{
                 .product{
                     flex-basis:100%;
+                }
+            }
+        }
+    }
+}
+
+@include from-pc{
+    .products-section{
+        .products-area{
+            &.type-b{
+                .product{
+                    .action-area{
+                        .action{
+                            .features{
+                                min-height: 180px;
+                            }
+                        }
+                    }
                 }
             }
         }

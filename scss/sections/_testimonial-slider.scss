@@ -67,7 +67,7 @@
     }
 }
 
-@include until-normal{
+@include upto-pc{
     .testimonial-area{
         .testimonial-slider{
             padding: 20px;
@@ -78,7 +78,7 @@
                 }
                 .image{
                     width:100%;
-                    margin-top:20px;
+                    margin-top:$m-40;
                 }
             }
         }

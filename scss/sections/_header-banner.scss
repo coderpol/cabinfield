@@ -21,7 +21,7 @@
         color:$white;
         margin:12vw 0;
         width: 60%;
-        @include until-phone{
+        @include upto-phone{
             width:100%;
         }
         .tagline{
@@ -43,7 +43,7 @@
 }
 
 
-@include until-normal{
+@include upto-pc{
     .header-banner{
         .banner-text{
             margin:15vw 0;

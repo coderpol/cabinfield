@@ -1,52 +1,75 @@
 @import 'breakpoints';
 
-@mixin until-phone {
+// less than 768px
+@mixin upto-phone {
     @media only screen and (max-width:($breakpoint-md - 1px)) {
         @content;
     }
 }
-@mixin phone {
+
+// less than 576px
+@mixin phone-small {
     @media only screen and (max-width:($breakpoint-sm - 1px)) {
         @content;
     }
 }
-@mixin phone-landscape {
+
+// from 576px to 768px
+@mixin phone-large {
     @media only screen and (min-width:$breakpoint-sm) and (max-width:$breakpoint-md) {
         @content;
     }
 }
 
-@mixin until-tablet {
-    @media only screen and (max-width:($breakpoint-xl - 1px)) {
+// less than 992px
+@mixin upto-tablet {
+    @media only screen and (max-width:($breakpoint-lg - 1px)) {
         @content;
     }
 }
-@mixin tablet {
+
+// from 786px to 991ox
+@mixin phone-to-tablet {
     @media only screen and (min-width:$breakpoint-md) and (max-width:($breakpoint-lg - 1px)) {
         @content;
     }
 }
-@mixin tablet-landscape {
+
+// from 992px to 1199px
+@mixin tablet-to-pc {
     @media only screen and (min-width:$breakpoint-lg) and (max-width:($breakpoint-xl - 1px)) {
         @content;
     }
 }
 
-@mixin until-normal {
+// less than 1199px
+@mixin upto-pc {
+    @media only screen and (max-width:($breakpoint-xl - 1px)) {
+        @content;
+    }
+}
+// less than 1399px
+@mixin pc-normal {
     @media only screen and (max-width:($breakpoint-xxl - 1px)) {
         @content;
     }
 }
-@mixin normal {
+
+// from 1200px to 1399px
+@mixin only-pc {
     @media only screen and (min-width:$breakpoint-xl) and (max-width:($breakpoint-xxl - 1px)) {
         @content;
     }
 }
-@mixin above-normal {
+
+// higher than 1200px
+@mixin from-pc {
     @media only screen and (min-width:$breakpoint-xl) {
         @content;
     }
 }
+
+// higher than 1400px
 @mixin widescreen {
     @media only screen and (min-width:$breakpoint-xxl) {
         @content;

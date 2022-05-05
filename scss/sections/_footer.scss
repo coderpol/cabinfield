@@ -107,16 +107,49 @@
     }
 }
 
-@include until-normal{
+@include upto-tablet{
     .footer{
         .footer-area{
-            justify-content: flex-start;
+            max-width:500px;
+            margin:0 auto;
+            align-items: normal;
             flex-wrap: wrap;
-            align-items: flex-start;
-            flex-direction: column;
-            align-content: flex-start;
+            .footer-logo{
+                flex-basis:100%;
+                text-align:center;
+            }
+            .footer-social, .footer-rating, .footer-links{
+                flex-basis:35%;
+                margin:$m-20 auto;
+                text-align:center;
+            }
+            .footer-social{
+                flex-basis:45%;
+            }
+            .footer-rating{
+                text-align:right;
+                img{
+                    max-width:100px;
+                }
+            }
+        }
+    }
+}
+
+@include phone-small{
+    .footer{
+        .footer-area{
+            .footer-logo, .footer-social, .footer-rating, .footer-links{
+                flex-basis:100%;
+                text-align:left;
+            }
             .footer-social, .footer-rating, .footer-links{
                 margin-top:$m-40;
+            }
+            .footer-social{
+                .social-icons{
+                    max-width: 200px;
+                }
             }
             .footer-links{
                 ul{
