@@ -10,6 +10,8 @@
             color:$white;
             font-size: $font-16;
             line-height: $font-20;
+            padding-right: 30px;
+            position:relative;
             a{
                 color:$white;
             }
@@ -18,12 +20,23 @@
                 margin:0 10px;
                 font-size:$font-18;
                 font-family: $font-dm;
+                position: absolute;
+                display: block;
+                top:1px;
+                right: 0;
             }
             &:last-child{
                 &:after{
                     content:none;
                 }
             }
+            &.active{
+                color:$primary-color !important;
+            }
+        }
+        &.dark{
+            li{color:$blue-dark;}
+            a{color:$blue-dark;}
         }
     }
     &+.banner-text{

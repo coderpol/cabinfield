@@ -1,4 +1,4 @@
-<div class="header-banner clearfix" style="background-image: url('images/header-banner/fine-furniture.png');">
+<div class="header-banner clearfix mb-5" style="background-image: url('images/header-banner/fine-furniture.png');">
     <div class="blue-gradient">
         <div class="container">
             <div class="row">

@@ -9,6 +9,13 @@
     .blue-gradient{
         @include gradient(rgba(98, 117, 144,1), rgba(98, 117, 144,0),linear);
     }
+    .breadcrumb{
+        li{
+            &.active{
+                color:$white;
+            }
+        }
+    }
     
     .banner-text{
         color:$white;

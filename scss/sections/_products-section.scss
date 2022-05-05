@@ -1,0 +1,43 @@
+.products-section{
+    margin-bottom:$m-50;
+    .products-area{
+        &.type-a{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: stretch;
+            align-content: space-around;
+            .product{
+                flex-basis:48%;
+                margin-bottom:$m-50;
+                img{
+                    margin-bottom:$m-25;
+                }
+                h3,h4{
+                    font-size:$font-24;
+                    line-height:$m-30;
+                    font-weight: $font-bold;
+                    margin-bottom:$m-5;
+                }
+                p{
+                    font-size:$font-16;
+                    line-height:$m-25;
+                    color:$text-primary-color;
+                }
+            }
+        }
+    }
+}
+
+@include until-tablet{
+    .products-section{
+        .products-area{
+            &.type-a{
+                .product{
+                    flex-basis:100%;
+                }
+            }
+        }
+    }
+}

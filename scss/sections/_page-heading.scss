@@ -1,0 +1,48 @@
+.page-heading-section{
+    .page-headline{
+        .section-title{
+            h2,h3,h4{
+                font-size:$font-36;
+            }
+        }
+        .button-area{
+            text-align:right;
+            .btn{
+                box-shadow: 0 $m-10 $m-15 $m-5 rgba($black,0.1);
+            }
+        }
+    }
+    .heading-text{
+        margin-top:$m-60;
+        margin-bottom:$m-30;
+        .head{
+            font-size:$font-24;
+            line-height:$m-30;
+            font-weight: $font-bold;
+            color:$gray-dark;
+        }
+        p{
+            color:$text-primary-color;
+            font-size:$font-16;
+            line-height:$m-25;
+        }
+    }
+}
+
+.breadcrum-section{
+    &+.page-heading-section{
+        margin-top:$m-30;
+    }
+}
+
+
+@include until-tablet{
+    .page-heading-section{
+        .page-headline{
+            .button-area{
+                text-align:center;
+                margin-top:$m-20;
+            }
+        }
+    }
+}

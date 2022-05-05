@@ -150,6 +150,7 @@
                 &>a{
                     padding:$m-10 $m-30;
                 }
+                
             }
         }
     }
@@ -212,6 +213,25 @@
                     margin-bottom: 5px;
                     border: 1px solid $blue;
                     width:100%;
+                    position:relative;
+                    &.dropdown{
+                        &:after{
+                            content: ">";
+                            position: absolute;
+                            right: 12px;
+                            font-size: 18px;
+                            top: 14px;
+                            display: inline-block;
+                            height: 16px;
+                            width: 10px;
+                            transform: rotate(90deg);
+                        }
+                        &.show{
+                            &:after{
+                                color:$primary-color;
+                            }
+                        }
+                    }
                 }
             }
         }

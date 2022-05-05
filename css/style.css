@@ -210,6 +210,10 @@ body {
   background: #fff;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-size: 1em;
+}
+
 :root {
   --animate-duration: 1s;
   --animate-delay: 1s;
@@ -341,6 +345,9 @@ body {
 .cabincon.home-white {
   background: url("../icons/lucide/home-white.svg");
 }
+.cabincon.home-blue {
+  background: url("../icons/lucide/home-blue.svg");
+}
 .cabincon.shopping-cart-blue {
   background: url("../icons/lucide/shopping-cart-blue.svg");
 }
@@ -450,6 +457,8 @@ body {
   color: #fff;
   font-size: 1.14285em;
   line-height: 1.42857em;
+  padding-right: 30px;
+  position: relative;
 }
 .breadcrumb-area .breadcrumb li a {
   color: #fff;
@@ -459,9 +468,22 @@ body {
   margin: 0 10px;
   font-size: 1.28571em;
   font-family: "DM Sans", sans-serif;
+  position: absolute;
+  display: block;
+  top: 1px;
+  right: 0;
 }
 .breadcrumb-area .breadcrumb li:last-child:after {
   content: none;
+}
+.breadcrumb-area .breadcrumb li.active {
+  color: #B3522C !important;
+}
+.breadcrumb-area .breadcrumb.dark li {
+  color: #3F4B5C;
+}
+.breadcrumb-area .breadcrumb.dark a {
+  color: #3F4B5C;
 }
 .breadcrumb-area + .banner-text {
   margin-top: 5vw !important;
@@ -913,6 +935,22 @@ body {
     margin-bottom: 5px;
     border: 1px solid #627590;
     width: 100%;
+    position: relative;
+  }
+  .navigation-area .navbar .navbar-nav .nav-item.dropdown:after {
+    content: ">";
+    position: absolute;
+    right: 12px;
+    font-size: 18px;
+    top: 14px;
+    display: inline-block;
+    height: 16px;
+    width: 10px;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  .navigation-area .navbar .navbar-nav .nav-item.dropdown.show:after {
+    color: #B3522C;
   }
 }
 .header-banner {
@@ -929,6 +967,9 @@ body {
   background: #627590;
   background: -webkit-gradient(linear, left top, right top, from(#627590), to(rgba(98, 117, 144, 0)));
   background: linear-gradient(90deg, #627590 0%, rgba(98, 117, 144, 0) 100%);
+}
+.header-banner .breadcrumb li.active {
+  color: #fff;
 }
 .header-banner .banner-text {
   color: #fff;
@@ -1584,5 +1625,89 @@ body {
   }
   .footer .footer-area .footer-links ul {
     padding-left: 0;
+  }
+}
+.page-heading-section .page-headline .section-title h2, .page-heading-section .page-headline .section-title h3, .page-heading-section .page-headline .section-title h4 {
+  font-size: 2.57142em;
+}
+.page-heading-section .page-headline .button-area {
+  text-align: right;
+}
+.page-heading-section .page-headline .button-area .btn {
+  -webkit-box-shadow: 0 10px 15px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 10px 15px 5px rgba(0, 0, 0, 0.1);
+}
+.page-heading-section .heading-text {
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+.page-heading-section .heading-text .head {
+  font-size: 1.71424em;
+  line-height: 30px;
+  font-weight: 700;
+  color: #121212;
+}
+.page-heading-section .heading-text p {
+  color: #514646;
+  font-size: 1.14285em;
+  line-height: 25px;
+}
+
+.breadcrum-section + .page-heading-section {
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 1199px) {
+  .page-heading-section .page-headline .button-area {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+.products-section {
+  margin-bottom: 50px;
+}
+.products-section .products-area.type-a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
+}
+.products-section .products-area.type-a .product {
+  -ms-flex-preferred-size: 48%;
+      flex-basis: 48%;
+  margin-bottom: 50px;
+}
+.products-section .products-area.type-a .product img {
+  margin-bottom: 25px;
+}
+.products-section .products-area.type-a .product h3, .products-section .products-area.type-a .product h4 {
+  font-size: 1.71424em;
+  line-height: 30px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.products-section .products-area.type-a .product p {
+  font-size: 1.14285em;
+  line-height: 25px;
+  color: #514646;
+}
+
+@media only screen and (max-width: 1199px) {
+  .products-section .products-area.type-a .product {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
   }
 }
