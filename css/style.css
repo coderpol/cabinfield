@@ -477,13 +477,16 @@ h1, h2, h3, h4, h5, h6 {
   content: none;
 }
 .breadcrumb-area .breadcrumb li.active {
-  color: #B3522C !important;
+  color: #fff !important;
 }
 .breadcrumb-area .breadcrumb.dark li {
   color: #3F4B5C;
 }
 .breadcrumb-area .breadcrumb.dark a {
   color: #3F4B5C;
+}
+.breadcrumb-area .breadcrumb.dark li.active {
+  color: #B3522C !important;
 }
 .breadcrumb-area + .banner-text {
   margin-top: 5vw !important;
