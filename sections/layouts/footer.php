@@ -1,7 +1,7 @@
 <footer class="footer clearfix">
   <div class="container">
     <div class="row">
-		<div class="footer-area">
+		<div class="col-md-12 footer-area">
 			<div class="footer-logo">
 				<img src="images/logo-small.svg" alt="Cabinfield">
 				<p class="copyright">
@@ -16,7 +16,7 @@
 					<li><a href="#" class="pinterest">Pinterest</a></li>
 					<li><a href="#" class="instagram">Instagram</a></li>
 				</ul>
-				<p class="newsletter"><i class="cabincon mail-blue size-24"></i> <a href="#">Subscribe for Newsletter</a></p>
+				<p class="newsletter"><a href="#"><i class="mail-blue"></i> Subscribe for Newsletter</a></p>
 			</div>
 			<div class="footer-rating">
 				<img src="images/bbb-rating.png" alt="">

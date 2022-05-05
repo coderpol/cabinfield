@@ -3,13 +3,14 @@ $icons :
     'mail-white',
     'mail-blue',
     'search-gray',
-    'shopping-cart-blue';
+    'shopping-cart-blue',
+    'shopping-cart-white';
 
 $icon-sizes: 15,20,22,24;
 
 .cabincon{
     display: inline-block;
-
+    font-style: normal;
     @each $icon in $icons{
         &.#{$icon}{
             background: url('../icons/lucide/#{$icon}.svg');

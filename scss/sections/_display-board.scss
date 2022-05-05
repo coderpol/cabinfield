@@ -2,26 +2,21 @@
     .display-area{
         margin:$m-30 0 $m-50;
         .display{
-            display: flex;
-            flex-wrap: wrap;
-            align-content: stretch;
-            align-items: center;
-            justify-content: space-between;
             &+.display{
                 margin-top:2 * $m-75;
             }
             .display-image{
-                // margin-right:5%;
-                // width:49%;
-                // float:left;
-                flex-basis: 49%;
+                width: 49%;
+                float:left;
                 img{
                     border-radius:$m-10;
                 }
             }
             .display-text{
-                flex-basis: 51%;
+                width: 51%;
+                float:right;
                 padding-left:6%;
+                padding-top: 6vw;
                 .section-title{
                     text-align:left;
                 }
@@ -40,6 +35,10 @@
                 .display-text{
                     padding-right:6%;
                     padding-left:0;
+                    float:left;
+                }
+                .display-image{
+                    float:right;
                 }
             }
            
@@ -47,3 +46,31 @@
     }
 }
 
+@include until-normal{
+    .display-board{
+        .display-area{
+            .display{
+                display:block;
+                .display-text{
+                    padding-left:20px;
+                    margin-top:20px;
+                    float:none;
+                    width:100%;
+                }
+                .display-image{
+                    width:100%;
+                    float:none;
+                }
+                &:nth-child(2n+2){
+                    .display-text{
+                        padding-left:20px;
+                        margin-top:20px;
+                    }
+                }
+                &+.display{
+                    margin-top:$m-50;
+                }
+            }
+        }
+    }
+}

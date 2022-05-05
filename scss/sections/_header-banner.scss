@@ -29,3 +29,17 @@
         }
     }
 }
+
+
+@include until-normal{
+    .header-banner{
+        .banner-text{
+            .tagline{
+                font-size:$font-20;
+            }
+            .heading{
+                font-size:$font-30;
+            }
+        }
+    }
+}

@@ -9,12 +9,26 @@
             background: url('../images/bg/jumbo.svg') no-repeat;
             background-size: cover;
             color:$white;
+            .btn{
+                box-shadow: 0px 0px 17px rgb(0 0 0 / 20%);
+            }
         }
         h4{
             font-size:$font-30;
             line-height:$m-40;
             margin-bottom:$m-40;
             font-weight: $font-bold;
+        }
+    }
+}
+
+@include until-normal{
+    .cta-banner{
+        .home-cta{
+            width:90%;
+            margin-left:auto;
+            margin-right:auto;
+            padding:$m-50 $m-20;
         }
     }
 }

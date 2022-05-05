@@ -1,22 +1,25 @@
 <div class="display-board clearfix">
     <div class="container">
         <div class="row">
-            <div class="display-area">
+            <div class="col-md-12 display-area">
                 <div class="display clearfix">
-                    <div class="display-image">
+                    <div class="col-md-6 col-12 display-image">
                         <img src="images/display/fine-furniture.png" alt="">
                     </div>
-                    <article class="display-text">
+                    <article class="col-md-6 col-12 display-text">
                         <header class="section-title">
                             <h3><span>Fine</span> Furniture</h3>
                         </header>
-                        <p>Discover heirloom quality Fine Furniture and more in Amish bedroom furniture collections featuring superior construction in styles such as Mission, Contemporary, Traditional and more! Solid wood living room furniture and kitchen and dining room pieces offer eye catching leather and fabric upholsteries, handsome hardware selections and a wealth of other impressive standard features and options! Also delight in hardwood office furniture offering authentic, solid wood construction; enticing home accents; must have occasional tables and exquisitely crafted entertainment centers for the finest in American made Amish furniture online to enhance every room of the home – and built for a lifetime of use!</p>
+                        <p>Design an artisanal backdrop for your unique lifestyle. Our Amish craftsmen are skilled in handcrafting a variety of contemporary, traditional, and Mission style furniture, made in the USA. Follow your heart to the home of your dreams.</p>
                         
                         <a href="#" class="btn btn-primary btn-large">Shop Now</a>
                     </article>
                 </div>
                 <div class="display clearfix">
-                <article class="display-text">
+                    <div class="col-md-6 col-12 display-image">
+                        <img src="images/display/fine-furniture.png" alt="">
+                    </div>
+                    <article class="col-md-6 col-12 display-text">
                         <header class="section-title">
                             <h3><span>Rustics</span>  & Live Edge</h3>
                         </header>
@@ -24,16 +27,12 @@
                         
                         <a href="#" class="btn btn-primary btn-large">Shop Now</a>
                     </article>
-                    <div class="display-image">
-                        <img src="images/display/fine-furniture.png" alt="">
-                    </div>
-                    
                 </div>
                 <div class="display clearfix">
-                    <div class="display-image">
+                    <div class="col-md-6 col-12 display-image">
                         <img src="images/display/outdoor.png" alt="">
                     </div>
-                    <article class="display-text">
+                    <article class="col-md-6 col-12 display-text">
                         <header class="section-title">
                             <h3><span>Outdoor</span>  Living</h3>
                         </header>

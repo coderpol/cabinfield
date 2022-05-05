@@ -2,6 +2,12 @@
     background: $blue;
     color:$white;
     height:$m-40;
+    .toogle-button-area{
+        display:none;
+    }
+    .navbar{
+        padding:0;
+    }
     li{
         display: inline-flex;
         flex-direction: row;
@@ -17,7 +23,7 @@
     }
     .topbar-nav{
         .top-nav{
-            width:60%;
+            // width:60%;
             float:left;
             li{
                 margin-right: $m-10;
@@ -27,10 +33,11 @@
             }
         }
         .contact-details{
-            width:40%;
+            // width:40%;
             float:left;
             text-align: right;
             padding: $m-10;
+            padding-top:$m-15;
             li{
                 i{
                     float:left;
@@ -47,8 +54,58 @@
     }
 }
 
-@include until-tablet{
+@include until-normal{
     .topbar-area{
-        display:none;    
+        // display:none;  
+        height:auto;
+        .navbar{
+            padding:5px;
+        }
+        .toogle-button-area{
+            display:block;
+            text-align:left;
+            width:100%;
+            margin-left:10px;
+            .navbar-toggler{
+                padding:5px;
+                border-color:$white;
+                color:$white;
+            }
+            .navbar-toggler-icon{
+                background-size: 20px !important;
+                width:20px;
+                height:15px;
+            }
+        }
+        .topbar-nav{
+            .top-nav{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: flex-start;
+                align-content: center;
+                float:none;
+                width:100%;
+                margin-top:10px;
+                padding:5px 0;
+                border-top:$thin solid $gray-border;
+                border-bottom:$thin solid $gray-border;
+                li{
+                    border: 1px solid #dedede;
+                    margin-bottom: 5px; 
+                    a{
+                        &:hover{
+                            background-color: $primary-color;
+                            text-decoration:none;
+                        }
+                    }
+                }
+            }
+            .contact-details{
+                float: none;
+                width: 100%;
+                text-align: center;
+                margin-top: 10px;
+            }
+        }  
     }
 }

@@ -2,7 +2,7 @@
 @import 'base/variables';
 @import 'base/mixin';
 @import 'base/fonts';
-@import 'base/reset';
+// @import 'base/reset';
 @import 'base/preset';
 @import 'base/animation';
 @import 'base/layouts';
@@ -17,7 +17,7 @@
 
 // section scss
 @import 'sections/topbar';
-@import 'sections/header';
+@import 'sections/header-area';
 @import 'sections/navigation';
 @import 'sections/header-banner';
 @import 'sections/choice-points';

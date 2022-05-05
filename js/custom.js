@@ -9,7 +9,7 @@ $('body').on( 'click', '#main_nav_trigger', function () {
 $('#testimonial-slider').slick({
   centerMode: true,
   dots: true,
-  centerPadding: '200px',
+  centerPadding: '0px',
   slidesToShow: 1,
   responsive: [
     {
@@ -17,7 +17,7 @@ $('#testimonial-slider').slick({
       settings: {
         arrows: false,
         centerMode: true,
-        centerPadding: '30px',
+        centerPadding: '20px',
         slidesToShow: 1
       }
     },

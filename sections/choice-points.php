@@ -1,11 +1,11 @@
 <div class="choice-points clearfix">
     <div class="container">
         <div class="row">
-            <header class="section-title">
+            <header class="col-md-12 section-title">
                 <h2><span>Cabinfield</span> Your natural choice</h2>
             </header>
             
-            <div class="points-area">
+            <div class="col-md-12 points-area">
                 <div class="point">
                     <div class="icon">
                         <i class="extensive-collection"></i>
@@ -50,7 +50,7 @@
                 </div>
             </div>
             
-            <div class="action-area">
+            <div class="col-md-12 text-center action-area">
                 <a href="#" class="btn btn-primary btn-large">Learn more about us</a>
             </div>
         </div>

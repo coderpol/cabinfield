@@ -77,3 +77,21 @@
         }
     }
 }
+
+
+@include until-normal{
+    .choice-points{
+        .points-area{
+            display:block;
+            .point{
+                text-align: center;
+                .icon{
+                    margin:0 auto 30px;
+                }
+                &+.point{
+                    margin-top:$m-40;
+                }
+            }
+        }
+    }
+}

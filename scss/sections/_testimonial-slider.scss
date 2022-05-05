@@ -66,3 +66,21 @@
         }
     }
 }
+
+@include until-normal{
+    .testimonial-area{
+        .testimonial-slider{
+            padding: 20px;
+            .slide{
+                display: block;
+                .quotation{
+                    width:100%;
+                }
+                .image{
+                    width:100%;
+                    margin-top:20px;
+                }
+            }
+        }
+    }
+}

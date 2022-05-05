@@ -1,11 +1,11 @@
 <div class="testimonial-area clearfix">
     <div class="row">
         <div class="container">
-            <div class="section-title">
+            <div class="col-md-12 section-title">
                 <h3><span>Our Customers</span> Say it Best.</h3>
             </div>
         </div>
-        <div class="testimonial-slider" id="testimonial-slider">
+        <div class="container testimonial-slider" id="testimonial-slider">
             <div class="slide">
                 <div class="quotation">
                     <blockquote>
