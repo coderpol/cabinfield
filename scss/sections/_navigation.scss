@@ -21,7 +21,7 @@
             position:relative;
             display:block;
             &>a{
-                color:$blue-dark;
+                color:$blue-dark !important;
                 font-weight: $font-medium;
                 display:inline-block;
                 padding:$m-10 $m-30;
@@ -31,7 +31,7 @@
                 letter-spacing: 2.5px;
                 &:hover{
                     text-decoration: none;
-                    color:$primary-color;
+                    color:$primary-color !important;
                 }
                 
                 &:before{
