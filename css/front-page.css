@@ -426,7 +426,7 @@ h1, h2, h3, h4, h5, h6 {
   content: "(On Develop)";
 }
 .font-page .container .content .page-list li.working:after, .font-page .container .content .page-list li.working a {
-  color: #8e0101;
+  color: #2b47b9;
 }
 .font-page .container .content .page-list li.review:after {
   content: "(On Review)";
