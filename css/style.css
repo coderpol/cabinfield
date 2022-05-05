@@ -848,7 +848,7 @@ body {
   grid-row-gap: 30px;
 }
 .navigation-area .main-nav > li:hover > a {
-  color: #B3522C;
+  color: #B3522C !important;
 }
 .navigation-area .main-nav > li:hover > a:after {
   display: block;

@@ -136,7 +136,7 @@
             }
             &:hover{
                 &>a{
-                    color:$primary-color;
+                    color:$primary-color !important;
                     &:after{
                         display: block;
                     }
