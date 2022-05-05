@@ -20,6 +20,8 @@
                     <li class="review"><a href="fine-furniture.php">Fine Furniture</a></li>
                     <li class="review"><a href="style-landing.php">Style Landing</a></li>
                     <li class="review"><a href="collection-landing.php">Collection Landing</a></li>
+                    <li class="review"><a href="order-confirmation.php">Order Confirmation</a></li>
+                    <li class="review"><a href="fabric-sample.php">Fabric Sample</a></li>
                 </ol>
             </div>
         </div>

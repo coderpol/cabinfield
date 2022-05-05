@@ -5,18 +5,20 @@
         margin:$m-30 0 $m-50;
         .display{
             margin-bottom:2 * $m-75;
+            width:100%;
             &:last-child{
                 margin-bottom:$m-55;
             }
             .display-image{
-                width: 49%;
+                // width: 49%;
+                padding-left:0;
                 float:left;
                 img{
                     border-radius:$m-10;
                 }
             }
             .display-text{
-                width: 51%;
+                // width: 51%;
                 float:right;
                 padding-left:6%;
                 padding-top: 6vw;
@@ -42,6 +44,8 @@
                 }
                 .display-image{
                     float:right;
+                    padding-right:0;
+                    padding-left:15px;
                 }
             }
            
@@ -72,8 +76,12 @@
                 }
                 &+.display{
                     margin-top:$m-50;
+                    @include upto-phone{
+                        margin-top:0;
+                    }
                 }
             }
         }
     }
 }
+

@@ -1,0 +1,40 @@
+.popular-fabric-area{
+    margin:$m-100 0;
+    .section-title{
+        margin-bottom:$m-40;
+    }
+    .sample-area{
+        .sample{
+            flex-basis:23%;
+            border-radius:$m-20;
+            border:1px solid $gray-4;
+            padding:0;
+            margin:1%;
+            
+            @include upto-phone{
+                flex-basis:44%;
+                margin:3%;
+            }
+            @include phone-small{
+                flex-basis:94%;
+                margin:3%;
+            }
+            .text{
+                padding:$m-15;
+                h4{
+                    font-size:$font-20;
+                    line-height:$line-26;
+                    font-weight: $font-bold;
+                    margin-bottom:$m-10;
+                    margin-top:$m-15;
+                }
+                p{
+                    font-size:$font-16;
+                    line-height:$m-25;
+                    font-weight: $font-bold; 
+                    font-weight: $font-normal;
+                }
+            }
+        }
+    }
+}

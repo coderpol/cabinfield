@@ -13,3 +13,11 @@
     }
 }
 
+.section-sub-title{
+    h2,h3,h4{
+        font-weight: $font-bold;
+        font-size:$font-24;
+        line-height:$line-31;
+        color:$text-dark-color;
+    }
+}

@@ -34,6 +34,26 @@
                 color:$white !important;
             }
         }
+        &.reverse{
+            li{
+                padding-left:30px;
+                padding-right:0;
+               &:after{
+                   content:"<";
+                   margin:0 10px;
+                    font-size:$font-18;
+                    font-family: $font-dm;
+                    position: absolute;
+                    display: block;
+                    top:1px;
+                    left: 0;
+                    width:20px;
+               } 
+               a{
+                   color:$primary-color;
+               }
+            }
+        }
         &.dark{
             li{color:$blue-dark;}
             a{color:$blue-dark;}
@@ -43,6 +63,7 @@
                 }
             }
         }
+        
     }
     &+.banner-text{
         margin-top:5vw !important;
