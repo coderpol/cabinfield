@@ -8,7 +8,7 @@
             </div>
             <nav class="col-md-12 collapse navbar-collapse topbar-nav mb-0" id="topbar_nav">
                 <ul class="col-md-8 mb-0 clearfix top-nav">
-                    <li><a href="#">About Us</a></li>
+                    <li><a href="about.php">About Us</a></li>
                     <li><a href="#">Testimonials</a></li>
                     <li><a href="#">FAQs</a></li>
                     <li><a href="#">Contact</a></li>

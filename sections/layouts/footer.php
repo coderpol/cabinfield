@@ -3,7 +3,9 @@
     <div class="row">
 		<div class="col-md-12 footer-area">
 			<div class="footer-logo">
-				<img src="images/logo-small.svg" alt="Cabinfield">
+				<a href="home.php">
+					<img src="images/logo-small.svg" alt="Cabinfield">
+				</a>
 				<p class="copyright">
 				Copyright &copy; 2005-2018<br/>
 				Cabinfield Woodworking LLC.<br/>
@@ -23,7 +25,7 @@
 			</div>
 			<div class="footer-links small">
 				<ul class="links">
-					<li><a href="#">About Us</a></li>
+					<li><a href="about.php">About Us</a></li>
 					<li><a href="#">Testimonials</a></li>
 					<li><a href="#">Contact Us</a></li>
 					<li><a href="#">FAQ</a></li>
