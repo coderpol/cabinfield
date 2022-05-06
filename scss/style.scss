@@ -9,6 +9,7 @@
 
 // components scss
 @import "components/typography";
+@import "components/backgrounds";
 @import "components/icons";
 @import "components/buttons";
 @import "components/modal";
@@ -25,7 +26,7 @@
 @import 'sections/display-board';
 @import 'sections/testimonial-slider';
 @import 'plugins/slick';
-@import 'sections/home-cta-banner';
+@import 'sections/cta-banner';
 @import 'sections/footer';
 @import 'sections/page-heading';
 @import 'sections/products-section';

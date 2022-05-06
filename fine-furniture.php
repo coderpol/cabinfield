@@ -30,9 +30,9 @@ include_once('sections/layouts/header.php')
         <div class="row">
             <div class="col-md-12 display-area">
                 <div class="display clearfix">
-                    <div class="col-md-6 col-12 display-image">
+                    <figure class="col-md-6 col-12 display-image">
                         <img src="images/display/bedrooms.png" alt="">
-                    </div>
+                    </figure>
                     <article class="col-md-6 col-12 display-text">
                         <header class="section-title">
                             <h3>Bedrooms</h3>
@@ -43,9 +43,9 @@ include_once('sections/layouts/header.php')
                     </article>
                 </div>
                 <div class="display clearfix">
-                    <div class="col-md-6 col-12 display-image">
+                    <figure class="col-md-6 col-12 display-image">
                         <img src="images/display/living-rooms.png" alt="">
-                    </div>
+                    </figure>
                     <article class="col-md-6 col-12 display-text">
                         <header class="section-title">
                             <h3>Living Room & Entertainment</h3>
@@ -56,9 +56,9 @@ include_once('sections/layouts/header.php')
                     </article>
                 </div>
                 <div class="display clearfix">
-                    <div class="col-md-6 col-12 display-image">
+                    <figure class="col-md-6 col-12 display-image">
                         <img src="images/display/dining.png" alt="">
-                    </div>
+                    </figure>
                     <article class="col-md-6 col-12 display-text">
                         <header class="section-title">
                             <h3>Kitchen & Dining Room</h3>
@@ -69,9 +69,9 @@ include_once('sections/layouts/header.php')
                     </article>
                 </div>
                 <div class="display clearfix">
-                    <div class="col-md-6 col-12 display-image">
+                    <figure class="col-md-6 col-12 display-image">
                         <img src="images/display/office.png" alt="">
-                    </div>
+                    </figure>
                     <article class="col-md-6 col-12 display-text">
                         <header class="section-title">
                             <h3>Office</h3>

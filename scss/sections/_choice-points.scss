@@ -45,8 +45,7 @@
                         'affordable-elegance',
                         'custom-options',
                         'trusted-source',
-                        'stellar-service'
-                        ;
+                        'stellar-service';
                     
                     @each $icon in $icons{
                         &.#{$icon}{
@@ -75,6 +74,105 @@
         margin-top:$m-100;
         .btn{
             font-weight: $font-bold;
+        }
+    }
+    
+    &.smaller{
+        .points-area{
+            .point{
+                .icon{
+                    i{
+                        width: 22px;
+                        height: 22px;
+                        background-size: 22px !important;
+                        background-position: center center !important;
+                        background-repeat: no-repeat !important;
+                        $icons_snall : 
+                        'empty-wallet', 
+                        'bag',
+                        'format-square',
+                        'layer',
+                        'quote-down',
+                        'search-status';
+                    
+                        @each $icon in $icons_snall{
+                            &.#{$icon}{
+                                background: url('../images/points/small/#{$icon}.svg');
+                                
+                            }
+                        }
+                    }
+                }
+                h3{
+                    @include font($font-24,$m-35,$font-medium);
+                }
+            }
+        }
+    }
+    &.with-counter{
+        .points-area{
+            @include upto-phone{
+                grid-column-gap: 40px;
+            }
+            .point{
+                position: relative;
+                @include upto-phone{
+                    text-align:center;
+                    &+.point{
+                        margin-top:$m-80;
+                    }
+                }
+                &:before{
+                    content:"";
+                    display: block;
+                    height:$m-50;
+                    width:$m-80;
+                    position:absolute;
+                    background:url('../images/number-sprite.png') no-repeat;
+                    background-position:0 0;
+                    top: -15px;
+                    left: -74px;
+                    z-index:100;
+                    @include upto-phone{
+                        left:50%;
+                        margin-left:-107px;
+                    }
+                }
+                .icon{
+                    position:relative;
+                    z-index:200;
+                    @include upto-phone{
+                        margin-left:auto;
+                        margin-right:auto;
+                        margin-bottom:$m-20;
+                    }
+                }
+                &:nth-child(2){
+                    &:before{
+                        background-position-y:-68px
+                    }
+                }
+                &:nth-child(3){
+                    &:before{
+                        background-position-y:-140px
+                    }
+                }
+                &:nth-child(4){
+                    &:before{
+                        background-position-y:-210px
+                    }
+                }
+                &:nth-child(5){
+                    &:before{
+                        background-position-y:-280px
+                    }
+                }
+                &:nth-child(6){
+                    &:before{
+                        background-position-y:-349px;
+                    }
+                }
+            }
         }
     }
 }

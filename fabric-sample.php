@@ -39,9 +39,9 @@ include_once('sections/layouts/header.php')
         </div>
         <div class="row display-area">
             <div class="display clearfix">
-                <div class="col-md-6 col-12 display-image">
+                <figure class="col-md-6 col-12 display-image">
                     <img src="images/fabric/fabric-1.png" alt="">
-                </div>
+                </figure>
                 <div class="col-md-6 col-12 display-text">
                     <div class="counter">
                         <span class="rounded-circle align-middle">1</span>
@@ -51,9 +51,9 @@ include_once('sections/layouts/header.php')
             </div>
             
             <div class="display clearfix">
-                <div class="col-md-6 col-12 display-image">
+                <figure class="col-md-6 col-12 display-image">
                     <img src="images/fabric/fabric-2.png" alt="">
-                </div>
+                </figure>
                 <div class="col-md-6 col-12 display-text">
                     <div class="counter">
                         <span class="rounded-circle align-middle">2</span>
@@ -63,9 +63,9 @@ include_once('sections/layouts/header.php')
             </div>
             
             <div class="display clearfix">
-                <div class="col-md-6 col-12 display-image">
+                <figure class="col-md-6 col-12 display-image">
                     <img src="images/fabric/fabric-3.png" alt="">
-                </div>
+                </figure>
                 <div class="col-md-6 col-12 display-text">
                     <div class="counter">
                         <span class="rounded-circle align-middle">3</span>
@@ -75,9 +75,9 @@ include_once('sections/layouts/header.php')
             </div>
             
             <div class="display clearfix">
-                <div class="col-md-6 col-12 display-image">
+                <figure class="col-md-6 col-12 display-image">
                     <img src="images/fabric/fabric-4.png" alt="">
-                </div>
+                </figure>
                 <div class="col-md-6 col-12 display-text">
                     <div class="counter">
                         <span class="rounded-circle align-middle">4</span>
@@ -87,9 +87,9 @@ include_once('sections/layouts/header.php')
             </div>
             
             <div class="display clearfix">
-                <div class="col-md-6 col-12 display-image">
+                <figure class="col-md-6 col-12 display-image">
                     <img src="images/fabric/fabric-5.png" alt="">
-                </div>
+                </figure>
                 <div class="col-md-6 col-12 display-text">
                     <div class="counter">
                         <span class="rounded-circle align-middle">5</span>
@@ -99,9 +99,9 @@ include_once('sections/layouts/header.php')
             </div>
             
             <div class="display clearfix">
-                <div class="col-md-6 col-12 display-image">
+                <figure class="col-md-6 col-12 display-image">
                     <img src="images/fabric/fabric-6.png" alt="">
-                </div>
+                </figure>
                 <div class="col-md-6 col-12 display-text">
                     <div class="counter">
                         <span class="rounded-circle align-middle">6</span>

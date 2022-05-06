@@ -40,9 +40,9 @@ include_once('sections/layouts/header.php')
         </div>
         <div class="row display-area">
             <div class="display clearfix">
-                <div class="col-md-6 col-12 display-image">
+                <figure class="col-md-6 col-12 display-image">
                     <img src="images/wood/wood-1.png" alt="">
-                </div>
+                </figure>
                 <div class="col-md-6 col-12 display-text">
                     <div class="counter">
                         <span class="rounded-circle align-middle">1</span>
@@ -52,9 +52,9 @@ include_once('sections/layouts/header.php')
             </div>
             
             <div class="display clearfix">
-                <div class="col-md-6 col-12 display-image">
+                <figure class="col-md-6 col-12 display-image">
                     <img src="images/wood/wood-2.png" alt="">
-                </div>
+                </figure>
                 <div class="col-md-6 col-12 pt-5 display-text">
                     <div class="counter">
                         <span class="rounded-circle align-middle">2</span>
@@ -64,9 +64,9 @@ include_once('sections/layouts/header.php')
             </div>
             
             <div class="display clearfix">
-                <div class="col-md-6 col-12 display-image">
+                <figure class="col-md-6 col-12 display-image">
                     <img src="images/wood/wood-3.png" alt="">
-                </div>
+                </figure>
                 <div class="col-md-6 col-12 display-text">
                     <div class="counter">
                         <span class="rounded-circle align-middle">3</span>
@@ -76,9 +76,9 @@ include_once('sections/layouts/header.php')
             </div>
             
             <div class="display clearfix">
-                <div class="col-md-6 col-12 display-image">
+                <figure class="col-md-6 col-12 display-image">
                     <img src="images/wood/wood-4.png" alt="">
-                </div>
+                </figure>
                 <div class="col-md-6 col-12 display-text">
                     <div class="counter">
                         <span class="rounded-circle align-middle">4</span>
@@ -88,9 +88,9 @@ include_once('sections/layouts/header.php')
             </div>
             
             <div class="display clearfix">
-                <div class="col-md-6 col-12 display-image">
+                <figure class="col-md-6 col-12 display-image">
                     <img src="images/wood/wood-5.png" alt="">
-                </div>
+                </figure>
                 <div class="col-md-6 col-12 display-text">
                     <div class="counter">
                         <span class="rounded-circle align-middle">5</span>
@@ -100,9 +100,9 @@ include_once('sections/layouts/header.php')
             </div>
             
             <div class="display clearfix">
-                <div class="col-md-6 col-12 display-image">
+                <figure class="col-md-6 col-12 display-image">
                     <img src="images/wood/wood-6.png" alt="">
-                </div>
+                </figure>
                 <div class="col-md-6 col-12 display-text">
                     <div class="counter">
                         <span class="rounded-circle align-middle">6</span>

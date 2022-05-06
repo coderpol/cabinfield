@@ -17,7 +17,7 @@ $('#testimonial-slider').slick({
       settings: {
         arrows: false,
         centerMode: true,
-        centerPadding: '20px',
+        centerPadding: '0px',
         slidesToShow: 1
       }
     },
@@ -26,7 +26,7 @@ $('#testimonial-slider').slick({
       settings: {
         arrows: false,
         centerMode: true,
-        centerPadding: '20px',
+        centerPadding: '0px',
         slidesToShow: 1
       }
     }

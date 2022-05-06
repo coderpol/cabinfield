@@ -85,9 +85,9 @@ include_once('sections/layouts/header.php')
         <div class="row">
             <div class="col-md-12 display-area">
                 <div class="display clearfix">
-                    <div class="col-md-6 col-12 display-image">
+                    <figure class="col-md-6 col-12 display-image">
                         <img src="images/display/fine-furniture.png" alt="">
-                    </div>
+                    </figure>
                     <article class="col-md-6 col-12 display-text">
                         <header class="section-title">
                             <h3><span>Fine</span> Furniture</h3>
@@ -98,9 +98,9 @@ include_once('sections/layouts/header.php')
                     </article>
                 </div>
                 <div class="display clearfix">
-                    <div class="col-md-6 col-12 display-image">
+                    <figure class="col-md-6 col-12 display-image">
                         <img src="images/display/rustic-live-edge.png" alt="">
-                    </div>
+                    </figure>
                     <article class="col-md-6 col-12 display-text">
                         <header class="section-title">
                             <h3><span>Rustics</span>  & Live Edge</h3>
@@ -111,9 +111,9 @@ include_once('sections/layouts/header.php')
                     </article>
                 </div>
                 <div class="display clearfix">
-                    <div class="col-md-6 col-12 display-image">
+                    <figure class="col-md-6 col-12 display-image">
                         <img src="images/display/outdoor.png" alt="">
-                    </div>
+                    </figure>
                     <article class="col-md-6 col-12 display-text">
                         <header class="section-title">
                             <h3><span>Outdoor</span>  Living</h3>
@@ -128,7 +128,16 @@ include_once('sections/layouts/header.php')
     </div>
 </div>
 
-<?php include_once('sections/testimonial-slider.php') ?>
+<div class="testimonial-area clearfix">
+    <div class="row">
+        <div class="container">
+            <div class="col-md-12 section-title">
+                <h3><span>Our Customers</span> Say it Best.</h3>
+            </div>
+        </div>
+        <?php include_once('sections/testimonial-slider.php') ?>
+    </div>
+</div>
 
 
 

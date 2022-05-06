@@ -13,11 +13,22 @@
                 box-shadow: 0px 0px 17px rgb(0 0 0 / 20%);
             }
         }
+        h3{
+            @include font($font-44,140%,$font-bold);
+            margin-bottom:$m-30;
+        }
         h4{
-            font-size:$font-30;
-            line-height:$m-40;
+            @include font($font-30,$m-40,$font-bold);
             margin-bottom:$m-40;
-            font-weight: $font-bold;
+        }
+        p{
+            @include font($font-18,160%);
+            margin-bottom:$m-20;
+            font-weight: $font-normal;
+            a{
+                color:$white;
+                font-weight: $font-bold;
+            }
         }
     }
 }

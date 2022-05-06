@@ -14,6 +14,7 @@
                 // width: 49%;
                 padding-left:0;
                 float:left;
+                margin-bottom:0;
                 img{
                     border-radius:$m-10;
                 }
@@ -31,6 +32,7 @@
                     font-size:$font-18;
                     line-height:160%;
                     opacity:0.7;
+                    margin-bottom:2rem;
                 }
                 .btn{
                     margin-top:$m-30;
@@ -48,7 +50,7 @@
                     padding-right:0;
                     padding-left:15px;
                 }
-            }
+            }//dd
            
         }
     }
@@ -96,6 +98,16 @@
             }
         }
     }
+    
+    &.text-on-top{
+        .display-area{
+            .display{
+                .display-text{
+                    padding-top:0;
+                }
+            }
+        }
+    }
 }
 
 @include upto-pc{
@@ -103,6 +115,12 @@
         .display-area{
             .display{
                 display:block;
+                @include upto-phone{
+                    margin-bottom:$m-50;
+                    &:last-child{
+                        margin-bottom:0;
+                    }
+                }
                 .display-text{
                     padding-left:20px;
                     margin-top:20px;
@@ -134,6 +152,7 @@
                     margin-top:$m-50;
                     @include upto-phone{
                         margin-top:0;
+                        
                     }
                 }
             }

@@ -4,6 +4,7 @@
         padding:$m-20 0;
         margin-top:$m-50;
         margin-bottom:$m-40 !important;
+        
         .slide{
             display: grid;
             grid-template-columns: auto 265px;
@@ -13,6 +14,13 @@
             border-radius:$m-20;
             box-shadow: 0 0 $m-50 rgba($black,0.2);
             padding: $m-40 $m-50;
+            @include upto-phone{
+                box-shadow: inset 0 0 $m-10 rgba($black,0.1);
+                // box-shadow: none;
+                border:$thin solid rgba($black,0.1);
+                margin:0 !important;
+                padding:$m-50;
+            }
             .quotation{
                 &:before{
                     content:'';
@@ -71,8 +79,14 @@
     .testimonial-area{
         .testimonial-slider{
             padding: 20px;
+            @include upto-phone{
+                padding:0 !important;
+            }
             .slide{
                 display: block;
+                @include upto-phone{
+                    // margin:0 !important;
+                }
                 .quotation{
                     width:100%;
                 }
