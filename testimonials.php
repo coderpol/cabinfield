@@ -42,7 +42,7 @@ include_once('sections/layouts/header.php')
                 ?>
                 <div class="quotation">
                     <blockquote>
-                    Design the ideal backdrop for your unique lifestyle. Our Amish craftsmen are skilled in building a variety of styles, including Mission style furniture, contemporary, and traditional furniture, made in the USA. A blend of genuine comfort and artisanal design allows you to create the home of your dreams.
+                    I received my Squanto Bed and it is perfect in every way. The stain and style matched my other furniture beautifully and I can't say enough good things about the craftmanship of the furniture and the people that I dealt with from placing the order to delivery. Everyone was very helpful with questions I had and I believe went out of their way to accommodate my special 
                     </blockquote>
                     <p>
                         <span class="author verified">Samantha William</span>
