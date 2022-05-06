@@ -2,4 +2,18 @@
     border-bottom:$thin solid $border-gray-light;
     padding-bottom:$m-50;
     margin-bottom:$m-50;
+    &.border-only{
+        padding-bottom:$m-10;
+        margin-bottom:$m-10;
+    }
+}
+
+.billing-area{
+    @include upto-phone{
+        margin-top:$m-40;
+    }
+}
+
+.mb-100{
+    margin-bottom:$m-100 !important;
 }

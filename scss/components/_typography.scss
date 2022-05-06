@@ -28,6 +28,26 @@
     }
 }
 
+.heading-22{
+    h2,h3,h4{
+        @include font($font-22,$line-29,$font-medium);
+        color:$text-dark-color;
+        margin-bottom:$m-30;
+    }
+}
+.heading-18{
+    h2,h3,h4{
+        @include font($font-18,$line-23,$font-bold);
+        color:$text-dark-color;
+        margin-bottom:$m-15;
+    }
+}
+h4{
+    @include font($font-18,$line-23,$font-bold);
+    color:$text-dark-color;
+    margin-bottom:$m-15;
+}
+
 .blue{
     color:$blue;
 }

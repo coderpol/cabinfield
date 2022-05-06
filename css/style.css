@@ -151,7 +151,7 @@ img {
 input,
 select,
 textarea {
-  padding: 10px 50px;
+  padding: 10px 5px;
   border: 1px solid gray;
   font-size: 14px;
   margin-bottom: 10px;
@@ -347,6 +347,30 @@ a:hover {
   color: #121212;
 }
 
+.heading-22 h2, .heading-22 h3, .heading-22 h4 {
+  font-size: 22px;
+  line-height: 29px;
+  font-weight: 500;
+  color: #121212;
+  margin-bottom: 30px;
+}
+
+.heading-18 h2, .heading-18 h3, .heading-18 h4 {
+  font-size: 1.28571em;
+  line-height: 23px;
+  font-weight: 700;
+  color: #121212;
+  margin-bottom: 15px;
+}
+
+h4 {
+  font-size: 1.28571em;
+  line-height: 23px;
+  font-weight: 700;
+  color: #121212;
+  margin-bottom: 15px;
+}
+
 .blue {
   color: #627590;
 }
@@ -398,6 +422,9 @@ a:hover {
 }
 .cabincon.shopping-cart-white {
   background: url("../icons/lucide/shopping-cart-white.svg");
+}
+.cabincon.edit-white {
+  background: url("../icons/lucide/edit-white.svg");
 }
 .cabincon.size-15 {
   width: 15px;
@@ -489,6 +516,20 @@ a:hover {
   padding-bottom: 50px;
   margin-bottom: 50px;
 }
+.border-bottom.border-only {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+  .billing-area {
+    margin-top: 40px;
+  }
+}
+
+.mb-100 {
+  margin-bottom: 100px !important;
+}
 
 .breadcrumb-area {
   margin: 25px 0;
@@ -565,41 +606,30 @@ a:hover {
   margin-top: 5vw !important;
 }
 
-@media only screen and (max-width: 767px) {
-  .cabinform {
-    margin: 0;
-    padding: 0;
-  }
-}
 .cabinform .form-line {
   margin-bottom: 15px;
 }
-.cabinform .form-line label {
+.cabinform .form-line label, .cabinform .form-line .form-label {
   font-size: 1.14285em;
   line-height: 23px;
   font-weight: 500;
   margin-bottom: 10px;
   color: #000;
 }
-.cabinform .card {
-  border: 0;
+.cabinform .form-check-input[type=checkbox] {
+  width: 20px;
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
-.cabinform .card .card-title {
-  font-size: 1.42857em;
-  line-height: 26px;
-  font-weight: 700;
-  margin-bottom: 20px;
-  color: #121212;
+.cabinform .form-check-input[type=checkbox] + label {
+  line-height: 30px;
+  margin-bottom: 0;
+  color: #6A778A;
+  font-weight: 400;
 }
-.cabinform .card .card-body {
-  padding: 30px 25px;
-  -webkit-box-flex: 0;
-      -ms-flex: none;
-          flex: none;
-  border-radius: 15px;
-}
-.cabinform .card .card-body .list-group {
-  list-style-type: none;
+.cabinform .form-check-input[type=checkbox]:checked {
+  background-color: #B3522C;
+  border-color: #B3522C;
 }
 
 .summary-list {
@@ -651,6 +681,40 @@ a:hover {
 .specification-list li:first-child {
   margin: 10px 0;
   line-height: 29px;
+}
+
+.card {
+  border: 0;
+}
+.card.summary-card {
+  padding: 0 10px 30px;
+}
+@media only screen and (max-width: 767px) {
+  .card.summary-card {
+    padding-top: 30px;
+  }
+}
+.card.summary-card .card-title {
+  font-size: 1.42857em;
+  line-height: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #121212;
+}
+.card.summary-card .card-body {
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  padding: 30px 25px;
+  border-radius: 15px;
+}
+.card.summary-card .card-body .list-group {
+  list-style-type: none;
+}
+@media only screen and (max-width: 767px) {
+  .card.summary-card .card-body {
+    margin-bottom: 70px;
+  }
 }
 
 .topbar-area {
@@ -978,8 +1042,8 @@ a:hover {
   background: #fff;
   padding: 30px;
   border-radius: 10px;
-  -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.05);
-          box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 0 7px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 7px 10px rgba(0, 0, 0, 0.1);
   margin-top: 0;
   border: none;
   display: none;
@@ -2303,9 +2367,17 @@ a:hover {
   font-size: 1.14285em;
   line-height: 25px;
   font-weight: 400;
+  color: #514646;
 }
 .page-content p .primary {
   color: #B3522C;
+}
+.page-content p a {
+  text-decoration: underline;
+}
+.page-content p a:hover {
+  color: #B3522C;
+  text-decoration: none;
 }
 .page-content .article {
   margin-bottom: 80px;
@@ -2361,6 +2433,20 @@ a:hover {
   .page-content .article .rounded-samples li img {
     display: block;
     margin: 0 auto;
+  }
+}
+.page-content .edit-icon {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  padding: 10px;
+}
+.page-content .review-item {
+  margin-bottom: 40px;
+}
+@media only screen and (min-width: 1200px) {
+  .page-content .review-item {
+    padding-right: 15%;
   }
 }
 

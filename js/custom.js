@@ -1,10 +1,5 @@
-$('body').on( 'click', '#main_nav_trigger', function () {
-        
-  $('#main_nav').toggleClass('active');
-  
-  $(this).toggleClass('selected').toggleClass('active');
-  
-});
+// testimonial slider
+// slick slider
 
 $('#testimonial-slider').slick({
   centerMode: true,
@@ -31,4 +26,9 @@ $('#testimonial-slider').slick({
       }
     }
   ]
+});
+
+// for billing address input hide
+$('input#sameAsShipping').click(function(){
+  $("#billing-address").toggle();
 });

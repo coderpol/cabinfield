@@ -25,7 +25,7 @@ include_once('sections/layouts/header.php')
                 <h3>Shipping Address</h3>
             </div>
         </div>
-        <form action="#" class="row cabinform shipping-address">
+        <form action="#" class="row cabinform address-form">
             <div class="col-md-4">
                 <div class="row form-line">
                     <div class="col">
@@ -94,7 +94,7 @@ include_once('sections/layouts/header.php')
             </div>
             
             <div class="col-md-4 card summary-card">
-                <div class="card-body shadow-lg">
+                <div class="card-body shadow">
                     <h5 class="card-title">Order Summary</h5>
                     <ul class="list-group summary-list">
                         <li class="list-item">Items: <span class="value">$1,321.00</span></li>

@@ -73,7 +73,7 @@
                 background:$white;
                 padding:$m-30;
                 border-radius:$m-10;
-                box-shadow: $m-5 $m-5 $m-10 rgb(0 0 0 / 5%);
+                box-shadow: 0 7px $m-10 rgb(0 0 0 / 10%);
                 margin-top: 0;
                 border: none;
                 @extend .animate;

@@ -1,0 +1,26 @@
+.card{
+    border:0;
+    &.summary-card{
+        padding:0 $m-10 $m-30;
+        @include upto-phone{
+            padding-top:$m-30;
+        }
+        .card-title{
+            @include font($font-20,$line-26,$font-bold);
+            margin-bottom:$m-20;
+            color:$gray-dark;
+        }
+        .card-body{
+            flex:none;
+            padding:$m-30 $m-25;
+            @include rounded($m-15);
+            .list-group{
+                list-style-type: none;
+            }
+            
+            @include upto-phone{
+                margin-bottom:$m-70;
+            }
+        }
+    }
+}

@@ -313,7 +313,7 @@ img {
 input,
 select,
 textarea {
-  padding: 10px 50px;
+  padding: 10px 5px;
   border: 1px solid gray;
   font-size: 14px;
   margin-bottom: 10px;

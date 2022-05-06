@@ -1,9 +1,16 @@
 .page-content{
     p{
         @include font($font-16,$m-25);
-        
+        color:$text-primary-color;
         .primary{
             color:$primary-color;
+        }
+        a{
+            text-decoration: underline;
+            &:hover{
+                color:$primary;
+                text-decoration: none;
+            }
         }
     }
     .article{
@@ -46,6 +53,18 @@
                     
                 }
             }
+        }
+    }
+    .edit-icon{
+        width:$m-40;
+        height:$m-40;
+        display: inline-block;
+        padding:$m-10;
+    }
+    .review-item{
+        margin-bottom:$m-40;
+        @include from-pc{
+            padding-right:15%;
         }
     }
 }
