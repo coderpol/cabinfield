@@ -2545,6 +2545,32 @@ h4 {
 .page-content .quotation-area .quotation p.history a:hover {
   text-decoration: underline;
 }
+.page-content .page-sidebar .card-body {
+  padding: 25px;
+  border-radius: 15px;
+}
+.page-content .page-sidebar .page-list {
+  padding-left: 0;
+  list-style-type: none;
+}
+.page-content .page-sidebar .page-list li {
+  border-bottom: 1px solid #DDDDDD;
+  padding: 15px 0;
+}
+.page-content .page-sidebar .page-list li a {
+  font-size: 1.14285em;
+  line-height: 20px;
+  font-weight: 400;
+  color: #121212;
+}
+.page-content .page-sidebar .page-list li a:hover {
+  text-decoration: none;
+  color: #B3522C;
+}
+.page-content .page-sidebar .page-list li.active a {
+  font-weight: 500;
+  color: #B3522C;
+}
 
 .order-confirmation-section .confirmation-box {
   margin-top: 80px;

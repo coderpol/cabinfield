@@ -26,9 +26,9 @@
 			<div class="footer-links small">
 				<ul class="links">
 					<li><a href="about.php">About Us</a></li>
-					<li><a href="#">Testimonials</a></li>
+					<li><a href="testimonials.php">Testimonials</a></li>
 					<li><a href="#">Contact Us</a></li>
-					<li><a href="#">FAQ</a></li>
+					<li><a href="faq.php">FAQ</a></li>
 					<li><a href="#">Promotions</a></li>
 					<li><a href="#">Gift It!</a></li>
 				</ul>

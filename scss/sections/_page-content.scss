@@ -124,4 +124,33 @@
             }
         }
     }
+    
+    .page-sidebar{
+        .card-body{
+            padding:$m-25;
+            @include rounded($m-15);
+        }
+        .page-list{
+            padding-left:0;
+            list-style-type: none;
+            li{
+                border-bottom:1px solid $border-gray-light;
+                padding:$m-15 0;
+                a{
+                    @include font($font-16,$m-20);
+                    color:$gray-dark;
+                    &:hover{
+                        text-decoration: none;
+                        color:$primary-color;
+                    }
+                }
+                &.active{
+                    a{
+                        font-weight: $font-medium;
+                        color:$primary-color;
+                    }
+                }
+            }
+        }
+    }
 }
