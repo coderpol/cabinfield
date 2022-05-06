@@ -35,9 +35,9 @@
 			</div>
 			<div class="footer-links large">
 				<ul class="links">
-					<li><a href="#">Terms of Use</a></li>
-					<li><a href="#">Privacy policy</a></li>
-					<li><a href="#">Warranty Disclaimer</a></li>
+					<li><a href="terms-of-use.php">Terms of Use</a></li>
+					<li><a href="privacy-policy.php">Privacy policy</a></li>
+					<li><a href="warranty.php">Warranty Disclaimer</a></li>
 					<li><a href="#">Cancellations/Returns Disclaimer</a></li>
 					<li><a href="#">Shipping and Delivery Disclaimer</a></li>
 					<li><a href="#">GFazebos & Playsets Disclaimer</a></li>
