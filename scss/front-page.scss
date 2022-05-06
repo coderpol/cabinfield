@@ -54,7 +54,7 @@
                     }
                     &.review{
                         &:after{
-                            content:"(On Review)";
+                            content:"(Please Review)";
                         }
                         &:after, a{color:$primary;}
                     }
