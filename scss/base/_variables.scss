@@ -20,9 +20,8 @@ $gray-5: #514646;
 
 $text-primary-color: $gray-5;
 $text-dark-color : $gray-dark;
-$text-gray-light: #DDDDDD;
+$text-gray-light: $gray-4;
 $border-gray-light: $gray-4;
-$label-hint-color:#627590;
 
 // set another color value
 $selection-color : $primary-color;
@@ -31,7 +30,7 @@ $scroll-track-color:$gray-light;
 $scroll-thumb-color:$gray-dark;
 $scroll-hover-color: $primary-color;
 
-
+// font size variables
 $base-font-size : 14px;
 $base-line-height: 1.428571429em;
 $font-14: $base-font-size;
@@ -47,6 +46,9 @@ $font-40: 2.85714em;
 $font-44: 3.14285em;
 $font-54: 3.85714em;
 
+
+// margin and padding variable
+// can be used in other section
 $m-0: 0px;
 $m-5: 5px;
 $m-10 : 10px;
@@ -69,10 +71,13 @@ $m-90: 90px;
 $m-95: 95px; 
 $m-100: 100px; 
 
+// border width
 $thin : 1px;
 $semi : 2px;
 $thick : 4px;
 
+
+// line height varibales
 $line-18: 18px;
 $line-23: 23px;
 $line-26: 26px;
