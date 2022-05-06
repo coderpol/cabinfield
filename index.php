@@ -24,6 +24,7 @@
                     <li class="review"><a href="fabric-sample.php">Fabric Sample</a></li>
                     <li class="review"><a href="wood-sample.php">Wood Sample</a></li>
                     <li class="review"><a href="about.php">About</a></li>
+                    <li class="review"><a href="checkout-shipping.php">Checkout Shipping</a></li>
                 </ol>
             </div>
         </div>

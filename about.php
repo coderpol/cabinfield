@@ -72,7 +72,7 @@ include_once('sections/layouts/header.php')
 <div class="section mb-5 choice-points smaller with-counter clearfix">
     <div class="container">
         <div class="row">
-            <header class="col-md-12 section-title">
+            <header class="col-md-12 section-title text-center">
                 <h2><span>Your furniture success</span> story begins here.</h2>
             </header>
             
@@ -137,7 +137,7 @@ include_once('sections/layouts/header.php')
 <div class="testimonial-area mb-5 clearfix">
     <div class="row">
         <div class="container">
-            <div class="col-md-12 section-title">
+            <div class="col-md-12 section-title text-center">
                 <h3><span>Trusted by</span> Thousands</h3>
             </div>
         </div>

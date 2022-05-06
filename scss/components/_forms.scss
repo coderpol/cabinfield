@@ -1,0 +1,31 @@
+.cabinform{
+    @include upto-phone{
+        margin:0;
+        padding:0;
+    }
+    .form-line{
+        margin-bottom:$m-15;
+        label{
+            @include font($font-16,$line-23,$font-medium);
+            margin-bottom:$m-10;
+            color:$black;
+        }
+    }
+    .card{
+        border:0;
+        .card-title{
+            @include font($font-20,$line-26,$font-bold);
+            margin-bottom:$m-20;
+            color:$gray-dark;
+        }
+        .card-body{
+            padding:$m-30 $m-25;
+            flex:none;
+            @include rounded($m-15);
+            .list-group{
+                list-style-type: none;
+            }
+        }
+    }
+    
+}

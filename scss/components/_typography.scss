@@ -1,5 +1,4 @@
 .section-title{
-    text-align:center;
     font-family: $font-dm;
     font-weight: $font-medium;
     span{
@@ -9,11 +8,17 @@
         @include font($font-44,100%,$font-bold);
         margin-bottom:$m-20;
     }
-    &.smaller{
+    &.medium{
         h2,h3,h4{
             @include font($font-40,$line-52,$font-bold); 
         }
     }
+    &.small{
+        h2,h3,h4{
+            @include font($font-36,$line-47,$font-bold); 
+        }
+    }
+    
 }
 
 .section-sub-title{
@@ -21,4 +26,11 @@
         @include font($font-24,$line-31,$font-bold);
         color:$text-dark-color;
     }
+}
+
+.blue{
+    color:$blue;
+}
+.black{
+    color:$black;
 }

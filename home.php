@@ -24,7 +24,7 @@ include_once('sections/layouts/header.php')
 <div class="choice-points clearfix">
     <div class="container">
         <div class="row">
-            <header class="col-md-12 section-title">
+            <header class="col-md-12 section-title text-center">
                 <h2><span>Cabinfield</span> Your natural choice</h2>
             </header>
             
@@ -131,7 +131,7 @@ include_once('sections/layouts/header.php')
 <div class="testimonial-area clearfix">
     <div class="row">
         <div class="container">
-            <div class="col-md-12 section-title">
+            <div class="col-md-12 section-title text-center">
                 <h3><span>Our Customers</span> Say it Best.</h3>
             </div>
         </div>

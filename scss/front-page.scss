@@ -56,7 +56,7 @@
                         &:after{
                             content:"(On Review)";
                         }
-                        &:after, a{color:$primary-color;}
+                        &:after, a{color:$primary;}
                     }
                     &.done{
                         &:after{

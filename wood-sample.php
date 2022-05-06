@@ -22,7 +22,7 @@ include_once('sections/layouts/header.php')
 <div class="section page-heading-section clearfix mb-5">
     <div class="container">
         <div class="row page-headline">
-            <div class="col-md-12 col-12 section-title text-left">
+            <div class="col-md-12 col-12 section-title">
                 <h2><span>Wood</span> Samples</h2>
                 <p>Choosing the perfect furniture to complement your space can be stressful.</p>
                 <p>Leave the stress and guesswork behind. Make a well-informed purchase by ordering free samples so you can better visualize your unique, final product. Feel the authenticity, watch it take the light, and imagine it as part of your space.</p>
@@ -123,7 +123,7 @@ include_once('sections/layouts/header.php')
 <div class="section popular-section type-row clearfix">
     <div class="container">
         <div class="row">
-            <div class="section-title col-md-12">
+            <div class="section-title text-center col-md-12">
                 <h3><span>Our 5 Most</span> Popular Wood Choices</h3>
             </div>
         </div>
@@ -206,7 +206,7 @@ include_once('sections/layouts/header.php')
     <div class="container">
         <div class="row">
             <article class="col-md-12 article text-center">
-                <header class="section-title smaller">
+                <header class="section-title medium">
                     <h3>Standard <span>Vs.</span> Rustic</h3>
                 </header>
                 <p>If you love the rugged look of rustic furniture, there are plenty of options for you. A few of our woods are available in both standard and rustic versions. In the standard woods, the imperfections are cut out, whereas in the rustic woods, there are more visible grain, knots, and imperfections. Priced lower than standard wood, rustic wood is preferable when going with a natural vibe. </p>

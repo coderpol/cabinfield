@@ -16,6 +16,8 @@
 @import "components/tooltip";
 @import "components/utilities";
 @import "components/breadcrumb";
+@import 'components/forms';
+@import 'components/lists';
 
 // section scss
 @import 'sections/topbar';
@@ -32,6 +34,7 @@
 @import 'sections/products-section';
 @import 'sections/popular-section';
 @import 'sections/page-content';
+
 
 // different pages
 @import 'pages/page-confirmation';

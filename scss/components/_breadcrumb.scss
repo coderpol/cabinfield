@@ -58,6 +58,9 @@
             li{color:$blue-dark;}
             a{color:$blue-dark;}
             li{
+                &:after{
+                    color:$primary-color !important;
+                }
                 &.active{
                     color:$primary-color !important;
                 }

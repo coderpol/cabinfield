@@ -2,6 +2,7 @@
 $white: #fff;
 $black: #000;
 $primary-color : #B3522C;
+$primary : $primary-color;
 $bg-main : #E5E5E5;
 $blue : #627590;
 $blue-2 : #1F173D;
@@ -18,7 +19,9 @@ $gray-5: #514646;
 
 $text-primary-color: $gray-5;
 $text-dark-color : $gray-dark;
+$text-gray-light: #DDDDDD;
 $border-gray-light: $gray-4;
+$label-hint-color:#627590;
 
 // set another color value
 $selection-color : $primary-color;
@@ -34,6 +37,7 @@ $font-14: $base-font-size;
 $font-16: 1.14285em;
 $font-18: 1.28571em;
 $font-20: 1.42857em;
+$font-22: 22px;
 $font-24: 1.71424em;
 $font-26: 1.85714em;
 $font-30: 2.14285em;
@@ -71,5 +75,7 @@ $thick : 4px;
 $line-18: 18px;
 $line-23: 23px;
 $line-26: 26px;
+$line-29: 29px;
 $line-31: 31px;
+$line-47: 47px;
 $line-52: 52px;

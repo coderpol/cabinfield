@@ -91,6 +91,35 @@
     }
 }
 
+
+.order-summary-section{
+    
+    .ordered-items-list{
+        margin-top:0;
+        .ordered-item{
+            padding:$m-20 0;
+            border-bottom: $thin solid $border-gray-light;
+            &:last-child{
+                border-bottom:0;
+            }
+            .image{
+                @include upto-phone{
+                    margin-bottom:$m-25;
+                }
+                img{
+                    max-width: 190px;
+                }
+            }   
+            .description{
+                h4,h3{
+                    @include font($font-24, $line-31,$font-bold);
+                    margin-bottom:$m-15;
+                }
+            } 
+        }
+    }
+}
+
 @include upto-tablet{
     .products-section{
         .products-area{

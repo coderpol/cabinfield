@@ -1,0 +1,44 @@
+.summary-list{
+    margin-bottom:$m-25;
+    li, .list-item{
+        padding: $m-10 0;
+        border-bottom: 1px solid $border-gray-light;
+        color:$text-primary-color;
+        span{
+            float: right;
+            font-weight: $font-bold;
+            color:$gray-dark;
+        }
+        &:last-child{
+            border-bottom:0;
+        }
+        &.total{
+            border-bottom:0;
+            @include font($font-18,$line-23,$font-bold);
+        }
+    }
+}
+
+.specification-list{
+    list-style-type: none;
+    padding-left:0;
+    li{
+        color:$blue;
+        vertical-align: middle;
+        @include font($font-16,$line-23);
+        span{
+            margin-left:5px;
+            display:inline-block;
+        }
+        .value{
+            color:$primary;
+            font-weight: $font-bold;
+            @include font($font-22,$line-29,$font-bold);
+            margin-top:3px;
+        }
+        &:first-child{
+            margin:10px 0;
+            line-height:$line-29;
+        }
+    }
+}
