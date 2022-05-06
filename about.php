@@ -115,7 +115,7 @@ include_once('sections/layouts/header.php')
                 </div>
             </div>
             
-            <div class="col-md-12 text-center action-area">
+            <div class="col-md-12 text-center action-area mb-5">
                 <a href="#" class="btn btn-primary btn-large shadow">Shop Now</a>
             </div>
         </div>
