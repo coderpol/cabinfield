@@ -54,3 +54,16 @@ h4{
 .black{
     color:$black;
 }
+
+.text-dark-color{
+    color:$gray-dark;
+    p{
+        color:$gray-dark !important;
+    }
+}
+.text-light-color{
+    color:$text-gray-light;
+    p{
+        color:$text-gray-light !important;
+    }
+}

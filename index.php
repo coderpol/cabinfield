@@ -28,6 +28,7 @@
                     <li class="review"><a href="checkout-payment-info.php">Checkout Payment Info</a></li>
                     <li class="review"><a href="checkout-payment-info-2.php">Checkout Payment Info - V2</a></li>
                     <li class="review"><a href="checkout-info.php">Checkout Info</a></li>
+                    <li class="review"><a href="testimonials.php">Testimonials</a></li>
                 </ol>
             </div>
         </div>

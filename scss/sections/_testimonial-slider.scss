@@ -21,56 +21,58 @@
                 margin:0 !important;
                 padding:$m-50;
             }
-            .quotation{
-                &:before{
-                    content:'';
-                    display: block;
-                    height:$m-45;
-                    width:$m-60;
-                    background: url('../images/blockquote.png') no-repeat;
-                    background-size:$m-60;
-                }
-                blockquote{
-                    margin:$m-30 0;
-                    color:$blue-2;
-                    font-size:$font-16;
-                    line-height:$m-25;
-                    font-weight: $font-medium;
-                }
-                p{
-                    letter-spacing: 0.3px;
-                    .author{
-                        font-size:$font-20;
-                        line-height:$m-25;
-                        color:$gray-dark;
-                        display: inline-block;
-                        position:relative;
-                        &.verified{
-                            &:after{
-                                content:"";
-                                display: block;
-                                width:$m-20;
-                                height:$m-20;
-                                background:url('../images/verified.svg') no-repeat;
-                                background-size:$m-20;
-                                position:absolute;
-                                bottom:3px;
-                                right: -$m-25;
-                            }
-                        }
-                    }
-                    .company{
-                        display:block;
-                        color:$gray-3;
-                        font-size:$font-16;
-                        line-height:$m-20;
-                        margin-top:$m-5;
-                    }
-                }
-            }
+            
             .image{
                 border-radius:$m-10;
             }
+        }
+    }
+}
+
+.quotation{
+    &:before{
+        content:'';
+        display: block;
+        height:$m-45;
+        width:$m-60;
+        background: url('../images/blockquote.png') no-repeat;
+        background-size:$m-60;
+    }
+    blockquote{
+        margin:$m-30 0;
+        color:$blue-2;
+        font-size:$font-16;
+        line-height:$m-25;
+        font-weight: $font-medium;
+    }
+    p{
+        letter-spacing: 0.3px;
+        .author{
+            font-size:$font-20;
+            line-height:$m-25;
+            color:$gray-dark;
+            display: inline-block;
+            position:relative;
+            &.verified{
+                &:after{
+                    content:"";
+                    display: block;
+                    width:$m-20;
+                    height:$m-20;
+                    background:url('../images/verified.svg') no-repeat;
+                    background-size:$m-20;
+                    position:absolute;
+                    bottom:3px;
+                    right: -$m-25;
+                }
+            }
+        }
+        .address{
+            display:block;
+            color:$gray-3;
+            font-size:$font-16;
+            line-height:$m-20;
+            margin-top:$m-5;
         }
     }
 }

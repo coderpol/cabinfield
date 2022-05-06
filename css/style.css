@@ -384,6 +384,20 @@ h4 {
   color: #000;
 }
 
+.text-dark-color {
+  color: #121212;
+}
+.text-dark-color p {
+  color: #121212 !important;
+}
+
+.text-light-color {
+  color: #DDDDDD;
+}
+.text-light-color p {
+  color: #DDDDDD !important;
+}
+
 .primary-gradient {
   background: #b3522c;
   background: -webkit-gradient(linear, left top, right top, from(#b3522c), to(rgba(179, 82, 44, 0)));
@@ -515,6 +529,16 @@ h4 {
 .btn.btn-block {
   width: 100%;
 }
+.btn.btn-empty {
+  background: none;
+  color: #B3522C;
+  border: 1px solid #B3522C;
+}
+.btn.btn-empty:hover {
+  background: #121212;
+  color: #fff;
+  border-color: #121212;
+}
 
 .border-bottom {
   border-bottom: 1px solid #DDDDDD;
@@ -536,8 +560,13 @@ h4 {
   margin-bottom: 100px !important;
 }
 
+@media only screen and (min-width: 1200px) {
+  .pr-5 {
+    padding-right: 5%;
+  }
+}
 .breadcrumb-area {
-  margin: 25px 0;
+  margin-top: 25px;
 }
 .breadcrumb-area .breadcrumb {
   background: none;
@@ -1607,7 +1636,11 @@ h4 {
     padding: 50px;
   }
 }
-.testimonial-area .testimonial-slider .slide .quotation:before {
+.testimonial-area .testimonial-slider .slide .image {
+  border-radius: 10px;
+}
+
+.quotation:before {
   content: "";
   display: block;
   height: 45px;
@@ -1615,24 +1648,24 @@ h4 {
   background: url("../images/blockquote.png") no-repeat;
   background-size: 60px;
 }
-.testimonial-area .testimonial-slider .slide .quotation blockquote {
+.quotation blockquote {
   margin: 30px 0;
   color: #1F173D;
   font-size: 1.14285em;
   line-height: 25px;
   font-weight: 500;
 }
-.testimonial-area .testimonial-slider .slide .quotation p {
+.quotation p {
   letter-spacing: 0.3px;
 }
-.testimonial-area .testimonial-slider .slide .quotation p .author {
+.quotation p .author {
   font-size: 1.42857em;
   line-height: 25px;
   color: #121212;
   display: inline-block;
   position: relative;
 }
-.testimonial-area .testimonial-slider .slide .quotation p .author.verified:after {
+.quotation p .author.verified:after {
   content: "";
   display: block;
   width: 20px;
@@ -1643,15 +1676,12 @@ h4 {
   bottom: 3px;
   right: -25px;
 }
-.testimonial-area .testimonial-slider .slide .quotation p .company {
+.quotation p .address {
   display: block;
   color: #767676;
   font-size: 1.14285em;
   line-height: 20px;
   margin-top: 5px;
-}
-.testimonial-area .testimonial-slider .slide .image {
-  border-radius: 10px;
 }
 
 @media only screen and (max-width: 1199px) {
@@ -2368,6 +2398,9 @@ h4 {
   }
 }
 
+.page-content {
+  padding: 20px 0 50px;
+}
 .page-content p {
   font-size: 1.14285em;
   line-height: 25px;
@@ -2453,6 +2486,64 @@ h4 {
   .page-content .review-item {
     padding-right: 15%;
   }
+}
+.page-content .authized-seal {
+  width: 100%;
+  text-align: center;
+}
+.page-content .authized-seal img {
+  max-width: 300px;
+}
+.page-content .quotation-area {
+  margin: 30px 0 80px;
+}
+.page-content .quotation-area p {
+  font-size: 1em;
+}
+.page-content .quotation-area .quotation {
+  border-top: 1px solid #DDDDDD;
+  padding: 50px 0 40px;
+}
+.page-content .quotation-area .quotation:last-child {
+  border-bottom: 1px solid #DDDDDD;
+}
+.page-content .quotation-area .quotation:before {
+  width: 40px;
+  height: 35px;
+  background-size: 40px;
+}
+.page-content .quotation-area .quotation blockquote {
+  margin: 10px 0 15px;
+  font-weight: 500;
+  color: #1F173D;
+}
+.page-content .quotation-area .quotation p .author {
+  font-size: 1.14285em;
+  line-height: 23px;
+  font-weight: 500;
+  color: #121212;
+  margin-bottom: 0;
+}
+.page-content .quotation-area .quotation p .author.verified:after {
+  background-size: 16px;
+  height: 18px;
+}
+.page-content .quotation-area .quotation p .address {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+}
+.page-content .quotation-area .quotation p.history {
+  font-size: 1.14285em;
+  line-height: 23px;
+  font-weight: 700;
+}
+.page-content .quotation-area .quotation p.history a {
+  color: #B3522C;
+  text-decoration: none;
+}
+.page-content .quotation-area .quotation p.history a:hover {
+  text-decoration: underline;
 }
 
 .order-confirmation-section .confirmation-box {

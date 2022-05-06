@@ -6,7 +6,7 @@
             </blockquote>
             <p>
                 <span class="author verified">Samantha William</span>
-                <span class="company">Semarang</span>
+                <span class="address">Semarang</span>
             </p>
         </div>
         <div class="image">
@@ -20,7 +20,7 @@
             </blockquote>
             <p>
                 <span class="author verified">Samantha William</span>
-                <span class="company">Semarang</span>
+                <span class="address">Semarang</span>
             </p>
         </div>
         <div class="image">
@@ -34,7 +34,7 @@
             </blockquote>
             <p>
                 <span class="author verified">Samantha William</span>
-                <span class="company">Semarang</span>
+                <span class="address">Semarang</span>
             </p>
         </div>
         <div class="image">

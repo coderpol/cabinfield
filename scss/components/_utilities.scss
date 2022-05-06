@@ -17,3 +17,8 @@
 .mb-100{
     margin-bottom:$m-100 !important;
 }
+@include from-pc{
+    .pr-5{
+        padding-right:5%;
+    }
+}

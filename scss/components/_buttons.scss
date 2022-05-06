@@ -42,4 +42,14 @@
     &.btn-block{
         width:100%;
     }
+    &.btn-empty{
+        background: none;
+        color: $primary;
+        border: 1px solid $primary-color;
+        &:hover{
+            background: $gray-dark;
+            color:$white;
+            border-color:$gray-dark;
+        }
+    }
 }
