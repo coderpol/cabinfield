@@ -126,57 +126,57 @@ include_once('sections/layouts/header.php')
                 <h3><span>Our 5 Most</span> Popular Fabric Choices</h3>
             </div>
         </div>
-        <div class="row sample-area">
-            <div class="col-md-3 col-12 sample">
+        <div class="row popular-area">
+            <div class="col-md-3 col-12 popular-sample">
                 <img src="images/fabric/sample-1.png" alt="">
                 <div class="text">
                     <h4>Standard Fabric</h4>
                     <p>Base-price furniture comes with standard fabric. Standard fabric is durable, and although it’s not treated for stain resistance, it cleans well and takes nicely to any fabric protection you may add.</p>
                 </div>
             </div>
-            <div class="col-md-3 col-12 sample">
+            <div class="col-md-3 col-12 popular-sample">
                 <img src="images/fabric/sample-2.png" alt="">
                 <div class="text">
                     <h4>Premium Fabric</h4>
                     <p>Premium fabric costs more than standard fabric because it has a more textured design. The quality is the same as standard fabric.</p>
                 </div>
             </div>
-            <div class="col-md-3 col-12 sample">
+            <div class="col-md-3 col-12 popular-sample">
                 <img src="images/fabric/sample-3.png" alt="">
                 <div class="text">
                     <h4>Micro Fiber Suede</h4>
                     <p>Micro Fiber Suede is made from polyester and has a suede-like texture. It is soft, durable, water and stain resistant, and easy to care for.</p>
                 </div>
             </div>
-            <div class="col-md-3 col-12 sample">
+            <div class="col-md-3 col-12 popular-sample">
                 <img src="images/fabric/sample-4.png" alt="">
                 <div class="text">
                     <h4>Crypton Home Fabric</h4>
                     <p>Crypton fabric are soft, durable, and super easy to clean. These fabrics are resistant to stain, odor, and moisture, and are extremely eco-friendly.</p>
                 </div>
             </div>
-            <div class="col-md-3 col-12 sample">
+            <div class="col-md-3 col-12 popular-sample">
                 <img src="images/fabric/sample-5.png" alt="">
                 <div class="text">
                     <h4>RevolutionⓇ Performance Fabric</h4>
                     <p>Revolution Fabrics are completely resistant to stain, in addition to being durable and eco-friendly.</p>
                 </div>
             </div>
-            <div class="col-md-3 col-12 sample">
+            <div class="col-md-3 col-12 popular-sample">
                 <img src="images/fabric/sample-6.png" alt="">
                 <div class="text">
                     <h4>Ultraleather</h4>
                     <p>Ultra Leather is a faux leather that captures the look and feel of genuine leather, providing the same durability and resistance for a better price. It has a uniform color and texture, superb stain resistance, and is soft and comfortable. Ultraleather is also eco-friendly.</p>
                 </div>
             </div>
-            <div class="col-md-3 col-12 sample">
+            <div class="col-md-3 col-12 popular-sample">
                 <img src="images/fabric/sample-7.png" alt="">
                 <div class="text">
                     <h4>Genuine Leather</h4>
                     <p>Genuine leather is a luxurious fabric that wears and ages beautifully. Made from real animal skin, our top-grain leather is distinct and its surface is not completely uniform. The variations on leather gives it an organic look and are a sign of its authenticity. Leather can fade if exposed to strong sun.</p>
                 </div>
             </div>
-            <div class="col-md-3 col-12 sample">
+            <div class="col-md-3 col-12 popular-sample">
                 <img src="images/fabric/sample-8.png" alt="">
                 <div class="text">
                     <h4>Faux Leather</h4>

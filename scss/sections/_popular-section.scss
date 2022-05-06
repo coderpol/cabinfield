@@ -4,8 +4,8 @@
         margin-bottom:$m-40;
     }
     &.type-box{
-        .sample-area{
-            .sample{
+        .popular-area{
+            .popular-sample{
                 flex-basis:23%;
                 border-radius:$m-20;
                 border:1px solid $gray-4;
@@ -35,6 +35,52 @@
                         font-weight: $font-bold; 
                         font-weight: $font-normal;
                     }
+                }
+            }
+        }
+    }
+    
+    &.type-row{
+        .popular-sample{
+            margin:$m-20 0;
+            border:$thin solid $border-gray-light;
+            padding:$m-20;
+            @include rounded($m-20);
+            @include upto-phone{
+                margin:$m-20 auto;
+                flex-basis: 90%;
+            }
+            p{
+                color:$text-primary-color;
+                @include font($font-16, $m-25);
+            }
+            .image{
+                margin-bottom:0;
+                padding-left:0;
+                @include rounded($m-20);
+                @include upto-phone{
+                    margin-bottom:$m-20;
+                }
+            }
+            
+            .sample-details{
+                h3{
+                    @include font($font-24, $line-31,$font-bold);
+                    color:$gray-dark;
+                    margin-bottom:$m-10;
+                }
+                @include upto-phone{
+                    margin-bottom:$m-20;
+                    padding:0;
+                }
+            }
+            .sample-use{
+                h4{
+                    @include font($font-18, $line-23,$font-bold);
+                    margin-bottom:$m-15;
+                }
+                @include upto-phone{
+                    padding:0;
                 }
             }
         }
