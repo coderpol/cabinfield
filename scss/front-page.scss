@@ -7,6 +7,7 @@
 
 .font-page{
     background: $whitish-2;
+    padding:$m-20;
     .container{
         width:100%;
         max-width: 600px;
@@ -31,12 +32,13 @@
         .content{
             border:1px solid $blue-darkest;
             padding:20px;
+            background: $white;
             .page-list{
                 list-style-type: decimal;
-                list-style-position: inside;
+                list-style-position: outside;
+                padding-left:$m-20;
                 li{
-                    font-size:1.5em;
-                    line-height:1.5em;
+                    @include font($font-16,$line-26);
                     margin-bottom:10px;
                     a{
                         font-weight: $font-medium;

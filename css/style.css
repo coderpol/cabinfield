@@ -315,11 +315,6 @@ a:hover {
   width: 100%;
   max-width: 1200px;
 }
-@media only screen and (max-width: 767px) {
-  .container {
-    overflow: hidden;
-  }
-}
 
 .section-title {
   font-family: "DM Sans", sans-serif;
@@ -330,7 +325,7 @@ a:hover {
 }
 .section-title h2, .section-title h3, .section-title h4 {
   font-size: 44px;
-  line-height: 100%;
+  line-height: 57px;
   font-weight: 700;
   margin-bottom: 20px;
 }
@@ -1084,9 +1079,13 @@ h4 {
 }
 .navigation-area .main-nav > li .submenu-block h3 {
   font-size: 24px;
-  margin-bottom: 30px;
+  line-height: 31px;
   font-weight: 700;
   text-transform: capitalize;
+  margin-bottom: 25px;
+}
+.navigation-area .main-nav > li .submenu-block h3 a {
+  color: #121212;
 }
 .navigation-area .main-nav > li .submenu-block .stock-link {
   position: absolute;
@@ -1094,14 +1093,18 @@ h4 {
   top: 35px;
   text-decoration: underline;
   color: #B3522C;
+  width: auto;
   font-size: 16px;
   line-height: 21px;
   font-weight: 700;
 }
+.navigation-area .main-nav > li .submenu-block .stock-link:hover {
+  color: #121212;
+}
 .navigation-area .main-nav > li .submenu-block .category h4 {
-  font-size: 1em;
-  line-height: 100%;
   margin-bottom: 15px;
+  font-size: 16px;
+  line-height: 18px;
   font-weight: 500;
   text-transform: capitalize;
 }
@@ -1120,6 +1123,7 @@ h4 {
 }
 .navigation-area .main-nav > li .submenu-block .submenu li a {
   font-size: 16px;
+  line-height: 18px;
   font-weight: 500;
 }
 .navigation-area .main-nav > li.megamenu {
@@ -1178,6 +1182,7 @@ h4 {
     width: 100%;
     display: none !important;
     border-radius: 0;
+    min-width: 200px;
   }
   .navigation-area .main-nav li .submenu-block.show {
     display: block !important;
@@ -1209,6 +1214,8 @@ h4 {
     position: absolute;
     right: 12px;
     font-size: 18px;
+    line-height: 23px;
+    font-weight: 400;
     top: 14px;
     display: inline-block;
     height: 16px;
@@ -1252,6 +1259,8 @@ h4 {
 .header-banner .banner-text .btn {
   width: 180px;
   font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
 }
 
 @media only screen and (max-width: 1199px) {
@@ -1614,6 +1623,11 @@ h4 {
 .testimonial-area {
   padding: 15px 0 45px;
 }
+@media only screen and (max-width: 1199px) {
+  .testimonial-area {
+    padding: 20px;
+  }
+}
 .testimonial-area .testimonial-slider {
   padding: 20px 0;
   margin-top: 50px;
@@ -1666,6 +1680,7 @@ h4 {
 .quotation p .author {
   font-size: 20px;
   line-height: 25px;
+  font-weight: 400;
   color: #121212;
   display: inline-block;
   position: relative;
@@ -1689,6 +1704,7 @@ h4 {
   color: #767676;
   font-size: 16px;
   line-height: 20px;
+  font-weight: 400;
   margin-top: 5px;
 }
 
@@ -1697,7 +1713,7 @@ h4 {
     padding: 20px;
   }
 }
-@media only screen and (max-width: 1199px) and (max-width: 767px) {
+@media only screen and (max-width: 1199px) and (max-width: 1199px) {
   .testimonial-area .testimonial-slider {
     padding: 0 !important;
   }
@@ -2000,6 +2016,7 @@ h4 {
   color: #424F61;
   font-size: 16px;
   line-height: 24px;
+  font-weight: 400;
 }
 .footer .footer-area .footer-social .social-icons {
   margin-left: 0;
@@ -2127,11 +2144,13 @@ h4 {
 }
 .page-heading-section .page-headline .section-title h2, .page-heading-section .page-headline .section-title h3, .page-heading-section .page-headline .section-title h4 {
   font-size: 36px;
+  line-height: 120%;
+  font-weight: 400;
 }
 .page-heading-section .page-headline .section-title p {
   color: #514646;
   font-size: 16px;
-  line-height: 25px;
+  line-height: 26px;
   font-weight: 400;
 }
 .page-heading-section .page-headline .section-title p + p {
@@ -2150,14 +2169,15 @@ h4 {
 }
 .page-heading-section .heading-text .head {
   font-size: 24px;
-  line-height: 30px;
+  line-height: 31px;
   font-weight: 700;
   color: #121212;
 }
 .page-heading-section .heading-text p {
   color: #514646;
   font-size: 16px;
-  line-height: 25px;
+  line-height: 26px;
+  font-weight: 400;
 }
 
 .breadcrum-section + .page-heading-section {
@@ -2206,13 +2226,14 @@ h4 {
 }
 .products-section .products-area.type-a .product h3, .products-section .products-area.type-a .product h4 {
   font-size: 24px;
-  line-height: 30px;
+  line-height: 31px;
   font-weight: 700;
   margin-bottom: 5px;
 }
 .products-section .products-area.type-a .product p {
   font-size: 16px;
   line-height: 25px;
+  font-weight: 400;
   color: #514646;
 }
 .products-section .products-area.type-b .product {
@@ -2232,6 +2253,7 @@ h4 {
 .products-section .products-area.type-b .product .details p {
   font-size: 16px;
   line-height: 26px;
+  font-weight: 400;
   color: #121212;
 }
 .products-section .products-area.type-b .product .action-area .action {
@@ -2251,6 +2273,7 @@ h4 {
   color: #514646;
   font-size: 14px;
   line-height: 18px;
+  font-weight: 400;
   padding-left: 0;
   margin-left: 20px;
 }
@@ -2350,8 +2373,7 @@ h4 {
 }
 .popular-section.type-box .popular-area .popular-sample .text p {
   font-size: 16px;
-  line-height: 25px;
-  font-weight: 700;
+  line-height: 26px;
   font-weight: 400;
 }
 .popular-section.type-row .popular-sample {
@@ -2506,9 +2528,6 @@ h4 {
 }
 .page-content .quotation-area {
   margin: 30px 0 80px;
-}
-.page-content .quotation-area p {
-  font-size: 1em;
 }
 .page-content .quotation-area .quotation {
   border-top: 1px solid #DDDDDD;

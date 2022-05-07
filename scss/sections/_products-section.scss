@@ -15,14 +15,11 @@
                     margin-bottom:$m-25;
                 }
                 h3,h4{
-                    font-size:$font-24;
-                    line-height:$m-30;
-                    font-weight: $font-bold;
+                    @include font($font-24,$line-31,$font-bold);
                     margin-bottom:$m-5;
                 }
                 p{
-                    font-size:$font-16;
-                    line-height:$m-25;
+                    @include font($font-16,$m-25);
                     color:$gray-dark-3;
                 }
             }
@@ -43,8 +40,7 @@
                         margin-bottom:$m-20;
                     }
                     p{
-                        font-size:$font-16;
-                        line-height:$line-26;
+                        @include font($font-16,$line-26);
                         color:$blue-darkest;
                     }
                 }
@@ -55,16 +51,13 @@
                         border-radius: $m-10;
                         margin-bottom:$m-20;
                         h4{
-                            font-size:$font-20;
-                            line-height:$line-26;
-                            font-weight: $font-bold;
+                            @include font($font-20,$line-26,$font-bold);
                             color:$blue-darkest;
                             margin-bottom:$m-20;
                         }
                         .features{
                             color:$gray-dark-3;
-                            font-size:$font-14;
-                            line-height: $line-18;
+                            @include font($font-14,$line-18);
                             padding-left:0;
                             margin-left:$m-20;
                             li{

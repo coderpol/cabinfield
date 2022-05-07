@@ -11,7 +11,7 @@ include_once('sections/layouts/header.php')
         <div class="row">
             <nav class="col-md-12 breadcrumb-area" aria-label="breadcrumb">
                 <ol class="breadcrumb dark">
-                    <li><a href="home.php"><i class="cabincon home-blue size-18"></i></a></li>
+                    <li><a href="home.php"><i class="fa-solid fa-house"></i></a></li>
                     <li class="active">Fabric Sample</li>
                 </ol>
             </nav>

@@ -1,5 +1,8 @@
 .testimonial-area{
     padding:$m-15 0 $m-45;
+    @include upto-pc{
+        padding:$m-20;
+    }
     .testimonial-slider{
         padding:$m-20 0;
         margin-top:$m-50;
@@ -41,15 +44,12 @@
     blockquote{
         margin:$m-30 0;
         color:$blue-darker-4;
-        font-size:$font-16;
-        line-height:$m-25;
-        font-weight: $font-medium;
+        @include font($font-16,$m-25,$font-medium);
     }
     p{
         letter-spacing: 0.3px;
         .author{
-            font-size:$font-20;
-            line-height:$m-25;
+            @include font($font-20,$m-25);
             color:$blue-darkest;
             display: inline-block;
             position:relative;
@@ -73,8 +73,7 @@
         .address{
             display:block;
             color:$gray-dark-1;
-            font-size:$font-16;
-            line-height:$m-20;
+            @include font($font-16,$m-20);
             margin-top:$m-5;
         }
     }
@@ -84,7 +83,7 @@
     .testimonial-area{
         .testimonial-slider{
             padding: 20px;
-            @include upto-phone{
+            @include upto-pc{
                 padding:0 !important;
             }
             .slide{

@@ -3,13 +3,11 @@
         .section-title{
             text-align:left;
             h2,h3,h4{
-                font-size:$font-36;
+                @include font($font-36,120%);
             }
             p{
                 color:$gray-dark-3;
-                font-size:$font-16;
-                line-height:$m-25;
-                font-weight: $font-normal;
+                @include font($font-16,$line-26);
                 &+p{
                     margin-top:$m-30;
                 }
@@ -26,15 +24,12 @@
         margin-top:$m-60;
         margin-bottom:$m-30;
         .head{
-            font-size:$font-24;
-            line-height:$m-30;
-            font-weight: $font-bold;
+            @include font($font-24,$line-31,$font-bold);
             color:$blue-darkest;
         }
         p{
             color:$gray-dark-3;
-            font-size:$font-16;
-            line-height:$m-25;
+            @include font($font-16,$line-26);
         }
     }
 }

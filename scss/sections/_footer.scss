@@ -22,8 +22,7 @@
             }
             .copyright{
                 color:$blue-darker-2;
-                font-size:$font-16;
-                line-height:$font-24;
+                @include font($font-16,$font-24);
             }
         }
         

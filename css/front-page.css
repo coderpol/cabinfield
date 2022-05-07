@@ -383,6 +383,7 @@ a:hover {
 
 .font-page {
   background: #E5E5E5;
+  padding: 20px;
 }
 .font-page .container {
   width: 100%;
@@ -409,14 +410,17 @@ a:hover {
 .font-page .container .content {
   border: 1px solid #121212;
   padding: 20px;
+  background: #fff;
 }
 .font-page .container .content .page-list {
   list-style-type: decimal;
-  list-style-position: inside;
+  list-style-position: outside;
+  padding-left: 20px;
 }
 .font-page .container .content .page-list li {
-  font-size: 1.5em;
-  line-height: 1.5em;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
   margin-bottom: 10px;
 }
 .font-page .container .content .page-list li a {

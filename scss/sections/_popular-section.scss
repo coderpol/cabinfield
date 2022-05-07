@@ -23,17 +23,12 @@
                 .text{
                     padding:$m-15;
                     h4{
-                        font-size:$font-20;
-                        line-height:$line-26;
-                        font-weight: $font-bold;
+                        @include font($font-20,$line-26,$font-bold);
                         margin-bottom:$m-10;
                         margin-top:$m-15;
                     }
                     p{
-                        font-size:$font-16;
-                        line-height:$m-25;
-                        font-weight: $font-bold; 
-                        font-weight: $font-normal;
+                        @include font($font-16,$line-26);
                     }
                 }
             }

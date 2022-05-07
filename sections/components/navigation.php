@@ -9,9 +9,9 @@
             <div class="collapse navbar-collapse" id="main_nav">
                 <ul class="main-nav navbar-nav col-md-12 justify-content-center" >
                     <li class="megamenu nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" href="#" role="button" id="dropdown-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Fine Furniture</a>
+                        <a href="fine-furniture.php" class="nav-link dropdown-toggle" role="button" id="dropdown-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Fine Furniture</a>
                         <div class="dropdown-menu submenu-block" aria-labelledby="dropdown-1">
-                            <h3>Fine Furniture</h3>
+                            <h3><a href="fine-furniture.php">Fine Furniture</a></h3>
                             <a href="#" class="link stock-link">Items in stocks</a>
                             <div class="submenu-area">
                                 <div class="category">

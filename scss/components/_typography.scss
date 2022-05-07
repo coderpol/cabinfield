@@ -5,7 +5,7 @@
         color:$brand-color;
     }
     h2,h3,h4{
-        @include font($font-44,100%,$font-bold);
+        @include font($font-44,$line-57,$font-bold);
         margin-bottom:$m-20;
     }
     &.medium{

@@ -85,10 +85,12 @@
                     width:100%;
                 }
                 h3{
-                    font-size:24px;
-                    margin-bottom:$m-30;
-                    font-weight: $font-bold;
+                    @include font($font-24,$line-31,$font-bold);
                     text-transform: capitalize;
+                    margin-bottom:$m-25;
+                    a{
+                        color:$blue-darkest;
+                    }
                 }
                 .stock-link{
                     position: absolute;
@@ -96,16 +98,18 @@
                     top: 35px;
                     text-decoration: underline;
                     color:$brand-color;
+                    width: auto;
                     @include font($font-16,$line-21,$font-bold);
+                    &:hover{
+                        color:$blue-darkest;
+                    }
                 }
                 .submenu-area{
                 }
                 .category{
                     h4{
-                        font-size:1em;
-                        line-height:100%;
                         margin-bottom:$m-15;
-                        font-weight: $font-medium;
+                        @include font($font-16,$line-18,$font-medium);
                         text-transform: capitalize;
                     }
                     .submenu{
@@ -122,9 +126,7 @@
                     li{
                         margin:12px 0;
                         a{
-                            // color:$blue;
-                            font-size:16px;
-                            font-weight: $font-medium;
+                            @include font($font-16,$line-18,$font-medium);
                         }
                     }
                     
@@ -189,6 +191,7 @@
                     width:100%;
                     display:none !important;
                     border-radius:0;
+                    min-width: 200px;
                     &.show{
                         display:block !important;
                     }
@@ -227,7 +230,7 @@
                             content: ">";
                             position: absolute;
                             right: 12px;
-                            font-size: 18px;
+                            @include font($font-18,$line-23);
                             top: 14px;
                             display: inline-block;
                             height: 16px;

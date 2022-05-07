@@ -12,7 +12,7 @@ include_once('sections/layouts/header.php')
             <div class="row">
                 <nav class="col-md-12 breadcrumb-area" aria-label="breadcrumb">
                     <ol class="breadcrumb">
-                        <li><a href="home.php"><i class="cabincon home-white size-18"></i></a></li>
+                        <li><a href="home.php"><i class="fa-solid fa-house"></i></a></li>
                         <li class="active">Fine Furniture</li>
                     </ol>
                 </nav>
