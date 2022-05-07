@@ -438,7 +438,7 @@ a:hover {
   color: #2b47b9;
 }
 .font-page .container .content .page-list li.review:after {
-  content: "(Please Review)";
+  content: "(On Review)";
 }
 .font-page .container .content .page-list li.review:after, .font-page .container .content .page-list li.review a {
   color: #B3522C;

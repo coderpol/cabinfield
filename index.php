@@ -32,7 +32,7 @@
                     <li class="review"><a href="checkout-shipping.php">Checkout Shipping</a></li>
                     <li class="review"><a href="checkout-payment-info.php">Checkout Payment - V1</a></li>
                     <li class="review"><a href="checkout-payment-info-2.php">Checkout Payment - V2</a></li>
-                    <li class="review"><a href="checkout-info.php">Checkout Info</a></li>
+                    <li class="hold"><a href="checkout-info.php">Checkout Info</a></li>
                     <li class="next"><a href="#">Thank You</a></li>
                     <li class="next"><a href="#">Thank You - V2</a></li>
                     <li class="next"><a href="#">Bedroom Landing</a></li>
