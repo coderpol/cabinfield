@@ -75,4 +75,48 @@ include_once('sections/layouts/header.php')
 </div>
 
 
+<div class="section page-content">
+    <div class="container">
+        <div class="row work-points-section">
+            <div class="col-md-12 text-center section-title small">
+                <h3>How it Works</h3>
+            </div>
+            <?php
+                for($i=1;$i<4;$i++){
+            ?>
+            <div class="col-md-4 work-point">
+                <div class="icon">
+                    <img src="images/work-point.svg" alt="">
+                </div>
+                <h4>How it Works</h4>
+                <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. Lorem ipsum is.</p>
+            </div>
+            <?php } ?>
+        </div>
+    </div>
+</div>
+
+<div class="section page-content">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="section-title small">
+                    <h3>View Balance</h3>
+                    <p>To view the balance of an existing Gift Certificate enter its code here:</p>
+                </div>
+                <form action="#" class="cabinform balanceform">
+                    <div class="row form-line">
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" placeholder="" aria-label="Recipient’s name" required>
+                        </div>
+                        <div class="col-md-4">
+                            <button type="button" class="btn btn-primary btn-block">View Balance</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
 <?php include_once('sections/layouts/footer.php') ?>

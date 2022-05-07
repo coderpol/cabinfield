@@ -218,5 +218,37 @@
         }
     }
     
+    .work-points-section{
+        border:1px solid $gray;
+        border-left:0;
+        border-right:0;
+        padding:$m-50 0;
+        .work-point{
+            text-align:center;
+            padding:0 $m-25;
+            .icon{
+                display:inline-block;
+                width: $m-65;
+                height:$m-65;
+                @include rounded($m-40);
+                background: $brand-color;
+                padding:$m-15;
+                margin-bottom:$m-30;
+            }
+            h3,h4{
+                @include font($font-24,$line-31,$font-bold);
+                color:$blue-darkest;
+            }
+        }
+    }
+    
+    .balanceform{
+        .form-control{
+            padding: 10px;
+        }
+        .btn{
+            @include rounded($m-5);
+        }
+    }
     
 }
