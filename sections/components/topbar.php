@@ -11,7 +11,7 @@
                     <li><a href="about.php">About Us</a></li>
                     <li><a href="testimonials.php">Testimonials</a></li>
                     <li><a href="faq.php">FAQs</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="contact-us.php">Contact</a></li>
                     <li><a href="gift-card.php">Gifting</a></li>
                     <li><a href="#">blog</a></li>
                 </ul>

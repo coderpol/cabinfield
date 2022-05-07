@@ -34,6 +34,7 @@
                     <li class="review"><a href="privacy-policy.php">Privacy Policy</a></li>
                     <li class="review"><a href="terms-of-use.php">Terms of Use</a></li>
                     <li class="review"><a href="gift-card.php">Gift Card</a></li>
+                    <li class="review"><a href="contact-us.php">Gift Card</a></li>
                 </ol>
             </div>
         </div>

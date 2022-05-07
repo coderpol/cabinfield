@@ -2777,3 +2777,90 @@ h4 {
   color: #514646;
   margin-bottom: 40px;
 }
+.contact-section .contact-area {
+  background: #627590;
+  padding: 25px;
+  padding-bottom: 0;
+  position: relative;
+  overflow: hidden;
+}
+.contact-section .contact-area:after {
+  content: "";
+  display: block;
+  height: 250px;
+  width: 100%;
+  background: url(../images/bg/circle.png) no-repeat;
+  position: absolute;
+  left: -150px;
+  bottom: 0;
+}
+.contact-section .contact-area p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 29px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+}
+.contact-section .contact-area p.tag {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.contact-section .contact-area p.number {
+  color: #fff;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 400;
+}
+.contact-section .contact-area p.number a {
+  color: #fff;
+}
+.contact-section .contact-area .contact-list {
+  margin-top: 25px;
+  padding-left: 0;
+}
+.contact-section .contact-area .contact-list .contact {
+  padding: 25px 0;
+  border-top: 1px dashed rgba(255, 255, 255, 0.5);
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 20px 11fr;
+  grid-template-columns: 1fr 11fr;
+  grid-column-gap: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.contact-section .contact-area .contact-list .contact .icon {
+  background: rgba(255, 255, 255, 0.12);
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  color: white;
+  display: block;
+  font-size: 20px;
+  line-height: 50px;
+}
+.contact-section .contact-form-area {
+  border: 1px solid #DDDDDD;
+  padding: 40px;
+}
+@media only screen and (min-width: 1200px) {
+  .contact-section .contact-form-area {
+    border-left: 0;
+  }
+}
+.contact-section .contact-form-area .nav-pills .nav-link {
+  color: #979797;
+  background: none;
+  border-radius: 0;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 500;
+}
+.contact-section .contact-form-area .nav-pills .nav-link.active {
+  color: #121212;
+  border-bottom: 2px solid #B3522C;
+}
