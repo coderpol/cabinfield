@@ -1,5 +1,5 @@
 .summary-list{
-    margin-bottom:$m-25;
+    margin-bottom:$m-10;
     li, .list-item{
         padding: $m-10 0;
         border-bottom: 1px solid $gray;
@@ -15,8 +15,10 @@
         &.total{
             border-bottom:0;
             @include font($font-18,$line-23,$font-bold);
+            color:$black;
         }
     }
+    
 }
 
 .specification-list{

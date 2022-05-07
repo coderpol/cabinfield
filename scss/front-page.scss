@@ -72,6 +72,12 @@
                         }
                         &:after, a{color:#ac00c3;}
                     }
+                    &.next{
+                        &:after{
+                            content:"(Next in routine)";
+                        }
+                        &:after, a{color:#ff0000;}
+                    }
                 }
             }
         }

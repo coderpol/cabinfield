@@ -455,3 +455,9 @@ a:hover {
 .font-page .container .content .page-list li.hold:after, .font-page .container .content .page-list li.hold a {
   color: #ac00c3;
 }
+.font-page .container .content .page-list li.next:after {
+  content: "(Next in routine)";
+}
+.font-page .container .content .page-list li.next:after, .font-page .container .content .page-list li.next a {
+  color: #ff0000;
+}

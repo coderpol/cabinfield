@@ -699,7 +699,7 @@ h4 {
 }
 
 .summary-list {
-  margin-bottom: 25px;
+  margin-bottom: 10px;
 }
 .summary-list li, .summary-list .list-item {
   padding: 10px 0;
@@ -719,6 +719,7 @@ h4 {
   font-size: 18px;
   line-height: 23px;
   font-weight: 700;
+  color: #000;
 }
 
 .specification-list {
@@ -760,6 +761,9 @@ h4 {
     padding-top: 30px;
   }
 }
+.card.summary-card .btn {
+  margin: 10px 0;
+}
 .card.summary-card .card-title {
   font-size: 20px;
   line-height: 26px;
@@ -781,6 +785,18 @@ h4 {
   .card.summary-card .card-body {
     margin-bottom: 70px;
   }
+}
+.card.summary-card .note {
+  margin-top: 20px;
+  background: #EAEDF1;
+  border-radius: 15px;
+}
+.card.summary-card .note p {
+  color: #627590;
+  font-size: 14px;
+  line-height: 23px;
+  font-weight: 400;
+  padding: 15px;
 }
 .card.gift-card .input-group-text {
   color: #121212;

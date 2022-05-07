@@ -20,21 +20,34 @@
                     <li class="review"><a href="fine-furniture.php">Fine Furniture</a></li>
                     <li class="review"><a href="style-landing.php">Style Landing</a></li>
                     <li class="review"><a href="collection-landing.php">Collection Landing</a></li>
-                    <li class="review"><a href="order-confirmation.php">Order Confirmation</a></li>
-                    <li class="review"><a href="fabric-sample.php">Fabric Sample</a></li>
-                    <li class="review"><a href="wood-sample.php">Wood Sample</a></li>
-                    <li class="review"><a href="about.php">About</a></li>
+                    <li class="next"><a href="#">Product Listing - V1</a></li>
+                    <li class="next"><a href="#">Product Listing - V2</a></li>
+                    <li class="hold"><a href="#">List of Pre-built products - V1</a></li>
+                    <li class="hold"><a href="#">List of Pre-built products - V2</a></li>
+                    <li class="hold"><a href="#">Product - Customize</a></li>
+                    <li class="hold"><a href="#">Product - Customize - V2</a></li>
+                    <li class="hold"><a href="#">Product - Specs & Features</a></li>
+                    <li class="hold"><a href="#">Product - Review & Testimonials</a></li>
+                    <li class="next"><a href="#">Shopping Cart</a></li>
                     <li class="review"><a href="checkout-shipping.php">Checkout Shipping</a></li>
-                    <li class="review"><a href="checkout-payment-info.php">Checkout Payment Info</a></li>
-                    <li class="review"><a href="checkout-payment-info-2.php">Checkout Payment Info - V2</a></li>
+                    <li class="review"><a href="checkout-payment-info.php">Checkout Payment - V1</a></li>
+                    <li class="review"><a href="checkout-payment-info-2.php">Checkout Payment - V2</a></li>
                     <li class="review"><a href="checkout-info.php">Checkout Info</a></li>
-                    <li class="review"><a href="testimonials.php">Testimonials</a></li>
-                    <li class="review"><a href="faq.php">FAQ</a></li>
-                    <li class="review"><a href="warranty.php">Warranty</a></li>
-                    <li class="review"><a href="privacy-policy.php">Privacy Policy</a></li>
-                    <li class="review"><a href="terms-of-use.php">Terms of Use</a></li>
+                    <li class="next"><a href="#">Thank You</a></li>
+                    <li class="next"><a href="#">Thank You - V2</a></li>
+                    <li class="next"><a href="#">Bedroom Landing</a></li>
                     <li class="review"><a href="gift-card.php">Gift Card</a></li>
                     <li class="review"><a href="contact-us.php">Contact Us</a></li>
+                    <li class="review"><a href="terms-of-use.php">Terms of Use</a></li>
+                    <li class="review"><a href="privacy-policy.php">Privacy Policy</a></li>
+                    <li class="review"><a href="warranty.php">Warranty</a></li>
+                    <li class="review"><a href="testimonials.php">Testimonials</a></li>
+                    <li class="review"><a href="faq.php">FAQ</a></li>
+                    <li class="review"><a href="about.php">About</a></li>
+                    <li class="review"><a href="wood-sample.php">Wood Sample</a></li>
+                    <li class="hold"><a href="#">Wood Sample -Order Sample</a></li>
+                    <li class="review"><a href="fabric-sample.php">Fabric Sample</a></li>
+                    <li class="review"><a href="order-confirmation.php">Order Confirmation</a></li>
                 </ol>
             </div>
         </div>

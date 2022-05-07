@@ -5,6 +5,9 @@
         @include upto-phone{
             padding-top:$m-30;
         }
+        .btn{
+            margin:$m-10 0;
+        }
         .card-title{
             @include font($font-20,$line-26,$font-bold);
             margin-bottom:$m-20;
@@ -20,6 +23,16 @@
             
             @include upto-phone{
                 margin-bottom:$m-70;
+            }
+        }
+        .note{
+            margin-top:$m-20;
+            background: #EAEDF1;
+            @include rounded($m-15);
+            p{
+                color:$blue;
+                @include font($font-14,$line-23);
+                padding:15px;
             }
         }
     }
