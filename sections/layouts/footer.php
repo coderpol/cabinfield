@@ -30,7 +30,7 @@
 					<li><a href="#">Contact Us</a></li>
 					<li><a href="faq.php">FAQ</a></li>
 					<li><a href="#">Promotions</a></li>
-					<li><a href="#">Gift It!</a></li>
+					<li><a href="gift-card.php">Gift It!</a></li>
 				</ul>
 			</div>
 			<div class="footer-links large">

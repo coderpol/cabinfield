@@ -12,7 +12,7 @@
                     <li><a href="testimonials.php">Testimonials</a></li>
                     <li><a href="faq.php">FAQs</a></li>
                     <li><a href="#">Contact</a></li>
-                    <li><a href="#">Gifting</a></li>
+                    <li><a href="gift-card.php">Gifting</a></li>
                     <li><a href="#">blog</a></li>
                 </ul>
                 <ul class="col-md-4 contact-details clearfix mb-0">
