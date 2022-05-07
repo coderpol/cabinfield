@@ -33,7 +33,7 @@
         .thin-border{
             background-color: $gray-dark-1;
             height:1px;
-            margin:$m-40 0 $m-20;
+            margin:$m-70 0 $m-20;
         }
         .card-body{
             @include rounded($m-15);
