@@ -643,6 +643,7 @@ h4 {
   top: 1px;
   left: 0;
   width: 20px;
+  color: #B3522C !important;
 }
 .breadcrumb-area .breadcrumb.reverse li a {
   color: #B3522C;
@@ -652,9 +653,6 @@ h4 {
 }
 .breadcrumb-area .breadcrumb.dark a {
   color: #3F4B5C;
-}
-.breadcrumb-area .breadcrumb.dark li:after {
-  color: #B3522C !important;
 }
 .breadcrumb-area .breadcrumb.dark li.active {
   color: #B3522C !important;
@@ -687,6 +685,17 @@ h4 {
 .cabinform .form-check-input[type=checkbox]:checked {
   background-color: #B3522C;
   border-color: #B3522C;
+}
+@media only screen and (min-width: 1200px) {
+  .cabinform.gift-form .form-line {
+    margin-bottom: 0;
+  }
+  .cabinform.gift-form .form-line + .form-line {
+    margin-top: 25px;
+  }
+  .cabinform.gift-form .form-line .form-control {
+    margin-bottom: 0;
+  }
 }
 
 .summary-list {
@@ -772,6 +781,20 @@ h4 {
   .card.summary-card .card-body {
     margin-bottom: 70px;
   }
+}
+.card.gift-card .input-group-text {
+  color: #121212;
+}
+.card.gift-card .form-control {
+  margin-bottom: 0;
+}
+.card.gift-card .thin-border {
+  background-color: #767676;
+  height: 1px;
+  margin: 40px 0 20px;
+}
+.card.gift-card .card-body {
+  border-radius: 15px;
 }
 
 .topbar-area {

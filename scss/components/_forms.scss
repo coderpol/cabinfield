@@ -21,5 +21,17 @@
             border-color:$brand-color;
         }
     }
-    
+    &.gift-form{
+        .form-line{
+            @include from-pc{
+                margin-bottom:0;
+                &+.form-line{
+                    margin-top:$m-25;
+                }
+                .form-control{
+                    margin-bottom:0;
+                }
+            }
+        }
+    }    
 }

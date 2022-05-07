@@ -23,4 +23,20 @@
             }
         }
     }
+    &.gift-card{
+        .input-group-text{
+            color:$blue-darkest;
+        }
+        .form-control{
+            margin-bottom:0;
+        }
+        .thin-border{
+            background-color: $gray-dark-1;
+            height:1px;
+            margin:$m-40 0 $m-20;
+        }
+        .card-body{
+            @include rounded($m-15);
+        }
+    }
 }
