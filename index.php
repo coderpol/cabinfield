@@ -30,9 +30,9 @@
                     <li class="review"><a href="checkout-info.php">Checkout Info</a></li>
                     <li class="review"><a href="testimonials.php">Testimonials</a></li>
                     <li class="review"><a href="faq.php">FAQ</a></li>
-                    <li class="working"><a href="warranty.php">Warranty</a></li>
-                    <li class="working"><a href="privacy-policy.php">Privacy Policy</a></li>
-                    <li class="working"><a href="terms-of-use.php">Terms of Use</a></li>
+                    <li class="review"><a href="warranty.php">Warranty</a></li>
+                    <li class="review"><a href="privacy-policy.php">Privacy Policy</a></li>
+                    <li class="review"><a href="terms-of-use.php">Terms of Use</a></li>
                 </ol>
             </div>
         </div>

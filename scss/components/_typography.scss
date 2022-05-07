@@ -49,10 +49,29 @@
         margin-bottom:$m-15;
     }
 }
+
+.article-title{
+    h2,h3,h4{
+        @include font($font-24,$line-31,$font-medium);
+        color:$brand-color;
+        margin-bottom:$m-20;
+    }
+}
+
+.article-subtitle{
+    @include font($font-16,$line-21,$font-bold);
+    color:$blue-darkest;
+    margin-bottom:$m-15;
+}
+
 h4{
     @include font($font-18,$line-23,$font-bold);
     color:$blue-darkest;
     margin-bottom:$m-15;
+}
+
+.uppercase{
+    text-transform: uppercase;
 }
 
 .blue{

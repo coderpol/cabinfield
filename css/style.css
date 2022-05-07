@@ -371,12 +371,32 @@ a:hover {
   margin-bottom: 15px;
 }
 
+.article-title h2, .article-title h3, .article-title h4 {
+  font-size: 24px;
+  line-height: 31px;
+  font-weight: 500;
+  color: #B3522C;
+  margin-bottom: 20px;
+}
+
+.article-subtitle {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 700;
+  color: #121212;
+  margin-bottom: 15px;
+}
+
 h4 {
   font-size: 18px;
   line-height: 23px;
   font-weight: 700;
   color: #121212;
   margin-bottom: 15px;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }
 
 .blue {
@@ -2611,6 +2631,15 @@ h4 {
 .page-content .accordion-area .accordion {
   margin-bottom: 40px;
 }
+.page-content .accordion-area .accordion.no-section-heading .accordion-button {
+  font-size: 20px;
+  line-height: 23px;
+  font-weight: 700;
+  color: #121212;
+}
+.page-content .accordion-area .accordion.no-section-heading .accordion-item {
+  border-bottom: none !important;
+}
 .page-content .accordion-area .accordion-button:not(.collapsed), .page-content .accordion-area .accordion-button:focus {
   color: #121212;
   -webkit-box-shadow: none;
@@ -2621,13 +2650,12 @@ h4 {
   padding-left: 0;
   position: relative;
   padding-right: 50px;
-  color: #514646;
+  border-bottom: 1px solid #B3522C;
+  color: #B3522C;
 }
 .page-content .accordion-area .accordion-button:after {
   content: ">";
   background-image: none;
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
   font-size: 20px;
   line-height: 20px;
   font-weight: 700;
@@ -2639,21 +2667,30 @@ h4 {
   width: 10px;
   height: 15px;
   line-height: 15px;
-}
-.page-content .accordion-area .accordion-button:not(.collapsed) {
-  border-bottom: 1px solid #B3522C;
-  color: #B3522C;
-}
-.page-content .accordion-area .accordion-button:not(.collapsed):after {
   color: #B3522C;
   -webkit-transform: rotate(-90deg);
           transform: rotate(-90deg);
+}
+.page-content .accordion-area .accordion-button.collapsed {
+  border-bottom: 0;
+  color: #514646;
+}
+.page-content .accordion-area .accordion-button.collapsed:after {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  color: #514646;
 }
 .page-content .accordion-area .accordion-body {
   padding-left: 0;
 }
 .page-content .accordion-area .accordion-flush .accordion-item {
   border-bottom: 1px solid #E0E0E0 !important;
+}
+.page-content .main-content p {
+  color: #121212;
+}
+.page-content .main-content .sub-article {
+  margin-bottom: 40px;
 }
 
 .order-confirmation-section .confirmation-box {

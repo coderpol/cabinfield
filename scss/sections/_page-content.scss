@@ -154,6 +154,15 @@
     .accordion-area{
         .accordion{
             margin-bottom:$m-40;
+            &.no-section-heading{
+                .accordion-button{
+                    @include font($font-20,$line-23,$font-bold);
+                    color:$blue-darkest;
+                }
+                .accordion-item{
+                    border-bottom:none !important;
+                }
+            }
         }
         .accordion-button:not(.collapsed), .accordion-button:focus{
             color:$blue-darkest;
@@ -164,11 +173,12 @@
             padding-left:0;
             position:relative;
             padding-right:$m-50;
-            color:$gray-dark-3;
+            
+            border-bottom:$thin solid $brand-color;
+            color:$brand-color;
             &:after{
                 content:">";
                 background-image: none;
-                transform:rotate(90deg);
                 @include font($font-20,$font-20,$font-bold);
                 position: absolute;
                 right: 20px;
@@ -177,14 +187,15 @@
                 width: 10px;
                 height: 15px;
                 line-height: 15px;
-            }
-            &:not(.collapsed){
-                border-bottom:$thin solid $brand-color;
                 color:$brand-color;
+                transform:rotate(-90deg);
+            }
+            &.collapsed{
+                border-bottom:0;
+                color:$gray-dark-3;
                 &:after{
-                    color:$brand-color;
-                    transform:rotate(-90deg);
-                    
+                    transform:rotate(90deg);
+                    color:$gray-dark-3;
                 }
             }
         }
@@ -197,4 +208,15 @@
             }
         }
     }
+    
+    .main-content{
+        p{
+            color:$blue-darkest;
+        }
+        .sub-article{
+            margin-bottom:$m-40;
+        }
+    }
+    
+    
 }
