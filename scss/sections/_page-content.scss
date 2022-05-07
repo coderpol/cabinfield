@@ -2,14 +2,14 @@
     padding:$m-20 0 $m-50;
     p{
         @include font($font-16,$m-25);
-        color:$text-primary-color;
+        color:$gray-dark-3;
         .primary{
-            color:$primary-color;
+            color:$brand-color;
         }
         a{
             text-decoration: underline;
             &:hover{
-                color:$primary;
+                color:$brand-color;
                 text-decoration: none;
             }
         }
@@ -38,7 +38,7 @@
                     display:inline-block;
                     margin-top:$m-20;
                     @include font($font-20, $line-26, $font-bold);
-                    color:$gray-dark;
+                    color:$blue-darkest;
                 }
             }
             @include upto-phone{
@@ -81,10 +81,10 @@
             font-size:1em;
         }
         .quotation{
-            border-top:1px solid $border-gray-light;
+            border-top:1px solid $gray;
             padding:$m-50 0 $m-40;
             &:last-child{
-                border-bottom:1px solid $border-gray-light;
+                border-bottom:1px solid $gray;
             }
             &:before{
                 width:$m-40;
@@ -94,12 +94,12 @@
             blockquote{
                 margin:$m-10 0 $m-15;
                 font-weight: $font-medium;
-                color:$blue-2;
+                color:$blue-darker-4;
             }
             p{
                 .author{
                     @include font($font-16,$line-23,$font-medium);
-                    color:$gray-dark;
+                    color:$blue-darkest;
                     margin-bottom:0;
                     &.verified{
                         &:after{
@@ -114,7 +114,7 @@
                 &.history{
                     @include font($font-16,$line-23,$font-bold);
                     a{
-                        color:$primary;
+                        color:$brand-color;
                         text-decoration: none;
                         &:hover{
                             text-decoration: underline;
@@ -134,20 +134,20 @@
             padding-left:0;
             list-style-type: none;
             li{
-                border-bottom:1px solid $border-gray-light;
+                border-bottom:1px solid $gray;
                 padding:$m-15 0;
                 a{
                     @include font($font-16,$m-20);
-                    color:$gray-dark;
+                    color:$blue-darkest;
                     &:hover{
                         text-decoration: none;
-                        color:$primary-color;
+                        color:$brand-color;
                     }
                 }
                 &.active{
                     a{
                         font-weight: $font-medium;
-                        color:$primary-color;
+                        color:$brand-color;
                     }
                 }
             }

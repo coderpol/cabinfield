@@ -40,7 +40,7 @@
     }
     blockquote{
         margin:$m-30 0;
-        color:$blue-2;
+        color:$blue-darker-4;
         font-size:$font-16;
         line-height:$m-25;
         font-weight: $font-medium;
@@ -50,9 +50,12 @@
         .author{
             font-size:$font-20;
             line-height:$m-25;
-            color:$gray-dark;
+            color:$blue-darkest;
             display: inline-block;
             position:relative;
+            i{
+                color:$blue-royal;
+            }
             &.verified{
                 &:after{
                     content:"";
@@ -69,7 +72,7 @@
         }
         .address{
             display:block;
-            color:$gray-3;
+            color:$gray-dark-1;
             font-size:$font-16;
             line-height:$m-20;
             margin-top:$m-5;

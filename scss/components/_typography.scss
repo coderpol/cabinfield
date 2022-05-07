@@ -2,7 +2,7 @@
     font-family: $font-dm;
     font-weight: $font-medium;
     span{
-        color:$primary-color;
+        color:$brand-color;
     }
     h2,h3,h4{
         @include font($font-44,100%,$font-bold);
@@ -24,27 +24,27 @@
 .section-sub-title{
     h2,h3,h4{
         @include font($font-24,$line-31,$font-bold);
-        color:$text-dark-color;
+        color:$blue-darkest;
     }
 }
 
 .heading-22{
     h2,h3,h4{
         @include font($font-22,$line-29,$font-medium);
-        color:$text-dark-color;
+        color:$blue-darkest;
         margin-bottom:$m-30;
     }
 }
 .heading-18{
     h2,h3,h4{
         @include font($font-18,$line-23,$font-bold);
-        color:$text-dark-color;
+        color:$blue-darkest;
         margin-bottom:$m-15;
     }
 }
 h4{
     @include font($font-18,$line-23,$font-bold);
-    color:$text-dark-color;
+    color:$blue-darkest;
     margin-bottom:$m-15;
 }
 
@@ -56,14 +56,14 @@ h4{
 }
 
 .text-dark-color{
-    color:$gray-dark;
+    color:$blue-darkest;
     p{
-        color:$gray-dark !important;
+        color:$blue-darkest !important;
     }
 }
 .text-light-color{
-    color:$text-gray-light;
+    color:$gray;
     p{
-        color:$text-gray-light !important;
+        color:$gray !important;
     }
 }

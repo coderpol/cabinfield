@@ -25,6 +25,7 @@
         .top-nav{
             // width:60%;
             float:left;
+            padding-left:0;
             li{
                 margin-right: $m-10;
                 a{
@@ -37,10 +38,8 @@
             float:left;
             text-align: right;
             padding: $m-10;
-            padding-top:$m-15;
             li{
                 i{
-                    float:left;
                     margin-right:$m-5;
                 }
                 a{
@@ -87,14 +86,14 @@
                 width:100%;
                 margin-top:10px;
                 padding:5px 0;
-                border-top:$thin solid $gray-border;
-                border-bottom:$thin solid $gray-border;
+                border-top:$thin solid $blue-light-2;
+                border-bottom:$thin solid $blue-light-2;
                 li{
                     border: 1px solid #dedede;
                     margin-bottom: 5px; 
                     a{
                         &:hover{
-                            background-color: $primary-color;
+                            background-color: $brand-color;
                             text-decoration:none;
                         }
                     }

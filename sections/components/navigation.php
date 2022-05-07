@@ -12,6 +12,7 @@
                         <a href="#" class="nav-link dropdown-toggle" href="#" role="button" id="dropdown-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Fine Furniture</a>
                         <div class="dropdown-menu submenu-block" aria-labelledby="dropdown-1">
                             <h3>Fine Furniture</h3>
+                            <a href="#" class="link stock-link">Items in stocks</a>
                             <div class="submenu-area">
                                 <div class="category">
                                     <h4>Bedrooms</h4>
@@ -52,6 +53,7 @@
                         <a href="#" class="nav-link dropdown-toggle" href="#" role="button" id="dropdown-2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Rustic & Live Edge</a>
                         <div class="dropdown-menu submenu-block" aria-labelledby="dropdown-2">
                             <h3>Rustic & Live Edge</h3>
+                            <a href="#" class="link stock-link">Items in stocks</a>
                             <div class="submenu-area">
                                 <ul class="submenu">
                                     <li><a href="#">Gazebos</a></li>
@@ -66,6 +68,7 @@
                         <a href="#"  class="nav-link dropdown-toggle" href="#" id="dropdown-3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Outdoor</a>
                         <div class="dropdown-menu submenu-block" aria-labelledby="dropdown-3">
                             <h3>Outdoor</h3>
+                            <a href="#" class="link stock-link">Items in stocks</a>
                             <div class="submenu-area">
                                 <ul class="submenu">
                                     <li><a href="#">Historic Furniture</a></li>

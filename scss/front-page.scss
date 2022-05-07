@@ -6,7 +6,7 @@
 @import 'base/preset';
 
 .font-page{
-    background: $bg-main;
+    background: $whitish-2;
     .container{
         width:100%;
         max-width: 600px;
@@ -20,16 +20,16 @@
                 font-weight: $font-bold;
                 margin-bottom:0;
                 text-transform: uppercase;
-                color:$primary-color;
+                color:$brand-color;
                 span{
-                    color:$gray-dark;
+                    color:$blue-darkest;
                     text-transform: capitalize;
                 }
             }
             margin-bottom:25px;
         }
         .content{
-            border:1px solid $gray-dark;
+            border:1px solid $blue-darkest;
             padding:20px;
             .page-list{
                 list-style-type: decimal;
@@ -56,7 +56,7 @@
                         &:after{
                             content:"(Please Review)";
                         }
-                        &:after, a{color:$primary;}
+                        &:after, a{color:$brand-color;}
                     }
                     &.done{
                         &:after{

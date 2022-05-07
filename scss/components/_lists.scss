@@ -2,12 +2,12 @@
     margin-bottom:$m-25;
     li, .list-item{
         padding: $m-10 0;
-        border-bottom: 1px solid $border-gray-light;
-        color:$text-primary-color;
+        border-bottom: 1px solid $gray;
+        color:$gray-dark-3;
         span{
             float: right;
             font-weight: $font-bold;
-            color:$gray-dark;
+            color:$blue-darkest;
         }
         &:last-child{
             border-bottom:0;
@@ -31,7 +31,7 @@
             display:inline-block;
         }
         .value{
-            color:$primary;
+            color:$brand-color;
             font-weight: $font-bold;
             @include font($font-22,$line-29,$font-bold);
             margin-top:3px;

@@ -1,50 +1,61 @@
 // colors
 $white: #fff;
 $black: #000;
-$primary-color : #B3522C;
-$primary : $primary-color;
-$bg-main : #E5E5E5;
+$brand-color : #B3522C;
+
+$whitish-1 : #F0F2F5;
+$whitish-2 : #E5E5E5;
+
+$blue-light-1: #9DA8B7;
+$blue-light-2: #C6CDD7;
 $blue : #627590;
-$blue-2 : #1F173D;
-$blue-3: #424F61;
-$blue-dark: #3F4B5C;
-$blue-4: #6A778A;
+$blue-darker-1: #6A778A;
+$blue-darker-2 : #424F61;
+$blue-darker-3: #3F4B5C;
+$blue-darker-4 : #1F173D;
+$blue-darkest : #121212;
+$blue-royal: #6086C2;
 
-$gray-dark : #121212;
-$gray-light: #4F4F4F;
-$bg-gray-1 : #F0F2F5;
-$gray-border: #C6CDD7;
-$gray-3: #767676;
-$gray-4: #DDDDDD;
-$gray-5: #514646;
-
-$text-primary-color: $gray-5;
-$text-dark-color : $gray-dark;
-$text-gray-light: $gray-4;
-$border-gray-light: $gray-4;
+$gray: #DDDDDD;
+$gray-dark-1: #767676;
+$gray-dark-2: #4F4F4F;
+$gray-dark-3: #514646;
 
 // set another color value
-$selection-color : $primary-color;
-$placeholder-color : #9DA8B7;
-$scroll-track-color:$gray-light;
-$scroll-thumb-color:$gray-dark;
-$scroll-hover-color: $primary-color;
+$selection-color : $brand-color;
+$placeholder-color : $blue-light-1;
+$scroll-track-color:$gray-dark-2;
+$scroll-thumb-color:$blue-darkest;
+$scroll-hover-color: $brand-color;
 
 // font size variables
 $base-font-size : 14px;
 $base-line-height: 1.428571429em;
 $font-14: $base-font-size;
-$font-16: 1.14285em;
-$font-18: 1.28571em;
-$font-20: 1.42857em;
+// em based font size
+// $font-16: 1.14285em;
+// $font-18: 1.28571em;
+// $font-20: 1.42857em;
+// $font-22: 22px;
+// $font-24: 1.71424em;
+// $font-26: 1.85714em;
+// $font-30: 2.14285em;
+// $font-36: 2.57142em;
+// $font-40: 2.85714em;
+// $font-44: 3.14285em;
+// $font-54: 3.85714em;
+// pixel based font size
+$font-16: 16px;
+$font-18: 18px;
+$font-20: 20px;
 $font-22: 22px;
-$font-24: 1.71424em;
-$font-26: 1.85714em;
-$font-30: 2.14285em;
-$font-36: 2.57142em;
-$font-40: 2.85714em;
-$font-44: 3.14285em;
-$font-54: 3.85714em;
+$font-24: 24px;
+$font-26: 26px;
+$font-30: 30px;
+$font-36: 36px;
+$font-40: 40px;
+$font-44: 44px;
+$font-54: 54px;
 
 
 // margin and padding variable
@@ -79,6 +90,7 @@ $thick : 4px;
 
 // line height varibales
 $line-18: 18px;
+$line-21: 21px;
 $line-23: 23px;
 $line-26: 26px;
 $line-29: 29px;

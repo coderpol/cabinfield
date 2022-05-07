@@ -21,7 +21,7 @@ include_once('sections/layouts/header.php')
 </div>
 
 
-<div class="choice-points clearfix">
+<div class="choice-points mt-5 clearfix">
     <div class="container">
         <div class="row">
             <header class="col-md-12 section-title text-center">

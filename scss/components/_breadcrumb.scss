@@ -50,19 +50,19 @@
                     width:20px;
                } 
                a{
-                   color:$primary-color;
+                   color:$brand-color;
                }
             }
         }
         &.dark{
-            li{color:$blue-dark;}
-            a{color:$blue-dark;}
+            li{color:$blue-darker-3;}
+            a{color:$blue-darker-3;}
             li{
                 &:after{
-                    color:$primary-color !important;
+                    color:$brand-color !important;
                 }
                 &.active{
-                    color:$primary-color !important;
+                    color:$brand-color !important;
                 }
             }
         }

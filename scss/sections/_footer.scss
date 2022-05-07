@@ -1,8 +1,8 @@
 .footer{
-    border-top: $thin solid $gray-4;
+    border-top: $thin solid $gray;
     padding:$m-30 0;
     a,p{
-        color:$blue-3;
+        color:$blue-darker-2;
     }
     li{
         list-style-type: none;
@@ -21,7 +21,7 @@
                 max-width:214px;
             }
             .copyright{
-                color:$blue-3;
+                color:$blue-darker-2;
                 font-size:$font-16;
                 line-height:$font-24;
             }
@@ -73,7 +73,7 @@
                         background-position:0 -107px;
                     }
                     &:hover{
-                        color:$primary-color;
+                        color:$brand-color;
                         i{
                             background-position: -31px -107px;
                         }
@@ -97,7 +97,7 @@
                         font-size:$font-14;
                         line-height:$font-16;
                         &:hover{
-                            color:$primary-color;
+                            color:$brand-color;
                             
                         }
                     }

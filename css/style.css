@@ -329,24 +329,24 @@ a:hover {
   color: #B3522C;
 }
 .section-title h2, .section-title h3, .section-title h4 {
-  font-size: 3.14285em;
+  font-size: 44px;
   line-height: 100%;
   font-weight: 700;
   margin-bottom: 20px;
 }
 .section-title.medium h2, .section-title.medium h3, .section-title.medium h4 {
-  font-size: 2.85714em;
+  font-size: 40px;
   line-height: 52px;
   font-weight: 700;
 }
 .section-title.small h2, .section-title.small h3, .section-title.small h4 {
-  font-size: 2.57142em;
+  font-size: 36px;
   line-height: 47px;
   font-weight: 700;
 }
 
 .section-sub-title h2, .section-sub-title h3, .section-sub-title h4 {
-  font-size: 1.71424em;
+  font-size: 24px;
   line-height: 31px;
   font-weight: 700;
   color: #121212;
@@ -361,7 +361,7 @@ a:hover {
 }
 
 .heading-18 h2, .heading-18 h3, .heading-18 h4 {
-  font-size: 1.28571em;
+  font-size: 18px;
   line-height: 23px;
   font-weight: 700;
   color: #121212;
@@ -369,7 +369,7 @@ a:hover {
 }
 
 h4 {
-  font-size: 1.28571em;
+  font-size: 18px;
   line-height: 23px;
   font-weight: 700;
   color: #121212;
@@ -507,7 +507,7 @@ h4 {
 }
 .btn.btn-large {
   padding: 15px 60px;
-  font-size: 1.14285em;
+  font-size: 16px;
 }
 .btn.btn-medium {
   padding: 15px 40px;
@@ -582,8 +582,8 @@ h4 {
 }
 .breadcrumb-area .breadcrumb li {
   color: #fff;
-  font-size: 1.14285em;
-  line-height: 1.42857em;
+  font-size: 16px;
+  line-height: 20px;
   padding-right: 30px;
   position: relative;
 }
@@ -593,7 +593,7 @@ h4 {
 .breadcrumb-area .breadcrumb li:after {
   content: ">";
   margin: 0 10px;
-  font-size: 1.28571em;
+  font-size: 18px;
   font-family: "DM Sans", sans-serif;
   position: absolute;
   display: block;
@@ -613,7 +613,7 @@ h4 {
 .breadcrumb-area .breadcrumb.reverse li:after {
   content: "<";
   margin: 0 10px;
-  font-size: 1.28571em;
+  font-size: 18px;
   font-family: "DM Sans", sans-serif;
   position: absolute;
   display: block;
@@ -644,7 +644,7 @@ h4 {
   margin-bottom: 15px;
 }
 .cabinform .form-line label, .cabinform .form-line .form-label {
-  font-size: 1.14285em;
+  font-size: 16px;
   line-height: 23px;
   font-weight: 500;
   margin-bottom: 10px;
@@ -684,7 +684,7 @@ h4 {
 }
 .summary-list li.total, .summary-list .list-item.total {
   border-bottom: 0;
-  font-size: 1.28571em;
+  font-size: 18px;
   line-height: 23px;
   font-weight: 700;
 }
@@ -696,7 +696,7 @@ h4 {
 .specification-list li {
   color: #627590;
   vertical-align: middle;
-  font-size: 1.14285em;
+  font-size: 16px;
   line-height: 23px;
   font-weight: 400;
 }
@@ -729,7 +729,7 @@ h4 {
   }
 }
 .card.summary-card .card-title {
-  font-size: 1.42857em;
+  font-size: 20px;
   line-height: 26px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -788,6 +788,7 @@ h4 {
 }
 .topbar-area .topbar-nav .top-nav {
   float: left;
+  padding-left: 0;
 }
 .topbar-area .topbar-nav .top-nav li {
   margin-right: 10px;
@@ -799,10 +800,8 @@ h4 {
   float: left;
   text-align: right;
   padding: 10px;
-  padding-top: 15px;
 }
 .topbar-area .topbar-nav .contact-details li i {
-  float: left;
   margin-right: 5px;
 }
 .topbar-area .topbar-nav .contact-details li a {
@@ -888,10 +887,12 @@ h4 {
   position: relative;
   margin-top: 10px;
 }
-.header-area .search-area .searchform .cabincon {
+.header-area .search-area .searchform i {
   position: absolute;
   left: 10px;
   top: 10px;
+  font-size: 20px;
+  color: #C6CDD7;
 }
 .header-area .search-area .searchform input {
   width: 100%;
@@ -930,9 +931,7 @@ h4 {
 }
 .header-area .cart-area .cart-list li a i {
   position: relative;
-}
-.header-area .cart-area .cart-list li a i.shopping-cart-white {
-  display: none;
+  font-size: 20px;
 }
 .header-area .cart-area .cart-list li a .counter {
   position: absolute;
@@ -981,11 +980,8 @@ h4 {
   .header-area .cart-area .cart-list li a {
     color: #fff;
   }
-  .header-area .cart-area .cart-list li a i.shopping-cart-blue {
-    display: none;
-  }
-  .header-area .cart-area .cart-list li a i.shopping-cart-white {
-    display: block;
+  .header-area .cart-area .cart-list li a i {
+    color: #fff;
   }
 }
 .navigation-area {
@@ -1029,7 +1025,7 @@ h4 {
   font-weight: 500;
   display: inline-block;
   padding: 10px 30px;
-  font-size: 1.28571em;
+  font-size: 18px;
   position: relative;
   text-transform: uppercase;
   letter-spacing: 2.5px;
@@ -1081,7 +1077,7 @@ h4 {
   margin-top: 0;
   border: none;
   display: none;
-  min-width: 300px;
+  min-width: 440px;
 }
 .navigation-area .main-nav > li .submenu-block.full-width {
   width: 100%;
@@ -1091,6 +1087,16 @@ h4 {
   margin-bottom: 30px;
   font-weight: 700;
   text-transform: capitalize;
+}
+.navigation-area .main-nav > li .submenu-block .stock-link {
+  position: absolute;
+  right: 30px;
+  top: 35px;
+  text-decoration: underline;
+  color: #B3522C;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 700;
 }
 .navigation-area .main-nav > li .submenu-block .category h4 {
   font-size: 1em;
@@ -1105,7 +1111,7 @@ h4 {
 .navigation-area .main-nav > li .submenu-block .submenu {
   list-style-type: none;
   list-style-position: inside;
-  color: #B3522C;
+  color: #627590;
   margin-left: 0px;
   padding-left: 0;
 }
@@ -1113,7 +1119,6 @@ h4 {
   margin: 12px 0;
 }
 .navigation-area .main-nav > li .submenu-block .submenu li a {
-  color: #B3522C;
   font-size: 16px;
   font-weight: 500;
 }
@@ -1234,19 +1239,19 @@ h4 {
   }
 }
 .header-banner .banner-text .tagline {
-  font-size: 2.14285em;
+  font-size: 30px;
   line-height: 160%;
   font-weight: 400;
 }
 .header-banner .banner-text .heading {
-  font-size: 3.85714em;
+  font-size: 54px;
   line-height: 130%;
   font-weight: 700;
   margin-bottom: 25px;
 }
 .header-banner .banner-text .btn {
   width: 180px;
-  font-size: 1.14285em;
+  font-size: 16px;
 }
 
 @media only screen and (max-width: 1199px) {
@@ -1254,10 +1259,10 @@ h4 {
     margin: 15vw 0;
   }
   .header-banner .banner-text .tagline {
-    font-size: 1.42857em;
+    font-size: 20px;
   }
   .header-banner .banner-text .heading {
-    font-size: 2.14285em;
+    font-size: 30px;
   }
 }
 .choice-points {
@@ -1339,14 +1344,14 @@ h4 {
   background: url("../images/points/stellar-service.svg");
 }
 .choice-points .points-area .point h3 {
-  font-size: 1.71424em;
+  font-size: 24px;
   line-height: 100%;
   font-weight: 700;
   margin-bottom: 20px;
 }
 .choice-points .points-area .point p {
-  font-size: 1.14285em;
-  line-height: 1.85714em;
+  font-size: 16px;
+  line-height: 26px;
   color: #4F4F4F;
 }
 .choice-points .action-area {
@@ -1382,7 +1387,7 @@ h4 {
   background: url("../images/points/small/search-status.svg");
 }
 .choice-points.smaller .points-area .point h3 {
-  font-size: 1.71424em;
+  font-size: 24px;
   line-height: 35px;
   font-weight: 500;
 }
@@ -1488,7 +1493,7 @@ h4 {
 }
 .display-board .display-area .display .display-text p {
   color: #121212;
-  font-size: 1.28571em;
+  font-size: 18px;
   line-height: 160%;
   opacity: 0.7;
   margin-bottom: 2rem;
@@ -1651,7 +1656,7 @@ h4 {
 .quotation blockquote {
   margin: 30px 0;
   color: #1F173D;
-  font-size: 1.14285em;
+  font-size: 16px;
   line-height: 25px;
   font-weight: 500;
 }
@@ -1659,11 +1664,14 @@ h4 {
   letter-spacing: 0.3px;
 }
 .quotation p .author {
-  font-size: 1.42857em;
+  font-size: 20px;
   line-height: 25px;
   color: #121212;
   display: inline-block;
   position: relative;
+}
+.quotation p .author i {
+  color: #6086C2;
 }
 .quotation p .author.verified:after {
   content: "";
@@ -1679,7 +1687,7 @@ h4 {
 .quotation p .address {
   display: block;
   color: #767676;
-  font-size: 1.14285em;
+  font-size: 16px;
   line-height: 20px;
   margin-top: 5px;
 }
@@ -1921,27 +1929,29 @@ h4 {
   -webkit-box-shadow: 0px 0px 17px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 0px 17px rgba(0, 0, 0, 0.2);
 }
+.cta-banner .banner h2, .cta-banner .banner h3, .cta-banner .banner h4, .cta-banner .banner h5, .cta-banner .banner p, .cta-banner .banner a {
+  color: #fff;
+}
 .cta-banner .banner h3 {
-  font-size: 3.14285em;
+  font-size: 44px;
   line-height: 140%;
   font-weight: 700;
   margin-bottom: 30px;
 }
 .cta-banner .banner h4 {
-  font-size: 2.14285em;
+  font-size: 30px;
   line-height: 40px;
   font-weight: 700;
   margin-bottom: 40px;
 }
 .cta-banner .banner p {
-  font-size: 1.28571em;
+  font-size: 18px;
   line-height: 160%;
   font-weight: 400;
   margin-bottom: 20px;
   font-weight: 400;
 }
 .cta-banner .banner p a {
-  color: #fff;
   font-weight: 700;
 }
 
@@ -1988,8 +1998,8 @@ h4 {
 }
 .footer .footer-area .footer-logo .copyright {
   color: #424F61;
-  font-size: 1.14285em;
-  line-height: 1.71424em;
+  font-size: 16px;
+  line-height: 24px;
 }
 .footer .footer-area .footer-social .social-icons {
   margin-left: 0;
@@ -2034,7 +2044,7 @@ h4 {
   background-position-x: -32px !important;
 }
 .footer .footer-area .footer-social .newsletter {
-  line-height: 1.71424em;
+  line-height: 24px;
 }
 .footer .footer-area .footer-social .newsletter a i {
   display: block;
@@ -2058,7 +2068,7 @@ h4 {
 }
 .footer .footer-area .footer-links .links li a {
   font-size: 14px;
-  line-height: 1.14285em;
+  line-height: 16px;
 }
 .footer .footer-area .footer-links .links li a:hover {
   color: #B3522C;
@@ -2116,11 +2126,11 @@ h4 {
   text-align: left;
 }
 .page-heading-section .page-headline .section-title h2, .page-heading-section .page-headline .section-title h3, .page-heading-section .page-headline .section-title h4 {
-  font-size: 2.57142em;
+  font-size: 36px;
 }
 .page-heading-section .page-headline .section-title p {
   color: #514646;
-  font-size: 1.14285em;
+  font-size: 16px;
   line-height: 25px;
   font-weight: 400;
 }
@@ -2139,14 +2149,14 @@ h4 {
   margin-bottom: 30px;
 }
 .page-heading-section .heading-text .head {
-  font-size: 1.71424em;
+  font-size: 24px;
   line-height: 30px;
   font-weight: 700;
   color: #121212;
 }
 .page-heading-section .heading-text p {
   color: #514646;
-  font-size: 1.14285em;
+  font-size: 16px;
   line-height: 25px;
 }
 
@@ -2195,13 +2205,13 @@ h4 {
   margin-bottom: 25px;
 }
 .products-section .products-area.type-a .product h3, .products-section .products-area.type-a .product h4 {
-  font-size: 1.71424em;
+  font-size: 24px;
   line-height: 30px;
   font-weight: 700;
   margin-bottom: 5px;
 }
 .products-section .products-area.type-a .product p {
-  font-size: 1.14285em;
+  font-size: 16px;
   line-height: 25px;
   color: #514646;
 }
@@ -2220,7 +2230,7 @@ h4 {
   margin-bottom: 20px;
 }
 .products-section .products-area.type-b .product .details p {
-  font-size: 1.14285em;
+  font-size: 16px;
   line-height: 26px;
   color: #121212;
 }
@@ -2231,7 +2241,7 @@ h4 {
   margin-bottom: 20px;
 }
 .products-section .products-area.type-b .product .action-area .action h4 {
-  font-size: 1.42857em;
+  font-size: 20px;
   line-height: 26px;
   font-weight: 700;
   color: #121212;
@@ -2283,7 +2293,7 @@ h4 {
   max-width: 190px;
 }
 .order-summary-section .ordered-items-list .ordered-item .description h4, .order-summary-section .ordered-items-list .ordered-item .description h3 {
-  font-size: 1.71424em;
+  font-size: 24px;
   line-height: 31px;
   font-weight: 700;
   margin-bottom: 15px;
@@ -2332,14 +2342,14 @@ h4 {
   padding: 15px;
 }
 .popular-section.type-box .popular-area .popular-sample .text h4 {
-  font-size: 1.42857em;
+  font-size: 20px;
   line-height: 26px;
   font-weight: 700;
   margin-bottom: 10px;
   margin-top: 15px;
 }
 .popular-section.type-box .popular-area .popular-sample .text p {
-  font-size: 1.14285em;
+  font-size: 16px;
   line-height: 25px;
   font-weight: 700;
   font-weight: 400;
@@ -2359,7 +2369,7 @@ h4 {
 }
 .popular-section.type-row .popular-sample p {
   color: #514646;
-  font-size: 1.14285em;
+  font-size: 16px;
   line-height: 25px;
   font-weight: 400;
 }
@@ -2374,7 +2384,7 @@ h4 {
   }
 }
 .popular-section.type-row .popular-sample .sample-details h3 {
-  font-size: 1.71424em;
+  font-size: 24px;
   line-height: 31px;
   font-weight: 700;
   color: #121212;
@@ -2387,7 +2397,7 @@ h4 {
   }
 }
 .popular-section.type-row .popular-sample .sample-use h4 {
-  font-size: 1.28571em;
+  font-size: 18px;
   line-height: 23px;
   font-weight: 700;
   margin-bottom: 15px;
@@ -2402,7 +2412,7 @@ h4 {
   padding: 20px 0 50px;
 }
 .page-content p {
-  font-size: 1.14285em;
+  font-size: 16px;
   line-height: 25px;
   font-weight: 400;
   color: #514646;
@@ -2450,7 +2460,7 @@ h4 {
 .page-content .article .rounded-samples li span, .page-content .article .rounded-samples li p {
   display: inline-block;
   margin-top: 20px;
-  font-size: 1.42857em;
+  font-size: 20px;
   line-height: 26px;
   font-weight: 700;
   color: #121212;
@@ -2518,7 +2528,7 @@ h4 {
   color: #1F173D;
 }
 .page-content .quotation-area .quotation p .author {
-  font-size: 1.14285em;
+  font-size: 16px;
   line-height: 23px;
   font-weight: 500;
   color: #121212;
@@ -2534,7 +2544,7 @@ h4 {
   font-weight: 400;
 }
 .page-content .quotation-area .quotation p.history {
-  font-size: 1.14285em;
+  font-size: 16px;
   line-height: 23px;
   font-weight: 700;
 }
@@ -2558,7 +2568,7 @@ h4 {
   padding: 15px 0;
 }
 .page-content .page-sidebar .page-list li a {
-  font-size: 1.14285em;
+  font-size: 16px;
   line-height: 20px;
   font-weight: 400;
   color: #121212;
@@ -2582,13 +2592,13 @@ h4 {
   }
 }
 .order-confirmation-section .confirmation-box h2 {
-  font-size: 2.85714em;
+  font-size: 40px;
   line-height: 150%;
   color: #121212;
   font-weight: 700;
 }
 .order-confirmation-section .confirmation-box h3 {
-  font-size: 1.71424em;
+  font-size: 24px;
   line-height: 31px;
   font-weight: 700;
   color: #121212;
@@ -2597,8 +2607,8 @@ h4 {
   color: #B3522C;
 }
 .order-confirmation-section .confirmation-box p {
-  font-size: 1.14285em;
-  line-height: 1.71424em;
+  font-size: 16px;
+  line-height: 24px;
   color: #514646;
   margin-bottom: 40px;
 }

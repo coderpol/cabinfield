@@ -23,7 +23,7 @@
                 p{
                     font-size:$font-16;
                     line-height:$m-25;
-                    color:$text-primary-color;
+                    color:$gray-dark-3;
                 }
             }
         }
@@ -45,12 +45,12 @@
                     p{
                         font-size:$font-16;
                         line-height:$line-26;
-                        color:$text-dark-color;
+                        color:$blue-darkest;
                     }
                 }
                 .action-area{
                     .action{
-                        background-color: $bg-gray-1;
+                        background-color: $whitish-1;
                         padding:$m-20;
                         border-radius: $m-10;
                         margin-bottom:$m-20;
@@ -58,11 +58,11 @@
                             font-size:$font-20;
                             line-height:$line-26;
                             font-weight: $font-bold;
-                            color:$text-dark-color;
+                            color:$blue-darkest;
                             margin-bottom:$m-20;
                         }
                         .features{
-                            color:$text-primary-color;
+                            color:$gray-dark-3;
                             font-size:$font-14;
                             line-height: $line-18;
                             padding-left:0;
@@ -98,7 +98,7 @@
         margin-top:0;
         .ordered-item{
             padding:$m-20 0;
-            border-bottom: $thin solid $border-gray-light;
+            border-bottom: $thin solid $gray;
             &:last-child{
                 border-bottom:0;
             }

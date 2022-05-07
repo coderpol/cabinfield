@@ -16,8 +16,8 @@
                     <li><a href="#">blog</a></li>
                 </ul>
                 <ul class="col-md-4 contact-details clearfix mb-0">
-                    <li><i class="cabincon phone-white size-15"></i><a href="tel:+866-450-9663">866-450-9663</a></li>
-                    <li><i class="cabincon mail-white size-15"></i><a href="mailto:sales@cabinfield.com">sales@cabinfield.com</a></li>
+                    <li><a href="tel:+866-450-9663"><i class="fa-solid fa-phone"></i> 866-450-9663</a></li>
+                    <li><a href="mailto:sales@cabinfield.com"><i class="fa-regular fa-envelope"></i> sales@cabinfield.com</a></li>
                 </ul>
             </nav>
         </div>

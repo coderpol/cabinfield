@@ -8,7 +8,7 @@
         .card-title{
             @include font($font-20,$line-26,$font-bold);
             margin-bottom:$m-20;
-            color:$gray-dark;
+            color:$blue-darkest;
         }
         .card-body{
             flex:none;

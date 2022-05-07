@@ -1,5 +1,5 @@
 .navigation-area{
-    background: $bg-gray-1;
+    background: $whitish-1;
     padding:$m-5;
     .navbar{
         padding:0;
@@ -21,7 +21,7 @@
             position:relative;
             display:block;
             &>a{
-                color:$blue-dark !important;
+                color:$blue-darker-3 !important;
                 font-weight: $font-medium;
                 display:inline-block;
                 padding:$m-10 $m-30;
@@ -31,7 +31,7 @@
                 letter-spacing: 2.5px;
                 &:hover{
                     text-decoration: none;
-                    color:$primary-color !important;
+                    color:$brand-color !important;
                 }
                 
                 &:before{
@@ -40,7 +40,7 @@
                     height: $m-5;
                     width: $m-5;
                     border-radius: $m-5;
-                    background-color: $blue-dark;
+                    background-color: $blue-darker-3;
                     position: absolute;
                     right: -2px;
                     top: 50%;
@@ -80,7 +80,7 @@
                 @extend .fadeIn;
                 @extend .animate_faster;
                 display: none;
-                min-width:300px;
+                min-width:440px;
                 &.full-width{
                     width:100%;
                 }
@@ -89,6 +89,14 @@
                     margin-bottom:$m-30;
                     font-weight: $font-bold;
                     text-transform: capitalize;
+                }
+                .stock-link{
+                    position: absolute;
+                    right: 30px;
+                    top: 35px;
+                    text-decoration: underline;
+                    color:$brand-color;
+                    @include font($font-16,$line-21,$font-bold);
                 }
                 .submenu-area{
                 }
@@ -108,13 +116,13 @@
                 .submenu{
                     list-style-type: none;
                     list-style-position: inside;
-                    color:$primary-color;
+                    color:$blue;
                     margin-left:$m-0;
                     padding-left:0;
                     li{
                         margin:12px 0;
                         a{
-                            color:$primary-color;
+                            // color:$blue;
                             font-size:16px;
                             font-weight: $font-medium;
                         }
@@ -136,7 +144,7 @@
             }
             &:hover{
                 &>a{
-                    color:$primary-color !important;
+                    color:$brand-color !important;
                     &:after{
                         display: block;
                     }
@@ -228,7 +236,7 @@
                         }
                         &.show{
                             &:after{
-                                color:$primary-color;
+                                color:$brand-color;
                             }
                         }
                     }

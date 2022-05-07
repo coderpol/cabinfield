@@ -124,7 +124,7 @@ select[type="submit"],
 select[type="button"],
 textarea[type="submit"],
 textarea[type="button"] {
-    background: $primary-color;
+    background: $brand-color;
     color: $white;
 }
 input{
@@ -149,13 +149,13 @@ body {
     -webkit-font-smoothing: antialiased;
     position: relative;
     overflow-x: hidden;
-    color: $gray-dark;
+    color: $blue-darkest;
     background: $white;
 }
 
 h1,h2,h3,h4,h5,h6{font-size:1em;}
 
 a:hover{
-    color:$primary-color;
+    color:$brand-color;
     text-decoration: underline;
 }

@@ -19,16 +19,18 @@
         .searchform{
             position:relative;
             margin-top: 10px;
-            .cabincon{
+            i{
                 position:absolute;
                 left:$m-10;
                 top:$m-10;
+                font-size:$m-20;
+                color:$blue-light-2;
             }
             input{
                 width:100%;
                 border-radius: $m-20;
                 padding-left: $m-35;
-                border:$thin solid $gray-border;
+                border:$thin solid $blue-light-2;
                 margin-bottom:0;
                 appearance: none;
             }
@@ -51,9 +53,10 @@
                     position:relative;
                     i{
                         position:relative;
-                        &.shopping-cart-white{
-                            display: none;
-                        }
+                        font-size:$font-20;
+                        // &.shopping-cart-white{
+                        //     display: none;
+                        // }
                     }
                     .counter{
                         position:absolute;
@@ -62,7 +65,7 @@
                         display: block;
                         width: 12px;
                         height: 14px;
-                        background: $primary-color;
+                        background: $brand-color;
                         border-radius: 50%;
                         color: #fff;
                         font-size: $m-10;
@@ -107,12 +110,13 @@
                     a{
                         color:$white;
                         i{
-                            &.shopping-cart-blue{
-                                display: none;
-                            }
-                            &.shopping-cart-white{
-                                display: block;
-                            }
+                            color:$white;
+                            // &.shopping-cart-blue{
+                            //     display: none;
+                            // }
+                            // &.shopping-cart-white{
+                            //     display: block;
+                            // }
                         }
                     }
                 }

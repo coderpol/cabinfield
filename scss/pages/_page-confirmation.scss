@@ -8,22 +8,22 @@
         h2{
             font-size:$font-40;
             line-height: 150%;
-            color:$text-dark-color;
+            color:$blue-darkest;
             font-weight: $font-bold;
         }
         h3{
             font-size:$font-24;
             line-height: $line-31;
             font-weight: $font-bold;
-            color:$text-dark-color;
+            color:$blue-darkest;
             span{
-                color:$primary-color;
+                color:$brand-color;
             }
         }
         p{
             font-size:$font-16;
             line-height: $font-24;
-            color:$text-primary-color; 
+            color:$gray-dark-3; 
             margin-bottom:$m-40;
         }
         .btn{
