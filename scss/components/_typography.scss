@@ -35,6 +35,13 @@
         margin-bottom:$m-30;
     }
 }
+.heading-20, .accordion-section-title{
+    h2,h3,h4{
+        @include font($font-20,$line-23,$font-bold);
+        color:$blue-darkest;
+        margin-bottom:$m-15;
+    }
+}
 .heading-18{
     h2,h3,h4{
         @include font($font-18,$line-23,$font-bold);

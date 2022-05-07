@@ -150,4 +150,51 @@
             }
         }
     }
+    
+    .accordion-area{
+        .accordion{
+            margin-bottom:$m-40;
+        }
+        .accordion-button:not(.collapsed), .accordion-button:focus{
+            color:$blue-darkest;
+            box-shadow: none;
+            background-color: $white;
+        }
+        .accordion-button{
+            padding-left:0;
+            position:relative;
+            padding-right:$m-50;
+            color:$gray-dark-3;
+            &:after{
+                content:">";
+                background-image: none;
+                transform:rotate(90deg);
+                @include font($font-20,$font-20,$font-bold);
+                position: absolute;
+                right: 20px;
+                top: 23px;
+                transform-origin: center;
+                width: 10px;
+                height: 15px;
+                line-height: 15px;
+            }
+            &:not(.collapsed){
+                border-bottom:$thin solid $brand-color;
+                color:$brand-color;
+                &:after{
+                    color:$brand-color;
+                    transform:rotate(-90deg);
+                    
+                }
+            }
+        }
+        .accordion-body{
+            padding-left:0;
+        }
+        .accordion-flush{
+            .accordion-item{
+                border-bottom: $thin solid $gray-light-1 !important;
+            }
+        }
+    }
 }

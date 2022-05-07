@@ -2,14 +2,15 @@
     <div class="container">
         <div class="row navbar navbar-expand-lg navbar-light">
             <div class="toogle-button-area">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav" aria-controls="main_nav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav" aria-controls="main_nav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
             </div>
             <div class="collapse navbar-collapse" id="main_nav">
                 <ul class="main-nav navbar-nav col-md-12 justify-content-center" >
                     <li class="megamenu nav-item dropdown">
-                        <a href="fine-furniture.php" class="nav-link dropdown-toggle" role="button" id="dropdown-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Fine Furniture</a>
+                        
+                        <a href="#" class="nav-link dropdown-toggle" role="button" id="dropdown-1" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Fine Furniture</a>
                         <div class="dropdown-menu submenu-block" aria-labelledby="dropdown-1">
                             <h3><a href="fine-furniture.php">Fine Furniture</a></h3>
                             <a href="#" class="link stock-link">Items in stocks</a>
@@ -50,7 +51,7 @@
                         </div>
                     </li>
                     <li class="normal nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" href="#" role="button" id="dropdown-2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Rustic & Live Edge</a>
+                        <a href="#" class="nav-link dropdown-toggle" href="#" role="button" id="dropdown-2" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Rustic & Live Edge</a>
                         <div class="dropdown-menu submenu-block" aria-labelledby="dropdown-2">
                             <h3>Rustic & Live Edge</h3>
                             <a href="#" class="link stock-link">Items in stocks</a>
@@ -65,7 +66,7 @@
                         </div>
                     </li>
                     <li class="normal nav-item dropdown">
-                        <a href="#"  class="nav-link dropdown-toggle" href="#" id="dropdown-3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Outdoor</a>
+                        <a href="#"  class="nav-link dropdown-toggle" href="#" id="dropdown-3" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Outdoor</a>
                         <div class="dropdown-menu submenu-block" aria-labelledby="dropdown-3">
                             <h3>Outdoor</h3>
                             <a href="#" class="link stock-link">Items in stocks</a>

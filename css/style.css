@@ -355,6 +355,14 @@ a:hover {
   margin-bottom: 30px;
 }
 
+.heading-20 h2, .heading-20 h3, .heading-20 h4, .accordion-section-title h2, .accordion-section-title h3, .accordion-section-title h4 {
+  font-size: 20px;
+  line-height: 23px;
+  font-weight: 700;
+  color: #121212;
+  margin-bottom: 15px;
+}
+
 .heading-18 h2, .heading-18 h3, .heading-18 h4 {
   font-size: 18px;
   line-height: 23px;
@@ -2599,6 +2607,53 @@ h4 {
 .page-content .page-sidebar .page-list li.active a {
   font-weight: 500;
   color: #B3522C;
+}
+.page-content .accordion-area .accordion {
+  margin-bottom: 40px;
+}
+.page-content .accordion-area .accordion-button:not(.collapsed), .page-content .accordion-area .accordion-button:focus {
+  color: #121212;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: #fff;
+}
+.page-content .accordion-area .accordion-button {
+  padding-left: 0;
+  position: relative;
+  padding-right: 50px;
+  color: #514646;
+}
+.page-content .accordion-area .accordion-button:after {
+  content: ">";
+  background-image: none;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 700;
+  position: absolute;
+  right: 20px;
+  top: 23px;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  width: 10px;
+  height: 15px;
+  line-height: 15px;
+}
+.page-content .accordion-area .accordion-button:not(.collapsed) {
+  border-bottom: 1px solid #B3522C;
+  color: #B3522C;
+}
+.page-content .accordion-area .accordion-button:not(.collapsed):after {
+  color: #B3522C;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+.page-content .accordion-area .accordion-body {
+  padding-left: 0;
+}
+.page-content .accordion-area .accordion-flush .accordion-item {
+  border-bottom: 1px solid #E0E0E0 !important;
 }
 
 .order-confirmation-section .confirmation-box {
