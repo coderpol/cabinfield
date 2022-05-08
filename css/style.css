@@ -573,8 +573,8 @@ h4 {
   border-color: #121212;
 }
 .btn:focus {
-  -webkit-box-shadow: 0 0 0 0.25rem rgba(179, 82, 44, 0.5) !important;
-          box-shadow: 0 0 0 0.25rem rgba(179, 82, 44, 0.5) !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
 }
 
 .border-bottom {
@@ -595,6 +595,11 @@ h4 {
 
 .mb-100 {
   margin-bottom: 100px !important;
+}
+
+.rotate-90 {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
 }
 
 @media only screen and (min-width: 1200px) {
@@ -688,6 +693,7 @@ h4 {
 }
 .cabinform .form-check-input[type=checkbox] {
   width: 20px;
+  padding: 9px;
   -webkit-transform: scale(1);
           transform: scale(1);
 }
@@ -701,6 +707,11 @@ h4 {
   background-color: #B3522C;
   border-color: #B3522C;
 }
+.cabinform .form-check-input[type=checkbox]:focus {
+  border-color: rgba(179, 82, 44, 0.5);
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
 @media only screen and (min-width: 1200px) {
   .cabinform.gift-form .form-line {
     margin-bottom: 0;
@@ -711,6 +722,28 @@ h4 {
   .cabinform.gift-form .form-line .form-control {
     margin-bottom: 0;
   }
+}
+.cabinform.filter-form .accordion-item:last-child {
+  border-bottom: none !important;
+}
+.cabinform.filter-form .accordion-button {
+  border-bottom: none !important;
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 700;
+  color: #121212;
+}
+.cabinform.filter-form .accordion-button:after {
+  color: #121212 !important;
+}
+.cabinform.filter-form .accordion-body .form-check {
+  margin-bottom: 5px;
+}
+.cabinform.filter-form .accordion-body .form-check-label {
+  font-size: 16px;
+  line-height: 29px;
+  font-weight: 400;
+  color: #121212;
 }
 
 .summary-list {
@@ -2740,7 +2773,7 @@ h4 {
   padding-left: 0;
 }
 .page-content .accordion-area .accordion-flush .accordion-item {
-  border-bottom: 1px solid #E0E0E0 !important;
+  border-bottom: 1px solid #E0E0E0;
 }
 .page-content .main-content p {
   color: #121212;
@@ -2778,6 +2811,42 @@ h4 {
 }
 .page-content .balanceform .btn {
   border-radius: 5px;
+}
+.page-content .filter-buttons {
+  padding-left: 0;
+  list-style-type: none;
+}
+.page-content .filter-buttons li {
+  margin-left: 20px;
+}
+.page-content .filter-buttons .btn {
+  font-size: 16px;
+  line-height: 160%;
+  font-weight: 500;
+}
+.page-content .filter-buttons .btn.btn-white {
+  background-color: #fff;
+  color: #121212;
+}
+.page-content .filter-buttons .btn.btn-white i {
+  color: #B3522C;
+  margin-right: 15px;
+}
+.page-content .filter-buttons .btn.btn-white:hover {
+  color: #B3522C;
+}
+.page-content .filter-buttons .btn.btn-white:focus {
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+.page-content .filter-buttons .sort-by span {
+  font-size: 16px;
+  line-height: 50px;
+  font-weight: 500;
+  margin-right: 20px;
+}
+.page-content .filter-buttons .sort-by select {
+  text-align: left;
 }
 
 .order-confirmation-section .confirmation-box {

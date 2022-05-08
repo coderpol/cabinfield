@@ -9,6 +9,7 @@
     }
     .form-check-input[type=checkbox]{
         width:20px;
+        padding: 9px;
         transform:scale(1);
         &+label{
             line-height:30px;
@@ -19,6 +20,11 @@
         &:checked{
             background-color:$brand-color;
             border-color:$brand-color;
+        }
+        
+        &:focus{
+            border-color:rgba($brand-color,50%);
+            box-shadow:none !important;
         }
     }
     &.gift-form{
@@ -33,5 +39,32 @@
                 }
             }
         }
-    }    
+    } 
+    
+    &.filter-form{
+        .accordion-item{
+            &:last-child{
+                border-bottom:none !important;
+            }
+        }
+        .accordion-button{
+            border-bottom:none !important;
+            @include font($font-18,$line-23,$font-bold);
+            color:$blue-darkest;
+            &:after{
+                color:$blue-darkest !important;
+            }
+        }
+        .accordion-body{
+            .form-check{
+                margin-bottom:$m-5;
+            }
+            .form-check-label{
+                @include font($font-16,$line-29);
+                color:$blue-darkest;
+                
+            }
+        }
+        
+    }   
 }

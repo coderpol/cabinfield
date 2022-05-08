@@ -17,6 +17,11 @@
 .mb-100{
     margin-bottom:$m-100 !important;
 }
+
+.rotate-90{
+    transform:rotate(90deg);
+}
+
 @include from-pc{
     .pr-5{
         padding-right:5%;

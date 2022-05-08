@@ -32,3 +32,9 @@ $('#testimonial-slider').slick({
 $('input#sameAsShipping').click(function(){
   $("#billing-address").toggle();
 });
+
+$("#filter-toggle.opened").click(function(){
+  $("#filter-area").toggle();
+  $("#filter-toggle span").text($("#filter-toggle span").text() == 'Show' ? 'Hide' : 'Show');
+  $("#product-listing-area").toggleClass("col-md-12");
+});
