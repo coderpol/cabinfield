@@ -7,3 +7,6 @@
 .dark-overlay{
     background: rgba($blue-darkest,54%);
 }
+.brand-gradient{
+    @include gradient(#EBCCC0,#F9EFEC,linear);
+}

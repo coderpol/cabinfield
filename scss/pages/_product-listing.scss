@@ -1,0 +1,16 @@
+.page-highlight-area{
+    margin-bottom:$m-60;
+    .breadcrumb-area{
+        margin-top:$m-10;
+        margin-bottom:$m-70;
+    }
+    .highlight-title{
+        @include font($font-30,150%,$font-bold);
+        margin-bottom:$m-20;
+    }
+    .hightlight-text{
+        p{
+            @include font($font-16,$line-26);
+        }
+    }
+}

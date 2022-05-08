@@ -73,7 +73,7 @@
         text-align: center;
         margin-top:$m-100;
         .btn{
-            font-weight: $font-bold;
+            @include font($font-16,160%,$font-bold);
         }
     }
     

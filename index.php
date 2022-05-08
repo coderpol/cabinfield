@@ -20,7 +20,7 @@
                     <li class="review"><a href="fine-furniture.php">Fine Furniture</a></li>
                     <li class="review"><a href="style-landing.php">Style Landing</a></li>
                     <li class="review"><a href="collection-landing.php">Collection Landing</a></li>
-                    <li class="next"><a href="#">Product Listing - V1</a></li>
+                    <li class="working"><a href="product-listing-v1.php">Product Listing - V1</a></li>
                     <li class="next"><a href="#">Product Listing - V2</a></li>
                     <li class="hold"><a href="#">List of Pre-built products - V1</a></li>
                     <li class="hold"><a href="#">List of Pre-built products - V2</a></li>

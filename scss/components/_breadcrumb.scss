@@ -1,72 +1,73 @@
 .breadcrumb-area{
     margin-top:$m-25;
-    .breadcrumb{
-        background:none;
-        justify-content: flex-start;
-        align-items: center;
-        align-content: center;
-        padding:0;
-        li{
+    
+    &+.banner-text{
+        margin-top:5vw !important;
+    }
+}
+.breadcrumb{
+    background:none;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    padding:0;
+    li{
+        color:$white;
+        font-size: $font-16;
+        line-height: $font-20;
+        padding-right: 30px;
+        position:relative;
+        a{
             color:$white;
-            font-size: $font-16;
-            line-height: $font-20;
-            padding-right: 30px;
-            position:relative;
-            a{
-                color:$white;
-            }
+        }
+        &:after{
+            content: ">";
+            margin:0 10px;
+            font-size:$font-18;
+            font-family: $font-dm;
+            position: absolute;
+            display: block;
+            top:1px;
+            right: 0;
+        }
+        &:last-child{
             &:after{
-                content: ">";
-                margin:0 10px;
+                content:none;
+            }
+        }
+        &.active{
+            color:$white !important;
+        }
+    }
+    &.reverse{
+        li{
+            padding-left:30px;
+            padding-right:0;
+           &:after{
+               content:"<";
+               margin:0 10px;
                 font-size:$font-18;
                 font-family: $font-dm;
                 position: absolute;
                 display: block;
                 top:1px;
-                right: 0;
-            }
-            &:last-child{
-                &:after{
-                    content:none;
-                }
-            }
+                left: 0;
+                width:20px;
+                color:$brand-color !important;
+           } 
+           a{
+               color:$brand-color;
+           }
+        }
+    }
+    &.dark{
+        li{color:$blue-darker-3;}
+        a{color:$blue-darker-3;}
+        li{
             &.active{
-                color:$white !important;
+                color:$brand-color !important;
             }
         }
-        &.reverse{
-            li{
-                padding-left:30px;
-                padding-right:0;
-               &:after{
-                   content:"<";
-                   margin:0 10px;
-                    font-size:$font-18;
-                    font-family: $font-dm;
-                    position: absolute;
-                    display: block;
-                    top:1px;
-                    left: 0;
-                    width:20px;
-                    color:$brand-color !important;
-               } 
-               a{
-                   color:$brand-color;
-               }
-            }
-        }
-        &.dark{
-            li{color:$blue-darker-3;}
-            a{color:$blue-darker-3;}
-            li{
-                &.active{
-                    color:$brand-color !important;
-                }
-            }
-        }
-        
     }
-    &+.banner-text{
-        margin-top:5vw !important;
-    }
+    
 }

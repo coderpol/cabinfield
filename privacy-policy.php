@@ -27,7 +27,7 @@ include_once('sections/layouts/header.php')
             </header>
         </div>
         <div class="row">
-            <sidebar class="col-md-3 page-sidebar">
+            <aside class="col-md-3 page-sidebar">
                 <div class="card">
                     <div class="card-body shadow">
                         <ul class="page-list">
@@ -40,7 +40,7 @@ include_once('sections/layouts/header.php')
                         </ul>
                     </div>
                 </div>
-            </sidebar>
+            </aside>
             <div class="col-md-9 main-content mb-5">
                 <article class="sub-article">
                     <header class="article-title">

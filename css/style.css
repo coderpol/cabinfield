@@ -437,6 +437,12 @@ h4 {
   background: rgba(18, 18, 18, 0.54);
 }
 
+.brand-gradient {
+  background: #EBCCC0;
+  background: -webkit-gradient(linear, left top, right top, from(#EBCCC0), to(#F9EFEC));
+  background: linear-gradient(90deg, #EBCCC0 0%, #F9EFEC 100%);
+}
+
 .cabincon {
   display: inline-block;
   font-style: normal;
@@ -531,10 +537,14 @@ h4 {
 .btn.btn-large {
   padding: 15px 60px;
   font-size: 16px;
+  line-height: 160%;
+  font-weight: 700;
 }
 .btn.btn-medium {
   padding: 15px 40px;
   font-size: 14px;
+  line-height: 160%;
+  font-weight: 700;
 }
 .btn.btn-wide {
   padding: 10px 60px;
@@ -561,6 +571,10 @@ h4 {
   background: #121212;
   color: #fff;
   border-color: #121212;
+}
+.btn:focus {
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(179, 82, 44, 0.5) !important;
+          box-shadow: 0 0 0 0.25rem rgba(179, 82, 44, 0.5) !important;
 }
 
 .border-bottom {
@@ -591,7 +605,11 @@ h4 {
 .breadcrumb-area {
   margin-top: 25px;
 }
-.breadcrumb-area .breadcrumb {
+.breadcrumb-area + .banner-text {
+  margin-top: 5vw !important;
+}
+
+.breadcrumb {
   background: none;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
@@ -603,17 +621,17 @@ h4 {
       align-content: center;
   padding: 0;
 }
-.breadcrumb-area .breadcrumb li {
+.breadcrumb li {
   color: #fff;
   font-size: 16px;
   line-height: 20px;
   padding-right: 30px;
   position: relative;
 }
-.breadcrumb-area .breadcrumb li a {
+.breadcrumb li a {
   color: #fff;
 }
-.breadcrumb-area .breadcrumb li:after {
+.breadcrumb li:after {
   content: ">";
   margin: 0 10px;
   font-size: 18px;
@@ -623,17 +641,17 @@ h4 {
   top: 1px;
   right: 0;
 }
-.breadcrumb-area .breadcrumb li:last-child:after {
+.breadcrumb li:last-child:after {
   content: none;
 }
-.breadcrumb-area .breadcrumb li.active {
+.breadcrumb li.active {
   color: #fff !important;
 }
-.breadcrumb-area .breadcrumb.reverse li {
+.breadcrumb.reverse li {
   padding-left: 30px;
   padding-right: 0;
 }
-.breadcrumb-area .breadcrumb.reverse li:after {
+.breadcrumb.reverse li:after {
   content: "<";
   margin: 0 10px;
   font-size: 18px;
@@ -645,20 +663,17 @@ h4 {
   width: 20px;
   color: #B3522C !important;
 }
-.breadcrumb-area .breadcrumb.reverse li a {
+.breadcrumb.reverse li a {
   color: #B3522C;
 }
-.breadcrumb-area .breadcrumb.dark li {
+.breadcrumb.dark li {
   color: #3F4B5C;
 }
-.breadcrumb-area .breadcrumb.dark a {
+.breadcrumb.dark a {
   color: #3F4B5C;
 }
-.breadcrumb-area .breadcrumb.dark li.active {
+.breadcrumb.dark li.active {
   color: #B3522C !important;
-}
-.breadcrumb-area + .banner-text {
-  margin-top: 5vw !important;
 }
 
 .cabinform .form-line {
@@ -1435,6 +1450,8 @@ h4 {
   margin-top: 100px;
 }
 .choice-points .action-area .btn {
+  font-size: 16px;
+  line-height: 160%;
   font-weight: 700;
 }
 .choice-points.smaller .points-area .point .icon i {
@@ -2879,4 +2896,23 @@ h4 {
 .contact-section .contact-form-area .nav-pills .nav-link.active {
   color: #121212;
   border-bottom: 2px solid #B3522C;
+}
+
+.page-highlight-area {
+  margin-bottom: 60px;
+}
+.page-highlight-area .breadcrumb-area {
+  margin-top: 10px;
+  margin-bottom: 70px;
+}
+.page-highlight-area .highlight-title {
+  font-size: 30px;
+  line-height: 150%;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.page-highlight-area .hightlight-text p {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
 }

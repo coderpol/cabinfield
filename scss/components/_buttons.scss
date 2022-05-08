@@ -20,11 +20,11 @@
     
     &.btn-large{
         padding:$m-15 $m-60;
-        font-size:$font-16;
+        @include font($font-16,160%,$font-bold);
     }
     &.btn-medium{
         padding:$m-15 $m-40;
-        font-size: $font-14;;
+        @include font($font-14,160%,$font-bold);
     }
     &.btn-wide{
         padding:$m-10 $m-60;
@@ -51,5 +51,9 @@
             color:$white;
             border-color:$blue-darkest;
         }
+    }
+    
+    &:focus{
+        box-shadow:0 0 0 0.25rem rgba($brand-color,50%) !important;
     }
 }
