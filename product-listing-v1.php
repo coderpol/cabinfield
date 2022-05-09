@@ -30,7 +30,7 @@ include_once('sections/layouts/header.php')
 
 <div class="section page-content product-listing-area">
     <div class="container">
-        <div class="row">
+        <div class="row mb-2">
             <div class="col-md-3 section-title small">
                 <h3><span>Kennet</span> Series</h3>
             </div>
@@ -219,20 +219,14 @@ include_once('sections/layouts/header.php')
                         </div>
                     </div>
                 </div>
-                <div class="row text-center pagination-area">
-                    <nav aria-label="Product Nagivation">
-                        <ul class="pagination">
-                            <li class="page-item">
-                            <a class="page-link" href="#" aria-label="Previous"><i class="fa-solid fa-angle-left"></i></a>
-                            </li>
-                            <li class="page-item"><a class="page-link" href="#">1</a></li>
-                            <li class="page-item"><a class="page-link" href="#">2</a></li>
-                            <li class="page-item"><a class="page-link" href="#">3</a></li>
-                            <li class="page-item">
-                            <a class="page-link" href="#" aria-label="Next"><i class="fa-solid fa-angle-right"></i></a>
-                            </li>
-                        </ul>
-                    </nav>
+                <nav class="row text-center pagination-area" aria-label="Product Nagivation">
+                    <ul class="pagination">
+                        <li class="page-item"><a class="page-link" href="#" aria-label="Previous"><i class="fa-solid fa-angle-left"></i></a></li>
+                        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#" aria-label="Next"><i class="fa-solid fa-angle-right"></i></a></li>
+                    </ul>
                 </div>
             </div>
         </div>

@@ -2985,3 +2985,102 @@ h4 {
   line-height: 26px;
   font-weight: 400;
 }
+
+.product-listing-area .listed-product .product {
+  position: relative;
+  margin-bottom: 50px;
+}
+.product-listing-area .listed-product .product .icon {
+  display: block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 30px;
+  background-color: #fff;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.product-listing-area .listed-product .product .icon a {
+  display: block;
+  font-size: 18px;
+  line-height: 40px;
+  font-weight: 400;
+  color: #627590;
+}
+.product-listing-area .listed-product .product .icon a:hover {
+  color: #B3522C;
+}
+.product-listing-area .listed-product .product .title {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #121212;
+}
+.product-listing-area .listed-product .product .title a {
+  color: #121212;
+}
+.product-listing-area .listed-product .product .details {
+  color: #514646;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.product-listing-area .listed-product .product .price {
+  text-transform: capitalize;
+  color: #514646;
+  font-weight: bold;
+}
+.product-listing-area .listed-product .product .price .value {
+  color: #B3522C;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 500;
+}
+
+.pagination-area .pagination {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.pagination-area .pagination .page-item {
+  margin: 0 15px;
+}
+.pagination-area .pagination .page-item a {
+  width: 40px;
+  height: 40px;
+  display: block;
+  border-radius: 20px;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #121212;
+  border: none;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.pagination-area .pagination .page-item a:hover {
+  text-decoration: none;
+  background-color: #B3522C;
+  color: #fff;
+}
+.pagination-area .pagination .page-item:first-child, .pagination-area .pagination .page-item:last-child {
+  border-radius: 20px;
+}
+.pagination-area .pagination .page-item:first-child a, .pagination-area .pagination .page-item:last-child a {
+  width: 35px;
+  height: 35px;
+  display: block;
+  line-height: 23px;
+}
+.pagination-area .pagination .page-item.active a, .pagination-area .pagination .page-item.active a:hover {
+  text-decoration: none;
+  background-color: #B3522C;
+  color: #fff;
+}

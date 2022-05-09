@@ -13,4 +13,92 @@
             @include font($font-16,$line-26);
         }
     }
+    
+}
+
+.product-listing-area{
+    .listed-product{
+        .product{
+            position:relative;
+            margin-bottom:$m-50;
+            .icon{
+                display: block;
+                width:40px;
+                height:40px;
+                text-align:center;
+                @include rounded($m-30);
+                background-color: $white;
+                position: absolute;
+                top: 15px;
+                right: 20px;
+                box-shadow: 0 0 10px rgba($black,0.1);
+                a{
+                    display: block;
+                    @include font($font-18,$m-40);
+                    color:$blue;
+                    &:hover{
+                        color:$brand-color;
+                    }
+                }
+            }
+            .title{
+                @include font($font-18,$line-26,$font-bold);
+                color:$blue-darkest;
+                a{
+                    color:$blue-darkest;
+                }
+            }
+            .details{
+                color:$gray-dark-3;
+                @include font($font-14,$line-18);
+                margin-bottom:10px;
+            }
+            .price{
+                text-transform: capitalize;
+                color:$gray-dark-3;
+                font-weight: bold;
+                .value{
+                    color:$brand-color;
+                    @include font($font-18,$line-18,$font-medium);
+                }
+            }
+        }
+    }   
+}
+
+.pagination-area{
+    .pagination{
+        justify-content: center;
+        align-items: center;
+        .page-item{
+            margin:0 $m-15;
+            a{
+                @include square($m-40);
+                @include rounded($m-20);
+                @include font($font-16,$m-30);
+                color:$blue-darkest;
+                border:none;
+                box-shadow: 0 0 $m-10 rgba($black,0.1);
+                &:hover{
+                    text-decoration: none;
+                    background-color: $brand-color;
+                    color:$white;
+                }
+            }
+            &:first-child,&:last-child{
+                @include rounded($m-20);
+                a{
+                    @include square($m-35);
+                    line-height: $line-23;
+                }
+            }
+            &.active{
+                a,& a:hover{
+                    text-decoration: none;
+                    background-color: $brand-color;
+                    color:$white;
+                }
+            }
+        }
+    }
 }

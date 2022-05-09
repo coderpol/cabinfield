@@ -122,3 +122,9 @@
     line-height:$line-height;
     font-weight: $weight;
 }
+
+@mixin square($size){
+    width:$size;
+    height:$size;
+    display: block;
+}
