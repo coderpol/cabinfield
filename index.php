@@ -21,8 +21,8 @@
                     <li class="review"><a href="style-landing.php">Style Landing</a></li>
                     <li class="review"><a href="collection-landing.php">Collection Landing</a></li>
                     <li class="review"><a href="product-listing-v1.php">Product Listing - V2</a></li>
-                    <li class="working"><a href="list-of-pre-built-products-v1.php">List of Pre-built products - V1</a></li>
-                    <li class="hold"><a href="#">List of Pre-built products - V2</a></li>
+                    <li class="review"><a href="list-of-pre-built-products-v1.php">List of Pre-built products - V1</a></li>
+                    <li class="review"><a href="list-of-pre-built-products-v2.php">List of Pre-built products - V2</a></li>
                     <li class="hold"><a href="#">Product - Customize</a></li>
                     <li class="hold"><a href="#">Product - Customize - V2</a></li>
                     <li class="hold"><a href="#">Product - Specs & Features</a></li>

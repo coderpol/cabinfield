@@ -20,11 +20,22 @@
     .listed-product{
         margin-bottom:$m-20;
         .section-title{
-            margin-bottom:$m-35;
+            // margin-bottom:$m-35;
+        }
+        .category-sub-title{
+            padding-top:$m-20;
+            padding-bottom:$m-20;
+            border-top:1px solid $gray;
+            h4,h5{
+                @include font($m-20,$line-26,$font-medium);
+                color:$blue-darker-2;
+                margin-bottom:0;
+            }
         }
         .product{
             position:relative;
-            margin-bottom:$m-50;
+            margin-top:$m-20;
+            margin-bottom:$m-30;
             .icon{
                 display: block;
                 text-align:center;

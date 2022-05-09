@@ -2993,12 +2993,22 @@ h4 {
 .product-listing-area .listed-product {
   margin-bottom: 20px;
 }
-.product-listing-area .listed-product .section-title {
-  margin-bottom: 35px;
+.product-listing-area .listed-product .category-sub-title {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 1px solid #DDDDDD;
+}
+.product-listing-area .listed-product .category-sub-title h4, .product-listing-area .listed-product .category-sub-title h5 {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 500;
+  color: #424F61;
+  margin-bottom: 0;
 }
 .product-listing-area .listed-product .product {
   position: relative;
-  margin-bottom: 50px;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 .product-listing-area .listed-product .product .icon {
   display: block;
