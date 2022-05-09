@@ -160,14 +160,14 @@ include_once('sections/layouts/header.php')
                         <p class="details">Product No. FGFH1128</p>
                         <p class="price vertical-middle">starting <span class="value">$1,3,71.00</span></p>
                         <div class="icon">
-                            <a href="#"><i class="fa-solid fa-heart"></i></a>
+                            <a href="#"><i class="fa-solid fa-heart"></i>Like this product</a>
                         </div>
                     </div>
                     <div class="col-md-4 product">
                         <figure>
                             <img src="images/products/listing/product-2.png" alt="">
                         </figure>
-                        <h3 class="title"><a href="#">Franklin Amish File Cabinet</a></h3>
+                        <h3 class="title"><a href="#">Charleston Amish File Cabinet</a></h3>
                         <p class="details">Product No. FGFH1128</p>
                         <p class="price vertical-middle">starting <span class="value">$1,3,71.00</span></p>
                         <div class="icon">
@@ -178,9 +178,10 @@ include_once('sections/layouts/header.php')
                         <figure>
                             <img src="images/products/listing/product-3.png" alt="">
                         </figure>
-                        <h3 class="title"><a href="#">Franklin Amish File Cabinet</a></h3>
+                        <h3 class="title"><a href="#">Prairie Mission Amish File Cabinet</a></h3>
                         <p class="details">Product No. FGFH1128</p>
                         <p class="price vertical-middle">starting <span class="value">$1,3,71.00</span></p>
+                        <span class="availability">Available for 3 sizes</span>
                         <div class="icon">
                             <a href="#"><i class="fa-solid fa-heart"></i></a>
                         </div>

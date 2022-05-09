@@ -23,21 +23,26 @@
             margin-bottom:$m-50;
             .icon{
                 display: block;
-                width:40px;
-                height:40px;
                 text-align:center;
-                @include rounded($m-30);
                 background-color: $white;
                 position: absolute;
                 top: 15px;
                 right: 20px;
+                @include rounded($m-30);
                 box-shadow: 0 0 10px rgba($black,0.1);
                 a{
                     display: block;
-                    @include font($font-18,$m-40);
-                    color:$blue;
+                    @include square($m-40);
+                    @include rounded($m-30);
+                    i{
+                        @include font($font-18,$m-40);
+                        color:$blue;
+                    }
                     &:hover{
-                        color:$brand-color;
+                        background:$brand-color;
+                        i{
+                            color:$white;
+                        }
                     }
                 }
             }
@@ -62,6 +67,14 @@
                     @include font($font-18,$line-18,$font-medium);
                 }
             }
+            .availability{
+                display:inline-block;
+                @include font(12px,100%,$font-medium);
+                padding:5px $m-10;
+                background: rgba(179, 82, 44, 0.14);
+                color:$brand-color;
+                @include rounded($m-30);
+            }
         }
     }   
 }
@@ -75,7 +88,7 @@
             a{
                 @include square($m-40);
                 @include rounded($m-20);
-                @include font($font-16,$m-30);
+                @include font($font-16,$line-29);
                 color:$blue-darkest;
                 border:none;
                 box-shadow: 0 0 $m-10 rgba($black,0.1);

@@ -515,6 +515,10 @@ h4 {
   line-height: 24px;
 }
 
+.icon a {
+  font-size: 0;
+}
+
 .btn {
   display: inline-block;
   padding: 10px 30px;
@@ -2992,26 +2996,33 @@ h4 {
 }
 .product-listing-area .listed-product .product .icon {
   display: block;
-  width: 40px;
-  height: 40px;
   text-align: center;
-  border-radius: 30px;
   background-color: #fff;
   position: absolute;
   top: 15px;
   right: 20px;
+  border-radius: 30px;
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .product-listing-area .listed-product .product .icon a {
   display: block;
+  width: 40px;
+  height: 40px;
+  display: block;
+  border-radius: 30px;
+}
+.product-listing-area .listed-product .product .icon a i {
   font-size: 18px;
   line-height: 40px;
   font-weight: 400;
   color: #627590;
 }
 .product-listing-area .listed-product .product .icon a:hover {
-  color: #B3522C;
+  background: #B3522C;
+}
+.product-listing-area .listed-product .product .icon a:hover i {
+  color: #fff;
 }
 .product-listing-area .listed-product .product .title {
   font-size: 18px;
@@ -3040,6 +3051,16 @@ h4 {
   line-height: 18px;
   font-weight: 500;
 }
+.product-listing-area .listed-product .product .availability {
+  display: inline-block;
+  font-size: 12px;
+  line-height: 100%;
+  font-weight: 500;
+  padding: 5px 10px;
+  background: rgba(179, 82, 44, 0.14);
+  color: #B3522C;
+  border-radius: 30px;
+}
 
 .pagination-area .pagination {
   -webkit-box-pack: center;
@@ -3058,7 +3079,7 @@ h4 {
   display: block;
   border-radius: 20px;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 29px;
   font-weight: 400;
   color: #121212;
   border: none;
