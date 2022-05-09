@@ -113,17 +113,14 @@
             margin:0 auto;
             align-items: normal;
             flex-wrap: wrap;
-            .footer-logo{
+            .footer-logo,.footer-links{
                 flex-basis:100%;
                 text-align:center;
             }
-            .footer-social, .footer-rating, .footer-links{
-                flex-basis:35%;
+            .footer-social, .footer-rating{
+                flex-basis:45%;
                 margin:$m-20 auto;
                 text-align:center;
-            }
-            .footer-social{
-                flex-basis:45%;
             }
             .footer-rating{
                 text-align:right;
@@ -131,30 +128,43 @@
                     max-width:100px;
                 }
             }
+            .footer-links{
+                .links{
+                    padding-left:0;
+                    li{
+                        border-bottom:1px solid $gray;
+                        margin:$m-5;
+                        a{
+                            display:block;
+                            padding:$m-10 0;
+                        }
+                    }
+                }
+            }
         }
     }
 }
 
-@include phone-small{
-    .footer{
-        .footer-area{
-            .footer-logo, .footer-social, .footer-rating, .footer-links{
-                flex-basis:100%;
-                text-align:left;
-            }
-            .footer-social, .footer-rating, .footer-links{
-                margin-top:$m-40;
-            }
-            .footer-social{
-                .social-icons{
-                    max-width: 200px;
-                }
-            }
-            .footer-links{
-                ul{
-                    padding-left:0;
-                }
-            }
-        }
-    }
-}
+// @include phone-small{
+//     .footer{
+//         .footer-area{
+//             .footer-logo, .footer-social, .footer-rating, .footer-links{
+//                 flex-basis:100%;
+//                 text-align:left;
+//             }
+//             .footer-social, .footer-rating, .footer-links{
+//                 margin-top:$m-40;
+//             }
+//             .footer-social{
+//                 .social-icons{
+//                     max-width: 200px;
+//                 }
+//             }
+//             .footer-links{
+//                 ul{
+//                     padding-left:0;
+//                 }
+//             }
+//         }
+//     }
+// }

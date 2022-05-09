@@ -6,6 +6,10 @@
     }
     .toogle-button-area{
         display:none;
+        @include upto-tablet{
+            text-align: left !important;
+            left:0;
+        }
     }
     .main-nav{
         display: flex;
@@ -213,11 +217,13 @@
         .navbar{
             padding:10px;
             .navbar-toggler{
-
+                &:focus{
+                    box-shadow: none !important;
+                }
             }
             .navbar-collapse{
                 // border-top:$thin solid $blue;
-                margin-top:$m-5;
+                margin-top:$m-15;
             }
             .navbar-nav{
                 .nav-item{

@@ -17,6 +17,9 @@
         line-height: $font-20;
         padding-right: 30px;
         position:relative;
+        @include upto-phone{
+            margin-bottom:$m-10;
+        }
         a{
             color:$white;
         }

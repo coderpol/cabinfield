@@ -637,6 +637,11 @@ h4 {
   padding-right: 30px;
   position: relative;
 }
+@media only screen and (max-width: 767px) {
+  .breadcrumb li {
+    margin-bottom: 10px;
+  }
+}
 .breadcrumb li a {
   color: #fff;
 }
@@ -931,6 +936,7 @@ h4 {
   }
   .topbar-area .navbar {
     padding: 5px;
+    min-height: 43px;
   }
   .topbar-area .toogle-button-area {
     display: block;
@@ -996,6 +1002,14 @@ h4 {
 }
 .header-area .search-area {
   float: left;
+}
+@media only screen and (max-width: 991px) {
+  .header-area .search-area {
+    position: absolute;
+    top: 153px;
+    right: 0;
+    min-width: 300px;
+  }
 }
 .header-area .search-area .searchform {
   position: relative;
@@ -1070,6 +1084,7 @@ h4 {
 
 @media only screen and (max-width: 1199px) {
   .header-area .logo-area {
+    width: 100%;
     text-align: center;
     margin-bottom: 0px;
   }
@@ -1107,6 +1122,12 @@ h4 {
 }
 .navigation-area .toogle-button-area {
   display: none;
+}
+@media only screen and (max-width: 991px) {
+  .navigation-area .toogle-button-area {
+    text-align: left !important;
+    left: 0;
+  }
 }
 .navigation-area .main-nav {
   display: -webkit-box;
@@ -1319,8 +1340,12 @@ h4 {
   .navigation-area .navbar {
     padding: 10px;
   }
+  .navigation-area .navbar .navbar-toggler:focus {
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+  }
   .navigation-area .navbar .navbar-collapse {
-    margin-top: 5px;
+    margin-top: 15px;
   }
   .navigation-area .navbar .navbar-nav .nav-item {
     margin-bottom: 5px;
@@ -1586,6 +1611,12 @@ h4 {
   .choice-points .points-area {
     display: block;
   }
+  .choice-points .points-area .point {
+    text-align: center;
+  }
+  .choice-points .points-area .point .icon {
+    margin: 0 auto 30px;
+  }
   .choice-points .points-area .point + .point {
     margin-top: 40px;
   }
@@ -1620,6 +1651,11 @@ h4 {
 }
 .display-board .display-area .display .display-text .section-title {
   text-align: left;
+}
+@media only screen and (max-width: 767px) {
+  .display-board .display-area .display .display-text .section-title {
+    text-align: center;
+  }
 }
 .display-board .display-area .display .display-text p {
   color: #121212;
@@ -1686,6 +1722,7 @@ h4 {
 @media only screen and (max-width: 1199px) {
   .display-board .display-area .display {
     display: block;
+    text-align: center;
   }
 }
 @media only screen and (max-width: 1199px) and (max-width: 767px) {
@@ -1702,6 +1739,7 @@ h4 {
     margin-top: 20px;
     float: none;
     width: 100%;
+    text-align: center;
   }
 }
 @media only screen and (max-width: 1199px) and (max-width: 767px) {
@@ -1847,8 +1885,7 @@ h4 {
     width: 100%;
   }
   .testimonial-area .testimonial-slider .slide .image {
-    width: 100%;
-    margin-top: 40px;
+    display: none;
   }
 }
 /* Slider */
@@ -2222,20 +2259,16 @@ h4 {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-  .footer .footer-area .footer-logo {
+  .footer .footer-area .footer-logo, .footer .footer-area .footer-links {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
     text-align: center;
   }
-  .footer .footer-area .footer-social, .footer .footer-area .footer-rating, .footer .footer-area .footer-links {
-    -ms-flex-preferred-size: 35%;
-        flex-basis: 35%;
-    margin: 20px auto;
-    text-align: center;
-  }
-  .footer .footer-area .footer-social {
+  .footer .footer-area .footer-social, .footer .footer-area .footer-rating {
     -ms-flex-preferred-size: 45%;
         flex-basis: 45%;
+    margin: 20px auto;
+    text-align: center;
   }
   .footer .footer-area .footer-rating {
     text-align: right;
@@ -2243,21 +2276,16 @@ h4 {
   .footer .footer-area .footer-rating img {
     max-width: 100px;
   }
-}
-@media only screen and (max-width: 575px) {
-  .footer .footer-area .footer-logo, .footer .footer-area .footer-social, .footer .footer-area .footer-rating, .footer .footer-area .footer-links {
-    -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
-    text-align: left;
-  }
-  .footer .footer-area .footer-social, .footer .footer-area .footer-rating, .footer .footer-area .footer-links {
-    margin-top: 40px;
-  }
-  .footer .footer-area .footer-social .social-icons {
-    max-width: 200px;
-  }
-  .footer .footer-area .footer-links ul {
+  .footer .footer-area .footer-links .links {
     padding-left: 0;
+  }
+  .footer .footer-area .footer-links .links li {
+    border-bottom: 1px solid #DDDDDD;
+    margin: 5px;
+  }
+  .footer .footer-area .footer-links .links li a {
+    display: block;
+    padding: 10px 0;
   }
 }
 .page-heading-section .page-headline .section-title {

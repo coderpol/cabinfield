@@ -26,6 +26,9 @@
                 padding-top: 6vw;
                 .section-title{
                     text-align:left;
+                    @include upto-phone{
+                        text-align:center;
+                    }
                 }
                 p{
                     color:$blue-darkest;
@@ -115,6 +118,7 @@
         .display-area{
             .display{
                 display:block;
+                text-align: center;
                 @include upto-phone{
                     margin-bottom:$m-50;
                     &:last-child{
@@ -126,6 +130,7 @@
                     margin-top:20px;
                     float:none;
                     width:100%;
+                    text-align: center;
                     @include upto-phone{
                         padding-left:0px;
                     }

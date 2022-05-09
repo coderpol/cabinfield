@@ -183,9 +183,9 @@
         .points-area{
             display:block;
             .point{
-                // text-align: center;
+                text-align: center;
                 .icon{
-                    // margin:0 auto 30px;
+                    margin:0 auto 30px;
                 }
                 &+.point{
                     margin-top:$m-40;

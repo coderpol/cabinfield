@@ -16,6 +16,13 @@
         float: left;
         // width: 40%;
         // margin-right: 3%;
+        
+        @include upto-tablet{
+            position:absolute;
+            top: 153px;
+            right: 0;
+            min-width: 300px;
+        }
         .searchform{
             position:relative;
             margin-top: 10px;
@@ -86,7 +93,7 @@
 @include upto-pc{
     .header-area{
         .logo-area{
-            // width:100%;
+            width:100%;
             text-align:center;
             margin-bottom:0px;
         }
