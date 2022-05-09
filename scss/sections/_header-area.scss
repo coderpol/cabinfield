@@ -40,6 +40,11 @@
                 border:$thin solid $blue-light-2;
                 margin-bottom:0;
                 appearance: none;
+                &:focus{
+                    outline:0;
+                    border-color:$brand-color;
+                    
+                }
             }
         }
     }
@@ -101,6 +106,17 @@
             // position: static;
             flex: 100%;
             max-width: 100%;
+            z-index: 20000;
+            .searchform{
+                i{
+                    right:10px;
+                    left:auto;
+                }
+                input{
+                    padding-left:10px;
+                    padding-right:35px;
+                }
+            }
         }
         .cart-area{
             right: 0;
