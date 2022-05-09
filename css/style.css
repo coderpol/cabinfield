@@ -518,6 +518,17 @@ h4 {
 .icon a {
   font-size: 0;
 }
+.icon.thanks-icon {
+  background-color: rgba(39, 174, 96, 0.1);
+  padding: 15px;
+  display: inline-block;
+  margin-bottom: 30px;
+  border-radius: 50px;
+}
+.icon.thanks-icon i {
+  color: #27AE60;
+  font-size: 65px;
+}
 
 .btn {
   display: inline-block;
@@ -579,6 +590,38 @@ h4 {
 .btn:focus {
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
+}
+.btn.btn-thanks {
+  text-align: left;
+  padding: 15px 45px;
+}
+@media only screen and (min-width: 1200px) {
+  .btn.btn-thanks {
+    margin-right: 15px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .btn.btn-thanks {
+    margin-bottom: 20px;
+  }
+}
+.btn.btn-thanks .title {
+  text-transform: uppercase;
+  display: block;
+  font-size: 13px;
+  line-height: 17px;
+  font-weight: 400;
+  margin-bottom: 0;
+  color: #121212;
+}
+.btn.btn-thanks .details {
+  display: block;
+  font-size: 17px;
+  line-height: 22px;
+  font-weight: 400;
+}
+.btn.btn-thanks:hover .title {
+  color: #fff;
 }
 
 .link.link-primary {

@@ -56,6 +56,33 @@
     &:focus{
         box-shadow:none !important;
     }
+    
+    &.btn-thanks{
+        text-align:left;
+        padding: $m-15 $m-45;
+        @include from-pc{
+            margin-right: $m-15;
+        }
+        @include upto-phone{
+            margin-bottom:$m-20;
+        }
+        .title{
+            text-transform: uppercase;
+            display: block;
+            @include font(13px,17px);
+            margin-bottom:0;
+            color:$blue-darkest;
+        }
+        .details{
+            display: block;
+            @include font(17px,22px);
+        }
+        &:hover{
+            .title{
+                color:$white;
+            }
+        }
+    }
 }
 
 .link{

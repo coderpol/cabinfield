@@ -28,12 +28,18 @@ include_once('sections/layouts/header.php')
         <div class="row">
             <div class="col-md-8">
                 <div class="row">
+                    <div class="col-md-12">
+                        <div class="icon thanks-icon">
+                        <i class="fa-solid fa-circle-check"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
                     <div class="col-md-6">
                         <h4 class="form-label">Order #9566275496</h4>
                         <p>Thank you for your order. Our bearded Amish woodsmen have been set off to cut trees for your furniture. We will contact you as soon as it is ready to be shipped.</p>
                         <p>To cancel items or edit yor order please contact us</p>
-                        <p>EMAIL:<br/><a class="link link-primary" href="mailto:service@cabinfield.com">service@cabinfield.com</a></p>
-                        <p>PHONE:<br/><a class="link link-primary" href="tel:+866-450-WOOD (9663)">866-450-WOOD (9663)</a></p>
+                        
                     </div>
                     <div class="col-md-6">
                         <h4 class="form-label">Billing Address</h4>
@@ -45,6 +51,13 @@ include_once('sections/layouts/header.php')
                                 United States<br/>
                             </p>
                         </address>
+                    </div>
+                </div>
+                
+                <div class="row mt-3">
+                    <div class="col-md-12">
+                        <a class="btn btn-empty btn-large btn-thanks" href="mailto:service@cabinfield.com"><span class="title">EMAIL</span><span class="details">service@cabinfield.com</span></a>
+                        <a class="btn btn-empty btn-large btn-thanks" href="tel:+866-450-WOOD (9663)"><span class="title">PHONE</span><span class="details">866-450-WOOD (9663)</span></a>
                     </div>
                 </div>
             </div>

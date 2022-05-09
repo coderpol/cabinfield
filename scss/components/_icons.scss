@@ -36,4 +36,15 @@ $icon-sizes: 15,18,20,22,24;
     a{
         font-size:0;
     }
+    &.thanks-icon{
+        background-color: rgba($green,0.1);
+        padding:$m-15;
+        display: inline-block;
+        margin-bottom:$m-30;
+        @include rounded($m-50);
+        i{
+            color:$green;
+            font-size:$m-65;
+        }
+    }
 }
