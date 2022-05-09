@@ -1099,7 +1099,14 @@ h4 {
     position: absolute;
     top: 0;
     z-index: 200;
-    width: 300px;
+    width: 100%;
+    /* text-align: center; */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .header-area .cart-area .cart-list {
     padding-left: 0;
