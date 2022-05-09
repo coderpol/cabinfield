@@ -150,7 +150,7 @@ include_once('sections/layouts/header.php')
                 </form>
             </aside>
             
-            <div class="col-md-9 main-content product-listing-area" id="product-listing-area">
+            <div class="col-md-9 main-content" id="product-listing-area">
                 <div class="row listed-product">
                     <div class="col-md-4 product">
                         <figure>
@@ -228,7 +228,7 @@ include_once('sections/layouts/header.php')
                         <li class="page-item"><a class="page-link" href="#">3</a></li>
                         <li class="page-item"><a class="page-link" href="#" aria-label="Next"><i class="fa-solid fa-angle-right"></i></a></li>
                     </ul>
-                </div>
+                </nav>
             </div>
         </div>
     </div>

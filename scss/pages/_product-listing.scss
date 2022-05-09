@@ -18,6 +18,10 @@
 
 .product-listing-area{
     .listed-product{
+        margin-bottom:$m-20;
+        .section-title{
+            margin-bottom:$m-35;
+        }
         .product{
             position:relative;
             margin-bottom:$m-50;
