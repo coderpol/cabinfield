@@ -57,3 +57,12 @@
         box-shadow:none !important;
     }
 }
+
+.link{
+    &.link-primary{
+        color:$brand-color;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}

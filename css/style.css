@@ -581,6 +581,13 @@ h4 {
           box-shadow: none !important;
 }
 
+.link.link-primary {
+  color: #B3522C;
+}
+.link.link-primary:hover {
+  text-decoration: underline;
+}
+
 .border-bottom {
   border-bottom: 1px solid #DDDDDD;
   padding-bottom: 50px;
@@ -820,6 +827,7 @@ h4 {
 }
 .card.summary-card .btn {
   margin: 10px 0;
+  padding: 12px 30px;
 }
 .card.summary-card .card-title {
   font-size: 20px;
