@@ -117,13 +117,16 @@
                 flex-basis:100%;
                 text-align:center;
             }
-            .footer-social, .footer-rating{
-                flex-basis:45%;
+            .footer-social{
+                flex-basis:60%;
                 margin:$m-20 auto;
                 text-align:center;
+                max-width: 200px;
             }
             .footer-rating{
+                flex-basis:35%;
                 text-align:right;
+                margin:$m-20 auto;
                 img{
                     max-width:100px;
                 }

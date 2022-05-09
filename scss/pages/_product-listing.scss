@@ -1,8 +1,14 @@
 .page-highlight-area{
     margin-bottom:$m-60;
+    @include upto-tablet{
+        text-align:center;
+    }
     .breadcrumb-area{
         margin-top:$m-10;
         margin-bottom:$m-70;
+        @include upto-tablet{
+            margin-bottom:$m-30;
+        }
     }
     .highlight-title{
         @include font($font-30,150%,$font-bold);
