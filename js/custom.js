@@ -75,8 +75,8 @@ $("#btn-addition").on("click", function(){
   new_block +='</div>';
   new_block +='</div>';
   if(existing_count<6){
-    $(".combination:last-child").clone().appendTo("#combination-area");
-    // $("#combination-area").append(new_block);
+    // $(".combination:last-child").clone().appendTo("#combination-area");
+    $("#combination-area").append(new_block);
   }else{
     alert("You already have 6 combinations");
   }
