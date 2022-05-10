@@ -421,6 +421,14 @@ h4 {
   color: #DDDDDD !important;
 }
 
+.form-section-title h2, .form-section-title h3, .form-section-title h4, .form-section-title h5 {
+  font-size: 24px;
+  line-height: 31px;
+  font-weight: 500;
+  color: #000;
+  margin-bottom: 20px;
+}
+
 .primary-gradient {
   background: #b3522c;
   background: -webkit-gradient(linear, left top, right top, from(#b3522c), to(rgba(179, 82, 44, 0)));
@@ -623,6 +631,21 @@ h4 {
 .btn.btn-thanks:hover .title {
   color: #fff;
 }
+.btn.btn-addition {
+  width: 100%;
+  border: 1px dashed rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  background-color: #F7F7F7;
+  color: #424F61;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 400;
+  padding: 20px;
+}
+.btn.btn-addition:hover {
+  background: #121212;
+  color: #fff;
+}
 
 .link.link-primary {
   color: #B3522C;
@@ -803,6 +826,12 @@ h4 {
   line-height: 29px;
   font-weight: 400;
   color: #121212;
+}
+.cabinform.order-form .form-part {
+  border: 1px solid #DDDDDD;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 30px;
 }
 
 .summary-list {
@@ -2374,16 +2403,7 @@ h4 {
 .page-heading-section .page-headline .section-title h2, .page-heading-section .page-headline .section-title h3, .page-heading-section .page-headline .section-title h4 {
   font-size: 36px;
   line-height: 120%;
-  font-weight: 400;
-}
-.page-heading-section .page-headline .section-title p {
-  color: #514646;
-  font-size: 16px;
-  line-height: 26px;
-  font-weight: 400;
-}
-.page-heading-section .page-headline .section-title p + p {
-  margin-top: 30px;
+  font-weight: 700;
 }
 .page-heading-section .page-headline .button-area {
   text-align: right;
@@ -2407,6 +2427,16 @@ h4 {
   font-size: 16px;
   line-height: 26px;
   font-weight: 400;
+}
+
+.section-title p {
+  color: #514646;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+}
+.section-title p + p {
+  margin-top: 30px;
 }
 
 .breadcrum-section + .page-heading-section {

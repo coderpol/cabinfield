@@ -93,3 +93,11 @@ h4{
         color:$gray !important;
     }
 }
+
+.form-section-title{
+    h2,h3,h4,h5{
+        @include font($font-24,$line-31,$font-medium);
+        color:$black;
+        margin-bottom:$m-20;
+    }
+}

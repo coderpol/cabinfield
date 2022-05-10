@@ -83,6 +83,20 @@
             }
         }
     }
+    
+    &.btn-addition{
+        width:100%;
+        border:1px dashed rgba($black,0.15);
+        @include rounded(12px);
+        background-color: #F7F7F7;
+        color:$blue-darker-2;
+        @include font($font-20,$line-26);
+        padding:$m-20;
+        &:hover{
+            background:$blue-darkest;
+            color:$white;
+        }
+    }
 }
 
 .link{

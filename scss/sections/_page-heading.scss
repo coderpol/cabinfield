@@ -3,15 +3,9 @@
         .section-title{
             text-align:left;
             h2,h3,h4{
-                @include font($font-36,120%);
+                @include font($font-36,120%,$font-bold);
             }
-            p{
-                color:$gray-dark-3;
-                @include font($font-16,$line-26);
-                &+p{
-                    margin-top:$m-30;
-                }
-            }
+            
         }
         .button-area{
             text-align:right;
@@ -30,6 +24,15 @@
         p{
             color:$gray-dark-3;
             @include font($font-16,$line-26);
+        }
+    }
+}
+.section-title{
+    p{
+        color:$gray-dark-3;
+        @include font($font-16,$line-26);
+        &+p{
+            margin-top:$m-30;
         }
     }
 }
