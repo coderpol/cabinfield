@@ -75,6 +75,19 @@
             @include rounded($m-15);
             padding:$m-20;
             margin-bottom:$m-30;
+            position:relative;
+            .remover{
+                position:absolute;
+                top:20px;
+                right:20px;
+                color:$brand-color;
+                @include font($font-16,$line-21,$font-bold);
+                cursor:pointer;
+                &:hover{
+                    color:$blue-darkest;
+                }
+                
+            }
         }
     } 
 }

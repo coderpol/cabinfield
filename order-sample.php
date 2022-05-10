@@ -33,14 +33,14 @@ include_once('sections/layouts/header.php')
 <div class="section page-content mb-5 clearfix">
     <div class="container">
         <form action="#" class="cabinform order-form">
-            <div class="row border-bottom">
+            <div class="row" id="combination-area">
                 <div class="col-md-12 form-section-title">
                     <h3>Choose up to 6 combinations:</h3>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 combination" id="combination-1">
                     <div class="form-part">
                         <h4 class="heading-20">Combination 1</h4>
-                        
+                         <span class="remover" data-cabin-target="#combination-1">&times Remove</span>
                         <div class="row form-line">
                             <div class="col">
                                 <label for="" class="form-label">Select Wood</label>
@@ -65,10 +65,10 @@ include_once('sections/layouts/header.php')
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 combination" id="combination-2">
                     <div class="form-part">
                         <h4 class="heading-20">Combination 2</h4>
-                        
+                        <span class="remover" data-cabin-target="#combination-2">&times Remove</span>
                         <div class="row form-line">
                             <div class="col">
                                 <label for="" class="form-label">Select Wood</label>
@@ -93,10 +93,10 @@ include_once('sections/layouts/header.php')
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 combination" id="combination-3">
                     <div class="form-part">
-                        <h4 class="heading-20">Combination 2</h4>
-                        
+                        <h4 class="heading-20">Combination 3</h4>
+                        <span class="remover" data-cabin-target="#combination-3">&times Remove</span>
                         <div class="row form-line">
                             <div class="col">
                                 <label for="" class="form-label">Select Wood</label>
@@ -121,9 +121,11 @@ include_once('sections/layouts/header.php')
                         </div>
                     </div>
                 </div>
-                
+            </div>
+            
+            <div class="row border-bottom">
                 <div class="col-md-12 addition-area">
-                    <span class="btn btn-addition">+ Add Combination</span>
+                    <span class="btn btn-addition" id="btn-addition">+ Add Combination</span>
                 </div>
             </div>
             
