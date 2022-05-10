@@ -40,7 +40,6 @@ include_once('sections/layouts/header.php')
                 <div class="col-md-6 combination" id="combination-1">
                     <div class="form-part">
                         <h4 class="heading-20">Combination 1</h4>
-                         <span class="remover" data-cabin-target="#combination-1">&times Remove</span>
                         <div class="row form-line">
                             <div class="col">
                                 <label for="" class="form-label">Select Wood</label>
