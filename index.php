@@ -34,7 +34,7 @@
                     <li class="hold"><a href="checkout-info.php">Checkout Info</a></li>
                     <li class="review"><a href="thank-you.php">Thank You</a></li>
                     <li class="review"><a href="thank-you-v2.php">Thank You - V2</a></li>
-                    <li class="next"><a href="#">Bedroom Landing</a></li>
+                    <li class="review"><a href="bedroom-landing.php">Bedroom Landing</a></li>
                     <li class="review"><a href="gift-card.php">Gift Card</a></li>
                     <li class="review"><a href="contact-us.php">Contact Us</a></li>
                     <li class="review"><a href="terms-of-use.php">Terms of Use</a></li>
@@ -44,7 +44,7 @@
                     <li class="review"><a href="faq.php">FAQ</a></li>
                     <li class="review"><a href="about.php">About</a></li>
                     <li class="review"><a href="wood-sample.php">Wood Sample</a></li>
-                    <li class="hold"><a href="#">Wood Sample -Order Sample</a></li>
+                    <li class="working"><a href="#">Wood Sample -Order Sample</a></li>
                     <li class="review"><a href="fabric-sample.php">Fabric Sample</a></li>
                     <li class="review"><a href="order-confirmation.php">Order Confirmation</a></li>
                 </ol>

@@ -15,7 +15,7 @@
     .banner-text{
         color:$white;
         margin:12vw 0;
-        width: 60%;
+        // width: 60%;
         @include upto-phone{
             width:100%;
         }
@@ -29,6 +29,10 @@
         .btn{
             width:180px;
             @include font($font-16,$line-18);
+        }
+        p{
+            @include font($font-16,$line-26);
+            letter-spacing: 0.2px;
         }
     }
 }

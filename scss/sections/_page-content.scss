@@ -293,3 +293,29 @@
     }
     
 }
+
+
+.collection-area{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
+    .collection{
+        flex-basis:18%;
+        @include upto-phone{
+            flex-basis:30%;
+        }
+        @include phone-small{
+            flex-basis:48%;
+        }
+        
+        border:1px solid $gray;
+        text-align:center;
+        @include rounded($m-20);
+        // margin-bottom:$m-20;
+        h3,h4{
+            @include font($font-18,$font-26,$font-medium);
+            padding: $m-20 $m-15;
+            margin-bottom: 0;
+        }
+    }
+}
