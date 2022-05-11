@@ -16,8 +16,9 @@
         color:$white;
         margin:12vw 0;
         // width: 60%;
-        @include upto-phone{
+        @include upto-tablet{
             width:100%;
+            text-align:center;
         }
         .tagline{
             @include font($font-30,160%);
@@ -42,7 +43,6 @@
     .header-banner{
         .banner-text{
             margin:15vw 0;
-            text-align: center;
             .tagline{
                 font-size:$font-20;
             }

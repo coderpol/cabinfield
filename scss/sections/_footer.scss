@@ -62,24 +62,31 @@
                 
             }
             .newsletter{
-                line-height:$font-24;
+                @include upto-tablet{
+                    display: flex;
+                    text-align:left;
+                    align-items: center;
+                }
                 a{
+                    line-height:$font-24;
                     i{
-                        display:block;
-                        width:$m-25+1px;
-                        height:$m-25+1px;
-                        background:url('../images/footer-social-sprite.png') no-repeat;
-                        background-position:0 -107px;
+                        
+                        // display:block;
+                        // width:$m-25+1px;
+                        // height:$m-25+1px;
+                        // background:url('../images/footer-social-sprite.png') no-repeat;
+                        // background-position:0 -107px;
                     }
                     &:hover{
                         color:$brand-color;
                         i{
-                            background-position: -31px -107px;
+                            // background-position: -31px -107px;
                         }
                     }
                 }
                 i{
-                    float:left;
+                    font-size:22px;
+                    color:$blue;
                     margin-right:$m-10;
                 }
             }
@@ -113,15 +120,34 @@
             margin:0 auto;
             align-items: normal;
             flex-wrap: wrap;
+            position:relative;
             .footer-logo,.footer-links{
                 flex-basis:100%;
                 text-align:center;
             }
+            .footer-logo{
+                padding-bottom: 60px;
+            }
             .footer-social{
-                flex-basis:60%;
+                flex-basis:45%;
                 margin:$m-20 auto;
                 text-align:center;
                 max-width: 200px;
+                .social-icons{
+                    position: absolute;
+                    width: 200px;
+                    top: 175px;
+                    left: calc(50% - 100px);
+                }
+                .telephone{
+                    text-align:left;
+                    a{
+                        color:$blue-darkest;
+                    }
+                    p{
+                        color:$gray-dark-3;
+                    }
+                }
             }
             .footer-rating{
                 flex-basis:35%;

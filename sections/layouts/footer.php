@@ -18,7 +18,11 @@
 					<li><a href="#" class="pinterest">Pinterest</a></li>
 					<li><a href="#" class="instagram">Instagram</a></li>
 				</ul>
-				<p class="newsletter"><a href="#"><i class="mail-blue"></i> Subscribe for Newsletter</a></p>
+				<p class="newsletter"><i class="fa-solid fa-envelope"></i> <a href="#">Subscribe for Newsletter</a></p>
+				<div class="upto-tablet telephone">
+					<a href="tel:+866-450-WOOD(9663)">866-450-WOOD(9663)</a>
+					<p>6AM - 8PM PST</p>
+				</div>
 			</div>
 			<div class="footer-rating">
 				<img src="images/bbb-rating.png" alt="">
