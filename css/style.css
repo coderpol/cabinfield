@@ -1624,6 +1624,7 @@ h4 {
 @media only screen and (max-width: 1199px) {
   .header-banner .banner-text {
     margin: 15vw 0;
+    text-align: center;
   }
   .header-banner .banner-text .tagline {
     font-size: 20px;
