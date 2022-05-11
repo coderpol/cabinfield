@@ -12,9 +12,9 @@ include_once('sections/layouts/header.php')
             <nav class="col-md-12 breadcrumb-area" aria-label="breadcrumb">
                 <ol class="breadcrumb dark">
                     <li><a href="home.php"><i class="fa-solid fa-house"></i></a></li>
-                    <li><a href="#">Bedroom</a></li>
-                    <li><a href="#">Shop Style</a></li>
-                    <li><a href="#">Shop Collection</a></li>
+                    <li><a href="bedroom-landing.php">Bedroom</a></li>
+                    <li><a href="style-landing.php">Shop Style</a></li>
+                    <li><a href="collection-landing.php">Shop Collection</a></li>
                     <li class="active">Product Listing</li>
                 </ol>
             </nav>
@@ -38,7 +38,7 @@ include_once('sections/layouts/header.php')
                 <figure>
                     <img src="images/products/listing/product-1.png" alt="">
                 </figure>
-                <h3 class="title"><a href="#">Franklin Amish File Cabinet</a></h3>
+                <h3 class="title"><a href="product.php">Franklin Amish File Cabinet</a></h3>
                 <p class="details">Product No. FGFH1128</p>
                 <p class="price vertical-middle">starting <span class="value">$1,3,71.00</span></p>
                 <div class="icon">
@@ -49,7 +49,7 @@ include_once('sections/layouts/header.php')
                 <figure>
                     <img src="images/products/listing/product-2.png" alt="">
                 </figure>
-                <h3 class="title"><a href="#">Charleston Amish File Cabinet</a></h3>
+                <h3 class="title"><a href="product.php">Charleston Amish File Cabinet</a></h3>
                 <p class="details">Product No. FGFH1128</p>
                 <p class="price vertical-middle">starting <span class="value">$1,3,71.00</span></p>
                 <div class="icon">
@@ -60,7 +60,7 @@ include_once('sections/layouts/header.php')
                 <figure>
                     <img src="images/products/listing/product-3.png" alt="">
                 </figure>
-                <h3 class="title"><a href="#">Prairie Mission Amish File Cabinet</a></h3>
+                <h3 class="title"><a href="product.php">Prairie Mission Amish File Cabinet</a></h3>
                 <p class="details">Product No. FGFH1128</p>
                 <p class="price vertical-middle">starting <span class="value">$1,3,71.00</span></p>
                 <span class="availability">Available for 3 sizes</span>
@@ -78,7 +78,7 @@ include_once('sections/layouts/header.php')
                 <figure>
                     <img src="images/products/listing/product-1.png" alt="">
                 </figure>
-                <h3 class="title"><a href="#">Franklin Amish File Cabinet</a></h3>
+                <h3 class="title"><a href="product.php">Franklin Amish File Cabinet</a></h3>
                 <p class="details">Product No. FGFH1128</p>
                 <p class="price vertical-middle">starting <span class="value">$1,3,71.00</span></p>
                 <div class="icon">
@@ -89,7 +89,7 @@ include_once('sections/layouts/header.php')
                 <figure>
                     <img src="images/products/listing/product-2.png" alt="">
                 </figure>
-                <h3 class="title"><a href="#">Charleston Amish File Cabinet</a></h3>
+                <h3 class="title"><a href="product.php">Charleston Amish File Cabinet</a></h3>
                 <p class="details">Product No. FGFH1128</p>
                 <p class="price vertical-middle">starting <span class="value">$1,3,71.00</span></p>
                 <div class="icon">
@@ -100,7 +100,7 @@ include_once('sections/layouts/header.php')
                 <figure>
                     <img src="images/products/listing/product-3.png" alt="">
                 </figure>
-                <h3 class="title"><a href="#">Prairie Mission Amish File Cabinet</a></h3>
+                <h3 class="title"><a href="product.php">Prairie Mission Amish File Cabinet</a></h3>
                 <p class="details">Product No. FGFH1128</p>
                 <p class="price vertical-middle">starting <span class="value">$1,3,71.00</span></p>
                 <span class="availability">Available for 3 sizes</span>
@@ -118,7 +118,7 @@ include_once('sections/layouts/header.php')
                 <figure>
                     <img src="images/products/listing/product-1.png" alt="">
                 </figure>
-                <h3 class="title"><a href="#">Franklin Amish File Cabinet</a></h3>
+                <h3 class="title"><a href="product.php">Franklin Amish File Cabinet</a></h3>
                 <p class="details">Product No. FGFH1128</p>
                 <p class="price vertical-middle">starting <span class="value">$1,3,71.00</span></p>
                 <div class="icon">
@@ -129,7 +129,7 @@ include_once('sections/layouts/header.php')
                 <figure>
                     <img src="images/products/listing/product-2.png" alt="">
                 </figure>
-                <h3 class="title"><a href="#">Charleston Amish File Cabinet</a></h3>
+                <h3 class="title"><a href="product.php">Charleston Amish File Cabinet</a></h3>
                 <p class="details">Product No. FGFH1128</p>
                 <p class="price vertical-middle">starting <span class="value">$1,3,71.00</span></p>
                 <div class="icon">
@@ -140,7 +140,7 @@ include_once('sections/layouts/header.php')
                 <figure>
                     <img src="images/products/listing/product-3.png" alt="">
                 </figure>
-                <h3 class="title"><a href="#">Prairie Mission Amish File Cabinet</a></h3>
+                <h3 class="title"><a href="product.php">Prairie Mission Amish File Cabinet</a></h3>
                 <p class="details">Product No. FGFH1128</p>
                 <p class="price vertical-middle">starting <span class="value">$1,3,71.00</span></p>
                 <span class="availability">Available for 3 sizes</span>

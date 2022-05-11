@@ -2511,8 +2511,8 @@ h4 {
     padding-bottom: 60px;
   }
   .footer .footer-area .footer-social {
-    -ms-flex-preferred-size: 45%;
-        flex-basis: 45%;
+    -ms-flex-preferred-size: 49%;
+        flex-basis: 49%;
     margin: 20px auto;
     text-align: center;
     max-width: 200px;
@@ -2533,8 +2533,8 @@ h4 {
     color: #514646;
   }
   .footer .footer-area .footer-rating {
-    -ms-flex-preferred-size: 35%;
-        flex-basis: 35%;
+    -ms-flex-preferred-size: 30%;
+        flex-basis: 30%;
     text-align: right;
     margin: 20px auto;
   }
@@ -3173,6 +3173,9 @@ h4 {
   border: 1px solid #DDDDDD;
   text-align: center;
   border-radius: 20px;
+}
+.collection-area .collection:hover {
+  text-decoration: none;
 }
 @media only screen and (max-width: 767px) {
   .collection-area .collection {

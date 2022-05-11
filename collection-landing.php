@@ -12,7 +12,7 @@ include_once('sections/layouts/header.php')
             <nav class="col-md-12 breadcrumb-area" aria-label="breadcrumb">
                 <ol class="breadcrumb dark">
                     <li><a href="home.php"><i class="fa-solid fa-house"></i></a></li>
-                    <li><a href="#">Bedrooms</a></li>
+                    <li><a href="bedroom-landing.php">Bedrooms</a></li>
                     <li><a href="#">Shop Style</a></li>
                     <li class="active">Shop Collection</li>
                 </ol>
@@ -28,7 +28,7 @@ include_once('sections/layouts/header.php')
                 <h2><span>Bedroom</span> Colelction</h2>
             </div>
             <div class="col-md-4 col-12 button-area">
-                <a href="#" class="btn btn-primary">Shop by Furniture Piece</a>
+                <a href="bedroom-landing.php" class="btn btn-primary">Shop by Furniture Piece</a>
             </div>
         </div>
         <div class="row heading-text">

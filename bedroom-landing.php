@@ -34,50 +34,50 @@ include_once('sections/layouts/header.php')
                 <h3>Shop by Furniture Collection</h3>
             </div>
             <div class="col-md-12  collection-area">
-                <div class="collection">
+                <a href="collection-landing.php" class="collection">
                     <img src="images/collections/bedroom/collection-1.png" alt="">
                     <h4>Mission </h4>
-                </div>
-                <div class="collection">
+                </a>
+                <a href="collection-landing.php"  class="collection">
                     <img src="images/collections/bedroom/collection-2.png" alt="">
                     <h4>Contemporary</h4>
-                </div>
-                <div class="collection">
+                </a>
+                <a href="collection-landing.php"  class="collection">
                     <img src="images/collections/bedroom/collection-3.png" alt="">
                     <h4>Traditional</h4>
-                </div>
-                <div class="collection">
+                </a>
+                <a href="collection-landing.php"  class="collection">
                     <img src="images/collections/bedroom/collection-4.png" alt="">
                     <h4>Eclectic</h4>
-                </div>
-                <div class="collection">
+                </a>
+                <a href="collection-landing.php"  class="collection">
                     <img src="images/collections/bedroom/collection-5.png" alt="">
                     <h4>Rustic Sophisticates</h4>
-                </div>
-                <div class="collection">
+                </a>
+                <a href="collection-landing.php"  class="collection">
                     <img src="images/collections/bedroom/collection-6.png" alt="">
                     <h4>Rough Sawn Elegance</h4>
-                </div>
-                <div class="collection">
+                </a>
+                <a href="collection-landing.php"  class="collection">
                     <img src="images/collections/bedroom/collection-7.png" alt="">
                     <h4>Farmhouse</h4>
-                </div>
-                <div class="collection">
+                </a>
+                <a href="collection-landing.php"  class="collection">
                     <img src="images/collections/bedroom/collection-8.png" alt="">
                     <h4>Reclaimed Barnwood</h4>
-                </div>
-                <div class="collection">
+                </a>
+                <a href="collection-landing.php"  class="collection">
                     <img src="images/collections/bedroom/collection-9.png" alt="">
                     <h4>Rustic Hickory Designs</h4>
-                </div>
-                <div class="collection">
+                </a>
+                <a href="collection-landing.php"  class="collection">
                     <img src="images/collections/bedroom/collection-10.png" alt="">
                     <h4>Rustic Log Designs</h4>
-                </div>
-                <div class="collection">
+                </a>
+                <a href="collection-landing.php"  class="collection">
                     <img src="images/collections/bedroom/collection-11.png" alt="">
                     <h4>Live Edge</h4>
-                </div>
+                </a>
             </div>
         </div>
         <div class="row">
@@ -85,38 +85,38 @@ include_once('sections/layouts/header.php')
                 <h3>Shop by Furniture Piece</h3>
             </div>
             <div class="col-md-12 collection-area">
-                <div class="collection">
+                <a href="style-landing.php"  class="collection">
                     <img src="images/collections/bedroom/collection-1.png" alt="">
                     <h4>Bedroom Sets</h4>
-                </div>
-                <div class="collection">
+                </a>
+                <a href="style-landing.php"  class="collection">
                     <img src="images/collections/bedroom/collection-2.png" alt="">
                     <h4>Beds & Headboards</h4>
-                </div>
-                <div class="collection">
+                </a>
+                <a href="style-landing.php"  class="collection">
                     <img src="images/collections/bedroom/collection-3.png" alt="">
                     <h4>Bedroom Storage Pieces</h4>
-                </div>
-                <div class="collection">
+                </a>
+                <a href="style-landing.php"  class="collection">
                     <img src="images/collections/bedroom/collection-4.png" alt="">
                     <h4>Blanket Boxes & Hope Chests</h4>
-                </div>
-                <div class="collection">
+                </a>
+                <a href="style-landing.php"  class="collection">
                     <img src="images/collections/bedroom/collection-5.png" alt="">
                     <h4>Rustic Sophisticates</h4>
-                </div>
-                <div class="collection">
+                </a>
+                <a href="style-landing.php"  class="collection">
                     <img src="images/collections/bedroom/collection-6.png" alt="">
                     <h4>Rough Sawn Elegance</h4>
-                </div>
-                <div class="collection">
+                </a>
+                <a href="style-landing.php"  class="collection">
                     <img src="images/collections/bedroom/collection-7.png" alt="">
                     <h4>Farmhouse</h4>
-                </div>
-                <div class="collection">
+                </a>
+                <a href="style-landing.php"  class="collection">
                     <img src="images/collections/bedroom/collection-8.png" alt="">
                     <h4>Reclaimed Barnwood</h4>
-                </div>
+                </a>
             </div>
         </div>
     </div>

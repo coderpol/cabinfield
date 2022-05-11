@@ -28,7 +28,7 @@ include_once('sections/layouts/header.php')
                 <h2><span>Mission</span> Bedroom Stykes</h2>
             </div>
             <div class="col-md-4 col-12 button-area">
-                <a href="#" class="btn btn-primary">Shop by furniture</a>
+                <a href="bedroom-landing.php" class="btn btn-primary">Shop by furniture</a>
             </div>
         </div>
         <div class="row heading-text">
