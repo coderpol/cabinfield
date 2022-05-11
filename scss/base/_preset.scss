@@ -167,3 +167,10 @@ a:hover{
     color:$brand-color;
     text-decoration: underline;
 }
+
+.only-responsive{
+    display: none;
+    @include upto-phone{
+        display: inline-block;
+    }
+}

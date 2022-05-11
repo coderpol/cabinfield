@@ -117,3 +117,9 @@ $(".counter .btn").on("click",function(){
 $(document).on("click",".cart-item-remover",function(){
   $(this).closest(".cart-item").remove();
 });
+
+// close nav bar on phone
+
+$("#nav-close").on("click",function(){
+  $("#main_nav").removeClass("show");
+});

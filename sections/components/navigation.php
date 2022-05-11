@@ -5,12 +5,14 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav" aria-controls="main_nav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+                
             </div>
             <div class="collapse navbar-collapse" id="main_nav">
+                <span id="nav-close"><i class="fa-solid fa-xmark"></i></span>
                 <ul class="main-nav navbar-nav col-md-12 justify-content-center" >
                     <li class="megamenu nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" role="button" id="dropdown-1" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Fine Furniture <span class="only-responsive arrow">></span></a>
                         
-                        <a href="#" class="nav-link dropdown-toggle" role="button" id="dropdown-1" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Fine Furniture</a>
                         <div class="dropdown-menu submenu-block" aria-labelledby="dropdown-1">
                             <h3><a href="fine-furniture.php">Fine Furniture</a></h3>
                             <a href="#" class="link stock-link">Items in stocks</a>
@@ -18,40 +20,40 @@
                                 <div class="category">
                                     <h4>Bedrooms</h4>
                                     <ul class="submenu">
-                                        <li><a href="#">Shop by style</a></li>
-                                        <li><a href="#">Shop by Furniture Piece</a></li>
-                                        <li><a href="#">Shop by Quick Shop</a></li>
+                                        <li><a href="bedroom-landing.php">Bedrroms Landing</a></li>
+                                        <li><a href="collection-">Collection Landing</a></li>
+                                        <li><a href="product-listing.php">Product Listing</a></li>
                                     </ul>
                                 </div>
                                 <div class="category">
                                     <h4>Living Rooms & entertainment</h4>
                                     <ul class="submenu">
-                                        <li><a href="#">Shop by style</a></li>
-                                        <li><a href="#">Shop by Furniture Piece</a></li>
-                                        <li><a href="#">Shop by Quick Shop</a></li>
+                                        <li><a href="style-landing.php">Style Landing</a></li>
+                                        <li><a href="wood-sample.php">Wood Samples</a></li>
+                                        <li><a href="list-of-pre-built-products-v1.php">Lis of products</a></li>
                                     </ul>
                                 </div>
                                 <div class="category">
                                     <h4>Kitchen & dining space</h4>
                                     <ul class="submenu">
-                                        <li><a href="#">Shop by style</a></li>
-                                        <li><a href="#">Shop by Furniture Piece</a></li>
-                                        <li><a href="#">Shop by Quick Shop</a></li>
+                                        <li><a href="fabric-sample.php">Fabric Sample</a></li>
+                                        <li><a href="wood-sample.php">Wood Samples</a></li>
+                                        <li><a href="list-of-pre-built-products-v1.php">Lis of products</a></li>
                                     </ul>
                                 </div>
                                 <div class="category">
                                     <h4>Office</h4>
                                     <ul class="submenu">
-                                        <li><a href="#">Shop by style</a></li>
-                                        <li><a href="#">Shop by Furniture Piece</a></li>
-                                        <li><a href="#">Shop by Quick Shop</a></li>
+                                        <li><a href="style-landing.php">Style Landing</a></li>
+                                        <li><a href="wood-sample.php">Wood Samples</a></li>
+                                        <li><a href="fabric-sample.php">Fabric Sample</a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                     </li>
                     <li class="normal nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" href="#" role="button" id="dropdown-2" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Rustic & Live Edge</a>
+                        <a href="#" class="nav-link dropdown-toggle" href="#" role="button" id="dropdown-2" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Rustic & Live Edge <span class="only-responsive arrow">></span></a>
                         <div class="dropdown-menu submenu-block" aria-labelledby="dropdown-2">
                             <h3>Rustic & Live Edge</h3>
                             <a href="#" class="link stock-link">Items in stocks</a>
@@ -66,7 +68,7 @@
                         </div>
                     </li>
                     <li class="normal nav-item dropdown">
-                        <a href="#"  class="nav-link dropdown-toggle" href="#" id="dropdown-3" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Outdoor</a>
+                        <a href="#"  class="nav-link dropdown-toggle" href="#" id="dropdown-3" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Outdoor <span class="only-responsive arrow">></span></a>
                         <div class="dropdown-menu submenu-block" aria-labelledby="dropdown-3">
                             <h3>Outdoor</h3>
                             <a href="#" class="link stock-link">Items in stocks</a>
@@ -84,6 +86,21 @@
                         </div>
                     </li>
                 </ul>
+                <div class="top-nav-on-phone">
+                    <h3>Menu</h3>
+                    <ul class="col-md-12 clearfix">
+                        <li><a href="about.php">About Us</a></li>
+                        <li><a href="testimonials.php">Testimonials</a></li>
+                        <li><a href="faq.php">FAQs</a></li>
+                        <li><a href="contact-us.php">Contact</a></li>
+                        <li><a href="gift-card.php">Gifting</a></li>
+                        <li><a href="#">blog</a></li>
+                    </ul>
+                    <ul class="col-md-12 clearfix">
+                        <li><a href="tel:+866-450-9663"><i class="fa-solid fa-phone"></i> 866-450-9663</a></li>
+                        <li><a href="mailto:sales@cabinfield.com"><i class="fa-regular fa-envelope"></i> sales@cabinfield.com</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>

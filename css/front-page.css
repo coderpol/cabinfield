@@ -391,6 +391,15 @@ a:hover {
   text-decoration: underline;
 }
 
+.only-responsive {
+  display: none;
+}
+@media only screen and (max-width: 767px) {
+  .only-responsive {
+    display: inline-block;
+  }
+}
+
 .font-page {
   background: #E5E5E5;
   padding: 20px;
