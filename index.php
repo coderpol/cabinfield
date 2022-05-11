@@ -23,9 +23,7 @@
                     <li class="review"><a href="product-listing.php">Product Listing - V2</a></li>
                     <li class="review"><a href="list-of-pre-built-products-v1.php">List of Pre-built products - V1</a></li>
                     <li class="review"><a href="list-of-pre-built-products-v2.php">List of Pre-built products - V2</a></li>
-                    <li class="hold"><a href="#">Product - Customize</a></li>
-                    <li class="hold"><a href="#">Product - Specs & Features</a></li>
-                    <li class="hold"><a href="#">Product - Review & Testimonials</a></li>
+                    <li class="working"><a href="product.php">Product - Customize</a></li>
                     <li class="review"><a href="#">Shopping Cart</a></li>
                     <li class="review"><a href="checkout-shipping.php">Checkout Shipping</a></li>
                     <li class="review"><a href="checkout-payment-info.php">Checkout Payment - V1</a></li>

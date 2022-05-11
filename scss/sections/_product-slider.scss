@@ -1,0 +1,89 @@
+.product-slider-section{
+    .slider-row{
+        position:relative;
+        margin-bottom:$m-60;
+        .more{
+            position:absolute;
+            top:7px;
+            right:20px;
+            color:$brand-color;
+            @include font($font-16,$line-21);
+        }
+    }
+    .product-slider{
+        .slick-list{
+            overflow:hidden;
+        }
+        .product{
+            position:relative;
+            margin:0 5px;
+            .figure{
+                text-align: center;
+                background: $whitish-1;
+                width:100%;
+                padding:$m-20;
+                img{
+                    max-width: 160px;
+                    margin:0 auto;
+                }
+            }
+            .icon{
+                display: block;
+                text-align:center;
+                background-color: $white;
+                position: absolute;
+                top: 15px;
+                right: 20px;
+                @include rounded($m-30);
+                box-shadow: 0 0 10px rgba($black,0.1);
+                a{
+                    display: block;
+                    @include square($m-40);
+                    @include rounded($m-30);
+                    i{
+                        @include font($font-18,$m-40);
+                        color:$blue;
+                    }
+                    &:hover{
+                        background:$brand-color;
+                        i{
+                            color:$white;
+                        }
+                    }
+                }
+            }
+            .title{
+                @include font($font-18,$line-26,$font-bold);
+                color:$blue-darkest;
+                a{
+                    color:$blue-darkest;
+                }
+            }
+            .details{
+                color:$gray-dark-3;
+                @include font($font-14,$line-18);
+                margin-bottom:10px;
+            }
+            .price{
+                text-transform: capitalize;
+                color:$gray-dark-3;
+                font-weight: bold;
+                .value{
+                    color:$brand-color;
+                    @include font($font-18,$line-18,$font-medium);
+                }
+            }
+            .availability{
+                display:inline-block;
+                @include font(12px,100%,$font-medium);
+                padding:5px $m-10;
+                background: rgba(179, 82, 44, 0.14);
+                color:$brand-color;
+                @include rounded($m-30);
+            }
+        }
+        .slick-arrow{
+            top:110px;
+        }
+    }
+}

@@ -247,6 +247,10 @@
                 border:none;
                 color:$blue-darkest;
                 padding-left:0;
+                margin-left: -12px;
+                i{
+                    font-size:32px;
+                }
                 &:focus{
                     box-shadow: none !important;
                 }
@@ -255,7 +259,7 @@
                 position: absolute;
                 width: 100%;
                 height: auto;
-                top: -109px;
+                top: -77px;
                 left: 0;
                 background: #fff;
                 z-index: 999999;

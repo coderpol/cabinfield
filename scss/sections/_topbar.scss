@@ -2,6 +2,9 @@
     background: $blue;
     color:$white;
     height:$m-40;
+    @include upto-tablet{
+        display:none;
+    }
     .toogle-button-area{
         display:none;
     }
@@ -50,62 +53,5 @@
                 }
             }
         }
-    }
-}
-
-@include upto-tablet{
-    .topbar-area{
-        // display:none;  
-        height:auto;
-        .navbar{
-            padding:5px;
-            min-height:43px;
-        }
-        .toogle-button-area{
-            display:block;
-            text-align:left;
-            width:100%;
-            margin-left:10px;
-            .navbar-toggler{
-                padding:5px;
-                border-color:$white;
-                color:$white;
-            }
-            .navbar-toggler-icon{
-                background-size: 20px !important;
-                width:20px;
-                height:15px;
-            }
-        }
-        .topbar-nav{
-            .top-nav{
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: flex-start;
-                align-content: center;
-                float:none;
-                width:100%;
-                margin-top:10px;
-                padding:5px 0;
-                border-top:$thin solid $blue-light-2;
-                border-bottom:$thin solid $blue-light-2;
-                li{
-                    border: 1px solid #dedede;
-                    margin-bottom: 5px; 
-                    a{
-                        &:hover{
-                            background-color: $brand-color;
-                            text-decoration:none;
-                        }
-                    }
-                }
-            }
-            .contact-details{
-                float: none;
-                width: 100%;
-                text-align: center;
-                margin-top: 10px;
-            }
-        }  
     }
 }

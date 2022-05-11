@@ -3,7 +3,7 @@
         <div class="row navbar navbar-expand-lg navbar-light">
             <div class="toogle-button-area">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav" aria-controls="main_nav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <i class="fa-solid fa-bars"></i>
                 </button>
                 
             </div>

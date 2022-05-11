@@ -174,3 +174,27 @@ a:hover{
         display: inline-block;
     }
 }
+.only-phone{
+    display: none;
+    @include upto-phone{
+        display: block;
+    }
+}
+.above-phone{
+    display: block;
+    @include upto-phone{
+        display: none;
+    }
+}
+.upto-tablet{
+    display: none;
+    @include upto-tablet{
+        display: block;
+    }
+}
+.above-tablet{
+    display: block;
+    @include upto-tablet{
+        display: none;
+    }
+}

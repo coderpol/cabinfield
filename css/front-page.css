@@ -400,6 +400,42 @@ a:hover {
   }
 }
 
+.only-phone {
+  display: none;
+}
+@media only screen and (max-width: 767px) {
+  .only-phone {
+    display: block;
+  }
+}
+
+.above-phone {
+  display: block;
+}
+@media only screen and (max-width: 767px) {
+  .above-phone {
+    display: none;
+  }
+}
+
+.upto-tablet {
+  display: none;
+}
+@media only screen and (max-width: 991px) {
+  .upto-tablet {
+    display: block;
+  }
+}
+
+.above-tablet {
+  display: block;
+}
+@media only screen and (max-width: 991px) {
+  .above-tablet {
+    display: none;
+  }
+}
+
 .font-page {
   background: #E5E5E5;
   padding: 20px;
