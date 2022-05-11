@@ -97,11 +97,11 @@ include_once('sections/layouts/header.php')
                 </div>
                 <div id="billing-address">
                     <div class="row form-line">
-                        <div class="col">
+                        <div class="col-md-6 col-12">
                             <label for="" class="form-label">Firstname</label>
                             <input type="text" class="form-control" placeholder="" aria-label="Firstname" required>
                         </div>
-                        <div class="col">
+                        <div class="col-md-6 col-12">
                             <label for=""class="form-label">Lastname</label>
                             <input type="text" class="form-control" placeholder="" aria-label="Lastname" required>
                         </div>
@@ -125,11 +125,11 @@ include_once('sections/layouts/header.php')
                         </div>
                     </div>
                     <div class="row form-line">
-                        <div class="col">
+                        <div class="col-md-6 col-12">
                             <label for="" class="form-label">City</label>
                             <input type="text" class="form-control" placeholder="" aria-label="City" required>
                         </div>
-                        <div class="col">
+                        <div class="col-md-6 col-12">
                             <label for="" class="form-label">State</label>
                             <input type="text" class="form-control" placeholder="" aria-label="State" required>
                         </div>
@@ -139,7 +139,7 @@ include_once('sections/layouts/header.php')
                             <label for="" class="form-label">Zip Code</label>
                             <input type="text" class="form-control" placeholder="" aria-label="Zip Code" required>
                         </div>
-                        <div class="col">
+                        <div class="col-md-6 col-12">
                             <label for="" class="form-label">Ext <span class="blue">(optional)</span></label>
                             <input type="text" class="form-control" placeholder="" aria-label="Ext">
                         </div>

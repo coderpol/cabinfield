@@ -97,6 +97,13 @@
             color:$white;
         }
     }
+    
+    &.btn-secondary{
+        background-color: $blue;
+        &:hover{
+            background-color: $blue-darkest;
+        }
+    }
 }
 
 .link{

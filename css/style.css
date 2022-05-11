@@ -646,6 +646,12 @@ h4 {
   background: #121212;
   color: #fff;
 }
+.btn.btn-secondary {
+  background-color: #627590;
+}
+.btn.btn-secondary:hover {
+  background-color: #121212;
+}
 
 .link.link-primary {
   color: #B3522C;
