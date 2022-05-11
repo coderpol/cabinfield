@@ -319,3 +319,117 @@
         }
     }
 }
+
+.shopping-cart-section{
+    margin-bottom:$m-70;
+    .cart-item{
+        border-bottom:1px solid $gray;
+        &:last-child{
+            border-bottom:0;
+        }
+        padding:$m-40 0;
+        @include from-pc{
+            margin-right:$m-20;
+        }
+        .item-details{
+            @include font($font-18,$line-23);
+            .title{
+                margin-bottom:$m-15;
+                p{
+                    @include font($font-18,$line-23,$font-bold);
+                    margin-bottom:5px;
+                    color:$blue-darkest;
+                }
+                h3,h4{
+                    @include font($font-18,$line-23,$font-medium);
+                    color:$brand-color;
+                }
+            }
+            .price{
+                margin:25px 0;
+                padding-bottom:25px;
+                border-bottom:1px solid $gray;
+                p{
+                    color:$blue-darkest;
+                    @include font($font-18,$line-23,$font-bold);
+                    span{
+                        display: block;
+                        font-weight: $font-normal;
+                        margin-top:5px;
+                    }
+                }
+                .counter{
+                    display: flex;
+                    span{
+                        display: inline-block;
+                    }
+                    .btn{
+                        @include square(44px);
+                        @include rounded($m-30);
+                        box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.1);
+                        padding:0;
+                        background-color: $white;
+                        color:$blue-darker-2;
+                        @include font($font-40,41px);
+                        &:hover{
+                            background-color: $brand-color;
+                            color:$white;
+                        }
+                    }
+                    .count{
+                        margin:0 $m-20;
+                        @include square(44px);
+                        text-align: center;
+                        @include font($font-20,44px,$font-medium);
+                        color:$black;
+                        border:0;
+                    }
+                }
+            }
+            .detail{
+                margin:0;
+                padding:0;
+                list-style-type: none;
+                li{
+                    color:$blue-darkest;
+                    margin-bottom:15px;
+                    font-weight: $font-medium;
+                    &:last-child{
+                        margin-bottom:0px;
+                    }
+                    span{
+                        font-weight: $font-normal;
+                        color:$blue;
+                    }
+                }
+            }
+        }
+        .action{
+            .price-title{
+                @include font($font-18,$line-23,$font-bold);
+                margin-bottom:$m-10;
+                span{
+                    @include font($font-22,$line-26,$font-medium);
+                    color:$brand-color;
+                    display: block;
+                    margin:$m-10 0;
+                }
+            }
+            .buttons{
+                .btn{
+                    margin-top:$m-20;
+                }
+            }
+        }
+        
+        .only-details{
+            p{
+                @include font($font-20,$font-26,$font-medium);
+                color:$blue-darkest;
+                span{
+                    color:$brand-color;
+                }
+            }
+        }
+    }
+}

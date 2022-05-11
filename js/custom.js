@@ -87,3 +87,33 @@ $("#btn-addition").on("click", function(){
 $(document).on("click",".remover",function(){
   $(this).closest(".combination").remove();
 });
+
+
+
+
+// shop cart counter
+// $("span .count").data("count");
+
+$(".counter .btn").on("click",function(){
+  
+  let action = $(this).data("action");
+  // alert(action);
+  if(action=="decrease"){
+    let target = $(this).next(".count");
+    let value = target.val();
+    if(value!=0){
+      value--;
+    }
+    target.val(value);
+  }else if(action=="increase"){
+    let target = $(this).prev(".count");
+    let value = target.val();
+    value++;
+    target.val(value);
+  }
+});
+
+// remove cart-item
+$(document).on("click",".cart-item-remover",function(){
+  $(this).closest(".cart-item").remove();
+});

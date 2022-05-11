@@ -134,6 +134,14 @@ input{
         margin-right:$m-10;
     }
 }
+input[type=number] {
+    -moz-appearance: textfield;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
 /* custom scrollbar */
 ::-webkit-scrollbar {width: $m-10;}
 ::-webkit-scrollbar-track {background: $scroll-track-color;}

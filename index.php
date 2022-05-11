@@ -27,7 +27,7 @@
                     <li class="hold"><a href="#">Product - Customize - V2</a></li>
                     <li class="hold"><a href="#">Product - Specs & Features</a></li>
                     <li class="hold"><a href="#">Product - Review & Testimonials</a></li>
-                    <li class="next"><a href="#">Shopping Cart</a></li>
+                    <li class="review"><a href="#">Shopping Cart</a></li>
                     <li class="review"><a href="checkout-shipping.php">Checkout Shipping</a></li>
                     <li class="review"><a href="checkout-payment-info.php">Checkout Payment - V1</a></li>
                     <li class="review"><a href="checkout-payment-info-2.php">Checkout Payment - V2</a></li>
