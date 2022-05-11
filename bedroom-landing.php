@@ -30,7 +30,7 @@ include_once('sections/layouts/header.php')
 <div class="section page-content mt-5 mb-5  clearfix">
     <div class="container">
         <div class="row border-bottom">
-            <div class="col-md-12 section-title smaller mt-5">
+            <div class="col-md-12 section-title smaller">
                 <h3>Shop by Furniture Collection</h3>
             </div>
             <div class="col-md-12  collection-area">
@@ -81,7 +81,7 @@ include_once('sections/layouts/header.php')
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12 section-title smaller mt-5">
+            <div class="col-md-12 section-title smaller ">
                 <h3>Shop by Furniture Piece</h3>
             </div>
             <div class="col-md-12 collection-area">
