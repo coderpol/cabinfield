@@ -1201,16 +1201,15 @@ h4 {
 .header-area .cart-area .cart-list li a .counter {
   position: absolute;
   right: -4px;
-  top: -4px;
+  top: -10px;
   display: block;
-  width: 12px;
-  height: 14px;
   background: #B3522C;
   border-radius: 50%;
   color: #fff;
   font-size: 10px;
   text-align: center;
   line-height: 15px;
+  padding: 1px 4px;
 }
 .header-area .cart-area .cart-list li + li {
   margin-left: 35px;
