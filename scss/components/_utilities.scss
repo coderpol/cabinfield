@@ -8,6 +8,12 @@
     }
 }
 
+.border-right{
+    @include from-pc{
+        border-right:$thin solid $gray;
+    }
+}
+
 .billing-area{
     @include upto-phone{
         margin-top:$m-40;
