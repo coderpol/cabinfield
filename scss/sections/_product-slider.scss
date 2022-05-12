@@ -8,6 +8,9 @@
             right:20px;
             color:$brand-color;
             @include font($font-16,$line-21);
+            @include upto-phone{
+                display: none;
+            }
         }
     }
     .product-slider{

@@ -3350,6 +3350,11 @@ h4 {
   line-height: 21px;
   font-weight: 400;
 }
+@media only screen and (max-width: 767px) {
+  .product-slider-section .slider-row .more {
+    display: none;
+  }
+}
 .product-slider-section .product-slider .slick-list {
   overflow: hidden;
 }
@@ -3850,6 +3855,12 @@ h4 {
       flex-basis: 14.285%;
   margin-bottom: 20px;
 }
+@media only screen and (max-width: 767px) {
+  .product-section .stack-area .stain {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+  }
+}
 .product-section .stack-area .stain label {
   border: 0;
   padding: 5px;
@@ -3914,6 +3925,11 @@ h4 {
   margin-bottom: 20px;
   text-align: center;
 }
+@media only screen and (max-width: 767px) {
+  .product-section .stack-tweleve .stack {
+    width: 50%;
+  }
+}
 .product-section .stack-tweleve .stack p {
   margin-bottom: 0;
   margin-top: 5px;
@@ -3960,6 +3976,11 @@ h4 {
   float: right;
   display: inline-block;
   width: 100px;
+}
+@media only screen and (max-width: 767px) {
+  .product-section .order-details .option-area .form-check label span {
+    float: none;
+  }
 }
 .product-section .order-details .option-area .form-check label.black {
   color: #000;
