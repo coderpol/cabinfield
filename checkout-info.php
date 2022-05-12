@@ -40,14 +40,14 @@ include_once('sections/layouts/header.php')
                             (484) 5400190
                             </p>
                         </address>
-                        <a href="#" class="btn btn-primary edit-icon rounded-circle" data-bs-toggle="modal" data-bs-target="#shipping_address">
+                        <button class="btn btn-primary edit-icon rounded-circle" data-bs-toggle="modal" data-bs-target="#shipping_address">
                             <i class="cabincon edit-white size-18"></i>
-                        </a>
+                        </button>
                         <div class="modal fade" id="shipping_address" tabindex="1" aria-labelledby="Shipping Address" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered">
                                 <form action="#" class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="shipping_address_label">Shipping Address</h5>
+                                        <p class="modal-title" id="shipping_address_label">Shipping Address</p>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
@@ -124,14 +124,14 @@ include_once('sections/layouts/header.php')
                                 United States<br/>
                             </p>
                         </address>
-                        <a href="#" class="btn btn-primary edit-icon rounded-circle"  data-bs-toggle="modal" data-bs-target="#billing_address">
+                        <button class="btn btn-primary edit-icon rounded-circle"  data-bs-toggle="modal" data-bs-target="#billing_address">
                             <i class="cabincon edit-white size-18"></i>
-                        </a>
+                        </button>
                         <div class="modal fade" id="billing_address" tabindex="2" aria-labelledby="Billing Address" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered">
                                 <form action="#" class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="billing_address_label">Shipping Address</h5>
+                                        <p class="modal-title" id="billing_address_label">Shipping Address</p>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
@@ -201,15 +201,15 @@ include_once('sections/layouts/header.php')
                     <div class="col-md-6 review-item">
                         <h4 class="form-label">Payment Info</h4>
                         <p>xxxx-xxxx-xxxx-4444</p>
-                        <a href="#" class="btn btn-primary edit-icon rounded-circle" data-bs-toggle="modal" data-bs-target="#payment_info">
+                        <button class="btn btn-primary edit-icon rounded-circle" data-bs-toggle="modal" data-bs-target="#payment_info">
                             <i class="cabincon edit-white size-18"></i>
-                        </a>
+                        </button>
                         
                         <div class="modal fade" id="payment_info" tabindex="3" aria-labelledby="Payment Info" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered">
                                 <form action="#" class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="payment_info_label">Payment Info</h5>
+                                        <p class="modal-title" id="payment_info_label">Payment Info</p>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
@@ -269,15 +269,15 @@ include_once('sections/layouts/header.php')
                     <div class="col-md-6 review-item">
                         <h4 class="form-label">Gift Note</h4>
                         <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
-                        <a href="#" class="btn btn-primary edit-icon rounded-circle" data-bs-toggle="modal" data-bs-target="#gift_note">
+                        <button class="btn btn-primary edit-icon rounded-circle" data-bs-toggle="modal" data-bs-target="#gift_note">
                             <i class="cabincon edit-white size-18"></i>
-                        </a>
+                        </button>
                         
                         <div class="modal fade" id="gift_note" tabindex="4" aria-labelledby="Gift Note" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered">
                                 <form action="#" class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="payment_info_label">Gift Note</h5>
+                                        <p class="modal-title" id="payment_info_label">Gift Note</p>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
@@ -314,7 +314,7 @@ include_once('sections/layouts/header.php')
             
             <div class="col-md-4 card summary-card">
                 <div class="card-body shadow">
-                    <h5 class="card-title">Order Summary</h5>
+                    <h4 class="card-title">Order Summary</h4>
                     <ul class="list-group summary-list">
                         <li class="list-item">Items: <span class="value">$1,321.00</span></li>
                         <li class="list-item">Shipping & handling: <span class="value">$135.00</span></li>

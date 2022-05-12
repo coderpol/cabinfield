@@ -12,8 +12,8 @@ include_once('sections/layouts/header.php')
             <nav class="col-md-12 breadcrumb-area" aria-label="breadcrumb">
                 <ol class="breadcrumb dark">
                     <li><a href="home.php"><i class="fa-solid fa-house"></i></a></li>
-                    <li><a href="#">Bedrooms</a></li>
-                    <li><a href="#">Shop Style</a></li>
+                    <li><a href="bedroom-landing.php">Bedrooms</a></li>
+                    <li><a href="style-landing.php">Shop Style</a></li>
                     <li class="active">Shop Collection</li>
                 </ol>
             </nav>

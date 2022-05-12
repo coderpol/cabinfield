@@ -47,7 +47,7 @@
 					<li><a href="warranty.php">Warranty Disclaimer</a></li>
 					<li><a href="thank-you-v2.php">Cancellations/Returns Disclaimer</a></li>
 					<li><a href="thank-you-v2.php">Shipping and Delivery Disclaimer</a></li>
-					<li><a href="wood-sample.php">GFazebos & Playsets Disclaimer</a></li>
+					<li><a href="wood-sample.php">Gazebos & Playsets Disclaimer</a></li>
 				</ul>
 			</div>
 		</div>

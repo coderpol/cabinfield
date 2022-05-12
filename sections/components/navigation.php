@@ -1,4 +1,5 @@
 <nav class="navigation-area clearfix">
+    <h2 class="hidden">Primary Navigation</h2>
     <div class="container">
         <div class="row navbar navbar-expand-lg navbar-light">
             <div class="toogle-button-area">
