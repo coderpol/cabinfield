@@ -46,8 +46,8 @@ include_once('sections/layouts/header.php')
                             <span>$1371.00</span>
                         </p>
                         <div class="buttons">
-                            <a href="#" class="btn btn-empty btn-block cart-item-remover"><i class="fa-solid fa-trash-can"></i> Remove</a>
-                            <a href="#" class="btn btn-primary btn-block"><i class="fa-solid fa-pen-to-square"></i> Edit</a>
+                            <button class="btn btn-empty btn-block cart-item-remover"><i class="fa-solid fa-trash-can"></i> Remove</button>
+                            <button class="btn btn-primary btn-block"><i class="fa-solid fa-pen-to-square"></i> Edit</button>
                         </div>
                     </div>
                 </div>
@@ -81,8 +81,8 @@ include_once('sections/layouts/header.php')
                             <span>$1371.00</span>
                         </p>
                         <div class="buttons">
-                            <a href="#" class="btn btn-empty btn-block cart-item-remover"><i class="fa-solid fa-trash-can"></i> Remove</a>
-                            <a href="#" class="btn btn-primary btn-block"><i class="fa-solid fa-pen-to-square"></i> Edit</a>
+                            <button class="btn btn-empty btn-block cart-item-remover"><i class="fa-solid fa-trash-can"></i> Remove</button>
+                            <button class="btn btn-primary btn-block"><i class="fa-solid fa-pen-to-square"></i> Edit</button>
                         </div>
                     </div>
                 </div>
@@ -123,8 +123,8 @@ include_once('sections/layouts/header.php')
                             <span>$1371.00</span>
                         </p>
                         <div class="buttons">
-                            <a href="#" class="btn btn-empty btn-block cart-item-remover"><i class="fa-solid fa-trash-can"></i> Remove</a>
-                            <a href="#" class="btn btn-primary btn-block"><i class="fa-solid fa-pen-to-square"></i> Edit</a>
+                            <button class="btn btn-empty btn-block cart-item-remover"><i class="fa-solid fa-trash-can"></i> Remove</button>
+                            <button class="btn btn-primary btn-block"><i class="fa-solid fa-pen-to-square"></i> Edit</button>
                         </div>
                     </div>
                 </div>
@@ -174,8 +174,8 @@ include_once('sections/layouts/header.php')
                             <span>$602.00</span>
                         </p>
                         <div class="buttons">
-                            <a href="#" class="btn btn-empty btn-block cart-item-remover"><i class="fa-solid fa-trash-can"></i> Remove</a>
-                            <a href="#" class="btn btn-primary btn-block"><i class="fa-solid fa-pen-to-square"></i> Edit</a>
+                            <button class="btn btn-empty btn-block cart-item-remover"><i class="fa-solid fa-trash-can"></i> Remove</button>
+                            <button class="btn btn-primary btn-block"><i class="fa-solid fa-pen-to-square"></i> Edit</button>
                         </div>
                     </div>
                 </div>

@@ -11,7 +11,7 @@ include_once('sections/layouts/header.php')
         <div class="row">
             <nav class="col-md-12 breadcrumb-area" aria-label="breadcrumb">
                 <ol class="breadcrumb dark reverse">
-                    <li><a href="#">Back</a></li>
+                    <li><a href="thank-you.php">Back</a></li>
                 </ol>
             </nav>
         </div>

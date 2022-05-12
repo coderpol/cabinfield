@@ -13,7 +13,7 @@ include_once('sections/layouts/header.php')
                 <div class="col-md-8 banner-text">
                     <h2 class="tagline">Authenticity. Beauty. Craftmanship.</h2>
                     <h3 class="heading">Fine Amish Furniture You'll Treasure for a Lifetime</h3>
-                    <a href="#" class="btn btn-white">Shop Now</a>
+                    <a href="product-listing.php" class="btn btn-white">Shop Now</a>
                 </div>
             </div>
         </div>
@@ -74,7 +74,7 @@ include_once('sections/layouts/header.php')
             </div>
             
             <div class="col-md-12 text-center action-area">
-                <a href="#" class="btn btn-primary btn-large">Learn more about us</a>
+                <a href="about.php" class="btn btn-primary btn-large">Learn more about us</a>
             </div>
         </div>
     </div>
@@ -94,7 +94,7 @@ include_once('sections/layouts/header.php')
                         </header>
                         <p>Design an artisanal backdrop for your unique lifestyle. Our Amish craftsmen are skilled in handcrafting a variety of contemporary, traditional, and Mission style furniture, made in the USA. Follow your heart to the home of your dreams.</p>
                         
-                        <a href="#" class="btn btn-primary btn-large">Shop Now</a>
+                        <a href="product-listing.php" class="btn btn-primary btn-large">Shop Now</a>
                     </article>
                 </div>
                 <div class="display clearfix">
@@ -107,7 +107,7 @@ include_once('sections/layouts/header.php')
                         </header>
                         <p>Introduce a rural warmth and add texture, color, and character to your space. Designed by nature, rustic furniture is as authentic as it gets.</p>
                         
-                        <a href="#" class="btn btn-primary btn-large">Shop Now</a>
+                        <a href="product-listing.php" class="btn btn-primary btn-large">Shop Now</a>
                     </article>
                 </div>
                 <div class="display clearfix">
@@ -120,7 +120,7 @@ include_once('sections/layouts/header.php')
                         </header>
                         <p>Absorb nature’s beauty and connect with the great outdoors. Your outdoor space will become your favorite place with Amish outdoor furniture that is both durable and eco-friendly.</p>
                         
-                        <a href="#" class="btn btn-primary btn-large">Shop Now</a>
+                        <a href="product-listing.php" class="btn btn-primary btn-large">Shop Now</a>
                     </article>
                 </div>
             </div>
@@ -146,7 +146,7 @@ include_once('sections/layouts/header.php')
         <div class="row">
             <section class="col-md-12 banner home-cta">
                 <h4>You love beautiful, natural wood. Get inspiration, product news, and promotions to your inbox, so you can eep checking those items off your whishlist.</h4>
-                <a href="#" class="btn btn-blue btn-medium">Sign Up for Cabinfield treasures</a>
+                <a href="home.php" class="btn btn-blue btn-medium">Sign Up for Cabinfield treasures</a>
             </section>
         </div>
     </div>

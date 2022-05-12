@@ -12,9 +12,9 @@ include_once('sections/layouts/header.php')
             <nav class="col-md-12 breadcrumb-area" aria-label="breadcrumb">
                 <ol class="breadcrumb dark">
                     <li><a href="home.php"><i class="fa-solid fa-house"></i></a></li>
-                    <li><a href="#">Bedroom</a></li>
-                    <li><a href="#">Shop Style</a></li>
-                    <li><a href="#">Shop Collection</a></li>
+                    <li><a href="bedroom-landing.php">Bedroom</a></li>
+                    <li><a href="style-landing.php">Shop Style</a></li>
+                    <li><a href="collection-landing.php">Shop Collection</a></li>
                     <li class="active">Product Listing</li>
                 </ol>
             </nav>
@@ -46,7 +46,7 @@ include_once('sections/layouts/header.php')
                             </select>
                         </form>
                     </li>
-                    <li><a href="#" class="btn btn-primary btn">Shop by Furniture Piece</a></li>
+                    <li><a href="bedroom-landing.php" class="btn btn-primary btn">Shop by Furniture Piece</a></li>
                 </ul>
             </div>
         </div>
@@ -156,77 +156,77 @@ include_once('sections/layouts/header.php')
                         <figure>
                             <img src="images/products/listing/product-1.png" alt="">
                         </figure>
-                        <h3 class="title"><a href="#">Franklin Amish File Cabinet</a></h3>
+                        <h3 class="title"><a href="product.php">Franklin Amish File Cabinet</a></h3>
                         <p class="details">Product No. FGFH1128</p>
                         <p class="price vertical-middle">starting <span class="value">$1,3,71.00</span></p>
                         <div class="icon">
-                            <a href="#"><i class="fa-solid fa-heart"></i>Like this product</a>
+                            <button><i class="fa-solid fa-heart"></i></button>
                         </div>
                     </div>
                     <div class="col-md-4 product">
                         <figure>
                             <img src="images/products/listing/product-2.png" alt="">
                         </figure>
-                        <h3 class="title"><a href="#">Charleston Amish File Cabinet</a></h3>
+                        <h3 class="title"><a href="product.php">Charleston Amish File Cabinet</a></h3>
                         <p class="details">Product No. FGFH1128</p>
                         <p class="price vertical-middle">starting <span class="value">$1,3,71.00</span></p>
                         <div class="icon">
-                            <a href="#"><i class="fa-solid fa-heart"></i></a>
+                            <button><i class="fa-solid fa-heart"></i></button>
                         </div>
                     </div>
                     <div class="col-md-4 product">
                         <figure>
                             <img src="images/products/listing/product-3.png" alt="">
                         </figure>
-                        <h3 class="title"><a href="#">Prairie Mission Amish File Cabinet</a></h3>
+                        <h3 class="title"><a href="product.php">Prairie Mission Amish File Cabinet</a></h3>
                         <p class="details">Product No. FGFH1128</p>
                         <p class="price vertical-middle">starting <span class="value">$1,3,71.00</span></p>
                         <span class="availability">Available for 3 sizes</span>
                         <div class="icon">
-                            <a href="#"><i class="fa-solid fa-heart"></i></a>
+                            <button><i class="fa-solid fa-heart"></i></button>
                         </div>
                     </div>
                     <div class="col-md-4 product">
                         <figure>
                             <img src="images/products/listing/product-4.png" alt="">
                         </figure>
-                        <h3 class="title"><a href="#">Franklin Amish File Cabinet</a></h3>
+                        <h3 class="title"><a href="product.php">Franklin Amish File Cabinet</a></h3>
                         <p class="details">Product No. FGFH1128</p>
                         <p class="price vertical-middle">starting <span class="value">$1,3,71.00</span></p>
                         <div class="icon">
-                            <a href="#"><i class="fa-solid fa-heart"></i></a>
+                            <button><i class="fa-solid fa-heart"></i></button>
                         </div>
                     </div>
                     <div class="col-md-4 product">
                         <figure>
                             <img src="images/products/listing/product-5.png" alt="">
                         </figure>
-                        <h3 class="title"><a href="#">Franklin Amish File Cabinet</a></h3>
+                        <h3 class="title"><a href="product.php">Franklin Amish File Cabinet</a></h3>
                         <p class="details">Product No. FGFH1128</p>
                         <p class="price vertical-middle">starting <span class="value">$1,3,71.00</span></p>
                         <div class="icon">
-                            <a href="#"><i class="fa-solid fa-heart"></i></a>
+                            <button><i class="fa-solid fa-heart"></i></button>
                         </div>
                     </div>
                     <div class="col-md-4 product">
                         <figure>
                             <img src="images/products/listing/product-6.png" alt="">
                         </figure>
-                        <h3 class="title"><a href="#">Franklin Amish File Cabinet</a></h3>
+                        <h3 class="title"><a href="product.php">Franklin Amish File Cabinet</a></h3>
                         <p class="details">Product No. FGFH1128</p>
                         <p class="price vertical-middle">starting <span class="value">$1,3,71.00</span></p>
                         <div class="icon">
-                            <a href="#"><i class="fa-solid fa-heart"></i></a>
+                            <button><i class="fa-solid fa-heart"></i></button>
                         </div>
                     </div>
                 </div>
                 <nav class="row text-center pagination-area" aria-label="Product Nagivation">
                     <ul class="pagination">
-                        <li class="page-item"><a class="page-link" href="#" aria-label="Previous"><i class="fa-solid fa-angle-left"></i></a></li>
-                        <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                        <li class="page-item"><a class="page-link" href="#">2</a></li>
-                        <li class="page-item"><a class="page-link" href="#">3</a></li>
-                        <li class="page-item"><a class="page-link" href="#" aria-label="Next"><i class="fa-solid fa-angle-right"></i></a></li>
+                        <li class="page-item"><a class="page-link" href="list-of-pre-built-products-v1.php" aria-label="Previous"><i class="fa-solid fa-angle-left"></i></a></li>
+                        <li class="page-item active"><a class="page-link" href="list-of-pre-built-products-v1.php">1</a></li>
+                        <li class="page-item"><a class="page-link" href="list-of-pre-built-products-v1.php">2</a></li>
+                        <li class="page-item"><a class="page-link" href="list-of-pre-built-products-v1.php">3</a></li>
+                        <li class="page-item"><a class="page-link" href="list-of-pre-built-products-v1.php" aria-label="Next"><i class="fa-solid fa-angle-right"></i></a></li>
                     </ul>
                 </nav>
             </div>

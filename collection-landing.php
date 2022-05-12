@@ -13,7 +13,7 @@ include_once('sections/layouts/header.php')
                 <ol class="breadcrumb dark">
                     <li><a href="home.php"><i class="fa-solid fa-house"></i></a></li>
                     <li><a href="bedroom-landing.php">Bedrooms</a></li>
-                    <li><a href="#">Shop Style</a></li>
+                    <li><a href="style-landing.php">Shop Style</a></li>
                     <li class="active">Shop Collection</li>
                 </ol>
             </nav>
@@ -58,7 +58,7 @@ include_once('sections/layouts/header.php')
                             <li>Dovetailed drawers</li>
                             <li>Full extension slides</li>
                         </ul>
-                        <a href="#" class="btn btn-primary btn-block">Shop the collection</a>
+                        <a href="bedroom-landing.php" class="btn btn-primary btn-block">Shop the collection</a>
                     </div>
                     <ul class="thumb-area">
                         <li><img src="images/products/type-b/bed-1-thumb-1.png" alt=""></li>
@@ -83,7 +83,7 @@ include_once('sections/layouts/header.php')
                             <li>Option for undermount soft close slides</li>
                             <li>Option for storage rails</li>
                         </ul>
-                        <a href="#" class="btn btn-primary btn-block">Shop the collection</a>
+                        <a href="bedroom-landing.php" class="btn btn-primary btn-block">Shop the collection</a>
                     </div>
                     <ul class="thumb-area">
                         <li><img src="images/products/type-b/bed-2-thumb-1.png" alt=""></li>
@@ -107,7 +107,7 @@ include_once('sections/layouts/header.php')
                             <li>Each drawer is inset into the furniture, providing a sleek look for each piece</li>
                             <li>Option for storage rails in beds</li>
                         </ul>
-                        <a href="#" class="btn btn-primary btn-block">Shop the collection</a>
+                        <a href="bedroom-landing.php" class="btn btn-primary btn-block">Shop the collection</a>
                     </div>
                     <ul class="thumb-area">
                         <li><img src="images/products/type-b/bed-3-thumb-1.png" alt=""></li>
@@ -130,7 +130,7 @@ include_once('sections/layouts/header.php')
                             <li>Full extension sidemount drawer slides</li>
                             <li>Bed available in twin, full, queen and king sizes</li>
                         </ul>
-                        <a href="#" class="btn btn-primary btn-block">Shop the collection</a>
+                        <a href="bedroom-landing.php" class="btn btn-primary btn-block">Shop the collection</a>
                     </div>
                     <ul class="thumb-area">
                         <li><img src="images/products/type-b/bed-4-thumb-1.png" alt=""></li>
@@ -154,7 +154,7 @@ include_once('sections/layouts/header.php')
                             <li>Upgraded hardware</li>
                             <li>Choice of wood species & stains</li>
                         </ul>
-                        <a href="#" class="btn btn-primary btn-block">Shop the collection</a>
+                        <a href="bedroom-landing.php" class="btn btn-primary btn-block">Shop the collection</a>
                     </div>
                     <ul class="thumb-area">
                         <li><img src="images/products/type-b/bed-5-thumb-1.png" alt=""></li>

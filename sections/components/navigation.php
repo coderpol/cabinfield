@@ -15,7 +15,7 @@
                         
                         <div class="dropdown-menu submenu-block" aria-labelledby="dropdown-1">
                             <h3><a href="fine-furniture.php">Fine Furniture</a></h3>
-                            <a href="#" class="link stock-link">Items in stocks</a>
+                            <a href="collection-landing.php" class="link stock-link">Items in stocks</a>
                             <div class="submenu-area">
                                 <div class="category">
                                     <h4>Bedrooms</h4>
@@ -53,34 +53,34 @@
                         </div>
                     </li>
                     <li class="normal nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" href="#" role="button" id="dropdown-2" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Rustic & Live Edge <span class="only-responsive arrow">></span></a>
+                        <a href="#" class="nav-link dropdown-toggle" role="button" id="dropdown-2" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Rustic & Live Edge <span class="only-responsive arrow">></span></a>
                         <div class="dropdown-menu submenu-block" aria-labelledby="dropdown-2">
                             <h3>Rustic & Live Edge</h3>
-                            <a href="#" class="link stock-link">Items in stocks</a>
+                            <a href="product-listing.php" class="link stock-link">Items in stocks</a>
                             <div class="submenu-area">
                                 <ul class="submenu">
-                                    <li><a href="#">Gazebos</a></li>
-                                    <li><a href="#">Special Playsets</a></li>
-                                    <li><a href="#">Patio Furniture</a></li>
-                                    <li><a href="#">Garden Decore</a></li>
+                                    <li><a href="list-of-pre-built-products-v2.php">Gazebos</a></li>
+                                    <li><a href="list-of-pre-built-products-v2.php">Special Playsets</a></li>
+                                    <li><a href="list-of-pre-built-products-v2.php">Patio Furniture</a></li>
+                                    <li><a href="list-of-pre-built-products-v2.php">Garden Decore</a></li>
                                 </ul>
                             </div>
                         </div>
                     </li>
                     <li class="normal nav-item dropdown">
-                        <a href="#"  class="nav-link dropdown-toggle" href="#" id="dropdown-3" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Outdoor <span class="only-responsive arrow">></span></a>
+                        <a href="#"  class="nav-link dropdown-toggle" id="dropdown-3" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Outdoor <span class="only-responsive arrow">></span></a>
                         <div class="dropdown-menu submenu-block" aria-labelledby="dropdown-3">
                             <h3>Outdoor</h3>
-                            <a href="#" class="link stock-link">Items in stocks</a>
+                            <a href="product-listing.php" class="link stock-link">Items in stocks</a>
                             <div class="submenu-area">
                                 <ul class="submenu">
-                                    <li><a href="#">Historic Furniture</a></li>
-                                    <li><a href="#">Log furniture</a></li>
-                                    <li><a href="#">Rough Swan Elegance</a></li>
-                                    <li><a href="#">Reclaimed Barnwood</a></li>
-                                    <li><a href="#">Live edge</a></li>
-                                    <li><a href="#">Rustic Sophisticates</a></li>
-                                    <li><a href="#">Farmhouse</a></li>
+                                    <li><a href="wood-sample.php">Historic Furniture</a></li>
+                                    <li><a href="list-of-pre-built-products-v1.php">Log furniture</a></li>
+                                    <li><a href="list-of-pre-built-products-v1.php">Rough Swan Elegance</a></li>
+                                    <li><a href="wood-sample.php">Reclaimed Barnwood</a></li>
+                                    <li><a href="list-of-pre-built-products-v1.php">Live edge</a></li>
+                                    <li><a href="list-of-pre-built-products-v1.php">Rustic Sophisticates</a></li>
+                                    <li><a href="list-of-pre-built-products-v1.php">Farmhouse</a></li>
                                 </ul>
                             </div>
                         </div>

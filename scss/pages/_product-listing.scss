@@ -51,10 +51,11 @@
                 right: 20px;
                 @include rounded($m-30);
                 box-shadow: 0 0 10px rgba($black,0.1);
-                a{
+                a,button{
                     display: block;
                     @include square($m-40);
                     @include rounded($m-30);
+                    border:none;
                     i{
                         @include font($font-18,$m-40);
                         color:$blue;
