@@ -7,11 +7,12 @@
     <meta name="description" content="Cabinfield | Classic Amish Craftmanship">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <title><?php echo (isset($page_title)?$page_title : "Homepage") ?> - Cabinfield</title>
-    <?php include_once('inc/google-fonts.php') ?>
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
-    <!-- <link rel="stylesheet" href="css/bootstrap-try.css"> -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/fa-all.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <!-- including google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet"> <!-- including dm sans font -->
+    <link rel="stylesheet" href="css/bootstrap.min.css"> <!-- Include the bootstrap first -->
+    <link rel="stylesheet" href="css/fa-all.min.css"> <!-- Include the font awesome icon font -->
+    <link rel="stylesheet" href="css/style.css"> <!-- Include the custom css at the last -->
 </head>
 <body>

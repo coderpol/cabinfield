@@ -60,6 +60,16 @@
                         }
                         &:after, a{color:$brand-color;}
                     }
+                    &.check{
+                        border:1px solid $brand-color;
+                        background-color: rgba($brand-color, 0.2);
+                        padding:5px;
+                        &:after{
+                            content:"(Please check)";
+                        }
+                        &:after, a{
+                            color:$black;}
+                    }
                     &.done{
                         &:after{
                             content:"(Completed)";

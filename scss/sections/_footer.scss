@@ -17,12 +17,15 @@
         
         .footer-logo{
             img{
-                margin-bottom:$m-20;
+                margin:0 auto $m-20;
                 max-width:214px;
             }
             .copyright{
                 color:$blue-darker-2;
                 @include font($font-16,$font-24);
+                @include upto-tablet{
+                    color:$brand-color;
+                }
             }
         }
         
@@ -88,6 +91,7 @@
                     font-size:22px;
                     color:$blue;
                     margin-right:$m-10;
+                    font-weight: 400;
                 }
             }
         }

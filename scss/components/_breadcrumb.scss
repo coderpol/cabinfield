@@ -46,9 +46,9 @@
         li{
             padding-left:30px;
             padding-right:0;
-           &:after{
-               content:"<";
-               margin:0 10px;
+            &:after{
+                content:"<";
+                margin:0 10px;
                 font-size:$font-18;
                 font-family: $font-dm;
                 position: absolute;
@@ -57,10 +57,10 @@
                 left: 0;
                 width:20px;
                 color:$brand-color !important;
-           } 
-           a{
-               color:$brand-color;
-           }
+            } 
+            a{
+                color:$brand-color;
+            }
         }
     }
     &.dark{

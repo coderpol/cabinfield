@@ -28,8 +28,9 @@
             margin-bottom: $m-25;
         }
         .btn{
-            width:180px;
-            @include font($font-16,$line-18);
+            // width:180px;
+            padding:$m-15 $m-50;
+            @include font($font-16,$line-26);
         }
         p{
             @include font($font-16,$line-26);

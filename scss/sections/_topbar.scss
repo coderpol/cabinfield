@@ -20,8 +20,12 @@
         align-items: center;
         a{
             color:white;
-            padding: $m-10;
             display: inline-block;
+        }
+        @include from-pc{
+            &+li{
+                margin-left:$m-20;
+            }
         }
     }
     .topbar-nav{

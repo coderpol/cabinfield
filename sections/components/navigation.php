@@ -1,4 +1,4 @@
-<nav class="navigation-area clearfix">
+<section class="navigation-area clearfix">
     <h2 class="hidden">Primary Navigation</h2>
     <div class="container">
         <div class="row navbar navbar-expand-lg navbar-light">
@@ -8,7 +8,7 @@
                 </button>
                 
             </div>
-            <div class="collapse navbar-collapse" id="main_nav">
+            <nav class="collapse navbar-collapse" id="main_nav">
                 <span id="nav-close"><i class="fa-solid fa-xmark"></i></span>
                 <ul class="main-nav navbar-nav col-md-12 justify-content-center" >
                     <li class="megamenu nav-item dropdown">
@@ -102,7 +102,7 @@
                         <li><a href="mailto:sales@cabinfield.com"><i class="fa-regular fa-envelope"></i> sales@cabinfield.com</a></li>
                     </ul>
                 </div>
-            </div>
+            </nav>
         </div>
     </div>
-</nav>
+</section>
