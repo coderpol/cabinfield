@@ -33,3 +33,59 @@
         padding-right:5%;
     }
 }
+
+.rating-block{
+    margin-bottom:$m-15;
+    display: flex;
+    .rating,.rating-value{
+        width:110px;
+        height:20px;
+        overflow:hidden;
+        display: block;
+        background: url(../images/rating.png) repeat-x;
+        background-size: 22px;
+    }
+    .rating{
+        position: relative;
+        background-position: bottom left;
+        .rating-value{
+            background-position: top left;
+            position:absolute;
+            top:0;
+            left:0;
+        }
+    }
+    .value{
+        @include font($font-22,$line-26,$font-bold);
+        color:$brand-color;
+        padding-left:10px;
+    }
+}
+
+.rating-bar-area{
+    .rating-bar,.rating-value{
+        display: block;
+        height:6px;
+        @include rounded($m-10);
+    }
+    .rating-bar{
+        background: #E5DFDD;
+        margin:15px 0;
+        position:relative;
+        width:calc(100% - 50px);
+        .rating-value{
+            position:absolute;
+            left:0;
+            top:0;
+            background-color: $brand-color;
+            font-size:0;
+        }
+        .value{
+            position:absolute;
+            top:-9px;
+            right:-45px;
+            @include font($font-14,$line-21);
+            color:$gray-dark-3;
+        }
+    }
+}

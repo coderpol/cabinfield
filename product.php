@@ -25,12 +25,50 @@ include_once('sections/layouts/header.php')
 
 <div class="section page-content product-section">
     <div class="container">
-        <div class="row">
-            <div class="col-md-6 product-gallery"></div>
+        <div class="row product-gallery-area">
+            <div class="col-md-6 product-gallery">
+                <div class="gallery-thumb">
+                    <span class="thumb selected" data-full="images/products/gallery/bed.png" data-caption="This is the caption for 1st image"><img src="images/products/gallery/bed-thumb.png" /></span> 
+                    <span class="thumb" data-full="images/products/gallery/bed.png" data-caption="This is the caption for 2nd image"><img src="images/products/gallery/bed-thumb.png" /></span> 
+                    <span class="thumb" data-full="images/products/gallery/bed.png" data-caption="This is the caption for 3rd image"><img src="images/products/gallery/bed-thumb.png" /></span> 
+                    <span class="thumb" data-full="images/products/gallery/bed.png" data-caption="This is the caption for 4th image"><img src="images/products/gallery/bed-thumb.png" /></span> 
+                </div>
+                
+                <div class="gallery-full">
+                    <img class="full" src="images/products/gallery/bed.png" alt="">
+                    <p>Caption goes here</p>
+                </div>
+                <div class="button-area">
+                    <a href="#" class="icon"><i class="fa-solid fa-magnifying-glass"></i></a>
+                </div>
+            </div>
             <div class="col-md-6 product-details">
                 <div class="section-title small">
                     <h2>Kennet Flat Pannel Amish Bed</h2>
                 </div>
+                <p>Product No. FGFH1128</p>
+                <ul class="seals">
+                    <li><img src="images/seals/seal-1.png" alt=""></li>
+                    <li><img src="images/seals/seal-2.png" alt=""></li>
+                    <li><img src="images/seals/seal-3.png" alt=""></li>
+                </ul>
+                <p class="pricing">
+                    <span>Starting at</span>
+                    <span class="price">$1,371.00</span>
+                </p>
+                <p class="addons"><span>+ $30.40</span> Standard curbside delivery to 10001 <a href="#" data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-pen-to-square"></i> Edit</a></p>
+                
+                <div class="rating-block">
+                    <div class="rating">
+                        <div class="rating-value" style="width:85%"></div>
+                    </div>
+                </div>
+                <div class="button-area">
+                    <butotn class="btn btn-primary btn-large">Select Your Purchase</butotn>
+                    <button class="btn btn-icon btn-empty rounded-circle"><i class="fa-solid fa-heart"></i></button>
+                </div>
+                <h3>Product Information:</h3>
+                <p>With a handcrafted wood kitchen set mealtimes will become the special bonding time you’ve always dreamed of. Solidly constructed fan back chairs are optionally stained in 2 tones.</p>
             </div>
         </div>
         <div class="row">

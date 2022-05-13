@@ -1,4 +1,161 @@
 .product-section{
+    .product-gallery-area{
+        margin-top:$m-20;
+        margin-bottom:$m-60;
+        @include upto-phone{
+            margin-top:0;
+            margin-bottom:0;
+        }
+    }
+    .product-gallery{
+        position:relative;
+        
+        .gallery-thumb{
+            position:absolute;
+            left:35px;
+            bottom:50px;
+            width: 82px;
+            z-index:10;
+            .thumb{
+                display: flex;
+                flex-wrap: nowrap;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding:10px;
+                background: $white;
+                box-shadow: 0 12px 48px rgba($black,0.12);
+                width:80px;
+                height:80px;
+                margin-bottom:$m-15;
+                @include rounded($m-10);
+                cursor:pointer;
+                border:1px solid $white;
+                &:hover{
+                    border-color:$brand-color;
+                }
+            }
+        }
+        .gallery-full{
+            background-color: #F6F7F9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position:relative;
+            overflow:hidden;
+            padding:$m-30;
+            padding-left:$m-100;
+            height: 100%;
+            min-height:510px;
+            z-index:5;
+            img{
+                max-width: 480px;
+            }
+            p{
+                position:absolute;
+                width:100%;
+                z-index:20;
+                left:0;
+                bottom:0;
+                background: rgba(30, 36, 44, 0.1);
+                backdrop-filter: blur(10px);
+                padding:$m-10 $m-20;
+                margin-bottom:0;
+                color:$blue-darkest;
+                @include font($font-14,$line-18,$font-medium);
+            }
+        }
+        .button-area{
+            position:absolute;
+            bottom:$m-20;
+            right:$m-20;
+            z-index: 30;
+            .icon{
+                @include square(42px);
+                background: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                @include rounded($m-30);
+                &:hover{
+                    background-color: $brand-color;
+                    text-decoration: none;
+                    color:$white;
+                }
+            }
+        }
+    }
+    .product-details{
+        p{
+            @include font($font-16,$line-29);
+            color:$gray-dark-3;
+            span{
+                display: inline-block;
+            }
+        }
+        .seals{
+            padding-left:0;
+            list-style-type: none;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: flex-start;
+            align-items: center;
+            li{
+                margin-right:$m-10;
+            }
+        }
+        .pricing{
+            span{
+                color:$brand-color;
+                display:block;
+                font-weight: $font-medium;
+                &.price{
+                    color:$blue-darkest;
+                    @include font($font-36,$line-47,$font-bold);
+                }
+            }
+        }
+        .addons{
+            span{
+                display: inline;
+                @include font($font-16,$line-21,$font-medium);
+                color:$brand-color;
+            }
+            a{
+                margin-left:10px;
+                color:$brand-color;
+                text-decoration: none;
+            }
+        }
+        .button-area{
+            margin:$m-20 0;
+            .btn-icon{
+                padding:5px;
+                width: 50px;
+                height: 50px;
+                text-align: center;
+                margin-left: 20px;
+                color:$blue;
+                background-color: $white;
+                border:0;
+                box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
+                i{
+                    @include font(25px, 32px);
+                }
+                &:hover{
+                    color:$white;
+                    background-color: $brand-color;
+                }
+            }
+        }
+        
+        h3{
+            @include font($font-20,$line-26,$font-medium);
+            margin-bottom:$m-15;
+        }
+    }
+    
     .nav-pills{
         border-bottom:1px solid $gray;
         .nav-item{
@@ -279,71 +436,28 @@
         }
     }
     
-    .rating-area{
-        .rating-block{
-            margin-bottom:$m-15;
-            display: flex;
-            .rating,.rating-value{
-                width:110px;
-                height:20px;
-                overflow:hidden;
-                display: block;
-                background: url(../images/rating.png) repeat-x;
-                background-size: 22px;
-            }
-            .rating{
-                position: relative;
-                background-position: bottom left;
-                .rating-value{
-                    background-position: top left;
-                    position:absolute;
-                    top:0;
-                    left:0;
+}
+
+@include upto-phone{
+    .product-section{
+        
+        .product-gallery{
+            margin-bottom:$m-30;
+            .gallery-thumb{
+                left:$m-15;
+                top: 20px;
+                width: calc(100% - 30px);
+                display: flex;
+                justify-content: flex-start;
+                .thumb{
+                    margin-right:10px;
+                    height:60px;
+                    max-height:80px;
                 }
             }
-            .value{
-                @include font($font-22,$line-26,$font-bold);
-                color:$brand-color;
-                padding-left:10px;
-            }
-        }
-        .progress-bar-area{
-            .progress{
-                margin:10px 0;
-                height:16px;
-                background-color: #E5DFDD;
-                @include rounded($m-10);
-                .progress-bar{
-                    background-color: $brand-color;
-                    @include rounded($m-10);
-                }
-            }
-        }
-    }
-    .rating-bar-area{
-        .rating-bar,.rating-value{
-            display: block;
-            height:6px;
-            @include rounded($m-10);
-        }
-        .rating-bar{
-            background: #E5DFDD;
-            margin:15px 0;
-            position:relative;
-            width:calc(100% - 50px);
-            .rating-value{
-                position:absolute;
-                left:0;
-                top:0;
-                background-color: $brand-color;
-                font-size:0;
-            }
-            .value{
-                position:absolute;
-                top:-9px;
-                right:-45px;
-                @include font($font-14,$line-21);
-                color:$gray-dark-3;
+            .gallery-full{
+                padding:$m-100 $m-60 $m-30 $m-60;
+                min-height:auto;
             }
         }
     }

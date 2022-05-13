@@ -161,3 +161,16 @@ $('.product-slider').slick({
     }
   ]
 });
+
+
+// product gallery
+
+$('.gallery-thumb .thumb').click(function(){
+  var largeImage = $(this).attr('data-full');
+  let caption = "<p>"+$(this).attr('data-caption')+"</p>";
+  $('.selected').removeClass("selected");
+  $(this).addClass('selected');
+  $('.gallery-full img').hide().attr('src', largeImage).fadeIn();
+  $('.gallery-full p').remove();
+  $('.gallery-full').append(caption).fadeIn();
+});
