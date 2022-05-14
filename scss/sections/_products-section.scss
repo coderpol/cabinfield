@@ -17,6 +17,9 @@
                 h3,h4{
                     @include font($font-24,$line-31,$font-bold);
                     margin-bottom:$m-5;
+                    a{
+                        color:$blue-darkest;
+                    }
                 }
                 p{
                     @include font($font-16,$m-25);

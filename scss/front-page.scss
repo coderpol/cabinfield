@@ -1,7 +1,6 @@
 // base scss
 @import 'base/variables';
 @import 'base/mixin';
-@import 'base/fonts';
 @import 'base/reset';
 @import 'base/preset';
 
@@ -33,6 +32,7 @@
             border:1px solid $blue-darkest;
             padding:20px;
             background: $white;
+            margin-bottom: 100px;
             .page-list{
                 list-style-type: decimal;
                 list-style-position: outside;
