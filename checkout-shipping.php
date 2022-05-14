@@ -1,31 +1,42 @@
 <?php 
-$page_title="Checkout Shipping";
+$page_title="Checkout Shipping"; // dynamic page title
+
+// include the head layout
 include_once('sections/layouts/header.php') 
 ?>
 
-
+<!-- include the header area  -->
 <?php include_once('sections/header-area.php') ?>
 
+<!-- breadcrumb section  -->
 <div class="breadcrum-section">
     <div class="container">
         <div class="row">
-            <nav class="col-md-12 breadcrumb-area" aria-label="breadcrumb">
+            <div class="col-md-12 breadcrumb-area">
+                <!-- add class "reverse" for breadcrumb with back button  -->
                 <ol class="breadcrumb dark reverse">
                     <li><a href="#">Bedrooms</a></li>
                 </ol>
-            </nav>
+            </div>
         </div>
     </div>
 </div>
+<!-- breadcrumb section ends  -->
 
+ <!-- shipping section starts  -->
 <div class="section clearfix shipping-section">
     <div class="container border-bottom">
+        <!-- form heading -->
         <div class="row">
             <div class="col-md-12 section-title small">
                 <h3>Shipping Address</h3>
             </div>
         </div>
+        <!-- form heading ends  -->
+        
+        <!-- form starts  -->
         <form action="#" class="row cabinform address-form">
+            <!-- base information  -->
             <div class="col-md-4">
                 <div class="row form-line">
                     <div class="col">
@@ -82,8 +93,9 @@ include_once('sections/layouts/header.php')
                     </div>
                 </div>
             </div>
+            <!-- base information ends  -->
             
-            
+            <!-- shipping notes info  -->
             <div class="col-md-4">
                 <div class="row form-line">
                     <div class="col-12">
@@ -92,7 +104,9 @@ include_once('sections/layouts/header.php')
                     </div>
                 </div>
             </div>
+            <!-- shipping notes info ends  -->
             
+            <!-- summary card starts  -->
             <div class="col-md-4 card summary-card">
                 <div class="card-body shadow">
                     <h5 class="card-title">Order Summary</h5>
@@ -108,10 +122,14 @@ include_once('sections/layouts/header.php')
                     <button type="submit" class="btn btn-primary btn-block">Continue to Payment</button>
                 </div>
             </div>
+            <!-- summary card ends  -->
         </form>
     </div>
 </div>
 
+<!-- Order summary common part including  -->
 <?php include_once('sections/order-summary.php') ?>
 
+
+<!-- footer area includes  -->
 <?php include_once('sections/layouts/footer.php') ?>

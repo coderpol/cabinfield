@@ -2,16 +2,17 @@
 <div class="section clearfix mb-5 order-summary-section">
     <div class="container">
         <div class="row">
+            <!-- title starts  -->
             <div class="col-md-12 section-title small">
                 <h3>Order Summary</h3>
             </div>
+            <!-- title ends  -->
             <div class="col-md-9 ordered-items-list">
-                
                 <?php 
+                    // repeating the single product 3 times
                     for($i=1; $i<4; $i++){
                 ?>
-            
-            
+                <!-- single product item  -->
                 <div class="row ordered-item">
                     <figure class="col-md-4 col-12 figure image">
                         <img src="images/products/order/order-item-1.png" alt="">
@@ -28,7 +29,7 @@
                         <a href="#" class="btn btn-primary btn-large">View All</a>
                     </article>
                 </div>
-                
+                 <!-- single product item ends -->
                 <?php } ?>
             </div>
         </div>
