@@ -70,7 +70,7 @@ include_once('sections/layouts/header.php')
                         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#filter-collapse-1" aria-expanded="false" aria-controls="filter-collapse-1">
                             Furniture Type
                         </button>
-                        <div id="filter-collapse-1" class="accordion-collapse collapse show" aria-labelledby="filter-heading-1" data-bs-parent="#filters">
+                        <div id="filter-collapse-1" class="accordion-collapse collapse show" data-bs-parent="#filters">
                             <div class="accordion-body">
                                 <div class="form-check clearfix">
                                     <input class="form-check-input" type="checkbox" value="" id="opt11">
@@ -107,7 +107,7 @@ include_once('sections/layouts/header.php')
                         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#filter-collapse-2" aria-expanded="false" aria-controls="filter-collapse-2">
                         Collection
                         </button>
-                        <div id="filter-collapse-2" class="accordion-collapse collapse show" aria-labelledby="filter-heading-2" data-bs-parent="#filters">
+                        <div id="filter-collapse-2" class="accordion-collapse collapse show" data-bs-parent="#filters">
                             <div class="accordion-body">
                                 <div class="form-check clearfix">
                                     <input class="form-check-input" type="checkbox" value="" id="opt21">
@@ -133,7 +133,7 @@ include_once('sections/layouts/header.php')
                         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#filter-collapse-3" aria-expanded="false" aria-controls="filter-collapse-3">
                         Style
                         </button>
-                        <div id="filter-collapse-3" class="accordion-collapse collapse show" aria-labelledby="filter-heading-3" data-bs-parent="#filters">
+                        <div id="filter-collapse-3" class="accordion-collapse collapse show" data-bs-parent="#filters">
                             <div class="accordion-body">
                                 <div class="form-check clearfix">
                                     <input class="form-check-input" type="checkbox" checked value="" id="opt31">
