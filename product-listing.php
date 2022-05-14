@@ -1,15 +1,20 @@
 <?php 
-$page_title="Product Lisitng - V1";
+$page_title="Product Lisitng - V1"; // dynamic page title for every page
+
+// include the <head> once
 include_once('sections/layouts/header.php') 
 ?>
 
-
+<!-- Include total header area  -->
 <?php include_once('sections/header-area.php') ?>
 
+<!--highlighted area starts  -->
 <div class="section page-content brand-gradient page-highlight-area">
     <div class="container">
         <div class="row">
-            <nav class="col-md-12 breadcrumb-area" aria-label="breadcrumb">
+            <!-- breadcrumb starts  -->
+            <div class="col-md-12 breadcrumb-area">
+                <!-- use class "dark" as the color of the breadcrumb is dark  -->
                 <ol class="breadcrumb dark">
                     <li><a href="home.php"><i class="fa-solid fa-house"></i></a></li>
                     <li><a href="bedroom-landing.php">Bedroom</a></li>
@@ -17,28 +22,33 @@ include_once('sections/layouts/header.php')
                     <li><a href="collection-landing.php">Shop Collection</a></li>
                     <li class="active">Product Listing</li>
                 </ol>
-            </nav>
+            </div>
+            <!-- breadcrumb ends  -->
             
+            <!-- Highlighted text starts  -->
             <div class="col-md-12 highlight-text">
                 <h2 class="highlight-title">Timelessly trendy, our contemporary Amish dining chairs combine heirloom quality craftsmanship with modern chair designs.</h2>
                 <p>Customize your Amish dining room set with hardwood selections, seat styles and attractive upgrade options. Our extensive collection includes upholstered dining chairs, ladder back chairs, Parson’s chairs, Amish bar stools and more. Heirloom quality Amish dining room furniture with contemporary allure.</p>
             </div>
+            <!-- Highlighted text ends  -->
         </div>
     </div>
 </div>
+<!-- highlight area ends  -->
 
-
-<div class="section page-content product-listing-area">
+<!-- product listing area starts  -->
+<div class="section page-content product-listing-section">
     <div class="container">
-        <div class="row mb-2">
+        <!-- The top functional area with buttons -->
+        <div class="row mb-2 functional-area">
             <div class="col-md-3 section-title small">
-                <h3><span>Kennet</span> Series</h3>
+                <h2><span>Kennet</span> Series</h2>
             </div>
             <div class="col-md-9 text-end">
-                <ul class="d-flex justify-content-end filter-buttons">
-                    <li class=""><span id="filter-toggle" class="btn btn-white shadow opened"><i class="fa-solid fa-sliders rotate-90"></i> <span>Hide</span> Filter</span></li>
+                <ul class="filter-buttons">
+                    <li class="filter"><span id="filter-toggle" class="btn btn-white shadow opened"><i class="fa-solid fa-sliders rotate-90"></i> <span>Hide</span> Filter</span></li>
                     <li class="clearfix sort-by">
-                        <span class="float-start">Sort By:</span>
+                        <span class="float-start above-tablet">Sort By:</span>
                         <form action="#" class="float-end cabinform">
                             <select class="form-select form-select-sm btn btn-white shadow" aria-label=".form-select-sm example">
                                 <option selected>High to Low</option>
@@ -46,19 +56,19 @@ include_once('sections/layouts/header.php')
                             </select>
                         </form>
                     </li>
-                    <li><a href="bedroom-landing.php" class="btn btn-primary btn">Shop by Furniture Piece</a></li>
+                    <li class="shop-by"><a href="bedroom-landing.php" class="btn btn-primary btn">Shop by Furniture Piece</a></li>
                 </ul>
             </div>
         </div>
+        <!-- The top functional area with buttons ends -->
+        
         <div class="row">
-            <aside class="col-md-3 page-sidebar accordion-area" id="filter-area">
+            <div class="col-md-3 page-sidebar accordion-area" id="filter-area">
                 <form action="#" class="accordion accordion-flush cabinform filter-form" id="filters">
                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="filter-heading-1">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#filter-collapse-1" aria-expanded="false" aria-controls="filter-collapse-1">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#filter-collapse-1" aria-expanded="false" aria-controls="filter-collapse-1">
                             Furniture Type
-                            </button>
-                        </h2>
+                        </button>
                         <div id="filter-collapse-1" class="accordion-collapse collapse show" aria-labelledby="filter-heading-1" data-bs-parent="#filters">
                             <div class="accordion-body">
                                 <div class="form-check clearfix">
@@ -93,11 +103,9 @@ include_once('sections/layouts/header.php')
                         </div>
                     </div>
                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="filter-heading-2">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#filter-collapse-2" aria-expanded="false" aria-controls="filter-collapse-2">
-                            Collection
-                            </button>
-                        </h2>
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#filter-collapse-2" aria-expanded="false" aria-controls="filter-collapse-2">
+                        Collection
+                        </button>
                         <div id="filter-collapse-2" class="accordion-collapse collapse show" aria-labelledby="filter-heading-2" data-bs-parent="#filters">
                             <div class="accordion-body">
                                 <div class="form-check clearfix">
@@ -121,11 +129,9 @@ include_once('sections/layouts/header.php')
                     </div>
                     
                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="filter-heading-3">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#filter-collapse-3" aria-expanded="false" aria-controls="filter-collapse-3">
-                            Style
-                            </button>
-                        </h2>
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#filter-collapse-3" aria-expanded="false" aria-controls="filter-collapse-3">
+                        Style
+                        </button>
                         <div id="filter-collapse-3" class="accordion-collapse collapse show" aria-labelledby="filter-heading-3" data-bs-parent="#filters">
                             <div class="accordion-body">
                                 <div class="form-check clearfix">
@@ -148,9 +154,9 @@ include_once('sections/layouts/header.php')
                         </div>
                     </div>
                 </form>
-            </aside>
+            </div>
             
-            <div class="col-md-9 main-content" id="product-listing-area">
+            <div class="col-md-9 main-content product-listing-area" id="product-listing-area">
                 <div class="row listed-product">
                     <div class="col-md-4 product">
                         <figure>
@@ -220,7 +226,7 @@ include_once('sections/layouts/header.php')
                         </div>
                     </div>
                 </div>
-                <nav class="row text-center pagination-area" aria-label="Product Nagivation">
+                <div class="row text-center pagination-area">
                     <ul class="pagination">
                         <li class="page-item"><a class="page-link" href="list-of-pre-built-products-v1.php" aria-label="Previous"><i class="fa-solid fa-angle-left"></i></a></li>
                         <li class="page-item active"><a class="page-link" href="list-of-pre-built-products-v1.php">1</a></li>
@@ -228,7 +234,7 @@ include_once('sections/layouts/header.php')
                         <li class="page-item"><a class="page-link" href="list-of-pre-built-products-v1.php">3</a></li>
                         <li class="page-item"><a class="page-link" href="list-of-pre-built-products-v1.php" aria-label="Next"><i class="fa-solid fa-angle-right"></i></a></li>
                     </ul>
-                </nav>
+                </div>
             </div>
         </div>
     </div>
