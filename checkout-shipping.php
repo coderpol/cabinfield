@@ -40,56 +40,56 @@ include_once('sections/layouts/header.php')
             <div class="col-md-4">
                 <div class="row form-line">
                     <div class="col">
-                        <label for="" class="form-label">Firstname</label>
-                        <input type="text" class="form-control" placeholder="" aria-label="Firstname" require>
+                        <label for="fname" class="form-label">Firstname</label>
+                        <input type="text" class="form-control" id="fname" placeholder="" aria-label="Firstname" required>
                     </div>
                     <div class="col">
-                        <label for=""class="form-label">Lastname</label>
-                        <input type="text" class="form-control" placeholder="" aria-label="Lastname" require>
+                        <label for="lname"class="form-label">Lastname</label>
+                        <input type="text" class="form-control" placeholder="" id="lname" aria-label="Lastname" required>
                     </div>
                 </div>
                 <div class="row form-line">
                     <div class="col-12">
-                    <label for="" class="form-label">Company Name <span class="blue">(optional)</span></label>
-                        <input type="text" class="form-control" placeholder="" aria-label="Company Name">
+                    <label for="com_name" class="form-label">Company Name <span class="blue">(optional)</span></label>
+                        <input type="text" class="form-control" id="com_name placeholder="" aria-label="Company Name">
                     </div>
                 </div>
                 <div class="row form-line">
                     <div class="col-12">
-                        <label for="" class="form-label">Street Address</label>
-                        <input type="text" class="form-control" placeholder="" aria-label="Street Address" require>
+                        <label for="street" class="form-label">Street Address</label>
+                        <input type="text" class="form-control" id="street" placeholder="" aria-label="Street Address" required>
                     </div>
                 </div>
                 <div class="row form-line">
                     <div class="col-12">
-                        <label for="" class="form-label">Address line 2 <span class="blue">(optional)</span></label>
-                        <input type="text" class="form-control" placeholder="" aria-label="Address line 2">
+                        <label for="address_2" class="form-label">Address line 2 <span class="blue">(optional)</span></label>
+                        <input type="text" class="form-control" id="address_2" placeholder="" aria-label="Address line 2">
                     </div>
                 </div>
                 <div class="row form-line">
                     <div class="col">
-                        <label for="" class="form-label">City</label>
-                        <input type="text" class="form-control" placeholder="" aria-label="Citye" require>
+                        <label for="city" class="form-label">City</label>
+                        <input type="text" class="form-control" id="city" placeholder="" aria-label="Citye" required>
                     </div>
                     <div class="col">
-                        <label for="" class="form-label">State</label>
-                        <input type="text" class="form-control" placeholder="" aria-label="State" require>
+                        <label for="state" class="form-label">State</label>
+                        <input type="text" class="form-control" id="state" placeholder="" aria-label="State" required>
                     </div>
                 </div>
                 <div class="row form-line">
                     <div class="col-md-6">
-                        <label for="" class="form-label">Zip Code</label>
-                        <input type="text" class="form-control" placeholder="" aria-label="Zip Code" require>
+                        <label for="zip" class="form-label">Zip Code</label>
+                        <input type="text" class="form-control" id="zip" placeholder="" aria-label="Zip Code" required>
                     </div>
                 </div>
                 <div class="row form-line">
                     <div class="col">
-                        <label for="" class="form-label">Phone</label>
-                        <input type="text" class="form-control" placeholder="" aria-label="Phone" require>
+                        <label for="phone" class="form-label">Phone</label>
+                        <input type="text" class="form-control" id="phone" placeholder="" aria-label="Phone" required>
                     </div>
                     <div class="col">
-                        <label for="" class="form-label">Ext <span class="blue">(optional)</span></label>
-                        <input type="text" class="form-control" placeholder="" aria-label="Ext">
+                        <label for="ext" class="form-label">Ext <span class="blue">(optional)</span></label>
+                        <input type="text" class="form-control" id="ext" placeholder="" aria-label="Ext">
                     </div>
                 </div>
             </div>
