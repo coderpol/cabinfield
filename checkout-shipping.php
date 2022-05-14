@@ -38,22 +38,33 @@ include_once('sections/layouts/header.php')
         <form action="#" class="row cabinform address-form">
             <!-- base information  -->
             <div class="col-md-4">
+                <!-- form line with 2 input  -->
                 <div class="row form-line">
+                    <!-- single filed   -->
                     <div class="col">
                         <label for="fname" class="form-label">Firstname</label>
                         <input type="text" class="form-control" id="fname" aria-label="Firstname" required>
                     </div>
+                    <!-- single filed ends  -->
+                    
+                    <!-- single filed   -->
                     <div class="col">
-                        <label for="lname"class="form-label">Lastname</label>
+                        <label for="lname" class="form-label">Lastname</label>
                         <input type="text" class="form-control" id="lname" aria-label="Lastname" required>
                     </div>
+                    <!-- single filed ends  -->
                 </div>
+                <!-- form line with 2 input ends  -->
+                
+                <!-- form line with 1 input  -->
                 <div class="row form-line">
                     <div class="col-12">
                     <label for="com_name" class="form-label">Company Name <span class="blue">(optional)</span></label>
                         <input type="text" class="form-control" id="com_name" aria-label="Company Name">
                     </div>
                 </div>
+                <!-- form line with 1 input ends  -->
+                
                 <div class="row form-line">
                     <div class="col-12">
                         <label for="street" class="form-label">Street Address</label>
@@ -109,7 +120,7 @@ include_once('sections/layouts/header.php')
             <!-- summary card starts  -->
             <div class="col-md-4 card summary-card">
                 <div class="card-body shadow">
-                    <h5 class="card-title">Order Summary</h5>
+                    <h4 class="card-title">Order Summary</h4>
                     <ul class="list-group summary-list">
                         <li class="list-item">Items: <span class="value">$1,321.00</span></li>
                         <li class="list-item">Shipping & handling: <span class="value">$135.00</span></li>
