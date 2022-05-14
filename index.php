@@ -37,8 +37,8 @@
                     <li class="review"><a href="terms-of-use.php">Terms of Use</a></li>
                     <li class="review"><a href="privacy-policy.php">Privacy Policy</a></li>
                     <li class="review"><a href="warranty.php">Warranty</a></li>
-                    <li class="review"><a href="testimonials.php">Testimonials</a></li>
-                    <li class="review"><a href="faq.php">FAQ</a></li>
+                    <li class="check"><a href="testimonials.php">Testimonials</a></li>
+                    <li class="check"><a href="faq.php">FAQ</a></li>
                     <li class="check"><a href="about.php">About</a></li>
                     <li class="check"><a href="wood-sample.php">Wood Sample</a></li>
                     <li class="check"><a href="order-sample.php">Order Sample</a></li>

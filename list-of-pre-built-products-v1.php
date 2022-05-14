@@ -1,12 +1,9 @@
 <?php 
 $page_title="Product Lisitng - V1"; // Dynamic page title
 
-// include the <head> of the page layout
+// include header
 include_once('sections/layouts/header.php') 
 ?>
-
-<!-- include the total header area  -->
-<?php include_once('sections/header-area.php') ?>
 
 <!--highlighted area starts  -->
 <div class="section page-content brand-gradient page-highlight-area">

@@ -2,12 +2,9 @@
 // dynamic page title
 $page_title="Order Confirmation";
 
-// inlude the <head></head> tag 
+// include header
 include_once('sections/layouts/header.php') 
 ?>
-
-<!-- include the total header area  -->
-<?php include_once('sections/header-area.php') ?>
 
 <!-- breadcrumb section starts  -->
 <div class="breadcrumb-section">

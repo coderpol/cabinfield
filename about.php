@@ -2,12 +2,9 @@
 // dynamic page title
 $page_title="About Page";
 
-// include the head 
+// include header 
 include_once('sections/layouts/header.php') 
 ?>
-
-<!-- include total heading area  -->
-<?php include_once('sections/header-area.php') ?>
 
 
 <!-- header banner section starts  -->

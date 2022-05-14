@@ -1,15 +1,12 @@
 <?php 
 $page_title="Checkout Shipping"; // dynamic page title
 
-// include the head layout
+// include header
 include_once('sections/layouts/header.php') 
 ?>
 
-<!-- include the header area  -->
-<?php include_once('sections/header-area.php') ?>
-
 <!-- breadcrumb section  -->
-<div class="breadcrum-section">
+<div class="breadcrumb-section">
     <div class="container">
         <div class="row">
             <div class="col-md-12 breadcrumb-area">

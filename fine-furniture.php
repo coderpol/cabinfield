@@ -1,17 +1,9 @@
 <?php 
 $page_title="Fine Furniture"; // dynamic page title for every page
 
-// include the <head> of the page layout
+// include header
 include_once('sections/layouts/header.php') 
 ?>
-
-<!-- 
-Includes the total header area once. Including- 
-- Top bar
-- logo area 
-- Navigation 
--->
-<?php include_once('sections/header-area.php') ?>
 
 <!-- Big banner of the page  starts -->
 <div class="header-banner clearfix mb-5" style="background-image: url('images/header-banner/fine-furniture.png');">

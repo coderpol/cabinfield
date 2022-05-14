@@ -1,15 +1,12 @@
 <?php 
 $page_title="Style Landing"; // dynamic page title for every page
 
-// include the <head> of the page layout
+// include header
 include_once('sections/layouts/header.php') 
 ?>
 
-<!-- Includes the total header area once  -->
-<?php include_once('sections/header-area.php') ?>
-
 <!-- breadcrumb for the page  -->
-<div class="breadcrum-section">
+<div class="breadcrumb-section">
     <div class="container">
         <div class="row">
             <div class="col-md-12 breadcrumb-area">

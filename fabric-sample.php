@@ -2,12 +2,9 @@
 // dynamic page title
 $page_title="Fabric Sample";
 
-// include the head 
+// include header
 include_once('sections/layouts/header.php') 
 ?>
-
-<!-- include the header area  -->
-<?php include_once('sections/header-area.php') ?>
 
 <!-- breadcrumb section starts  -->
 <div class="breadcrumb-section">

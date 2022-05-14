@@ -1,12 +1,9 @@
 <?php 
 $page_title="Shopping Cart"; // dynamic page title for every page
 
-// include the <head> for page layout
+// include header
 include_once('sections/layouts/header.php') 
 ?>
-
-<!-- Include the total header area  -->
-<?php include_once('sections/header-area.php') ?>
 
 
 <!-- shopping cart section  -->

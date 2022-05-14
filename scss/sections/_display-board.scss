@@ -162,7 +162,7 @@
                     float:none;
                 }
                 &:nth-child(2n+2){
-                    .display-text{
+                    .display-text{ 
                         padding-left:20px;
                         margin-top:20px;
                         @include upto-phone{

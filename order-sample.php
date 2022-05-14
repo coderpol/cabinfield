@@ -2,12 +2,9 @@
 // dynamic page title
 $page_title="Order Sample";
 
-// include the head 
+// include header
 include_once('sections/layouts/header.php') 
 ?>
-
-<!-- include the total header area  -->
-<?php include_once('sections/header-area.php') ?>
 
 <!-- .breadcrumb section  -->
 <div class="breadcrumb-section">
@@ -16,7 +13,7 @@ include_once('sections/layouts/header.php')
             <div class="col-md-12 breadcrumb-area">
                 <!-- .dark for dark text, .reverse for back direction  -->
                 <ol class="breadcrumb dark reverse">
-                    <li class="active">Wood Samples</li>
+                    <li class="active">Order Sample</li>
                 </ol>
             </div>
         </div>
@@ -30,7 +27,7 @@ include_once('sections/layouts/header.php')
         <!-- page heading, medium size  -->
         <div class="row page-headline mb-5">
             <div class="col-md-12 col-12 section-title medium">
-                <h2><span>Wood</span> Samples</h2>
+                <h2><span>Order</span> Sample</h2>
                 <p>Choosing the perfect furniture to complement your space can be stressful.</p>
                 <p>Leave the stress and guesswork behind. Make a well-informed purchase by ordering free samples so you can better visualize your unique, final product. Feel the authenticity, watch it take the light, and imagine it as part of your space.</p>
             </div>

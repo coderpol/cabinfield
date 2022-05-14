@@ -2,12 +2,9 @@
 // dynamic title for page
 $page_title="Wood Sample";
 
-// include head 
+// include header
 include_once('sections/layouts/header.php') 
 ?>
-
-<!-- include header area  -->
-<?php include_once('sections/header-area.php') ?>
 
 
 <!-- breadcrumb section  -->
