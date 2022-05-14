@@ -1990,6 +1990,25 @@ h4 {
     margin-top: 0px;
   }
 }
+.display-board.type-row .page-headline {
+  margin-bottom: 60px;
+}
+@media only screen and (max-width: 767px) {
+  .display-board.type-row .page-headline {
+    margin-bottom: 20px;
+  }
+}
+.display-board.type-row .section-sub-title {
+  margin-bottom: 40px;
+}
+@media only screen and (max-width: 767px) {
+  .display-board.type-row .section-sub-title {
+    margin-bottom: 0px;
+  }
+}
+.display-board.type-row .display-area {
+  margin-top: 0;
+}
 .display-board.type-row .display-area .display {
   border-bottom: 1px dashed #c4c4c4;
   padding-bottom: 70px;
