@@ -19,6 +19,9 @@
         h3{
             @include font($font-44,140%,$font-bold);
             margin-bottom:$m-30;
+            @include upto-phone{
+                @include font($font-36,$line-47,$font-bold); 
+            }
         }
         h4{
             @include font($font-30,$m-40,$font-bold);

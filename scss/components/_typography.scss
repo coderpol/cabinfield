@@ -6,6 +6,9 @@
     h2,h3,h4{
         @include font($font-44,$line-57,$font-bold);
         margin-bottom:$m-20;
+        @include upto-phone{
+            @include font($font-36,$line-47,$font-bold); 
+        }
     }
     &.medium{
         h2,h3,h4{

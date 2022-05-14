@@ -1,33 +1,47 @@
 <?php 
+// dynamic page title
 $page_title="About Page";
+
+// include the head 
 include_once('sections/layouts/header.php') 
 ?>
 
-
+<!-- include total heading area  -->
 <?php include_once('sections/header-area.php') ?>
 
+
+<!-- header banner section starts  -->
 <div class="header-banner clearfix mb-5" style="background-image: url('images/header-banner/banner-about.png');">
     <div class="dark-overlay">
         <div class="container">
             <div class="row">
-                <nav class="col-md-12 breadcrumb-area" aria-label="breadcrumb">
+                <!-- breadcrumb area starts  -->
+                <div class="col-md-12 breadcrumb-area">
                     <ol class="breadcrumb">
                         <li><a href="home.php"><i class="fa-solid fa-house"></i></a></li>
                         <li class="active">About</li>
                     </ol>
-                </nav>
+                </div>
+                <!-- breadcrumb area ends  -->
+                
+                <!-- banner text starts  -->
                 <div class="col-md-8 banner-text">
                     <h2 class="heading">Welcome to<br/>Cabinfield</h2>
                 </div>
+                <!-- banner text ends  -->
             </div>
         </div>
     </div>
 </div>
+<!-- header banner section ends  -->
 
+<!-- display board section starts -->
 <div class="display-board text-on-top mt-5 mb-0 clearfix">
     <div class="container">
         <div class="row">
+            <!-- display area  -->
             <div class="col-md-12 display-area">
+                <!-- single display  -->
                 <div class="display clearfix">
                     <figure class="col-md-6 col-12 display-image">
                         <img src="images/display/about-1.png" alt="">
@@ -40,6 +54,9 @@ include_once('sections/layouts/header.php')
                         <p>Since 2005, our family-owned business has partnered with the finest Amish artisans for high-quality, custom furnishings that are as unique as the people they serve. Our relationship with the craftsmen affords you the furniture you love…. minus the hefty price tag. We’re passionate about bringing you pieces you can purchase confidently, display proudly, and cherish eternally.</p>
                     </article>
                 </div>
+                <!-- single display ends -->
+                
+                <!-- single display start -->
                 <div class="display clearfix">
                     <figure class="col-md-6 col-12 display-image">
                         <img src="images/display/about-1.png" alt="">
@@ -51,6 +68,9 @@ include_once('sections/layouts/header.php')
                         <p>Visit the home of Amish artisans and you’ll discover some of the most skilled craftsmen in the country. For generations, the Amish have been creating heirloom furniture renowned for its meticulous craftsmanship, flawless construction, and timeless appeal. While much of today’s furniture is mass-produced and isn’t built to last, the Amish take a personal approach, carefully selecting the materials and handcrafting each piece to withstand the test of time. Woodworking is an integral part of the Amish culture, and their values of authenticity and integrity are imbued into each of their creations.</p>
                     </article>
                 </div>
+                <!-- single display ends -->
+                
+                <!-- single display start -->
                 <div class="display clearfix">
                     <figure class="col-md-6 col-12 display-image">
                         <img src="images/display/about-3.png" alt="">
@@ -63,56 +83,74 @@ include_once('sections/layouts/header.php')
                         <p>We also offer outdoor furniture made of recycled materials. These environmentally smart materials are strong and are designed to resist water, fungi, insects, stains, fading, and scratches. Look for this Eco-Friendly Optimized logo on products using innovative Green technology.</p>
                     </article>
                 </div>
+                <!-- single display ends -->
             </div>
         </div>
     </div>
 </div>
 
-
+<!-- choice points with icons area starts  -->
 <div class="section mb-5 choice-points smaller with-counter clearfix">
     <div class="container">
         <div class="row">
             <header class="col-md-12 section-title text-center">
                 <h2><span>Your furniture success</span> story begins here.</h2>
             </header>
-            
+            <!-- point area  -->
             <div class="col-md-12 points-area">
+                <!-- .single point  -->
                 <div class="point">
                     <div class="icon">
                         <i class="empty-wallet"></i>
                     </div>
                     <h3>Select your treasure of choice.</h3>
                 </div>
+                <!-- single point ends -->
+                
+                <!-- single point  -->
                 <div class="point">
                     <div class="icon">
                         <i class="search-status"></i>
                     </div>
                     <h3>Order your free swatch samples.</h3>
                 </div>
+                <!-- single point ends -->
+                
+                <!-- single point  -->
                 <div class="point">
                     <div class="icon">
                         <i class="quote-down"></i>
                     </div>
                     <h3>Customize your dimensions, wood species, stain color, and more.</h3>
                 </div>
+                <!-- single point ends -->
+                
+                <!-- single point  -->
                 <div class="point">
                     <div class="icon">
                         <i class="layer"></i>
                     </div>
                     <h3>Place your order by providing payment with check or card.</h3>
                 </div>
+                <!-- single point ends -->
+                
+                <!-- single point  -->
                 <div class="point">
                     <div class="icon">
                         <i class="bag"></i>
                     </div>
                     <h3>Your furniture will be carefully handcrafted and then shipped to your home.</h3>
                 </div>
+                <!-- single point ends -->
+                
+                <!-- single point  -->
                 <div class="point">
                     <div class="icon">
                         <i class="format-square"></i>
                     </div>
                     <h3>Take pleasure in the craftsmanship of your unique and beautiful piece for years to come.</h3>
                 </div>
+                <!-- single point ends -->
             </div>
             
             <div class="col-md-12 text-center action-area mb-5">
@@ -121,19 +159,23 @@ include_once('sections/layouts/header.php')
         </div>
     </div>
 </div>
+<!-- choice points with icons area ends  -->
 
+<!-- call to action banner area starts  -->
 <div class="cta-banner clearfix">
     <div class="container">
         <div class="row">
             <section class="col-md-12 banner home-cta">
                 <h3>Cabinfield Cares.</h3>
                 <p>With rapid response time and exceptional support, we make the buying process a real pleasure—from start to finish. Our support staff is eager to assist you and to answer your questions.</p>
-                <p>Email us at <a href="mailto:service@cabinfield.com">service@cabinfield.com</a> or call <a href="tel:866-450-WOOD (9663)">866-450-WOOD (9663)</a> during business hours and see for yourself what makes Cabinfield’s service a cut above the rest.</p>
+                <p>Email us at <a href="mailto:service@cabinfield.com">service@cabinfield.com</a> or call <a href="tel:866-450-WOOD(9663)">866-450-WOOD (9663)</a> during business hours and see for yourself what makes Cabinfield’s service a cut above the rest.</p>
             </section>
         </div>
     </div>
 </div>
+<!-- call to action banner area ends  -->
 
+<!-- testimonial area starts  -->
 <div class="testimonial-area mb-5 clearfix">
     <div class="row">
         <div class="container">
@@ -144,5 +186,8 @@ include_once('sections/layouts/header.php')
         <?php include_once('sections/testimonial-slider.php') ?>
     </div>
 </div>
+<!-- testimonial area ends   -->
 
+
+<!-- include the footer area  -->
 <?php include_once('sections/layouts/footer.php') ?>
