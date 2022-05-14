@@ -1,21 +1,30 @@
 <?php 
-$page_title="Shopping Cart";
+$page_title="Shopping Cart"; // dynamic page title for every page
+
+// include the <head> for page layout
 include_once('sections/layouts/header.php') 
 ?>
 
-
+<!-- Include the total header area  -->
 <?php include_once('sections/header-area.php') ?>
 
+
+<!-- shopping cart section  -->
 <div class="section clearfix page-content shopping-cart-section mt-4">
     <div class="container">
+        <!-- page title  -->
         <div class="row mb-3">
             <div class="col-md-12 section-title small">
                 <h3>Shopping Cart</h3>
                 <p>Ordered for 800001 zip code</p>
             </div>
         </div>
+        <!-- page title ends  -->
+        
+        <!-- shopping items area  -->
         <div class="row">
             <div class="col-md-8">
+                <!-- one item  -->
                 <div class="row cart-item">
                     <figure class="col-md-4 figure">
                         <img src="images/cart/cart-1.png" alt="">
@@ -51,6 +60,9 @@ include_once('sections/layouts/header.php')
                         </div>
                     </div>
                 </div>
+                <!-- one item ends -->
+                
+                <!-- one item  -->
                 <div class="row cart-item">
                     <figure class="col-md-4 figure">
                         <img src="images/cart/cart-2.png" alt="">
@@ -86,7 +98,9 @@ include_once('sections/layouts/header.php')
                         </div>
                     </div>
                 </div>
+                <!-- one item ends -->
                 
+                <!-- one item  -->
                 <div class="row cart-item">
                     <figure class="col-md-4 figure">
                         <img src="images/cart/cart-3.png" alt="">
@@ -128,14 +142,18 @@ include_once('sections/layouts/header.php')
                         </div>
                     </div>
                 </div>
+                <!-- one item ends -->
                 
+                <!-- one item  -->
                 <div class="row cart-item">
                     <div class="col-md-12 only-details">
                         <p>Your savings on combined shipping: <span>$316.17</span></p>
                         <p>Shipping type: <span>Satandard cubside delivery</span> shipping price of the set: <span>$361.20</span></p>
                     </div>
                 </div>
+                <!-- one item ends -->
                 
+                <!-- one item  -->
                 <div class="row cart-item">
                     <figure class="col-md-4 figure">
                         <img src="images/cart/cart-2.png" alt="">
@@ -179,9 +197,12 @@ include_once('sections/layouts/header.php')
                         </div>
                     </div>
                 </div>
+                <!-- one item ends -->
             </div>
             
+            <!-- summary card area  -->
             <div class="col-md-4 card summary-card">
+                <!-- card start  -->
                 <div class="card-body shadow mb-5">
                     <h5 class="card-title">Order Summary</h5>
                     <ul class="list-group summary-list">
@@ -194,11 +215,10 @@ include_once('sections/layouts/header.php')
                         <!-- <li class="list-item">Due today: <span class="value">$0.00</span></li> -->
                     </ul>
                     <button type="submit" class="btn btn-primary btn-block">Continue to Payment</button>
-                    <hr class="dropdown-divider">
-                    <div class="note">
-                        <p>By clicking “Place Your Order” above you agree to Cabinfield’s updated <a href="terms-of-use.php">Terms of Use</a> and <a href="privacy-policy.php">Privacy Policy</a>. </p>
-                    </div>
                 </div>
+                <!-- card ends  -->
+                
+                <!-- Calculate shipping form  -->
                 <div class="card-body shadow">
                     <h5 class="card-title">Calculate Shipping</h5>
                     <form action="#">
@@ -210,11 +230,13 @@ include_once('sections/layouts/header.php')
                         <button type="submit" class="btn btn-primary btn-block">Calculate</button>
                     </form>
                 </div>
+                <!-- Calculate shipping form ends -->
             </div>
+             <!-- summary card area ends -->
         </div>
         
     </div>
 </div>
 
-
+<!-- include footer area  -->
 <?php include_once('sections/layouts/footer.php') ?>

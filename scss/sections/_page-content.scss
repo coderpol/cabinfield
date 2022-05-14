@@ -331,6 +331,9 @@
 
 .shopping-cart-section{
     margin-bottom:$m-70;
+    @include upto-phone{
+        margin-bottom: $m-20;
+    }
     .cart-item{
         border-bottom:1px solid $gray;
         &:last-child{
@@ -339,6 +342,11 @@
         padding:$m-40 0;
         @include from-pc{
             margin-right:$m-20;
+        }
+        @include upto-phone{
+            img{
+                max-width: 240px;
+            }
         }
         .item-details{
             @include font($font-18,$line-23);
@@ -361,10 +369,16 @@
                 p{
                     color:$blue-darkest;
                     @include font($font-18,$line-23,$font-bold);
+                    @include upto-phone{
+                       margin-bottom:$m-20;
+                    }
                     span{
                         display: block;
                         font-weight: $font-normal;
                         margin-top:5px;
+                        @include upto-phone{
+                            display: inline;
+                        }
                     }
                 }
                 .counter{
@@ -417,11 +431,17 @@
             .price-title{
                 @include font($font-18,$line-23,$font-bold);
                 margin-bottom:$m-10;
+                @include upto-phone{
+                    margin-top:$m-20;
+                }
                 span{
                     @include font($font-22,$line-26,$font-medium);
                     color:$brand-color;
                     display: block;
                     margin:$m-10 0;
+                    @include upto-phone{
+                        display: inline;
+                    }
                 }
             }
             .buttons{

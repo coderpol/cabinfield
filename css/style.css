@@ -1054,7 +1054,7 @@ h4 {
 }
 @media only screen and (max-width: 767px) {
   .card.summary-card .card-body {
-    margin-bottom: 70px;
+    margin-bottom: 30px;
   }
 }
 .card.summary-card .note {
@@ -3278,6 +3278,11 @@ h4 {
 .shopping-cart-section {
   margin-bottom: 70px;
 }
+@media only screen and (max-width: 767px) {
+  .shopping-cart-section {
+    margin-bottom: 20px;
+  }
+}
 .shopping-cart-section .cart-item {
   border-bottom: 1px solid #DDDDDD;
   padding: 40px 0;
@@ -3288,6 +3293,11 @@ h4 {
 @media only screen and (min-width: 1200px) {
   .shopping-cart-section .cart-item {
     margin-right: 20px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .shopping-cart-section .cart-item img {
+    max-width: 240px;
   }
 }
 .shopping-cart-section .cart-item .item-details {
@@ -3322,10 +3332,20 @@ h4 {
   line-height: 23px;
   font-weight: 700;
 }
+@media only screen and (max-width: 767px) {
+  .shopping-cart-section .cart-item .item-details .price p {
+    margin-bottom: 20px;
+  }
+}
 .shopping-cart-section .cart-item .item-details .price p span {
   display: block;
   font-weight: 400;
   margin-top: 5px;
+}
+@media only screen and (max-width: 767px) {
+  .shopping-cart-section .cart-item .item-details .price p span {
+    display: inline;
+  }
 }
 .shopping-cart-section .cart-item .item-details .price .counter {
   display: -webkit-box;
@@ -3388,6 +3408,11 @@ h4 {
   font-weight: 700;
   margin-bottom: 10px;
 }
+@media only screen and (max-width: 767px) {
+  .shopping-cart-section .cart-item .action .price-title {
+    margin-top: 20px;
+  }
+}
 .shopping-cart-section .cart-item .action .price-title span {
   font-size: 22px;
   line-height: 26px;
@@ -3395,6 +3420,11 @@ h4 {
   color: #B3522C;
   display: block;
   margin: 10px 0;
+}
+@media only screen and (max-width: 767px) {
+  .shopping-cart-section .cart-item .action .price-title span {
+    display: inline;
+  }
 }
 .shopping-cart-section .cart-item .action .buttons .btn {
   margin-top: 20px;
