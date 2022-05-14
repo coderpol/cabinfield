@@ -63,6 +63,7 @@ include_once('sections/layouts/header.php')
         <!-- The top functional area with buttons ends -->
         
         <div class="row">
+            <!-- filter area  -->
             <div class="col-md-3 page-sidebar accordion-area" id="filter-area">
                 <form action="#" class="accordion accordion-flush cabinform filter-form" id="filters">
                     <div class="accordion-item">
@@ -155,9 +156,12 @@ include_once('sections/layouts/header.php')
                     </div>
                 </form>
             </div>
+            <!-- filter area ends -->
             
+            <!-- main product listing area  -->
             <div class="col-md-9 main-content product-listing-area" id="product-listing-area">
                 <div class="row listed-product">
+                    <!-- single product  -->
                     <div class="col-md-4 product">
                         <figure>
                             <img src="images/products/listing/product-1.png" alt="">
@@ -169,6 +173,9 @@ include_once('sections/layouts/header.php')
                             <button><i class="fa-solid fa-heart"></i></button>
                         </div>
                     </div>
+                    <!-- single product end -->
+                    
+                    <!-- single product  -->
                     <div class="col-md-4 product">
                         <figure>
                             <img src="images/products/listing/product-2.png" alt="">
@@ -180,6 +187,9 @@ include_once('sections/layouts/header.php')
                             <button><i class="fa-solid fa-heart"></i></button>
                         </div>
                     </div>
+                    <!-- single product end -->
+                    
+                    <!-- single product  -->
                     <div class="col-md-4 product">
                         <figure>
                             <img src="images/products/listing/product-3.png" alt="">
@@ -192,6 +202,9 @@ include_once('sections/layouts/header.php')
                             <button><i class="fa-solid fa-heart"></i></button>
                         </div>
                     </div>
+                    <!-- single product end -->
+                    
+                    <!-- single product  -->
                     <div class="col-md-4 product">
                         <figure>
                             <img src="images/products/listing/product-4.png" alt="">
@@ -203,6 +216,9 @@ include_once('sections/layouts/header.php')
                             <button><i class="fa-solid fa-heart"></i></button>
                         </div>
                     </div>
+                    <!-- single product end -->
+                    
+                    <!-- single product  -->
                     <div class="col-md-4 product">
                         <figure>
                             <img src="images/products/listing/product-5.png" alt="">
@@ -214,6 +230,9 @@ include_once('sections/layouts/header.php')
                             <button><i class="fa-solid fa-heart"></i></button>
                         </div>
                     </div>
+                    <!-- single product end -->
+                    
+                    <!-- single product  -->
                     <div class="col-md-4 product">
                         <figure>
                             <img src="images/products/listing/product-6.png" alt="">
@@ -226,6 +245,8 @@ include_once('sections/layouts/header.php')
                         </div>
                     </div>
                 </div>
+                
+                <!-- pagination area  -->
                 <div class="row text-center pagination-area">
                     <ul class="pagination">
                         <li class="page-item"><a class="page-link" href="list-of-pre-built-products-v1.php" aria-label="Previous"><i class="fa-solid fa-angle-left"></i></a></li>
@@ -235,9 +256,11 @@ include_once('sections/layouts/header.php')
                         <li class="page-item"><a class="page-link" href="list-of-pre-built-products-v1.php" aria-label="Next"><i class="fa-solid fa-angle-right"></i></a></li>
                     </ul>
                 </div>
+                <!-- pagination area ends -->
             </div>
         </div>
     </div>
 </div>
 
+<!-- include footer area  -->
 <?php include_once('sections/layouts/footer.php') ?>
