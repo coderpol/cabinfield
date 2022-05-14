@@ -12,7 +12,7 @@ include_once('sections/layouts/header.php')
 <div class="breadcrum-section">
     <div class="container">
         <div class="row">
-            <div class="col-md-12 breadcrumb-area" aria-label="breadcrumb">
+            <div class="col-md-12 breadcrumb-area">
                 <!-- use class "dark" as the color of the breadcrumb is dark  -->
                 <ol class="breadcrumb dark">
                     <li><a href="home.php"><i class="fa-solid fa-house"></i></a></li>
@@ -63,7 +63,7 @@ include_once('sections/layouts/header.php')
                 
                 <!-- product collection  -->
                 <div class="product">
-                    <a href="#"><img src="images/products/type-a/bed-2.png" alt="">
+                    <a href="#"><img src="images/products/type-a/bed-2.png" alt=""></a>
                     <h4><a href="#">Contemporary Collection</a></h4>
                     <p>From subtle to sensational, our Contemporary bedroom furniture sets combine the latest trends with careful craftsmanship and solid wood design. Exuding luxurious comfort and varied styles, these Amish bedroom sets preserve the heirloom quality of artisan-built furniture.</p> 
                 </div>
