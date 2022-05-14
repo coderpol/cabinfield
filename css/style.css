@@ -1985,10 +1985,22 @@ h4 {
 .display-board.type-row {
   margin-bottom: 30px;
 }
+@media only screen and (max-width: 767px) {
+  .display-board.type-row {
+    margin-top: 0px;
+  }
+}
 .display-board.type-row .display-area .display {
   border-bottom: 1px dashed #c4c4c4;
   padding-bottom: 70px;
   margin-bottom: 70px;
+}
+@media only screen and (max-width: 767px) {
+  .display-board.type-row .display-area .display {
+    padding-bottom: 0px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
 }
 .display-board.type-row .display-area .display:last-child {
   border-bottom: 0;
@@ -2014,6 +2026,9 @@ h4 {
 }
 .display-board.type-row .display-area .display-text p {
   color: #514646;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
 }
 .display-board.type-row .display-area .display-image img {
   border-radius: 20px;
@@ -2929,7 +2944,7 @@ h4 {
 }
 .page-content p {
   font-size: 16px;
-  line-height: 25px;
+  line-height: 26px;
   font-weight: 400;
   color: #514646;
 }

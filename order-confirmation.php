@@ -39,4 +39,5 @@ include_once('sections/layouts/header.php')
 </div>
 <!-- confirmation text area ends  -->
 
+<!-- include the footer area  -->
 <?php include_once('sections/layouts/footer.php') ?>

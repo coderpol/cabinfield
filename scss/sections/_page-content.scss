@@ -1,7 +1,7 @@
 .page-content{
     padding:$m-20 0 $m-50;
     p{
-        @include font($font-16,$m-25);
+        @include font($font-16,$line-26);
         color:$gray-dark-3;
         .primary{
             color:$brand-color;

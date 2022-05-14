@@ -60,11 +60,19 @@
     
     &.type-row{
         margin-bottom:$m-30;
+        @include upto-phone{
+            margin-top:$m-0;
+        }
         .display-area{
             .display{
                 border-bottom:$thin dashed #c4c4c4;
                 padding-bottom:$m-70;
                 margin-bottom:$m-70;
+                @include upto-phone{
+                    padding-bottom:$m-0;
+                    margin-bottom:$m-40;
+                    margin-top:$m-40;
+                }
                 &:last-child{
                     border-bottom:0;
                     padding-bottom:$m-30;
@@ -92,6 +100,7 @@
                 }
                 p{
                     color:$gray-dark-3;
+                    @include font($font-16,$line-26);
                 }
             }
             .display-image{

@@ -71,10 +71,13 @@
                             color:$black;}
                     }
                     &.done{
+                        border:1px solid darken(#167702, 20);
+                        background-color: #167702;
+                        padding:5px;
                         &:after{
                             content:"(Completed)";
                         }
-                        &:after, a{color:#167702;}
+                        &:after, a{color:$white;}
                     }
                     &.hold{
                         &:after{
