@@ -2665,7 +2665,7 @@ h4 {
   margin-top: 30px;
 }
 
-.breadcrum-section + .page-heading-section {
+.breadcrumb-section + .page-heading-section {
   margin-top: 30px;
 }
 
@@ -2675,7 +2675,7 @@ h4 {
     margin-top: 20px;
   }
 
-  .breadcrum-section + .page-heading-section {
+  .breadcrumb-section + .page-heading-section {
     margin-top: 0px;
   }
 }
