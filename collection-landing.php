@@ -1,31 +1,37 @@
 <?php 
-$page_title="Collection Landing";
+$page_title="Collection Landing"; // dynamic page title for every page
+
+// include the <head> of the page layou
 include_once('sections/layouts/header.php') 
 ?>
 
-
+<!-- Includes the total header area once  -->
 <?php include_once('sections/header-area.php') ?>
 
+<!-- breadcrumb for the page  -->
 <div class="breadcrum-section">
     <div class="container">
         <div class="row">
-            <nav class="col-md-12 breadcrumb-area" aria-label="breadcrumb">
+            <div class="col-md-12 breadcrumb-area">
+                <!-- use class "dark" as the color of the breadcrumb is dark  -->
                 <ol class="breadcrumb dark">
                     <li><a href="home.php"><i class="fa-solid fa-house"></i></a></li>
                     <li><a href="bedroom-landing.php">Bedrooms</a></li>
                     <li><a href="style-landing.php">Shop Style</a></li>
                     <li class="active">Shop Collection</li>
                 </ol>
-            </nav>
+            </div>
         </div>
     </div>
 </div>
+<!-- breadcrumb for the page  ends-->
 
+<!-- page heading section  -->
 <div class="section page-heading-section clearfix">
     <div class="container">
         <div class="row page-headline">
             <div class="col-md-8 col-12 section-title text-start">
-                <h2><span>Bedroom</span> Colelction</h2>
+                <h2><span>Bed Room</span> Collection</h2>
             </div>
             <div class="col-md-4 col-12 button-area">
                 <a href="bedroom-landing.php" class="btn btn-primary">Shop by Furniture Piece</a>
@@ -39,10 +45,14 @@ include_once('sections/layouts/header.php')
         </div>
     </div>
 </div>
+<!-- page heading section ends -->
 
+<!-- collection display area  -->
 <div class="section products-section clearfix">
     <div class="container">
+        <!-- The "type-b" class is for this type of layout  -->
         <div class="products-area type-b">
+            <!-- one collection or series  -->
             <div class="row product">
                 <div class="col-md-8 details">
                     <img src="images/products/type-b/bed-1.png" alt="">
@@ -67,7 +77,9 @@ include_once('sections/layouts/header.php')
                     </ul>
                 </div>
             </div>
-            
+            <!-- one collection or series ends -->
+             
+            <!-- one collection or series  -->
             <div class="row product">
                 <div class="col-md-8 details">
                     <img src="images/products/type-b/bed-2.png" alt="">
@@ -92,7 +104,9 @@ include_once('sections/layouts/header.php')
                     </ul>
                 </div>
             </div>
-            
+            <!-- one collection or series ends -->
+             
+            <!-- one collection or series  -->
             <div class="row product">
                 <div class="col-md-8 details">
                     <img src="images/products/type-b/bed-3.png" alt="">
@@ -116,7 +130,9 @@ include_once('sections/layouts/header.php')
                     </ul>
                 </div>
             </div>
-            
+            <!-- one collection or series ends -->
+             
+            <!-- one collection or series  -->
             <div class="row product">
                 <div class="col-md-8 details">
                     <img src="images/products/type-b/bed-4.png" alt="">
@@ -139,7 +155,9 @@ include_once('sections/layouts/header.php')
                     </ul>
                 </div>
             </div>
-            
+            <!-- one collection or series ends -->
+             
+            <!-- one collection or series  -->
             <div class="row product">
                 <div class="col-md-8 details">
                     <img src="images/products/type-b/bed-5.png" alt="">
@@ -163,6 +181,7 @@ include_once('sections/layouts/header.php')
                     </ul>
                 </div>
             </div>
+            <!-- one collection or series ends -->
         </div>
     </div>
 </div>

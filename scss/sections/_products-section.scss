@@ -31,6 +31,12 @@
             .product{
                 border-bottom: $thin solid #ccc;
                 padding-bottom:$m-50;
+                @include upto-phone{
+                    &:first-child{
+                        border-top: $thin solid #ccc;
+                        padding-top:$m-50;
+                    }
+                }
                 &+.product{
                     margin-top:$m-50;
                 }
