@@ -41,7 +41,7 @@
                     <li class="review"><a href="faq.php">FAQ</a></li>
                     <li class="review"><a href="about.php">About</a></li>
                     <li class="review"><a href="wood-sample.php">Wood Sample</a></li>
-                    <li class="review"><a href="order-sample.php">Wood Sample -Order Sample</a></li>
+                    <li class="check"><a href="order-sample.php">Order Sample</a></li>
                     <li class="check"><a href="fabric-sample.php">Fabric Sample</a></li>
                     <li class="check"><a href="order-confirmation.php">Order Confirmation</a></li>
                 </ol>

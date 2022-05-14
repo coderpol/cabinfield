@@ -504,11 +504,16 @@ a:hover {
 .font-page .container .content .page-list li.check:after, .font-page .container .content .page-list li.check a {
   color: #000;
 }
+.font-page .container .content .page-list li.done {
+  border: 1px solid #031300;
+  background-color: #167702;
+  padding: 5px;
+}
 .font-page .container .content .page-list li.done:after {
   content: "(Completed)";
 }
 .font-page .container .content .page-list li.done:after, .font-page .container .content .page-list li.done a {
-  color: #167702;
+  color: #fff;
 }
 .font-page .container .content .page-list li.hold:after {
   content: "(On Hold)";
