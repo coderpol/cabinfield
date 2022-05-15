@@ -61,8 +61,10 @@ include_once('sections/layouts/header.php')
                                 <i class="fa-solid fa-phone"></i>
                             </div>
                             <div class="details">
-                                <p class="tag">Phone Number</p>
-                                <p class="number"><a href="tel:+866-450-9663">866-450-9663</a></p>
+                                <h4>
+                                    <span class="tag">Phone Number</span>
+                                    <span class="number"><a href="tel:+866-450-9663">866-450-9663</a></span>
+                                </h4>
                             </div>
                         </li>
                         <!-- phone number starts  -->
@@ -73,8 +75,10 @@ include_once('sections/layouts/header.php')
                                 <i class="fa-solid fa-location-dot"></i>
                             </div>
                             <div class="details">
-                                <p class="tag">Office</p>
-                                <p class="number">100 smith street coolingwood</p>
+                                <h4>
+                                    <span class="tag">Office</span>
+                                    <span class="number">100 smith street coolingwood</span>
+                                </h4>
                             </div>
                         </li>
                         <!-- office address ends  -->
@@ -103,24 +107,24 @@ include_once('sections/layouts/header.php')
                         <form action="#" class="cabinform contact-form">
                             <div class="row form-line">
                                 <div class="col-md-6">
-                                    <label for="" class="form-label">Firstname</label>
-                                    <input type="text" class="form-control" placeholder="" aria-label="Firstname" required>
+                                    <label for="firstname" class="form-label">Firstname</label>
+                                    <input type="text" class="form-control" id="firstname" aria-label="Firstname" required>
                                 </div>
                                 <div class="col-md-6">
-                                    <label for="" class="form-label">Lastname</label>
-                                    <input type="text" class="form-control" placeholder="" aria-label="Lastname" required>
+                                    <label for="lastname" class="form-label">Lastname</label>
+                                    <input type="text" class="form-control" id="lastname" aria-label="Lastname" required>
                                 </div>
                             </div>
                             <div class="row form-line">
                                 <div class="col-md-12">
-                                    <label for="" class="form-label">Email</label>
-                                    <input type="email" class="form-control" placeholder="" aria-label="Firstname" required>
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="email" aria-label="Firstname" required>
                                 </div>
                             </div>
                             <div class="row form-line">
                                 <div class="col-md-12">
-                                    <label for="" class="form-label">Subject</label>
-                                    <input type="text" class="form-control" placeholder="" aria-label="Firstname" required>
+                                    <label for="subject" class="form-label">Subject</label>
+                                    <input type="text" class="form-control" id="subject" aria-label="Firstname" required>
                                 </div>
                             </div>
                             <div class="row form-line">

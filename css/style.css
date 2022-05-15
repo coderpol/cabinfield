@@ -3707,11 +3707,11 @@ h4 {
   line-height: 50px;
 }
 .contact-section .contact-form-area {
-  border: 1px solid #DDDDDD;
   padding: 40px;
 }
 @media only screen and (min-width: 1200px) {
   .contact-section .contact-form-area {
+    border: 1px solid #DDDDDD;
     border-left: 0;
   }
 }
