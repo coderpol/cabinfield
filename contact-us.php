@@ -37,7 +37,7 @@ include_once('sections/layouts/header.php')
             <!-- left side with decrtiption  -->
             <div class="col-md-5 contact-area">
                 <div class="contact-details">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi obcaecati eaque ex excepturi quos vel quo iste qui quia repellendus</p>
+                    <p>You love beautiful, natural wood. Get inspiration, product news, and promotions to your inbox, so you can eep checking those items off your whishlist.</p>
                     
                     <ul class="contact-list">
                         <!-- email  -->
@@ -143,10 +143,14 @@ include_once('sections/layouts/header.php')
                     <!-- search form starts  -->
                     <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
                         <!-- this is dummy text, you can add form here  -->
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae corporis iusto delectus vel libero reprehenderit ullam sequi, voluptatibus eligendi impedit iure temporibus nihil? Inventore vero perspiciatis itaque labore est accusantium. Deleniti dolor eius explicabo eveniet! Rem, sapiente dolor maxime corporis, quasi placeat similique qui consequuntur magni assumenda, quae a ipsa!</p>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae corporis iusto delectus vel libero reprehenderit ullam sequi, voluptatibus eligendi impedit iure temporibus nihil? Inventore vero perspiciatis itaque labore est accusantium. Deleniti dolor eius explicabo eveniet! Rem, sapiente dolor maxime corporis, quasi placeat similique qui consequuntur magni assumenda, quae a ipsa!</p>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae corporis iusto delectus vel libero reprehenderit ullam sequi, voluptatibus eligendi impedit iure temporibus nihil? Inventore vero perspiciatis itaque labore est accusantium. Deleniti dolor eius explicabo eveniet! Rem, sapiente dolor maxime corporis, quasi placeat similique qui consequuntur magni assumenda, quae a ipsa!</p>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae corporis iusto delectus vel libero reprehenderit ullam sequi, voluptatibus eligendi impedit iure temporibus nihil? Inventore vero perspiciatis itaque labore est accusantium. Deleniti dolor eius explicabo eveniet! Rem, sapiente dolor maxime corporis, quasi placeat similique qui consequuntur magni assumenda, quae a ipsa!</p>
+                        <p>You love beautiful, natural wood. Get inspiration, product news, and promotions to your inbox, so you can eep checking those items off your whishlist.</p>
+                        <p>You love beautiful, natural wood. Get inspiration, product news, and promotions to your inbox, so you can eep checking those items off your whishlist.</p>
+                        <p>You love beautiful, natural wood. Get inspiration, product news, and promotions to your inbox, so you can eep checking those items off your whishlist.</p>
+                        <p>You love beautiful, natural wood. Get inspiration, product news, and promotions to your inbox, so you can eep checking those items off your whishlist.</p>
+                        <p>You love beautiful, natural wood. Get inspiration, product news, and promotions to your inbox, so you can eep checking those items off your whishlist.</p>
+                        <p>You love beautiful, natural wood. Get inspiration, product news, and promotions to your inbox, so you can eep checking those items off your whishlist.</p>
+                        <p>You love beautiful, natural wood. Get inspiration, product news, and promotions to your inbox, so you can eep checking those items off your whishlist.</p>
+                        <p>You love beautiful, natural wood. Get inspiration, product news, and promotions to your inbox, so you can eep checking those items off your whishlist.</p>
                     </div>
                     <!-- search form ends -->
                 </div>
