@@ -167,7 +167,9 @@ include_once('sections/layouts/header.php')
                         <li class="list-item">Total before tax: <span class="value">$1,371.00</span></li>
                         <li class="list-item">Estimated Sales Tax: <span class="value">$0.00</span></li>
                         <li class="list-item total">Order total: <span class="value">$1,371.00</span></li>
-                        <li class="list-item">Due today: <span class="value">$0.00</span></li>
+                        <li class="list-item">Due today: 
+                        <button class="tooltip-button" data-bs-toggle="tooltip" title="Since our inception in 2005, we’ve built an unshakeable reputation of trust and confidence."><i class="fa-solid fa-circle-question blue"></i></button>
+                         <span class="value">$0.00</span></li>
                     </ul>
                     <button type="submit" class="btn btn-primary btn-block">Continue to Payment</button>
                 </div>

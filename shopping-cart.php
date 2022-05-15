@@ -201,13 +201,15 @@ include_once('sections/layouts/header.php')
             <div class="col-md-4 card summary-card">
                 <!-- card start  -->
                 <div class="card-body shadow mb-5">
-                    <h5 class="card-title">Order Summary</h5>
+                    <h4 class="card-title">Order Summary</h4>
                     <ul class="list-group summary-list">
                         <li class="list-item">Items: <span class="value">$1,321.00</span></li>
                         <li class="list-item">Shipping & handling: <span class="value">$135.00</span></li>
                         <li class="list-item">Savings on combined shipping: <span class="value"> - $128.24</span></li>
                         <li class="list-item">Total before tax: <span class="value">$1,371.00</span></li>
-                        <li class="list-item">Estimated Sales Tax: <i class="fa-solid fa-circle-question blue"></i> <span class="value">$0.00</span></li>
+                        <li class="list-item">Estimated Sales Tax: 
+                        <button class="tooltip-button" data-bs-toggle="tooltip" title="Since our inception in 2005, we’ve built an unshakeable reputation of trust and confidence."><i class="fa-solid fa-circle-question blue"></i></button>
+                         <span class="value">$0.00</span></li>
                         <li class="list-item total">Extended price: <span class="value">$1,371.00</span></li>
                         <!-- <li class="list-item">Due today: <span class="value">$0.00</span></li> -->
                     </ul>
@@ -221,7 +223,7 @@ include_once('sections/layouts/header.php')
                     <form action="#">
                         <div class="row form-line">
                             <div class="col-md-12">
-                                <input type="text" class="form-control" placeholder="" aria-label="Calculate Shipping" required>
+                                <input type="text" class="form-control" placeholder="Enter Zip" aria-label="Calculate Shipping" required>
                             </div>
                         </div>
                         <button type="submit" class="btn btn-primary btn-block">Calculate</button>

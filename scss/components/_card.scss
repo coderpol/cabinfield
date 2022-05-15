@@ -1,5 +1,13 @@
 .card{
     border:0;
+    button{
+        border:0;
+        outline:0;
+        background: transparent;
+        &.tooltip-button{
+            
+        }
+    }
     &.summary-card{
         padding:0 $m-10 $m-30;
         @include upto-phone{

@@ -1,4 +1,5 @@
 .cabinform{
+    
     .form-line{
         margin-bottom:$m-15;
         label,.form-label{
@@ -90,4 +91,19 @@
             }
         }
     } 
+}
+
+// override bootstrap placeholder color 
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: $placeholder-color;
+    opacity: 1; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: $placeholder-color;
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+    color: $placeholder-color;
 }
