@@ -219,7 +219,7 @@ include_once('sections/layouts/header.php')
                 
                 <!-- Calculate shipping form  -->
                 <div class="card-body shadow">
-                    <h5 class="card-title">Calculate Shipping</h5>
+                    <h4 class="card-title">Calculate Shipping</h4>
                     <form action="#">
                         <div class="row form-line">
                             <div class="col-md-12">
