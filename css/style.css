@@ -1004,27 +1004,18 @@ h4 {
   padding-left: 0;
 }
 .specification-list li {
-  color: #627590;
+  color: #000;
   vertical-align: middle;
   font-size: 16px;
   line-height: 23px;
-  font-weight: 400;
+  font-weight: 500;
+  margin-bottom: 10px;
 }
 .specification-list li span {
+  color: #627590;
   margin-left: 5px;
-  display: inline-block;
-}
-.specification-list li .value {
-  color: #B3522C;
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 29px;
-  font-weight: 700;
-  margin-top: 3px;
-}
-.specification-list li:first-child {
-  margin: 10px 0;
-  line-height: 29px;
+  display: inline;
+  font-weight: 400;
 }
 
 .card {
@@ -1041,6 +1032,13 @@ h4 {
 .card.summary-card .btn {
   margin: 10px 0;
   padding: 12px 30px;
+}
+@media only screen and (max-width: 767px) {
+  .card.summary-card .btn {
+    margin: 10px auto;
+    max-width: 350px;
+    display: block;
+  }
 }
 .card.summary-card .card-title {
   font-size: 20px;
@@ -2862,6 +2860,20 @@ h4 {
   line-height: 31px;
   font-weight: 700;
   margin-bottom: 15px;
+}
+.order-summary-section .ordered-items-list .ordered-item .description .subtotal {
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: 400;
+  color: #627590;
+}
+.order-summary-section .ordered-items-list .ordered-item .description .subtotal span {
+  color: #B3522C;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 29px;
+  font-weight: 700;
+  margin-top: 3px;
 }
 
 @media only screen and (max-width: 991px) {
