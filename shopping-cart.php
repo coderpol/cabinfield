@@ -201,7 +201,7 @@ include_once('sections/layouts/header.php')
             <div class="col-md-4 card summary-card">
                 <!-- card start  -->
                 <div class="card-body shadow mb-5">
-                    <h4 class="card-title">Order Summary</h4>
+                    <h3 class="card-title">Order Summary</h3>
                     <ul class="list-group summary-list">
                         <li class="list-item">Items: <span class="value">$1,321.00</span></li>
                         <li class="list-item">Shipping & handling: <span class="value">$135.00</span></li>
