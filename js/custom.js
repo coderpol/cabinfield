@@ -29,7 +29,7 @@ $('#testimonial-slider').slick({
 });
 
 // for billing address input hide
-$('input#sameAsShipping').click(function(){
+$('input#shipping_address_trigger').click(function(){
   $("#billing-address").toggle();
 });
 

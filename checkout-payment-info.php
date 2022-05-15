@@ -1,45 +1,52 @@
 <?php 
-$page_title="Checkout Payment Info";
+$page_title="Checkout Payment Info"; // dynamic page title
+
+// include the head layout
 include_once('sections/layouts/header.php') 
 ?>
 
-
-<?php include_once('sections/header-area.php') ?>
-
-<div class="breadcrum-section">
+<!-- breadcrum Section  -->
+<div class="breadcrumb-section">
     <div class="container">
         <div class="row">
-            <nav class="col-md-12 breadcrumb-area" aria-label="breadcrumb">
+            <div class="col-md-12 breadcrumb-area">
+                <!-- the class "reverse" is for back  -->
                 <ol class="breadcrumb dark reverse">
                     <li><a href="#">Bedrooms</a></li>
                 </ol>
-            </nav>
+            </div>
         </div>
     </div>
 </div>
+<!-- breadcrumb section end  -->
 
+
+<!-- payment form section start  -->
 <div class="section clearfix payment-section mb-5">
     <div class="container">
         <div class="row">
-            <div class="col-md-12 section-title small">
+            <!-- page heading  -->
+            <header class="col-md-12 section-title small">
                 <h3>Payment Information</h3>
-            </div>
+            </header>
+            <!-- page heading ends  -->
         </div>
         <form action="#" class="row cabinform address-form">
+            <!-- card information inputs  -->
             <div class="col-md-4">
                 <div class="row form-line">
                     <div class="col-md-12">
-                        <label for="" class="form-label">Card number</label>
-                        <input type="text" class="form-control" placeholder="" aria-label="Card Number" aria-describedby="cardhelp" required>
+                        <label for="cardno" class="form-label">Card number</label>
+                        <input type="text" class="form-control" id="cardno" aria-label="Card Number" aria-describedby="cardhelp" required>
                         <span id="cardhelp" class="form-text">No credit card (use check)</span>
                     </div>
                 </div>
                 <div class="row form-line">
                     <div class="col-md-12">
-                        <label for="" class="form-label">Expiration date</label>
+                        <label for="expiration" class="form-label">Expiration date</label>
                     </div>
-                    <div class="col-md-6">
-                        <select class="form-select" aria-label="Expiration Month">
+                    <div class="col-md-6 col-6">
+                        <select class="form-select" id="expiration" aria-label="Expiration Month">
                             <option selected>Month</option>
                             <option value="01">01</option>
                             <option value="02">02</option>
@@ -55,7 +62,7 @@ include_once('sections/layouts/header.php')
                             <option value="12">12</option>
                         </select>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 col-6">
                         <select class="form-select" aria-label="Expiration Year">
                             <option selected>Year</option>
                             <option value="2022">2022</option>
@@ -69,84 +76,87 @@ include_once('sections/layouts/header.php')
                 </div>
                 <div class="row form-line">
                     <div class="col-12">
-                        <label for="" class="form-label">Security Code <span class="help rounded-circle">?</span></label>
-                        <input type="text" class="form-control" placeholder="" aria-label="Street Address" required>
+                        <label for="security_code" class="form-label">Security Code <i class="fa-solid fa-circle-question"></i></label>
+                        <input type="text" class="form-control" id="security_code" aria-label="Security Code" required>
                         <div class="border-bottom border-only">&nbsp;</div>
                     </div>
                 </div>
                 <div class="row form-line">
                     <div class="col-12">
-                        <label for="" class="form-label">Enter Code</label>
-                        <input type="text" class="form-control" placeholder="" aria-label="Enter Code" required>
+                        <label for="code" class="form-label">Enter Code</label>
+                        <input type="text" class="form-control" id="code" aria-label="Enter Code" required>
                         <button class="btn btn-primary btn-large mt-3">Apply</button>
                     </div>
                 </div>
-                
             </div>
+            <!-- card information inputs  -->
             
-            
+            <!-- billing address inputs  -->
             <div class="col-md-4 billing-area">
                 <div class="row form-line mb-5">
                     <div class="col-12">
                         <p class="form-label">Billing address</p>
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="sameAsShipping">
-                            <label class="form-check-label" for="flexCheckChecked">Same as shipping address</label>
+                            <input class="form-check-input" type="checkbox" value="" id="shipping_address_trigger">
+                            <label class="form-check-label" for="shipping_address_trigger">Same as shipping address</label>
                         </div>
                     </div>
                 </div>
+                
                 <div id="billing-address">
                     <div class="row form-line">
                         <div class="col-md-6 col-12">
-                            <label for="" class="form-label">Firstname</label>
-                            <input type="text" class="form-control" placeholder="" aria-label="Firstname" required>
+                            <label for="firstname" class="form-label">Firstname</label>
+                            <input type="text" class="form-control" id="firstname" aria-label="Firstname" required>
                         </div>
                         <div class="col-md-6 col-12">
-                            <label for=""class="form-label">Lastname</label>
-                            <input type="text" class="form-control" placeholder="" aria-label="Lastname" required>
+                            <label for="lastname" class="form-label">Lastname</label>
+                            <input type="text" class="form-control" id="lastname" aria-label="Lastname" required>
                         </div>
                     </div>
                     <div class="row form-line">
                         <div class="col-12">
-                        <label for="" class="form-label">Company Name <span class="blue">(optional)</span></label>
-                            <input type="text" class="form-control" placeholder="" aria-label="Company Name">
+                        <label for="company" class="form-label">Company Name <span class="blue">(optional)</span></label>
+                            <input type="text" class="form-control" id="company" aria-label="Company Name">
                         </div>
                     </div>
                     <div class="row form-line">
                         <div class="col-12">
-                            <label for="" class="form-label">Street Address</label>
-                            <input type="text" class="form-control" placeholder="" aria-label="Street Address" required>
+                            <label for="street" class="form-label">Street Address</label>
+                            <input type="text" class="form-control" id="street" aria-label="Street Address" required>
                         </div>
                     </div>
                     <div class="row form-line">
                         <div class="col-12">
-                            <label for="" class="form-label">Address line 2 <span class="blue">(optional)</span></label>
-                            <input type="text" class="form-control" placeholder="" aria-label="Address line 2">
+                            <label for="address_2" class="form-label">Address line 2 <span class="blue">(optional)</span></label>
+                            <input type="text" class="form-control" id="address_2" aria-label="Address line 2">
                         </div>
                     </div>
                     <div class="row form-line">
-                        <div class="col-md-6 col-12">
-                            <label for="" class="form-label">City</label>
-                            <input type="text" class="form-control" placeholder="" aria-label="City" required>
+                        <div class="col-md-6 col-6">
+                            <label for="city" class="form-label">City</label>
+                            <input type="text" class="form-control" id="city" aria-label="City" required>
                         </div>
-                        <div class="col-md-6 col-12">
-                            <label for="" class="form-label">State</label>
-                            <input type="text" class="form-control" placeholder="" aria-label="State" required>
+                        <div class="col-md-6 col-6">
+                            <label for="state" class="form-label">State</label>
+                            <input type="text" class="form-control" id="state" aria-label="State" required>
                         </div>
                     </div>
                     <div class="row form-line">
-                        <div class="col-md-6">
-                            <label for="" class="form-label">Zip Code</label>
-                            <input type="text" class="form-control" placeholder="" aria-label="Zip Code" required>
+                        <div class="col-md-6  col-6">
+                            <label for="zip" class="form-label">Zip Code</label>
+                            <input type="text" class="form-control" id="zip" aria-label="Zip Code" required>
                         </div>
-                        <div class="col-md-6 col-12">
-                            <label for="" class="form-label">Ext <span class="blue">(optional)</span></label>
-                            <input type="text" class="form-control" placeholder="" aria-label="Ext">
+                        <div class="col-md-6 col-6">
+                            <label for="ext" class="form-label">Ext <span class="blue">(optional)</span></label>
+                            <input type="text" class="form-control" id="ext" aria-label="Ext">
                         </div>
                     </div>
                 </div>
             </div>
+            <!-- billing address inputs  -->
             
+            <!-- summary card starts  -->
             <div class="col-md-4 card summary-card">
                 <div class="card-body shadow">
                     <h5 class="card-title">Order Summary</h5>
@@ -162,6 +172,7 @@ include_once('sections/layouts/header.php')
                     <button type="submit" class="btn btn-primary btn-block">Continue to Payment</button>
                 </div>
             </div>
+            <!-- summary card ends  -->
         </form>
     </div>
 </div>

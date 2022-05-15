@@ -26,7 +26,7 @@
                     <li class="review"><a href="product.php">Product - Customize</a></li>
                     <li class="check"><a href="shopping-cart.php">Shopping Cart</a></li>
                     <li class="check"><a href="checkout-shipping.php">Checkout Shipping</a></li>
-                    <li class="review"><a href="checkout-payment-info.php">Checkout Payment - V1</a></li>
+                    <li class="check"><a href="checkout-payment-info.php">Checkout Payment - V1</a></li>
                     <li class="check"><a href="checkout-payment-info-2.php">Checkout Payment - V2</a></li>
                     <li class="check"><a href="checkout-info.php">Checkout Info</a></li>
                     <li class="check"><a href="thank-you.php">Thank You</a></li>
