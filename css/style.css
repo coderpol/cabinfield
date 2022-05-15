@@ -3651,28 +3651,34 @@ h4 {
   left: -150px;
   bottom: 0;
 }
+.contact-section .contact-area h4, .contact-section .contact-area h5 {
+  margin-bottom: 0;
+}
+.contact-section .contact-area .tag {
+  display: block;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.contact-section .contact-area .number {
+  display: block;
+  color: #fff;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 400;
+}
+.contact-section .contact-area .number a {
+  color: #fff;
+}
 .contact-section .contact-area p {
   margin: 0;
   font-size: 16px;
   line-height: 29px;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.5);
-}
-.contact-section .contact-area p.tag {
-  font-size: 14px;
-  line-height: 18px;
-  font-weight: 400;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-}
-.contact-section .contact-area p.number {
-  color: #fff;
-  font-size: 16px;
-  line-height: 21px;
-  font-weight: 400;
-}
-.contact-section .contact-area p.number a {
-  color: #fff;
 }
 .contact-section .contact-area .contact-list {
   margin-top: 25px;
