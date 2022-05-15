@@ -8,6 +8,11 @@
         .btn{
             margin:$m-10 0;
             padding: 12px 30px;
+            @include upto-phone{
+                margin:$m-10 auto;
+                max-width:350px;
+                display: block;
+            }
         }
         .card-title{
             @include font($font-20,$line-26,$font-bold);

@@ -117,6 +117,16 @@
                     @include font($font-24, $line-31,$font-bold);
                     margin-bottom:$m-15;
                 }
+                .subtotal{
+                    @include font($font-16,$line-23);
+                    color: $blue;
+                    span{
+                        color:$brand-color;
+                        font-weight: $font-bold;
+                        @include font($font-22,$line-29,$font-bold);
+                        margin-top:3px;
+                    }
+                }
             } 
         }
     }

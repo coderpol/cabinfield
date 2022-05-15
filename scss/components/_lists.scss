@@ -25,22 +25,15 @@
     list-style-type: none;
     padding-left:0;
     li{
-        color:$blue;
+        color:$black;
         vertical-align: middle;
-        @include font($font-16,$line-23);
+        @include font($font-16,$line-23,$font-medium);
+        margin-bottom:10px;
         span{
+            color:$blue;
             margin-left:5px;
-            display:inline-block;
-        }
-        .value{
-            color:$brand-color;
-            font-weight: $font-bold;
-            @include font($font-22,$line-29,$font-bold);
-            margin-top:3px;
-        }
-        &:first-child{
-            margin:10px 0;
-            line-height:$line-29;
+            display:inline;
+            font-weight: $font-normal;
         }
     }
 }

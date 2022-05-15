@@ -1,46 +1,60 @@
 <?php 
+// page title 
 $page_title="Checkout Info";
+
+// include header 
 include_once('sections/layouts/header.php') 
 ?>
 
-
-<?php include_once('sections/header-area.php') ?>
-
-<div class="breadcrum-section">
+<!-- breadcrumb section starts  -->
+<div class="breadcrumb-section">
     <div class="container">
         <div class="row">
-            <nav class="col-md-12 breadcrumb-area" aria-label="breadcrumb">
+            <div class="col-md-12 breadcrumb-area">
+                <!-- .reverse for back direction  -->
                 <ol class="breadcrumb dark reverse">
                     <li><a href="#">Continue Shipping</a></li>
                 </ol>
-            </nav>
+            </div>
         </div>
     </div>
 </div>
+<!-- breadcrumb-section ends  -->
 
+<!-- .page-content starts  -->
 <div class="section clearfix page-content">
     <div class="container border-bottom">
+        <!-- header  -->
         <div class="row">
-            <div class="col-md-12 section-title small mb-3">
+            <header class="col-md-12 section-title small mb-3">
                 <h3>Order Placed</h3>
-            </div>
+            </header>
         </div>
+        <!-- header ends  -->
+        
+        <!-- main content  -->
         <div class="row">
             <div class="col-md-8">
                 <div class="row">
                     <div class="col-md-12">
+                        <!-- confirmation icon  -->
                         <div class="icon thanks-icon">
-                        <i class="fa-solid fa-circle-check"></i>
+                            <i class="fa-solid fa-circle-check"></i>
                         </div>
+                        <!-- confirmation icon ends  -->
                     </div>
                 </div>
                 <div class="row">
+                    <!-- order details  -->
                     <div class="col-md-6">
                         <h4 class="form-label">Order #9566275496</h4>
                         <p>Thank you for your order. Our bearded Amish woodsmen have been set off to cut trees for your furniture. We will contact you as soon as it is ready to be shipped.</p>
                         <p>To cancel items or edit yor order please contact us</p>
                         
                     </div>
+                    <!-- order details ends -->
+                    
+                    <!-- billing address  -->
                     <div class="col-md-6">
                         <h4 class="form-label">Billing Address</h4>
                         <address>
@@ -52,6 +66,7 @@ include_once('sections/layouts/header.php')
                             </p>
                         </address>
                     </div>
+                    <!-- billing address ends  -->
                 </div>
                 
                 <div class="row mt-3">
@@ -62,9 +77,10 @@ include_once('sections/layouts/header.php')
                 </div>
             </div>
             
+            <!-- order summary card  -->
             <div class="col-md-4 card summary-card">
                 <div class="card-body shadow">
-                    <h5 class="card-title">Order Summary</h5>
+                    <h4 class="card-title">Order Summary</h4>
                     <ul class="list-group summary-list">
                         <li class="list-item">Items: <span class="value">$1,321.00</span></li>
                         <li class="list-item">Shipping & handling: <span class="value">$135.00</span></li>
@@ -78,10 +94,15 @@ include_once('sections/layouts/header.php')
                     <a href="#" class="btn btn-empty btn-block">Order History</a>
                 </div>
             </div>
+            <!-- order summary card ends -->
         </div>
+        <!-- main content ends -->
     </div>
 </div>
 
+<!-- inlcude the summary of the order  -->
 <?php include_once('sections/order-summary.php') ?>
 
+
+<!-- include the footer  -->
 <?php include_once('sections/layouts/footer.php') ?>
