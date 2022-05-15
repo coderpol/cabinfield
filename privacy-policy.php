@@ -76,7 +76,7 @@ include_once('sections/layouts/header.php')
                 </article>       
                        
                 <article class="sub-article">
-                    <header class="article-title uppercase">
+                    <header class="article-title">
                         <h4>Security</h4>
                     </header>  
                     <p>We warranty the wood and construction of our Gazebo & Playhouse products against damage from rot and/or termites - for as long as you live in your home. We reserve the right to remedy any defect that may occur in your product, and we will typically do that through our network of qualified independent contractors. To qualify for this additional warranty, you: (1) must have performed normal maintenance on the product, as determined by Cabinfield (and as provided in the Buyer's Guide, described below), and (2) must not use the product for commercial purposes or in a commercial establishment (unless you specifically purchased a Commercial Gazebo, in which case commercial use is expected and the additional warranty will apply). Some parts, such as roofing, have additional warranties from their manufacturer.</p>
