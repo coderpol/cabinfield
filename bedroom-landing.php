@@ -1,32 +1,40 @@
 <?php 
+// page title
 $page_title="Bedroom Landing";
+
+// include header 
 include_once('sections/layouts/header.php') 
 ?>
 
-
-<?php include_once('sections/header-area.php') ?>
-
+<!-- header banner section  -->
 <div class="header-banner clearfix mb-5" style="background-image: url('images/header-banner/banner-about.png');">
     <div class="dark-overlay">
         <div class="container">
             <div class="row">
-                <nav class="col-md-12 breadcrumb-area" aria-label="breadcrumb">
+                <!-- breadcrumb section  -->
+                <div class="col-md-12 breadcrumb-area">
                     <ol class="breadcrumb">
                         <li><a href="home.php"><i class="fa-solid fa-house"></i></a></li>
                         <li class="active">Bedrooms</li>
                     </ol>
-                </nav>
+                </div>
+                <!-- breadcrumb section ends  -->
+                
+                <!-- banner text section  -->
                 <div class="col-md-12 banner-text">
                     <div class="section-title small">
                         <h2>Cabinfield Bedroom Furtniture</h2>
                     </div>
                     <p>With simple, clean lines and contours, our Mission style Amish bedrooms highlight the natural beauty of the wood, combining with artisan craftsmanship for heirloom quality Amish bedroom furniture. Discover your dream bedroom set in this extensive collection, featuring Amish beds, headboards, chest of drawers, nightstands, armoires, blanket chests and more. American Craftsman elements enhance this collection with solid wood inlays, Mission slats, cut out accents, decorative corbels and Amish dressers with beveled mirrors.</p>
                 </div>
+                <!-- banner text section ends -->
             </div>
         </div>
     </div>
 </div>
+<!-- breadcrumb section ends  -->
 
+<!-- .page content  -->
 <div class="section page-content mt-5 mb-5  clearfix">
     <div class="container">
         <div class="row border-bottom">
