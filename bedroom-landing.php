@@ -38,93 +38,154 @@ include_once('sections/layouts/header.php')
 <div class="section page-content mt-5 mb-5  clearfix">
     <div class="container">
         <div class="row border-bottom">
-            <div class="col-md-12 section-title smaller">
+            <!-- section title  -->
+            <header class="col-md-12 section-title smaller">
                 <h3>Shop by Furniture Collection</h3>
-            </div>
+            </header>
+            <!-- section title ends  -->
+            
+            <!-- collection area  -->
             <div class="col-md-12  collection-area">
+                <!-- single collection  -->
                 <a href="collection-landing.php" class="collection">
                     <img src="images/collections/bedroom/collection-1.png" alt="">
                     <h4>Mission </h4>
                 </a>
+                <!-- single collection -->
+                
+                <!-- single collection ends -->
                 <a href="collection-landing.php"  class="collection">
                     <img src="images/collections/bedroom/collection-2.png" alt="">
                     <h4>Contemporary</h4>
                 </a>
+                <!-- single collection -->
+                
+                <!-- single collection ends -->
                 <a href="collection-landing.php"  class="collection">
                     <img src="images/collections/bedroom/collection-3.png" alt="">
                     <h4>Traditional</h4>
                 </a>
+                <!-- single collection -->
+                
+                <!-- single collection ends -->
                 <a href="collection-landing.php"  class="collection">
                     <img src="images/collections/bedroom/collection-4.png" alt="">
                     <h4>Eclectic</h4>
                 </a>
+                <!-- single collection -->
+                
+                <!-- single collection ends -->
                 <a href="collection-landing.php"  class="collection">
                     <img src="images/collections/bedroom/collection-5.png" alt="">
                     <h4>Rustic Sophisticates</h4>
                 </a>
+                <!-- single collection -->
+                
+                <!-- single collection ends -->
                 <a href="collection-landing.php"  class="collection">
                     <img src="images/collections/bedroom/collection-6.png" alt="">
                     <h4>Rough Sawn Elegance</h4>
                 </a>
+                <!-- single collection -->
+                
+                <!-- single collection ends -->
                 <a href="collection-landing.php"  class="collection">
                     <img src="images/collections/bedroom/collection-7.png" alt="">
                     <h4>Farmhouse</h4>
                 </a>
+                <!-- single collection -->
+                
+                <!-- single collection ends -->
                 <a href="collection-landing.php"  class="collection">
                     <img src="images/collections/bedroom/collection-8.png" alt="">
                     <h4>Reclaimed Barnwood</h4>
                 </a>
+                <!-- single collection -->
+                
+                <!-- single collection ends -->
                 <a href="collection-landing.php"  class="collection">
                     <img src="images/collections/bedroom/collection-9.png" alt="">
                     <h4>Rustic Hickory Designs</h4>
                 </a>
+                <!-- single collection -->
+                
+                <!-- single collection ends -->
                 <a href="collection-landing.php"  class="collection">
                     <img src="images/collections/bedroom/collection-10.png" alt="">
                     <h4>Rustic Log Designs</h4>
                 </a>
+                <!-- single collection -->
+                
+                <!-- single collection ends -->
                 <a href="collection-landing.php"  class="collection">
                     <img src="images/collections/bedroom/collection-11.png" alt="">
                     <h4>Live Edge</h4>
                 </a>
+                <!-- single collection ends -->
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12 section-title smaller ">
+            <!-- section title  -->
+            <header class="col-md-12 section-title smaller ">
                 <h3>Shop by Furniture Piece</h3>
-            </div>
+            </header>
+            <!-- section title  -->
             <div class="col-md-12 collection-area">
+                <!-- single collection -->
                 <a href="style-landing.php"  class="collection">
                     <img src="images/collections/bedroom/collection-1.png" alt="">
                     <h4>Bedroom Sets</h4>
                 </a>
+                <!-- single collection -->
+                
+                <!-- single collection ends -->
                 <a href="style-landing.php"  class="collection">
                     <img src="images/collections/bedroom/collection-2.png" alt="">
                     <h4>Beds & Headboards</h4>
                 </a>
+                <!-- single collection -->
+                
+                <!-- single collection ends -->
                 <a href="style-landing.php"  class="collection">
                     <img src="images/collections/bedroom/collection-3.png" alt="">
                     <h4>Bedroom Storage Pieces</h4>
                 </a>
+                <!-- single collection -->
+                
+                <!-- single collection ends -->
                 <a href="style-landing.php"  class="collection">
                     <img src="images/collections/bedroom/collection-4.png" alt="">
                     <h4>Blanket Boxes & Hope Chests</h4>
                 </a>
+                <!-- single collection -->
+                
+                <!-- single collection ends -->
                 <a href="style-landing.php"  class="collection">
                     <img src="images/collections/bedroom/collection-5.png" alt="">
                     <h4>Rustic Sophisticates</h4>
                 </a>
+                <!-- single collection -->
+                
+                <!-- single collection ends -->
                 <a href="style-landing.php"  class="collection">
                     <img src="images/collections/bedroom/collection-6.png" alt="">
                     <h4>Rough Sawn Elegance</h4>
                 </a>
+                <!-- single collection -->
+                
+                <!-- single collection ends -->
                 <a href="style-landing.php"  class="collection">
                     <img src="images/collections/bedroom/collection-7.png" alt="">
                     <h4>Farmhouse</h4>
                 </a>
+                <!-- single collection -->
+                
+                <!-- single collection ends -->
                 <a href="style-landing.php"  class="collection">
                     <img src="images/collections/bedroom/collection-8.png" alt="">
                     <h4>Reclaimed Barnwood</h4>
                 </a>
+                <!-- single collection ends -->
             </div>
         </div>
     </div>
