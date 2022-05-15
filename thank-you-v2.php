@@ -72,7 +72,7 @@ include_once('sections/layouts/header.php')
                 <div class="row mt-3">
                     <div class="col-md-12">
                         <a class="btn btn-empty btn-large btn-thanks" href="mailto:service@cabinfield.com"><span class="title">EMAIL</span><span class="details">service@cabinfield.com</span></a>
-                        <a class="btn btn-empty btn-large btn-thanks" href="tel:+866-450-WOOD (9663)"><span class="title">PHONE</span><span class="details">866-450-WOOD (9663)</span></a>
+                        <a class="btn btn-empty btn-large btn-thanks" href="tel:+866-450-WOOD(9663)"><span class="title">PHONE</span><span class="details">866-450-WOOD (9663)</span></a>
                     </div>
                 </div>
             </div>
