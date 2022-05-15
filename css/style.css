@@ -3116,6 +3116,11 @@ h4 {
 .page-content .quotation-area .quotation p.history a:hover {
   text-decoration: underline;
 }
+@media only screen and (max-width: 767px) {
+  .page-content .page-sidebar {
+    margin-bottom: 50px;
+  }
+}
 .page-content .page-sidebar .card-body {
   padding: 25px;
   border-radius: 15px;

@@ -123,6 +123,9 @@
     }
     
     .page-sidebar{
+        @include upto-phone{
+            margin-bottom:$m-50;
+        }
         .card-body{
             padding:$m-25;
             @include rounded($m-15);

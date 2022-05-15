@@ -1,32 +1,42 @@
 <?php 
+// Page title
 $page_title="Warranty";
+
+// inlcude header 
 include_once('sections/layouts/header.php') 
 ?>
 
-
-<?php include_once('sections/header-area.php') ?>
-
-<div class="breadcrum-section">
+<!-- breadcrumb section  -->
+<div class="breadcrumb-section">
     <div class="container">
         <div class="row">
-            <nav class="col-md-12 breadcrumb-area" aria-label="breadcrumb">
+            <div class="col-md-12 breadcrumb-area">
+                <!-- .dark for darker text  -->
                 <ol class="breadcrumb dark">
                     <li><a href="home.php"><i class="fa-solid fa-house"></i></a></li>
                     <li><a href="#">Help Center</a></li>
                 </ol>
-            </nav>
+            </div>
         </div>
     </div>
 </div>
+<!-- breadcrumb section ends  -->
 
+
+<!-- .page-content starts  -->
 <div class="section clearfix page-content">
     <div class="container">
+        <!-- .heading text row  -->
         <div class="row">
             <header class="col-md-12 text-dark-color section-title small">
                 <h2>Help Center</h2>
             </header>
         </div>
+        <!-- .heading text row ends -->
+        
+        <!-- main area  -->
         <div class="row">
+            <!-- .sidebar starts  -->
             <aside class="col-md-3 page-sidebar">
                 <div class="card">
                     <div class="card-body shadow">
@@ -41,6 +51,9 @@ include_once('sections/layouts/header.php')
                     </div>
                 </div>
             </aside>
+            <!-- .sidebar ends  -->
+            
+            <!-- .main-content starts  -->
             <article class="col-md-9 main-content">
                 <header class="article-title">
                     <h3>Warranty </h3>
@@ -56,8 +69,10 @@ include_once('sections/layouts/header.php')
                 <p>The website of Cabinfield.com is provided "as is", "as available" and "with all faults" and Cabinfield does not warrant its accuracy, completeness, availability, reliability, or timeliness. Cabinfield does its best to keep prices and specifications updated on the Website, but we reserve the right to notify customers of any necessary price adjustments prior to final processing and shipment of an order.</p>
                 <p>You agree to assume the entire risk as to your use of the site(s) and information provided therein. In addition, and without limiting the foregoing, Cabinfield disclaims any and all warranties with respect to any delays or errors in the transmission or delivery of any materials, products or services available through Cabinfield's website.</p>
             </article>
+            <!-- .main-content ends  -->
         </div>
     </div>
 </div>
 
+<!-- inlcude footer  -->
 <?php include_once('sections/layouts/footer.php') ?>
