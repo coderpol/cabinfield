@@ -218,6 +218,12 @@
         }
         .sub-article{
             margin-bottom:$m-40;
+            
+            @include from-pc{
+                &:last-child{
+                    margin-bottom:$m-90;
+                }
+            }
         }
     }
     

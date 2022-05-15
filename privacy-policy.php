@@ -1,32 +1,40 @@
 <?php 
+// dynamic page title for the page
 $page_title="Privacy Policy";
+
+// include the header 
 include_once('sections/layouts/header.php') 
 ?>
 
-
-<?php include_once('sections/header-area.php') ?>
-
-<div class="breadcrum-section">
+<!-- breadcrumb-section starts  -->
+<div class="breadcrumb-section">
     <div class="container">
         <div class="row">
-            <nav class="col-md-12 breadcrumb-area" aria-label="breadcrumb">
+            <div class="col-md-12 breadcrumb-area">
                 <ol class="breadcrumb dark">
                     <li><a href="home.php"><i class="fa-solid fa-house"></i></a></li>
                     <li><a href="#">Help Center</a></li>
                 </ol>
-            </nav>
+            </div>
         </div>
     </div>
 </div>
+<!-- breadcrumb-section ends  -->
 
+<!-- .page-content starts  -->
 <div class="section clearfix page-content">
     <div class="container">
+        <!-- .page heading  -->
         <div class="row">
             <header class="col-md-12 text-dark-color section-title small">
                 <h2>Help Center</h2>
             </header>
         </div>
+        <!-- .page heading ends  -->
+        
+        <!-- main area  -->
         <div class="row">
+            <!-- .sidebar  -->
             <aside class="col-md-3 page-sidebar">
                 <div class="card">
                     <div class="card-body shadow">
@@ -41,17 +49,20 @@ include_once('sections/layouts/header.php')
                     </div>
                 </div>
             </aside>
-            <div class="col-md-9 main-content mb-5">
-                <article class="sub-article">
-                    <header class="article-title">
-                        <h3>Privacy Policy</h3>
-                    </header>
+            <!-- .sidebar ends  -->
+            
+            <!-- .main-content  -->
+            <section class="col-md-9 main-content mb-5">
+                <div class="article-title">
+                    <h3>Privacy Policy</h3>
+                </div>
+                <secition class="sub-article">
                     <p>At Cabinfield (and Cabinfield.com), we consider the relationship we have with our customers to be the foundation of our business and we are committed to protecting their private and confidential information. We collect only the information that we need to provide you with superior service. We will never share your information with third parties, unless required by law. Our purpose in collecting information about you is to help us personalize and continually improve your online shopping experiences with us. If this policy were ever to change, we would notify you first.</p>
                     <p>The personal information of a customer is collected in a number of ways, including: information on applications; forms; documents; transaction histories; and correspondence (electronic, written and telephonic) with customers. The Cabinfield website ("website") may, from time to time, gather information about visitors and their potential needs through their submission of answers to surveys; information submitted in connection with becoming a registered user of the website; service agreements; questionnaires; and data input to into various forms provided on the website. The information collected from the website includes, but is not limited to, name, mailing address and e-mail address. Additionally, Cabinfield may collect data that is statistical in nature, which is not generally attributable to any specific customer.</p>
                     <p>Cabinfield uses the information gathered to service customer accounts and to provide customers with additional information about customized furniture, available products, and services, and additional information that our customers may be interested in. Cabinfield does not disclose any nonpublic information about current or former customers to any unaffiliated third party except as permitted by law, or at the specific request of the customer. The information collected, as described above, may be shared with our shipping and/or independent contractor partners for the purpose of enhancing and improving communications, services, and products designed to meet the needs of our customers. We may also use collected information to customize future shopping experiences and improve our products and services.</p>
                     <p>We may, from time to time, disclose some or all of the above information to affiliated and unaffiliated companies that perform marketing and other services (such as preparing and mailing promotional materials and/or conducting research on customer satisfaction) on behalf of Cabinfield, or to other promotional companies with whom we have joint marketing agreements. These parties that are not affiliated with Cabinfield have agreed not to use this information for any other purpose.</p>
                     <p>Cabinfield does not retain or store our customers' sensitive payment information (including credit card information) on our servers. For added security, we now use the latest Customer Information Manager technology from Authorize.net, a leading provider of online payment processing and a subsidiary of Visa. As a result, we do not retain or store our customers' sensitive payment information on our servers.</p>
-                </article>
+                </secition>
                 
                 <article class="sub-article">
                     <header class="article-title uppercase">
@@ -64,7 +75,7 @@ include_once('sections/layouts/header.php')
                     <p>Please rest assured that while information about you is an important part of our business, we are never in the business of selling it to others. We value your privacy as we value you - and we are uncompromising in our commitment to your privacy.</p>
                 </article>       
                        
-                <article class="sub-article mb-5">
+                <article class="sub-article">
                     <header class="article-title uppercase">
                         <h4>Security</h4>
                     </header>  
@@ -73,9 +84,13 @@ include_once('sections/layouts/header.php')
                     <p>As is the case with any wooden product, performance and beauty depends on how well you maintain and care for it. Please see our Buyer's Guide for suggested gazebo maintenance. The natural properties of wood include knots, minor cracks, splinters, and natural expansion and contraction of lumber depending upon temperature, environment, and natural grain traits. Adhering to our maintenance schedule will maximize the performance and beauty of your natural wooden gazebo. This warranty excludes damage due to ground settlement, modification, or any abnormal conditions out of our control.</p>
                     <p>For those who wish to have a virtually maintenance-free gazebo experience, Cabinfield offers a number of high-quality, affordably priced vinyl gazebos. These gazebos require almost no maintenance and will last for many years to come. If you want to have the look of a gazebo but don't have the time to properly maintain fine wooden products, our vinyl option is the perfect solution. We provide a 10 year warranty on our vinyl gazebos against any material or manufacturing defects.</p>
                 </article>              
-            </div>
+            </section>
+            <!-- .main-content  -->
         </div>
     </div>
 </div>
+<!-- .page-content ends  -->
 
+
+<!-- include the footer  -->
 <?php include_once('sections/layouts/footer.php') ?>
