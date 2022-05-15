@@ -475,6 +475,8 @@ a:hover {
 }
 .font-page .container .content .page-list li a {
   font-weight: 500;
+  padding: 5px;
+  display: inline-block;
 }
 .font-page .container .content .page-list li:after {
   margin-left: 15px;
@@ -496,7 +498,6 @@ a:hover {
 .font-page .container .content .page-list li.check {
   border: 1px solid #B3522C;
   background-color: rgba(179, 82, 44, 0.2);
-  padding: 5px;
 }
 .font-page .container .content .page-list li.check:after {
   content: "(Please check)";
@@ -507,7 +508,6 @@ a:hover {
 .font-page .container .content .page-list li.done {
   border: 1px solid #031300;
   background-color: #167702;
-  padding: 5px;
 }
 .font-page .container .content .page-list li.done:after {
   content: "(Completed)";
