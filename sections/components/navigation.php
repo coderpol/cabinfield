@@ -88,7 +88,8 @@
                     </li>
                 </ul>
                 <div class="top-nav-on-phone">
-                    <h3>Menu</h3>
+                    <!-- you can change this <p> tag to <h3> if the text inside of it is meaningfull to search engine -->
+                    <p class="title">Menu</p>
                     <ul class="col-md-12 clearfix">
                         <li><a href="about.php">About Us</a></li>
                         <li><a href="testimonials.php">Testimonials</a></li>

@@ -301,7 +301,7 @@
         .top-nav-on-phone{
             display: block;
             margin-top:25px;
-            h3{
+            .title{
                 @include font($font-16,$line-21,$font-medium);
                 color:rgba($blue-darkest,0.4);
             }

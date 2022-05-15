@@ -1653,7 +1653,7 @@ h4 {
     display: block;
     margin-top: 25px;
   }
-  .navigation-area .top-nav-on-phone h3 {
+  .navigation-area .top-nav-on-phone .title {
     font-size: 16px;
     line-height: 21px;
     font-weight: 500;
