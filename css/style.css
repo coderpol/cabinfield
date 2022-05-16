@@ -1631,7 +1631,7 @@ h4 {
   display: none;
   cursor: pointer;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 991px) {
   .navigation-area #nav-close {
     display: inline-block;
   }

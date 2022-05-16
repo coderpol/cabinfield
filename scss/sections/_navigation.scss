@@ -183,7 +183,7 @@
         color:$blue-darkest;
         display: none;
         cursor: pointer;
-        @include upto-phone{
+        @include upto-tablet{
             display: inline-block;
         }
     }
