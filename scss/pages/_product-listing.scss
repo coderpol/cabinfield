@@ -155,6 +155,7 @@
     .functional-area{
         position: relative;
         .section-title{
+            flex-basis:48%;
             h2, h3,h4{
                     @include font($font-24,$line-31,$font-bold);
             }
@@ -175,16 +176,20 @@
                         display: none;
                 }
             }
-        }
-        .shop-by{
-            position:absolute;
-            top: 4px;
-            right: 15px;
-            .btn{
-                display: inline;
-                background: none;
-                color:$brand-color;
-                padding:0;
+            .shop-by{
+                position:absolute;
+                top: 4px;
+                right: 15px;
+                flex-basis:45%;
+                .btn{
+                    display: inline-block;
+                    background: none;
+                    color:$brand-color;
+                    padding:0;
+                    @include smallest{
+                        width:120px;
+                    }
+                }
             }
         }
     }
