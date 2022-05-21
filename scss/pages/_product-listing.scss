@@ -103,7 +103,7 @@
                 @include font(12px,100%,$font-medium);
                 padding:5px $m-10;
                 background: rgba(179, 82, 44, 0.14);
-                color:$brand-color;
+                color:$brand-color-2;
                 @include rounded($m-30);
             }
         }

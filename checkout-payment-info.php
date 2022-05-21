@@ -46,7 +46,7 @@ include_once('sections/layouts/header.php')
                         <label for="expiration" class="form-label">Expiration date</label>
                     </div>
                     <div class="col-md-6 col-6">
-                        <select class="form-select" id="expiration" aria-label="Expiration Month">
+                        <select class="form-select gray" id="expiration" aria-label="Expiration Month">
                             <option selected>Month</option>
                             <option value="01">01</option>
                             <option value="02">02</option>
@@ -63,7 +63,7 @@ include_once('sections/layouts/header.php')
                         </select>
                     </div>
                     <div class="col-md-6 col-6">
-                        <select class="form-select" aria-label="Expiration Year">
+                        <select class="form-select gray" aria-label="Expiration Year">
                             <option selected>Year</option>
                             <option value="2022">2022</option>
                             <option value="2023">2023</option>
@@ -76,7 +76,7 @@ include_once('sections/layouts/header.php')
                 </div>
                 <div class="row form-line">
                     <div class="col-12">
-                        <label for="security_code" class="form-label">Security Code <i class="fa-solid fa-circle-question"></i></label>
+                        <label for="security_code" class="form-label">Security Code <span class="gray"><i class="fa-solid fa-circle-question"></i></span></label>
                         <input type="text" class="form-control" id="security_code" aria-label="Security Code" required>
                         <div class="border-bottom border-only">&nbsp;</div>
                     </div>
@@ -116,7 +116,7 @@ include_once('sections/layouts/header.php')
                     </div>
                     <div class="row form-line">
                         <div class="col-12">
-                        <label for="company" class="form-label">Company Name <span class="blue">(optional)</span></label>
+                        <label for="company" class="form-label">Company Name <span class="gray">(optional)</span></label>
                             <input type="text" class="form-control" id="company" aria-label="Company Name">
                         </div>
                     </div>
@@ -128,7 +128,7 @@ include_once('sections/layouts/header.php')
                     </div>
                     <div class="row form-line">
                         <div class="col-12">
-                            <label for="address_2" class="form-label">Address line 2 <span class="blue">(optional)</span></label>
+                            <label for="address_2" class="form-label">Address line 2 <span class="gray">(optional)</span></label>
                             <input type="text" class="form-control" id="address_2" aria-label="Address line 2">
                         </div>
                     </div>
@@ -148,7 +148,7 @@ include_once('sections/layouts/header.php')
                             <input type="text" class="form-control" id="zip" aria-label="Zip Code" required>
                         </div>
                         <div class="col-md-6 col-6">
-                            <label for="ext" class="form-label">Ext <span class="blue">(optional)</span></label>
+                            <label for="ext" class="form-label">Ext <span class="gray">(optional)</span></label>
                             <input type="text" class="form-control" id="ext" aria-label="Ext">
                         </div>
                     </div>

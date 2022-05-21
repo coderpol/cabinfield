@@ -54,19 +54,19 @@ footer:before {
 
 /********* placeholder color **********/
 ::-webkit-input-placeholder {
-  color: #9DA8B7;
+  color: #6B7481;
 }
 
 :-moz-placeholder {
-  color: #9DA8B7;
+  color: #6B7481;
 }
 
 ::-moz-placeholder {
-  color: #9DA8B7;
+  color: #6B7481;
 }
 
 :-ms-input-placeholder {
-  color: #9DA8B7;
+  color: #6B7481;
 }
 
 input[type=text]::-ms-clear {
@@ -460,6 +460,10 @@ h4 {
 
 .black {
   color: #000;
+}
+
+.gray {
+  color: #6B7481;
 }
 
 .text-dark-color {
@@ -1021,47 +1025,47 @@ h4 {
 
 .form-control::-webkit-input-placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #9DA8B7;
+  color: #6B7481;
   opacity: 1;
   /* Firefox */
 }
 
 .form-control::-moz-placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #9DA8B7;
+  color: #6B7481;
   opacity: 1;
   /* Firefox */
 }
 
 .form-control:-ms-input-placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #9DA8B7;
+  color: #6B7481;
   opacity: 1;
   /* Firefox */
 }
 
 .form-control::-ms-input-placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #9DA8B7;
+  color: #6B7481;
   opacity: 1;
   /* Firefox */
 }
 
 .form-control::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #9DA8B7;
+  color: #6B7481;
   opacity: 1;
   /* Firefox */
 }
 
 .form-control:-ms-input-placeholder {
   /* Internet Explorer 10-11 */
-  color: #9DA8B7;
+  color: #6B7481;
 }
 
 .form-control::-ms-input-placeholder {
   /* Microsoft Edge */
-  color: #9DA8B7;
+  color: #6B7481;
 }
 
 .summary-list {
@@ -1317,7 +1321,7 @@ h4 {
   left: 10px;
   top: 10px;
   font-size: 20px;
-  color: #C6CDD7;
+  color: #6B7481;
 }
 .header-area .search-area .searchform input {
   width: 100%;
@@ -3966,7 +3970,7 @@ h4 {
   font-weight: 500;
   padding: 5px 10px;
   background: rgba(179, 82, 44, 0.14);
-  color: #B3522C;
+  color: #A64D2A;
   border-radius: 30px;
 }
 

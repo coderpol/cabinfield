@@ -2,6 +2,7 @@
 $white: #fff;
 $black: #000;
 $brand-color : #B3522C;
+$brand-color-2: #A64D2A;
 
 $whitish-1 : #F0F2F5;
 $whitish-2 : #E5E5E5;
@@ -22,12 +23,14 @@ $gray-dark-2: #4F4F4F;
 $gray-dark-3: #514646;
 $gray-dark-4: #979797;
 $gray-light-1: #E0E0E0;
+$gray-light-2: #6B7481;
+$gray-light-3: #586982;
 
 $green :#27AE60;
 
 // set another color value
 $selection-color : $brand-color;
-$placeholder-color : $blue-light-1;
+$placeholder-color : $gray-light-2;
 $scroll-track-color:$gray-dark-2;
 $scroll-thumb-color:$blue-darkest;
 $scroll-hover-color: $brand-color;

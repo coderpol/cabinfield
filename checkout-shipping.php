@@ -56,7 +56,7 @@ include_once('sections/layouts/header.php')
                 <!-- form line with 1 input  -->
                 <div class="row form-line">
                     <div class="col-12">
-                    <label for="com_name" class="form-label">Company Name <span class="blue">(optional)</span></label>
+                    <label for="com_name" class="form-label">Company Name <span class="gray">(optional)</span></label>
                         <input type="text" class="form-control" id="com_name" aria-label="Company Name">
                     </div>
                 </div>
@@ -70,7 +70,7 @@ include_once('sections/layouts/header.php')
                 </div>
                 <div class="row form-line">
                     <div class="col-12">
-                        <label for="address_2" class="form-label">Address line 2 <span class="blue">(optional)</span></label>
+                        <label for="address_2" class="form-label">Address line 2 <span class="gray">(optional)</span></label>
                         <input type="text" class="form-control" id="address_2"  aria-label="Address line 2">
                     </div>
                 </div>
@@ -96,7 +96,7 @@ include_once('sections/layouts/header.php')
                         <input type="text" class="form-control" id="phone"  aria-label="Phone" required>
                     </div>
                     <div class="col">
-                        <label for="ext" class="form-label">Ext <span class="blue">(optional)</span></label>
+                        <label for="ext" class="form-label">Ext <span class="gray">(optional)</span></label>
                         <input type="text" class="form-control" id="ext"  aria-label="Ext">
                     </div>
                 </div>

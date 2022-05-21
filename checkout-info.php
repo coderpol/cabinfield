@@ -73,7 +73,7 @@ include_once('sections/layouts/header.php')
                                         </div>
                                         <div class="row form-line">
                                             <div class="col-12">
-                                                <label for="company" class="form-label">Company Name <span class="blue">(optional)</span></label>
+                                                <label for="company" class="form-label">Company Name <span class="gray">(optional)</span></label>
                                                 <input type="text" class="form-control" id="company" value="" aria-label="Company Name">
                                             </div>
                                         </div>
@@ -85,7 +85,7 @@ include_once('sections/layouts/header.php')
                                         </div>
                                         <div class="row form-line">
                                             <div class="col-12">
-                                                <label for="address" class="form-label">Address line 2 <span class="blue">(optional)</span></label>
+                                                <label for="address" class="form-label">Address line 2 <span class="gray">(optional)</span></label>
                                                 <input type="text" class="form-control" id="address" value="BWW Ste 286309" aria-label="Address line 2">
                                             </div>
                                         </div>
@@ -111,7 +111,7 @@ include_once('sections/layouts/header.php')
                                                 <input type="text" class="form-control" id="phone" value="(484) 5400190" aria-label="Phone" required>
                                             </div>
                                             <div class="col-md-6 col-12">
-                                                <label for="ext" class="form-label">Ext <span class="blue">(optional)</span></label>
+                                                <label for="ext" class="form-label">Ext <span class="gray">(optional)</span></label>
                                                 <input type="text" class="form-control" id="ext" aria-label="Ext">
                                             </div>
                                         </div>
@@ -162,7 +162,7 @@ include_once('sections/layouts/header.php')
                                         </div>
                                         <div class="row form-line">
                                             <div class="col-12">
-                                                <label for="company_2" class="form-label">Company Name <span class="blue">(optional)</span></label>
+                                                <label for="company_2" class="form-label">Company Name <span class="gray">(optional)</span></label>
                                                 <input type="text" class="form-control" id="company_2" value="" aria-label="Company Name">
                                             </div>
                                         </div>
@@ -174,7 +174,7 @@ include_once('sections/layouts/header.php')
                                         </div>
                                         <div class="row form-line">
                                             <div class="col-12">
-                                                <label for="address_2" class="form-label">Address line 2 <span class="blue">(optional)</span></label>
+                                                <label for="address_2" class="form-label">Address line 2 <span class="gray">(optional)</span></label>
                                                 <input type="text" class="form-control" id="address_2" value="BWW Ste 286309" aria-label="Address line 2">
                                             </div>
                                         </div>
@@ -200,7 +200,7 @@ include_once('sections/layouts/header.php')
                                                 <input type="text" class="form-control" id="phone_2" value="(484) 5400190" aria-label="Phone" required>
                                             </div>
                                             <div class="col-md-6 col-12">
-                                                <label for="ext_2" class="form-label">Ext <span class="blue">(optional)</span></label>
+                                                <label for="ext_2" class="form-label">Ext <span class="gray">(optional)</span></label>
                                                 <input type="text" class="form-control" id="ext_2" aria-label="Ext">
                                             </div>
                                         </div>
