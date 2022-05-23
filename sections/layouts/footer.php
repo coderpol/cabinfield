@@ -83,6 +83,9 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <!-- Slider plugin -->
 <script src="js/slick.min.js"></script>
+
+<script src="js/ninja-slider.js"></script>
+<script src="js/thumbnail-slider.js"></script>
 <!-- All the custom js are here  -->
 <script src="js/custom.js"></script>
 </body>

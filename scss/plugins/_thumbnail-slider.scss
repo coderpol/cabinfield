@@ -1,0 +1,151 @@
+/* http://www.menucool.com/jquery-slider */
+
+/*---------------------------- Thumbnails ----------------------------*/
+#thumbnail-slider {    
+    display:inline-block;
+    padding:0px 0;
+    -webkit-user-select: none;
+    user-select:none;
+    .inner{
+        border-radius:3px;
+        background-color:transparent;
+        padding:0 20px; 
+        height:100%; 
+        box-sizing:border-box;
+        position:relative;
+        overflow:hidden;
+        margin:0;
+        @include upto-phone{
+            padding:0;
+        }
+        ul{
+            position:absolute;
+            left:20px; 
+            top:0;
+            list-style:none;
+            font-size:0;
+            padding:30px 0;
+            margin:0;
+            
+            width:100%;
+            float:left!important;
+            width:auto!important;
+            height:auto!important;
+            @include upto-phone{
+                left:0;
+            }
+            li{
+                opacity:1;
+                display:block;
+                margin:4px 0;
+                @include square(80px);
+                transition:all 0.5s;
+                margin-bottom:10px;
+                text-align:center;
+                padding:0;
+                position:relative;
+                list-style:none;
+                box-sizing:content-box;
+                backface-visibility:hidden;
+                @include upto-phone{
+                    height:40px !important;
+                    width:40px !important;
+                }
+                
+                -webkit-filter: grayscale(100%);
+                filter: grayscale(100%);
+                &.active{
+                    border-color:white;    
+                    -webkit-filter: initial;
+                    filter: initial;
+                }
+                &:hover{
+                    border-color:rgba(255,255,255,0.5);   
+                    -webkit-filter: grayscale(50%);
+                    filter: grayscale(50%);
+                }
+            }
+            
+        }
+    }
+}
+
+
+#thumbnail-slider .thumb {
+    width:100%;
+    height: 100%;
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center center;
+    display:block;
+    position:absolute;
+    font-size:0;
+}
+
+/* --------- navigation controls ------- */   
+/* The nav id should be: slider id + ("-prev", "-next", and "-pause-play") */  
+
+#thumbnail-slider-pause-play {display:none;} /*.pause*/
+
+#thumbnail-slider-prev, #thumbnail-slider-next
+{
+    position: absolute;
+    left: 44px;
+    background-color:$blue;
+    @include square(30px);
+    @include rounded(20px);
+    line-height: 30px;
+    text-align:center;
+    margin:0;
+    color:white;
+    z-index:100;
+    cursor:pointer;
+    transition:opacity 0.6s;
+    // backface-visibility:hidden;
+    &.disabled{
+        display: none;
+    }
+    @include upto-phone{
+        left:10px;
+        display: none;
+    }
+}
+
+#thumbnail-slider-prev {
+    top:15px;
+}
+
+#thumbnail-slider-next {
+    bottom:15px;
+}
+// #thumbnail-slider-next.disabled, #thumbnail-slider-prev.disabled {
+//     opacity:0.1;
+//     cursor:default;
+// }
+
+
+/* arrows */
+#thumbnail-slider-prev::before, #thumbnail-slider-next::before {
+    position:absolute;
+    content: "";
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    margin-left:-5px;
+    border-left: 3px solid white;
+    border-top: 3px solid white;
+}
+
+#thumbnail-slider-prev::before {
+    top:12px;
+    -ms-transform:rotate(-45deg);/*IE9*/
+    -webkit-transform:rotate(45deg);
+    transform: rotate(45deg);
+}
+
+#thumbnail-slider-next::before {
+    bottom:12px;
+    -ms-transform:rotate(135deg);/*IE9*/
+    -webkit-transform:rotate(-135deg);
+    transform: rotate(-135deg);
+}
