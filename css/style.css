@@ -4412,21 +4412,95 @@ h4 {
       -ms-flex-align: stretch;
           align-items: stretch;
 }
-.product-section .stack-area .stain {
+.product-section .stack-area .stack {
   -ms-flex-preferred-size: 14.285%;
       flex-basis: 14.285%;
+  position: relative;
   margin-bottom: 20px;
 }
+.product-section .stack-area .stack span {
+  margin-top: 10px;
+}
 @media only screen and (max-width: 767px) {
-  .product-section .stack-area .stain {
-    -ms-flex-preferred-size: 50%;
-        flex-basis: 50%;
+  .product-section .stack-area .stack {
+    -ms-flex-preferred-size: 25%;
+        flex-basis: 25%;
   }
 }
-.product-section .stack-area .stain label {
+.product-section .stack-area .stack .btn-check {
+  display: none;
+}
+.product-section .stack-area .stack .btn-check:checked + .btn, .product-section .stack-area .stack .btn-check:active + .btn {
+  background: none !important;
+  border: 1px solid #B3522C;
+}
+.product-section .stack-area .stack .btn {
   border: 0;
   padding: 5px;
+  display: block;
   border-radius: 3px;
+  border: 1px solid transparent;
+}
+@media only screen and (max-width: 767px) {
+  .product-section .stack-area .stack .btn {
+    padding-bottom: 85px;
+  }
+}
+.product-section .stack-area .stack .btn span {
+  color: #121212 !important;
+}
+.product-section .stack-area .stack .btn .figure {
+  position: relative;
+}
+.product-section .stack-area .stack .btn .figure .overlay {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+.product-section .stack-area .stack .btn .figure .overlay .icon {
+  background: #fff;
+  width: 40px;
+  height: 40px;
+  display: block;
+  border-radius: 40px;
+  color: #121212;
+  margin: 31px auto;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 20px;
+  line-height: 40px;
+  font-weight: 400;
+  -webkit-box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
+}
+@media only screen and (max-width: 767px) {
+  .product-section .stack-area .stack .btn .figure .overlay .icon {
+    background: #B3522C;
+    color: #fff;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .product-section .stack-area .stack .btn .figure .overlay {
+    display: block;
+    background: none;
+    height: 40px;
+    bottom: -110px;
+    top: auto;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .product-section .stack-area .stack .btn .figure .overlay {
+    bottom: -130px;
+  }
+}
+.product-section .stack-area .stack .btn .figure:hover .overlay {
+  display: block;
 }
 .product-section .stack-area .counter {
   display: -webkit-box;
@@ -4437,6 +4511,7 @@ h4 {
 }
 .product-section .stack-area .counter span {
   display: inline-block;
+  margin-top: 0;
 }
 .product-section .stack-area .counter .btn {
   width: 30px;
@@ -4468,13 +4543,13 @@ h4 {
   color: #000;
   border: 0;
 }
-.product-section .stack-area.show-checkbox .stain {
+.product-section .stack-area.show-checkbox .stack {
   position: relative;
 }
-.product-section .stack-area.show-checkbox .stain img {
+.product-section .stack-area.show-checkbox .stack img {
   margin-bottom: 50px;
 }
-.product-section .stack-area.show-checkbox .stain label {
+.product-section .stack-area.show-checkbox .stack label {
   font-weight: 700;
 }
 .product-section .stack-area.show-checkbox input[type=checkbox] {
@@ -4486,19 +4561,48 @@ h4 {
 .product-section .stack-tweleve .stack {
   margin-bottom: 20px;
   text-align: center;
+  -ms-flex-preferred-size: 8.333%;
+      flex-basis: 8.333%;
 }
 @media only screen and (max-width: 767px) {
   .product-section .stack-tweleve .stack {
-    width: 50%;
+    -ms-flex-preferred-size: 25%;
+        flex-basis: 25%;
   }
 }
-.product-section .stack-tweleve .stack p {
+.product-section .stack-tweleve .stack .btn {
+  padding: 2px 5px;
+  border-radius: 0;
+  border: 1px solid transparent;
+}
+@media only screen and (max-width: 767px) {
+  .product-section .stack-tweleve .stack .btn {
+    padding-bottom: 60px;
+  }
+}
+.product-section .stack-tweleve .stack .btn span {
   margin-bottom: 0;
   margin-top: 5px;
   font-size: 14px;
-  line-height: 18px;
+  line-height: 16px;
   font-weight: 500;
   color: #121212;
+}
+.product-section .stack-tweleve .stack .btn .figure {
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.product-section .stack-tweleve .stack .btn .figure .overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+.product-section .stack-tweleve .stack .btn .figure .overlay .icon {
+  margin: 17px auto 0;
+}
+@media only screen and (max-width: 767px) {
+  .product-section .stack-tweleve .stack .btn .figure .overlay {
+    bottom: -90px;
+    background: none;
+  }
 }
 .product-section .order-details {
   margin-top: 60px;

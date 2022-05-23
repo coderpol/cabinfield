@@ -276,19 +276,82 @@
         flex-wrap: wrap;
         justify-content: flex-start;
         align-items: stretch;
-        .stain{
+        .stack{
             flex-basis: 14.285%;
+            position: relative;
+            span{
+                margin-top:$m-10;
+            }
             @include upto-phone{
-                flex-basis:50%;
+                flex-basis:25%;
             }
             margin-bottom:$m-20;
-            label{
+            .btn-check{
+                display: none;
+                
+                &:checked,&:active{
+                    &+.btn{
+                        background: none !important;
+                        border:$thin solid $brand-color;
+                    }
+                }
+            }
+            .btn{
                 border:0;
                 padding:5px;
+                display: block;
                 @include rounded(3px);
-                // background-color: $white !important;
-                // color:$black !important;
-                // border:1px solid rgba(0, 0, 0, 0.1);
+                border:1px solid transparent;
+                @include upto-phone{
+                    padding-bottom: 85px;
+                }
+                span{
+                    color:$blue-darkest !important;
+                }
+                .figure{
+                    position:relative;
+                    .overlay{
+                        display: none;
+                        position:absolute;
+                        top:0;
+                        left:0;
+                        width:100%;
+                        height:100%;
+                        background: rgba(0,0,0,.3);
+                        @include rounded(5px);
+                        .icon{
+                            background: $white;
+                            @include square(40px);
+                            @include rounded(40px);
+                            color:$blue-darkest;
+                            margin: 31px auto;
+                            text-align: center;
+                            vertical-align: middle;
+                            @include font($font-20,$m-40);
+                            box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
+                            @include upto-phone{
+                                background: $brand-color;
+                                color:$white;
+                                margin: 0 auto;
+                            }
+                        }
+                        @include upto-phone{
+                            display: block;
+                            background: none;
+                            height: 40px;
+                            bottom: -110px;
+                            top: auto;
+                        }
+                        @include phone-small{
+                            bottom:-130px;
+                        }
+                    }
+                    &:hover{
+                        .overlay{
+                            display: block;
+                        }
+                    }
+                }
             }
         }
         .counter{
@@ -297,6 +360,7 @@
             margin: 20px auto 0;
             span{
                 display: inline-block;
+                margin-top:0;
             }
             .btn{
                 @include square(30px);
@@ -322,7 +386,7 @@
         }
         
         &.show-checkbox{
-            .stain{
+            .stack{
                 position:relative;
                 img{
                     margin-bottom:50px;
@@ -343,14 +407,41 @@
         .stack{
             margin-bottom:$m-20;
             text-align: center;
+            flex-basis: 8.333%;
+            
             @include upto-phone{
-                width:50%;
+                flex-basis:25%;
             }
-            p{
-                margin-bottom:0;
-                margin-top:5px;
-                @include font($font-14,$font-18,$font-medium);
-                color:$blue-darkest;
+            .btn{
+                padding:2px 5px;
+                @include rounded(0);
+                border:1px solid transparent;
+                @include upto-phone{
+                    padding-bottom:60px;
+                }
+                span{
+                    margin-bottom:0;
+                    margin-top:5px;
+                    @include font($font-14,$font-16,$font-medium);
+                    color:$blue-darkest;
+                    
+                }
+                .figure{
+                    @include rounded(5px);
+                    margin-bottom:$m-10;
+                    .overlay{
+                        
+                        background: rgba($black,.5);
+                        .icon{
+                            margin:17px auto 0;
+                        }
+                        
+                        @include upto-phone{
+                            bottom:-90px;
+                            background: none;
+                        }
+                    }
+                }
             }
         }
     }

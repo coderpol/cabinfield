@@ -1,15 +1,16 @@
 <?php 
+// page title
 $page_title="Product Customized";
+
+// inlcude the header 
 include_once('sections/layouts/header.php') 
 ?>
 
-
-<?php include_once('sections/header-area.php') ?>
-
+<!-- breadcrumb-section starts  -->
 <div class="breadcrum-section">
     <div class="container">
         <div class="row">
-            <nav class="col-md-12 breadcrumb-area" aria-label="breadcrumb">
+            <div class="col-md-12 breadcrumb-area">
                 <ol class="breadcrumb dark">
                     <li><a href="home.php"><i class="fa-solid fa-house"></i></a></li>
                     <li><a href="bedroom-landing.php">Bedrooms</a></li>
@@ -18,11 +19,13 @@ include_once('sections/layouts/header.php')
                     <li><a href="product-listing.php">Product Listing</a></li>
                     <li class="active">Kennet Flat Panel Amish Bed</li>
                 </ol>
-            </nav>
+            </div>
         </div>
     </div>
 </div>
+<!-- breadcrumb-section ends  -->
 
+<!-- .product-section starts  -->
 <div class="section page-content product-section">
     <div class="container">
         <div class="row product-gallery-area">
@@ -153,105 +156,202 @@ include_once('sections/layouts/header.php')
                                             <p>Please note that the stain or paint colors shown may not appear the same on all computer monitors. Actual results on your furniture may also vary due to natural variations in the color, grain, and texture of the wood. Please click here to request samples.</p>
                                         </div>
                                         <div class="stack-area">
-                                            <div class="stain">
+                                            <div class="stack">
                                                 <input type="radio" name="stain-type" class="btn-check" id="stain-1" autocomplete="off">
                                                 <label class="btn" for="stain-1">
-                                                    <img src="images/stain/stain-1.png" alt="">
-                                                    Medium OCS-110 
+                                                    <figure class="figure">
+                                                        <img src="images/stain/stain-1.png" alt="">
+                                                        <div class="overlay">
+                                                            <a class="icon" href="#">
+                                                                <i class="fa fa-magnifying-glass"></i>
+                                                            </a>
+                                                        </div>
+                                                    </figure>
+                                                    <span>Medium OCS-110 </span>
                                                 </label>
                                             </div>
-                                            <div class="stain">
+                                            <div class="stack">
                                                 <input type="radio" name="stain-type" class="btn-check" id="stain-2" autocomplete="off">
                                                 <label class="btn" for="stain-2">
-                                                    <img src="images/stain/stain-2.png" alt="">
-                                                    Medium OCS-110 
+                                                    <figure class="figure">
+                                                        <img src="images/stain/stain-2.png" alt="">
+                                                        <div class="overlay">
+                                                            <a class="icon" href="#">
+                                                                <i class="fa fa-magnifying-glass"></i>
+                                                            </a>
+                                                        </div>
+                                                    </figure>
+                                                    <span>Medium OCS-110 </span>
                                                 </label>
                                             </div>
-                                            <div class="stain">
+                                            <div class="stack">
                                                 <input type="radio" name="stain-type" class="btn-check" id="stain-3" autocomplete="off">
                                                 <label class="btn" for="stain-3">
-                                                    <img src="images/stain/stain-3.png" alt="">
-                                                    Medium OCS-110 
+                                                    <figure class="figure">
+                                                        <img src="images/stain/stain-3.png" alt="">
+                                                        <div class="overlay">
+                                                            <a class="icon" href="#">
+                                                                <i class="fa fa-magnifying-glass"></i>
+                                                            </a>
+                                                        </div>
+                                                    </figure>
+                                                    <span>Medium OCS-110 </span>
                                                 </label>
                                             </div>
-                                            <div class="stain">
+                                            <div class="stack">
                                                 <input type="radio" name="stain-type" class="btn-check" id="stain-4" autocomplete="off">
                                                 <label class="btn" for="stain-4">
-                                                    <img src="images/stain/stain-1.png" alt="">
-                                                    Medium OCS-110 
+                                                    <figure class="figure">
+                                                        <img src="images/stain/stain-1.png" alt="">
+                                                        <div class="overlay">
+                                                            <a class="icon" href="#">
+                                                                <i class="fa fa-magnifying-glass"></i>
+                                                            </a>
+                                                        </div>
+                                                    </figure>
+                                                    <span>Medium OCS-110 </span>
                                                 </label>
                                             </div>
-                                            <div class="stain">
+                                            <div class="stack">
                                                 <input type="radio" name="stain-type" class="btn-check" id="stain-5" autocomplete="off">
                                                 <label class="btn" for="stain-5">
-                                                    <img src="images/stain/stain-2.png" alt="">
-                                                    Medium OCS-110 
+                                                    <figure class="figure">
+                                                        <img src="images/stain/stain-2.png" alt="">
+                                                        <div class="overlay">
+                                                            <a class="icon" href="#">
+                                                                <i class="fa fa-magnifying-glass"></i>
+                                                            </a>
+                                                        </div>
+                                                    </figure>
+                                                    <span>Medium OCS-110 </span>
                                                 </label>
                                             </div>
-                                            <div class="stain">
+                                            <div class="stack">
                                                 <input type="radio" name="stain-type" class="btn-check" id="stain-6" autocomplete="off">
                                                 <label class="btn" for="stain-6">
-                                                    <img src="images/stain/stain-3.png" alt="">
-                                                    Medium OCS-110 
+                                                    <figure class="figure">
+                                                        <img src="images/stain/stain-3.png" alt="">
+                                                        <div class="overlay">
+                                                            <a class="icon" href="#">
+                                                                <i class="fa fa-magnifying-glass"></i>
+                                                            </a>
+                                                        </div>
+                                                    </figure>
+                                                    <span>Medium OCS-110 </span>
                                                 </label>
                                             </div>
-                                            <div class="stain">
+                                            <div class="stack">
                                                 <input type="radio" name="stain-type" class="btn-check" id="stain-7" autocomplete="off">
                                                 <label class="btn" for="stain-7">
-                                                    <img src="images/stain/stain-1.png" alt="">
-                                                    Medium OCS-110 
+                                                    <figure class="figure">
+                                                        <img src="images/stain/stain-1.png" alt="">
+                                                        <div class="overlay">
+                                                            <a class="icon" href="#">
+                                                                <i class="fa fa-magnifying-glass"></i>
+                                                            </a>
+                                                        </div>
+                                                    </figure>
+                                                    <span>Medium OCS-110 </span>
                                                 </label>
                                             </div>
-                                            <div class="stain">
+                                            <div class="stack">
                                                 <input type="radio" name="stain-type" class="btn-check" id="stain-8" autocomplete="off">
                                                 <label class="btn" for="stain-8">
-                                                    <img src="images/stain/stain-1.png" alt="">
-                                                    Medium OCS-110 
+                                                    <figure class="figure">
+                                                        <img src="images/stain/stain-1.png" alt="">
+                                                        <div class="overlay">
+                                                            <a class="icon" href="#">
+                                                                <i class="fa fa-magnifying-glass"></i>
+                                                            </a>
+                                                        </div>
+                                                    </figure>
+                                                    <span>Medium OCS-110 </span>
                                                 </label>
                                             </div>
-                                            <div class="stain">
+                                            <div class="stack">
                                                 <input type="radio" name="stain-type" class="btn-check" id="stain-9" autocomplete="off">
                                                 <label class="btn" for="stain-9">
-                                                    <img src="images/stain/stain-2.png" alt="">
-                                                    Medium OCS-110 
+                                                    <figure class="figure">
+                                                        <img src="images/stain/stain-2.png" alt="">
+                                                        <div class="overlay">
+                                                            <a class="icon" href="#">
+                                                                <i class="fa fa-magnifying-glass"></i>
+                                                            </a>
+                                                        </div>
+                                                    </figure>
+                                                    <span>Medium OCS-110 </span>
                                                 </label>
                                             </div>
-                                            <div class="stain">
+                                            <div class="stack">
                                                 <input type="radio" name="stain-type" class="btn-check" id="stain-10" autocomplete="off">
                                                 <label class="btn" for="stain-10">
-                                                    <img src="images/stain/stain-3.png" alt="">
-                                                    Medium OCS-110 
+                                                    <figure class="figure">
+                                                        <img src="images/stain/stain-3.png" alt="">
+                                                        <div class="overlay">
+                                                            <a class="icon" href="#">
+                                                                <i class="fa fa-magnifying-glass"></i>
+                                                            </a>
+                                                        </div>
+                                                    </figure>
+                                                    <span>Medium OCS-110 </span>
                                                 </label>
                                             </div>
-                                            <div class="stain">
+                                            <div class="stack">
                                                 <input type="radio" name="stain-type" class="btn-check" id="stain-11" autocomplete="off">
                                                 <label class="btn" for="stain-11">
-                                                    <img src="images/stain/stain-1.png" alt="">
-                                                    Medium OCS-110 
+                                                    <figure class="figure">
+                                                        <img src="images/stain/stain-1.png" alt="">
+                                                        <div class="overlay">
+                                                            <a class="icon" href="#">
+                                                                <i class="fa fa-magnifying-glass"></i>
+                                                            </a>
+                                                        </div>
+                                                    </figure>
+                                                    <span>Medium OCS-110 </span>
                                                 </label>
                                             </div>
-                                            <div class="stain">
+                                            <div class="stack">
                                                 <input type="radio" name="stain-type" class="btn-check" id="stain-12" autocomplete="off">
                                                 <label class="btn" for="stain-12">
-                                                    <img src="images/stain/stain-2.png" alt="">
-                                                    Medium OCS-110 
+                                                    <figure class="figure">
+                                                        <img src="images/stain/stain-2.png" alt="">
+                                                        <div class="overlay">
+                                                            <a class="icon" href="#">
+                                                                <i class="fa fa-magnifying-glass"></i>
+                                                            </a>
+                                                        </div>
+                                                    </figure>
+                                                    <span>Medium OCS-110 </span>
                                                 </label>
                                             </div>
-                                            <div class="stain">
+                                            <div class="stack">
                                                 <input type="radio" name="stain-type" class="btn-check" id="stain-13" autocomplete="off">
                                                 <label class="btn" for="stain-13">
-                                                    <img src="images/stain/stain-3.png" alt="">
-                                                    Medium OCS-110 
+                                                    <figure class="figure">
+                                                        <img src="images/stain/stain-3.png" alt="">
+                                                        <div class="overlay">
+                                                            <a class="icon" href="#">
+                                                                <i class="fa fa-magnifying-glass"></i>
+                                                            </a>
+                                                        </div>
+                                                    </figure>
+                                                    <span>Medium OCS-110 </span>
                                                 </label>
                                             </div>
-                                            <div class="stain">
+                                            <div class="stack">
                                                 <input type="radio" name="stain-type" class="btn-check" id="stain-14" autocomplete="off">
                                                 <label class="btn" for="stain-14">
-                                                    <img src="images/stain/stain-1.png" alt="">
-                                                    Medium OCS-110 
+                                                    <figure class="figure">
+                                                        <img src="images/stain/stain-1.png" alt="">
+                                                        <div class="overlay">
+                                                            <a class="icon" href="#">
+                                                                <i class="fa fa-magnifying-glass"></i>
+                                                            </a>
+                                                        </div>
+                                                    </figure>
+                                                    <span>Medium OCS-110 </span>
                                                 </label>
                                             </div>
-                                            
                                         </div>
                                     </div>
                                 </div>
@@ -269,7 +369,7 @@ include_once('sections/layouts/header.php')
                                             <p>Please note that the stain or paint colors shown may not appear the same on all computer monitors. Actual results on your furniture may also vary due to natural variations in the color, grain, and texture of the wood. Please click here to request samples.</p>
                                         </div>
                                         <div class="stack-area show-checkbox">
-                                            <div class="stain">
+                                            <div class="stack">
                                                 <input type="checkbox" name="leaf-type" class="form-check-input" checked id="leaf-1" autocomplete="off">
                                                 <label class="btn form-check-label" for="leaf-1">
                                                     <img src="images/leaf/leaf-1.png" alt="">
@@ -281,7 +381,7 @@ include_once('sections/layouts/header.php')
                                                     <span class="btn" data-action="increase">+</span>
                                                 </div>
                                             </div>
-                                            <div class="stain">
+                                            <div class="stack">
                                                 <input type="checkbox" name="leaf-type" class="form-check-input" id="leaf-2" autocomplete="off">
                                                 <label class="btn form-check-label" for="leaf-2">
                                                     <img src="images/leaf/leaf-2.png" alt="">
@@ -293,7 +393,7 @@ include_once('sections/layouts/header.php')
                                                     <span class="btn" data-action="increase">+</span>
                                                 </div>
                                             </div>
-                                            <div class="stain">
+                                            <div class="stack">
                                                 <input type="checkbox" name="leaf-type" class="form-check-input" id="leaf-3" autocomplete="off">
                                                 <label class="btn form-check-label" for="leaf-3">
                                                     <img src="images/leaf/leaf-3.png" alt="">
@@ -364,13 +464,23 @@ include_once('sections/layouts/header.php')
                                             <i class="fa-solid fa-circle-info"></i>
                                             <p>Please note that the samples shown may not appear the same on all computer monitors. Please click here to request samples.</p>
                                         </div>
-                                        <div class="row stack-tweleve">
+                                        <div class="row stack-area stack-tweleve">
                                             <?php 
-                                                for($i=1;$i<=36;$i++){
+                                                for($i=21;$i<=56;$i++){
                                             ?>
-                                            <div class="col-md-1 stack">
-                                                <img src="images/fabric/thumb/fabric.png" alt="">
-                                                <p><strong>Medium OCS-110 </strong></p>
+                                            <div class="stack">
+                                                <input type="radio" name="stain-type" class="btn-check" id="stain-<?php echo $i; ?>" autocomplete="off">
+                                                <label class="btn" for="stain-<?php echo $i; ?>">
+                                                    <figure class="figure">
+                                                        <img src="images/fabric/thumb/fabric.png" alt="">
+                                                        <div class="overlay">
+                                                            <a class="icon" href="#">
+                                                                <i class="fa fa-magnifying-glass"></i>
+                                                            </a>
+                                                        </div>
+                                                    </figure>
+                                                    <span><strong>Medium OCS-110</strong></span>
+                                                </label>
                                             </div>
                                             <?php } ?>
                                         </div>
