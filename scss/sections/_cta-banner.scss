@@ -11,6 +11,9 @@
             color:$white;
             .btn{
                 box-shadow: 0px 12px 48px rgba(0, 0, 0, 0.14);
+                @include from-pc{
+                    padding:$m-15 $m-50;
+                }
             }
         }
         h2,h3,h4,h5,p,a{

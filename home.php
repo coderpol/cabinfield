@@ -177,7 +177,7 @@ include_once('sections/layouts/header.php')
         <div class="row">
             <section class="col-md-12 banner home-cta">
                 <h4>You love beautiful, natural wood. Get inspiration, product news, and promotions to your inbox, so you can eep checking those items off your whishlist.</h4>
-                <a href="home.php" class="btn btn-blue btn-large">Sign Up for Cabinfield treasures</a>
+                <a href="home.php" class="btn btn-blue">Sign Up for Cabinfield treasures</a>
             </section>
         </div>
     </div>
