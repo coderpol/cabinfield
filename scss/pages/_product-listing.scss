@@ -27,6 +27,9 @@
         .filter-buttons{
             display:flex;
             justify-content: flex-end;
+            #filter-toggle{
+                cursor: pointer;
+            }
         }
     }
     .listed-product{

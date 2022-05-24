@@ -1,5 +1,5 @@
 <?php 
-$page_title="Product Lisitng - V1"; // Dynamic page title
+$page_title="List of pre-built products - V1"; // Dynamic page title
 
 // include header
 include_once('sections/layouts/header.php') 

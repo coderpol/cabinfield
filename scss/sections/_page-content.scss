@@ -340,6 +340,7 @@
 
 .shopping-cart-section{
     margin-bottom:$m-70;
+    
     @include upto-phone{
         margin-bottom: $m-20;
     }
@@ -351,6 +352,9 @@
         padding:$m-40 0;
         @include from-pc{
             margin-right:$m-20;
+            .action{
+                padding-right:0;
+            }
         }
         @include upto-phone{
             img{

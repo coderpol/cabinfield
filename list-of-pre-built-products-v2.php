@@ -1,5 +1,5 @@
 <?php 
-$page_title="Product Lisitng - V2"; // Dynamic page title
+$page_title="List of pre-built products - V2"; // Dynamic page title
 
 // include header
 include_once('sections/layouts/header.php') 
@@ -146,7 +146,7 @@ include_once('sections/layouts/header.php')
             <!-- single product  -->
             <div class="col-md-4 product">
                 <figure>
-                    <img src="images/products/listing/product-1.png" alt="">
+                    <img src="images/products/listing/product-7.png" alt="">
                 </figure>
                 <h5 class="title"><a href="product.php">Franklin Amish File Cabinet</a></h5>
                 <p class="details">Product No. FGFH1128</p>
@@ -160,7 +160,7 @@ include_once('sections/layouts/header.php')
             <!-- single product  -->
             <div class="col-md-4 product">
                 <figure>
-                    <img src="images/products/listing/product-2.png" alt="">
+                    <img src="images/products/listing/product-4.png" alt="">
                 </figure>
                 <h5 class="title"><a href="product.php">Charleston Amish File Cabinet</a></h5>
                 <p class="details">Product No. FGFH1128</p>
