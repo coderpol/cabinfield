@@ -22,7 +22,7 @@
                                     <h4>Bedrooms</h4>
                                     <ul class="submenu">
                                         <li><a href="bedroom-landing.php">Bedrroms Landing</a></li>
-                                        <li><a href="collection-">Collection Landing</a></li>
+                                        <li><a href="collection-landing.php">Collection Landing</a></li>
                                         <li><a href="product-listing.php">Product Listing</a></li>
                                     </ul>
                                 </div>
@@ -31,7 +31,7 @@
                                     <ul class="submenu">
                                         <li><a href="style-landing.php">Style Landing</a></li>
                                         <li><a href="wood-sample.php">Wood Samples</a></li>
-                                        <li><a href="list-of-pre-built-products-v1.php">Lis of products</a></li>
+                                        <li><a href="list-of-pre-built-products-v1.php">List of products</a></li>
                                     </ul>
                                 </div>
                                 <div class="category">
@@ -39,7 +39,7 @@
                                     <ul class="submenu">
                                         <li><a href="fabric-sample.php">Fabric Sample</a></li>
                                         <li><a href="wood-sample.php">Wood Samples</a></li>
-                                        <li><a href="list-of-pre-built-products-v1.php">Lis of products</a></li>
+                                        <li><a href="list-of-pre-built-products-v1.php">List of products</a></li>
                                     </ul>
                                 </div>
                                 <div class="category">

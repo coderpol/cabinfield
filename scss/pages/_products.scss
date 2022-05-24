@@ -230,6 +230,7 @@
             background: $white;
             color:$blue-darkest;
             border: 1px solid rgba($black,0.12);
+            @include font($font-14,$line-18,$font-medium);
             span{
                 color:$blue;
             }
@@ -258,6 +259,8 @@
         padding-left:$m-50;
         position:relative;
         color:#424C5B;
+        margin-bottom: 1rem;
+        border: 1px solid transparent;
         @include rounded($m-10);
         margin-top:$m-20;
         i{
@@ -281,6 +284,8 @@
         .stack{
             flex-basis: 14.285%;
             position: relative;
+            padding-left:0;
+            padding-right:0;
             span{
                 margin-top:$m-10;
             }
@@ -399,7 +404,7 @@
             }
             input[type=checkbox]{
                 position: absolute;
-                bottom: 100px;
+                bottom: 87px;
                 left: calc(50% - 12px);
                 margin:0;
             }

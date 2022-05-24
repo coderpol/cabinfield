@@ -1,3 +1,12 @@
+// import bootstrap first
+@import 'bootstrap/bootstrap';
+
+// include font awesome
+@import 'fa/regular';
+@import 'fa/solid';
+@import 'fa/fontawesome';
+
+// This is custom css
 // base scss
 @import 'base/variables';
 @import 'base/mixin';

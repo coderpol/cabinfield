@@ -72,6 +72,10 @@
     .action-area{
         text-align: center;
         margin-top:$m-100;
+        margin-bottom:$m-40;
+        @include upto-tablet{
+            margin-top:$m-30;
+        }
         .btn{
             @include font($font-16,160%,$font-bold);
         }
