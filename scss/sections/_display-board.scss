@@ -38,7 +38,9 @@
                     margin-bottom:2rem;
                 }
                 .btn{
-                    margin-top:$m-30;
+                    @include from-pc{
+                        margin-top:$m-30;
+                    }
                     box-shadow: 0 $m-10 $m-10 rgb($black, 0.1);
                 }
             }
@@ -142,14 +144,12 @@
                 display:block;
                 text-align: center;
                 @include upto-phone{
-                    margin-bottom:$m-50;
+                    margin-bottom:$m-80;
                     &:last-child{
                         margin-bottom:0;
                     }
                 }
                 .display-text{
-                    padding-left:20px;
-                    margin-top:20px;
                     float:none;
                     width:100%;
                     text-align: center;
@@ -163,11 +163,8 @@
                 }
                 &:nth-child(2n+2){
                     .display-text{ 
-                        padding-left:20px;
-                        margin-top:20px;
-                        @include upto-phone{
-                            padding-left:0px;
-                        }
+                        padding:0px;
+                        padding-top:20px;
                     }
                     .display-image{
                         @include upto-phone{

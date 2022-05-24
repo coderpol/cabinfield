@@ -2075,9 +2075,13 @@ h4 {
   margin-bottom: 2rem;
 }
 .display-board .display-area .display .display-text .btn {
-  margin-top: 30px;
   -webkit-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
           box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+@media only screen and (min-width: 1200px) {
+  .display-board .display-area .display .display-text .btn {
+    margin-top: 30px;
+  }
 }
 .display-board .display-area .display:nth-child(2n+2) .display-text {
   padding-right: 6%;
@@ -2171,7 +2175,7 @@ h4 {
 }
 @media only screen and (max-width: 991px) and (max-width: 767px) {
   .display-board .display-area .display {
-    margin-bottom: 50px;
+    margin-bottom: 80px;
   }
   .display-board .display-area .display:last-child {
     margin-bottom: 0;
@@ -2179,8 +2183,6 @@ h4 {
 }
 @media only screen and (max-width: 991px) {
   .display-board .display-area .display .display-text {
-    padding-left: 20px;
-    margin-top: 20px;
     float: none;
     width: 100%;
     text-align: center;
@@ -2199,13 +2201,8 @@ h4 {
 }
 @media only screen and (max-width: 991px) {
   .display-board .display-area .display:nth-child(2n+2) .display-text {
-    padding-left: 20px;
-    margin-top: 20px;
-  }
-}
-@media only screen and (max-width: 991px) and (max-width: 767px) {
-  .display-board .display-area .display:nth-child(2n+2) .display-text {
-    padding-left: 0px;
+    padding: 0px;
+    padding-top: 20px;
   }
 }
 @media only screen and (max-width: 991px) and (max-width: 767px) {
