@@ -27,7 +27,7 @@ include_once('sections/layouts/header.php')
 <div class="section page-heading-section clearfix">
     <div class="container">
         <div class="row page-headline">
-            <div class="col-md-8 col-12 section-title text-start">
+            <div class="col-md-8 col-12 section-title">
                 <h2><span>Mission</span> Bedroom Stykes</h2>
             </div>
             <div class="col-md-4 col-12 button-area">

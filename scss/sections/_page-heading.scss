@@ -2,6 +2,10 @@
     .page-headline{
         .section-title{
             text-align:left;
+            @include upto-phone{
+                text-align: center;
+                margin-top:$m-40;
+            }
             h2,h3,h4{
                 @include font($font-36,120%,$font-bold);
             }
@@ -20,6 +24,9 @@
         .head{
             @include font($font-24,$line-31,$font-bold);
             color:$blue-darkest;
+            @include upto-phone{
+                text-align: center;
+            }
         }
         p{
             color:$gray-dark-3;
