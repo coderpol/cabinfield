@@ -50,7 +50,7 @@ include_once('sections/layouts/header.php')
     <div class="container">
         <div class="row border-bottom">
             <!-- section title  -->
-            <header class="col-md-12 section-title smaller">
+            <header class="col-md-12 section-title small">
                 <h3>Shop by Furniture Collection</h3>
             </header>
             <!-- section title ends  -->
@@ -137,7 +137,7 @@ include_once('sections/layouts/header.php')
         </div>
         <div class="row">
             <!-- section title  -->
-            <header class="col-md-12 section-title smaller ">
+            <header class="col-md-12 section-title small">
                 <h3>Shop by Furniture Piece</h3>
             </header>
             <!-- section title  -->
