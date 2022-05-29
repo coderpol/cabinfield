@@ -194,6 +194,8 @@
 
 @include upto-tablet{
     .navigation-area{
+        background:#fff;
+        box-shadow: 0px 6px 20px 10px rgb(98 117 144 / 14%);
         padding:0;
         .toogle-button-area{
             display:block;

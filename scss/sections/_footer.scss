@@ -147,6 +147,7 @@
                     text-align:left;
                     a{
                         color:$blue-darkest;
+                        font-weight: 500;
                     }
                     p{
                         color:$gray-dark-3;
@@ -158,7 +159,7 @@
                 text-align:right;
                 margin:$m-20 auto;
                 img{
-                    max-width:100px;
+                    max-width:120px;
                 }
             }
             .footer-links{
@@ -172,6 +173,15 @@
                             display:block;
                             padding:$m-10 0;
                             color:#3A4555;
+                            font-weight: 500;
+                        }
+                        
+                    }
+                }
+                &.large{
+                    li{
+                        &:last-child{
+                            border-bottom:0;
                         }
                     }
                 }
