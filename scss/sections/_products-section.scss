@@ -10,13 +10,26 @@
             align-content: space-around;
             .product{
                 flex-basis:48%;
-                margin-bottom:$m-50;
+                margin-bottom:$m-30;
+                @include upto-phone{
+                    margin-bottom:$m-50;
+                }
+                a{
+                    display: block;
+                }
                 img{
                     margin-bottom:$m-25;
+                    @include upto-phone{
+                        margin-bottom:$m-35;
+                    }
                 }
                 h3,h4{
                     @include font($font-24,$line-31,$font-bold);
                     margin-bottom:$m-5;
+                    @include upto-phone{
+                        text-align:center;
+                        margin-bottom:15px;
+                    }
                     a{
                         color:$blue-darkest;
                     }

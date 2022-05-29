@@ -26,6 +26,8 @@
             color:$blue-darkest;
             @include upto-phone{
                 text-align: center;
+                padding: 0 10vw;
+                margin-bottom:15px;
             }
         }
         p{
