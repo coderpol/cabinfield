@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/front-page.css">
 </head>
-<body class="font-page">
+<body class="front-page">
     <div class="container">
         <div class="row">
             <div class="header">
@@ -40,7 +40,7 @@
                     <li class="done"><a href="warranty.php">Warranty</a></li>
                     <li class="done"><a href="testimonials.php">Testimonials</a></li>
                     <li class="done"><a href="faq.php">FAQ</a></li>
-                    <li class="check"><a href="about.php">About</a></li>
+                    <li class="done"><a href="about.php">About</a></li>
                     <li class="check"><a href="wood-sample.php">Wood Sample</a></li>
                     <li class="check"><a href="order-sample.php">Order Sample</a></li>
                     <li class="check"><a href="fabric-sample.php">Fabric Sample</a></li>

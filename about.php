@@ -8,7 +8,7 @@ include_once('sections/layouts/header.php')
 
 
 <!-- header banner section starts  -->
-<div class="header-banner clearfix mb-5" style="background-image: url('images/header-banner/banner-about.png');">
+<div class="header-banner clearfix mb-5" style="background-image: url('images/header-banner/banner-about.png'); background-position: center right;">
     <div class="dark-overlay">
         <div class="container">
             <div class="row">
@@ -87,7 +87,7 @@ include_once('sections/layouts/header.php')
 </div>
 
 <!-- choice points with icons area starts  -->
-<div class="section mb-5 choice-points smaller with-counter clearfix">
+<div class="section mb-4 choice-points smaller with-counter clearfix">
     <div class="container">
         <div class="row">
             <header class="col-md-12 section-title text-center">
@@ -151,7 +151,7 @@ include_once('sections/layouts/header.php')
             </div>
             
             <div class="col-md-12 text-center action-area mb-5">
-                <a href="product-listing.php" class="btn btn-primary btn-large shadow">Shop Now</a>
+                <a href="product-listing.php" class="btn btn-primary btn-large shadow mobile-full">Shop Now</a>
             </div>
         </div>
     </div>

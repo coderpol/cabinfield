@@ -430,100 +430,100 @@ a:hover {
   }
 }
 
-.font-page {
+.front-page {
   background: #E5E5E5;
   padding: 20px;
 }
-.font-page .container {
+.front-page .container {
   width: 100%;
   max-width: 600px;
   margin: 0 auto;
 }
-.font-page .container .header {
+.front-page .container .header {
   padding: 20px;
   margin-top: 30px;
   text-align: center;
   margin-bottom: 25px;
 }
-.font-page .container .header h1 {
+.front-page .container .header h1 {
   font-size: 2em;
   font-weight: 700;
   margin-bottom: 0;
   text-transform: uppercase;
   color: #B3522C;
 }
-.font-page .container .header h1 span {
+.front-page .container .header h1 span {
   color: #121212;
   text-transform: capitalize;
 }
-.font-page .container .content {
+.front-page .container .content {
   border: 1px solid #121212;
   padding: 20px;
   background: #fff;
   margin-bottom: 100px;
 }
-.font-page .container .content .page-list {
+.front-page .container .content .page-list {
   list-style-type: decimal;
   list-style-position: outside;
   padding-left: 20px;
 }
-.font-page .container .content .page-list li {
+.front-page .container .content .page-list li {
   font-size: 16px;
   line-height: 26px;
   font-weight: 400;
   margin-bottom: 10px;
 }
-.font-page .container .content .page-list li a {
+.front-page .container .content .page-list li a {
   font-weight: 500;
   padding: 5px;
   display: inline-block;
 }
-.font-page .container .content .page-list li:after {
+.front-page .container .content .page-list li:after {
   margin-left: 15px;
   color: inherit;
   font-size: 0.8em;
 }
-.font-page .container .content .page-list li.working:after {
+.front-page .container .content .page-list li.working:after {
   content: "(On Develop)";
 }
-.font-page .container .content .page-list li.working:after, .font-page .container .content .page-list li.working a {
+.front-page .container .content .page-list li.working:after, .front-page .container .content .page-list li.working a {
   color: #2b47b9;
 }
-.font-page .container .content .page-list li.review:after {
+.front-page .container .content .page-list li.review:after {
   content: "(On Review)";
 }
-.font-page .container .content .page-list li.review:after, .font-page .container .content .page-list li.review a {
+.front-page .container .content .page-list li.review:after, .front-page .container .content .page-list li.review a {
   color: #B3522C;
 }
-.font-page .container .content .page-list li.check {
+.front-page .container .content .page-list li.check {
   border: 1px solid #B3522C;
   background-color: rgba(179, 82, 44, 0.2);
 }
-.font-page .container .content .page-list li.check:after {
+.front-page .container .content .page-list li.check:after {
   content: "(Please check)";
 }
-.font-page .container .content .page-list li.check:after, .font-page .container .content .page-list li.check a {
+.front-page .container .content .page-list li.check:after, .front-page .container .content .page-list li.check a {
   color: #000;
 }
-.font-page .container .content .page-list li.done {
+.front-page .container .content .page-list li.done {
   border: 1px solid #031300;
   background-color: #167702;
 }
-.font-page .container .content .page-list li.done:after {
+.front-page .container .content .page-list li.done:after {
   content: "(Completed)";
 }
-.font-page .container .content .page-list li.done:after, .font-page .container .content .page-list li.done a {
+.front-page .container .content .page-list li.done:after, .front-page .container .content .page-list li.done a {
   color: #fff;
 }
-.font-page .container .content .page-list li.hold:after {
+.front-page .container .content .page-list li.hold:after {
   content: "(On Hold)";
 }
-.font-page .container .content .page-list li.hold:after, .font-page .container .content .page-list li.hold a {
+.front-page .container .content .page-list li.hold:after, .front-page .container .content .page-list li.hold a {
   color: #ac00c3;
 }
-.font-page .container .content .page-list li.next:after {
+.front-page .container .content .page-list li.next:after {
   content: "(Next in routine)";
 }
-.font-page .container .content .page-list li.next:after, .font-page .container .content .page-list li.next a {
+.front-page .container .content .page-list li.next:after, .front-page .container .content .page-list li.next a {
   color: #ff0000;
 }

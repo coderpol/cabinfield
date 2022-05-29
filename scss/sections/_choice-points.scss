@@ -114,6 +114,10 @@
         }
     }
     &.with-counter{
+        @include upto-phone{
+            margin-bottom:0 !important;
+            padding-bottom:0;
+        }
         .points-area{
             @include upto-phone{
                 grid-column-gap: 40px;
@@ -122,6 +126,7 @@
                 position: relative;
                 @include upto-phone{
                     text-align:center;
+                    padding:0 $m-50;
                     &+.point{
                         margin-top:$m-80;
                     }
