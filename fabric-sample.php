@@ -26,7 +26,7 @@ include_once('sections/layouts/header.php')
     <div class="container">
         <!-- the page heading starts -->
         <div class="row page-headline mb-5">
-            <div class="col-md-12 col-12 section-title medium">
+            <div class="col-md-12 col-12 mt-3 section-title medium">
                 <h2><span>Fabric</span> Samples</h2>
                 <p>Enhance your furniture with patterns, textures, and sumptuous softness. Discover environmentally friendly choices, designed with you and your lifestyle in mind. Order samples so you can run your fingers across it, experience the feel, and better envision the final product.</p>
             </div>
@@ -41,98 +41,100 @@ include_once('sections/layouts/header.php')
         </div>
         <!-- the page subheading ends -->
         
-        <!-- the display-area starts  -->
-        <!-- the even one will be auto stylize -->
-        <div class="row display-area">
-            <!-- single display -->
-            <div class="display clearfix">
-                <figure class="col-md-6 col-12 display-image">
-                    <img src="images/fabric/fabric-1.png" alt="">
-                </figure>
-                <div class="col-md-6 col-12 display-text">
-                    <div class="counter">
-                        <span class="rounded-circle align-middle">1</span>
+        <div class="row">
+            <!-- the display-area starts  -->
+            <!-- the even one will be auto stylize -->
+            <div class="display-area">
+                <!-- single display -->
+                <div class="display clearfix">
+                    <figure class="col-md-6 col-12 display-image">
+                        <img src="images/fabric/fabric-1.png" alt="">
+                    </figure>
+                    <div class="col-md-6 col-12 display-text">
+                        <div class="counter">
+                            <span class="rounded-circle align-middle">1</span>
+                        </div>
+                        <p>Choose the fabric type and color you think might work for you. You can view the details of the fabric types in the chart below.</p>
                     </div>
-                    <p>Choose the fabric type and color you think might work for you. You can view the details of the fabric types in the chart below.</p>
                 </div>
-            </div>
-            <!-- single display ends -->
-            
-            <!-- single display starts -->
-            <div class="display clearfix">
-                <figure class="col-md-6 col-12 display-image">
-                    <img src="images/fabric/fabric-2.png" alt="">
-                </figure>
-                <div class="col-md-6 col-12 display-text">
-                    <div class="counter">
-                        <span class="rounded-circle align-middle">2</span>
+                <!-- single display ends -->
+                
+                <!-- single display starts -->
+                <div class="display clearfix">
+                    <figure class="col-md-6 col-12 display-image">
+                        <img src="images/fabric/fabric-2.png" alt="">
+                    </figure>
+                    <div class="col-md-6 col-12 display-text">
+                        <div class="counter">
+                            <span class="rounded-circle align-middle">2</span>
+                        </div>
+                        <p>Select up to six samples to be shipped directly to you, free of charge. </p>
                     </div>
-                    <p>Select up to six samples to be shipped directly to you, free of charge. </p>
                 </div>
-            </div>
-            <!-- single display ends -->
-            
-            <!-- single display starts -->
-            <div class="display clearfix">
-                <figure class="col-md-6 col-12 display-image">
-                    <img src="images/fabric/fabric-3.png" alt="">
-                </figure>
-                <div class="col-md-6 col-12 display-text">
-                    <div class="counter">
-                        <span class="rounded-circle align-middle">3</span>
+                <!-- single display ends -->
+                
+                <!-- single display starts -->
+                <div class="display clearfix">
+                    <figure class="col-md-6 col-12 display-image">
+                        <img src="images/fabric/fabric-3.png" alt="">
+                    </figure>
+                    <div class="col-md-6 col-12 display-text">
+                        <div class="counter">
+                            <span class="rounded-circle align-middle">3</span>
+                        </div>
+                        <p>If you are ordering wood samples too, please make a note of that so we can send them together.</p>
                     </div>
-                    <p>If you are ordering wood samples too, please make a note of that so we can send them together.</p>
                 </div>
-            </div>
-            <!-- single display ends -->
-            
-            <!-- single display starts -->
-            <div class="display clearfix">
-                <figure class="col-md-6 col-12 display-image">
-                    <img src="images/fabric/fabric-4.png" alt="">
-                </figure>
-                <div class="col-md-6 col-12 display-text">
-                    <div class="counter">
-                        <span class="rounded-circle align-middle">4</span>
+                <!-- single display ends -->
+                
+                <!-- single display starts -->
+                <div class="display clearfix">
+                    <figure class="col-md-6 col-12 display-image">
+                        <img src="images/fabric/fabric-4.png" alt="">
+                    </figure>
+                    <div class="col-md-6 col-12 display-text">
+                        <div class="counter">
+                            <span class="rounded-circle align-middle">4</span>
+                        </div>
+                        <p>Check out your samples and see which one is most beautiful to you.</p>
                     </div>
-                    <p>Check out your samples and see which one is most beautiful to you.</p>
                 </div>
-            </div>
-            <!-- single display ends -->
-            
-            <!-- single display starts -->
-            <div class="display clearfix">
-                <figure class="col-md-6 col-12 display-image">
-                    <img src="images/fabric/fabric-5.png" alt="">
-                </figure>
-                <div class="col-md-6 col-12 display-text">
-                    <div class="counter">
-                        <span class="rounded-circle align-middle">5</span>
+                <!-- single display ends -->
+                
+                <!-- single display starts -->
+                <div class="display clearfix">
+                    <figure class="col-md-6 col-12 display-image">
+                        <img src="images/fabric/fabric-5.png" alt="">
+                    </figure>
+                    <div class="col-md-6 col-12 display-text">
+                        <div class="counter">
+                            <span class="rounded-circle align-middle">5</span>
+                        </div>
+                        <p>Place your order and return your samples.</p>
                     </div>
-                    <p>Place your order and return your samples.</p>
                 </div>
-            </div>
-            <!-- single display ends -->
-            
-            <!-- single display starts -->
-            <div class="display clearfix">
-                <figure class="col-md-6 col-12 display-image">
-                    <img src="images/fabric/fabric-6.png" alt="">
-                </figure>
-                <div class="col-md-6 col-12 display-text">
-                    <div class="counter">
-                        <span class="rounded-circle align-middle">6</span>
+                <!-- single display ends -->
+                
+                <!-- single display starts -->
+                <div class="display clearfix">
+                    <figure class="col-md-6 col-12 display-image">
+                        <img src="images/fabric/fabric-6.png" alt="">
+                    </figure>
+                    <div class="col-md-6 col-12 display-text">
+                        <div class="counter">
+                            <span class="rounded-circle align-middle">6</span>
+                        </div>
+                        <p>The furniture will be expertly crafted, upholstered to your specifications, and carefully delivered to your home.</p>
                     </div>
-                    <p>The furniture will be expertly crafted, upholstered to your specifications, and carefully delivered to your home.</p>
                 </div>
+                <!-- single display ends -->
             </div>
-            <!-- single display ends -->
         </div>
         
         <!-- action button  -->
         <div class="row">
             <div class="button-area col-md-12 text-center">
-                <a href="#" class="btn btn-primary btn-large">Oder Sample Now!</a>
+                <a href="#" class="btn btn-primary btn-large mobile-full">Oder Sample Now!</a>
             </div>
         </div>
     </div>
@@ -190,9 +192,19 @@ include_once('sections/layouts/header.php')
                 </div>
             </div>
             <!-- single popular item ends -->
-            
+        </div>
+        
+        <!-- 
+        the .adjust-height class is just to make the design. 
+        If you want all the box same height, 
+        you might move all .popular-sample item into one .row.popular-area
+        or
+        remove 2 lines of code which are adjucent to this comment (1 line from top + bottom)
+         -->
+        
+        <div class="row popular-area adjust-height">
             <!-- single popular item starts -->
-            <div class="col-md-3 col-12 popular-sample">
+            <div class="col-md-3 col-12 popular-sample adjust-height">
                 <img src="images/fabric/sample-5.png" alt="">
                 <div class="text">
                     <h4>RevolutionⓇ Performance Fabric</h4>
@@ -202,7 +214,7 @@ include_once('sections/layouts/header.php')
             <!-- single popular item ends -->
             
             <!-- single popular item starts -->
-            <div class="col-md-3 col-12 popular-sample">
+            <div class="col-md-3 col-12 popular-sample adjust-height little">
                 <img src="images/fabric/sample-6.png" alt="">
                 <div class="text">
                     <h4>Ultraleather</h4>
@@ -222,7 +234,7 @@ include_once('sections/layouts/header.php')
             <!-- single popular item ends -->
             
             <!-- single popular item starts -->
-            <div class="col-md-3 col-12 popular-sample">
+            <div class="col-md-3 col-12 popular-sample adjust-height">
                 <img src="images/fabric/sample-8.png" alt="">
                 <div class="text">
                     <h4>Faux Leather</h4>

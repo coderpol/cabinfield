@@ -84,6 +84,9 @@
                     padding-bottom:$m-30;
                     margin-bottom:$m-30;
                     margin-top:$m-30;
+                    &:first-child{
+                        margin-top:0;
+                    }
                 }
                 &:last-child{
                     border-bottom:0;

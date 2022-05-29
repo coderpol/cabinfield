@@ -29,8 +29,12 @@
                     }
                     p{
                         @include font($font-16,$line-26);
+                        color:$gray-dark-3;
                     }
                 }
+            }
+            &.adjust-height{
+                align-items: flex-start;
             }
         }
     }

@@ -26,7 +26,7 @@ include_once('sections/layouts/header.php')
     <div class="container">
         <!-- page heading, medium size  -->
         <div class="row page-headline mb-5">
-            <div class="col-md-12 col-12 section-title medium">
+            <div class="col-md-12 col-12 mt-3 section-title medium">
                 <h2><span>Order</span> Sample</h2>
                 <p>Choosing the perfect furniture to complement your space can be stressful.</p>
                 <p>Leave the stress and guesswork behind. Make a well-informed purchase by ordering free samples so you can better visualize your unique, final product. Feel the authenticity, watch it take the light, and imagine it as part of your space.</p>
@@ -165,50 +165,50 @@ include_once('sections/layouts/header.php')
                 </div>
                 <div class="col-md-12">
                     <div class="row form-line">
-                        <div class="col">
+                        <div class="col-md-6 col-12">
                             <label for="first-name" class="form-label">Firstname</label>
                             <input type="text" class="form-control" id="first-name" aria-label="Firstname" required>
                         </div>
-                        <div class="col">
+                        <div class="col-md-6 col-12">
                             <label for="last-name" class="form-label">Lastname</label>
                             <input type="text" class="form-control" id="last-name" aria-label="Lastname" required>
                         </div>
                     </div>
                     
                     <div class="row form-line">
-                        <div class="col">
+                        <div class="col-md-6 col-12">
                             <label for="address" class="form-label">Address</label>
                             <input type="text" class="form-control" id="address" aria-label="Address" required>
                         </div>
-                        <div class="col">
+                        <div class="col-md-6 col-12">
                             <label for="city" class="form-label">City</label>
                             <input type="text" class="form-control" id="city" aria-label="City" required>
                         </div>
                     </div>
                     
                     <div class="row form-line">
-                        <div class="col">
+                        <div class="col-6">
                             <label for="state" class="form-label">State</label>
                             <input type="text" class="form-control" id="state" aria-label="State" required>
                         </div>
-                        <div class="col">
+                        <div class="col-6">
                             <label for="zip" class="form-label">Zip</label>
                             <input type="text" class="form-control" id="zip" aria-label="Zip" required>
                         </div>
                     </div>
                     <div class="row form-line">
-                        <div class="col">
+                        <div class="col-md-6 col-12">
                             <label for="email" class="form-label">Email</label>
                             <input type="email" class="form-control" id="email" aria-label="State" required>
                         </div>
                     </div>
                     <div class="row form-line">
-                        <div class="col">
+                        <div class="col-12">
                             <label for="notes" class="form-label">Included Message</label>
                             <textarea class="form-control" id="notes" rows="5"></textarea>
                         </div>
                     </div>
-                    <button type="submit" class="btn btn-primary btn-wide">Order Sample</button>
+                    <button type="submit" class="btn btn-primary btn-wide mobile-full">Order Sample</button>
                 </div>
             </div>
             <!-- shipping address input area ends -->
