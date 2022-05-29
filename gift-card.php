@@ -98,7 +98,7 @@ include_once('sections/layouts/header.php')
     <div class="container">
         <div class="row work-points-section">
             <!-- .title  -->
-            <div class="col-md-12 text-center section-title small">
+            <div class="col-md-12 text-center section-title small mb-5">
                 <h3>How it Works</h3>
             </div>
             <!-- .title ends -->
