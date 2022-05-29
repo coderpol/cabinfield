@@ -137,6 +137,7 @@
 @include upto-tablet{
     .display-board{
         .display-area{
+            padding: 20px;
             .display{
                 display:block;
                 text-align: center;
