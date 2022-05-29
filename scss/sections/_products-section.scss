@@ -76,6 +76,9 @@
                             @include font($font-20,$line-26,$font-bold);
                             color:$blue-darkest;
                             margin-bottom:$m-20;
+                            @include upto-phone{
+                                text-align:center;
+                            }
                         }
                         .features{
                             color:$gray-dark-3;
@@ -87,7 +90,13 @@
                             }
                         }
                         .btn{
-                            
+                            padding:15px;
+                            box-shadow: 0 $m-10 $m-15 $m-5 rgba($black,0.1);
+                            @include upto-phone{
+                                display: block;
+                                width:80%;
+                                margin:$m-45 auto 0;
+                            }
                         }
                     }
                     .thumb-area{
@@ -96,6 +105,7 @@
                         justify-content: space-between;
                         list-style-type: none;
                         padding-left:0;
+                        margin-bottom:0;
                         li{
                             flex-basis: 30%;
                         }

@@ -1,5 +1,8 @@
 .page-heading-section{
     .page-headline{
+        @include upto-phone{
+            padding:0 20px;
+        }
         .section-title{
             text-align:left;
             @include upto-phone{
@@ -15,6 +18,9 @@
             text-align:right;
             .btn{
                 box-shadow: 0 $m-10 $m-15 $m-5 rgba($black,0.1);
+                @include upto-phone{
+                    padding:$m-15 $m-30;
+                }
             }
         }
     }
