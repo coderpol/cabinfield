@@ -14,6 +14,9 @@
             position: absolute;
             left: -150px;
             bottom: 0;
+            @include upto-phone{
+                content:none;
+            }
         }
         h4,h5{
             margin-bottom:0;

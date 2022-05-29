@@ -26,7 +26,7 @@ include_once('sections/layouts/header.php')
     <div class="container">
         <!-- page heading  -->
         <div class="row">
-            <div class="col-md-12 mb-3 section-title small">
+            <div class="col-md-12 mb-3 section-title small my-4">
                 <h3>Contact Us</h3>
             </div>
         </div>
@@ -130,11 +130,13 @@ include_once('sections/layouts/header.php')
                             <div class="row form-line">
                                 <div class="col-md-12">
                                     <label for="message" class="form-label">Message</label>
-                                    <textarea class="form-control" id="message" rows="9"></textarea>
+                                    <textarea class="form-control" id="message" rows="5"></textarea>
                                 </div>
                             </div>
-                            <div class="row form-line float-end">
-                                <button type="submit" class="btn btn-primary btn-large">Submit</button>
+                            <div class="row form-line">
+                                <div class="col-md-12">
+                                    <button type="submit" class="fright btn btn-primary btn-large shadow mobile-full">Submit</button>
+                                </div>
                             </div>
                         </form>
                     </div>
