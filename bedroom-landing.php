@@ -28,16 +28,10 @@ include_once('sections/layouts/header.php')
 <div class="section page-heading-section clearfix">
     <div class="container">
         <div class="row page-headline">
-            <div class="col-md-8 col-12 section-title">
-                <h2><span>Bed Room</span> Collection</h2>
+            <div class="col-md-12 col-12 section-title">
+                <h2><span>Cabinfield</span> Bedroom Furniture</h2>
             </div>
-            <div class="col-md-4 col-12 button-area">
-                <a href="bedroom-landing.php" class="btn btn-primary">Shop by furniture Piece</a>
-            </div>
-        </div>
-        <div class="row heading-text">
-            <div class="col-md-12">
-                <h3 class="head">Cabinfield Bedroom Styles</h3>
+            <div class="col-md-12 heading-text">
                 <p>With simple, clean lines and contours, our Mission style Amish bedrooms highlight the natural beauty of the wood, combining with artisan craftsmanship for heirloom quality Amish bedroom furniture. Discover your dream bedroom set in this extensive collection, featuring Amish beds, headboards, chest of drawers, nightstands, armoires, blanket chests and more. American Craftsman elements enhance this collection with solid wood inlays, Mission slats, cut out accents, decorative corbels and Amish dressers with beveled mirrors.</p>
             </div>
         </div>
