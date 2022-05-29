@@ -230,11 +230,20 @@
                         width:100%;
                         grid-template-columns: repeat(2, 1fr) !important;
                         grid-row-gap: $m-10 !important;
+                        margin-bottom:$m-15;
                         .category{
                             margin-top:$m-10;
+                            .submenu{
+                                color:rgba($blue-darkest,60%) !important;
+                            }
+                            h4{
+                                @include font($font-14,$line-26,$font-medium);
+                            }
                             li{
                                 a{
-                                    font-size:$font-14;
+                                    @include font($font-14,$line-23);
+                                    color:rgba($blue-darkest,60%) !important;
+                                    margin-left: -5px;
                                 }
                             }
                         }

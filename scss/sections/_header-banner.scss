@@ -28,9 +28,9 @@
             margin-bottom: $m-25;
         }
         .btn{
-            // width:180px;
             padding:$m-15 $m-50;
-            @include font($font-16,$line-26);
+            @include font($font-16,$line-26,$font-medium);
+            color:$blue-darker-2;
         }
         p{
             @include font($font-16,$line-26);
@@ -43,12 +43,16 @@
 @include upto-pc{
     .header-banner{
         .banner-text{
-            margin:15vw 0;
+            margin: 8vw 0 10vw;
+            padding: 0 30px;
             .tagline{
-                font-size:$font-20;
+                @include font($font-18,160%,$font-medium);
             }
             .heading{
-                font-size:$font-30;
+                @include font(32px,130%,$font-bold);
+            }
+            .btn{
+                min-width: 60%;
             }
         }
     }

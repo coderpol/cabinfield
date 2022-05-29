@@ -7,7 +7,7 @@
         @include font($font-44,$line-57,$font-bold);
         margin-bottom:$m-20;
         @include upto-phone{
-            @include font($font-36,$line-47,$font-bold); 
+            @include font($font-32,$line-42,$font-bold); 
         }
     }
     &.medium{

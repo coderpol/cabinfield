@@ -17,7 +17,7 @@
             
             <div class="content">
                 <ol class="page-list">
-                    <li class="check"><a href="home.php">Homepage</a></li>
+                    <li class="done"><a href="home.php">Homepage</a></li>
                     <li class="check"><a href="fine-furniture.php">Fine Furniture</a></li>
                     <li class="check"><a href="style-landing.php">Style Landing</a></li>
                     <li class="check"><a href="collection-landing.php">Collection Landing</a></li>
