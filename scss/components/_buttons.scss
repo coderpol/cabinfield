@@ -64,9 +64,7 @@
         @include from-pc{
             margin-right: $m-15;
         }
-        @include upto-phone{
-            margin-bottom:$m-20;
-        }
+        
         .title{
             text-transform: uppercase;
             display: block;
@@ -81,6 +79,21 @@
         &:hover{
             .title{
                 color:$white;
+            }
+        }
+        @include upto-phone{
+            margin-bottom:$m-20;
+            border:0;
+            padding:0;
+            border-radius:0;
+            &:hover{
+                background:$white !important;
+                .title{
+                    color:$blue-darkest;
+                }
+                .details{
+                    color:$brand-color;
+                }
             }
         }
     }

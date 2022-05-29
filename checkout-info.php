@@ -25,7 +25,7 @@ include_once('sections/layouts/header.php')
     <div class="container border-bottom">
         <!-- page title  -->
         <div class="row">
-            <header class="col-md-12 section-title small">
+            <header class="col-md-12 section-title small mb-3">
                 <h3>Review</h3>
             </header>
         </div>
