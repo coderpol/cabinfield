@@ -5,7 +5,7 @@
     @include gradient(rgba(98, 117, 144,1), rgba(98, 117, 144,0),linear);
 }
 .dark-overlay{
-    background: rgba($blue-darkest,54%);
+    background: rgba($blue-darkest,20%);
 }
 .brand-gradient{
     @include gradient(#EBCCC0,#F9EFEC,linear);
@@ -32,7 +32,7 @@
     .blue-gradient{
         background:linear-gradient(90deg, rgba(98, 117, 144, 0.6) 0%, rgba(98, 117, 144, 0.3) 99.48%);
     }
-    .dark-overlay{
-        background: rgba($blue-darkest,20%);
-    }
+    // .dark-overlay{
+    //     background: rgba($blue-darkest,20%);
+    // }
 }

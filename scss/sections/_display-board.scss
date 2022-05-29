@@ -81,9 +81,9 @@
                 padding-bottom:$m-70;
                 margin-bottom:$m-70;
                 @include upto-phone{
-                    padding-bottom:$m-0;
-                    margin-bottom:$m-40;
-                    margin-top:$m-40;
+                    padding-bottom:$m-30;
+                    margin-bottom:$m-30;
+                    margin-top:$m-30;
                 }
                 &:last-child{
                     border-bottom:0;
@@ -92,6 +92,10 @@
                 }
             }
             .display-text{
+                @include upto-phone{
+                    margin-top:$m-25 !important;
+                    padding-top: 0 !important;
+                }
                 .counter{
                     display: inline-block;
                     text-align: center;
@@ -114,6 +118,7 @@
                     color:$gray-dark-3;
                     @include font($font-16,$line-26);
                 }
+                
             }
             .display-image{
                 img{

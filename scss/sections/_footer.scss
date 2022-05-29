@@ -71,7 +71,10 @@
                     align-items: center;
                 }
                 a{
-                    line-height:$font-24;
+                    line-height: $line-23;
+                    @include upto-phone{
+                        line-height:$line-18;
+                    }
                     i{
                         
                         // display:block;

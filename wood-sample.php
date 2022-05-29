@@ -28,7 +28,7 @@ include_once('sections/layouts/header.php')
     <div class="container">
         <!-- page heading starts  -->
         <div class="row page-headline">
-            <div class="col-md-12 col-12 section-title medium">
+            <div class="col-md-12 col-12 my-3 section-title medium">
                 <h2><span>Wood</span> Samples</h2>
                 <p>Choosing the perfect furniture to complement your space can be stressful.</p>
                 <p>Leave the stress and guesswork behind. Make a well-informed purchase by ordering free samples so you can better visualize your unique, final product. Feel the authenticity, watch it take the light, and imagine it as part of your space.</p>
@@ -44,95 +44,97 @@ include_once('sections/layouts/header.php')
         </div>
         <!-- .page sub heading ends -->
         
-        <!-- .display-area starts  -->
-        <div class="row display-area">
-            <!-- single display  -->
-            <div class="display clearfix">
-                <figure class="col-md-6 col-12 display-image">
-                    <img src="images/wood/wood-1.png" alt="">
-                </figure>
-                <div class="col-md-6 col-12 display-text">
-                    <div class="counter">
-                        <span class="rounded-circle align-middle">1</span>
+        <div class="row">
+            <!-- .display-area starts  -->
+            <div class="display-area">
+                <!-- single display  -->
+                <div class="display clearfix">
+                    <figure class="col-md-6 col-12 display-image">
+                        <img src="images/wood/wood-1.png" alt="">
+                    </figure>
+                    <div class="col-md-6 col-12 display-text">
+                        <div class="counter">
+                            <span class="rounded-circle align-middle">1</span>
+                        </div>
+                        <p>Choose one or two wood species you love. You can get a good idea of the wood species grain by looking at furniture pictured on our website. You can also view our chart of popular wood choices below.</p>
                     </div>
-                    <p>Choose one or two wood species you love. You can get a good idea of the wood species grain by looking at furniture pictured on our website. You can also view our chart of popular wood choices below.</p>
                 </div>
-            </div>
-            <!-- single display ends -->
-            
-            <!-- single display  -->
-            <div class="display clearfix">
-                <figure class="col-md-6 col-12 display-image">
-                    <img src="images/wood/wood-2.png" alt="">
-                </figure>
-                <div class="col-md-6 col-12 pt-5 display-text">
-                    <div class="counter">
-                        <span class="rounded-circle align-middle">2</span>
+                <!-- single display ends -->
+                
+                <!-- single display  -->
+                <div class="display clearfix">
+                    <figure class="col-md-6 col-12 display-image">
+                        <img src="images/wood/wood-2.png" alt="">
+                    </figure>
+                    <div class="col-md-6 col-12 pt-5 display-text">
+                        <div class="counter">
+                            <span class="rounded-circle align-middle">2</span>
+                        </div>
+                        <p>Choose five stain colors closest to the ones you are looking for. You can view our most popular stain choices below. Note that if you choose a rustic wood, the sample will be on a non-rustic version of the wood. The color will be the same but the rustic version will have knots and other natural imperfections in the wood.</p>
                     </div>
-                    <p>Choose five stain colors closest to the ones you are looking for. You can view our most popular stain choices below. Note that if you choose a rustic wood, the sample will be on a non-rustic version of the wood. The color will be the same but the rustic version will have knots and other natural imperfections in the wood.</p>
                 </div>
-            </div>
-            <!-- single display ends -->
-            
-            <!-- single display  -->
-            <div class="display clearfix">
-                <figure class="col-md-6 col-12 display-image">
-                    <img src="images/wood/wood-3.png" alt="">
-                </figure>
-                <div class="col-md-6 col-12 display-text">
-                    <div class="counter">
-                        <span class="rounded-circle align-middle">3</span>
+                <!-- single display ends -->
+                
+                <!-- single display  -->
+                <div class="display clearfix">
+                    <figure class="col-md-6 col-12 display-image">
+                        <img src="images/wood/wood-3.png" alt="">
+                    </figure>
+                    <div class="col-md-6 col-12 display-text">
+                        <div class="counter">
+                            <span class="rounded-circle align-middle">3</span>
+                        </div>
+                        <p>Select up to five samples to be shipped directly to you, free of charge.</p>
                     </div>
-                    <p>Select up to five samples to be shipped directly to you, free of charge.</p>
                 </div>
-            </div>
-            <!-- single display ends -->
-            
-            <!-- single display  -->
-            <div class="display clearfix">
-                <figure class="col-md-6 col-12 display-image">
-                    <img src="images/wood/wood-4.png" alt="">
-                </figure>
-                <div class="col-md-6 col-12 display-text">
-                    <div class="counter">
-                        <span class="rounded-circle align-middle">4</span>
+                <!-- single display ends -->
+                
+                <!-- single display  -->
+                <div class="display clearfix">
+                    <figure class="col-md-6 col-12 display-image">
+                        <img src="images/wood/wood-4.png" alt="">
+                    </figure>
+                    <div class="col-md-6 col-12 display-text">
+                        <div class="counter">
+                            <span class="rounded-circle align-middle">4</span>
+                        </div>
+                        <p>Look at your samples in the room you intend to put the furniture in and see which one works most beautifully with your room’s lighting and coloring.</p>
                     </div>
-                    <p>Look at your samples in the room you intend to put the furniture in and see which one works most beautifully with your room’s lighting and coloring.</p>
                 </div>
-            </div>
-            <!-- single display ends -->
-            
-            <!-- single display  -->
-            <div class="display clearfix">
-                <figure class="col-md-6 col-12 display-image">
-                    <img src="images/wood/wood-5.png" alt="">
-                </figure>
-                <div class="col-md-6 col-12 display-text">
-                    <div class="counter">
-                        <span class="rounded-circle align-middle">5</span>
+                <!-- single display ends -->
+                
+                <!-- single display  -->
+                <div class="display clearfix">
+                    <figure class="col-md-6 col-12 display-image">
+                        <img src="images/wood/wood-5.png" alt="">
+                    </figure>
+                    <div class="col-md-6 col-12 display-text">
+                        <div class="counter">
+                            <span class="rounded-circle align-middle">5</span>
+                        </div>
+                        <p>Place your order and return your samples.</p>
                     </div>
-                    <p>Place your order and return your samples.</p>
                 </div>
-            </div>
-            <!-- single display ends -->
-            
-            <!-- single display  -->
-            <div class="display clearfix">
-                <figure class="col-md-6 col-12 display-image">
-                    <img src="images/wood/wood-6.png" alt="">
-                </figure>
-                <div class="col-md-6 col-12 display-text">
-                    <div class="counter">
-                        <span class="rounded-circle align-middle">6</span>
+                <!-- single display ends -->
+                
+                <!-- single display  -->
+                <div class="display clearfix">
+                    <figure class="col-md-6 col-12 display-image">
+                        <img src="images/wood/wood-6.png" alt="">
+                    </figure>
+                    <div class="col-md-6 col-12 display-text">
+                        <div class="counter">
+                            <span class="rounded-circle align-middle">6</span>
+                        </div>
+                        <p>The furniture will be expertly crafted to your specifications and delivered carefully to your home.</p>
                     </div>
-                    <p>The furniture will be expertly crafted to your specifications and delivered carefully to your home.</p>
                 </div>
+                <!-- single display ends -->
             </div>
-            <!-- single display ends -->
         </div>
         <div class="row">
             <div class="button-area col-md-12 text-center">
-                <a href="#" class="btn btn-primary btn-large">Oder Sample Now!</a>
+                <a href="#" class="btn btn-primary btn-large mobile-full">Oder Sample Now!</a>
             </div>
         </div>
     </div>
@@ -210,9 +212,6 @@ include_once('sections/layouts/header.php')
                     <h3>Rustic Cherry</h3>
                     <p>While Rustic Cherry comes from the same tree as standard Cherry, Rustic Cherry has knots, imperfections, and more distinct grain patterns and color variations in it.</p>
                 </div>
-                <div class="col-md-5 sample-use">
-                    <p>&nbsp;</p>
-                </div>
             </div>
             <!-- single item ends -->
             
@@ -244,7 +243,7 @@ include_once('sections/layouts/header.php')
                 <header class="section-title medium">
                     <h3>Standard <span>Vs.</span> Rustic</h3>
                 </header>
-                <p>If you love the rugged look of rustic furniture, there are plenty of options for you. A few of our woods are available in both standard and rustic versions. In the standard woods, the imperfections are cut out, whereas in the rustic woods, there are more visible grain, knots, and imperfections. Priced lower than standard wood, rustic wood is preferable when going with a natural vibe. </p>
+                <p class="mobile-left">If you love the rugged look of rustic furniture, there are plenty of options for you. A few of our woods are available in both standard and rustic versions. In the standard woods, the imperfections are cut out, whereas in the rustic woods, there are more visible grain, knots, and imperfections. Priced lower than standard wood, rustic wood is preferable when going with a natural vibe. </p>
             </article>
             <article class="col-md-12 article text-center">
                 <header class="section-title smaller">
@@ -270,14 +269,15 @@ include_once('sections/layouts/header.php')
                 <header class="section-title smaller">
                     <h3>Stain Matching for the Perfect Look</h3>
                 </header>
-                <p>Give your home a harmonious look by doing a stain match.<br/>Send us a drawer or door from a piece of furniture you are trying to match, and we will attempt to find a suitable stain match from the standard color choices. </p>
-                
-                <p>If we are unable to find a match, our finisher can do a custom mix of stain colors especially for you.<br/>The cost for a stain match is approximately $125.</p>
-                <p>Please note: Our stain samples and stain matches serve as excellent approximations of the colors that will appear on your actual piece of furniture. However, due to natural grain variations in wood, we cannot guarantee, even with a stain match, that the sample color and the color of your finished product will appear identical.</p>
-                <p></p>
-                
-                <p>For additional staining options, feel free to drop us a line at <span class="primary">866-450-WOOD (9663)</span>.</p>
-
+                <div class="mobile-left">
+                    <p>Give your home a harmonious look by doing a stain match.<br/>Send us a drawer or door from a piece of furniture you are trying to match, and we will attempt to find a suitable stain match from the standard color choices. </p>
+                    
+                    <p>If we are unable to find a match, our finisher can do a custom mix of stain colors especially for you.<br/>The cost for a stain match is approximately $125.</p>
+                    <p>Please note: Our stain samples and stain matches serve as excellent approximations of the colors that will appear on your actual piece of furniture. However, due to natural grain variations in wood, we cannot guarantee, even with a stain match, that the sample color and the color of your finished product will appear identical.</p>
+                    <p></p>
+                    
+                    <p>For additional staining options, feel free to drop us a line at <span class="primary">866-450-WOOD (9663)</span>.</p>
+                </div>
             </article>
         </div>
     </div>
