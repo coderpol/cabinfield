@@ -72,7 +72,11 @@
         width:100%;
         text-align:center;
         img{
-            max-width: 300px;
+            max-width: 200px;
+            @include upto-phone{
+                max-width: 160px;
+                margin-top:$m-20;
+            }
         }
     }
     .quotation-area{
@@ -138,6 +142,10 @@
                 padding:$m-15 0;
                 a{
                     @include font($font-16,$m-20);
+                    @include upto-phone{
+                        display: block;
+                        padding:3px 0;
+                    }
                     color:$blue-darkest;
                     &:hover{
                         text-decoration: none;
