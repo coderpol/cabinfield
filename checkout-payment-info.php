@@ -75,17 +75,17 @@ include_once('sections/layouts/header.php')
                     </div>
                 </div>
                 <div class="row form-line">
-                    <div class="col-12">
-                        <label for="security_code" class="form-label">Security Code <span class="gray"><i class="fa-solid fa-circle-question"></i></span></label>
+                    <div class="col-6">
+                        <label for="security_code" class="form-label">Security Code <span class="blue"><i class="fa-solid fa-circle-question"></i></span></label>
                         <input type="text" class="form-control" id="security_code" aria-label="Security Code" required>
-                        <div class="border-bottom border-only">&nbsp;</div>
                     </div>
                 </div>
                 <div class="row form-line">
                     <div class="col-12">
+                        <div class="border-top border-only">&nbsp;</div>
                         <label for="code" class="form-label">Enter Code</label>
                         <input type="text" class="form-control" id="code" aria-label="Enter Code" required>
-                        <button class="btn btn-primary btn-large mt-3">Apply</button>
+                        <button class="btn btn-primary btn-large mt-3 mobile-full">Apply</button>
                     </div>
                 </div>
             </div>

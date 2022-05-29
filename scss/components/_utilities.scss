@@ -133,3 +133,10 @@
 .list-group{
     padding-left:0;
 }
+
+@include upto-phone{
+    .mobile-full{
+        width:100% !important;
+    }
+}
+    

@@ -44,7 +44,7 @@ include_once('sections/layouts/header.php')
                 <p>If you are paying by check, note that your check must clear before your item is released for shipping.</p>
                 <h4>Special Note Concerning Payments for Gazebos and Customized Products:</h4>
                 <p>If you are ordering a gazebo or an item that is customized by staining or burning, note that we require a 50 percent deposit to process your order. When your gazebo or customized product is ready to ship, we will invoice you by e-mail for the remaining 50 percent. Upon receipt and clearance of your final payment, we will ship your product.</p><br/>
-                <a href="#" class="btn btn-empty">Pay with credit or debit</a>
+                <a href="#" class="btn btn-empty mobile-full">Pay with credit or debit</a>
             </div>
             
             <!-- .summary-card starts  -->
