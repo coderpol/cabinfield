@@ -115,7 +115,7 @@ include_once('sections/layouts/header.php')
                                 <span class="btn" data-action="increase">+</span>
                             </div>
                         </div>
-                        <ul class="detail">
+                        <ul class="detail wider">
                             <li>Bed Size: <span>California Kingak</span></li>
                             <li>Nightstand: <span>Open with pullout shelf</span></li>
                             <li>Wood: <span>Oak</span></li>
@@ -200,7 +200,7 @@ include_once('sections/layouts/header.php')
             <!-- summary card area  -->
             <div class="col-md-4 card summary-card">
                 <!-- card start  -->
-                <div class="card-body shadow mb-5">
+                <div class="card-body shadow mb-4">
                     <h3 class="card-title">Order Summary</h3>
                     <ul class="list-group summary-list">
                         <li class="list-item">Items: <span class="value">$1,321.00</span></li>

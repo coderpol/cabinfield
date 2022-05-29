@@ -18,8 +18,14 @@
     &.small{
         h2,h3,h4{
             @include font($font-36,$line-47,$font-bold); 
-            @include upto-phone{
-                @include font($font-24,$line-31,$font-bold); 
+            margin-bottom:$m-15;
+            
+        }
+        &.has-mobile-sizing{
+            h2,h3,h4{
+                @include upto-phone{
+                    @include font($font-24,$line-31,$font-bold); 
+                }
             }
         }
     }

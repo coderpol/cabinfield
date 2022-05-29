@@ -25,7 +25,7 @@
                     <li class="done"><a href="list-of-pre-built-products-v1.php">List of Pre-built products - V1</a></li>
                     <li class="done"><a href="list-of-pre-built-products-v2.php">List of Pre-built products - V2</a></li>
                     <li class="check"><a href="product.php">Product - Customize</a></li>
-                    <li class="check"><a href="shopping-cart.php">Shopping Cart</a></li>
+                    <li class="done"><a href="shopping-cart.php">Shopping Cart</a></li>
                     <li class="check"><a href="checkout-shipping.php">Checkout Shipping</a></li>
                     <li class="check"><a href="checkout-payment-info.php">Checkout Payment - V1</a></li>
                     <li class="check"><a href="checkout-payment-info-2.php">Checkout Payment - V2</a></li>

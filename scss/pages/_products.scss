@@ -377,6 +377,7 @@
                 background-color: $white;
                 color:$blue-darker-2;
                 @include font($font-30,16px);
+                cursor:pointer;
                 &:hover{
                     background-color: $brand-color;
                     color:$white;

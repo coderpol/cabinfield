@@ -407,6 +407,7 @@
                         background-color: $white;
                         color:$blue-darker-2;
                         @include font($font-40,41px);
+                        cursor:pointer;
                         &:hover{
                             background-color: $brand-color;
                             color:$white;
@@ -426,6 +427,12 @@
                 margin:0;
                 padding:0;
                 list-style-type: none;
+                &.wider{
+                    width:175%;
+                    @include upto-phone{
+                        width:100%;
+                    }
+                }
                 li{
                     color:$blue-darkest;
                     margin-bottom:15px;
@@ -441,9 +448,13 @@
             }
         }
         .action{
+            @include upto-phone{
+                margin-top:15px;
+            }
             .price-title{
                 @include font($font-18,$line-23,$font-bold);
                 margin-bottom:$m-10;
+                color:$blue-darkest;
                 @include upto-phone{
                     margin-top:$m-20;
                 }
@@ -452,14 +463,12 @@
                     color:$brand-color;
                     display: block;
                     margin:$m-10 0;
-                    @include upto-phone{
-                        display: inline;
-                    }
                 }
             }
             .buttons{
                 .btn{
                     margin-top:$m-20;
+                    padding:15px 10px;
                 }
             }
         }

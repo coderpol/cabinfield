@@ -38,7 +38,7 @@ include_once('sections/layouts/header.php')
     <div class="container">
         <!-- single category  -->
         <div class="row listed-product">
-            <div class="col-md-12 section-title small">
+            <div class="col-md-12 section-title small has-mobile-sizing">
                 <h3>Category 1</h3>
             </div>
             <!-- single product  -->
@@ -88,7 +88,7 @@ include_once('sections/layouts/header.php')
         
         <!-- single category  -->
         <div class="row listed-product">
-            <div class="col-md-12 section-title small">
+            <div class="col-md-12 section-title small has-mobile-sizing">
                 <h3>Category 2</h3>
             </div>
             <!-- single product -->
@@ -138,7 +138,7 @@ include_once('sections/layouts/header.php')
         
         <!-- single category  -->
         <div class="row listed-product">
-            <div class="col-md-12 section-title small">
+            <div class="col-md-12 section-title small has-mobile-sizing">
                 <h3>Category 3</h3>
             </div>            
             <!-- single product -->
