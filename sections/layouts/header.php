@@ -18,7 +18,7 @@
 
 <header class="header-area clearfix">
     <div class="container">
-        <div class="row">
+        <div class="row vertically-middle">
             <div class="col-md-4 col-12 logo-area">
                 <h1 class="logo-block">
                     <a href="home.php" class="logo">
