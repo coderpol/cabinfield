@@ -61,6 +61,7 @@
         margin-bottom:$m-30;
         @include upto-phone{
             margin-top:$m-0;
+            
         }
         .page-headline{
             margin-bottom:$m-60;
@@ -76,6 +77,9 @@
         }
         .display-area{
             margin-top:0;
+            @include upto-phone{
+                padding-bottom:0;
+            }
             .display{
                 border-bottom:$thin dashed #c4c4c4;
                 padding-bottom:$m-70;
@@ -89,7 +93,7 @@
                     }
                 }
                 &:last-child{
-                    border-bottom:0;
+                    // border-bottom:0;
                     padding-bottom:$m-30;
                     margin-bottom:$m-20;
                 }

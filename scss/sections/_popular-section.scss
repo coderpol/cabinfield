@@ -1,5 +1,8 @@
 .popular-section{
     margin:$m-100 0;
+    @include upto-phone{
+        margin-bottom:20px;
+    }
     .section-title{
         margin-bottom:$m-40;
     }
@@ -15,6 +18,9 @@
                 @include upto-phone{
                     flex-basis:44%;
                     margin:3%;
+                    img{
+                        max-height: 183px;
+                    }
                 }
                 @include phone-small{
                     flex-basis:94%;
@@ -46,7 +52,7 @@
             padding:$m-20;
             @include rounded($m-20);
             @include upto-phone{
-                margin:$m-20 auto;
+                margin:$m-0 auto $m-40;
                 flex-basis: 90%;
             }
             p{
@@ -62,8 +68,15 @@
                 margin-bottom:0;
                 padding-left:0;
                 @include rounded($m-20);
+                display: block;
+                overflow: hidden;
                 @include upto-phone{
+                    // @include rounded($m-40);
                     margin-bottom:$m-20;
+                    padding-right:0;
+                    img{
+                        max-height: 192px;
+                    }
                 }
             }
             
