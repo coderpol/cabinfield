@@ -13,7 +13,7 @@
             display: flex;
             margin-bottom:0;
             .logo{
-                width:290px;
+                // width:290px;
                 display: block;
                 img{
                     width: 350px;
@@ -23,19 +23,19 @@
                 }
             }
             
-            .slogan{
-                color:$brand-color;
-                border-left: 3px solid $brand-color;
-                padding: 15px 0 10px $m-20;
-                margin-left: $m-20;
-                font-weight: 400;
-                letter-spacing: 2px;
-                word-spacing:-2px;
-                font-size: 12px;
-                @include upto-tablet{
-                    display: none;
-                }
-            }
+            // .slogan{
+            //     color:$brand-color;
+            //     border-left: 3px solid $brand-color;
+            //     padding: 15px 0 10px $m-20;
+            //     margin-left: $m-20;
+            //     font-weight: 400;
+            //     letter-spacing: 2px;
+            //     word-spacing:-2px;
+            //     font-size: 12px;
+            //     @include upto-tablet{
+            //         display: none;
+            //     }
+            // }
         }
        
     }
@@ -77,8 +77,9 @@
             flex-wrap: nowrap;
             align-content: center;
             justify-content: flex-end;
-            margin-top: $m-20;
             list-style-type: none;
+            margin-top: $m-20;
+            margin-bottom:0;
             li{
                 a{
                     display:inline-block;
