@@ -2,6 +2,8 @@
     background: $white;
     @include upto-tablet{
         background-color: $blue;
+        height: 70px;
+        padding: 18px 0;
     }
     padding:22px 0;
     .logo-area {
@@ -14,7 +16,10 @@
                 width:290px;
                 display: block;
                 img{
-                    max-width: 300px;
+                    width: 200px;
+                    @include upto-tablet{
+                        width:161px;
+                    }
                 }
             }
             
@@ -36,15 +41,6 @@
     }
     .search-area {
         float: left;
-        // width: 40%;
-        // margin-right: 3%;
-        
-        @include upto-tablet{
-            position:absolute;
-            top: 76px;
-            right: 0;
-            max-width: 500px;
-        }
         .searchform{
             position:relative;
             margin-top: 10px;
@@ -143,8 +139,15 @@
         }
         .search-area{
             width: calc(100% - 80px);
+            max-width: 325px !important;
             z-index: 2000;
+            padding:14px 0;
+            position:absolute;
+            top: 70px;
+            right: 20px;
+            max-width: 500px;
             .searchform{
+                margin-top:0;
                 i{
                     top:10px;
                     right:18px;
@@ -153,13 +156,15 @@
                 input{
                     padding-left:$m-15;
                     padding-right:$m-45;
+                    height:37px;
+                    font-size: 16px;
                 }
             }
         }
         .cart-area{
             right: 10px;
             position: absolute;
-            top: 30px;
+            top: 26px;
             z-index: 200;
             width: 160px;
             .cart-list{

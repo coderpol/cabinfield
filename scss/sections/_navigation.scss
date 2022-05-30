@@ -255,13 +255,14 @@
         }
         .navbar{
             padding:10px;
+            height: 65px;
             .navbar-toggler{
                 border:none;
                 color:$blue-darkest;
                 padding-left:0;
-                margin-left: -12px;
+                margin-left: -10px;
                 i{
-                    font-size:32px;
+                    font-size:25px;
                 }
                 &:focus{
                     box-shadow: none !important;
