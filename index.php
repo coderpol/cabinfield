@@ -45,7 +45,7 @@
                     <li class="done"><a href="order-sample.php">Order Sample</a></li>
                     <li class="done"><a href="fabric-sample.php">Fabric Sample</a></li>
                     <li class="done"><a href="order-confirmation.php">Order Confirmation</a></li>
-                    <li class="next"><a href="login.php">Login</a></li>
+                    <li class="done"><a href="login.php">Login</a></li>
                     <li class="next"><a href="#">Registration</a></li>
                     <li class="next"><a href="#">My Account - Order List</a></li>
                     <li class="next"><a href="#">Order Details</a></li>
