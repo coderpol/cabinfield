@@ -64,7 +64,7 @@
             .form-check-label{
                 @include font($font-16,$line-29);
                 color:$blue-darkest;
-                
+                max-width: 170px;
             }
         }
         

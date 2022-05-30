@@ -47,8 +47,8 @@
                     <li class="done"><a href="order-confirmation.php">Order Confirmation</a></li>
                     <li class="done"><a href="login.php">Login</a></li>
                     <li class="done"><a href="registration.php">Registration</a></li>
-                    <li class="working"><a href="#">My Account - Order List</a></li>
-                    <li class="next"><a href="#">Order Details</a></li>
+                    <li class="done"><a href="account-order-list.php">My Account - Order List</a></li>
+                    <li class="working"><a href="#">Order Details</a></li>
                 </ol>
             </div>
         </div>

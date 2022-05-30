@@ -60,4 +60,95 @@
             }
         }
     }
+    .user-links-area{
+        margin-top:20px;
+        margin-bottom:20px;
+        .user-links{
+            margin-left:0;
+            padding-left:17px;
+            @include font($font-18,$line-26);
+            color:$brand-color;
+            li{
+                &+li{
+                    margin-top:5px;
+                }
+                a{
+                    color:$brand-color;
+                }
+            }
+        }
+    }
+    .order-list-area{
+        margin-top:40px;
+        .order-list-table{
+            margin-top:20px;
+            border-color:#C4C4C4;
+            @include upto-phone{
+                margin-top:0;
+            }
+        }
+        .order-list{
+            th{
+                @include font($font-20,$line-23,$font-bold);
+                color:$blue-darker-3;
+                text-align: left;
+                padding:0px 0 25px
+            }
+            &>:not(:first-child){
+                border-top:0;
+            }
+            td{
+                padding:25px 0;
+                color:$blue-darker-3;
+                @include font($font-16,$line-18);
+                a{
+                    color:$brand-color;
+                    &:hover{
+                        color:$blue;
+                    }
+                }
+            }
+            
+            @include upto-phone{
+                thead{
+                    display:none;
+                }
+                td{
+                    display: block;
+                    padding:8px 0;
+                    border:0;
+                    &:nth-child(1){
+                        margin-top:10px;
+                        &:before{
+                            content: "Order Number:"
+                        }
+                    }
+                    &:nth-child(2){
+                        &:before{
+                            content: "Order Date:"
+                        }
+                    }
+                    &:nth-child(3){
+                        &:before{
+                            content: "Order Amount:"
+                        }
+                    }
+                    &:nth-child(4){
+                        margin-bottom:10px;
+                        &:before{
+                            content: "Order Status:"
+                        }
+                    }
+                    &:before{
+                        @include font($font-20,$line-21,$font-bold);
+                        color:$blue-darker-3;
+                        margin-right:10px;
+                    }
+                }
+                tr{
+                    border-bottom:1px solid #C4C4C4;
+                }
+            }
+        }
+    }
 }

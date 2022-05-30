@@ -145,4 +145,42 @@
         text-align: left !important;
     }
 }
-    
+
+.blue{
+    color:$blue;
+}
+.black{
+    color:$black;
+}
+.gray{
+    color:$gray-light-2;
+}
+.orange{
+    color:$brand-color;
+}
+
+@include upto-phone{
+    .upto-phone{
+        display: block;
+    }
+    .above-phone{
+        display: none;
+    }
+}
+@include upto-tablet{
+    .upto-tablet{
+        display: block;
+    }
+    .above-tablet{
+        display: none;
+    }
+}
+
+@include upto-pc{
+    .upto-pc{
+        display: block;
+    }
+    .above-pc{
+        display: none;
+    }
+}
