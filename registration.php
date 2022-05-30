@@ -33,7 +33,7 @@ include_once('sections/layouts/header.php')
             <div class="row auth-forms-area">
                 <div class="col-md-6">
                     <div class="header clearfix section-sub-title">
-                        <h3>Persional Information</h3>
+                        <h3>Personal Information</h3>
                     </div>
                     <div class="row form-line">
                         <div class="col-12">
