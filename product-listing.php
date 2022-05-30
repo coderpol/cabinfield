@@ -6,7 +6,7 @@ include_once('sections/layouts/header.php')
 ?>
 
 <!--highlighted area starts  -->
-<div class="section page-content brand-gradient-switch-grey page-highlight-area">
+<div class="section page-content orange-gradient page-highlight-area">
     <div class="container">
         <div class="row">
             <!-- breadcrumb starts  -->

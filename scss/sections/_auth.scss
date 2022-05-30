@@ -2,6 +2,11 @@
     padding:$m-80 0;
     @include upto-phone{
         padding:$m-55 0;
+        .section-title{
+            h2,h3,h4{
+                @include font(36px,130%,$font-bold);
+            }
+        }
     }
     .auth-forms-area{
         margin-top:50px;
@@ -35,11 +40,24 @@
             @include upto-phone{
                 margin-top:48px;
             }
+            .submit-button{
+                @include from-pc{
+                    margin-top:43px;
+                }
+            }
         }
         .btn{
-            padding-top:20px;
-            padding-bottom:20px;
+            padding-top:17px;
+            padding-bottom:17px;
             font-size:16px;
+        }
+        .form-check-label{
+            color:$blue-darkest;
+        }
+        input{
+            &.form-control{
+                height: 46px;
+            }
         }
     }
 }
