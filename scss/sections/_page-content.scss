@@ -376,7 +376,7 @@
         }
         @include upto-phone{
             img{
-                max-width: 240px;
+                max-width: 205px;
             }
         }
         .item-details{
@@ -384,7 +384,7 @@
             .title{
                 margin-bottom:$m-15;
                 p{
-                    @include font($font-18,$line-23,$font-bold);
+                    @include font($font-24,$line-31,$font-bold);
                     margin-bottom:5px;
                     color:$blue-darkest;
                 }
@@ -407,6 +407,7 @@
                         display: block;
                         font-weight: $font-normal;
                         margin-top:5px;
+                        color:$blue;
                         @include upto-phone{
                             display: inline;
                         }
