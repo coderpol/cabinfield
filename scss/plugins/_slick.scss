@@ -19,7 +19,7 @@
     display: block;
     margin: 0;
     padding: 0;
-    @include upto-phone{
+    @include upto-pc{
         overflow:hidden;
         margin:0 0 $m-30 0 !important;
     }

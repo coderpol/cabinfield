@@ -33,7 +33,7 @@ include_once('sections/layouts/header.php')
 <!-- header banner section ends  -->
 
 <!-- display board section starts -->
-<div class="display-board text-on-top mt-5 mb-0 clearfix">
+<div class="display-board about-display text-on-top mt-5 mb-0 clearfix">
     <div class="container">
         <div class="row">
             <!-- display area  -->
@@ -87,7 +87,7 @@ include_once('sections/layouts/header.php')
 </div>
 
 <!-- choice points with icons area starts  -->
-<div class="section mb-4 choice-points smaller with-counter clearfix">
+<div class="section choice-points about-choice smaller with-counter clearfix">
     <div class="container">
         <div class="row">
             <header class="col-md-12 section-title text-center">

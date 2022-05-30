@@ -114,17 +114,17 @@
         }
     }
     &.with-counter{
-        @include upto-phone{
+        @include upto-tablet{
             margin-bottom:0 !important;
             padding-bottom:0;
         }
         .points-area{
-            @include upto-phone{
+            @include upto-tablet{
                 grid-column-gap: 40px;
             }
             .point{
                 position: relative;
-                @include upto-phone{
+                @include upto-tablet{
                     text-align:center;
                     padding:0 $m-50;
                     &+.point{
@@ -142,7 +142,7 @@
                     top: -15px;
                     left: -74px;
                     z-index:100;
-                    @include upto-phone{
+                    @include upto-tablet{
                         left:50%;
                         margin-left:-107px;
                     }
@@ -150,7 +150,7 @@
                 .icon{
                     position:relative;
                     z-index:200;
-                    @include upto-phone{
+                    @include upto-tablet{
                         margin-left:auto;
                         margin-right:auto;
                         margin-bottom:$m-20;
@@ -197,6 +197,7 @@
             margin-bottom:0;
         }
     }
+    
 }
 
 
@@ -225,6 +226,10 @@
             .points-area{
                 margin-top:40px;
             }
+        }
+        &.about-choice{
+            margin-top:0 !important;
+            padding-top:0;
         }
     }
 }
