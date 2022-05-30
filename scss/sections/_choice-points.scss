@@ -184,6 +184,19 @@
             }
         }
     }
+    &.home-choice{
+        margin:105px 0 100px;
+        padding:0;
+        .section-title{
+            margin-top:0;
+            h2{
+                margin-bottom:0;
+            }
+        }
+        .action-area{
+            margin-bottom:0;
+        }
+    }
 }
 
 
@@ -199,6 +212,18 @@
                 &+.point{
                     margin-top:$m-40;
                 }
+            }
+        }
+        &.home-choice{
+            margin:60px 0 20px;
+            .section-title{
+                margin-top:0;
+                h2{
+                    margin-bottom:0;
+                }
+            }
+            .points-area{
+                margin-top:40px;
             }
         }
     }

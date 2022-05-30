@@ -122,6 +122,7 @@
 
 @include upto-tablet{
     .footer{
+        font-family: $helvetica;
         .footer-area{
             max-width:500px;
             margin:0 auto;
@@ -171,10 +172,10 @@
                     margin-bottom:0;
                     li{
                         border-bottom:1px solid $gray;
-                        margin:$m-5;
+                        margin:$m-0;
                         a{
                             display:block;
-                            padding:$m-10 0;
+                            padding:8px 0;
                             color:#3A4555;
                             font-weight: 500;
                         }
