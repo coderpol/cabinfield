@@ -135,6 +135,12 @@
             }
             .footer-logo{
                 padding-bottom: 60px;
+                img{
+                    max-width: 161px;
+                }
+                .copyright{
+                    @include font($font-14,16px);
+                }
             }
             .footer-social{
                 flex-basis:49%;
@@ -144,7 +150,7 @@
                 .social-icons{
                     position: absolute;
                     width: 160px;
-                    top: 175px;
+                    top: 140px;
                     left: calc(50% - 80px);
                 }
                 .telephone{
