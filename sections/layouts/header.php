@@ -22,10 +22,9 @@
             <div class="col-md-4 col-12 logo-area">
                 <h1 class="logo-block">
                     <a href="home.php" class="logo">
-                        <img class="above-tablet" src="images/logo.svg" alt="Cabinfield">
+                        <img class="above-tablet" src="images/logo-large.svg" alt="Cabinfield">
                         <img class="upto-tablet" src="images/logo-white.svg" alt="Cabinfield">
                     </a>
-                    <span class="slogan">Classic Amish Craftmanship</span>
                 </h1>
             </div>
             <div class="col-md-5 col-5 search-area">
