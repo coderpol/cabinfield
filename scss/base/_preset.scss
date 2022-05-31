@@ -143,9 +143,12 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 /* custom scrollbar */
-::-webkit-scrollbar {width: $m-10;}
+::-webkit-scrollbar {width: 6px;}
 ::-webkit-scrollbar-track {background: $scroll-track-color;}
-::-webkit-scrollbar-thumb {background: $scroll-thumb-color;}
+::-webkit-scrollbar-thumb {
+    background: $scroll-thumb-color;
+    @include rounded(10px);
+}
 ::-webkit-scrollbar-thumb:hover {background: $scroll-hover-color;}
 
 /* body preset */

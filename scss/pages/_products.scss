@@ -413,6 +413,8 @@
         }
     }
     .stack-tweleve{
+        height: 450px;
+        overflow-y: scroll;
         .stack{
             margin-bottom:$m-20;
             text-align: center;
@@ -425,9 +427,6 @@
                 padding:2px 5px;
                 @include rounded(5px);
                 border:1px solid transparent;
-                @include upto-phone{
-                    padding-bottom:60px;
-                }
                 span{
                     margin-bottom:0;
                     margin-top:5px;

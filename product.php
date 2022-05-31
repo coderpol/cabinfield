@@ -597,7 +597,7 @@ include_once('sections/layouts/header.php')
                                         </div>
                                         <div class="row stack-area stack-tweleve">
                                             <?php 
-                                                for($i=21;$i<=56;$i++){
+                                                for($i=21;$i<=76;$i++){
                                             ?>
                                             <div class="stack">
                                                 <input type="radio" name="stain-type" class="btn-check" id="stain-<?php echo $i; ?>" autocomplete="off">
