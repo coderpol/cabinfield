@@ -224,8 +224,8 @@ include_once('sections/layouts/header.php')
                                             <div class="stack">
                                                 <input type="radio" name="stain-type" class="btn-check" id="stain-3" autocomplete="off">
                                                 <label class="btn" for="stain-3">
-                                                    <figure class="figure data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-html="true" title='
-                                                            <img class="thumb-xl" src="images/stain/stain-3.png" alt="">
+                                                    <figure class="figure" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-html="true" title='
+                                                            <img class="thumb-xl" src="images/stain/stain-2.png" alt="">
                                                             <h3 class="title">Description</h3>
                                                             <ul class="description">
                                                                 <li>4-10 Dove</li>
@@ -234,7 +234,7 @@ include_once('sections/layouts/header.php')
                                                                 <li>Cleaning Code: <span>S</span></li>
                                                                 <li>Abrasion Rating: <span>M</span></li>
                                                             </ul>
-                                                        '">
+                                                        '>
                                                         <img src="images/stain/stain-3.png" alt="">
                                                         <div class="overlay">
                                                             <i class="cabincon size-70 check-white"></i>
