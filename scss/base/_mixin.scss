@@ -48,6 +48,14 @@
     }
 }
 
+// higher than 787px
+@mixin from-tablet {
+    @media only screen and (min-width:$breakpoint-lg) {
+        @content;
+    }
+}
+
+
 // less than 1199px
 @mixin upto-pc {
     @media only screen and (max-width:($breakpoint-xl - 1px)) {

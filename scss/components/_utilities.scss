@@ -184,3 +184,20 @@
         display: none;
     }
 }
+
+@include from-tablet{
+    .upto-pc,
+    .upto-phone
+    {
+        display: none;
+    }
+}
+
+@include from-pc{
+    .upto-pc,
+    .upto-tablet,
+    .upto-phone
+    {
+        display: none;
+    }
+}
