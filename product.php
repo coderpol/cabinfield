@@ -180,12 +180,20 @@ include_once('sections/layouts/header.php')
                                             <div class="stack">
                                                 <input type="radio" name="stain-type" class="btn-check" id="stain-1" autocomplete="off">
                                                 <label class="btn" for="stain-1">
-                                                    <figure class="figure">
+                                                    <figure class="figure" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-html="true" title='
+                                                            <img class="thumb-xl" src="images/stain/stain-1.png" alt="">
+                                                            <h3 class="title">Description</h3>
+                                                            <ul class="description">
+                                                                <li>4-10 Dove</li>
+                                                                <li>Fiber Content: <span>65% Viscose, 35% Polyester</span></li>
+                                                                <li>Pattern Repeat: <span>Railroaded</span></li>
+                                                                <li>Cleaning Code: <span>S</span></li>
+                                                                <li>Abrasion Rating: <span>M</span></li>
+                                                            </ul>
+                                                        '>
                                                         <img src="images/stain/stain-1.png" alt="">
                                                         <div class="overlay">
-                                                            <a class="icon" href="#">
-                                                                <i class="fa fa-magnifying-glass"></i>
-                                                            </a>
+                                                            <i class="cabincon size-70 check-white"></i>
                                                         </div>
                                                     </figure>
                                                     <span>Medium OCS-110 </span>
@@ -194,12 +202,20 @@ include_once('sections/layouts/header.php')
                                             <div class="stack">
                                                 <input type="radio" name="stain-type" class="btn-check" id="stain-2" autocomplete="off">
                                                 <label class="btn" for="stain-2">
-                                                    <figure class="figure">
+                                                    <figure class="figure" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-html="true" title='
+                                                            <img class="thumb-xl" src="images/stain/stain-2.png" alt="">
+                                                            <h3 class="title">Description</h3>
+                                                            <ul class="description">
+                                                                <li>4-10 Dove</li>
+                                                                <li>Fiber Content: <span>65% Viscose, 35% Polyester</span></li>
+                                                                <li>Pattern Repeat: <span>Railroaded</span></li>
+                                                                <li>Cleaning Code: <span>S</span></li>
+                                                                <li>Abrasion Rating: <span>M</span></li>
+                                                            </ul>
+                                                        '>
                                                         <img src="images/stain/stain-2.png" alt="">
                                                         <div class="overlay">
-                                                            <a class="icon" href="#">
-                                                                <i class="fa fa-magnifying-glass"></i>
-                                                            </a>
+                                                            <i class="cabincon size-70 check-white"></i>
                                                         </div>
                                                     </figure>
                                                     <span>Medium OCS-110 </span>
@@ -208,12 +224,20 @@ include_once('sections/layouts/header.php')
                                             <div class="stack">
                                                 <input type="radio" name="stain-type" class="btn-check" id="stain-3" autocomplete="off">
                                                 <label class="btn" for="stain-3">
-                                                    <figure class="figure">
+                                                    <figure class="figure data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-html="true" title='
+                                                            <img class="thumb-xl" src="images/stain/stain-3.png" alt="">
+                                                            <h3 class="title">Description</h3>
+                                                            <ul class="description">
+                                                                <li>4-10 Dove</li>
+                                                                <li>Fiber Content: <span>65% Viscose, 35% Polyester</span></li>
+                                                                <li>Pattern Repeat: <span>Railroaded</span></li>
+                                                                <li>Cleaning Code: <span>S</span></li>
+                                                                <li>Abrasion Rating: <span>M</span></li>
+                                                            </ul>
+                                                        '">
                                                         <img src="images/stain/stain-3.png" alt="">
                                                         <div class="overlay">
-                                                            <a class="icon" href="#">
-                                                                <i class="fa fa-magnifying-glass"></i>
-                                                            </a>
+                                                            <i class="cabincon size-70 check-white"></i>
                                                         </div>
                                                     </figure>
                                                     <span>Medium OCS-110 </span>
@@ -222,12 +246,20 @@ include_once('sections/layouts/header.php')
                                             <div class="stack">
                                                 <input type="radio" name="stain-type" class="btn-check" id="stain-4" autocomplete="off">
                                                 <label class="btn" for="stain-4">
-                                                    <figure class="figure">
+                                                    <figure class="figure" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-html="true" title='
+                                                            <img class="thumb-xl" src="images/stain/stain-1.png" alt="">
+                                                            <h3 class="title">Description</h3>
+                                                            <ul class="description">
+                                                                <li>4-10 Dove</li>
+                                                                <li>Fiber Content: <span>65% Viscose, 35% Polyester</span></li>
+                                                                <li>Pattern Repeat: <span>Railroaded</span></li>
+                                                                <li>Cleaning Code: <span>S</span></li>
+                                                                <li>Abrasion Rating: <span>M</span></li>
+                                                            </ul>
+                                                        '>
                                                         <img src="images/stain/stain-1.png" alt="">
                                                         <div class="overlay">
-                                                            <a class="icon" href="#">
-                                                                <i class="fa fa-magnifying-glass"></i>
-                                                            </a>
+                                                            <i class="cabincon size-70 check-white"></i>
                                                         </div>
                                                     </figure>
                                                     <span>Medium OCS-110 </span>
@@ -235,13 +267,21 @@ include_once('sections/layouts/header.php')
                                             </div>
                                             <div class="stack">
                                                 <input type="radio" name="stain-type" class="btn-check" id="stain-5" autocomplete="off">
-                                                <label class="btn" for="stain-5">
+                                                <label class="btn" for="stain-5" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-html="true" title='
+                                                            <img class="thumb-xl" src="images/stain/stain-2.png" alt="">
+                                                            <h3 class="title">Description</h3>
+                                                            <ul class="description">
+                                                                <li>4-10 Dove</li>
+                                                                <li>Fiber Content: <span>65% Viscose, 35% Polyester</span></li>
+                                                                <li>Pattern Repeat: <span>Railroaded</span></li>
+                                                                <li>Cleaning Code: <span>S</span></li>
+                                                                <li>Abrasion Rating: <span>M</span></li>
+                                                            </ul>
+                                                        '>
                                                     <figure class="figure">
                                                         <img src="images/stain/stain-2.png" alt="">
                                                         <div class="overlay">
-                                                            <a class="icon" href="#">
-                                                                <i class="fa fa-magnifying-glass"></i>
-                                                            </a>
+                                                            <i class="cabincon size-70 check-white"></i>
                                                         </div>
                                                     </figure>
                                                     <span>Medium OCS-110 </span>
@@ -250,12 +290,20 @@ include_once('sections/layouts/header.php')
                                             <div class="stack">
                                                 <input type="radio" name="stain-type" class="btn-check" id="stain-6" autocomplete="off">
                                                 <label class="btn" for="stain-6">
-                                                    <figure class="figure">
+                                                    <figure class="figure" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-html="true" title='
+                                                            <img class="thumb-xl" src="images/stain/stain-3.png" alt="">
+                                                            <h3 class="title">Description</h3>
+                                                            <ul class="description">
+                                                                <li>4-10 Dove</li>
+                                                                <li>Fiber Content: <span>65% Viscose, 35% Polyester</span></li>
+                                                                <li>Pattern Repeat: <span>Railroaded</span></li>
+                                                                <li>Cleaning Code: <span>S</span></li>
+                                                                <li>Abrasion Rating: <span>M</span></li>
+                                                            </ul>
+                                                        '>
                                                         <img src="images/stain/stain-3.png" alt="">
                                                         <div class="overlay">
-                                                            <a class="icon" href="#">
-                                                                <i class="fa fa-magnifying-glass"></i>
-                                                            </a>
+                                                            <i class="cabincon size-70 check-white"></i>
                                                         </div>
                                                     </figure>
                                                     <span>Medium OCS-110 </span>
@@ -264,12 +312,20 @@ include_once('sections/layouts/header.php')
                                             <div class="stack">
                                                 <input type="radio" name="stain-type" class="btn-check" id="stain-7" autocomplete="off">
                                                 <label class="btn" for="stain-7">
-                                                    <figure class="figure">
+                                                    <figure class="figure" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-html="true" title='
+                                                            <img class="thumb-xl" src="images/stain/stain-1.png" alt="">
+                                                            <h3 class="title">Description</h3>
+                                                            <ul class="description">
+                                                                <li>4-10 Dove</li>
+                                                                <li>Fiber Content: <span>65% Viscose, 35% Polyester</span></li>
+                                                                <li>Pattern Repeat: <span>Railroaded</span></li>
+                                                                <li>Cleaning Code: <span>S</span></li>
+                                                                <li>Abrasion Rating: <span>M</span></li>
+                                                            </ul>
+                                                        '>
                                                         <img src="images/stain/stain-1.png" alt="">
                                                         <div class="overlay">
-                                                            <a class="icon" href="#">
-                                                                <i class="fa fa-magnifying-glass"></i>
-                                                            </a>
+                                                            <i class="cabincon size-70 check-white"></i>
                                                         </div>
                                                     </figure>
                                                     <span>Medium OCS-110 </span>
@@ -278,12 +334,20 @@ include_once('sections/layouts/header.php')
                                             <div class="stack">
                                                 <input type="radio" name="stain-type" class="btn-check" id="stain-8" autocomplete="off">
                                                 <label class="btn" for="stain-8">
-                                                    <figure class="figure">
+                                                    <figure class="figure" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-html="true" title='
+                                                            <img class="thumb-xl" src="images/stain/stain-1.png" alt="">
+                                                            <h3 class="title">Description</h3>
+                                                            <ul class="description">
+                                                                <li>4-10 Dove</li>
+                                                                <li>Fiber Content: <span>65% Viscose, 35% Polyester</span></li>
+                                                                <li>Pattern Repeat: <span>Railroaded</span></li>
+                                                                <li>Cleaning Code: <span>S</span></li>
+                                                                <li>Abrasion Rating: <span>M</span></li>
+                                                            </ul>
+                                                        '>
                                                         <img src="images/stain/stain-1.png" alt="">
                                                         <div class="overlay">
-                                                            <a class="icon" href="#">
-                                                                <i class="fa fa-magnifying-glass"></i>
-                                                            </a>
+                                                            <i class="cabincon size-70 check-white"></i>
                                                         </div>
                                                     </figure>
                                                     <span>Medium OCS-110 </span>
@@ -292,12 +356,20 @@ include_once('sections/layouts/header.php')
                                             <div class="stack">
                                                 <input type="radio" name="stain-type" class="btn-check" id="stain-9" autocomplete="off">
                                                 <label class="btn" for="stain-9">
-                                                    <figure class="figure">
+                                                    <figure class="figure" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-html="true" title='
+                                                            <img class="thumb-xl" src="images/stain/stain-2.png" alt="">
+                                                            <h3 class="title">Description</h3>
+                                                            <ul class="description">
+                                                                <li>4-10 Dove</li>
+                                                                <li>Fiber Content: <span>65% Viscose, 35% Polyester</span></li>
+                                                                <li>Pattern Repeat: <span>Railroaded</span></li>
+                                                                <li>Cleaning Code: <span>S</span></li>
+                                                                <li>Abrasion Rating: <span>M</span></li>
+                                                            </ul>
+                                                        '>
                                                         <img src="images/stain/stain-2.png" alt="">
                                                         <div class="overlay">
-                                                            <a class="icon" href="#">
-                                                                <i class="fa fa-magnifying-glass"></i>
-                                                            </a>
+                                                            <i class="cabincon size-70 check-white"></i>
                                                         </div>
                                                     </figure>
                                                     <span>Medium OCS-110 </span>
@@ -306,12 +378,20 @@ include_once('sections/layouts/header.php')
                                             <div class="stack">
                                                 <input type="radio" name="stain-type" class="btn-check" id="stain-10" autocomplete="off">
                                                 <label class="btn" for="stain-10">
-                                                    <figure class="figure">
+                                                    <figure class="figure" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-html="true" title='
+                                                            <img class="thumb-xl" src="images/stain/stain-3.png" alt="">
+                                                            <h3 class="title">Description</h3>
+                                                            <ul class="description">
+                                                                <li>4-10 Dove</li>
+                                                                <li>Fiber Content: <span>65% Viscose, 35% Polyester</span></li>
+                                                                <li>Pattern Repeat: <span>Railroaded</span></li>
+                                                                <li>Cleaning Code: <span>S</span></li>
+                                                                <li>Abrasion Rating: <span>M</span></li>
+                                                            </ul>
+                                                        '>
                                                         <img src="images/stain/stain-3.png" alt="">
                                                         <div class="overlay">
-                                                            <a class="icon" href="#">
-                                                                <i class="fa fa-magnifying-glass"></i>
-                                                            </a>
+                                                            <i class="cabincon size-70 check-white"></i>
                                                         </div>
                                                     </figure>
                                                     <span>Medium OCS-110 </span>
@@ -320,12 +400,20 @@ include_once('sections/layouts/header.php')
                                             <div class="stack">
                                                 <input type="radio" name="stain-type" class="btn-check" id="stain-11" autocomplete="off">
                                                 <label class="btn" for="stain-11">
-                                                    <figure class="figure">
+                                                    <figure class="figure" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-html="true" title='
+                                                            <img class="thumb-xl" src="images/stain/stain-1.png" alt="">
+                                                            <h3 class="title">Description</h3>
+                                                            <ul class="description">
+                                                                <li>4-10 Dove</li>
+                                                                <li>Fiber Content: <span>65% Viscose, 35% Polyester</span></li>
+                                                                <li>Pattern Repeat: <span>Railroaded</span></li>
+                                                                <li>Cleaning Code: <span>S</span></li>
+                                                                <li>Abrasion Rating: <span>M</span></li>
+                                                            </ul>
+                                                        '>
                                                         <img src="images/stain/stain-1.png" alt="">
                                                         <div class="overlay">
-                                                            <a class="icon" href="#">
-                                                                <i class="fa fa-magnifying-glass"></i>
-                                                            </a>
+                                                            <i class="cabincon size-70 check-white"></i>
                                                         </div>
                                                     </figure>
                                                     <span>Medium OCS-110 </span>
@@ -334,12 +422,20 @@ include_once('sections/layouts/header.php')
                                             <div class="stack">
                                                 <input type="radio" name="stain-type" class="btn-check" id="stain-12" autocomplete="off">
                                                 <label class="btn" for="stain-12">
-                                                    <figure class="figure">
+                                                    <figure class="figure" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-html="true" title='
+                                                            <img class="thumb-xl" src="images/stain/stain-2.png" alt="">
+                                                            <h3 class="title">Description</h3>
+                                                            <ul class="description">
+                                                                <li>4-10 Dove</li>
+                                                                <li>Fiber Content: <span>65% Viscose, 35% Polyester</span></li>
+                                                                <li>Pattern Repeat: <span>Railroaded</span></li>
+                                                                <li>Cleaning Code: <span>S</span></li>
+                                                                <li>Abrasion Rating: <span>M</span></li>
+                                                            </ul>
+                                                        '>
                                                         <img src="images/stain/stain-2.png" alt="">
                                                         <div class="overlay">
-                                                            <a class="icon" href="#">
-                                                                <i class="fa fa-magnifying-glass"></i>
-                                                            </a>
+                                                            <i class="cabincon size-70 check-white"></i>
                                                         </div>
                                                     </figure>
                                                     <span>Medium OCS-110 </span>
@@ -348,12 +444,20 @@ include_once('sections/layouts/header.php')
                                             <div class="stack">
                                                 <input type="radio" name="stain-type" class="btn-check" id="stain-13" autocomplete="off">
                                                 <label class="btn" for="stain-13">
-                                                    <figure class="figure">
+                                                    <figure class="figure" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-html="true" title='
+                                                            <img class="thumb-xl" src="images/stain/stain-3.png" alt="">
+                                                            <h3 class="title">Description</h3>
+                                                            <ul class="description">
+                                                                <li>4-10 Dove</li>
+                                                                <li>Fiber Content: <span>65% Viscose, 35% Polyester</span></li>
+                                                                <li>Pattern Repeat: <span>Railroaded</span></li>
+                                                                <li>Cleaning Code: <span>S</span></li>
+                                                                <li>Abrasion Rating: <span>M</span></li>
+                                                            </ul>
+                                                        '>
                                                         <img src="images/stain/stain-3.png" alt="">
                                                         <div class="overlay">
-                                                            <a class="icon" href="#">
-                                                                <i class="fa fa-magnifying-glass"></i>
-                                                            </a>
+                                                            <i class="cabincon size-70 check-white"></i>
                                                         </div>
                                                     </figure>
                                                     <span>Medium OCS-110 </span>
@@ -362,12 +466,20 @@ include_once('sections/layouts/header.php')
                                             <div class="stack">
                                                 <input type="radio" name="stain-type" class="btn-check" id="stain-14" autocomplete="off">
                                                 <label class="btn" for="stain-14">
-                                                    <figure class="figure">
+                                                    <figure class="figure" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-html="true" title='
+                                                            <img class="thumb-xl" src="images/stain/stain-1.png" alt="">
+                                                            <h3 class="title">Description</h3>
+                                                            <ul class="description">
+                                                                <li>4-10 Dove</li>
+                                                                <li>Fiber Content: <span>65% Viscose, 35% Polyester</span></li>
+                                                                <li>Pattern Repeat: <span>Railroaded</span></li>
+                                                                <li>Cleaning Code: <span>S</span></li>
+                                                                <li>Abrasion Rating: <span>M</span></li>
+                                                            </ul>
+                                                        '>
                                                         <img src="images/stain/stain-1.png" alt="">
                                                         <div class="overlay">
-                                                            <a class="icon" href="#">
-                                                                <i class="fa fa-magnifying-glass"></i>
-                                                            </a>
+                                                            <i class="cabincon size-70 check-white"></i>
                                                         </div>
                                                     </figure>
                                                     <span>Medium OCS-110 </span>
@@ -426,8 +538,6 @@ include_once('sections/layouts/header.php')
                                                     <span class="btn" data-action="increase">+</span>
                                                 </div>
                                             </div>
-                                            
-                                            
                                         </div>
                                     </div>
                                 </div>
@@ -492,12 +602,20 @@ include_once('sections/layouts/header.php')
                                             <div class="stack">
                                                 <input type="radio" name="stain-type" class="btn-check" id="stain-<?php echo $i; ?>" autocomplete="off">
                                                 <label class="btn" for="stain-<?php echo $i; ?>">
-                                                    <figure class="figure">
+                                                    <figure class="figure" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-html="true" title='
+                                                            <img class="thumb-xl" src="images/fabric/thumb/fabric.png" alt="">
+                                                            <h3 class="title">Description</h3>
+                                                            <ul class="description">
+                                                                <li>4-10 Dove</li>
+                                                                <li>Fiber Content: <span>65% Viscose, 35% Polyester</span></li>
+                                                                <li>Pattern Repeat: <span>Railroaded</span></li>
+                                                                <li>Cleaning Code: <span>S</span></li>
+                                                                <li>Abrasion Rating: <span>M</span></li>
+                                                            </ul>
+                                                        '>
                                                         <img src="images/fabric/thumb/fabric.png" alt="">
                                                         <div class="overlay">
-                                                            <a class="icon" href="#">
-                                                                <i class="fa fa-magnifying-glass"></i>
-                                                            </a>
+                                                            <i class="cabincon size-55 check-white"></i>
                                                         </div>
                                                     </figure>
                                                     <span><strong>Medium OCS-110</strong></span>
