@@ -546,7 +546,7 @@ include_once('sections/layouts/header.php')
                             <!-- fifth accordion  -->
                             <div class="accordion-item">
                                 <div class="accordion-header" id="headingFifth">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFifth" aria-expanded="true" aria-controls="collapseFifth">Coat rack on footboard:  <a href="#" class="blue">Wooden pegs on right  + 85,</a> <a href="#">Wooden pegs on left  + 85</a> <a href="#"><i class="fa-solid fa-circle-question"></i></a></button>
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFifth" aria-expanded="true" aria-controls="collapseFifth">Coat rack on footboard:  <a href="#" class="blue">Wooden pegs on right  + 85,</a> <a href="#">Wooden pegs  + 85 <span><i class="fa-solid fa-circle-question"></i></span></a> </button>
                                 </div>
                                 <div id="collapseFifth" class="accordion-collapse collapse show" aria-labelledby="headingFifth" data-bs-parent="#customizations">
                                     <div class="accordion-body">
