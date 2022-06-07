@@ -3,7 +3,7 @@
     span{
         color:$brand-color;
     }
-    h2,h3,h4{
+    h1,h2,h3,h4{
         @include font($font-44,$line-57,$font-bold);
         margin-bottom:$m-20;
         @include upto-phone{
@@ -11,18 +11,18 @@
         }
     }
     &.medium{
-        h2,h3,h4{
+        h1,h2,h3,h4{
             @include font($font-40,$line-52,$font-bold); 
         }
     }
     &.small{
-        h2,h3,h4{
+        h1,h2,h3,h4{
             @include font($font-36,$line-47,$font-bold); 
             margin-bottom:$m-15;
             
         }
         &.has-mobile-sizing{
-            h2,h3,h4{
+            h1,h2,h3,h4{
                 @include upto-phone{
                     @include font($font-24,$line-31,$font-bold); 
                 }
@@ -33,21 +33,21 @@
 }
 
 .section-sub-title{
-    h2,h3,h4{
+    h1,h2,h3,h4{
         @include font($font-24,$line-31,$font-bold);
         color:$blue-darkest;
     }
 }
 
 .heading-22{
-    h2,h3,h4{
+    h1,h2,h3,h4{
         @include font($font-22,$line-29,$font-medium);
         color:$blue-darkest;
         margin-bottom:$m-30;
     }
 }
 .heading-20, .accordion-section-title{
-    h2,h3,h4{
+    h1,h2,h3,h4{
         @include font($font-20,$line-23,$font-bold);
         color:$blue-darkest;
         margin-bottom:$m-15;

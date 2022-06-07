@@ -17,7 +17,7 @@ include_once('sections/layouts/header.php')
                     </ol>
                 </nav>
                 <div class="col-md-8 banner-text">
-                    <h2 class="heading">Fine Furniture</h2>
+                    <h1 class="heading">Fine Furniture</h1>
                     <a href="#" class="btn btn-white">Shop Now</a>
                 </div>
             </div>

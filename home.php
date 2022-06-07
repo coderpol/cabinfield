@@ -11,8 +11,8 @@ include_once('sections/layouts/header.php')
         <div class="container">
             <div class="row">
                 <div class="col-md-8 banner-text">
-                    <h2 class="tagline">Authenticity. Beauty. Craftmanship.</h2>
-                    <h3 class="heading">Fine Amish Furniture You'll Treasure for a Lifetime</h3>
+                    <h1 class="tagline">Authenticity. Beauty. Craftmanship.</h1>
+                    <h2 class="heading">Fine Amish Furniture You'll Treasure for a Lifetime</h2>
                     <a href="product-listing.php" class="btn btn-white">Shop Now</a>
                 </div>
             </div>

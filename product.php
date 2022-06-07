@@ -68,7 +68,7 @@ include_once('sections/layouts/header.php')
             </div>
             <div class="col-md-6 product-details">
                 <div class="section-title small">
-                    <h2>Kennet Flat Pannel Amish Bed</h2>
+                    <h1>Kennet Flat Pannel Amish Bed</h1>
                 </div>
                 <p>Product No. FGFH1128</p>
                 <ul class="seals">

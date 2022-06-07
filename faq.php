@@ -27,7 +27,7 @@ include_once('sections/layouts/header.php')
         <div class="row">
             <!-- header  -->
             <header class="col-md-12 text-dark-color section-title small mb-4">
-                <h2>FAQ</h2>
+                <h1>FAQ</h1>
             </header>
             <!-- header ends -->
             

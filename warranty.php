@@ -29,7 +29,7 @@ include_once('sections/layouts/header.php')
         <!-- .heading text row  -->
         <div class="row">
             <header class="col-md-12 text-dark-color section-title small mb-4">
-                <h2>Help Center</h2>
+                <h1>Help Center</h1>
             </header>
         </div>
         <!-- .heading text row ends -->

@@ -23,7 +23,7 @@ include_once('sections/layouts/header.php')
                 
                 <!-- banner text starts  -->
                 <div class="col-md-8 banner-text">
-                    <h2 class="heading">Welcome to<br/>Cabinfield</h2>
+                    <h1 class="heading">Welcome to<br/>Cabinfield</h1>
                 </div>
                 <!-- banner text ends  -->
             </div>

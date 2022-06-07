@@ -27,7 +27,7 @@ include_once('sections/layouts/header.php')
         <!-- the page heading starts -->
         <div class="row page-headline mb-5">
             <div class="col-md-12 col-12 mt-3 section-title medium">
-                <h2><span>Fabric</span> Samples</h2>
+                <h1><span>Fabric</span> Samples</h1>
                 <p>Enhance your furniture with patterns, textures, and sumptuous softness. Discover environmentally friendly choices, designed with you and your lifestyle in mind. Order samples so you can run your fingers across it, experience the feel, and better envision the final product.</p>
             </div>
         </div>

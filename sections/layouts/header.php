@@ -20,12 +20,12 @@
     <div class="container">
         <div class="row vertically-middle">
             <div class="col-md-4 col-12 logo-area">
-                <h1 class="logo-block">
+                <div class="logo-block">
                     <a href="home.php" class="logo">
                         <img class="above-tablet" src="images/logo-large.svg" alt="Cabinfield">
                         <img class="upto-tablet" src="images/logo-white.svg" alt="Cabinfield">
                     </a>
-                </h1>
+                </div>
             </div>
             <div class="col-md-5 col-5 search-area">
                 <form action="/" class="searchform">

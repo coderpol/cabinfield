@@ -27,7 +27,7 @@ include_once('sections/layouts/header.php')
         <!-- .page tittle  -->
         <div class="row">
             <header class="col-md-12 text-dark-color section-title small mb-4">
-                <h2>Help Center</h2>
+                <h1>Help Center</h1>
             </header>
         </div>
          <!-- .page tittle ends  -->

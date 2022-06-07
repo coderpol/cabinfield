@@ -39,7 +39,7 @@ include_once('sections/layouts/header.php')
         <!-- The top functional area with buttons -->
         <div class="row mb-2 functional-area">
             <div class="col-md-3 section-title small">
-                <h2><span>Kennet</span> Series</h2>
+                <h1><span>Kennet</span> Series</h1>
             </div>
             <div class="col-md-9 text-end">
                 <ul class="filter-buttons">

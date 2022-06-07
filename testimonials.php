@@ -27,7 +27,7 @@ include_once('sections/layouts/header.php')
             <div class="col-md-10 text-dark-color pr-5">
                 <!-- page title  -->
                 <header class="section-title small">
-                    <h2>Testimonials</h2>
+                    <h1>Testimonials</h1>
                 </header>
                 <!-- page title ends -->
                 

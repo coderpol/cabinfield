@@ -29,7 +29,7 @@ include_once('sections/layouts/header.php')
         <!-- page heading starts  -->
         <div class="row page-headline">
             <div class="col-md-12 col-12 mt-3 section-title medium">
-                <h2><span>Wood</span> Samples</h2>
+                <h1><span>Wood</span> Samples</h1>
                 <p>Choosing the perfect furniture to complement your space can be stressful.</p>
                 <p>Leave the stress and guesswork behind. Make a well-informed purchase by ordering free samples so you can better visualize your unique, final product. Feel the authenticity, watch it take the light, and imagine it as part of your space.</p>
             </div>
