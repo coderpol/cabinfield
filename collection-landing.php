@@ -58,20 +58,24 @@ include_once('sections/layouts/header.php')
                 <div class="col-md-4 action-area">
                     <div class="action">
                         <h4>Eagle Hill Series</h4>
-                        <ul class="features">
-                            <li>3/4" solid wood tops</li>
-                            <li>3/4" thick full overlay doors and drawers</li>
-                            <li>Concealed knife hinges</li>
-                            <li>Dovetailed drawers</li>
-                            <li>Full extension slides</li>
-                        </ul>
+                        <div class="features">
+                            <ul>
+                                <li>3/4" solid wood tops</li>
+                                <li>3/4" thick full overlay doors and drawers</li>
+                                <li>Concealed knife hinges</li>
+                                <li>Dovetailed drawers</li>
+                                <li>Full extension slides</li>
+                            </ul>
+                        </div>
                         <a href="bedroom-landing.php" class="btn btn-primary btn-block">Shop the collection</a>
                     </div>
-                    <ul class="thumb-area">
-                        <li><img src="images/products/type-b/bed-1-thumb-1.png" alt=""></li>
-                        <li><img src="images/products/type-b/bed-1-thumb-2.png" alt=""></li>
-                        <li><img src="images/products/type-b/bed-1-thumb-3.png" alt=""></li>
-                    </ul>
+                    <div class="thumb-area">
+                        <ul>
+                            <li><img src="images/products/type-b/bed-1-thumb-1.png" alt=""></li>
+                            <li><img src="images/products/type-b/bed-1-thumb-2.png" alt=""></li>
+                            <li><img src="images/products/type-b/bed-1-thumb-3.png" alt=""></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <!-- one collection or series ends -->
@@ -85,20 +89,24 @@ include_once('sections/layouts/header.php')
                 <div class="col-md-4 action-area">
                     <div class="action">
                         <h4>Calmont Series</h4>
-                        <ul class="features">
-                            <li>Choice of wood species and stains</li>
-                            <li>Beds available in twin, full, queen and king sizes</li>
-                            <li>Full extension drawer slides</li>
-                            <li>Option for undermount soft close slides</li>
-                            <li>Option for storage rails</li>
-                        </ul>
+                        <div class="features">
+                            <ul>
+                                <li>Choice of wood species and stains</li>
+                                <li>Beds available in twin, full, queen and king sizes</li>
+                                <li>Full extension drawer slides</li>
+                                <li>Option for undermount soft close slides</li>
+                                <li>Option for storage rails</li>
+                            </ul>
+                        </div>
                         <a href="bedroom-landing.php" class="btn btn-primary btn-block">Shop the collection</a>
                     </div>
-                    <ul class="thumb-area">
-                        <li><img src="images/products/type-b/bed-2-thumb-1.png" alt=""></li>
-                        <li><img src="images/products/type-b/bed-2-thumb-2.png" alt=""></li>
-                        <li><img src="images/products/type-b/bed-2-thumb-3.png" alt=""></li>
-                    </ul>
+                    <div class="thumb-area">
+                        <ul>
+                            <li><img src="images/products/type-b/bed-2-thumb-1.png" alt=""></li>
+                            <li><img src="images/products/type-b/bed-2-thumb-2.png" alt=""></li>
+                            <li><img src="images/products/type-b/bed-2-thumb-3.png" alt=""></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <!-- one collection or series ends -->
@@ -112,19 +120,23 @@ include_once('sections/layouts/header.php')
                 <div class="col-md-4 action-area">
                     <div class="action">
                         <h4>Horizon Shaker Series</h4>
-                        <ul class="features">
-                            <li>Full-extension drawer slides</li>
-                            <li>Option for Blum undermount soft close drawer slides</li>
-                            <li>Each drawer is inset into the furniture, providing a sleek look for each piece</li>
-                            <li>Option for storage rails in beds</li>
-                        </ul>
+                        <div class="features">
+                            <ul>
+                                <li>Full-extension drawer slides</li>
+                                <li>Option for Blum undermount soft close drawer slides</li>
+                                <li>Each drawer is inset into the furniture, providing a sleek look for each piece</li>
+                                <li>Option for storage rails in beds</li>
+                            </ul>
+                        </div>
                         <a href="bedroom-landing.php" class="btn btn-primary btn-block">Shop the collection</a>
                     </div>
-                    <ul class="thumb-area">
-                        <li><img src="images/products/type-b/bed-3-thumb-1.png" alt=""></li>
-                        <li><img src="images/products/type-b/bed-3-thumb-2.png" alt=""></li>
-                        <li><img src="images/products/type-b/bed-3-thumb-3.png" alt=""></li>
-                    </ul>
+                    <div class="thumb-area">
+                        <ul>
+                            <li><img src="images/products/type-b/bed-3-thumb-1.png" alt=""></li>
+                            <li><img src="images/products/type-b/bed-3-thumb-2.png" alt=""></li>
+                            <li><img src="images/products/type-b/bed-3-thumb-3.png" alt=""></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <!-- one collection or series ends -->
@@ -138,18 +150,22 @@ include_once('sections/layouts/header.php')
                 <div class="col-md-4 action-area">
                     <div class="action">
                         <h4>Fairgrove Series</h4>
-                        <ul class="features">
-                            <li>Solid hardwood construction</li>
-                            <li>Full extension sidemount drawer slides</li>
-                            <li>Bed available in twin, full, queen and king sizes</li>
-                        </ul>
+                        <div class="features">
+                            <ul>
+                                <li>Solid hardwood construction</li>
+                                <li>Full extension sidemount drawer slides</li>
+                                <li>Bed available in twin, full, queen and king sizes</li>
+                            </ul>
+                        </div>
                         <a href="bedroom-landing.php" class="btn btn-primary btn-block">Shop the collection</a>
                     </div>
-                    <ul class="thumb-area">
-                        <li><img src="images/products/type-b/bed-4-thumb-1.png" alt=""></li>
-                        <li><img src="images/products/type-b/bed-4-thumb-2.png" alt=""></li>
-                        <li><img src="images/products/type-b/bed-4-thumb-3.png" alt=""></li>
-                    </ul>
+                    <div class="thumb-area">
+                        <ul>
+                            <li><img src="images/products/type-b/bed-4-thumb-1.png" alt=""></li>
+                            <li><img src="images/products/type-b/bed-4-thumb-2.png" alt=""></li>
+                            <li><img src="images/products/type-b/bed-4-thumb-3.png" alt=""></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <!-- one collection or series ends -->
@@ -163,19 +179,23 @@ include_once('sections/layouts/header.php')
                 <div class="col-md-4 action-area">
                     <div class="action">
                         <h4>Stick Mission Series</h4>
-                        <ul class="features">
-                            <li>1" solid wood tops</li>
-                            <li>7/8" slats on the sides and corbels on the ends</li>
-                            <li>Upgraded hardware</li>
-                            <li>Choice of wood species & stains</li>
-                        </ul>
+                        <div class="features">
+                            <ul>
+                                <li>1" solid wood tops</li>
+                                <li>7/8" slats on the sides and corbels on the ends</li>
+                                <li>Upgraded hardware</li>
+                                <li>Choice of wood species & stains</li>
+                            </ul>
+                        </div>
                         <a href="bedroom-landing.php" class="btn btn-primary btn-block">Shop the collection</a>
                     </div>
-                    <ul class="thumb-area">
-                        <li><img src="images/products/type-b/bed-5-thumb-1.png" alt=""></li>
-                        <li><img src="images/products/type-b/bed-5-thumb-2.png" alt=""></li>
-                        <li><img src="images/products/type-b/bed-5-thumb-3.png" alt=""></li>
-                    </ul>
+                    <div class="thumb-area">
+                        <ul>
+                            <li><img src="images/products/type-b/bed-5-thumb-1.png" alt=""></li>
+                            <li><img src="images/products/type-b/bed-5-thumb-2.png" alt=""></li>
+                            <li><img src="images/products/type-b/bed-5-thumb-3.png" alt=""></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <!-- one collection or series ends -->
