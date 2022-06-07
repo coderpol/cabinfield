@@ -129,6 +129,7 @@
 
 @mixin rounded($value){
     border-radius:$value;
+    overflow: hidden;
 }
 
 @mixin font($size, $line-height, $weight:400){
