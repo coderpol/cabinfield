@@ -36,6 +36,9 @@ include_once('sections/layouts/header.php')
                     <h3>Registered customers</h3>
                     <p>If you have an account with us, please log in.</p>
                 </div>
+                <div class="alert alert-danger" role="alert">
+                    A simple danger alert—check it out!
+                </div>
                 <form action="" class="cabinform">
                     <div class="row form-line">
                         <div class="col-12">
