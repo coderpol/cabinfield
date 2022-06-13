@@ -37,7 +37,7 @@ $('input#shipping_address_trigger').click(function(){
 $("#filter-toggle.opened").click(function(){
   $("#filter-area").toggle();
   $("#filter-toggle span").text($("#filter-toggle span").text() == 'Show' ? 'Hide' : 'Show');
-  $("#product-listing-area").toggleClass("col-md-12");
+  $("#product-listing-area").toggleClass("col-lg-12");
 });
 
 // add combination

@@ -186,7 +186,7 @@
 }
 
 @include from-tablet{
-    .upto-pc,
+    // .upto-pc,
     .upto-phone
     {
         display: none;

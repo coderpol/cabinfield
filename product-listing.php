@@ -156,7 +156,7 @@ include_once('sections/layouts/header.php')
             <!-- filter area ends -->
             
             <!-- main product listing area  -->
-            <div class="col-lg-9 col-md-12 main-content product-listing-area" id="product-listing-area">
+            <div class="col-lg-9 main-content product-listing-area" id="product-listing-area">
                 <div class="row listed-product">
                     <!-- single product  -->
                     <div class="col-md-4 product">
