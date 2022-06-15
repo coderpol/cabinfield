@@ -45,7 +45,7 @@
             position:relative;
             overflow:hidden;
             padding:$m-30;
-            padding-left:$m-100;
+            padding-left:120px;
             height: 100%;
             width: 100%;
             min-height:510px;
@@ -547,7 +547,7 @@
                 }
             }
             .gallery-full{
-                padding:$m-50 $m-10 $m-80 $m-100;
+                padding:$m-50 $m-10 $m-80 $m-50;
                 min-height:auto;
             }
         }
