@@ -515,7 +515,7 @@
                 @include font($font-20,$line-26,$font-bold);
                 margin-bottom:$m-15;
             }
-            .speclist{
+            ul,ol{
                 padding-left:$m-20;
                 color:$blue;
                 li{

@@ -700,7 +700,7 @@ include_once('sections/layouts/header.php')
                         <div class="row specs-area">
                             <div class="col-md-4 specs">
                                 <h3>Product Spects</h3>
-                                <ul class="speclist">
+                                <ul>
                                     <li>Choice of wood species & stains</li>
                                     <li>1” thick top</li>
                                     <li>Rounded corner top (small radius)</li>
@@ -716,7 +716,7 @@ include_once('sections/layouts/header.php')
                             </div>
                             <div class="col-md-4 specs">
                                 <h3>Standard Features</h3>
-                                <ul class="speclist">
+                                <ul>
                                     <li>Choice of wood species & stains</li>
                                     <li>1” thick top</li>
                                     <li>Rounded corner top (small radius)</li>
@@ -732,7 +732,7 @@ include_once('sections/layouts/header.php')
                             </div>
                             <div class="col-md-4 specs">
                                 <h3>Optional Features</h3>
-                                <ul class="speclist">
+                                <ul>
                                     <li>Choice of edge profiles</li>
                                     <li>V-groove in solid tops</li>
                                     <li>Breadboard ends</li>
