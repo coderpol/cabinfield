@@ -63,7 +63,7 @@ include_once('sections/layouts/header.php')
                 </div>
                
                 <div class="button-area">
-                    <a href="#" class="icon"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a href="#" class="icon shadow"><i class="fa-solid fa-magnifying-glass"></i></a>
                 </div>
             </div>
             <div class="col-md-6 product-details">
