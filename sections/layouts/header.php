@@ -37,8 +37,8 @@
             
             <div class="col-md-3 col-12 cart-area">
                 <ul class="cart-list">
-                    <li><a href="#"><span class="above-pc">Sign In</span><i class="upto-pc fa-solid fa-user"></i></a></li>
-                    <li class="above-pc"><a href="#">My Wishlist</a></li>
+                    <li><a href="login.php"><span class="above-pc">Sign In</span><i class="upto-pc fa-solid fa-user"></i></a></li>
+                    <li class="above-pc"><a href="wishlist.php">My Wishlist</a></li>
                     <li class="upto-pc"><a href="tel:+866-450-9663"><i class="fa-solid fa-phone"></i></a></li>
                     <li><a href="shopping-cart.php"><i class="fa-solid fa-cart-shopping"></i> <span class="counter">0</span></a></li>
                 </ul>

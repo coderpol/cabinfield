@@ -1,0 +1,53 @@
+.wishlist-section{
+    padding:$m-80 0;
+    .wishlist-area{
+        @include from-tablet{
+            margin-bottom:$m-100;
+        }
+        // padding:0 $m-15;
+    }
+    .wishlist-item{
+        padding:$m-30 0;
+        border-bottom:1px solid $border-color;
+        img{
+            max-width: 275px;
+        }
+        .item-details{
+            @include upto-phone{
+                margin:$m-30 0;
+            }
+            @include from-tablet{
+                padding-top:$m-40;
+            }
+            h3,h4{
+                color:$blue-darkest;
+                @include font($font-24,$line-31,$font-bold);
+                margin-bottom:5px;
+            }
+            .price{
+                color:$blue;
+                @include font($font-24,$line-21);
+                @include upto-tablet{
+                    @include font($font-18,$line-21);
+                }
+                span{
+                    color:$brand-color;
+                    font-weight: $font-bold;
+                }
+            }
+        }
+        .action{
+            @include from-tablet{
+                padding-top:$m-40;
+                
+            }
+            .buttons{
+                .btn{
+                    margin-bottom:$m-15;
+                    padding: 12px;
+                    max-width: 400px;
+                }
+            }
+        }
+    }
+}

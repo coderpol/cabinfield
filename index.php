@@ -12,7 +12,7 @@
     <div class="container">
         <div class="row">
             <div class="header">
-                <h1>Cabinfield <span>Page List</span></h1>
+                <h1><img src="images/logo.svg" alt=""></h1>
             </div>
             
             <div class="content">
@@ -49,6 +49,7 @@
                     <li class="done"><a href="registration.php">Registration</a></li>
                     <li class="done"><a href="account-order-list.php">My Account - Order List</a></li>
                     <li class="done"><a href="account-order-details.php">Order Details</a></li>
+                    <li class="check"><a href="wishlist.php">Wishlist</a></li>
                 </ol>
             </div>
         </div>

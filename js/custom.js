@@ -117,6 +117,10 @@ $(".counter .btn").on("click",function(){
 $(document).on("click",".cart-item-remover",function(){
   $(this).closest(".cart-item").remove();
 });
+// remove wishlist-item
+$(document).on("click",".wishlist-item-remover",function(){
+  $(this).closest(".wishlist-item").remove();
+});
 
 // close nav bar on phone
 

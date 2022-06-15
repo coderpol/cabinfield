@@ -442,8 +442,7 @@ a:hover {
   margin: 0 auto;
 }
 .front-page .container .header {
-  padding: 20px;
-  margin-top: 30px;
+  margin-top: 20px;
   text-align: center;
   margin-bottom: 25px;
 }
@@ -453,6 +452,9 @@ a:hover {
   margin-bottom: 0;
   text-transform: uppercase;
   color: #B3522C;
+}
+.front-page .container .header h1 img {
+  max-width: 180px;
 }
 .front-page .container .header h1 span {
   color: #121212;
