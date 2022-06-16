@@ -34,52 +34,54 @@
     }
 }
 
-.quotation{
-    &:before{
-        content:'';
-        display: block;
-        height:$m-45;
-        width:$m-60;
-        background: url('../images/blockquote.png') no-repeat;
-        background-size:$m-60;
-    }
-    blockquote{
-        margin:$m-30 0;
-        color:$blue-darker-4;
-        @include font($font-16,$m-25,$font-medium);
-    }
-    p{
-        letter-spacing: 0.3px;
-        .author{
-            @include font($font-20,$m-25);
-            color:$blue-darkest;
-            display: inline-block;
-            position:relative;
-            i{
-                color:$blue-royal;
-            }
-            &.verified{
-                &:after{
-                    content:"";
-                    display: block;
-                    width:$m-20;
-                    height:$m-20;
-                    background:url('../images/verified.svg') no-repeat;
-                    background-size:$m-20;
-                    position:absolute;
-                    bottom:3px;
-                    right: -$m-25;
+.quotation-area{
+    .quotation{
+        &:before{
+            content:'';
+            display: block;
+            height:$m-45;
+            width:$m-60;
+            background: url('../images/blockquote.png') no-repeat;
+            background-size:$m-60;
+        }
+        blockquote, &>p{
+            margin:$m-30 0;
+            color:$blue-darker-4;
+            @include font($font-16,$m-25,$font-medium);
+        }
+        p{
+            letter-spacing: 0.3px;
+            .author{
+                @include font($font-20,$m-25);
+                color:$blue-darkest;
+                display: inline-block;
+                position:relative;
+                i{
+                    color:$blue-royal;
+                }
+                &.verified{
+                    &:after{
+                        content:"";
+                        display: block;
+                        width:$m-20;
+                        height:$m-20;
+                        background:url('../images/verified.svg') no-repeat;
+                        background-size:$m-20;
+                        position:absolute;
+                        bottom:3px;
+                        right: -$m-25;
+                    }
                 }
             }
-        }
-        .address{
-            display:block;
-            color:$gray-dark-1;
-            @include font($font-16,$m-20);
-            margin-top:$m-5;
-        }
-        img{
-            width: auto;
+            .address{
+                display:block;
+                color:$gray-dark-1;
+                @include font($font-16,$m-20);
+                margin-top:$m-5;
+            }
+            img{
+                width: auto;
+            }
         }
     }
 }
