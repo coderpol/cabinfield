@@ -22,12 +22,12 @@
         }
         .product{
             position:relative;
-            margin:0 5px;
+            margin:0 $m-20;
             .figure{
                 text-align: center;
                 // background: $whitish-1;
                 width:100%;
-                padding:$m-20;
+                padding:$m-0;
                 img{
                     // max-width: 160px;
                     margin:0 auto;
