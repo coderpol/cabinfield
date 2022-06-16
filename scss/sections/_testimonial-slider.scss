@@ -78,6 +78,9 @@
             @include font($font-16,$m-20);
             margin-top:$m-5;
         }
+        img{
+            width: auto;
+        }
     }
 }
 

@@ -49,7 +49,7 @@
                     <li class="done"><a href="registration.php">Registration</a></li>
                     <li class="done"><a href="account-order-list.php">My Account - Order List</a></li>
                     <li class="done"><a href="account-order-details.php">Order Details</a></li>
-                    <li class="check"><a href="wishlist.php">Wishlist</a></li>
+                    <li class="done"><a href="wishlist.php">Wishlist</a></li>
                 </ol>
             </div>
         </div>
