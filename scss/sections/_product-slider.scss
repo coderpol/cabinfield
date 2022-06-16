@@ -22,7 +22,9 @@
         }
         .product{
             position:relative;
-            margin:0 $m-20;
+            @include above-phone{
+                margin:0 $m-20;
+            }
             .figure{
                 text-align: center;
                 // background: $whitish-1;

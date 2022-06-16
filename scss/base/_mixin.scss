@@ -26,6 +26,12 @@
         @content;
     }
 }
+// from 768px
+@mixin above-phone {
+    @media only screen and (min-width:($breakpoint-md - 1px)) {
+        @content;
+    }
+}
 
 // less than 992px
 @mixin upto-tablet {
