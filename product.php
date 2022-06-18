@@ -29,44 +29,22 @@ include_once('sections/layouts/header.php')
 <div class="section page-content product-section">
     <div class="container">
         <div class="row product-gallery-area">
-            <div class="col-md-6 product-gallery">
-                <div id="thumbnail-slider" class="gallery-thumb">
-                    <div class="inner">
-                        <ul>
-                            <li>
-                                <a class="thumb" href="images/products/gallery/bed-thumb-1.png" data-full="images/products/gallery/bed.png" data-caption="This is the caption for 1st image"></a>
-                            </li>
-                            <li>
-                                <a class="thumb" href="images/products/gallery/bed-thumb-2.png" data-full="images/products/gallery/bed-2.png" data-caption="This is the caption for 2nd image"></a>
-                            </li>
-                            <li>
-                                <a class="thumb" href="images/products/gallery/bed-thumb-3.png" data-full="images/products/gallery/bed-3.png" data-caption="This is the caption for 3rd image"></a>
-                            </li>
-                            <li>
-                                <a class="thumb" href="images/products/gallery/bed-thumb-4.png" data-full="images/products/gallery/bed-4.png" data-caption="This is the caption for 4th image"></a>
-                            </li>
-                            <li>
-                                <a class="thumb" href="images/products/gallery/bed-thumb-2.png" data-full="images/products/gallery/bed-2.png" data-caption="This is the caption for 2nd image"></a>
-                            </li>
-                            <li>
-                                <a class="thumb" href="images/products/gallery/bed-thumb-5.png" data-full="images/products/gallery/bed-5.png" data-caption="This is the caption for 2nd image"></a>
-                            </li>
-                            <li>
-                                <a class="thumb" href="images/products/gallery/bed-thumb-3.png" data-full="images/products/gallery/bed-3.png" data-caption="This is the caption for 3rd image"></a>
-                            </li>
-                        </ul>
+            <div class="col-lg-6 col-md-12 product-gallery">
+                <div class="gallery-full">
+                    <div class="gallery-field">
+                        <img class="full" src="images/products/gallery/bed.png" alt="">
+                    </div>
+                    <p>Caption goes here</p>
+                    <div class="button-area">
+                        <a href="#" class="icon shadow"><i class="fa-solid fa-magnifying-glass"></i></a>
                     </div>
                 </div>
-                <div class="gallery-full">
-                    <img class="full" src="images/products/gallery/bed.png" alt="">
-                    <p>Caption goes here</p>
-                </div>
                
-                <div class="button-area">
-                    <a href="#" class="icon shadow"><i class="fa-solid fa-magnifying-glass"></i></a>
-                </div>
+                <?php 
+                    include_once('sections/thumbnaile-slider-horizontal.php');
+                ?>
             </div>
-            <div class="col-md-6 product-details">
+            <div class="col-lg-6 col-md-12 product-details">
                 <div class="section-title small">
                     <h1>Kennet Flat Pannel Amish Bed</h1>
                 </div>
@@ -505,8 +483,10 @@ include_once('sections/layouts/header.php')
                                             <div class="stack">
                                                 <input type="checkbox" name="leaf-type" class="form-check-input" checked id="leaf-1" autocomplete="off">
                                                 <label class="btn form-check-label" for="leaf-1">
-                                                    <img src="images/leaf/leaf-1.png" alt="">
-                                                    Solid Top
+                                                    <div class="text">
+                                                        <p><span>Solid Top</span> <strong>Standard</strong></p>
+                                                    </div>
+                                                    <span class="label">Solid Top</span>
                                                 </label>
                                                 <div class="counter">
                                                     <span class="btn" data-action="decrease">-</span>
@@ -517,8 +497,10 @@ include_once('sections/layouts/header.php')
                                             <div class="stack">
                                                 <input type="checkbox" name="leaf-type" class="form-check-input" id="leaf-2" autocomplete="off">
                                                 <label class="btn form-check-label" for="leaf-2">
-                                                    <img src="images/leaf/leaf-2.png" alt="">
-                                                    Regular 12 Leaf
+                                                    <figure class="figure">
+                                                        <img src="images/leaf/leaf-2.png" alt="">
+                                                    </figure>
+                                                    <span class="label">Regular 12 Leaf</span>
                                                 </label>
                                                 <div class="counter">
                                                     <span class="btn" data-action="decrease">-</span>
@@ -529,8 +511,10 @@ include_once('sections/layouts/header.php')
                                             <div class="stack">
                                                 <input type="checkbox" name="leaf-type" class="form-check-input" id="leaf-3" autocomplete="off">
                                                 <label class="btn form-check-label" for="leaf-3">
-                                                    <img src="images/leaf/leaf-3.png" alt="">
-                                                    Regular 12 Leaf
+                                                    <figure class="figure">
+                                                        <img src="images/leaf/leaf-3.png" alt="">
+                                                    </figure>
+                                                    <span class="label">Regular 12 Leaf</span>
                                                 </label>
                                                 <div class="counter">
                                                     <span class="btn" data-action="decrease">-</span>

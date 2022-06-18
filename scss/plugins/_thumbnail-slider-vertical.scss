@@ -1,0 +1,80 @@
+.product-gallery{
+    position:relative;
+    display: flex;
+    .gallery-thumb{
+        position:absolute;
+        left:13px;
+        top:0px;
+        width:122px;
+        height: calc(100% - 40px);
+        z-index:10;
+        .thumb{
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding:10px;
+            background: $white;
+            box-shadow: 0 12px 20px rgba($black,0.12);
+            width:80px;
+            height:80px;
+            margin-bottom:$m-15;
+            @include rounded($m-10);
+            cursor:pointer;
+            border:1px solid $white;
+            &:hover{
+                border-color:$brand-color;
+            }
+        }
+    }
+    .gallery-full{
+        // background-color: #F6F7F9;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position:relative;
+        overflow:hidden;
+        padding:$m-30;
+        padding-left:120px;
+        height: 100%;
+        width: 100%;
+        min-height:510px;
+        z-index:5;
+        img{
+            max-width: 480px;
+        }
+        p{
+            position:absolute;
+            width:100%;
+            z-index:20;
+            left:0;
+            bottom:0;
+            background: rgba(30, 36, 44, 0.1);
+            backdrop-filter: blur(10px);
+            padding:$m-10 $m-20;
+            margin-bottom:0;
+            color:$blue-darkest;
+            @include font($font-14,$line-18,$font-medium);
+        }
+    }
+    .button-area{
+        position:absolute;
+        bottom:$m-20;
+        right:$m-20;
+        z-index: 30;
+        .icon{
+            @include square(42px);
+            background: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            @include rounded($m-30);
+            &:hover{
+                background-color: $brand-color;
+                text-decoration: none;
+                color:$white;
+            }
+        }
+    }
+}

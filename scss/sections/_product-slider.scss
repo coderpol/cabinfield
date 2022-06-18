@@ -22,6 +22,7 @@
         }
         .product{
             position:relative;
+            max-width: 254px;
             @include above-phone{
                 margin:0 $m-20;
             }

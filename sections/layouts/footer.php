@@ -85,7 +85,7 @@
 <script src="js/slick.min.js"></script>
 
 <!-- gallery thumbnail plugin  -->
-<script src="js/thumbnail-slider.js"></script>
+<!-- <script src="js/thumbnail-slider.js"></script> -->
 <!-- All the custom js are here  -->
 <script src="js/custom.js"></script>
 </body>
