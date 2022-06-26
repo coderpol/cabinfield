@@ -358,7 +358,12 @@
 
 .shopping-cart-section{
     margin-bottom:$m-70;
-    
+    .section-title{
+        p{
+            @include font($font-18,$line-23);
+            color:$gray-dark-3;
+        }
+    }
     @include upto-phone{
         margin-bottom: $m-20;
     }
@@ -384,7 +389,7 @@
             .title{
                 margin-bottom:$m-15;
                 p{
-                    @include font($font-24,$line-31,$font-bold);
+                    @include font($font-18,$line-23,$font-bold);
                     margin-bottom:5px;
                     color:$blue-darkest;
                 }
@@ -486,6 +491,7 @@
             }
             .buttons{
                 .btn{
+                    font-size: 16px;
                     margin-top:$m-20;
                     padding:15px 10px;
                 }

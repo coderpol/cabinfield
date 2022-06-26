@@ -19,7 +19,7 @@ include_once('sections/layouts/header.php')
         <!-- page title ends  -->
         
         <!-- shopping items area  -->
-        <div class="row">
+        <div class="row shopping-cart-area">
             <div class="col-md-8">
                 <!-- one item  -->
                 <div class="row cart-item">

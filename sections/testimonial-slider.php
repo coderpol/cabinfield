@@ -5,7 +5,7 @@
         for($i=1;$i<4;$i++){
     ?>
      <!-- One single testimonial  -->
-    <div class="slide">
+    <div class="slide quotation-area">
         <div class="quotation">
             <!-- The quote  -->
             <blockquote>
