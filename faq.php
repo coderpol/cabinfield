@@ -32,7 +32,7 @@ include_once('sections/layouts/header.php')
             <!-- header ends -->
             
             <!-- faq area starts  -->
-            <div class="col-md-12 accordion-area">
+            <div class="col-md-12 accordion-area faq-accordion">
                 <!-- category title  -->
                 <div class="accordion-section-title">
                     <h3>Customizations</h3>

@@ -13,7 +13,7 @@ include_once('sections/layouts/header.php')
         <div class="row mb-3">
             <div class="col-md-12 section-title small">
                 <h3>Shopping Cart</h3>
-                <p>Ordered for 800001 zip code</p>
+                <p class="">Ordered for 800001 zip code</p>
             </div>
         </div>
         <!-- page title ends  -->

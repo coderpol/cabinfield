@@ -214,12 +214,29 @@
                 }
             }
         }
-        .accordion-body{
-            padding-left:0;
+        .accordion-collapse{
+            .accordion-body{
+                padding-left:0;
+                
+            }
         }
         .accordion-flush{
             .accordion-item{
                 border-bottom: $thin solid $gray-light-1;
+            }
+        }
+        &.faq-accordion{
+            .accordion-button{
+                border-color:$gray-light-1;
+            }
+            .accordion-collapse{
+                .accordion-body{
+                    padding-left:$m-25;
+                    background-color: #F7F7F7;
+                    p{
+                        color:$gray-dark-3;
+                    }
+                }
             }
         }
     }
