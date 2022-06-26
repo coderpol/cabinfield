@@ -126,7 +126,11 @@
             justify-content: flex-start;
             align-items: center;
             li{
-                margin-right:$m-10;
+                margin-right:$m-20;
+                &:last-child{
+                    margin-right:0;
+                }
+                
             }
         }
         .pricing{
