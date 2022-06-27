@@ -14,6 +14,9 @@
 	text-align:center;
 	line-height:0px;
     padding: 10px 110px 0;
+    @include upto-phone{
+        padding: 10px 40px 0;
+    }
     img{
         max-height:100%;
         max-width:100%;

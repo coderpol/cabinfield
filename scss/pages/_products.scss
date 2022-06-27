@@ -10,7 +10,7 @@
     .product-gallery{
         position:relative;
         @include upto-tablet{
-            margin-bottom:140px;
+            margin-bottom:40px;
         }
         .gallery-thumb{
             position:absolute;
