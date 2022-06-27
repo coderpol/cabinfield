@@ -526,7 +526,11 @@
         }
     }
     
-    
+    .card{
+        .btn{
+            @include font($font-16,$line-18);
+        }
+    }
 }
 
 // @include upto-phone{
