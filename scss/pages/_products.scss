@@ -513,6 +513,29 @@
             }
         }
     }
+    .quote-form-area{
+        .form-check{
+            padding-left:0;
+            margin:15px 0;
+            &.right-side{
+                position:relative;
+                .form-check-input{
+                    position:absolute;
+                    right:0;
+                }
+                .form-check-label{
+                    @include font($font-16,$line-21,$font-medium);
+                    color:#121212;
+                    padding-right: 40px;
+                }
+            }
+        }
+        .submit-button{
+            .btn{
+                font-weight: 400;
+            }
+        }
+    }
     .order-details{
         margin-top:$m-60;
         h4{

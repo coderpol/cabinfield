@@ -12,6 +12,26 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet"> <!-- including dm sans font -->
     <link rel="stylesheet" href="css/style.css"> <!-- Include the custom css at the last -->
+    <script id="img-wrapper-tmpl" type="text/x-jquery-tmpl">	
+        <div class="rg-image-wrapper">
+            {{if itemsCount > 1}}
+                <div class="rg-image-nav">
+                    <a href="#" class="rg-image-nav-prev"><i class="fa-solid fa-chevron-left"></i></a>
+                    <a href="#" class="rg-image-nav-next"><i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+            {{/if}}
+            <div class="rg-image"></div>
+            <div class="rg-loading"></div>
+            <div class="rg-caption-wrapper">
+                <div class="rg-caption" style="display:none;">
+                    <p></p>
+                </div>
+            </div>
+            <div class="button-area">
+                <a href="#" class="icon shadow"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+        </div>
+    </script>
 </head>
 <body>
 <?php include_once('sections/components/topbar.php') ?>

@@ -170,47 +170,48 @@ $('.product-slider').slick({
 
 
 // product gallery
-$('#thumbnail-horizontal').slick({
-  dots: false,
-  infinite: true,
-  speed: 300,
-  slidesToShow: 6,
-  slidesToScroll: 2,
-  centerPadding: '10px',
-  responsive: [
-    {
-      breakpoint: 992,
-      settings: {
-        slidesToShow: 10,
-        slidesToScroll: 1,
-      }
-    },
-    {
-      breakpoint: 800,
-      settings: {
-        slidesToShow: 7,
-        slidesToScroll: 2
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 5,
-        slidesToScroll: 1
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 4,
-        slidesToScroll: 1
-      }
-    }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
-  ]
-});
+// $('#thumbnail-horizontal').slick({
+//   dots: false,
+//   infinite: true,
+//   speed: 300,
+//   slidesToShow: 6,
+//   slidesToScroll: 2,
+//   centerPadding: '10px',
+//   responsive: [
+//     {
+//       breakpoint: 992,
+//       settings: {
+//         slidesToShow: 10,
+//         slidesToScroll: 1,
+//       }
+//     },
+//     {
+//       breakpoint: 800,
+//       settings: {
+//         slidesToShow: 7,
+//         slidesToScroll: 2
+//       }
+//     },
+//     {
+//       breakpoint: 600,
+//       settings: {
+//         slidesToShow: 5,
+//         slidesToScroll: 1
+//       }
+//     },
+//     {
+//       breakpoint: 480,
+//       settings: {
+//         slidesToShow: 4,
+//         slidesToScroll: 1
+//       }
+//     }
+//     // You can unslick at a given breakpoint now by adding:
+//     // settings: "unslick"
+//     // instead of a settings object
+//   ]
+// });
+
 // clicking function
 $('.gallery-thumb .thumb').click(function(){
   var largeImage = $(this).attr('data-full');
