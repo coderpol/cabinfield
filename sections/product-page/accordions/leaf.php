@@ -12,9 +12,9 @@
                 <div class="stack">
                     <input type="radio" name="leaf-type" class="btn-check" id="leaf-1">
                     <label class="btn" for="leaf-1">
-                        <div class="text">
+                        <span class="text">
                             <p><span>Solid Top</span> <strong>Standard</strong></p>
-                        </div>
+                        </span>
                     </label>
                     <span class="open-details" data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-magnifying-glass"></i></span>
                     <h5>Medium OCS-110 </h5>
@@ -27,9 +27,7 @@
                 <div class="stack">
                     <input type="radio" name="leaf-type" class="btn-check" id="leaf-2">
                     <label class="btn" for="leaf-2">
-                        <div class="figure">
-                            <img src="images/leaf/leaf-2.png" alt="">
-                        </div>
+                        <img src="images/leaf/leaf-2.png" alt="">
                     </label>
                     <span class="open-details" data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-magnifying-glass"></i></span>
                     <h5>Medium OCS-110 </h5>
@@ -42,9 +40,7 @@
                 <div class="stack">
                     <input type="radio" name="leaf-type" class="btn-check" id="leaf-3">
                     <label class="btn" for="leaf-3">
-                        <div class="figure">
-                            <img src="images/leaf/leaf-3.png" alt="">
-                        </div>
+                        <img src="images/leaf/leaf-3.png" alt="">
                     </label>
                     <span class="open-details" data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-magnifying-glass"></i></span>
                     <h5>Medium OCS-110 </h5>

@@ -1,8 +1,8 @@
 <div class="accordion-item">
-    <div class="accordion-header" id="headingFifth">
-        <h4 class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseFifth" aria-expanded="true" aria-controls="collapseFifth">Fabric: <span data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-circle-question"></i></span></h4>
+    <div class="accordion-header" id="headingSix">
+        <h4 class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">Fabric: <span data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-circle-question"></i></span></h4>
     </div>
-    <div id="collapseFifth" class="accordion-collapse collapse show" aria-labelledby="headingFifth">
+    <div id="collapseSix" class="accordion-collapse collapse show" aria-labelledby="headingSix">
         <div class="accordion-body">
             <div class="alert" role="alert">
                 <i class="fa-solid fa-circle-info"></i>
@@ -15,9 +15,7 @@
                 <div class="stack">
                     <input type="radio" name="stain-type" class="btn-check" id="stain-<?php echo $i; ?>">
                     <label class="btn" for="stain-<?php echo $i; ?>">
-                        <div class="figure">
-                            <img src="images/fabric/thumb/fabric.png" alt="">
-                        </div>
+                        <img src="images/fabric/thumb/fabric.png" alt="">
                     </label>
                     <span class="open-details" data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-magnifying-glass"></i></span>
                     <h5>Medium OCS-110 </h5>
