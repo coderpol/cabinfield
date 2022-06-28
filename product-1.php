@@ -50,7 +50,7 @@ include_once('sections/layouts/header.php')
                     </li>
                 </ul>
                 <div class="tab-content" id="pills-tabContent">
-                    <div class="tab-pane fade show active" id="pills-1" role="tabpanel" aria-labelledby="Customize">
+                    <div class="tab-pane fade show active" id="pills-1" role="tabpanel" aria-labelledby="pills-1">
                         <form action="#" class="cabinform">
                             <div class="accordion" id="customizations">
                                 <!-- First accordion -->
@@ -76,10 +76,10 @@ include_once('sections/layouts/header.php')
                             <?php include_once('sections/product-page/order-details.php') ?>
                         </form>
                     </div>
-                    <div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="Specs & Features">
+                    <div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="pills-2">
                         <?php include_once('sections/product-page/tabs/specs.php') ?>
                     </div>
-                    <div class="tab-pane fade" id="pills-3" role="tabpanel" aria-labelledby="Reviews & Testimonials">
+                    <div class="tab-pane fade" id="pills-3" role="tabpanel" aria-labelledby="pills-3">
                         <?php include_once('sections/product-page/tabs/review.php') ?>
                     </div>
                 </div>
