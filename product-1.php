@@ -71,62 +71,72 @@ include_once('sections/layouts/header.php')
                             <?php include_once('sections/product-page/accordions/fabric.php') ?>
 
                         </div>
-                        <div class="border-bottom mb-5"></div>
-                        <div class="quote-form-area">
-                            <div class="section-sub-title mb-4">
-                                <h4>For a Shipping Quote please enter below:</h4>
-                            </div>
-                            <div class="row form-line">
-                                <div class="col-md-6 col-12">
-                                    <label for="zip" class="form-label">Zip Code</label>
-                                    <input type="text" class="form-control" id="zip" aria-label="Zip Code" required>
-                                </div>
-                            </div>
-                            <div class="row form-line">
-                                <div class="col-md-5 col-12">
-                                    <div class="form-check right-side">
-                                        <input class="form-check-input" type="checkbox" name="com-address" id="com-address" value="yes">
-                                        <label class="form-check-label black" for="com-address">Please check for delivery to a commercial addres</label>
+                        <div class="border-bottom mb-0"></div>
+                        <div class="order-details">
+                            <h4>
+                                Shipping prices calculated for zip code: 
+                                <span class="blue">10001</span> 
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-pen-to-square"></i> Edit</a>
+                            </h4>
+                            
+                            
+                            <div class="modal fade" id="edit_zip" tabindex="-1" aria-labelledby="edit_zip" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Edit Zip Code</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
-                                    <div class="form-check right-side">
-                                        <input class="form-check-input" type="checkbox" name="forklift" id="forklift" value="yes">
-                                        <label class="form-check-label black" for="forklift">Please check if you have a forklift available to unload</label>
+                                    <div class="modal-body">
+                                        <form action="#" class="row form-line">
+                                            <div class="col-12">
+                                                <label for="" class="form-label">Zip Code</label>
+                                                <input type="number" class="form-control" placeholder="Enter your zip code" value="10001" aria-label="Zip Code">
+                                            </div>
+                                        </form>
                                     </div>
-                                    <div class="form-check right-side">
-                                        <input class="form-check-input" type="checkbox" name="assembly" id="assembly" value="yes">
-                                        <label class="form-check-label black" for="assembly">Please check for quote for assembling your gazebo</label>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Update</button>
+                                    </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="row form-line">
-                                <div class="col-md-6 col-12">
-                                    <label for="firstname" class="form-label">First Name</label>
-                                    <input type="text" class="form-control" id="firstname" aria-label="First Name" required>
+                            
+                            
+                            <h4>Shipping Type:</h4>
+                            <div class="col-md-4 option-area">
+                                <div class="shipping-option">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="shipping-type" id="shipping-1" value="shipping-1" checked>
+                                        <label class="form-check-label" for="shipping-1">
+                                        Standard curbside delivery <span class="value">+$30.40</span>
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="shipping-type" id="shipping-2" value="shipping-2">
+                                        <label class="form-check-label" for="shipping-2">
+                                            Inside delivery <span class="value">+$250.21</span>
+                                        </label>
+                                    </div>
                                 </div>
-                                <div class="col-md-6 col-12">
-                                    <label for="lastname" class="form-label">Last Name</label>
-                                    <input type="text" class="form-control" id="lastname" aria-label="Last Name" required>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" name="assembly" id="assembly" value="on-site">
+                                    <label class="form-check-label black" for="assembly">
+                                    On-site assembly <span class="value">+$800.00</span>
+                                    </label>
                                 </div>
                             </div>
-                            <div class="row form-line">
-                                <div class="col-md-6 col-12">
-                                    <label for="phone" class="form-label">Phone Number <span>(optional)</span></label>
-                                    <input type="text" class="form-control" id="phone" aria-label="Phone Number" required>
-                                </div>
-                                <div class="col-md-6 col-12">
-                                    <label for="email" class="form-label">Email</label>
-                                    <input type="email" class="form-control" id="email" aria-label="Email" required>
-                                </div>
-                            </div>
-                            <div class="row form-line">
-                                <div class="col-12">
-                                    <label for="comments" class="form-label">Comments</label>
-                                    <textarea class="form-control" name="comments" id="comments" rows="5" required></textarea>
-                                </div>
-                            </div>
+                            <h4>Combined value shipping: <span class="blue">Yes</span></h4>
+                            <p><a href="#">More Info About Your Savings</a></p>
+                            <p class="value">$1,371.00</p>
+                            <p class="note">
+                                <span>+$30.40</span> Standard curbside delivery to 10001<br/>
+                                <span>+$250.21</span>  On-site assembly
+                            </p>
                             <div class="submit-button">
-                                <button type="submit" class="btn btn-primary btn-large">Request Quote</button>
-                            </div>
+                                <button type="submit" class="btn btn-primary btn-large">Add to Cart</button>
+                            </div>              
                         </div>
                     </form>
                     <div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="Specs & Features">
@@ -141,6 +151,7 @@ include_once('sections/layouts/header.php')
         <div class="border-bottom mb-0"></div>
     </div>
 </div>
+
 <?php include_once('sections/product-page/sliders-area.php') ?>
 
 

@@ -14,6 +14,9 @@
                 @include upto-phone{
                     margin-bottom:$m-50;
                 }
+                @include upto-tablet{
+                    flex-basis:100%;
+                }
                 a{
                     display: block;
                 }
@@ -81,6 +84,9 @@
                             }
                         }
                         .features{
+                            @include from-pc{
+                                min-height: 180px;
+                            }
                             ul,ol{
                                 color:$gray-dark-3;
                                 @include font($font-14,$line-18);
@@ -179,32 +185,4 @@
     }
 }
 
-@include upto-tablet{
-    .products-section{
-        .products-area{
-            &.type-a{
-                .product{
-                    flex-basis:100%;
-                }
-            }
-        }
-    }
-}
 
-@include from-pc{
-    .products-section{
-        .products-area{
-            &.type-b{
-                .product{
-                    .action-area{
-                        .action{
-                            .features{
-                                min-height: 180px;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-}

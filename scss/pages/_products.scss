@@ -12,10 +12,49 @@
         @include upto-tablet{
             margin-bottom:40px;
         }
+        .gallery-full{
+            // background-color: #F6F7F9;
+            display: block;
+            position:relative;
+            overflow:hidden;
+            padding-top:7px;
+            @include upto-tablet{
+                padding:0;
+            }
+            width: 100%;
+            z-index:5;
+            .gallery-field{
+                // display: flex;
+                // justify-content: center;
+                // align-items: center;
+                @include above-phone{
+                    // min-height: 410px;
+                }
+                @include phone-to-tablet{
+                    // padding-bottom:170px;
+                }
+            }
+            img{
+                // max-width: 460px;
+                @include phone-small{
+                    // min-width: 320px;
+                }
+            }
+            #caption{
+                width:100%;
+                z-index:20;
+                // background: rgba(30, 36, 44, 0.1);
+                backdrop-filter: blur(10px);
+                margin:20px 0 10px 0;
+                margin-bottom:0;
+                color:$gray-dark-3;
+                @include font($font-14,$line-18,$font-medium);
+            }
+        }
         .gallery-thumb{
-            position:absolute;
-            width: calc(100% - 26px);
-            height: 100px;
+            width: calc(100% - 40px);
+            margin-left: auto;
+            margin-right: auto;
             z-index:10;
             .thumb{
                 display: flex;
@@ -23,72 +62,47 @@
                 justify-content: center;
                 align-items: center;
                 background: $white;
-                @include square(80px);
+                // @include square(95px);
                 @include rounded($m-10);
                 cursor:pointer;
                 border:1px solid $white;
-                margin:10px 5px;
-                box-shadow: 0 12px 20px rgba($black,0.12);
+                margin:10px 12px;
+                box-shadow: 0px 0px 15px rgba($black,0.1);
                 &:hover{
                     border-color:$brand-color;
                 }
             }
             .slick-list{
                 overflow: hidden;
+                padding:20px 0px 0px;
             }
             .slick-arrow{
-                @include square(32px);
-                @include rounded(20px);
-                background-size: 22px;
-                margin-top: -16px !important;
+                // @include square(32px);
+                // @include rounded(20px);
+                border-radius: 0;
+                background: url(../images/slider-arrows.png) no-repeat;
+                box-shadow: none;
+                width: 17px;
+                height:41px;
+                background-size: 14px;
+                position:absolute;
+                top: 50%;
+                margin-top: -10px !important;
                 display: inline-block !important;
                 &.slick-prev{
-                    left:3px !important;
+                    left:-23px !important;
+                    background-position: left bottom !important;
                 }
                 &.slick-next{
-                    right:3px !important;
+                    background-position: left top  !important;
+                    right:-23px !important;
+                }
+                &:hover,&:active{
+                    border-color:white;
                 }
             }
         }
-        .gallery-full{
-            // background-color: #F6F7F9;
-            display: block;
-            position:relative;
-            overflow:hidden;
-            @include upto-tablet{
-                padding:0;
-            }
-            width: 100%;
-            z-index:5;
-            .gallery-field{
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                padding:$m-30;
-                @include above-phone{
-                    min-height: 410px;
-                }
-                @include phone-to-tablet{
-                    // padding-bottom:170px;
-                }
-            }
-            img{
-                max-width: 460px;
-                @include phone-small{
-                    min-width: 320px;
-                }
-            }
-            p{
-                width:100%;
-                z-index:20;
-                background: rgba(30, 36, 44, 0.1);
-                backdrop-filter: blur(10px);
-                padding:$m-10 $m-20;
-                margin-bottom:0;
-                color:$blue-darkest;
-                @include font($font-14,$line-18,$font-medium);
-            }
-        }
+        
         .button-area{
             position:absolute;
             bottom:15px;
