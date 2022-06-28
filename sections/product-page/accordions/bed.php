@@ -2,7 +2,7 @@
     <div class="accordion-header" id="headingOne">
         <h4 class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Bed Size:  <span class="blue">Full Bed</span> <span data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-circle-question"></i></span></h4>
     </div>
-    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#customizations">
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne">
         <div class="accordion-body">
             <div class="form-check form-check-inline">
                 <input type="radio" name="bed-size" class="btn-check" id="bed-1" autocomplete="off">

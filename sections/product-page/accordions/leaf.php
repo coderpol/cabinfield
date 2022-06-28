@@ -2,7 +2,7 @@
     <div class="accordion-header" id="headingFour">
         <h4 class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">Leaf Option:  <span class="blue">Solid Top (Standard)</span> <span data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-circle-question"></i></span></h4>
     </div>
-    <div id="collapseFour" class="accordion-collapse collapse show" aria-labelledby="headingFour" data-bs-parent="#customizations">
+    <div id="collapseFour" class="accordion-collapse collapse show" aria-labelledby="headingFour">
         <div class="accordion-body">
             <div class="alert" role="alert">
                 <i class="fa-solid fa-circle-info"></i>

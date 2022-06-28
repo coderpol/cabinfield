@@ -2,7 +2,7 @@
     <div class="accordion-header" id="headingFifth">
         <h4 class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFifth" aria-expanded="true" aria-controls="collapseFifth">Fabric: <span data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-circle-question"></i></span></h4>
     </div>
-    <div id="collapseFifth" class="accordion-collapse collapse show" aria-labelledby="headingFifth" data-bs-parent="#customizations">
+    <div id="collapseFifth" class="accordion-collapse collapse show" aria-labelledby="headingFifth">
         <div class="accordion-body">
             <div class="alert" role="alert">
                 <i class="fa-solid fa-circle-info"></i>
