@@ -4,7 +4,7 @@
             <h3>Customer Reviews for Indian Creek Panel Amish Bed</h3>
         </div>
         <div class="quotation">
-            <p><em> I received my bedframe in perfect condition. It's gorgeous, I couldn't be happier <img src="https://mail.google.com/mail/e/263a" border="0" alt="☺" data-goomoji="263a">️. Thank you so much!</em></p>
+            <p><em> I received my bedframe in perfect condition. It's gorgeous, I couldn't be happier <img src="https://mail.google.com/mail/e/263a" alt="☺" data-goomoji="263a">️. Thank you so much!</em></p>
             <p>
                 <span class="author">Samantha William <i class="fa-solid fa-circle-check"></i></span>
                 <span class="address">Ocean Shores, WA March 7, 2018</span>
