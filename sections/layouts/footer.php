@@ -26,12 +26,12 @@
 				<!-- social icons  ends -->
 				
 				
-				<!-- Newsletter butotn -->
+				<!-- Newsletter button -->
 				<p class="newsletter">
 					<i class="fa-solid fa-envelope"></i>
 					<a href="index.php">Subscribe for Newsletter</a>
 				</p>
-				<!-- Newsletter butotn ends -->
+				<!-- Newsletter button ends -->
 				
 				<!-- Telephone no area. only visible to smaller screen -->
 				<div class="upto-tablet telephone">
