@@ -10,141 +10,141 @@
             </div>
             <div class="stack-area">
                 <div class="stack">
-                    <input type="radio" name="stain-type" class="btn-check" id="stain-1" autocomplete="off">
+                    <input type="radio" name="stain-type" class="btn-check" id="stain-1">
                     <label class="btn" for="stain-1">
-                        <figure class="figure">
+                        <div class="figure">
                             <img src="images/stain/stain-1.png" alt="">
-                        </figure>
+                        </div>
                     </label>
                     <span class="open-details" data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-magnifying-glass"></i></span>
                     <h5>Medium OCS-110 </h5>
                 </div>
                 <div class="stack">
-                    <input type="radio" name="stain-type" class="btn-check" id="stain-2" autocomplete="off">
+                    <input type="radio" name="stain-type" class="btn-check" id="stain-2">
                     <label class="btn" for="stain-2">
-                        <figure class="figure">
+                        <div class="figure">
                             <img src="images/stain/stain-2.png" alt="">
-                        </figure>
+                        </div>
                     </label>
                     <span class="open-details" data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-magnifying-glass"></i></span>
                     <h5>Medium OCS-110 </h5>
                 </div>
                 <div class="stack">
-                    <input type="radio" name="stain-type" class="btn-check" id="stain-3" autocomplete="off">
+                    <input type="radio" name="stain-type" class="btn-check" id="stain-3">
                     <label class="btn" for="stain-3">
-                        <figure class="figure">
+                        <div class="figure">
                             <img src="images/stain/stain-3.png" alt="">
-                        </figure>
+                        </div>
                     </label>
                     <span class="open-details" data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-magnifying-glass"></i></span>
                     <h5>Medium OCS-110 </h5>
                 </div>
                 <div class="stack">
-                    <input type="radio" name="stain-type" class="btn-check" id="stain-4" autocomplete="off">
+                    <input type="radio" name="stain-type" class="btn-check" id="stain-4">
                     <label class="btn" for="stain-4">
-                        <figure class="figure">
+                        <div class="figure">
                             <img src="images/stain/stain-1.png" alt="">
-                        </figure>
+                        </div>
                     </label>
                     <span class="open-details" data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-magnifying-glass"></i></span>
                     <h5>Medium OCS-110 </h5>
                 </div>
                 <div class="stack">
-                    <input type="radio" name="stain-type" class="btn-check" id="stain-5" autocomplete="off">
+                    <input type="radio" name="stain-type" class="btn-check" id="stain-5">
                     <label class="btn" for="stain-5">
-                        <figure class="figure">
+                        <div class="figure">
                             <img src="images/stain/stain-2.png" alt="">
-                        </figure>
+                        </div>
                     </label>
                     <span class="open-details" data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-magnifying-glass"></i></span>
                     <h5>Medium OCS-110 </h5>
                 </div>
                 <div class="stack">
-                    <input type="radio" name="stain-type" class="btn-check" id="stain-6" autocomplete="off">
+                    <input type="radio" name="stain-type" class="btn-check" id="stain-6">
                     <label class="btn" for="stain-6">
-                        <figure class="figure">
+                        <div class="figure">
                             <img src="images/stain/stain-3.png" alt="">
-                        </figure>
+                        </div>
                     </label>
                     <span class="open-details" data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-magnifying-glass"></i></span>
                     <h5>Medium OCS-110 </h5>
                 </div>
                 <div class="stack">
-                    <input type="radio" name="stain-type" class="btn-check" id="stain-7" autocomplete="off">
+                    <input type="radio" name="stain-type" class="btn-check" id="stain-7">
                     <label class="btn" for="stain-7">
-                        <figure class="figure">
+                        <div class="figure">
                             <img src="images/stain/stain-1.png" alt="">
-                        </figure>
+                        </div>
                     </label>
                     <span class="open-details" data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-magnifying-glass"></i></span>
                     <h5>Medium OCS-110 </h5>
                 </div>
                 <div class="stack">
-                    <input type="radio" name="stain-type" class="btn-check" id="stain-8" autocomplete="off">
+                    <input type="radio" name="stain-type" class="btn-check" id="stain-8">
                     <label class="btn" for="stain-8">
-                        <figure class="figure">
+                        <div class="figure">
                             <img src="images/stain/stain-1.png" alt="">
-                        </figure>
+                        </div>
                     </label>
                     <span class="open-details" data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-magnifying-glass"></i></span>
                     <h5>Medium OCS-110 </h5>
                 </div>
                 <div class="stack">
-                    <input type="radio" name="stain-type" class="btn-check" id="stain-9" autocomplete="off">
+                    <input type="radio" name="stain-type" class="btn-check" id="stain-9">
                     <label class="btn" for="stain-9">
-                        <figure class="figure">
+                        <div class="figure">
                             <img src="images/stain/stain-2.png" alt="">
-                        </figure>
+                        </div>
                     </label>
                     <span class="open-details" data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-magnifying-glass"></i></span>
                     <h5>Medium OCS-110 </h5>
                 </div>
                 <div class="stack">
-                    <input type="radio" name="stain-type" class="btn-check" id="stain-10" autocomplete="off">
+                    <input type="radio" name="stain-type" class="btn-check" id="stain-10">
                     <label class="btn" for="stain-10">
-                        <figure class="figure">
+                        <div class="figure">
                             <img src="images/stain/stain-3.png" alt="">
-                        </figure>
+                        </div>
                     </label>
                     <span class="open-details" data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-magnifying-glass"></i></span>
                     <h5>Medium OCS-110 </h5>
                 </div>
                 <div class="stack">
-                    <input type="radio" name="stain-type" class="btn-check" id="stain-11" autocomplete="off">
+                    <input type="radio" name="stain-type" class="btn-check" id="stain-11">
                     <label class="btn" for="stain-11">
-                        <figure class="figure">
+                        <div class="figure">
                             <img src="images/stain/stain-1.png" alt="">
-                        </figure>
+                        </div>
                     </label>
                     <span class="open-details" data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-magnifying-glass"></i></span>
                     <h5>Medium OCS-110 </h5>
                 </div>
                 <div class="stack">
-                    <input type="radio" name="stain-type" class="btn-check" id="stain-12" autocomplete="off">
+                    <input type="radio" name="stain-type" class="btn-check" id="stain-12">
                     <label class="btn" for="stain-12">
-                        <figure class="figure">
+                        <div class="figure">
                             <img src="images/stain/stain-2.png" alt="">
-                        </figure>
+                        </div>
                     </label>
                     <span class="open-details" data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-magnifying-glass"></i></span>
                     <h5>Medium OCS-110 </h5>
                 </div>
                 <div class="stack">
-                    <input type="radio" name="stain-type" class="btn-check" id="stain-13" autocomplete="off">
+                    <input type="radio" name="stain-type" class="btn-check" id="stain-13">
                     <label class="btn" for="stain-13">
-                        <figure class="figure">
+                        <div class="figure">
                             <img src="images/stain/stain-3.png" alt="">
-                        </figure>
+                        </div>
                     </label>
                     <span class="open-details" data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-magnifying-glass"></i></span>
                     <h5>Medium OCS-110 </h5>
                 </div>
                 <div class="stack">
-                    <input type="radio" name="stain-type" class="btn-check" id="stain-14" autocomplete="off">
+                    <input type="radio" name="stain-type" class="btn-check" id="stain-14">
                     <label class="btn" for="stain-14">
-                        <figure class="figure">
+                        <div class="figure">
                             <img src="images/stain/stain-1.png" alt="">
-                        </figure>
+                        </div>
                     </label>
                     <span class="open-details" data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-magnifying-glass"></i></span>
                     <h5>Medium OCS-110 </h5>

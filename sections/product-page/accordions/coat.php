@@ -9,23 +9,23 @@
                 <p>Multiple options can be selected</p>
             </div>
             <div class="form-check form-check-inline">
-                <input type="checkbox" name="coat-rack" checked class="btn-check" id="coat-rack-1" autocomplete="off">
+                <input type="checkbox" name="coat-rack" checked class="btn-check" id="coat-rack-1">
                 <label class="btn" for="coat-rack-1">Wooden pegs on right  <span>+ $85</span></label>
             </div>
             <div class="form-check form-check-inline">
-                <input type="checkbox" name="coat-rack" checked class="btn-check" id="coat-rack-2" autocomplete="off">
+                <input type="checkbox" name="coat-rack" checked class="btn-check" id="coat-rack-2">
                 <label class="btn" for="coat-rack-2">Wooden pegs on right  <span>+ $85</span></label>
             </div>
             <div class="form-check form-check-inline">
-                <input type="checkbox" name="coat-rack" class="btn-check" id="coat-rack-3" autocomplete="off">
+                <input type="checkbox" name="coat-rack" class="btn-check" id="coat-rack-3">
                 <label class="btn" for="coat-rack-3">Antler pegs on right  <span>+ $85</span></label>
             </div>
             <div class="form-check form-check-inline">
-                <input type="checkbox" name="coat-rack" class="btn-check" id="coat-rack-4" autocomplete="off">
+                <input type="checkbox" name="coat-rack" class="btn-check" id="coat-rack-4">
                 <label class="btn" for="coat-rack-4">King Bed <span>+ $195</span></label>
             </div>
             <div class="form-check form-check-inline">
-                <input type="checkbox" name="coat-rack" class="btn-check" id="coat-rack-5" autocomplete="off">
+                <input type="checkbox" name="coat-rack" class="btn-check" id="coat-rack-5">
                 <label class="btn" for="coat-rack-5">Wooden pegs on left both sides  <span>+ $185</span></label>
             </div>
             <div class="row form-line mt-3">

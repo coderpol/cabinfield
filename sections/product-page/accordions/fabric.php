@@ -13,11 +13,11 @@
                     for($i=21;$i<=76;$i++){
                 ?>
                 <div class="stack">
-                    <input type="radio" name="stain-type" class="btn-check" id="stain-<?php echo $i; ?>" autocomplete="off">
+                    <input type="radio" name="stain-type" class="btn-check" id="stain-<?php echo $i; ?>">
                     <label class="btn" for="stain-<?php echo $i; ?>">
-                        <figure class="figure">
+                        <div class="figure">
                             <img src="images/fabric/thumb/fabric.png" alt="">
-                        </figure>
+                        </div>
                     </label>
                     <span class="open-details" data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-magnifying-glass"></i></span>
                     <h5>Medium OCS-110 </h5>

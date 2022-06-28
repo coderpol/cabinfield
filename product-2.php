@@ -40,40 +40,42 @@ include_once('sections/layouts/header.php')
             <div class="col-md-12">
                 <ul class="nav nav-pills mb-4" id="pills-tab" role="tablist">
                     <li class="nav-item" role="presentation">
-                        <span class="nav-link active" data-bs-toggle="pill" data-bs-target="#pills-1" type="button" role="tab" aria-controls="pills-1" aria-selected="true">Customize</span>
+                        <span class="nav-link active" data-bs-toggle="pill" data-bs-target="#pills-1" role="tab" aria-controls="pills-1" aria-selected="true">Customize</span>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <span class="nav-link" data-bs-toggle="pill" data-bs-target="#pills-2" type="button" role="tab" aria-controls="pills-2" aria-selected="false">Specs & Features</span>
+                        <span class="nav-link" data-bs-toggle="pill" data-bs-target="#pills-2" role="tab" aria-controls="pills-2" aria-selected="false">Specs & Features</span>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <span class="nav-link" data-bs-toggle="pill" data-bs-target="#pills-3" type="button" role="tab" aria-controls="pills-3" aria-selected="false">Reviews & Testimonials</span>
+                        <span class="nav-link" data-bs-toggle="pill" data-bs-target="#pills-3" role="tab" aria-controls="pills-3" aria-selected="false">Reviews & Testimonials</span>
                     </li>
                 </ul>
                 <div class="tab-content" id="pills-tabContent">
-                    <form action="#" class="cabinform tab-pane fade show active" id="pills-1" role="tabpanel" aria-labelledby="Customize">
-                        <div class="accordion" id="customizations">
-                            <!-- First accordion -->
-                            <?php include_once('sections/product-page/accordions/bed.php') ?>
-                            
-                            <!-- second accordion  -->
-                            <?php include_once('sections/product-page/accordions/wood.php') ?>
-                            
-                            <!-- third accordion  -->
-                            <?php include_once('sections/product-page/accordions/strain.php') ?>
-                            
-                            <!-- fourth accordion  -->
-                            <?php include_once('sections/product-page/accordions/leaf.php') ?>
-                            
-                            <!-- fifth accordion  -->
-                            <?php include_once('sections/product-page/accordions/coat.php') ?>
-                            
-                            <!-- sixth accordion  -->
-                            <?php include_once('sections/product-page/accordions/fabric.php') ?>
+                    <div class="tab-pane fade show active" id="pills-1" role="tabpanel" aria-labelledby="Customize">
+                        <form action="#" class="cabinform">
+                            <div class="accordion" id="customizations">
+                                <!-- First accordion -->
+                                <?php include_once('sections/product-page/accordions/bed.php') ?>
+                                
+                                <!-- second accordion  -->
+                                <?php include_once('sections/product-page/accordions/wood.php') ?>
+                                
+                                <!-- third accordion  -->
+                                <?php include_once('sections/product-page/accordions/strain.php') ?>
+                                
+                                <!-- fourth accordion  -->
+                                <?php include_once('sections/product-page/accordions/leaf.php') ?>
+                                
+                                <!-- fifth accordion  -->
+                                <?php include_once('sections/product-page/accordions/coat.php') ?>
+                                
+                                <!-- sixth accordion  -->
+                                <?php include_once('sections/product-page/accordions/fabric.php') ?>
 
-                        </div>
-                        <div class="border-bottom mb-0"></div>
-                        <?php include_once('sections/product-page/quote-form-area.php') ?>
-                    </form>
+                            </div>
+                            <div class="border-bottom mb-0"></div>
+                            <?php include_once('sections/product-page/quote-form-area.php') ?>
+                        </form>
+                    </div>
                     <div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="Specs & Features">
                         <?php include_once('sections/product-page/tabs/specs.php') ?>
                     </div>

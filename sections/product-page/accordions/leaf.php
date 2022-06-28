@@ -10,7 +10,7 @@
             </div>
             <div class="stack-area checkbox-type">
                 <div class="stack">
-                    <input type="radio" name="leaf-type" class="btn-check" id="leaf-1" autocomplete="off">
+                    <input type="radio" name="leaf-type" class="btn-check" id="leaf-1">
                     <label class="btn" for="leaf-1">
                         <div class="text">
                             <p><span>Solid Top</span> <strong>Standard</strong></p>
@@ -25,11 +25,11 @@
                     </div>
                 </div>
                 <div class="stack">
-                    <input type="radio" name="leaf-type" class="btn-check" id="leaf-2" autocomplete="off">
+                    <input type="radio" name="leaf-type" class="btn-check" id="leaf-2">
                     <label class="btn" for="leaf-2">
-                        <figure class="figure">
+                        <div class="figure">
                             <img src="images/leaf/leaf-2.png" alt="">
-                        </figure>
+                        </div>
                     </label>
                     <span class="open-details" data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-magnifying-glass"></i></span>
                     <h5>Medium OCS-110 </h5>
@@ -40,11 +40,11 @@
                     </div>
                 </div>
                 <div class="stack">
-                    <input type="radio" name="leaf-type" class="btn-check" id="leaf-3" autocomplete="off">
+                    <input type="radio" name="leaf-type" class="btn-check" id="leaf-3">
                     <label class="btn" for="leaf-3">
-                        <figure class="figure">
+                        <div class="figure">
                             <img src="images/leaf/leaf-3.png" alt="">
-                        </figure>
+                        </div>
                     </label>
                     <span class="open-details" data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-magnifying-glass"></i></span>
                     <h5>Medium OCS-110 </h5>
