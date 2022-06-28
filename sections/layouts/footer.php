@@ -86,12 +86,5 @@
 
 <!-- All the custom js are here  -->
 <script src="js/custom.js"></script>
-
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.0/jquery-migrate.min.js" integrity="sha512-QDsjSX1mStBIAnNXx31dyvw4wVdHjonOwrkaIhpiIlzqGUCdsI62MwQtHpJF+Npy2SmSlGSROoNWQCOFpqbsOg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="js/jquery.tmpl.min.js"></script>
-<script src="js/jquery.easing.1.3.js"></script>
-<script src="js/jquery.elastislide.js"></script>
-<script src="js/gallery.js"></script> -->
-<!-- <script src="js/draggable.js"></script> -->
 </body>
 </html>
