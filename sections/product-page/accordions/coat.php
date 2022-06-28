@@ -30,7 +30,7 @@
             </div>
             <div class="row form-line mt-3">
                 <div class="col-12">
-                    <label for="" class="form-label">Message</label>
+                    <label for="notes" class="form-label">Message</label>
                     <textarea class="form-control" id="notes" rows="5"></textarea>
                 </div>
             </div>

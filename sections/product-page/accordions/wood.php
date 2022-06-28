@@ -8,7 +8,7 @@
                 <input type="radio" name="wood-type" class="btn-check" id="wood-1">
                 <label class="btn" for="wood-1">Oak <span>- $102</span></label>
             </div>
-            <div class="form-check form-check-inline"></div>
+            <div class="form-check form-check-inline">
                 <input type="radio" name="wood-type" checked class="btn-check" id="wood-2">
                 <label class="btn" for="wood-2">Brown Maple</label>
             </div>

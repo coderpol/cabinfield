@@ -14,7 +14,7 @@
                 <h4>Other products  in the Kendal Series</h4>
                 <a href="#" class="more">See More</a>
             </div>
-            <div class="product-slider" id="product-slider-1">
+            <div class="product-slider" id="product-slider-2">
                 <div class="slide product">
                     <figure class="figure">
                         <img src="images/products/slider/product-1.png" alt="">
