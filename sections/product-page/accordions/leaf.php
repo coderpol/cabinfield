@@ -54,4 +54,7 @@
             </div>
         </div>
     </div>
+    <div class="button-area">
+        <a href="#" class="btn btn-primary btn-large">Next</a>
+    </div>
 </div>

@@ -238,7 +238,7 @@
             padding:$m-20 0;
             font-weight: $font-bold;
             i{
-                color:$blue;
+                color:$blue-light-3;
                 margin-left:3px;
             }
             a, span{
@@ -269,6 +269,13 @@
                 box-shadow: none;
             }
             
+        }
+        .button-area{
+            margin-top:30px;
+            a{
+                min-width:265px;
+                padding:15px;
+            }
         }
     }
     .accordion-body{
