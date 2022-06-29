@@ -1,7 +1,7 @@
 <div class="accordion-item">
     <div class="accordion-header" id="headingFour">
         <h4 class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">Leaf Option:</h4>
-        <div class="additional" style="left: 108px;">
+        <div class="additional" style="left: 100px;">
             <ul>
                 <li><a href="#" class="link">Solid Top (Standard)</a></li>
             </ul>

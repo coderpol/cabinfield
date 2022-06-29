@@ -1,7 +1,7 @@
 <div class="accordion-item">
     <div class="accordion-header" id="headingFifth">
         <h4 class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseFifth" aria-expanded="true" aria-controls="collapseFifth">Coat rack on footboard:</h4>
-        <div class="additional" style="left: 203px;">
+        <div class="additional" style="left: 188px;">
             <ul>
                 <li><a href="#" class="link">Wooden pegs on right  + 85</a></li>
                 <li><a href="#" class="link">Wooden pegs  + 85</a></li>

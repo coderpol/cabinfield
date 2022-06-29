@@ -221,7 +221,7 @@
             position: relative;
             .additional{
                 position: absolute;
-                top:22px;
+                top:20px;
                 display: inline-block;
                 z-index:100;
                 ul,ol{
@@ -242,8 +242,7 @@
                         }
                     }
                     a{
-                        font-size: 1rem;
-                        font-weight: 700;
+                        @include font($font-16,$line-21,$font-medium);
                         color:$blue;
                         &:hover{
                             color:$blue-darkest;
@@ -252,6 +251,7 @@
                 }
                 .mark{
                     cursor: pointer;
+                    line-height: 23px;
                     i{
                         color:$blue-light-3;
                         margin-left:3px;
@@ -267,7 +267,7 @@
         .accordion-button{
             border-radius:0 !important;
             padding:$m-20 0;
-            font-weight: $font-bold;
+            @include font($font-16,$line-21,$font-medium);
             margin-bottom:0;
             cursor: pointer;
             i{

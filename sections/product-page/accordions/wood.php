@@ -1,7 +1,7 @@
 <div class="accordion-item">
     <div class="accordion-header" id="headingTwo">
         <h4 class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">Wood type:</h4>
-        <div class="additional" style="left:103px;">
+        <div class="additional" style="left:95px;">
             <ul>
                 <li><a href="#" class="link">Brown Maple</a></li>
             </ul>

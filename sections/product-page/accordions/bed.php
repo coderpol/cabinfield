@@ -1,7 +1,7 @@
 <div class="accordion-item">
     <div class="accordion-header" id="headingOne">
         <h4 class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Bed Size:</h4>
-        <div class="additional" style="left: 80px;">
+        <div class="additional" style="left: 72px;">
             <ul>
                 <li><a href="#" class="link">Full Bed</a></li>
             </ul>

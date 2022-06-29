@@ -1,7 +1,7 @@
 <div class="accordion-item">
     <div class="accordion-header" id="headingThree">
         <h4 class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">Stain:</h4>
-        <div class="additional" style="left: 55px;">
+        <div class="additional" style="left: 47px;">
             <span class="mark" data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-circle-question"></i></span>
         </div>
     </div>
