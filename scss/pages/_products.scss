@@ -218,6 +218,51 @@
         }
         .accordion-header{
             border-bottom:1px solid $whitish-2;
+            position: relative;
+            .additional{
+                position: absolute;
+                top:22px;
+                display: inline-block;
+                z-index:100;
+                ul,ol{
+                    list-style-type: none;
+                    padding-left: 0;
+                    display: inline-block;
+                    li{
+                        display: inline;
+                        margin-right: 5px;
+                        &::after{
+                            content:",";
+                            @include font($font-18,$line-18,$font-bold);
+                        }
+                        &:last-child,&:only-child{
+                            &:after{
+                                content:none;
+                            }
+                        }
+                    }
+                    a{
+                        font-size: 1rem;
+                        font-weight: 700;
+                        color:$blue;
+                        &:hover{
+                            color:$blue-darkest;
+                        }
+                    }
+                }
+                .mark{
+                    cursor: pointer;
+                    i{
+                        color:$blue-light-3;
+                        margin-left:3px;
+                    }
+                    &:hover{
+                        i{
+                            color:$blue-darkest;
+                        }
+                    }
+                }
+            }
         }
         .accordion-button{
             border-radius:0 !important;

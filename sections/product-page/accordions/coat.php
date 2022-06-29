@@ -1,6 +1,13 @@
 <div class="accordion-item">
     <div class="accordion-header" id="headingFifth">
-        <h4 class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseFifth" aria-expanded="true" aria-controls="collapseFifth">Coat rack on footboard:  <span class="blue">Wooden pegs on right  + 85,</span> <span class="blue">Wooden pegs  + 85</span> <span data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-circle-question"></i></span></h4>
+        <h4 class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseFifth" aria-expanded="true" aria-controls="collapseFifth">Coat rack on footboard:</h4>
+        <div class="additional" style="left: 203px;">
+            <ul>
+                <li><a href="#" class="link">Wooden pegs on right  + 85</a></li>
+                <li><a href="#" class="link">Wooden pegs  + 85</a></li>
+            </ul>
+            <span class="mark" data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-circle-question"></i></span>
+        </div>
     </div>
     <div id="collapseFifth" class="accordion-collapse collapse show" aria-labelledby="headingFifth">
         <div class="accordion-body">

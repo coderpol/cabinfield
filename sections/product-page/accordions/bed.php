@@ -1,6 +1,12 @@
 <div class="accordion-item">
     <div class="accordion-header" id="headingOne">
-        <h4 class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Bed Size:  <span class="blue">Full Bed</span> <span data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-circle-question"></i></span></h4>
+        <h4 class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Bed Size:</h4>
+        <div class="additional" style="left: 80px;">
+            <ul>
+                <li><a href="#" class="link">Full Bed</a></li>
+            </ul>
+            <span class="mark" data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-circle-question"></i></span>
+        </div>
     </div>
     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne">
         <div class="accordion-body">
