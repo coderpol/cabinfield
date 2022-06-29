@@ -41,14 +41,16 @@
                 }
             }
             #caption{
-                width:100%;
-                z-index:20;
-                // background: rgba(30, 36, 44, 0.1);
-                backdrop-filter: blur(10px);
-                margin:20px 0 10px 0;
-                margin-bottom:0;
-                color:$gray-dark-3;
-                @include font($font-14,$line-18,$font-medium);
+                p{
+                    width:100%;
+                    z-index:20;
+                    // background: rgba(30, 36, 44, 0.1);
+                    backdrop-filter: blur(10px);
+                    margin:20px 0 10px 0;
+                    margin-bottom:0;
+                    color:$gray-dark-3;
+                    @include font($font-14,$line-18,$font-medium);
+                }
             }
         }
         .gallery-thumb{
