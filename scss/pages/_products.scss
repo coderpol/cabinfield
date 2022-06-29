@@ -23,30 +23,13 @@
             }
             width: 100%;
             z-index:5;
-            .gallery-field{
-                // display: flex;
-                // justify-content: center;
-                // align-items: center;
-                @include above-phone{
-                    // min-height: 410px;
-                }
-                @include phone-to-tablet{
-                    // padding-bottom:170px;
-                }
-            }
-            img{
-                // max-width: 460px;
-                @include phone-small{
-                    // min-width: 320px;
-                }
-            }
             #caption{
+                margin:20px 0 10px 0;
                 p{
                     width:100%;
                     z-index:20;
                     // background: rgba(30, 36, 44, 0.1);
                     backdrop-filter: blur(10px);
-                    margin:20px 0 10px 0;
                     margin-bottom:0;
                     color:$gray-dark-3;
                     @include font($font-14,$line-18,$font-medium);
