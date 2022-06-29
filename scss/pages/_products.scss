@@ -694,6 +694,18 @@
                     margin-bottom:$m-10;
                 }
             }
+            a{
+                color:$brand-color;
+                text-decoration: underline;
+                &:hover{
+                    text-decoration: none;
+                }
+            }
+            &.links{
+                ul,ol{
+                    color:$brand-color; 
+                }
+            }
         }
     }
     
