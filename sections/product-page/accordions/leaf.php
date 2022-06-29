@@ -10,9 +10,11 @@
             </div>
             <div class="stack-area checkbox-type">
                 <div class="stack">
-                    <input type="radio" name="leaf-type" class="btn-check" id="leaf-1">
-                    <label class="btn text" for="leaf-1">
-                        <span>Solid Top</span> <strong>Standard</strong>
+                    <input type="radio" name="leaf-type" class="btn-check" checked id="leaf-1">
+                    <label class="btn" for="leaf-1">
+                        <div class="text">
+                            <span>Solid Top</span> <strong>Standard</strong>
+                        </div>
                     </label>
                     <span class="open-details" data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-magnifying-glass"></i></span>
                     <h5>Medium OCS-110 </h5>

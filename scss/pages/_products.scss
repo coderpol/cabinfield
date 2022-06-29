@@ -339,11 +339,12 @@
         justify-content: flex-start;
         align-items: stretch;
         .stack{
-            flex-basis: 14.285%;
+            flex-basis: 14%;
             position: relative;
             padding-left:0;
             padding-right:0;
             text-align: center;
+            margin-right:0.285%;
             span{
                 margin-top:$m-10;
             }
@@ -384,8 +385,11 @@
                 border:0;
                 padding:5px;
                 display: block;
-                @include rounded(3px);
+                @include rounded(4px);
                 border:1px solid transparent;
+                img{
+                    @include rounded(4px);
+                }
                 span{
                     color:$blue-darkest !important;
                 }
@@ -464,25 +468,25 @@
         &.checkbox-type{
             .stack{
                 position:relative;
-                img{
-                    // margin-bottom:50px;
-                }
                 label{
                     font-weight: $font-bold;
-                    &.text,.figure,.figure img{
-                        height:153px;
+                    .text,.figure,.figure img{
+                        height:152px;
                         width:100%;
                     }
-                    &.text{
+                    .text{
                         display: flex;
                         flex-direction: column;
                         align-items: center;
                         justify-content: center;
                         border: 1px solid $gray-500;
-                        @include rounded(5px);
+                        @include rounded(4px);
                         background-color: $white;
                         // margin-bottom: 48px;
-                        margin-top:6px;
+                        // margin-top:6px;
+                        p{
+                            margin-bottom:0;
+                        }
                         span{
                             margin-bottom:0;
                             display: block;

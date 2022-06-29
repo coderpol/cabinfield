@@ -87,6 +87,7 @@ include_once('sections/layouts/header.php')
         </div>
         <div class="border-bottom mb-0"></div>
     </div>
+    <?php include_once('sections/product-page/edit-zip-modal.php') ?>
 </div>
 
 <?php include_once('sections/product-page/sliders-area.php') ?>
