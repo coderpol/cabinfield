@@ -374,7 +374,9 @@
             padding-left:0;
             padding-right:0;
             text-align: center;
-            margin-right:0.285%;
+            @include from-pc{
+                margin-right:0.285%;
+            }
             span{
                 margin-top:$m-10;
             }
@@ -395,6 +397,9 @@
             h5{
                 @include font($font-14,$line-18,$font-medium);
                 color:$blue-darkest;
+                @include phone-small{
+                    padding:0 5px;
+                }
             }
             .btn-check{
                 display: none;
@@ -422,6 +427,12 @@
                 }
                 span{
                     color:$blue-darkest !important;
+                }
+                @include tablet-to-pc{
+                    height:164px;
+                    img{
+                        height:151px;
+                    }
                 }
             }
             .figure,.text{
@@ -461,6 +472,16 @@
                 //         display: block;
                 //     }
                 // }
+            }
+            
+            @include phone-small{
+                flex-basis: 33.33%;
+            }
+            @include phone-large{
+                flex-basis: 25%;
+            }
+            @include phone-to-tablet{
+                flex-basis: 20%;
             }
         }
         .counter{
@@ -504,6 +525,12 @@
                         height:152px;
                         width:100%;
                     }
+                    @include upto-tablet{
+                        min-height:155px;
+                        img{
+                            height:151px;
+                        }
+                    }
                     .text{
                         display: flex;
                         flex-direction: column;
@@ -521,6 +548,9 @@
                             margin-bottom:0;
                             display: block;
                             @include font($font-14,$line-18,500);
+                            @include upto-phone{
+                                margin-top:0;
+                            }
                         }
                         strong{
                             display: block;
@@ -538,15 +568,7 @@
                         margin-bottom:0;
                     }
                 }
-                @include phone-small{
-                    flex-basis: 33.33%;
-                }
-                @include phone-large{
-                    flex-basis: 25%;
-                }
-                @include phone-to-tablet{
-                    flex-basis: 20%;
-                }
+                
             }
             input[type=checkbox]{
                 display: none;
@@ -566,18 +588,25 @@
             flex-basis: 8.333%;
             
             @include upto-phone{
+                flex-basis:20%;
+            }
+            @include phone-small{
                 flex-basis:25%;
             }
             .btn{
                 padding:2px 5px;
                 @include rounded(5px);
                 border:1px solid transparent;
+                height:auto !important;
                 span{
                     margin-bottom:0;
                     margin-top:5px;
                     @include font($font-14,$font-16,$font-medium);
                     color:$blue-darkest;
                     
+                }
+                img{
+                    height:auto !important;
                 }
                 .figure{
                     @include rounded(5px);
