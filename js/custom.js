@@ -159,7 +159,7 @@ $('.product-slider').slick({
       breakpoint: 480,
       settings: {
         slidesToShow: 1,
-        centerPadding: '0px',
+        centerPadding: '20px',
         slidesToScroll: 1
       }
     }

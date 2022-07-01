@@ -1,11 +1,13 @@
 <div class="accordion-item">
     <div class="accordion-header" id="headingThree">
-        <h4 class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">Stain:</h4>
-        <div class="additional" style="left: 47px;">
-            <span class="mark" data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-circle-question"></i></span>
+        <div class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+            <h4>Stain:</h4>
         </div>
     </div>
     <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingThree">
+        <div class="info">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#edit_zip">More Information About this Option</a>
+        </div>
         <div class="accordion-body">
             <div class="alert" role="alert">
                 <i class="fa-solid fa-circle-info"></i>

@@ -1,11 +1,13 @@
 <div class="accordion-item">
     <div class="accordion-header" id="headingSix">
-        <h4 class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">Fabric:</h4>
-        <div class="additional" style="left:58px;">
-            <span class="mark" data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-circle-question"></i></span>
+        <div class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+            <h4>Fabric:</h4>
         </div>
     </div>
     <div id="collapseSix" class="accordion-collapse collapse show" aria-labelledby="headingSix">
+        <div class="info">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#edit_zip">More Information About this Option</a>
+        </div>
         <div class="accordion-body">
             <div class="alert" role="alert">
                 <i class="fa-solid fa-circle-info"></i>

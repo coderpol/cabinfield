@@ -267,16 +267,20 @@
         .accordion-button{
             border-radius:0 !important;
             padding:$m-20 0;
-            @include font($font-16,$line-21,$font-medium);
-            margin-bottom:0;
+            h4{
+                @include font($font-16,$line-21,$font-medium);
+                margin-bottom:0;
+            }
             cursor: pointer;
             i{
                 color:$blue-light-3;
                 margin-left:3px;
             }
-            a, span{
+            .item{
                 display: inline-block;
                 margin-left:5px;
+                color: $blue;
+                @include font($font-16,$line-21,$font-medium);
             }
             &:after{
                 content:">";
@@ -301,7 +305,27 @@
                 outline:0;
                 box-shadow: none;
             }
-            
+            .item{
+                display: inline;
+                margin-right: 5px;
+                &::after{
+                    content:",";
+                    @include font($font-18,$line-18,$font-bold);
+                }
+                &:last-child,&:only-child{
+                    &:after{
+                        content:none;
+                    }
+                }
+            }
+        }
+        .info{
+            margin-top:10px;
+            a{
+                color:#B3522C;
+                @include font($font-14,$line-18);
+                text-decoration: underline;
+            }
         }
         .button-area{
             margin-top:30px;
@@ -703,7 +727,7 @@
                 span{
                     &.shipping-price{
                         color:$brand-color;
-                        margin-right:7px;
+                        margin-right:5px;
                     }
                     &.shipping-description{
                         color:#424F61;
