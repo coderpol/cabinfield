@@ -144,11 +144,16 @@
                     color:$blue-darkest;
                     &.discounted{
                         span{
+                            &:last-child{
+                                @include font(26px,39px,$font-bold);
+                            }
                             &:first-child{
-                                color:$blue;
+                                @include font(30px,39px,$font-bold);
+                                color:#627590;
                                 text-decoration: line-through;
                                 margin-right:15px;
                             }
+                            
                         }
                     }
                 }
