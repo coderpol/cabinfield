@@ -701,8 +701,15 @@
                 color:#424F61;
                 line-height:$m-30;
                 span{
-                    color:$brand-color;
+                    &.shipping-price{
+                        color:$brand-color;
+                        margin-right:7px;
+                    }
+                    &.shipping-description{
+                        color:#424F61;
+                    }
                 }
+                
             }
         }
         .submit-button{

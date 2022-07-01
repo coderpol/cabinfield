@@ -33,8 +33,8 @@
     <p><a href="#">More Info About Your Savings</a></p>
     <p class="value">$1,371.00</p>
     <p class="note">
-        <span>+$30.40</span> Standard curbside delivery to 10001<br/>
-        <span>+$250.21</span>  On-site assembly
+        <span class="shipping-price">+$30.40</span><span class="shipping-description">Standard curbside delivery to 10001</span><br/>
+        <span class="shipping-price">+$250.21</span><span class="shipping-description">On-site assembly</span>
     </p>
     <div class="submit-button">
         <button type="submit" class="btn btn-primary btn-large">Add to Cart</button>
