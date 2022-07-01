@@ -669,7 +669,8 @@
                 }
                 label{
                     width:100%;
-                    @include font($font-16,$line-26,$font-medium);
+                    @include font($font-16,$line-26);
+                    color:#424F61;
                     span{
                         color:$brand-color;
                         float:right;
@@ -697,7 +698,7 @@
                 color:$blue-darkest;
             }
             &.note{
-                color:$blue;
+                color:#424F61;
                 line-height:$m-30;
                 span{
                     color:$brand-color;
@@ -706,6 +707,10 @@
         }
         .submit-button{
             margin-top:20px;
+            .btn{
+                min-width: 265px;
+                font-weight: 400;
+            }
         }
     }
     .specs-area{
