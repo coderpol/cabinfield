@@ -133,13 +133,24 @@
             }
         }
         .pricing{
-            span{
+            p{
                 color:$brand-color;
                 display:block;
                 font-weight: $font-medium;
+                margin-bottom:0;
                 &.price{
-                    color:$blue-darkest;
                     @include font($font-36,$line-47,$font-bold);
+                    margin-bottom:10px;
+                    color:$blue-darkest;
+                    &.discounted{
+                        span{
+                            &:first-child{
+                                color:$blue;
+                                text-decoration: line-through;
+                                margin-right:15px;
+                            }
+                        }
+                    }
                 }
             }
         }
