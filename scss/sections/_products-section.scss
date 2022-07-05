@@ -20,6 +20,9 @@
                 a{
                     display: block;
                 }
+                p{
+                    a{display: inline;}
+                }
                 img{
                     margin-bottom:$m-25;
                     @include upto-phone{
