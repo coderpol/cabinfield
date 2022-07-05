@@ -29,6 +29,9 @@
                     @include upto-phone{
                         text-align:center;
                     }
+                    a{
+                        color:$blue-darkest;
+                    }
                 }
                 p{
                     color:$blue-darkest;

@@ -111,7 +111,7 @@ include_once('sections/layouts/header.php')
                     </figure>
                     <article class="col-md-6 col-12 display-text">
                         <header class="section-title">
-                            <h3><span>Fine</span> Furniture</h3>
+                            <h3><a href="#"><span>Fine</span> Furniture</a></h3>
                         </header>
                         <p>Design an artisanal backdrop for your unique lifestyle. Our Amish craftsmen are skilled in handcrafting a variety of contemporary, traditional, and Mission style furniture, made in the USA. Follow your heart to the home of your dreams.</p>
                         
@@ -127,7 +127,7 @@ include_once('sections/layouts/header.php')
                     </figure>
                     <article class="col-md-6 col-12 display-text">
                         <header class="section-title">
-                            <h3><span>Rustics</span>  & Live Edge</h3>
+                            <h3><a href="#"><span>Rustics</span>  & Live Edge</a></h3>
                         </header>
                         <p>Introduce a rural warmth and add texture, color, and character to your space. Designed by nature, rustic furniture is as authentic as it gets.</p>
                         
@@ -143,7 +143,7 @@ include_once('sections/layouts/header.php')
                     </figure>
                     <article class="col-md-6 col-12 display-text">
                         <header class="section-title">
-                            <h3><span>Outdoor</span>  Living</h3>
+                            <h3><a href="#"><span>Outdoor</span>  Living</a></h3>
                         </header>
                         <p>Absorb nature’s beauty and connect with the great outdoors. Your outdoor space will become your favorite place with Amish outdoor furniture that is both durable and eco-friendly.</p>
                         
