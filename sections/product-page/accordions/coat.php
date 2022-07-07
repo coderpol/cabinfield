@@ -34,6 +34,12 @@
             <div class="form-check form-check-inline">
                 <input type="checkbox" name="coat-rack" class="btn-check" id="coat-rack-5">
                 <label class="btn" for="coat-rack-5">Wooden pegs on left both sides  <span>+ $185</span></label>
+                <!-- remove this .ms-0 class if you want default center alignment.  -->
+                <div class="counter ms-0">
+                    <span class="btn" data-action="decrease">-</span>
+                    <input type="number" class="count" value="1"> 
+                    <span class="btn" data-action="increase">+</span>
+                </div>
             </div>
             <div class="row form-line mt-3">
                 <div class="col-12">

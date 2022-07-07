@@ -378,8 +378,41 @@
                 }
             }
         }
+        
     }
-    
+    .tab-content{
+        .counter{
+            display: flex;
+            max-width: 100px;
+            margin: 20px auto 0;
+            span{
+                display: inline-block;
+                margin-top:0;
+            }
+            .btn{
+                @include square(30px);
+                @include rounded($m-30);
+                box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.1);
+                padding:6px;
+                background-color: $white;
+                color:$blue-darker-2;
+                @include font($font-30,16px);
+                cursor:pointer;
+                &:hover{
+                    background-color: $brand-color;
+                    color:$white;
+                }
+            }
+            .count{
+                margin:0 $m-5;
+                @include square(30px);
+                text-align: center;
+                @include font($font-20,44px,$font-medium);
+                color:$black;
+                border:0;
+            }
+        }
+    }
     .alert{
         background: #EDEFF3;
         padding:$m-20;
@@ -523,38 +556,14 @@
             @include phone-to-tablet{
                 flex-basis: 20%;
             }
-        }
-        .counter{
-            display: flex;
-            max-width: 100px;
-            margin: 20px auto 0;
-            span{
-                display: inline-block;
-                margin-top:0;
-            }
-            .btn{
-                @include square(30px);
-                @include rounded($m-30);
-                box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.1);
-                padding:6px;
-                background-color: $white;
-                color:$blue-darker-2;
-                @include font($font-30,16px);
-                cursor:pointer;
-                &:hover{
-                    background-color: $brand-color;
-                    color:$white;
+            .counter{
+                .btn{
+                    margin-top:0;
+                    @include rounded(30px);
                 }
             }
-            .count{
-                margin:0 $m-5;
-                @include square(30px);
-                text-align: center;
-                @include font($font-20,44px,$font-medium);
-                color:$black;
-                border:0;
-            }
         }
+        
         
         &.checkbox-type{
             .stack{
@@ -661,6 +670,7 @@
             }
         }
     }
+    
     .quote-form-area{
         .form-check{
             padding-left:0;
