@@ -14,7 +14,7 @@
                 <i class="fa-solid fa-circle-info"></i>
                 <p>Please note that the stain or paint colors shown may not appear the same on all computer monitors. Actual results on your furniture may also vary due to natural variations in the color, grain, and texture of the wood. Please click here to request samples.</p>
             </div>
-            <div class="stack-area checkbox-type">
+            <div class="stack-area has-solid">
                 <div class="stack">
                     <input type="radio" name="leaf-type" class="btn-check" checked id="leaf-1">
                     <label class="btn" for="leaf-1">

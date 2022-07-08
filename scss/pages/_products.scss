@@ -559,18 +559,57 @@
             .counter{
                 .btn{
                     margin-top:0;
+                    height:auto !important;
+                    min-height:auto !important;
                     @include rounded(30px);
                 }
+            }
+            
+            .text{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                border: 1px solid $gray-500;
+                @include rounded(4px);
+                background-color: $white;
+                // margin-bottom: 48px;
+                // margin-top:6px;
+                p{
+                    margin-bottom:0;
+                }
+                span{
+                    margin-bottom:0;
+                    display: block;
+                    @include font($font-14,$line-18,500);
+                    @include upto-phone{
+                        margin-top:0;
+                    }
+                }
+                strong{
+                    display: block;
+                    padding:10px 20px;
+                    margin-top:15px;
+                    background: #EDEFF3;
+                    @include rounded(20px);
+                    color:$gray-light-3;
+                }
+                .overlay{
+                    background-color: rgba($black,0.4);
+                }
+            }
+            input[type=checkbox]{
+                display: none;
             }
         }
         
         
-        &.checkbox-type{
+        
+        
+        &.has-solid{
             .stack{
-                position:relative;
-                label{
-                    font-weight: $font-bold;
-                    .text,.figure,.figure img{
+                .btn{
+                    .text{
                         height:152px;
                         width:100%;
                     }
@@ -580,52 +619,9 @@
                             height:151px;
                         }
                     }
-                    .text{
-                        display: flex;
-                        flex-direction: column;
-                        align-items: center;
-                        justify-content: center;
-                        border: 1px solid $gray-500;
-                        @include rounded(4px);
-                        background-color: $white;
-                        // margin-bottom: 48px;
-                        // margin-top:6px;
-                        p{
-                            margin-bottom:0;
-                        }
-                        span{
-                            margin-bottom:0;
-                            display: block;
-                            @include font($font-14,$line-18,500);
-                            @include upto-phone{
-                                margin-top:0;
-                            }
-                        }
-                        strong{
-                            display: block;
-                            padding:10px 20px;
-                            margin-top:15px;
-                            background: #EDEFF3;
-                            @include rounded(20px);
-                            color:$gray-light-3;
-                        }
-                        .overlay{
-                            background-color: rgba($black,0.4);
-                        }
-                    }
-                    .figure{
-                        margin-bottom:0;
-                    }
                 }
                 
-            }
-            input[type=checkbox]{
-                display: none;
-                // position: absolute;
-                // bottom: 87px;
-                // left: calc(50% - 12px);
-                // margin:0;
-            }
+            } 
         }
     }
     .stack-tweleve{
