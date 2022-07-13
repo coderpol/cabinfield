@@ -53,7 +53,8 @@ include_once('sections/layouts/header.php')
                             </select>
                         </form>
                     </li>
-                    <!-- <li class="shop-by"><a href="bedroom-landing.php" class="btn btn-primary btn">Shop by Furniture Piece</a></li> -->
+                    <!-- this one will be automatically hidden if you add .no-button to the parend div  -->
+                    <li class="shop-by"><a href="bedroom-landing.php" class="btn btn-primary btn">Shop by Furniture Piece</a></li>
                 </ul>
             </div>
         </div>
