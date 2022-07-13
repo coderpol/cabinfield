@@ -13,6 +13,7 @@
                 <ul class="col-md-5 contact-details clearfix mb-0">
                     <li><a href="tel:+866-450-9663"><i class="fa-solid fa-phone"></i> 866-450-9663</a></li>
                     <li><a href="mailto:sales@cabinfield.com"><i class="fa-regular fa-envelope"></i> sales@cabinfield.com</a></li>
+                    <li><a href="#">Logout</a></li>
                 </ul>
             </div>
         </div>
