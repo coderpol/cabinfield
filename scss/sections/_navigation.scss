@@ -120,12 +120,13 @@
                 .category{
                     h4{
                         margin-bottom:$m-15;
-                        @include font($font-16,$line-18,$font-medium);
+                        @include font($font-16,$line-21,$font-medium);
                         text-transform: capitalize;
                     }
                     .submenu{
                         list-style-type: disc; 
-                        // margin-left:$m-15;
+                        list-style-position: outside;
+                        margin-left: 20px;
                     }
                 }
                 .submenu{

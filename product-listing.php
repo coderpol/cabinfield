@@ -37,9 +37,9 @@ include_once('sections/layouts/header.php')
 <div class="section page-content product-listing-section">
     <div class="container">
         <!-- The top functional area with buttons -->
-        <div class="row mb-2 functional-area">
+        <div class="row mb-2 functional-area no-button">
             <div class="col-md-3 section-title small">
-                <h1><span>Kennet</span> Series</h1>
+                <h1><span>Outdoor</span> Lounge & Dining Furniture Sets</h1>
             </div>
             <div class="col-md-9 text-end">
                 <ul class="filter-buttons">
@@ -53,7 +53,7 @@ include_once('sections/layouts/header.php')
                             </select>
                         </form>
                     </li>
-                    <li class="shop-by"><a href="bedroom-landing.php" class="btn btn-primary btn">Shop by Furniture Piece</a></li>
+                    <!-- <li class="shop-by"><a href="bedroom-landing.php" class="btn btn-primary btn">Shop by Furniture Piece</a></li> -->
                 </ul>
             </div>
         </div>

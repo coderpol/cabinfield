@@ -34,6 +34,26 @@
                 cursor: pointer;
             }
         }
+        &.no-button{
+            .section-title{
+                overflow:visible;
+                h1,h2{
+                    width: 700px;
+                    @include tablet-to-pc{
+                        width:530px;
+                        // @include font($font-26,$line-31,$font-bold);
+                    }
+                    @include upto-tablet{
+                        width:100%;
+                    }
+                }
+            }
+            .filter-buttons{
+                .shop-by{
+                    display:none;
+                }
+            }
+        }
     }
     .listed-product{
         margin-bottom:$m-20;
@@ -177,9 +197,16 @@
         position: relative;
         .section-title{
             flex-basis:48%;
-            h2, h3,h4{
-                    @include font($font-24,$line-31,$font-bold);
+        }
+        &.no-button{
+            .section-title{
+                flex-basis: 100%;
+                h1,h2, h3,h4{
+                    // @include font($font-24,$line-31,$font-bold);
+                    width:100% !important;
+                }
             }
+            
         }
         .filter-buttons{
             justify-content: space-between !important;
