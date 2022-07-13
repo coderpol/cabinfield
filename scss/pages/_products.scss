@@ -353,6 +353,9 @@
     }
     .accordion-body{
         padding:0;
+        .alert{
+            margin-bottom:0;
+        }
         .btn{
             background: $white;
             color:$blue-darkest;
@@ -441,6 +444,7 @@
         flex-wrap: wrap;
         justify-content: flex-start;
         align-items: stretch;
+        margin-top:20px;
         .stack{
             flex-basis: 14%;
             position: relative;
