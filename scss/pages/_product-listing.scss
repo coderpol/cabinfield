@@ -1,13 +1,17 @@
 .page-highlight-area{
     margin-bottom:$m-60;
+    padding:30px 0 35px;
     @include upto-tablet{
         // text-align:center;
     }
     .breadcrumb-area{
-        margin-top:$m-10;
-        margin-bottom:$m-70;
+        margin-top:0;
+        margin-bottom:35px;
         @include upto-tablet{
-            margin-bottom:$m-30;
+            margin-bottom:$m-25;
+        }
+        ul,ol{
+            margin-bottom:0;
         }
     }
     .highlight-title{
@@ -17,9 +21,14 @@
             line-height: 130%;
         }
     }
-    .hightlight-text{
+    .highlight-text{
         p{
             @include font($font-16,$line-26);
+            color:#514646;
+            margin-bottom:0;
+            &+p{
+                margin-top:1rem;
+            }
         }
     }
     
