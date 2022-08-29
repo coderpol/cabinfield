@@ -189,7 +189,7 @@
                 i{
                     @include font(25px, 32px);
                 }
-                &:hover{
+                &:hover,&.selected{
                     color:$white;
                     background-color: $brand-color;
                 }
