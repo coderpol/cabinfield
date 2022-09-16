@@ -723,7 +723,8 @@
                     color:#424F61;
                     span{
                         color:$brand-color;
-                        float:right;
+                        float: right;
+                        font-weight: 500;
                         display: inline-block;
                         width: 100px;
                         @include upto-phone{
@@ -754,6 +755,7 @@
                     &.shipping-price{
                         color:$brand-color;
                         margin-right:5px;
+                        font-weight: 500;
                     }
                     &.shipping-description{
                         color:#424F61;
