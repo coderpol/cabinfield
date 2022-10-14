@@ -10,7 +10,7 @@
             </div>
             <nav class="collapse navbar-collapse" id="main_nav">
                 <span id="nav-close"><i class="fa-solid fa-xmark"></i></span>
-                <ul class="main-nav navbar-nav col-md-12 justify-content-center" >
+                <ul class="main-nav navbar-nav col-md-12 justify-content-center accordion" id="nav_with_accordion">
                     <li class="megamenu nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" role="button" id="dropdown-1" data-bs-toggle="dropdown" aria-expanded="false">Fine Furniture <span class="only-responsive arrow">></span></a>
                         
@@ -21,50 +21,380 @@
                                 <div class="category">
                                     <h4>Bedrooms</h4>
                                     <ul class="submenu">
-                                        <li><a href="bedroom-landing.php">Bedrroms Landing</a></li>
-                                        <li><a href="collection-landing.php">Collection Landing</a></li>
-                                        <li><a href="product-listing.php">Product Listing</a></li>
+                                        <li><a href="bedroom-landing.php">Bedrooms Furnitures Sets</a></li>
+                                        <li><a href="collection-landing.php">Beds & Headboards</a></li>
+                                        <li><a href="product-listing.php">Dressers, CHests & Nightstands</a></li>
+                                        <li><a href="#">Vanities, Jewelry Chests & Mirror</a></li>
+                                        <li><a href="#">Storage Chests & Boxes</a></li>
                                     </ul>
+                                   
+                                    <div class="submenu_accordion">
+                                        <div class="accordion-item">
+                                            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#fine_bedroom_1">Shop By Quick Ship</button>
+                                            <div id="fine_bedroom_1" class="accordion-collapse collapse" data-bs-parent="#nav_with_accordion">
+                                                <div class="accordion-body">
+                                                    <ul class="submenu">
+                                                        <li><a href="#">Traditional</a></li>
+                                                        <li><a href="#">Mission</a></li>
+                                                        <li><a href="#">Contemporary</a></li>
+                                                        <li><a href="#">Electric</a></li>
+                                                        <li><a href="#">Farmhouse elegance</a></li>
+                                                        <li><a href="#">Reclaimed Barnwood</a></li>
+                                                        <li><a href="#">Live Edge</a></li>
+                                                        <li><a href="#">Prive Value bedrooms</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#fine_bedroom_2">Shop By Rustic Wood</button>
+                                            <div id="fine_bedroom_2" class="accordion-collapse collapse" data-bs-parent="#nav_with_accordion">
+                                                <div class="accordion-body">
+                                                    <ul class="submenu">
+                                                        <li><a href="#">Traditional</a></li>
+                                                        <li><a href="#">Mission</a></li>
+                                                        <li><a href="#">Contemporary</a></li>
+                                                        <li><a href="#">Electric</a></li>
+                                                        <li><a href="#">Farmhouse elegance</a></li>
+                                                        <li><a href="#">Reclaimed Barnwood</a></li>
+                                                        <li><a href="#">Live Edge</a></li>
+                                                        <li><a href="#">Prive Value bedrooms</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="category">
                                     <h4>Living Rooms & entertainment</h4>
                                     <ul class="submenu">
-                                        <li><a href="style-landing.php">Style Landing</a></li>
-                                        <li><a href="wood-sample.php">Wood Samples</a></li>
-                                        <li><a href="list-of-pre-built-products-v1.php">List of products</a></li>
+                                        <li><a href="style-landing.php">Living Room Sets</a></li>
+                                        <li><a href="wood-sample.php">Living Room Seating</a></li>
+                                        <li><a href="list-of-pre-built-products-v1.php">Accent Tables</a></li>
+                                        <li><a href="#">TV Stands & entertainment centers</a></li>
+                                        <li><a href="#">Hallway Furniture & Benches</a></li>
+                                        <li><a href="#">Gun Cabinet</a></li>
+                                        <li><a href="#">Curios & display cabinets</a></li>
                                     </ul>
+                                    <div class="submenu_accordion">
+                                        <div class="accordion-item">
+                                            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#fine_living_1">Shop By Quick Ship</button>
+                                            <div id="fine_living_1" class="accordion-collapse collapse" data-bs-parent="#nav_with_accordion">
+                                                <div class="accordion-body">
+                                                    <ul class="submenu">
+                                                        <li><a href="#">Traditional</a></li>
+                                                        <li><a href="#">Mission</a></li>
+                                                        <li><a href="#">Contemporary</a></li>
+                                                        <li><a href="#">Electric</a></li>
+                                                        <li><a href="#">Farmhouse elegance</a></li>
+                                                        <li><a href="#">Reclaimed Barnwood</a></li>
+                                                        <li><a href="#">Live Edge</a></li>
+                                                        <li><a href="#">Prive Value bedrooms</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#fine_living_2">Shop By Rustic Wood</button>
+                                            <div id="fine_living_2" class="accordion-collapse collapse" data-bs-parent="#nav_with_accordion">
+                                                <div class="accordion-body">
+                                                    <ul class="submenu">
+                                                        <li><a href="#">Traditional</a></li>
+                                                        <li><a href="#">Mission</a></li>
+                                                        <li><a href="#">Contemporary</a></li>
+                                                        <li><a href="#">Electric</a></li>
+                                                        <li><a href="#">Farmhouse elegance</a></li>
+                                                        <li><a href="#">Reclaimed Barnwood</a></li>
+                                                        <li><a href="#">Live Edge</a></li>
+                                                        <li><a href="#">Prive Value bedrooms</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="category">
                                     <h4>Kitchen & dining space</h4>
                                     <ul class="submenu">
-                                        <li><a href="fabric-sample.php">Fabric Sample</a></li>
-                                        <li><a href="wood-sample.php">Wood Samples</a></li>
-                                        <li><a href="list-of-pre-built-products-v1.php">List of products</a></li>
+                                        <li><a href="fabric-sample.php">Dining Room Sets</a></li>
+                                        <li><a href="wood-sample.php">Dining tables</a></li>
+                                        <li><a href="list-of-pre-built-products-v1.php">Dining Chairs & seating</a></li>
+                                        <li><a href="#">Pie safes, cabinets & Curboards</a></li>
+                                        <li><a href="#">Hutches & baffets</a></li>
+                                        <li><a href="#">Home Bars & Wine-Rack buffets</a></li>
+                                        <li><a href="#">Kitchen Islands</a></li>
+                                        <li><a href="#">Breakfast Nooks</a></li>
                                     </ul>
+                                    <div class="submenu_accordion">
+                                        <div class="accordion-item">
+                                            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#fine_dining_1">Shop By Quick Ship</button>
+                                            <div id="fine_dining_1" class="accordion-collapse collapse" data-bs-parent="#nav_with_accordion">
+                                                <div class="accordion-body">
+                                                    <ul class="submenu">
+                                                        <li><a href="#">Traditional</a></li>
+                                                        <li><a href="#">Mission</a></li>
+                                                        <li><a href="#">Contemporary</a></li>
+                                                        <li><a href="#">Electric</a></li>
+                                                        <li><a href="#">Farmhouse elegance</a></li>
+                                                        <li><a href="#">Reclaimed Barnwood</a></li>
+                                                        <li><a href="#">Live Edge</a></li>
+                                                        <li><a href="#">Prive Value bedrooms</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#fine_dining_2">Shop By Rustic Wood</button>
+                                            <div id="fine_dining_2" class="accordion-collapse collapse" data-bs-parent="#nav_with_accordion">
+                                                <div class="accordion-body">
+                                                    <ul class="submenu">
+                                                        <li><a href="#">Traditional</a></li>
+                                                        <li><a href="#">Mission</a></li>
+                                                        <li><a href="#">Contemporary</a></li>
+                                                        <li><a href="#">Electric</a></li>
+                                                        <li><a href="#">Farmhouse elegance</a></li>
+                                                        <li><a href="#">Reclaimed Barnwood</a></li>
+                                                        <li><a href="#">Live Edge</a></li>
+                                                        <li><a href="#">Prive Value bedrooms</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="category">
                                     <h4>Office</h4>
                                     <ul class="submenu">
-                                        <li><a href="style-landing.php">Style Landing</a></li>
-                                        <li><a href="wood-sample.php">Wood Samples</a></li>
-                                        <li><a href="fabric-sample.php">Fabric Sample</a></li>
+                                        <li><a href="bedroom-landing.php">Office Furniture sets</a></li>
+                                        <li><a href="collection-landing.php">Desk & Tables</a></li>
+                                        <li><a href="product-listing.php">Bookcases, Filing Cabinets & credenzas</a></li>
+                                        <li><a href="#">Desk Chairs</a></li>
+                                        <li><a href="#">Workbenches</a></li>
                                     </ul>
+                                    <div class="submenu_accordion">
+                                        <div class="accordion-item">
+                                            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#fine_office_1">Shop By Quick Ship</button>
+                                            <div id="fine_office_1" class="accordion-collapse collapse" data-bs-parent="#nav_with_accordion">
+                                                <div class="accordion-body">
+                                                    <ul class="submenu">
+                                                        <li><a href="#">Traditional</a></li>
+                                                        <li><a href="#">Mission</a></li>
+                                                        <li><a href="#">Contemporary</a></li>
+                                                        <li><a href="#">Electric</a></li>
+                                                        <li><a href="#">Farmhouse elegance</a></li>
+                                                        <li><a href="#">Reclaimed Barnwood</a></li>
+                                                        <li><a href="#">Live Edge</a></li>
+                                                        <li><a href="#">Prive Value bedrooms</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#fine_office_2">Shop By Rustic Wood</button>
+                                            <div id="fine_office_2" class="accordion-collapse collapse" data-bs-parent="#nav_with_accordion">
+                                                <div class="accordion-body">
+                                                    <ul class="submenu">
+                                                        <li><a href="#">Traditional</a></li>
+                                                        <li><a href="#">Mission</a></li>
+                                                        <li><a href="#">Contemporary</a></li>
+                                                        <li><a href="#">Electric</a></li>
+                                                        <li><a href="#">Farmhouse elegance</a></li>
+                                                        <li><a href="#">Reclaimed Barnwood</a></li>
+                                                        <li><a href="#">Live Edge</a></li>
+                                                        <li><a href="#">Prive Value bedrooms</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </li>
-                    <li class="normal nav-item dropdown">
+                    <li class="megamenu nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" role="button" id="dropdown-2" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Rustic & Live Edge <span class="only-responsive arrow">></span></a>
                         <div class="dropdown-menu submenu-block" aria-labelledby="dropdown-2">
                             <h3><a href="#">Rustic & Live Edge</a></h3>
                             <a href="product-listing.php" class="link stock-link">Items in stocks</a>
                             <div class="submenu-area">
-                                <ul class="submenu">
-                                    <li><a href="list-of-pre-built-products-v2.php">Gazebos</a></li>
-                                    <li><a href="list-of-pre-built-products-v2.php">Special Playsets</a></li>
-                                    <li><a href="list-of-pre-built-products-v2.php">Patio Furniture</a></li>
-                                    <li><a href="list-of-pre-built-products-v2.php">Garden Decore</a></li>
-                                </ul>
+                                <div class="category">
+                                    <h4>Bedrooms</h4>
+                                    <ul class="submenu">
+                                        <li><a href="bedroom-landing.php">Bedrooms Sets</a></li>
+                                        <li><a href="collection-landing.php">Beds & Headboards</a></li>
+                                        <li><a href="product-listing.php">Nightstands</a></li>
+                                        <li><a href="#">Dressers</a></li>
+                                        <li><a href="#">Chests of Drawers</a></li>
+                                        <li><a href="#">Armoires & Wardrobes</a></li>
+                                        <li><a href="#">Mule Chests</a></li>
+                                        <li><a href="#">Lingerie Chests</a></li>
+                                        <li><a href="#">Blanket Chests</a></li>
+                                        <li><a href="#">Bedroom Media Consoles</a></li>
+                                        <li><a href="#">Cheval Mirros</a></li>
+                                    </ul>
+                                   
+                                    <div class="submenu_accordion">
+                                        <div class="accordion-item">
+                                            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#rustic_bedroom_1">Shop By Quick Ship</button>
+                                            <div id="rustic_bedroom_1" class="accordion-collapse collapse" data-bs-parent="#nav_with_accordion">
+                                                <div class="accordion-body">
+                                                    <ul class="submenu">
+                                                        <li><a href="#">Traditional</a></li>
+                                                        <li><a href="#">Mission</a></li>
+                                                        <li><a href="#">Contemporary</a></li>
+                                                        <li><a href="#">Electric</a></li>
+                                                        <li><a href="#">Farmhouse elegance</a></li>
+                                                        <li><a href="#">Reclaimed Barnwood</a></li>
+                                                        <li><a href="#">Live Edge</a></li>
+                                                        <li><a href="#">Prive Value bedrooms</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#rustic_bedroom_2">Shop By Rustic Wood</button>
+                                            <div id="rustic_bedroom_2" class="accordion-collapse collapse" data-bs-parent="#nav_with_accordion">
+                                                <div class="accordion-body">
+                                                    <ul class="submenu">
+                                                        <li><a href="#">History</a></li>
+                                                        <li><a href="#">Log</a></li>
+                                                        <li><a href="#">Rough Sawn</a></li>
+                                                        <li><a href="#">Reclaimed</a></li>
+                                                        <li><a href="#">Live Edge</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="category">
+                                    <h4>Kitchen & dining space</h4>
+                                    <ul class="submenu">
+                                        <li><a href="fabric-sample.php">Dining Room Sets</a></li>
+                                        <li><a href="wood-sample.php">Dining tables</a></li>
+                                        <li><a href="list-of-pre-built-products-v1.php">Dining Chairs & seating</a></li>
+                                        <li><a href="#">Home Bars & Bar Furnitures</a></li>
+                                        <li><a href="#">Sideboars & Buffets</a></li>
+                                        <li><a href="#">Kitchen islands & cabinets</a></li>
+                                    </ul>
+                                    <div class="submenu_accordion">
+                                        <div class="accordion-item">
+                                            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#rustic_dining_1">Shop By Quick Ship</button>
+                                            <div id="rustic_dining_1" class="accordion-collapse collapse" data-bs-parent="#nav_with_accordion">
+                                                <div class="accordion-body">
+                                                    <ul class="submenu">
+                                                        <li><a href="#">Traditional</a></li>
+                                                        <li><a href="#">Mission</a></li>
+                                                        <li><a href="#">Contemporary</a></li>
+                                                        <li><a href="#">Electric</a></li>
+                                                        <li><a href="#">Farmhouse elegance</a></li>
+                                                        <li><a href="#">Reclaimed Barnwood</a></li>
+                                                        <li><a href="#">Live Edge</a></li>
+                                                        <li><a href="#">Prive Value bedrooms</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#rustic_dining_2">Shop By Rustic Wood</button>
+                                            <div id="rustic_dining_2" class="accordion-collapse collapse" data-bs-parent="#nav_with_accordion">
+                                                <div class="accordion-body">
+                                                    <ul class="submenu">
+                                                        <li><a href="#">History</a></li>
+                                                        <li><a href="#">Log</a></li>
+                                                        <li><a href="#">Rough Sawn</a></li>
+                                                        <li><a href="#">Reclaimed</a></li>
+                                                        <li><a href="#">Live Edge</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="category">
+                                    <h4>Living Rooms & entertainment</h4>
+                                    <ul class="submenu">
+                                        <li><a href="style-landing.php">Living Room Sets</a></li>
+                                        <li><a href="#">TV Stands & entertainment centers</a></li>
+                                        <li><a href="#">Hallway Furniture & Benches</a></li>
+                                        <li><a href="list-of-pre-built-products-v1.php">Accent Tables</a></li>
+                                        <li><a href="#">Gun Cabinet</a></li>
+                                    </ul>
+                                    <div class="submenu_accordion">
+                                        <div class="accordion-item">
+                                            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#rustic_living_1">Shop By Quick Ship</button>
+                                            <div id="rustic_living_1" class="accordion-collapse collapse" data-bs-parent="#nav_with_accordion">
+                                                <div class="accordion-body">
+                                                    <ul class="submenu">
+                                                        <li><a href="#">Traditional</a></li>
+                                                        <li><a href="#">Mission</a></li>
+                                                        <li><a href="#">Contemporary</a></li>
+                                                        <li><a href="#">Electric</a></li>
+                                                        <li><a href="#">Farmhouse elegance</a></li>
+                                                        <li><a href="#">Reclaimed Barnwood</a></li>
+                                                        <li><a href="#">Live Edge</a></li>
+                                                        <li><a href="#">Prive Value bedrooms</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#rustic_living_2">Shop By Rustic Wood</button>
+                                            <div id="rustic_living_2" class="accordion-collapse collapse" data-bs-parent="#nav_with_accordion">
+                                                <div class="accordion-body">
+                                                    <ul class="submenu">
+                                                        <li><a href="#">History</a></li>
+                                                        <li><a href="#">Log</a></li>
+                                                        <li><a href="#">Rough Sawn</a></li>
+                                                        <li><a href="#">Reclaimed</a></li>
+                                                        <li><a href="#">Live Edge</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="category">
+                                    <h4>Office</h4>
+                                    <ul class="submenu">
+                                        <li><a href="collection-landing.php">Desk & Tables</a></li>
+                                        <li><a href="product-listing.php">Bookcases, Filing Cabinets</a></li>
+                                    </ul>
+                                    <div class="submenu_accordion">
+                                        <div class="accordion-item">
+                                            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#rustic_office_1">Shop By Quick Ship</button>
+                                            <div id="rustic_office_1" class="accordion-collapse collapse" data-bs-parent="#nav_with_accordion">
+                                                <div class="accordion-body">
+                                                    <ul class="submenu">
+                                                        <li><a href="#">Traditional</a></li>
+                                                        <li><a href="#">Mission</a></li>
+                                                        <li><a href="#">Contemporary</a></li>
+                                                        <li><a href="#">Electric</a></li>
+                                                        <li><a href="#">Farmhouse elegance</a></li>
+                                                        <li><a href="#">Reclaimed Barnwood</a></li>
+                                                        <li><a href="#">Live Edge</a></li>
+                                                        <li><a href="#">Prive Value bedrooms</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#rustic_office_2">Shop By Rustic Wood</button>
+                                            <div id="rustic_office_2" class="accordion-collapse collapse" data-bs-parent="#nav_with_accordion">
+                                                <div class="accordion-body">
+                                                    <ul class="submenu">
+                                                        <li><a href="#">History</a></li>
+                                                        <li><a href="#">Log</a></li>
+                                                        <li><a href="#">Rough Sawn</a></li>
+                                                        <li><a href="#">Reclaimed</a></li>
+                                                        <li><a href="#">Live Edge</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </li>

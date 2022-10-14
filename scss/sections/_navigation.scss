@@ -115,8 +115,6 @@
                         color:$blue !important;
                     }
                 }
-                .submenu-area{
-                }
                 .category{
                     h4{
                         margin-bottom:$m-15;
@@ -129,6 +127,41 @@
                         margin-left: 20px;
                     }
                 }
+                .submenu_accordion{
+                    margin-top:20px;
+                    .accordion-item{
+                        margin-bottom:5px;
+                        border:0;
+                        &:last-child{
+                            margin-bottom:0;
+                        }
+                    }
+                    .accordion-button{
+                        padding:0;
+                        color:$brand-color;
+                        background-color: transparent;
+                        box-shadow: none;
+                        @include font(16px,32px,500);
+                        &:after{
+                            content: ">";
+                            color:$brand-color;
+                            background-image: none;
+                            font-size: 20px;
+                            margin-left:20px;
+                            width: 10px;
+                            height: 15px;
+                            transform: rotate(90deg);
+                            transform-origin: center;
+                        }
+                        &:not(.collapsed):after{
+                            transform: rotate(-90deg);
+                        }
+                    }
+                    .accordion-body{
+                        padding:5px;
+                        padding-left:0;
+                    }
+                }
                 .submenu{
                     list-style-type: none;
                     list-style-position: inside;
@@ -139,6 +172,7 @@
                         margin:12px 0;
                         a{
                             @include font($font-16,$line-18,$font-medium);
+                            text-transform: capitalize;
                         }
                     }
                     
@@ -239,7 +273,7 @@
                             .submenu{
                                 color:rgba($blue-darkest,60%) !important;
                             }
-                            h4{
+                            h4,.accordion-button{
                                 @include font($font-14,$line-26,$font-medium);
                             }
                             li{
