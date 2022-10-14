@@ -214,7 +214,7 @@
                     <li class="megamenu nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" role="button" id="dropdown-2" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Rustic & Live Edge <span class="only-responsive arrow">></span></a>
                         <div class="dropdown-menu submenu-block" aria-labelledby="dropdown-2">
-                            <h3><a href="#">Rustic & Live Edge</a></h3>
+                            <h3><a href="#">Rustic Lodge</a></h3>
                             <a href="product-listing.php" class="link stock-link">Items in stocks</a>
                             <div class="submenu-area">
                                 <div class="category">
