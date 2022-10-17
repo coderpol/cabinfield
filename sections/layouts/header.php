@@ -50,7 +50,6 @@
             <div class="col-md-5 col-5 search-area">
                 <form action="/" class="searchform">
                     <i class="fa-solid fa-magnifying-glass"></i>
-                    <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
                     <input type="search" name="search" id="search" placeholder="Search our store">
                 </form>
             </div>

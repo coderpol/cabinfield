@@ -227,3 +227,23 @@ var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggl
 var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
   return new bootstrap.Tooltip(tooltipTriggerEl)
 })
+
+// Prevent closing from click inside dropdown
+$(document).on('click', '.submenu-block *', function (e) {
+  e.stopPropagation();
+});
+
+// for mobile navigation
+if ($(window).width() < 992) {
+  $('.nav-toggle').click(function(e){
+    $('.main-navigation').slideDown('100').addClass('active');
+  });
+  $('#nav-close').click(function(e){
+    $('.main-navigation').removeClass('active').slideUp();
+  });
+  $('.heading-link').click(function(e){
+    var target = $(this).data('target');
+    $("#"+target).toggleClass('active');
+    $(this).toggleClass('active');
+  });
+}
