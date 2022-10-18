@@ -232,6 +232,10 @@
     }
 }
 
+@include from-tablet{
+    .main-navigation{display:block !important}
+}
+
 @include upto-tablet{
     .navigation-area{
         padding:0;
