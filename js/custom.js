@@ -88,9 +88,6 @@ $(document).on("click",".remover",function(){
   $(this).closest(".combination").remove();
 });
 
-
-
-
 // shop cart counter
 // $("span .count").data("count");
 
@@ -166,9 +163,6 @@ $('.product-slider').slick({
   ]
 });
 
-
-
-
 // product gallery
 $('#thumbnail-horizontal').slick({
   dots: false,
@@ -212,42 +206,24 @@ $('#thumbnail-horizontal').slick({
   ]
 });
 
-// clicking function
-// $('.gallery-thumb .thumb').click(function(){
-//   var largeImage = $(this).attr('data-full');
-//   let caption = "<p>"+$(this).attr('data-caption')+"</p>";
-//   $('.selected').removeClass("selected");
-//   $(this).addClass('selected');
-//   $('.gallery-full img').hide().attr('src', largeImage).fadeIn();
-//   $('.gallery-full p').remove();
-//   $('.gallery-full').append(caption).fadeIn();
-// });
-
+// tooltip script
 var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
 var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
   return new bootstrap.Tooltip(tooltipTriggerEl)
 })
 
-// Prevent closing from click inside dropdown
-$(document).on('click', '.submenu-block *', function (e) {
-  e.stopPropagation();
+// for mobile navigation
+$('.nav-toggle').click(function(e){
+  $('.main-navigation').slideDown('100').addClass('active');
+  $('#nav-close').slideDown('1000');
+});
+$('#nav-close').click(function(e){
+  $('#nav-close').slideUp('100');
+  $('.main-navigation').removeClass('active').slideUp('300');
+});
+$('.heading-link').click(function(e){
+  var target = $(this).data('target');
+  $("#"+target).toggleClass('active');
+  $(this).toggleClass('active');
 });
 
-// for mobile navigation
-if ($(window).width() < 992) {
-  $('.nav-toggle').click(function(e){
-    $('.main-navigation').slideDown('100').addClass('active');
-    $('#nav-close').slideDown('1000');
-  });
-  $('#nav-close').click(function(e){
-    $('#nav-close').slideUp('100');
-    $('.main-navigation').removeClass('active').slideUp('300');
-  });
-  $('.heading-link').click(function(e){
-    var target = $(this).data('target');
-    $("#"+target).toggleClass('active');
-    $(this).toggleClass('active');
-  });
-}else{
-  $('.main-navigation').show();
-}
