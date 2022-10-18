@@ -237,9 +237,11 @@ $(document).on('click', '.submenu-block *', function (e) {
 if ($(window).width() < 992) {
   $('.nav-toggle').click(function(e){
     $('.main-navigation').slideDown('100').addClass('active');
+    $('#nav-close').slideDown('1000');
   });
   $('#nav-close').click(function(e){
-    $('.main-navigation').removeClass('active').slideUp();
+    $('#nav-close').slideUp('100');
+    $('.main-navigation').removeClass('active').slideUp('300');
   });
   $('.heading-link').click(function(e){
     var target = $(this).data('target');
