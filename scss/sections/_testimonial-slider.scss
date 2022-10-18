@@ -1,5 +1,6 @@
 .testimonial-area{
     padding:$m-15 0 $m-45;
+    overflow: hidden;
     @include upto-pc{
         padding:$m-20;
     }

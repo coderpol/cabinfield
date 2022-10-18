@@ -246,4 +246,6 @@ if ($(window).width() < 992) {
     $("#"+target).toggleClass('active');
     $(this).toggleClass('active');
   });
+}else{
+  $('.main-navigation').show();
 }
