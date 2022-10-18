@@ -208,7 +208,7 @@
                         </div>
                     </li>
                     <li class="menu-item has_submenu megamenu">
-                        <span class="heading-link" data-target="second-menu">Rustic & Live Edge <span class="only-responsive arrow">></span></span>
+                        <span class="heading-link" data-target="second-menu">Rustic Lodge <span class="only-responsive arrow">></span></span>
                         <div class="dropdown-menu submenu-block" id="second-menu">
                             <h3><a href="#">Rustic Lodge</a></h3>
                             <a href="product-listing.php" class="link stock-link">Items in stocks</a>
