@@ -221,9 +221,24 @@ $('#nav-close').click(function(e){
   $('#nav-close').slideUp('100');
   $('.main-navigation').removeClass('active').slideUp('300');
 });
+
+// for hover on main link
 $('.heading-link').click(function(e){
   var target = $(this).data('target');
   $("#"+target).toggleClass('active');
   $(this).toggleClass('active');
 });
+
+if ($(window).width() > 991) {
+  $('.heading-link').hover(function(e){
+    $('.submenu-block').removeClass('active');
+    var target = $(this).data('target');
+    $(".megamenu  #"+target).addClass('active');
+  });
+  document.onclick = function(e){
+      if(e.target.class != 'megamenu'){
+          jQuery(".megamenu .submenu-block").removeClass("active");
+      }
+  };
+}
 
