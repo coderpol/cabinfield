@@ -38,6 +38,8 @@
                                                         <li><a href="#">Reclaimed Barnwood</a></li>
                                                         <li><a href="#">Live Edge</a></li>
                                                         <li><a href="#">Prive Value bedrooms</a></li>
+                                                        <li><a href="#">Prive Value bedrooms</a></li>
+                                                        <li><a href="#">Prive Value bedrooms</a></li>
                                                     </ul>
                                                 </div>
                                             </div>

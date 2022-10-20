@@ -229,15 +229,19 @@ $('.heading-link').click(function(e){
   $(this).toggleClass('active');
 });
 
+
 if ($(window).width() > 991) {
   $('.heading-link').hover(function(e){
-    $('.submenu-block').removeClass('active');
+    $('.submenu-block').removeClass('visible');
     var target = $(this).data('target');
-    $(".megamenu  #"+target).addClass('active');
+    $(".megamenu  #"+target).addClass('visible');
   });
   document.onclick = function(e){
-      if(e.target.class != 'megamenu'){
-          jQuery(".megamenu .submenu-block").removeClass("active");
+    console.log(e.target.tagName);
+      if(
+        e.target.tagName != 'BUTTON'
+      ){
+        jQuery(".megamenu .submenu-block").removeClass("visible");
       }
   };
 }

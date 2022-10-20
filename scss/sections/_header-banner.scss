@@ -31,6 +31,9 @@
             padding:$m-15 $m-50;
             @include font($font-16,$line-26,$font-medium);
             color:$blue-darker-2;
+            &:hover{
+                color:$white;
+            }
         }
         p{
             @include font($font-16,$line-26);
