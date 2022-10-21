@@ -222,26 +222,25 @@ $('#nav-close').click(function(e){
   $('.main-navigation').removeClass('active').slideUp('300');
 });
 
-// for hover on main link
+// for mobile
 $('.heading-link').click(function(e){
   var target = $(this).data('target');
   $("#"+target).toggleClass('active');
   $(this).toggleClass('active');
 });
 
-
+// for desktop
+$('.heading-link').hover(function(e){
+  $('.submenu-block').removeClass('visible');
+  var target = $(this).data('target');
+  $(".megamenu  #"+target).addClass('visible');
+});
 if ($(window).width() > 991) {
-  $('.heading-link').hover(function(e){
-    $('.submenu-block').removeClass('visible');
-    var target = $(this).data('target');
-    $(".megamenu  #"+target).addClass('visible');
-  });
   document.onclick = function(e){
-    console.log(e.target.tagName);
       if(
         e.target.tagName != 'BUTTON'
       ){
-        jQuery(".megamenu .submenu-block").removeClass("visible");
+        $(".megamenu .submenu-block").removeClass("visible");
       }
   };
 }
