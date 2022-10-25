@@ -129,10 +129,20 @@
                     }
                 }
                 .submenu_accordion{
-                    margin-top:20px;
+                    &+.submenu_accordion{
+                        margin-top:20px;
+                    }
                     .accordion-item{
                         margin-bottom:5px;
                         border:0;
+                        &:first-child{
+                            .accordion-button{
+                                color:#121212;
+                                &:after{
+                                    color:#121212;
+                                }
+                            }
+                        }
                         &:last-child{
                             margin-bottom:0;
                         }

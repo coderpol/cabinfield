@@ -15,16 +15,21 @@
                             <a href="collection-landing.php" class="link stock-link">Items in stocks</a>
                             <div class="submenu-area">
                                 <div class="category">
-                                    <h4>Bedrooms</h4>
-                                    <ul class="submenu">
-                                        <li><a href="bedroom-landing.php">Bedrooms Furnitures Sets</a></li>
-                                        <li><a href="collection-landing.php">Beds & Headboards</a></li>
-                                        <li><a href="product-listing.php">Dressers, CHests & Nightstands</a></li>
-                                        <li><a href="#">Vanities, Jewelry Chests & Mirror</a></li>
-                                        <li><a href="#">Storage Chests & Boxes</a></li>
-                                    </ul>
-                                   
                                     <div class="submenu_accordion">
+                                        <div class="accordion-item">
+                                            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#fine_bedroom_3">Bedroom</button>
+                                            <div id="fine_bedroom_3" class="accordion-collapse collapse show" data-bs-parent="#nav_with_accordion">
+                                                <div class="accordion-body">
+                                                    <ul class="submenu">
+                                                        <li><a href="bedroom-landing.php">Bedrooms Furnitures Sets</a></li>
+                                                        <li><a href="collection-landing.php">Beds & Headboards</a></li>
+                                                        <li><a href="product-listing.php">Dressers, CHests & Nightstands</a></li>
+                                                        <li><a href="#">Vanities, Jewelry Chests & Mirror</a></li>
+                                                        <li><a href="#">Storage Chests & Boxes</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
                                         <div class="accordion-item">
                                             <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#fine_bedroom_1">Shop By Quick Ship</button>
                                             <div id="fine_bedroom_1" class="accordion-collapse collapse" data-bs-parent="#nav_with_accordion">
