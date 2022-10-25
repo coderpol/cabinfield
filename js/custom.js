@@ -230,18 +230,18 @@ $('.heading-link').click(function(e){
 });
 
 // for desktop
-$('.heading-link').hover(function(e){
-  $('.submenu-block').removeClass('visible');
-  var target = $(this).data('target');
-  $(".megamenu  #"+target).addClass('visible');
-});
-if ($(window).width() > 991) {
-  document.onclick = function(e){
-      if(
-        e.target.tagName != 'BUTTON'
-      ){
-        $(".megamenu .submenu-block").removeClass("visible");
-      }
-  };
-}
+// $('.heading-link').hover(function(e){
+//   $('.submenu-block').removeClass('visible');
+//   var target = $(this).data('target');
+//   $(".megamenu  #"+target).addClass('visible');
+// });
+// if ($(window).width() > 991) {
+//   document.onclick = function(e){
+//       if(
+//         e.target.tagName != 'BUTTON'
+//       ){
+//         $(".megamenu .submenu-block").removeClass("visible");
+//       }
+//   };
+// }
 

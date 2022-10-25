@@ -184,6 +184,11 @@
                 .submenu-block{
                     width:100%;
                     .submenu-area{
+                        @include from-tablet{
+                            height: 500px;
+                            overflow-y: auto;
+                            width:calc(100% - 10px);
+                        }
                         display: grid;
                         grid-template-columns: repeat(4,1fr);
                         grid-column-gap: $m-25;
