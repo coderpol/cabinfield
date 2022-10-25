@@ -307,6 +307,17 @@
                                         padding:5px 0;
                                     }
                                 }
+                                .additional-menu{
+                                    margin-top:15px;
+                                    li{
+                                        margin:5px 0;
+                                        a{
+                                            margin-left:0;
+                                            line-height: 1.8em;
+                                            color:$brand-color !important;
+                                        }
+                                    }
+                                }
                                 h4,.accordion-button{
                                     @include font($font-16,$line-26,$font-medium);
                                 }

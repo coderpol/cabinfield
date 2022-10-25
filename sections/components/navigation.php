@@ -5,9 +5,9 @@
                 <span class="nav-toggle"><i class="fa-solid fa-bars"></i></span>
             </div>
             
-            <nav class="main-navigation accordion accordion-flush" id="nav_with_accordion">
+            <nav class="main-navigation">
                 <span id="nav-close"><i class="fa-solid fa-xmark"></i></span>
-                <ul class="main-nav  navbar-nav">
+                <ul class="main-nav navbar-nav">
                     <li class="menu-item has_submenu megamenu">
                         <span class="heading-link" data-target="first-menu">Fine Furniture <span class="only-responsive arrow">></span></span>
                         <div class="dropdown-menu submenu-block" id="first-menu">
