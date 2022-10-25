@@ -127,50 +127,14 @@
                         list-style-position: outside;
                         margin-left: 20px;
                     }
-                }
-                .submenu_accordion{
-                    &+.submenu_accordion{
-                        margin-top:20px;
-                    }
-                    .accordion-item{
-                        margin-bottom:5px;
-                        border:0;
-                        &:first-child{
-                            .accordion-button{
-                                color:#121212;
-                                &:after{
-                                    color:#121212;
-                                }
-                            }
-                        }
-                        &:last-child{
-                            margin-bottom:0;
-                        }
-                    }
-                    .accordion-button{
-                        padding:0;
-                        color:$brand-color;
-                        background-color: transparent;
-                        box-shadow: none;
-                        @include font(16px,32px,500);
-                        &:after{
-                            content: ">";
+                    .additional-menu{
+                        list-style-type: none;
+                        padding-left: 0;
+                        margin-top: 25px;
+                        a{
+                            @include font(16px,32px,500); 
                             color:$brand-color;
-                            background-image: none;
-                            font-size: 20px;
-                            margin-left:20px;
-                            width: 10px;
-                            height: 15px;
-                            transform: rotate(90deg);
-                            transform-origin: center;
                         }
-                        &:not(.collapsed):after{
-                            transform: rotate(-90deg);
-                        }
-                    }
-                    .accordion-body{
-                        padding:5px;
-                        padding-left:0;
                     }
                 }
                 .submenu{
@@ -194,11 +158,6 @@
                 .submenu-block{
                     width:100%;
                     .submenu-area{
-                        @include from-tablet{
-                            height: 500px;
-                            overflow-y: auto;
-                            width:calc(100% - 10px);
-                        }
                         display: grid;
                         grid-template-columns: repeat(4,1fr);
                         grid-column-gap: $m-25;
