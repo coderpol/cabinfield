@@ -72,7 +72,7 @@ include_once('sections/layouts/header.php')
                                 <?php include_once('sections/product-page/accordions/fabric.php') ?>
 
                             </div>
-                            <div class="border-bottom mb-0"></div>
+                            <div class="border-bottom mb-4"></div>
                             <?php include_once('sections/product-page/quote-form-area.php') ?>
                         </form>
                     </div>
