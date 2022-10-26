@@ -24,17 +24,40 @@
             position:relative;
             @include above-phone{
                 max-width: 254px;
-                margin:0 $m-20;
+                margin:1px $m-20;
+            }
+            @include upto-phone{
+                padding:10px;
+                border: 1px solid #dedede;
+                border-right: 0;
+                &:only-child{
+                    border-right: 1px solid #dedede;
+                }
             }
             .figure{
                 text-align: center;
                 // background: $whitish-1;
                 width:100%;
                 padding:$m-0;
+                
+                @include above-phone{
+                    box-shadow: 0 0 2px rgba(3, 1, 1, 0.2);
+                    &:hover{
+                        box-shadow: 0 0 4px rgba(3, 1, 1, 0.3);
+                    }
+                }
                 img{
                     // max-width: 160px;
                     margin:0 auto;
+                    transition: all 0.5s ease-in-out;
+                    @include above-phone{
+                        &:hover{
+                            transform: scale(1.04);
+                        }
+                    }
                 }
+                
+                a{display: block;}
             }
             .icon{
                 display: block;

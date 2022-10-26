@@ -71,9 +71,9 @@ include_once('sections/layouts/header.php')
                     </div>
                     <div class="thumb-area">
                         <ul>
-                            <li><img src="images/products/type-b/bed-1-thumb-1.png" alt=""></li>
-                            <li><img src="images/products/type-b/bed-1-thumb-2.png" alt=""></li>
-                            <li><img src="images/products/type-b/bed-1-thumb-3.png" alt=""></li>
+                            <li><a href="#"><img src="images/products/type-b/bed-1-thumb-1.png" alt=""></a></li>
+                            <li><a href="#"><img src="images/products/type-b/bed-1-thumb-2.png" alt=""></a></li>
+                            <li><a href="#"><img src="images/products/type-b/bed-1-thumb-3.png" alt=""></a></li>
                         </ul>
                     </div>
                 </div>
@@ -102,9 +102,9 @@ include_once('sections/layouts/header.php')
                     </div>
                     <div class="thumb-area">
                         <ul>
-                            <li><img src="images/products/type-b/bed-2-thumb-1.png" alt=""></li>
-                            <li><img src="images/products/type-b/bed-2-thumb-2.png" alt=""></li>
-                            <li><img src="images/products/type-b/bed-2-thumb-3.png" alt=""></li>
+                            <li><a href="#"><img src="images/products/type-b/bed-2-thumb-1.png" alt=""></a></li>
+                            <li><a href="#"><img src="images/products/type-b/bed-2-thumb-2.png" alt=""></a></li>
+                            <li><a href="#"><img src="images/products/type-b/bed-2-thumb-3.png" alt=""></a></li>
                         </ul>
                     </div>
                 </div>
@@ -132,9 +132,9 @@ include_once('sections/layouts/header.php')
                     </div>
                     <div class="thumb-area">
                         <ul>
-                            <li><img src="images/products/type-b/bed-3-thumb-1.png" alt=""></li>
-                            <li><img src="images/products/type-b/bed-3-thumb-2.png" alt=""></li>
-                            <li><img src="images/products/type-b/bed-3-thumb-3.png" alt=""></li>
+                            <li><a href="#"><img src="images/products/type-b/bed-3-thumb-1.png" alt=""></a></li>
+                            <li><a href="#"><img src="images/products/type-b/bed-3-thumb-2.png" alt=""></a></li>
+                            <li><a href="#"><img src="images/products/type-b/bed-3-thumb-3.png" alt=""></a></li>
                         </ul>
                     </div>
                 </div>
@@ -161,9 +161,9 @@ include_once('sections/layouts/header.php')
                     </div>
                     <div class="thumb-area">
                         <ul>
-                            <li><img src="images/products/type-b/bed-4-thumb-1.png" alt=""></li>
-                            <li><img src="images/products/type-b/bed-4-thumb-2.png" alt=""></li>
-                            <li><img src="images/products/type-b/bed-4-thumb-3.png" alt=""></li>
+                            <li><a href="#"><img src="images/products/type-b/bed-4-thumb-1.png" alt=""></a></li>
+                            <li><a href="#"><img src="images/products/type-b/bed-4-thumb-2.png" alt=""></a></li>
+                            <li><a href="#"><img src="images/products/type-b/bed-4-thumb-3.png" alt=""></a></li>
                         </ul>
                     </div>
                 </div>
@@ -191,9 +191,9 @@ include_once('sections/layouts/header.php')
                     </div>
                     <div class="thumb-area">
                         <ul>
-                            <li><img src="images/products/type-b/bed-5-thumb-1.png" alt=""></li>
-                            <li><img src="images/products/type-b/bed-5-thumb-2.png" alt=""></li>
-                            <li><img src="images/products/type-b/bed-5-thumb-3.png" alt=""></li>
+                            <li><a href="#"><img src="images/products/type-b/bed-5-thumb-1.png" alt=""></a></li>
+                            <li><a href="#"><img src="images/products/type-b/bed-5-thumb-2.png" alt=""></a></li>
+                            <li><a href="#"><img src="images/products/type-b/bed-5-thumb-3.png" alt=""></a></li>
                         </ul>
                     </div>
                 </div>

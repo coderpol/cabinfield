@@ -162,7 +162,9 @@ include_once('sections/layouts/header.php')
                     <!-- single product  -->
                     <div class="col-md-4 product">
                         <figure>
-                            <img src="images/products/listing/product-1.png" alt="">
+                            <a href="#">
+                                <img src="images/products/listing/product-1.png" alt="">
+                            </a>
                         </figure>
                         <h3 class="title"><a href="product-1.php">Franklin Amish File Cabinet</a></h3>
                         <p class="details">Product No. FGFH1128</p>
@@ -176,7 +178,9 @@ include_once('sections/layouts/header.php')
                     <!-- single product  -->
                     <div class="col-md-4 product">
                         <figure>
-                            <img src="images/products/listing/product-2.png" alt="">
+                            <a href="#">
+                                <img src="images/products/listing/product-2.png" alt="">
+                            </a>
                         </figure>
                         <h3 class="title"><a href="product-1.php">Charleston Amish File Cabinet</a></h3>
                         <p class="details">Product No. FGFH1128</p>
@@ -190,7 +194,9 @@ include_once('sections/layouts/header.php')
                     <!-- single product  -->
                     <div class="col-md-4 product">
                         <figure>
-                            <img src="images/products/listing/product-3.png" alt="">
+                            <a href="#">
+                                <img src="images/products/listing/product-3.png" alt="">
+                            </a>
                         </figure>
                         <h3 class="title"><a href="product-1.php">Prairie Mission Amish File Cabinet</a></h3>
                         <p class="details">Product No. FGFH1128</p>
@@ -205,7 +211,9 @@ include_once('sections/layouts/header.php')
                     <!-- single product  -->
                     <div class="col-md-4 product">
                         <figure>
-                            <img src="images/products/listing/product-4.png" alt="">
+                            <a href="#">
+                                <img src="images/products/listing/product-4.png" alt="">
+                            </a>
                         </figure>
                         <h3 class="title"><a href="product-1.php">Franklin Amish File Cabinet</a></h3>
                         <p class="details">Product No. FGFH1128</p>
@@ -219,7 +227,9 @@ include_once('sections/layouts/header.php')
                     <!-- single product  -->
                     <div class="col-md-4 product">
                         <figure>
-                            <img src="images/products/listing/product-5.png" alt="">
+                            <a href="#">
+                                <img src="images/products/listing/product-5.png" alt="">
+                            </a>
                         </figure>
                         <h3 class="title"><a href="product-1.php">Franklin Amish File Cabinet</a></h3>
                         <p class="details">Product No. FGFH1128</p>
@@ -233,7 +243,9 @@ include_once('sections/layouts/header.php')
                     <!-- single product  -->
                     <div class="col-md-4 product">
                         <figure>
-                            <img src="images/products/listing/product-6.png" alt="">
+                            <a href="#">
+                                <img src="images/products/listing/product-6.png" alt="">
+                            </a>
                         </figure>
                         <h3 class="title"><a href="product-1.php">Franklin Amish File Cabinet</a></h3>
                         <p class="details">Product No. FGFH1128</p>
