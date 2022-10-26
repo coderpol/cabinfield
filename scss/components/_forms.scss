@@ -2,11 +2,11 @@
     
     .form-line{
         margin-bottom:$m-15;
-        label,.form-label{
-            @include font($font-16,$line-23,$font-medium);
-            margin-bottom:$m-10;
-            color:$black;
-        }
+    }
+    label,.form-label{
+        @include font($font-16,$line-23,$font-medium);
+        margin-bottom:$m-10;
+        color:$black;
     }
     
     .form-check-input{
