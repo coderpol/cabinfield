@@ -45,6 +45,51 @@ include_once('sections/layouts/header.php')
         <div class="row border-bottom">
             <!-- section title  -->
             <header class="col-md-12 section-title small">
+                <h3>Shop By Quick Ship</h3>
+            </header>
+            <!-- section title ends  -->
+            
+            <!-- collection area  -->
+            <div class="col-md-12  collection-area image_padding">
+                <!-- single collection  -->
+                <a href="collection-landing.php" class="collection">
+                    <img src="images/collections/ship/ship-1.jpg" alt="">
+                    <h4>Quick Ship Seating</h4>
+                </a>
+                <!-- single collection -->
+                
+                <!-- single collection ends -->
+                <a href="collection-landing.php"  class="collection">
+                    <img src="images/collections/ship/ship-2.jpg" alt="">
+                    <h4>Quick Ship Accent Tables</h4>
+                </a>
+                <!-- single collection -->
+                
+                <!-- single collection ends -->
+                <a href="collection-landing.php"  class="collection">
+                    <img src="images/collections/ship/ship-3.jpg" alt="">
+                    <h4>Quick Ship TV Stands & Entertainment Centers</h4>
+                </a>
+                <!-- single collection -->
+                
+                <!-- single collection ends -->
+                <a href="collection-landing.php"  class="collection">
+                    <img src="images/collections/ship/ship-4.jpg" alt="">
+                    <h4>Quick Ship Hallway Furniture & Benches</h4>
+                </a>
+                <!-- single collection -->
+                
+                <!-- single collection ends -->
+                <a href="collection-landing.php"  class="collection">
+                    <img src="images/collections/ship/ship-5.jpg" alt="">
+                    <h4>Shop By Style</h4>
+                </a>
+                <!-- single collection -->
+            </div>
+        </div>
+        <div class="row border-bottom">
+            <!-- section title  -->
+            <header class="col-md-12 section-title small">
                 <h3>Shop by Furniture Collection</h3>
             </header>
             <!-- section title ends  -->
@@ -129,7 +174,7 @@ include_once('sections/layouts/header.php')
                 <!-- single collection ends -->
             </div>
         </div>
-        <div class="row">
+        <div class="row border-bottom">
             <!-- section title  -->
             <header class="col-md-12 section-title small">
                 <h3>Shop by Furniture Piece</h3>
@@ -191,6 +236,64 @@ include_once('sections/layouts/header.php')
                     <h4>Reclaimed Barnwood</h4>
                 </a>
                 <!-- single collection ends -->
+            </div>
+        </div>
+        
+        <div class="row">
+            <!-- section title  -->
+            <header class="col-md-12 section-title small">
+                <h3>Shop by Furniture Type</h3>
+            </header>
+            <!-- section title  -->
+            <div class="col-md-12 collection-area">
+                <!-- single collection -->
+                <a href="style-landing.php"  class="collection no_image_padding">
+                    <img src="images/collections/type/type-1.jpg" alt="">
+                    <h4>Living Room Sets</h4>
+                </a>
+                <!-- single collection -->
+                
+                <!-- single collection ends -->
+                <a href="style-landing.php"  class="collection image_padding">
+                    <img src="images/collections/type/type-2.jpg" alt="">
+                    <h4>Living Room Seating</h4>
+                </a>
+                <!-- single collection -->
+                
+                <!-- single collection ends -->
+                <a href="style-landing.php"  class="collection">
+                    <img src="images/collections/type/type-3.jpg" alt="">
+                    <h4>Accent Tables</h4>
+                </a>
+                <!-- single collection -->
+                
+                <!-- single collection ends -->
+                <a href="style-landing.php"  class="collection">
+                    <img src="images/collections/type/type-4.jpg" alt="">
+                    <h4>TV Stands & Entertainment Centers</h4>
+                </a>
+                <!-- single collection -->
+                
+                <!-- single collection ends -->
+                <a href="style-landing.php"  class="collection">
+                    <img src="images/collections/type/type-5.jpg" alt="">
+                    <h4>Hallway Furniture & Benches</h4>
+                </a>
+                <!-- single collection -->
+                
+                <!-- single collection ends -->
+                <a href="style-landing.php"  class="collection">
+                    <img src="images/collections/type/type-6.jpg" alt="">
+                    <h4>Gun Cabinets</h4>
+                </a>
+                <!-- single collection -->
+                
+                <!-- single collection ends -->
+                <a href="style-landing.php"  class="collection">
+                    <img src="images/collections/type/type-7.jpg" alt="">
+                    <h4>Curios & Display Cabinets</h4>
+                </a>
+                <!-- single collection -->
             </div>
         </div>
     </div>

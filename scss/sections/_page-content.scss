@@ -340,19 +340,37 @@
 
 
 .collection-area{
-    display: grid;
-    grid-template-columns: repeat(5,1fr);
-    gap: 20px;
-    @include upto-tablet{
-        grid-template-columns: repeat(3,1fr);
-    }
-    @include upto-phone{
-        grid-template-columns: repeat(2,1fr);
-    }
+    // display: grid;
+    // grid-template-columns: repeat(5,1fr);
+    // gap: 20px;
+    // @include upto-tablet{
+    //     grid-template-columns: repeat(3,1fr);
+    // }
+    // @include upto-phone{
+    //     grid-template-columns: repeat(2,1fr);
+    // }
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
     .collection{
         flex-basis:18%;
+        margin-right:2.5%;
+        margin-bottom:20px;
+        transition: all 0.5s ease-in;
+        &:nth-child(5n){
+            margin-right:0;
+        }
+        img{
+            transition: all 0.5s ease-in;
+        }
         &:hover{
             text-decoration: none;
+            border-color: $brand-color;
+            img{
+                transform: scale(1.05);
+            }
         }
         @include upto-phone{
             flex-basis:30%;
@@ -369,6 +387,17 @@
             @include font($font-18,$font-26,$font-medium);
             padding: $m-20 $m-15;
             margin-bottom: 0;
+        }
+        &.image_padding{
+            padding:10px 0;
+        }
+    }
+    &.image_padding{
+        .collection{
+            padding:10px 0;
+        }
+        .no_image_padding{
+            padding:0;
         }
     }
 }
