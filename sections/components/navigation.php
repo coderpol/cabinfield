@@ -15,7 +15,7 @@
                             <a href="collection-landing.php" class="link stock-link">Items in stocks</a>
                             <div class="submenu-area">
                                 <div class="category">
-                                    <h4>Bedroom</h4>
+                                    <h4><a href="#">Bedroom</a></h4>
                                     <ul class="submenu">
                                         <li><a href="bedroom-landing.php">Bedrooms Furnitures Sets</a></li>
                                         <li><a href="collection-landing.php">Beds & Headboards</a></li>
@@ -29,7 +29,7 @@
                                     </ul>
                                 </div>
                                 <div class="category">
-                                    <h4>Living Rooms & entertainment</h4>
+                                    <h4><a href="#">Living Rooms & entertainment</a></h4>
                                     <ul class="submenu">
                                         <li><a href="style-landing.php">Living Room Sets</a></li>
                                         <li><a href="wood-sample.php">Living Room Seating</a></li>
@@ -45,7 +45,7 @@
                                     </ul>
                                 </div>
                                 <div class="category">
-                                    <h4>Kitchen & dining space</h4>
+                                    <h4><a href="#">Kitchen & dining space</a></h4>
                                     <ul class="submenu">
                                         <li><a href="fabric-sample.php">Dining Room Sets</a></li>
                                         <li><a href="wood-sample.php">Dining tables</a></li>
@@ -62,7 +62,7 @@
                                     </ul>
                                 </div>
                                 <div class="category">
-                                    <h4>Office</h4>
+                                    <h4><a href="#">Office</a></h4>
                                     <ul class="submenu">
                                         <li><a href="bedroom-landing.php">Office Furniture sets</a></li>
                                         <li><a href="collection-landing.php">Desk & Tables</a></li>
@@ -85,7 +85,7 @@
                             <a href="product-listing.php" class="link stock-link">Items in stocks</a>
                             <div class="submenu-area">
                                 <div class="category">
-                                    <h4>Bedrooms</h4>
+                                    <h4><a href="#">Bedrooms</a></h4>
                                     <ul class="submenu">
                                         <li><a href="bedroom-landing.php">Bedrooms Sets</a></li>
                                         <li><a href="collection-landing.php">Beds & Headboards</a></li>
@@ -106,7 +106,7 @@
                                     </ul>
                                 </div>
                                 <div class="category">
-                                    <h4>Kitchen & dining space</h4>
+                                    <h4><a href="#">Kitchen & dining space</a></h4>
                                     <ul class="submenu">
                                         <li><a href="fabric-sample.php">Dining Room Sets</a></li>
                                         <li><a href="wood-sample.php">Dining tables</a></li>
@@ -121,7 +121,7 @@
                                     </ul>
                                 </div>
                                 <div class="category">
-                                    <h4>Living Rooms & entertainment</h4>
+                                    <h4><a href="#">Living Rooms & entertainment</a></h4>
                                     <ul class="submenu">
                                         <li><a href="style-landing.php">Living Room Sets</a></li>
                                         <li><a href="#">TV Stands & entertainment centers</a></li>
@@ -136,7 +136,7 @@
                                 </div>
                                 
                                 <div class="category">
-                                    <h4>Office</h4>
+                                    <h4><a href="#">Office</a></h4>
                                     <ul class="submenu">
                                         <li><a href="collection-landing.php">Desk & Tables</a></li>
                                         <li><a href="product-listing.php">Bookcases, Filing Cabinets</a></li>

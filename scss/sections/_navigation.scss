@@ -121,6 +121,12 @@
                         margin-bottom:$m-15;
                         @include font($font-16,$line-21,$font-medium);
                         text-transform: capitalize;
+                        a{
+                            color:$black;
+                            &:hover{
+                                color:$brand-color;
+                            }
+                        }
                     }
                     .submenu{
                         list-style-type: disc; 
