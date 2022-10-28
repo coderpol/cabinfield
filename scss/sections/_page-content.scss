@@ -213,6 +213,9 @@
                     color:$gray-dark-3;
                 }
             }
+            &:hover{
+                box-shadow: none !important;
+            }
         }
         .accordion-collapse{
             .accordion-body{

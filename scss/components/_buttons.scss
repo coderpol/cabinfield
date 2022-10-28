@@ -1,3 +1,9 @@
+button{
+    transition:all 0.2s ease-in-out;
+    &:hover{
+        box-shadow: 0 0 4px rgba($black,0.3);
+    }
+}
 .btn{
     display: inline-block;
     padding:$m-10 $m-30;
@@ -7,7 +13,7 @@
     color:$white;
     border:none;
     cursor:pointer;
-    transition:all 0.5s ease-in-out;
+    transition:all 0.3s ease-in-out;
     &.btn-white{
       background-color: $white;  
       color:$blue-darkest;

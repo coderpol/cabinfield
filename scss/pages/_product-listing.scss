@@ -98,7 +98,9 @@
                 transition: all 0.5s ease-in-out;
                 &:hover{
                     box-shadow: 0 0 4px rgba(3, 1, 1, 0.3);
-                    transform: scale(1.04);
+                    img{
+                        transform: scale(1.04);
+                    }
                 }
                 a{display: block;}
             }
