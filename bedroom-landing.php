@@ -245,7 +245,7 @@ include_once('sections/layouts/header.php')
                 <h3>Shop by Furniture Type</h3>
             </header>
             <!-- section title  -->
-            <div class="col-md-12 collection-area">
+            <div class="col-md-12 collection-area image_padding">
                 <!-- single collection -->
                 <a href="style-landing.php"  class="collection no_image_padding">
                     <img src="images/collections/type/type-1.jpg" alt="">
