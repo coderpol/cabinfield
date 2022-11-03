@@ -120,14 +120,13 @@
                     .thumb-area{
                         ul,ol{
                             
-                            display: flex;
-                            flex-wrap: nowrap;
-                            justify-content: space-between;
+                            display: grid;
+                            grid-template-columns: repeat(3,1fr);
+                            grid-column-gap: 20px;
                             list-style-type: none;
                             padding-left:0;
                             margin-bottom:0;
                             li{
-                                flex-basis: 30%;
                                 a{
                                     display: block;
                                     border:1px solid $gray;
@@ -135,8 +134,6 @@
                                     &:hover{
                                         border-color:$brand-color;
                                     } 
-                                }
-                                img{
                                 }
                             }
                         }

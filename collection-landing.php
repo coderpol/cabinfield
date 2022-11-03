@@ -134,7 +134,6 @@ include_once('sections/layouts/header.php')
                         <ul>
                             <li><a href="#"><img src="images/products/type-b/bed-3-thumb-1.png" alt=""></a></li>
                             <li><a href="#"><img src="images/products/type-b/bed-3-thumb-2.png" alt=""></a></li>
-                            <li><a href="#"><img src="images/products/type-b/bed-3-thumb-3.png" alt=""></a></li>
                         </ul>
                     </div>
                 </div>
