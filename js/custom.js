@@ -34,7 +34,7 @@ $('input#shipping_address_trigger').click(function(){
 });
 
 // hide/show filter on page
-$("#filter-toggle.opened").click(function(){
+$("#filter-toggle").click(function(){
   $("#filter-area").toggle();
   $("#filter-toggle span").text($("#filter-toggle span").text() == 'Show' ? 'Hide' : 'Show');
   $("#product-listing-area").toggleClass("col-lg-12");
