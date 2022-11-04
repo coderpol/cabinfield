@@ -211,7 +211,7 @@ include_once('sections/layouts/header.php')
                     </div>
                     <!-- single product end -->
                     <div class="col-md-12 section-title small">
-                        <h2><span>Cropped</span> Size</h2>
+                        <h2><span>Stretched</span> Size</h2>
                     </div>
                     <!-- single product  -->
                     <div class="col-md-4 product">
@@ -250,6 +250,57 @@ include_once('sections/layouts/header.php')
                         <figure>
                             <a href="#">
                                 <img src="images/products/listing-2/3-resized.jpg" alt="">
+                            </a>
+                        </figure>
+                        <h3 class="title"><a href="product-1.php">Prairie Mission Amish File Cabinet</a></h3>
+                        <p class="details">Product No. FGFH1128</p>
+                        <p class="price vertical-middle">starting <span class="value">$1,3,71.00</span></p>
+                        <span class="availability">Available for 3 sizes</span>
+                        <div class="icon">
+                            <button><i class="fa-solid fa-heart"></i></button>
+                        </div>
+                    </div>
+                    <!-- single product end -->
+                    <div class="col-md-12 section-title small">
+                        <h2><span>Cropped</span> Size</h2>
+                    </div>
+                    <!-- single product  -->
+                    <div class="col-md-4 product">
+                        <figure>
+                            <a href="#">
+                                <img src="images/products/listing-2/1-cropped.jpg" alt="">
+                            </a>
+                        </figure>
+                        <h3 class="title"><a href="product-1.php">Franklin Amish File Cabinet</a></h3>
+                        <p class="details">Product No. FGFH1128</p>
+                        <p class="price vertical-middle">starting <span class="value">$1,3,71.00</span></p>
+                        <div class="icon">
+                            <button><i class="fa-solid fa-heart"></i></button>
+                        </div>
+                    </div>
+                    <!-- single product end -->
+                    
+                    <!-- single product  -->
+                    <div class="col-md-4 product">
+                        <figure>
+                            <a href="#">
+                                <img src="images/products/listing-2/2-cropped.jpg" alt="">
+                            </a>
+                        </figure>
+                        <h3 class="title"><a href="product-1.php">Charleston Amish File Cabinet</a></h3>
+                        <p class="details">Product No. FGFH1128</p>
+                        <p class="price vertical-middle">starting <span class="value">$1,3,71.00</span></p>
+                        <div class="icon">
+                            <button><i class="fa-solid fa-heart"></i></button>
+                        </div>
+                    </div>
+                    <!-- single product end -->
+                    
+                    <!-- single product  -->
+                    <div class="col-md-4 product">
+                        <figure>
+                            <a href="#">
+                                <img src="images/products/listing-2/3-cropped.jpg" alt="">
                             </a>
                         </figure>
                         <h3 class="title"><a href="product-1.php">Prairie Mission Amish File Cabinet</a></h3>
