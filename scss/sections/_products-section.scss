@@ -17,20 +17,38 @@
                 @include upto-tablet{
                     flex-basis:100%;
                 }
-                a{
+                &>a{
                     display: block;
                     overflow: hidden;
                     margin-bottom:$m-25;
                     @include upto-phone{
                         margin-bottom:$m-35;
                     }
-                    img{
-                        transition: all 0.4s ease;
-                    }
+                    // img{
+                    //     transition: all 0.4s ease;
+                    // }
+                    // &:hover{
+                    //     img{
+                    //         transform:scale(1.05);
+                    //     }
+                    // }
+                }
+                figure{
+                    box-shadow: 0 0 2px rgba(3, 1, 1, 0.2);
+                    transition: all 0.5s ease-in-out;
+                    margin-bottom:$m-25;
                     &:hover{
+                        box-shadow: 0 0 4px rgba(3, 1, 1, 0.3);
                         img{
-                            transform:scale(1.05);
+                            transform: scale(1.04);
                         }
+                    }
+                    @include upto-phone{
+                        margin-bottom:$m-35;
+                    }
+                    a{
+                        display: block;
+                        margin-bottom:0;
                     }
                 }
                 p{

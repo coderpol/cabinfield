@@ -52,7 +52,12 @@ include_once('sections/layouts/header.php')
             <div class="col-md-12 products-area type-a">
                 <!-- product collection  -->
                 <div class="product">
-                    <a href="#"><img src="images/products/type-a/bed-1.png" alt=""></a>
+                    <figure>
+                        <a href="#">
+                            <img src="images/products/type-a/bed-1.png" alt="">
+                        </a>
+                    </figure>
+                        
                     <h4><a href="#">Mission/Craftsman/Arts & Crafts Collection</a></h4>
                     <p>Attain authentic Amish bedroom furniture at remarkably reasonable prices. These value-driven pieces come in multiple styles, including our Mission and contemporary favorites.</p> 
                 </div>
@@ -60,7 +65,9 @@ include_once('sections/layouts/header.php')
                 
                 <!-- product collection  -->
                 <div class="product">
-                    <a href="#"><img src="images/products/type-a/bed-2.png" alt=""></a>
+                    <figure>
+                        <a href="#"><img src="images/products/type-a/bed-2.png" alt=""></a>
+                    </figure>
                     <h4><a href="#">Contemporary Collection</a></h4>
                     <p>From subtle to sensational, our Contemporary bedroom furniture sets combine the latest trends with careful craftsmanship and solid wood design. Exuding luxurious comfort and varied styles, these Amish bedroom sets preserve the heirloom quality of artisan-built furniture.</p> 
                 </div>
@@ -68,7 +75,9 @@ include_once('sections/layouts/header.php')
                 
                 <!-- product collection  -->
                 <div class="product">
-                    <a href="#"><img src="images/products/type-a/bed-3.png" alt=""></a>
+                    <figure>
+                        <a href="#"><img src="images/products/type-a/bed-3.png" alt=""></a>
+                    </figure>
                     <h4><a href="#">Traditional Collection</a></h4>
                     <p>Storybook-perfect Amish Traditional bedroom furniture designs include sleigh beds, 4 poster beds, and more. Discover the exquisite craftsmanship and luxurious comfort of once-upon-a-time. Handmade with solid wood and attention to detail, these elaborate Amish bedroom sets will capture your imagination. </p> 
                 </div>
@@ -76,7 +85,9 @@ include_once('sections/layouts/header.php')
                 
                 <!-- product collection  -->
                 <div class="product">
-                    <a href="#"><img src="images/products/type-a/bed-4.png" alt=""></a>
+                    <figure>
+                        <a href="#"><img src="images/products/type-a/bed-4.png" alt=""></a>
+                    </figure>
                     <h4><a href="#">Eclectic Collection</a></h4>
                     <p>Discover the unique and distinctively different! Our Eclectic Amish bedroom furniture sets feature both imaginative designs and high end craftsmanship, with each furniture piece individually constructed with care. Bold accents and eye catching profiles captivate in these extraordinary handmade bedroom sets.</p> 
                 </div>
@@ -84,7 +95,9 @@ include_once('sections/layouts/header.php')
                 
                 <!-- product collection  -->
                 <div class="product">
-                    <a href="#"><img src="images/products/type-a/bed-5.png" alt=""></a>
+                    <figure>
+                        <a href="#"><img src="images/products/type-a/bed-5.png" alt=""></a>
+                    </figure>
                     <h4><a href="#">Quick Ship Sets Collection</a></h4>
                     <p>Our Quick Ship Amish bedroom furniture collection includes a selection of unfinished furniture that will be ready in a few weeks time. Most Quick Ship pieces are made of solid maple or oak. Choose your favorite stain and it will be applied to your bed, dresser, or nightstand. Enjoy the convenience of hand-built furniture without the usual wait.</p> 
                 </div>
@@ -92,7 +105,9 @@ include_once('sections/layouts/header.php')
                 
                 <!-- product collection  -->
                 <div class="product">
-                    <a href="#"><img src="images/products/type-a/bed-6.png" alt=""></a>
+                    <figure>
+                        <a href="#"><img src="images/products/type-a/bed-6.png" alt=""></a>
+                    </figure>
                     <h4><a href="#">Beds & Headboards</a></h4>
                     <p>Reinvent your bedroom with a customized Amish bed and headboard, offered in every size and style. Browse our collection of over 250 handmade beds, including platform beds, sleigh beds, poster beds, bunk beds, and bookcase beds. Exquisitely designed and handcrafted, choose Amish bedroom furniture for your dream bedroom.</p> 
                 </div>
@@ -100,7 +115,9 @@ include_once('sections/layouts/header.php')
                 
                 <!-- product collection  -->
                 <div class="product">
-                    <a href="#"><img src="images/products/type-a/bed-7.png" alt=""></a>
+                    <figure>
+                        <a href="#"><img src="images/products/type-a/bed-7.png" alt=""></a>
+                    </figure>
                     <h4><a href="#">Quick Ship Beds Collection</a></h4>
                     <p>Handmade bedroom furniture with prompt ready times! Our Quick Ship Amish beds collection features solid wood beds, ready made and waiting for your stain choice. Quick Ship beds are built of brown maple, solid oak, and rustic or sap cherry. Get your handcrafted bed custom finished in just a few weeks.</p> 
                 </div>
@@ -108,7 +125,9 @@ include_once('sections/layouts/header.php')
                 
                 <!-- product collection  -->
                 <div class="product">
-                    <a href="#"><img src="images/products/type-a/bed-1.png" alt=""></a>
+                    <figure>
+                        <a href="#"><img src="images/products/type-a/bed-1.png" alt=""></a>
+                    </figure>
                     <h4><a href="#">Bedroom Accessories</a></h4>
                     <p>Complete your bedroom set with our Amish bedroom accessories collection, featuring full length beveled mirrors, cheval mirrors, jewelry storage, tie racks, shoe storage, vanity tables and more. Create innovative bedroom décor with solid wood bedroom accent furniture in an array of styles and designs.</p> 
                 </div>
