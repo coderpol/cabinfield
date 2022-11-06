@@ -44,22 +44,23 @@
             }
         }
         &.no-button{
+            .filter-buttons{
+                .shop-by{
+                    display:none;
+                }
+            }
+        }
+        &.no-button, &.flow{
             .section-title{
                 overflow:visible;
                 h1,h2{
                     width: 700px;
                     @include tablet-to-pc{
                         width:530px;
-                        // @include font($font-26,$line-31,$font-bold);
                     }
                     @include upto-tablet{
                         width:100%;
                     }
-                }
-            }
-            .filter-buttons{
-                .shop-by{
-                    display:none;
                 }
             }
         }
