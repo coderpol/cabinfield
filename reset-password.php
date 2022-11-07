@@ -6,21 +6,6 @@ $page_title="Reset Password";
 include_once('sections/layouts/header.php') 
 ?>
 
-<!-- breadcrumb section starts  -->
-<div class="breadcrumb-section">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 breadcrumb-area">
-                <!-- class dark for darker text and reverse for back direction  -->
-                <ol class="breadcrumb dark reverse">
-                    <li><a href="thank-you.php">Back</a></li>
-                </ol>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- breadcrumb section ends  -->
-
 <!-- confirmatin text area starts  -->
 <div class="section clearfix auth-section">
     <div class="container">
