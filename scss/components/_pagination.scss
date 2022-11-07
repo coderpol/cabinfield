@@ -22,6 +22,7 @@
             &.disabled{
                 .page-link{
                     color: $gray-dark-1;
+                    box-shadow: none;
                 }
             }
             &.active{
@@ -29,6 +30,7 @@
                     background-color: $brand-color;
                     border-color: darken($brand-color, 10);
                     color: $white;
+                    box-shadow: none;
                 }
             }
         }
