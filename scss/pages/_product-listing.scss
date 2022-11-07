@@ -59,7 +59,31 @@
                         width:530px;
                     }
                     @include upto-tablet{
-                        width:100%;
+                        width:100% !important;
+                    }
+                }
+            }
+        }
+        &.flow{
+            @include upto-tablet{
+                .section-title{
+                    flex-basis: 100% !important;
+                }
+                .filter-buttons{
+                    .sort-by{
+                        flex-basis: 40%;
+                    }
+                    .shop-by{
+                        flex-basis: 55%;
+                        position:relative;
+                        right:0;
+                        .btn{
+                            background-color: $brand-color;
+                            color:$white;
+                            padding: 10px;
+                            font-size:14px;
+                            max-width: 250px;
+                        }
                     }
                 }
             }
