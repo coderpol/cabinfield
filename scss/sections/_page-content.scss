@@ -17,9 +17,6 @@
     }
     .article{
         margin-bottom:$m-80;
-        &+article{
-            
-        }
         .rounded-samples{
             margin:$m-40 auto $m-30;
             display: flex;

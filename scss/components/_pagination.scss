@@ -1,0 +1,36 @@
+.page-content{
+    .pagination{
+        display: flex;
+        justify-content: center;
+        .page-item{
+            border-radius: 50px;
+            margin: 0 10px;
+            .page-link{
+                border-radius: 50px;
+                min-width: 42px;
+                text-align: center;
+                box-shadow: 0 0 10px rgba(0,0,0,0.1);
+                @include font(16px,29px,400);
+                color: #121212;
+                &:hover, &:active{
+                    background-color: $brand-color;
+                    border-color: darken($brand-color, 10);
+                    color: $white;
+                    text-decoration: none;
+                }
+            }
+            &.disabled{
+                .page-link{
+                    color: $gray-dark-1;
+                }
+            }
+            &.active{
+                .page-link{
+                    background-color: $brand-color;
+                    border-color: darken($brand-color, 10);
+                    color: $white;
+                }
+            }
+        }
+    }
+}
