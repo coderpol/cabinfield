@@ -27,10 +27,10 @@ include_once('sections/layouts/header.php')
                         </div>
                     </div>
                     <div class="row form-line">
-                        <div class="col-md-5 col-12">
+                        <div class="col-md-5 col-12 mb-3">
                             <button class="btn btn-primary btn-block">Submit</button>
                         </div>
-                        <div class="col-md-5 col-12">
+                        <div class="col-md-7 col-xl-6 col-12">
                             <!-- you can use .btn-blue to make it blue bg  -->
                             <a href="login.php" class="btn btn-empty btn-block">Back to Login</a>
                         </div>
