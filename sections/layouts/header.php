@@ -50,9 +50,9 @@
                 </div>
             </div>
             <div class="col-md-5 col-5 search-area">
-                <form action="/" class="searchform">
-                    <i class="fa-solid fa-magnifying-glass"></i>
+                <form action="/search" class="searchform">
                     <input type="search" name="search" id="search" placeholder="Search our store">
+                    <button type="submit" class="search_submit"><i class="fa-solid fa-magnifying-glass"></i></button>
                 </form>
             </div>
             
