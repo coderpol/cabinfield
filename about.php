@@ -74,7 +74,7 @@ include_once('sections/layouts/header.php')
                     </figure>
                     <article class="col-md-6 col-12 display-text">
                         <header class="section-title">
-                            <h3><span>Eco-Friendly</span>, You-Friendly</h3>
+                            <h3><span class="break-on-pc">Eco-Friendly,</span> You-Friendly</h3>
                         </header>
                         <p>Cabinfield is proud to bring you inspired designs that are not only good for you, but good for the environment too. Authentic Amish furniture is crafted from sustainably harvested, locally-sourced wood, with a low-VOC varnish to finish it off in the healthiest way possible.</p>
                         <p>We also offer outdoor furniture made of recycled materials. These environmentally smart materials are strong and are designed to resist water, fungi, insects, stains, fading, and scratches. Look for this Eco-Friendly Optimized logo on products using innovative Green technology.</p>
