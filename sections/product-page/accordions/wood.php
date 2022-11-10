@@ -1,11 +1,11 @@
 <div class="accordion-item">
     <div class="accordion-header" id="headingTwo">
-        <div class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+        <div class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
             <h4>Wood type:</h4>
             <span class="item">Brown Maple</span>
         </div>
     </div>
-    <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo">
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo">
         <div class="info">
             <a href="#" data-bs-toggle="modal" data-bs-target="#edit_zip">More Information About this Option</a>
         </div>

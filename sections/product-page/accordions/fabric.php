@@ -1,10 +1,10 @@
 <div class="accordion-item">
     <div class="accordion-header" id="headingSix">
-        <div class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+        <div class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
             <h4>Fabric:</h4>
         </div>
     </div>
-    <div id="collapseSix" class="accordion-collapse collapse show" aria-labelledby="headingSix">
+    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix">
         <div class="info">
             <a href="#" data-bs-toggle="modal" data-bs-target="#edit_zip">More Information About this Option</a>
         </div>

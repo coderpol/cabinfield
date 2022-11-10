@@ -1,10 +1,10 @@
 <div class="accordion-item">
     <div class="accordion-header" id="headingThree">
-        <div class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+        <div class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
             <h4>Stain:</h4>
         </div>
     </div>
-    <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingThree">
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree">
         <div class="info">
             <a href="#" data-bs-toggle="modal" data-bs-target="#edit_zip">More Information About this Option</a>
         </div>

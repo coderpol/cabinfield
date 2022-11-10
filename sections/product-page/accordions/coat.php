@@ -1,12 +1,12 @@
 <div class="accordion-item">
     <div class="accordion-header" id="headingFifth">
-        <div class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseFifth" aria-expanded="true" aria-controls="collapseFifth">
+        <div class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseFifth" aria-expanded="true" aria-controls="collapseFifth">
             <h4>Coat rack on footboard:</h4>
             <span class="item">Wooden pegs on right  + 85</span> 
             <span class="item">Wooden pegs  + 85</span>
         </div>
     </div>
-    <div id="collapseFifth" class="accordion-collapse collapse show" aria-labelledby="headingFifth">
+    <div id="collapseFifth" class="accordion-collapse collapse" aria-labelledby="headingFifth">
         <div class="info">
             <a href="#" data-bs-toggle="modal" data-bs-target="#edit_zip">More Information About this Option</a>
         </div>

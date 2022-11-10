@@ -1,11 +1,11 @@
 <div class="accordion-item">
     <div class="accordion-header" id="headingFour">
-        <div class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+        <div class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
             <h4>Leaf Option:</h4> 
             <span class="item">Solid Top (Standard)</span>
         </div>
     </div>
-    <div id="collapseFour" class="accordion-collapse collapse show" aria-labelledby="headingFour">
+    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour">
         <div class="info">
             <a href="#" data-bs-toggle="modal" data-bs-target="#edit_zip">More Information About this Option</a>
         </div>
