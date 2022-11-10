@@ -328,7 +328,7 @@
                     content:",";
                     @include font($font-18,$line-18,$font-bold);
                 }
-                &:last-child,&:only-child{
+                &:last-child,&:only-child,&.plain{
                     &:after{
                         content:none;
                     }
