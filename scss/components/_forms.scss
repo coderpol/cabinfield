@@ -7,6 +7,9 @@
         @include font($font-16,$line-23,$font-medium);
         margin-bottom:$m-10;
         color:$black;
+        &.compact{
+            letter-spacing: -0.5px;
+        }
     }
     
     .form-check-input{

@@ -216,10 +216,18 @@
                 padding:$m-10 0;
                 border-radius: 0;
                 cursor: pointer;
+                outline: 0;
+                box-shadow: none;
+                &:hover{
+                    color:$brand-color;
+                }
                 &.active{
                     border-color:$brand-color;
                     color:$blue-darkest;
                     background-color: $white;
+                    &:hover{
+                        color:$blue-darkest;
+                    }
                 }
             }
             &+.nav-item{
