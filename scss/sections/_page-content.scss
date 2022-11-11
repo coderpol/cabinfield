@@ -426,6 +426,7 @@
     }
     .cart-item{
         border-bottom:1px solid $gray;
+        
         &:last-child{
             border-bottom:0;
         }
@@ -443,6 +444,9 @@
         }
         .item-details{
             @include font($font-18,$line-23);
+            @include from-pc{
+                width:38%;
+            }
             .title{
                 margin-bottom:$m-15;
                 p{
@@ -529,6 +533,9 @@
             }
         }
         .action{
+            @include from-pc{
+                width:28.33%;
+            }
             @include upto-phone{
                 margin-top:15px;
             }
@@ -546,11 +553,45 @@
                     margin:$m-10 0;
                 }
             }
+            .price-details{
+                display: flex;
+                margin-bottom:20px;
+                @include phone-to-pc{
+                    flex-direction: column;
+                    span{
+                        flex-basis: 100%;
+                    }
+                }
+                span{
+                    @include font($font-22,$line-26,$font-medium);
+                    display: inline-block;
+                    margin-right:10px;
+                    flex-basis: 48%;
+                    @include phone-to-pc{
+                        margin-bottom:10px;
+                        &.current{
+                            margin-bottom:0;
+                        }
+                    }
+                    &.old{
+                        text-decoration: line-through;
+                        color:$blue;
+                    }
+                    &.current{
+                        margin-right:0;
+                        color:$brand-color;
+                    }
+                }
+            }
             .buttons{
                 .btn{
                     font-size: 16px;
                     margin-top:$m-20;
                     padding:15px 10px;
+                    max-width: 180px;
+                    &.cart-item-remover{
+                        margin-top:0;
+                    }
                 }
             }
         }

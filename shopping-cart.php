@@ -47,10 +47,10 @@ include_once('sections/layouts/header.php')
                         </ul>
                     </div>
                     <div class="col-md-3 action">
-                        <p class="price-title">
-                            Extended Price
-                            <span>$1371.00</span>
-                        </p>
+                        <p class="price-title">Extended Price</p>
+                        <div class="price-details">
+                            <span class="current">$1,270.00</span>
+                        </div>
                         <div class="buttons">
                             <button class="btn btn-empty btn-block cart-item-remover"><i class="fa-solid fa-trash-can"></i> Remove</button>
                             <button class="btn btn-primary btn-block"><i class="fa-solid fa-pen-to-square"></i> Edit</button>
@@ -85,10 +85,11 @@ include_once('sections/layouts/header.php')
                         </ul>
                     </div>
                     <div class="col-md-3 action">
-                        <p class="price-title">
-                            Extended Price
-                            <span>$1371.00</span>
-                        </p>
+                        <p class="price-title">Extended Price</p>
+                        <div class="price-details">
+                            <span class="old">$1,371.00</span>
+                            <span class="current">$1,270.00</span>
+                        </div>
                         <div class="buttons">
                             <button class="btn btn-empty btn-block cart-item-remover"><i class="fa-solid fa-trash-can"></i> Remove</button>
                             <button class="btn btn-primary btn-block"><i class="fa-solid fa-pen-to-square"></i> Edit</button>
@@ -176,18 +177,18 @@ include_once('sections/layouts/header.php')
                         </ul>
                     </div>
                     <div class="col-md-3 action">
-                        <p class="price-title">
-                            Extended Price
-                            <span>$1371.00</span>
-                        </p>
-                        <p class="price-title">
-                            Shipping & Handling
-                            <span>$10.00</span>
-                        </p>
-                        <p class="price-title">
-                            Extended Price
-                            <span>$602.00</span>
-                        </p>
+                        <p class="price-title">Extended Price</p>
+                        <div class="price-details">
+                            <span class="current">$1371.00</span>
+                        </div>
+                        <p class="price-title">Shipping & Handling</p>
+                        <div class="price-details">
+                            <span class="current">$10.00</span>
+                        </div>
+                        <p class="price-title">Extended Price</p>
+                        <div class="price-details">
+                            <span class="current">$602.00</span>
+                        </div>
                         <div class="buttons">
                             <button class="btn btn-empty btn-block cart-item-remover"><i class="fa-solid fa-trash-can"></i> Remove</button>
                             <button class="btn btn-primary btn-block"><i class="fa-solid fa-pen-to-square"></i> Edit</button>

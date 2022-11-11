@@ -61,6 +61,14 @@
     }
 }
 
+// From 787px to 1199px
+@mixin phone-to-pc {
+    @media only screen and (min-width:$breakpoint-md) and (max-width:($breakpoint-xl - 1px)) {
+        @content;
+    }
+}
+
+
 
 // less than 1199px
 @mixin upto-pc {
