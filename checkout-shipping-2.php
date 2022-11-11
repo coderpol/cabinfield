@@ -34,35 +34,29 @@ include_once('sections/layouts/header.php')
         <!-- form starts  -->
         <form action="#" class="row cabinform address-form">
             <!-- base information  -->
-            <div class="col-md-4">
+            <div class="col-md-8">
                 <!-- form line with 2 input  -->
                 <div class="row form-line">
                     <!-- single filed   -->
-                    <div class="col">
-                        <label for="fname" class="form-label">First Name</label>
+                    <div class="col-xl-4 col-12">
+                        <label for="fname" class="form-label">Firstname</label>
                         <input type="text" class="form-control" id="fname" aria-label="Firstname" required>
                     </div>
                     <!-- single filed ends  -->
-                </div>
-                
-                <div class="row form-line">
+                    
                     <!-- single filed   -->
-                    <div class="col">
+                    <div class="col-xl-4 col-12">
                         <label for="lname" class="form-label">Middle Name <span class="blue">(optional)</span></label>
-                        <input type="text" class="form-control" id="lname" aria-label="Middlename" required>
+                        <input type="text" class="form-control" id="mname" aria-label="Middlename" required>
                     </div>
                     <!-- single filed ends  -->
-                </div>
-                <!-- form line with 2 input ends  -->
-                
-                <!-- form line with 3 input  -->
-                <div class="row form-line">
-                    <div class="col">
-                        <label for="lname" class="form-label">Last Name</label>
+                    
+                    <div class="col-xl-4 col-12">
+                        <label for="lname" class="form-label">Lastname</label>
                         <input type="text" class="form-control" id="lname" aria-label="Lastname" required>
                     </div>
                 </div>
-                <!-- form line with 3 input ends  -->
+                <!-- form line with 2 input ends  -->
                 
                 <!-- form line with 1 input  -->
                 <div class="row form-line">
@@ -86,17 +80,15 @@ include_once('sections/layouts/header.php')
                     </div>
                 </div>
                 <div class="row form-line">
-                    <div class="col">
+                    <div class="col-md-4 col-12">
                         <label for="city" class="form-label">City</label>
                         <input type="text" class="form-control" id="city"  aria-label="Citye" required>
                     </div>
-                    <div class="col">
+                    <div class="col-md-4 col-12">
                         <label for="state" class="form-label">State</label>
                         <input type="text" class="form-control" id="state"  aria-label="State" required>
                     </div>
-                </div>
-                <div class="row form-line">
-                    <div class="col-6">
+                    <div class="col-md-4 col-12">
                         <label for="zip" class="form-label">Zip Code</label>
                         <input type="text" class="form-control" id="zip"  aria-label="Zip Code" required>
                     </div>
@@ -111,18 +103,19 @@ include_once('sections/layouts/header.php')
                         <input type="text" class="form-control" id="ext"  aria-label="Ext">
                     </div>
                 </div>
-            </div>
-            <!-- base information ends  -->
-            
-            <!-- shipping notes info  -->
-            <div class="col-md-4">
                 <div class="row form-line">
                     <div class="col-12">
-                        <label for="notes" class="form-label">Special Request <span class="blue">(optional)</span></label>
+                        <label for="notes" class="form-label">Shipping & Gift Notes <span>(optional)</span></label>
                         <textarea class="form-control" id="notes" rows="5"></textarea>
                     </div>
                 </div>
             </div>
+            <!-- base information ends  -->
+            
+            <!-- shipping notes info  -->
+            <!-- <div class="col-md-4">
+                
+            </div> -->
             <!-- shipping notes info ends  -->
             
             <!-- summary card starts  -->

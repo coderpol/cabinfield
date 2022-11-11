@@ -28,6 +28,7 @@
                     <li class="done"><a href="product-2.php">Product - Customize -  V2</a></li>
                     <li class="done"><a href="shopping-cart.php">Shopping Cart</a></li>
                     <li class="done"><a href="checkout-shipping.php">Checkout Shipping</a></li>
+                    <li class="done"><a href="checkout-shipping-2.php">Checkout Shipping - 2</a></li>
                     <li class="done"><a href="checkout-payment-info.php">Checkout Payment - V1</a></li>
                     <li class="done"><a href="checkout-payment-info-2.php">Checkout Payment - V2</a></li>
                     <li class="done"><a href="checkout-info.php">Checkout Info</a></li>
