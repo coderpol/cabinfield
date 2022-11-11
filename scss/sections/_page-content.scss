@@ -595,6 +595,17 @@
                 }
             }
         }
+        .thanks-note{
+            margin-top:40px;
+            p{
+                color:$brand-color;
+                margin-bottom:0;
+                @include font(22px,29px,$font-medium);
+                .greeting{
+                    color:$black;
+                }
+            }
+        }
         
         .only-details{
             p{

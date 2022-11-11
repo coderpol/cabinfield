@@ -95,6 +95,9 @@ include_once('sections/layouts/header.php')
                             <button class="btn btn-primary btn-block"><i class="fa-solid fa-pen-to-square"></i> Edit</button>
                         </div>
                     </div>
+                    <div class="col-12 thanks-note">
+                        <p><span class="greeting">Thank you!</span> Your $89.10 savings have been deducted on the ordering page and are reflected here in your Shopping Cart.</p>
+                    </div>
                 </div>
                 <!-- one item ends -->
                 
