@@ -290,6 +290,10 @@ em {
 a {
   text-decoration: none;
   color: #627590;
+  outline: none;
+}
+a:active, a:hove {
+  outline: none;
 }
 
 a,
