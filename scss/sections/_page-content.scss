@@ -458,6 +458,9 @@
                     @include font($font-18,$line-23,$font-medium);
                     color:$brand-color;
                 }
+                a{
+                    color:$brand-color;
+                }
             }
             .price{
                 margin:25px 0;

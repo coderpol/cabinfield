@@ -29,7 +29,7 @@ include_once('sections/layouts/header.php')
                     <div class="col-md-5 item-details">
                         <div class="title">
                             <p>Combined Shipping Item</p>
-                            <h4>Carolina Crown Amish Bed</h4>
+                            <h4><a href="#">Carolina Crown Amish Bed</a></h4>
                         </div>
                         <div class="price">
                             <p>Product Price <span class="value">$2972.00</span></p>
@@ -67,7 +67,7 @@ include_once('sections/layouts/header.php')
                     <div class="col-md-5 item-details">
                         <div class="title">
                             <p>Combined Shipping Item</p>
-                            <h4>Carolina Crown Amish Bed</h4>
+                            <h4><a href="#">Carolina Crown Amish Bed</a></h4>
                         </div>
                         <div class="price">
                             <p>Product Price <span class="value">$2972.00</span></p>
@@ -109,7 +109,7 @@ include_once('sections/layouts/header.php')
                     <div class="col-md-5 item-details">
                         <div class="title">
                             <p>Combined Shipping Item</p>
-                            <h4>Carolina Crown Amish Bed</h4>
+                            <h4><a href="#">Carolina Crown Amish Bed</a></h4>
                         </div>
                         <div class="price">
                             <p>Product Price <span class="value">$2972.00</span></p>
@@ -162,7 +162,7 @@ include_once('sections/layouts/header.php')
                     <div class="col-md-5 item-details">
                         <div class="title">
                             <p>Single Shipping item</p>
-                            <h4>Carolina Crown Amish Bed</h4>
+                            <h4><a href="#">Carolina Crown Amish Bed</a></h4>
                         </div>
                         <div class="price">
                             <p>Product Price <span class="value">$2972.00</span></p>
