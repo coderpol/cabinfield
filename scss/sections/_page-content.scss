@@ -336,6 +336,7 @@
         }
     }
     
+    
 }
 
 
@@ -637,3 +638,18 @@
 //         }
 //     }
 // }
+
+.payment-text{
+    margin:20px 0 60px;
+    h4,h3,h5{
+        color:$blue-darkest;
+        margin-bottom:15px;
+    }
+    p{
+        color:$gray-dark-3;
+        @include font(16px,28px);
+        &+h4,&+h3,&+h5{
+            margin-top:26px;
+        }
+    }
+}

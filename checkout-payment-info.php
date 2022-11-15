@@ -29,6 +29,11 @@ include_once('sections/layouts/header.php')
             <header class="col-md-12 section-title small">
                 <h3>Payment Information</h3>
             </header>
+            <div class="payment-text">
+                <p>The deposti amount is 25% of the total. For gazebos, outdoor playsets and customized infoor furniture, we require a 50% deposit.</p>
+                <p>If you choose to pay by check it should be mailed to 15 Cabinfield Circle, Lakewood, NJ 08701. <br>Once your check clears we will process the order.</p>
+                <p>We will ship the furniture once the balance has cleared.</p>
+            </div>
             <!-- page heading ends  -->
         </div>
         <form action="#" class="row cabinform address-form">
@@ -37,7 +42,7 @@ include_once('sections/layouts/header.php')
                 <div class="row form-line">
                     <div class="col-md-12">
                         <label for="cardno" class="form-label">Card number</label>
-                        <input type="text" class="form-control" id="cardno" aria-label="Card Number" aria-describedby="cardhelp" required>
+                        <input type="text" class="form-control" id="cardno" aria-label="Card Number" aria-describedby="cardhelp" placeholder="•••• •••• •••• ••••" required>
                         <span id="cardhelp" class="form-text">No credit card (use check)</span>
                     </div>
                 </div>
