@@ -25,16 +25,18 @@ include_once('sections/layouts/header.php')
 <div class="section clearfix payment-section mb-5">
     <div class="container">
         <div class="row">
-            <!-- page heading  -->
-            <header class="col-md-12 section-title small">
-                <h3>Payment Information</h3>
-            </header>
-            <div class="payment-text">
-                <p>The deposti amount is 25% of the total. For gazebos, outdoor playsets and customized infoor furniture, we require a 50% deposit.</p>
-                <p>If you choose to pay by check it should be mailed to 15 Cabinfield Circle, Lakewood, NJ 08701. <br>Once your check clears we will process the order.</p>
-                <p>We will ship the furniture once the balance has cleared.</p>
+            <div class="col-md-12">
+                <!-- page heading  -->
+                <header class="section-title small">
+                    <h3>Payment Information</h3>
+                </header>
+                <div class="payment-text">
+                    <p>The deposti amount is 25% of the total. For gazebos, outdoor playsets and customized infoor furniture, we require a 50% deposit.</p>
+                    <p>If you choose to pay by check it should be mailed to 15 Cabinfield Circle, Lakewood, NJ 08701. <br>Once your check clears we will process the order.</p>
+                    <p>We will ship the furniture once the balance has cleared.</p>
+                </div>
+                <!-- page heading ends  -->
             </div>
-            <!-- page heading ends  -->
         </div>
         <form action="#" class="row cabinform address-form">
             <!-- card information inputs  -->
