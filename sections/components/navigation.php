@@ -1,13 +1,6 @@
 <section class="navigation-area clearfix">
     <div class="container">
-        <div class="row searchfield">
-            <div class="col-md-5 col-5 offset-4 search-area">
-                <form action="/search" class="searchform">
-                    <input type="search" name="search" id="search" placeholder="Search our store">
-                    <button type="submit" class="search_submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-                </form>
-            </div>
-        </div>
+
         <div class="row nav-area">
             <div class="nav-toggle-area">
                 <span class="nav-toggle"><i class="fa-solid fa-bars"></i></span>
