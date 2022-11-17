@@ -49,6 +49,7 @@
                     </a>
                 </div>
             </div>
+            
             <div class="col-md-5 col-5 search-area">
                 <form action="/search" class="searchform">
                     <input type="search" name="search" id="search" placeholder="Search our store">
@@ -56,7 +57,7 @@
                 </form>
             </div>
             
-            <div class="col-md-3 col-12 cart-area">
+            <div class="col-md-3 offset-5 col-12 cart-area">
                 <ul class="cart-list">
                     <li><a href="login.php"><span class="above-pc">Sign In</span><i class="upto-pc fa-solid fa-user"></i></a></li>
                     <li class="above-pc"><a href="wishlist.php">My Wishlist</a></li>
@@ -67,5 +68,6 @@
         </div>
     </div>
 </header>
+
 
 <?php include_once('sections/components/navigation.php') ?>
