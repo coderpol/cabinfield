@@ -35,7 +35,7 @@ include_once('sections/layouts/header.php')
         <div class="row">
                 <div class="col-md-8">
                     <header class="heading-22">
-                        <h3>To pay by check, click review to proceed to next step</h3>
+                        <h3>To complete your check order, click review to proceed to next step</h3>
                     </header>
                     
                     <div class="payment-text">
