@@ -71,3 +71,5 @@
 
 
 <?php include_once('sections/components/navigation.php') ?>
+
+<?php include_once('sections/promotion.php') ?>

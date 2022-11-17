@@ -175,6 +175,11 @@
         display: none;
     }
 }
+@include phone-to-tablet{
+    .upto-phone{
+        display: none;
+    }
+}
 
 @include upto-pc{
     .upto-pc{
