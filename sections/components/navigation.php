@@ -103,7 +103,13 @@
                                    
                                     <ul class="additional-menu">
                                         <li><a href="#">Shop by quick Ship</a></li>
-                                        <li><a href="#">Shop by Style</a></li>
+                                        <li><a href="#">Shop by Rustic Lodge</a></li>
+                                    </ul>
+                                    <ul class="submenu">
+                                        <li><a href="#">Log</a></li>
+                                        <li><a href="#">Hickroy</a></li>
+                                        <li><a href="#">Rough Sawn</a></li>
+                                        <li><a href="#">Reclaimed Barnwood</a></li>
                                     </ul>
                                 </div>
                                 <div class="category">
@@ -118,7 +124,11 @@
                                     </ul>
                                     <ul class="additional-menu">
                                         <li><a href="#">Shop by quick Ship</a></li>
-                                        <li><a href="#">Shop by Style</a></li>
+                                        <li><a href="#">Shop by Rustic Lodge</a></li>
+                                        <li><a href="#">Log</a></li>
+                                        <li><a href="#">Hickroy</a></li>
+                                        <li><a href="#">Rough Sawn</a></li>
+                                        <li><a href="#">Reclaimed Barnwood</a></li>
                                     </ul>
                                 </div>
                                 <div class="category">
@@ -132,7 +142,13 @@
                                     </ul>
                                     <ul class="additional-menu">
                                         <li><a href="#">Shop by quick Ship</a></li>
-                                        <li><a href="#">Shop by Style</a></li>
+                                        <li><a href="#">Shop by Rustic Lodge</a></li>
+                                    </ul>
+                                    <ul class="submenu">
+                                        <li><a href="#">Log</a></li>
+                                        <li><a href="#">Hickroy</a></li>
+                                        <li><a href="#">Rough Sawn</a></li>
+                                        <li><a href="#">Reclaimed Barnwood</a></li>
                                     </ul>
                                 </div>
                                 
@@ -144,7 +160,11 @@
                                     </ul>
                                     <ul class="additional-menu">
                                         <li><a href="#">Shop by quick Ship</a></li>
-                                        <li><a href="#">Shop by Style</a></li>
+                                        <li><a href="#">Shop by Rustic Lodge</a></li>
+                                        <li><a href="#">Log</a></li>
+                                        <li><a href="#">Hickroy</a></li>
+                                        <li><a href="#">Rough Sawn</a></li>
+                                        <li><a href="#">Reclaimed Barnwood</a></li>
                                     </ul>
                                 </div>
                             </div>
