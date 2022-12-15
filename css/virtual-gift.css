@@ -315,7 +315,7 @@ body {
 }
 .giftpage .giftcard .heading {
   margin-top: 60px;
-  margin-bottom: 70px;
+  margin-bottom: 80px;
   text-align: center;
 }
 .giftpage .giftcard .heading h2 {
@@ -327,11 +327,14 @@ body {
   margin: 0;
   letter-spacing: -1px;
 }
+.giftpage .giftcard .heading img {
+  max-width: 365px;
+}
 .giftpage .giftcard .gift_text p {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 18px;
   font-weight: 400;
-  margin-bottom: 30px;
+  margin-bottom: 45px;
   color: #828282;
 }
 .giftpage .giftcard .gift_item {
@@ -356,14 +359,14 @@ body {
   font-family: "branchregular";
 }
 .giftpage .giftcard .gift_item .item_image {
-  margin: 35px auto;
+  margin: 40px auto;
 }
 .giftpage .giftcard .gift_item .item_image img {
   border: 3px solid #B3522C;
 }
 .giftpage .giftcard .gift_footer {
   background-color: #f7f5f6;
-  padding: 35px 0;
+  padding: 30px 0;
 }
 .giftpage .giftcard .gift_footer .copyright {
   float: left;
@@ -387,10 +390,12 @@ body {
 .giftpage .giftcard .gift_footer .copyright ul li a {
   text-decoration: none;
   color: #B3522C;
+  font-size: 12px;
 }
 .giftpage .giftcard .gift_footer .slogan {
   float: right;
   width: 90px;
+  margin-top: -7px;
 }
 @media only screen and (max-width: 767px) {
   .giftpage .giftcard .gift_footer .slogan {

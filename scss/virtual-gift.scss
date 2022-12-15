@@ -45,7 +45,7 @@ body{
         }
         .heading{
             margin-top:60px;
-            margin-bottom:70px;
+            margin-bottom:80px;
             text-align: center;
             h2{
                 @include font(44px,40px,700);
@@ -54,11 +54,14 @@ body{
                 margin:0;
                 letter-spacing: -1px;
             }
+            img{
+                max-width: 365px;
+            }
         }
         .gift_text{
             p{
-                @include font(18px,18px);
-                margin-bottom:30px; 
+                @include font(16px,18px);
+                margin-bottom:45px; 
                 color:#828282;
             }
         }
@@ -79,7 +82,7 @@ body{
                 }
             }
             .item_image{
-                margin:35px auto;
+                margin:40px auto;
                 img{
                     border:3px solid $brand-color;
                 }
@@ -87,7 +90,7 @@ body{
         }
         .gift_footer{
             background-color: #f7f5f6;
-            padding:35px 0;
+            padding:30px 0;
             .copyright{
                 float:left;
                 @include upto-phone{
@@ -105,6 +108,7 @@ body{
                         a{
                             text-decoration: none;
                             color:$brand-color;
+                            font-size:12px;
                         }
                     }
                 }
@@ -112,6 +116,7 @@ body{
             .slogan{
                 float:right;
                 width:90px;
+                margin-top: -7px;
                 @include upto-phone{
                     float:none;
                     margin:0 auto;

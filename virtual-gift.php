@@ -22,7 +22,7 @@
             <div class="main_content">
                 <div class="container clearfix">
                     <div class="heading">
-                        <h2>Merry Christmas!</h2>
+                        <img src="images/gift/heading.svg" alt="">
                     </div>
                     <div class="gift_text">
                         <p>Dear Tom,</p>
@@ -31,7 +31,7 @@
                     </div>
                     <div class="gift_item">
                         <div class="item_header">
-                            <h3>A handcrafted Amish Gift<br/>is being created now... Just for you!</h3>
+                            <img src="images/gift/post-title.svg" alt="">
                         </div>
                         <div class="item_image">
                             <img src="images/gifting-item.jpg" alt="">
@@ -45,7 +45,7 @@
                     <div class="copyright">
                         <ul>
                             <li><a href="https://cabinfield.com">www.cabinfield.com</a></li>
-                            <li><a href="#">@cabinfield</a></li>
+                            <li><a href="https://www.instagram.com/cabinfield/">@cabinfield</a></li>
                         </ul>
                     </div>
                     <div class="slogan">
