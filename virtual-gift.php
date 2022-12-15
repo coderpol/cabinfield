@@ -19,24 +19,27 @@
                     </a>
                 </div>
             </div>
-            <div class="container clearfix">
-                <div class="heading">
-                    <h2>Merry Christmas!</h2>
-                </div>
-                <div class="gift_text">
-                    <p>Dear Tom,</p>
-                    <p>Merry Christmas (in July). I'm excited for you to finally decorate your bedroom!</p>
-                    <p>Love,<br>Mom</p>
-                </div>
-                <div class="gift_item">
-                    <div class="item_header">
-                        <h3>A handcrafted Amish Gift is being created now... Just for you!</h3>
+            <div class="main_content">
+                <div class="container clearfix">
+                    <div class="heading">
+                        <h2>Merry Christmas!</h2>
                     </div>
-                    <div class="item_image">
-                        <img src="images/gifting-item.jpg" alt="">
+                    <div class="gift_text">
+                        <p>Dear Tom,</p>
+                        <p>Merry Christmas (in July). I'm excited for you to finally decorate your bedroom!</p>
+                        <p>Love,<br>Mom</p>
+                    </div>
+                    <div class="gift_item">
+                        <div class="item_header">
+                            <h3>A handcrafted Amish Gift is being created now... Just for you!</h3>
+                        </div>
+                        <div class="item_image">
+                            <img src="images/gifting-item.jpg" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
+            
             <div class="gift_footer">
                 <div class="container clearfix">
                     <div class="copyright">

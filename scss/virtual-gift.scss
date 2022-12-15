@@ -2,6 +2,17 @@
 @import 'base/mixin';
 // @import 'base/reset';
 @import 'base/preset';
+
+@font-face {
+    font-family: 'branchregular';
+    src: url('../webfonts/branch/branch-webfont.woff2') format('woff2'),
+         url('../webfonts/branch/branch-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 body{
     padding:0;
     margin:0;
@@ -25,18 +36,27 @@ body{
             a{
                 display:block;
                 width: 140px;
-                margin:0 auto 65px;
+                margin:0 auto;
             }
         }
+        .main_content{
+            background:url('../images/shape-logo.png') no-repeat;
+            background-size:cover;
+        }
         .heading{
+            margin-top:60px;
             margin-bottom:70px;
             text-align: center;
             h2{
-                @include font(40px,40px,500);
+                @include font(44px,40px,700);
                 color:$brand-color;
+                font-family: 'branchregular';
+                margin:0;
+                letter-spacing: -1px;
             }
         }
         .gift_text{
+            
             p{
                 @include font(18px,18px);
                 margin-bottom:30px; 
@@ -50,8 +70,14 @@ body{
                 padding:0;
             }
             .item_header{
-                @include font(22px,100%,300);
-                color:$brand-color;
+                @include above-phone{
+                    padding:0 30px;
+                }
+                h3{
+                    @include font(24px,100%,500);
+                    color:$brand-color;
+                    font-family: 'branchregular';
+                }
             }
             .item_image{
                 margin:35px auto;
