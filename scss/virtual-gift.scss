@@ -1,3 +1,11 @@
+@import 'base/variables';
+@import 'base/mixin';
+// @import 'base/reset';
+@import 'base/preset';
+body{
+    padding:0;
+    margin:0;
+}
 .giftpage{
     .giftcard{
         width:100%;
@@ -7,10 +15,13 @@
             margin:0 auto;
         }
         background-color: #f7f5f6;
-        padding:45px;
+        .container{
+            padding:0 45px;
+        }
         .gift_logo{
             text-align:center;
             background-color: #f7f5f6;
+            padding-top:30px;
             a{
                 display:block;
                 width: 140px;
@@ -44,13 +55,14 @@
             }
             .item_image{
                 margin:35px auto;
-                border:3px solid $brand-color;
+                img{
+                    border:3px solid $brand-color;
+                }
             }
         }
         .gift_footer{
             background-color: #f7f5f6;
-            padding:45px 0;
-            
+            padding:35px 0;
             .copyright{
                 float:left;
                 @include upto-phone{
@@ -60,7 +72,7 @@
                 }
                 ul{
                     list-style-type:none;
-                    margin-left:0;
+                    margin:0;
                     padding-left:0;
                     li{
                         display: inline;

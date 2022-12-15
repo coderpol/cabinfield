@@ -7,41 +7,47 @@
     <meta name="description" content="Cabinfield | Classic Amish Craftmanship">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <title>Virtual Gift</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/virtual-gift.css">
 </head>
 <body>
     <div class="giftpage">
         <div class="giftcard">
             <div class="gift_logo">
-                <a href="#">
-                    <img src="images/logo.svg" alt="Cabinfield">
-                </a>
-            </div>
-            <div class="heading">
-                <h2>Merry Christmas!</h2>
-            </div>
-            <div class="gift_text">
-                <p>Dear Tom,</p>
-                <p>Merry Christmas (in July). I'm excited for you to finally decorate your bedroom!</p>
-                <p>Love,<br>Mom</p>
-            </div>
-            <div class="gift_item">
-                <div class="item_header">
-                    <h3>A handcrafted Amish Gift is being created now... Just for you!</h3>
+                <div class="container clearfix">
+                    <a href="#">
+                        <img src="images/logo.svg" alt="Cabinfield">
+                    </a>
                 </div>
-                <div class="item_image">
-                    <img src="images/gifting-item.jpg" alt="">
+            </div>
+            <div class="container clearfix">
+                <div class="heading">
+                    <h2>Merry Christmas!</h2>
+                </div>
+                <div class="gift_text">
+                    <p>Dear Tom,</p>
+                    <p>Merry Christmas (in July). I'm excited for you to finally decorate your bedroom!</p>
+                    <p>Love,<br>Mom</p>
+                </div>
+                <div class="gift_item">
+                    <div class="item_header">
+                        <h3>A handcrafted Amish Gift is being created now... Just for you!</h3>
+                    </div>
+                    <div class="item_image">
+                        <img src="images/gifting-item.jpg" alt="">
+                    </div>
                 </div>
             </div>
             <div class="gift_footer">
-                <div class="copyright">
-                    <ul>
-                        <li><a href="https://cabinfield.com">www.cabinfield.com</a></li>
-                        <li><a href="#">@cabinfield</a></li>
-                    </ul>
-                </div>
-                <div class="slogan">
-                    <img src="images/slogan.jpg" alt="">
+                <div class="container clearfix">
+                    <div class="copyright">
+                        <ul>
+                            <li><a href="https://cabinfield.com">www.cabinfield.com</a></li>
+                            <li><a href="#">@cabinfield</a></li>
+                        </ul>
+                    </div>
+                    <div class="slogan">
+                        <img src="images/slogan.jpg" alt="">
+                    </div>
                 </div>
             </div>
         </div>
