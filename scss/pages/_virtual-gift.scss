@@ -1,0 +1,85 @@
+.giftpage{
+    .giftcard{
+        width:100%;
+        max-width: 580px;
+        margin:40px auto;
+        @include upto-phone{
+            margin:0 auto;
+        }
+        background-color: #f7f5f6;
+        padding:45px;
+        .gift_logo{
+            text-align:center;
+            background-color: #f7f5f6;
+            a{
+                display:block;
+                width: 140px;
+                margin:0 auto 65px;
+            }
+        }
+        .heading{
+            margin-bottom:70px;
+            text-align: center;
+            h2{
+                @include font(40px,40px,500);
+                color:$brand-color;
+            }
+        }
+        .gift_text{
+            p{
+                @include font(18px,18px);
+                margin-bottom:30px; 
+                color:#828282;
+            }
+        }
+        .gift_item{
+            text-align: center;
+            padding:0 40px;
+            @include upto-phone{
+                padding:0;
+            }
+            .item_header{
+                @include font(22px,100%,300);
+                color:$brand-color;
+            }
+            .item_image{
+                margin:35px auto;
+                border:3px solid $brand-color;
+            }
+        }
+        .gift_footer{
+            background-color: #f7f5f6;
+            padding:45px 0;
+            
+            .copyright{
+                float:left;
+                @include upto-phone{
+                    float:none;
+                    margin-bottom:30px;
+                    text-align: center;
+                }
+                ul{
+                    list-style-type:none;
+                    margin-left:0;
+                    padding-left:0;
+                    li{
+                        display: inline;
+                        margin-right:10px;
+                        a{
+                            text-decoration: none;
+                            color:$brand-color;
+                        }
+                    }
+                }
+            }
+            .slogan{
+                float:right;
+                width:90px;
+                @include upto-phone{
+                    float:none;
+                    margin:0 auto;
+                }
+            }
+        }
+    }
+}

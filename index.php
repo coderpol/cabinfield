@@ -53,6 +53,7 @@
                     <li class="done"><a href="account-order-details.php">Order Details</a></li>
                     <li class="done"><a href="wishlist.php">Wishlist</a></li>
                     <li class="done"><a href="reset-password.php">Reset Password</a></li>
+                    <li class="working"><a href="virtual-gift.php">Virtual Gift</a></li>
                 </ol>
             </div>
         </div>
