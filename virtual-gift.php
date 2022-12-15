@@ -31,7 +31,7 @@
                     </div>
                     <div class="gift_item">
                         <div class="item_header">
-                            <h3>A handcrafted Amish Gift is being created now... Just for you!</h3>
+                            <h3>A handcrafted Amish Gift<br/>is being created now... Just for you!</h3>
                         </div>
                         <div class="item_image">
                             <img src="images/gifting-item.jpg" alt="">

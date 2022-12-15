@@ -306,7 +306,7 @@ body {
 }
 .giftpage .giftcard .gift_logo a {
   display: block;
-  width: 140px;
+  width: 155px;
   margin: 0 auto;
 }
 .giftpage .giftcard .main_content {
@@ -345,7 +345,7 @@ body {
 }
 @media only screen and (min-width: 767px) {
   .giftpage .giftcard .gift_item .item_header {
-    padding: 0 30px;
+    padding: 0 20px;
   }
 }
 .giftpage .giftcard .gift_item .item_header h3 {
