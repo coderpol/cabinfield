@@ -285,6 +285,11 @@ body {
   margin: 0;
 }
 
+.giftpage h2, .giftpage h3, .giftpage h4 {
+  font-family: "branchregular", serif;
+  -webkit-font-variant-ligatures: common-ligatures;
+          font-variant-ligatures: common-ligatures;
+}
 .giftpage .giftcard {
   width: 100%;
   max-width: 580px;
@@ -323,9 +328,6 @@ body {
   line-height: 60px;
   font-weight: 700;
   color: #B3522C;
-  font-family: "branchregular";
-  -webkit-font-variant-ligatures: contextual;
-          font-variant-ligatures: contextual;
   margin: 0;
   letter-spacing: -1px;
 }
@@ -358,9 +360,6 @@ body {
   line-height: 100%;
   font-weight: 500;
   color: #B3522C;
-  font-family: "branchregular";
-  -webkit-font-variant-ligatures: historical-ligatures;
-          font-variant-ligatures: historical-ligatures;
 }
 .giftpage .giftcard .gift_item .item_image {
   margin: 40px auto;

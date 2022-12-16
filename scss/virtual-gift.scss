@@ -18,6 +18,10 @@ body{
     margin:0;
 }
 .giftpage{
+    h2,h3,h4{
+        font-family: 'branchregular', serif;
+        font-variant-ligatures: common-ligatures;
+    }
     .giftcard{
         width:100%;
         max-width: 580px;
@@ -50,8 +54,6 @@ body{
             h2{
                 @include font(48px,60px,700);
                 color:$brand-color;
-                font-family: 'branchregular';
-                font-variant-ligatures: contextual;
                 margin:0;
                 letter-spacing: -1px;
             }
@@ -79,8 +81,6 @@ body{
                 h3{
                     @include font(24px,100%,500);
                     color:$brand-color;
-                    font-family: 'branchregular';
-                    font-variant-ligatures: historical-ligatures;
                 }
             }
             .item_image{
