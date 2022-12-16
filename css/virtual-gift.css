@@ -319,11 +319,13 @@ body {
   text-align: center;
 }
 .giftpage .giftcard .heading h2 {
-  font-size: 44px;
-  line-height: 40px;
+  font-size: 48px;
+  line-height: 60px;
   font-weight: 700;
   color: #B3522C;
   font-family: "branchregular";
+  -webkit-font-variant-ligatures: contextual;
+          font-variant-ligatures: contextual;
   margin: 0;
   letter-spacing: -1px;
 }
@@ -357,6 +359,8 @@ body {
   font-weight: 500;
   color: #B3522C;
   font-family: "branchregular";
+  -webkit-font-variant-ligatures: historical-ligatures;
+          font-variant-ligatures: historical-ligatures;
 }
 .giftpage .giftcard .gift_item .item_image {
   margin: 40px auto;

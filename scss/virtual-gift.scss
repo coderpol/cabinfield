@@ -48,9 +48,10 @@ body{
             margin-bottom:80px;
             text-align: center;
             h2{
-                @include font(44px,40px,700);
+                @include font(48px,60px,700);
                 color:$brand-color;
                 font-family: 'branchregular';
+                font-variant-ligatures: contextual;
                 margin:0;
                 letter-spacing: -1px;
             }
@@ -79,6 +80,7 @@ body{
                     @include font(24px,100%,500);
                     color:$brand-color;
                     font-family: 'branchregular';
+                    font-variant-ligatures: historical-ligatures;
                 }
             }
             .item_image{

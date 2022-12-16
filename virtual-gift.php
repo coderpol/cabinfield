@@ -22,7 +22,8 @@
             <div class="main_content">
                 <div class="container clearfix">
                     <div class="heading">
-                        <img src="images/gift/heading.svg" alt="">
+                        <h2>Merry Christmas!</h2>
+                        <!-- <img src="images/gift/heading.svg" alt=""> -->
                     </div>
                     <div class="gift_text">
                         <p>Dear Tom,</p>
@@ -31,7 +32,8 @@
                     </div>
                     <div class="gift_item">
                         <div class="item_header">
-                            <img src="images/gift/post-title.svg" alt="">
+                            <!-- <img src="images/gift/post-title.svg" alt=""> -->
+                            <h3>A handcrafted Amish Gift<br>is being created now... Just for You!</h3>
                         </div>
                         <div class="item_image">
                             <img src="images/gifting-item.jpg" alt="">
