@@ -25,7 +25,7 @@
             <div class="main_content">
                 <div class="container clearfix">
                     <div class="heading">
-                        <h2>There should be another line if possible</h2>
+                        <h2>Here can be another line if you need it to describe</h2>
                     </div>
                     <div class="gift_text">
                         <p>Dear Tom,</p>

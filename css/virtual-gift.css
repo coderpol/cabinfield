@@ -317,8 +317,8 @@ body {
   text-align: center;
 }
 .giftpage .giftcard .heading h2 {
-  font-size: 46px;
-  line-height: 60px;
+  font-size: 40px;
+  line-height: 1.2em;
   font-weight: 400;
   color: #B3522C;
   margin: 0;
@@ -349,7 +349,7 @@ body {
 }
 .giftpage .giftcard .gift_item .item_header h3 {
   font-size: 22px;
-  line-height: 28px;
+  line-height: 1.3em;
   font-weight: 400;
   color: #B3522C;
 }

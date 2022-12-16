@@ -42,7 +42,7 @@ body{
             margin-bottom:80px;
             text-align: center;
             h2{
-                @include font(46px,60px,400);
+                @include font(40px,1.2em,400);
                 color:$brand-color;
                 margin:0;
             }
@@ -68,7 +68,7 @@ body{
                     padding:0 20px;
                 }
                 h3{
-                    @include font(22px,28px,400);
+                    @include font(22px,1.3em,400);
                     color:$brand-color;
                 }
             }
