@@ -274,21 +274,14 @@ a:hover {
   }
 }
 
-@font-face {
-  font-family: "branchregular";
-  src: url("../webfonts/branch/branch-webfont.woff2") format("woff2"), url("../webfonts/branch/branch-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
 body {
   padding: 0;
   margin: 0;
 }
 
 .giftpage h2, .giftpage h3, .giftpage h4 {
-  font-family: "branchregular", serif;
-  -webkit-font-variant-ligatures: common-ligatures;
-          font-variant-ligatures: common-ligatures;
+  font-family: "Playfair Display", serif;
+  margin: 0;
 }
 .giftpage .giftcard {
   width: 100%;
@@ -324,12 +317,11 @@ body {
   text-align: center;
 }
 .giftpage .giftcard .heading h2 {
-  font-size: 48px;
+  font-size: 46px;
   line-height: 60px;
-  font-weight: 700;
+  font-weight: 400;
   color: #B3522C;
   margin: 0;
-  letter-spacing: -1px;
 }
 .giftpage .giftcard .heading img {
   max-width: 365px;
@@ -356,9 +348,9 @@ body {
   }
 }
 .giftpage .giftcard .gift_item .item_header h3 {
-  font-size: 24px;
-  line-height: 100%;
-  font-weight: 500;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 400;
   color: #B3522C;
 }
 .giftpage .giftcard .gift_item .item_image {
