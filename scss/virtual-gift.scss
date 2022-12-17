@@ -42,7 +42,7 @@ body{
             margin-bottom:80px;
             text-align: center;
             h2{
-                @include font(40px,1.2em,400);
+                @include font(36px,1.2em,400);
                 color:$brand-color;
                 margin:0;
             }
