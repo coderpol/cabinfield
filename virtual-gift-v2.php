@@ -17,7 +17,7 @@
         <div class="giftcard">
             <div class="gift_logo">
                 <div class="container clearfix">
-                    <a href="#">
+                    <a href="home.php">
                         <img src="images/logo.svg" alt="Cabinfield">
                     </a>
                 </div>
