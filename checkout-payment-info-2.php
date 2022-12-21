@@ -115,6 +115,18 @@ include_once('sections/layouts/header.php')
                                         <input type="text" class="form-control" id="ext" aria-label="Ext">
                                     </div>
                                 </div>
+                                <div class="row form-line">
+                                    <div class="col-12">
+                                        <hr>
+                                        <label for="code" class="form-label">Enter Code</label>
+                                        <input type="number" class="form-control" id="address_2" aria-label="Enter Code">
+                                    </div>
+                                </div>
+                                <div class="row form-line">
+                                    <div class="col-12">
+                                        <button class="btn btn-primary btn-large">Apply</button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="card summary-card no-padding mt-5">
