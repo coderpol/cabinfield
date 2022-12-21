@@ -1,0 +1,173 @@
+@import 'base/variables';
+@import 'base/mixin';
+// @import 'base/reset';
+@import 'base/preset';
+
+html,body{
+    padding:0;
+    margin:0;
+    // height:100%;
+}
+.giftpage{
+    min-height: 100%;
+    background:url('../images/certificate-bg.jpg') no-repeat;
+    background-position: top center;
+    background-size:cover;
+    p,a{
+        font-family: 'DM Sans', serif;
+        margin:0;
+    }
+    .certificate{
+        width:100%;
+        max-width: 1100px;
+        margin:0px auto;
+        min-height: 100%;
+        padding:0 18px;
+        @include upto-phone{
+            margin:0 auto;
+        }
+        // background-color: #f7f5f6;
+        .container{
+            padding:0 45px;
+            @include upto-phone{
+                padding:0;
+            }
+        }
+        .gift_logo{
+            text-align:center;
+            // background-color: #f7f5f6;
+            padding-top:30px;
+            a{
+                display:block;
+                width: 155px; 
+                margin:0 auto;
+            }
+        }
+        .main_content{
+            // background:url('../images/shape-logo.jpg') no-repeat;
+            // background-size:cover;
+        }
+        .heading{
+            margin-top:60px;
+            margin-bottom:80px;
+            text-align: center;
+            h2{
+                font-family: 'Playfair Display', serif;
+                @include font(90px,1.2em,400);
+                color:$brand-color;
+                margin:0;
+            }
+        }
+        .text{
+            margin-bottom:50px;
+            p{
+                @include font(22px,1.2em);
+                margin-bottom:0;
+                color:#828282;
+            }
+        }
+        .gift_fields{
+            margin-bottom:60px;
+            .field{
+                margin-bottom:30px;
+                p{
+                    display:block;
+                    @include font(22px,1.2em);
+                    span{
+                        float:left;
+                        &.label{
+                        color: #444444; 
+                            
+                        }
+                        &.value{
+                            border-bottom:1px solid #828282;
+                            color:#828282;
+                            margin-top: -3px;
+                        }
+                    }
+                }
+            }
+            .label{
+                $sizes: 45,75,120,140,200;
+                @each $size in $sizes{
+                    &.w#{$size}{
+                        width:#{$size}px;
+                        &+span{
+                            width: calc(100% - #{$size}px);
+                        }
+                    }
+                }
+                
+            }
+            .half_field{
+                float:left;
+                width:48%;
+                margin-right:4%;
+                &:nth-child(2n){
+                    margin-right:0;
+                }
+                @include upto-phone{
+                    display: block;
+                    float:none;
+                    width:100%;
+                    margin-right:0 !important;
+                }
+            }
+            .full_field{
+                width:100%;
+                span{
+                    &.value{
+                        width:100% !important;
+                        margin-top:5px !important;
+                    }
+                }
+            }
+        }
+        .footnote{
+            p{
+                color:$brand-color;
+                @include font(22px,1.2em);
+            }
+        }
+    }
+}
+.certificate_footer{
+    margin:60px auto 0px;
+    padding:30px 0;
+    .container{
+        width:100%;
+        max-width: 1260px;
+        margin:0 auto;
+    }
+    .copyright{
+        float:left;
+        @include upto-phone{
+            float:none;
+            margin-bottom:30px;
+            text-align: center;
+        }
+        ul{
+            list-style-type:none;
+            margin:0;
+            padding-left:0;
+            li{
+                display: inline;
+                margin-right:10px;
+                a{
+                    text-decoration: none;
+                    color:#828282;
+                    @include font(18px,1.2em);
+                }
+            }
+        }
+    }
+    .slogan{
+        float:right;
+        width:110px;
+        margin-top: -7px;
+        @include upto-phone{
+            float:none;
+            margin:0 auto;
+        }
+    }
+}
