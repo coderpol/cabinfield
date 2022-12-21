@@ -413,9 +413,11 @@ html, body {
 .giftpage .certificate .gift_fields .full_field {
   width: 100%;
 }
-.giftpage .certificate .gift_fields .full_field span.value {
-  width: 100% !important;
-  margin-top: 5px !important;
+@media only screen and (max-width: 767px) {
+  .giftpage .certificate .gift_fields .full_field span.value {
+    width: 100% !important;
+    margin-top: 5px !important;
+  }
 }
 .giftpage .certificate .footnote p {
   color: #B3522C;

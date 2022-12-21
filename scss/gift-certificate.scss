@@ -115,10 +115,12 @@ html,body{
             }
             .full_field{
                 width:100%;
-                span{
-                    &.value{
-                        width:100% !important;
-                        margin-top:5px !important;
+                @include upto-phone{
+                    span{
+                        &.value{
+                            width:100% !important;
+                            margin-top:5px !important;
+                        }
                     }
                 }
             }
