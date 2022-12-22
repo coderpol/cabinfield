@@ -61,8 +61,8 @@
             <div class="container">
                 <div class="copyright">
                     <ul>
-                        <li><a href="https://cabinfield.com">www.cabinfield.com</a></li>
-                        <li><a href="https://www.instagram.com/cabinfield/">@cabinfield</a></li>
+                        <li><a target="_blank" href="https://cabinfield.com">www.cabinfield.com</a></li>
+                        <li><a target="_blank" href="https://www.instagram.com/cabinfield/">@cabinfield</a></li>
                     </ul>
                 </div>
                 <div class="slogan">
