@@ -18,28 +18,25 @@ html,body{
         margin:0;
     }
     .certificate{
-        width:100%;
-        max-width: 1100px;
-        margin:0px auto;
         min-height: 100%;
-        padding:0 18px;
-        @include upto-phone{
-            margin:0 auto;
-        }
+        padding-top:35px;
         // background-color: #f7f5f6;
         .container{
-            padding:0 45px;
+            width:100%;
+            max-width: 1020px;
+            margin:0px auto;
             @include upto-phone{
-                padding:0;
+                padding:0 20px;
+                margin:0 auto;
             }
         }
         .gift_logo{
             text-align:center;
             // background-color: #f7f5f6;
-            padding-top:30px;
+            margin-bottom:67px;
             a{
                 display:block;
-                width: 155px; 
+                width: 160px; 
                 margin:0 auto;
             }
         }
@@ -48,28 +45,27 @@ html,body{
             // background-size:cover;
         }
         .heading{
-            margin-top:60px;
-            margin-bottom:80px;
+            margin-bottom:38px;
             text-align: center;
             h2{
                 font-family: 'Playfair Display', serif;
-                @include font(90px,1.2em,400);
+                @include font(93px,1.2em,400);
                 color:$brand-color;
                 margin:0;
             }
         }
         .text{
-            margin-bottom:50px;
+            margin-bottom:77px;
             p{
-                @include font(22px,1.2em);
+                @include font(24px,1.25em);
                 margin-bottom:0;
                 color:#828282;
             }
         }
         .gift_fields{
-            margin-bottom:60px;
+            margin-bottom:70px;
             .field{
-                margin-bottom:30px;
+                margin-bottom:45px;
                 p{
                     display:block;
                     @include font(22px,1.2em);
@@ -82,18 +78,22 @@ html,body{
                         &.value{
                             border-bottom:1px solid #828282;
                             color:#828282;
-                            margin-top: -3px;
+                            margin-top: -6px;
                         }
                     }
                 }
             }
             .label{
-                $sizes: 45,75,120,140,200;
+                $sizes: 30,57,105,124,186;
                 @each $size in $sizes{
+                    $margin: 20;
+                    $field_width : $size + $margin;
                     &.w#{$size}{
                         width:#{$size}px;
+                        margin-right:#{$margin}px;
                         &+span{
-                            width: calc(100% - #{$size}px);
+                            width: calc(100% - #{$field_width}px);
+                            padding-left:3px;
                         }
                     }
                 }
@@ -101,8 +101,8 @@ html,body{
             }
             .half_field{
                 float:left;
-                width:48%;
-                margin-right:4%;
+                width:49%;
+                margin-right:2%;
                 &:nth-child(2n){
                     margin-right:0;
                 }
@@ -134,11 +134,11 @@ html,body{
     }
 }
 .certificate_footer{
-    margin:60px auto 0px;
-    padding:30px 0;
+    margin:70px auto 0px;
+    padding:18px 0 35px;
     .container{
         width:100%;
-        max-width: 1260px;
+        max-width: 1520px;
         margin:0 auto;
     }
     .copyright{
@@ -158,14 +158,14 @@ html,body{
                 a{
                     text-decoration: none;
                     color:#828282;
-                    @include font(18px,1.2em);
+                    @include font(20px,1.2em);
                 }
             }
         }
     }
     .slogan{
         float:right;
-        width:110px;
+        width:120px;
         margin-top: -7px;
         @include upto-phone{
             float:none;

@@ -290,62 +290,56 @@ html, body {
   margin: 0;
 }
 .giftpage .certificate {
-  width: 100%;
-  max-width: 1100px;
-  margin: 0px auto;
   min-height: 100%;
-  padding: 0 18px;
-}
-@media only screen and (max-width: 767px) {
-  .giftpage .certificate {
-    margin: 0 auto;
-  }
+  padding-top: 35px;
 }
 .giftpage .certificate .container {
-  padding: 0 45px;
+  width: 100%;
+  max-width: 1020px;
+  margin: 0px auto;
 }
 @media only screen and (max-width: 767px) {
   .giftpage .certificate .container {
-    padding: 0;
+    padding: 0 20px;
+    margin: 0 auto;
   }
 }
 .giftpage .certificate .gift_logo {
   text-align: center;
-  padding-top: 30px;
+  margin-bottom: 67px;
 }
 .giftpage .certificate .gift_logo a {
   display: block;
-  width: 155px;
+  width: 160px;
   margin: 0 auto;
 }
 .giftpage .certificate .heading {
-  margin-top: 60px;
-  margin-bottom: 80px;
+  margin-bottom: 38px;
   text-align: center;
 }
 .giftpage .certificate .heading h2 {
   font-family: "Playfair Display", serif;
-  font-size: 90px;
+  font-size: 93px;
   line-height: 1.2em;
   font-weight: 400;
   color: #B3522C;
   margin: 0;
 }
 .giftpage .certificate .text {
-  margin-bottom: 50px;
+  margin-bottom: 77px;
 }
 .giftpage .certificate .text p {
-  font-size: 22px;
-  line-height: 1.2em;
+  font-size: 24px;
+  line-height: 1.25em;
   font-weight: 400;
   margin-bottom: 0;
   color: #828282;
 }
 .giftpage .certificate .gift_fields {
-  margin-bottom: 60px;
+  margin-bottom: 70px;
 }
 .giftpage .certificate .gift_fields .field {
-  margin-bottom: 30px;
+  margin-bottom: 45px;
 }
 .giftpage .certificate .gift_fields .field p {
   display: block;
@@ -362,42 +356,52 @@ html, body {
 .giftpage .certificate .gift_fields .field p span.value {
   border-bottom: 1px solid #828282;
   color: #828282;
-  margin-top: -3px;
+  margin-top: -6px;
 }
-.giftpage .certificate .gift_fields .label.w45 {
-  width: 45px;
+.giftpage .certificate .gift_fields .label.w30 {
+  width: 30px;
+  margin-right: 20px;
 }
-.giftpage .certificate .gift_fields .label.w45 + span {
-  width: calc(100% - 45px);
+.giftpage .certificate .gift_fields .label.w30 + span {
+  width: calc(100% - 50px);
+  padding-left: 3px;
 }
-.giftpage .certificate .gift_fields .label.w75 {
-  width: 75px;
+.giftpage .certificate .gift_fields .label.w57 {
+  width: 57px;
+  margin-right: 20px;
 }
-.giftpage .certificate .gift_fields .label.w75 + span {
-  width: calc(100% - 75px);
+.giftpage .certificate .gift_fields .label.w57 + span {
+  width: calc(100% - 77px);
+  padding-left: 3px;
 }
-.giftpage .certificate .gift_fields .label.w120 {
-  width: 120px;
+.giftpage .certificate .gift_fields .label.w105 {
+  width: 105px;
+  margin-right: 20px;
 }
-.giftpage .certificate .gift_fields .label.w120 + span {
-  width: calc(100% - 120px);
+.giftpage .certificate .gift_fields .label.w105 + span {
+  width: calc(100% - 125px);
+  padding-left: 3px;
 }
-.giftpage .certificate .gift_fields .label.w140 {
-  width: 140px;
+.giftpage .certificate .gift_fields .label.w124 {
+  width: 124px;
+  margin-right: 20px;
 }
-.giftpage .certificate .gift_fields .label.w140 + span {
-  width: calc(100% - 140px);
+.giftpage .certificate .gift_fields .label.w124 + span {
+  width: calc(100% - 144px);
+  padding-left: 3px;
 }
-.giftpage .certificate .gift_fields .label.w200 {
-  width: 200px;
+.giftpage .certificate .gift_fields .label.w186 {
+  width: 186px;
+  margin-right: 20px;
 }
-.giftpage .certificate .gift_fields .label.w200 + span {
-  width: calc(100% - 200px);
+.giftpage .certificate .gift_fields .label.w186 + span {
+  width: calc(100% - 206px);
+  padding-left: 3px;
 }
 .giftpage .certificate .gift_fields .half_field {
   float: left;
-  width: 48%;
-  margin-right: 4%;
+  width: 49%;
+  margin-right: 2%;
 }
 .giftpage .certificate .gift_fields .half_field:nth-child(2n) {
   margin-right: 0;
@@ -427,12 +431,12 @@ html, body {
 }
 
 .certificate_footer {
-  margin: 60px auto 0px;
-  padding: 30px 0;
+  margin: 70px auto 0px;
+  padding: 18px 0 35px;
 }
 .certificate_footer .container {
   width: 100%;
-  max-width: 1260px;
+  max-width: 1520px;
   margin: 0 auto;
 }
 .certificate_footer .copyright {
@@ -457,13 +461,13 @@ html, body {
 .certificate_footer .copyright ul li a {
   text-decoration: none;
   color: #828282;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.2em;
   font-weight: 400;
 }
 .certificate_footer .slogan {
   float: right;
-  width: 110px;
+  width: 120px;
   margin-top: -7px;
 }
 @media only screen and (max-width: 767px) {
