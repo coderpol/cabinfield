@@ -161,37 +161,37 @@ include_once('sections/layouts/header.php')
                 <div class="row listed-product">
                     <!-- single product  -->
                     <div class="col-md-4 product">
-                        <div class="blank-product rainbow-border"></div>
+                        <div class="blank-product"></div>
                     </div>
                     <!-- single product end -->
                     
                     <!-- single product  -->
                     <div class="col-md-4 product">
-                        <div class="blank-product rainbow-border"></div>
+                        <div class="blank-product"></div>
                     </div>
                     <!-- single product end -->
                     
                     <!-- single product  -->
                     <div class="col-md-4 product">
-                        <div class="blank-product rainbow-border"></div>
+                        <div class="blank-product"></div>
                     </div>
                     <!-- single product end -->
                     
                     <!-- single product  -->
                     <div class="col-md-4 product">
-                        <div class="blank-product rainbow-border"></div>
+                        <div class="blank-product"></div>
                     </div>
                     <!-- single product end -->
                     
                     <!-- single product  -->
                     <div class="col-md-4 product">
-                        <div class="blank-product rainbow-border"></div>
+                        <div class="blank-product"></div>
                     </div>
                     <!-- single product end -->
                     
                     <!-- single product  -->
                     <div class="col-md-4 product">
-                        <div class="blank-product rainbow-border"></div>
+                        <div class="blank-product"></div>
                     </div>
                 </div>
                 
