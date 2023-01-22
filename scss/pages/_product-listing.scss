@@ -196,8 +196,62 @@
                 margin-top:$m-15;
             }
         }
+        .blank-product{
+            min-height:450px;
+            background-color: #eaeaea;
+        }
     }   
 }
+
+
+.rainbow-border {
+	position: relative;
+	z-index: 0;
+	border-radius: 10px;
+	overflow: hidden;
+	padding: 2rem;
+	
+	&::before {
+		content: '';
+		position: absolute;
+		z-index: -2;
+		left: -50%;
+		top: -50%;
+		width: 200%;
+		height: 200%;
+		background-color: #eaeaea;
+		background-repeat: no-repeat;
+		background-size: 50% 50%, 50% 50%;
+		background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+		background-image: linear-gradient(#eaeaea, #bcbcbc), linear-gradient($brand-color, lighten($brand-color,25%)), linear-gradient(#eaeaea, #bcbcbc), linear-gradient($brand-color, lighten($brand-color,25%));
+		animation: rotate 4s linear infinite;
+	}
+	
+	&::after {
+		content: '';
+		position: absolute;
+		z-index: -1;
+		left: 4px;
+		top: 4px;
+		width: calc(100% - 8px);
+		height: calc(100% - 8px);
+		background: linear-gradient(-45deg, #fff, #ededed, #fff);
+        background-size: 400% 400%;
+        animation: graybgchange 15s ease infinite;
+		border-radius: 5px;
+	}
+}
+@keyframes rotate {
+    100% {
+        transform: rotate(1turn);
+    }
+}
+@keyframes graybgchange {
+	0% {background-position: 0% 50%;}
+	50% {background-position: 100% 50%;}
+	100% {background-position: 100% 0%;}
+}
+
 
 .pagination-area{
     .pagination{
