@@ -7,6 +7,33 @@
             margin-bottom:0;
         }
     }
+    .loading-section{
+        margin-bottom:30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &.rainbow-border{
+            &:before{
+                width:140%;
+                height:550%;
+            }
+        }
+        .loading-text{
+            padding-left:2em;
+            background: linear-gradient(to right, $brand-color 20%, $black 40%, $brand-color 80%);
+            background-size: 200% auto;
+            color: #000;
+            background-clip: text;
+            text-fill-color: transparent;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: shine 1s linear infinite;
+            p{
+                font-size:1.25em;
+                font-weight: 700;
+            }
+        }
+    }
     .product-gallery{
         position:relative;
         @include upto-tablet{
@@ -170,6 +197,11 @@
                 color:$brand-color;
                 text-decoration: none;
             }
+        }
+        .addons-gray{
+            background-color: #efefef;
+            min-height:25px;
+            margin-bottom:20px;
         }
         .button-area{
             margin:$m-20 0;
