@@ -80,11 +80,11 @@
                 border:1px solid $white;
                 margin:10px 12px;
                 box-shadow: 0px 0px 15px rgba($black,0.1);
-                &:hover{
-                    border-color:$brand-color;
-                }
                 &.video{
                     border-color:rgba(151, 151, 151, 0.2);
+                }
+                &:hover{
+                    border-color:$brand-color !important;
                 }
             }
             .slick-list{
