@@ -83,6 +83,9 @@
                 &:hover{
                     border-color:$brand-color;
                 }
+                &.video{
+                    border-color:rgba(151, 151, 151, 0.2);
+                }
             }
             .slick-list{
                 overflow: hidden;
