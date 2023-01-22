@@ -1,5 +1,5 @@
 <?php 
-$page_title="Product Lisitng - V1"; // dynamic page title for every page
+$page_title="Product Lisitng - V1 - Animation"; // dynamic page title for every page
 
 // include header
 include_once('sections/layouts/header.php') 
