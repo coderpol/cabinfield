@@ -596,6 +596,9 @@
                     &.cart-item-remover{
                         margin-top:0;
                     }
+                    @include upto-phone{
+                        max-width:100%;
+                    }
                 }
             }
         }
@@ -627,11 +630,9 @@
             @include font($font-16,$line-18);
         }
     }
-}
-.shopping-sample-area{
-    border-top:1px solid $gray;
-    padding-top:40px;
     .sample-item{
+        padding-top:40px;
+        // border-top:1px solid $gray;
         @include from-tablet{
             .col-md-9{
                 width:69%;
@@ -658,6 +659,8 @@
         .action{
             @include upto-phone{
                 margin-top:30px;
+                border-bottom:1px solid $gray;
+                margin-bottom:20px;
             }
             .price-title{
                 color: #57687F;
@@ -671,9 +674,15 @@
                 font-size: 16px;
                 padding: 15px 10px;
                 max-width: 180px;
+                @include upto-phone{
+                    margin-bottom:30px;
+                    max-width:100%;
+                }
             }
         }
     }
+}
+.shopping-sample-area{
     
 }
 
