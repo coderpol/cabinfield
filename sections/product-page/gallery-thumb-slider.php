@@ -1,6 +1,6 @@
 <div id="thumbnail-horizontal" class="gallery-thumb horizontal">
     <div class="thumb video" data-caption="This is the caption for 1st image">
-        <img src="images/products/gallery/bed-thumb-video.png" alt="">
+        <img src="images/products/gallery/bed-thumb.png" alt="">
     </div>
     <div class="thumb" data-caption="This is the caption for 2nd image">
         <img src="images/products/gallery/bed-thumb.png" alt="">
