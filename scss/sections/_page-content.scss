@@ -628,6 +628,54 @@
         }
     }
 }
+.shopping-sample-area{
+    border-top:1px solid $gray;
+    padding-top:40px;
+    .sample-item{
+        @include from-tablet{
+            .col-md-9{
+                width:69%;
+            }
+        }
+        .heading{
+            margin-bottom:40px;
+            h3{
+                @include font(36px,47px,700);
+                color:$blue-darkest;
+                margin-bottom:0;
+            }
+        }
+        .sample-text{
+            margin-left:0;
+            padding-left:0;
+            list-style-type: none;
+            li{
+                @include font(20px,26px);
+                color:$blue-darkest;
+                margin-bottom:15px;
+            }
+        }
+        .action{
+            @include upto-phone{
+                margin-top:30px;
+            }
+            .price-title{
+                color: #57687F;
+                @include font(20px,22px);
+                span{
+                    color:$brand-color;
+                    @include font(22px,29px,700);
+                }
+            }
+            .btn{
+                font-size: 16px;
+                padding: 15px 10px;
+                max-width: 180px;
+            }
+        }
+    }
+    
+}
 
 // @include upto-phone{
 //     .review-section{

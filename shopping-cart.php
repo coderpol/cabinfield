@@ -238,6 +238,30 @@ include_once('sections/layouts/header.php')
              <!-- summary card area ends -->
         </div>
         
+        <div class="row shopping-sample-area">
+            <div class="col-md-8">
+                <div class="row sample-item">
+                    <div class="col-md-12 heading">
+                        <h3>Wood Samples</h3>
+                    </div>
+                    <div class="col-md-9">
+                        <ul class="sample-text">
+                            <li>Oak / Natural</li>
+                            <li>Cherry / OCS 117</li>
+                            <li>Rustic Hickory / Natural</li>
+                            <li>Hickory / FC 104 Chestnut</li>
+                            <li>Oak / OCS 111 Asbury</li>
+                            <li>Brown Maple / OCS 104 Seely</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="col-md-3 action">
+                        <p class="price-title">Subtotal: <span>$55</span></p>
+                        <button class="btn btn-empty btn-block cart-item-remover"><i class="fa-solid fa-trash-can"></i> Remove</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
