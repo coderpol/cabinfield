@@ -82,22 +82,24 @@
                 box-shadow: 0px 0px 15px rgba($black,0.1);
                 position:relative;
                 &.video{
-                    border-color:rgba(151, 151, 151, 0.2);
-                    &:after,&:before{
-                        content:"";
-                        position: absolute;
-                        top: 0;
-                        left: 0;
-                        width:100%;
-                        height:100%;
-                    }
-                    &::after{
-                        background-color: rgba(151, 151, 151, 0.2);
-                        z-index:2;
-                    }
-                    &:before{
-                        z-index:3;
-                        background:url(../images/play.png) no-repeat center center;
+                    a{
+                        border-color:rgba(151, 151, 151, 0.2);
+                        &:after,&:before{
+                            content:"";
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width:100%;
+                            height:100%;
+                        }
+                        &::after{
+                            background-color: rgba(151, 151, 151, 0.2);
+                            z-index:2;
+                        }
+                        &:before{
+                            z-index:3;
+                            background:url(../images/play.png) no-repeat center center;
+                        }
                     }
                 }
                 &:hover{
