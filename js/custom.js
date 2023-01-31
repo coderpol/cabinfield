@@ -228,6 +228,11 @@ $('.heading-link').click(function(e){
   $("#"+target).toggleClass('active');
   $(this).toggleClass('active');
 });
+// widget close button
+$('.btn-dismiss, .widget-trigger').click(function(e){
+  var target = $(this).data('target');
+  $("#"+target).slideToggle();
+});
 
 // for desktop
 // $('.heading-link').hover(function(e){
