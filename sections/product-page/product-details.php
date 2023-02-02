@@ -32,28 +32,10 @@
 <p>With a handcrafted wood kitchen set mealtimes will become the special bonding time you’ve always dreamed of. Solidly constructed fan back chairs are optionally stained in 2 tones.</p>
 
 <div class="widget-area">
-    <button type="button" class="btn btn-secondary btn-help widget-trigger" data-target="help">
-        <i class="cabincon help-circle size-24"></i> <span>Help</span>
-    </button><br/>
-    
+  
     <button type="button" class="btn btn-secondary btn-coupon widget-trigger" data-target="coupon">
         <i class="cabincon info size-24"></i> <span>Coupon info</span>
     </button>
-
-    <div class="info-card help" id="help">
-        <button type="button" class="btn btn-dismiss" data-target="help">&times;</button>
-        <div class="header">
-            <h4>Help info</h4>
-        </div>
-        <div class="body">
-            <h5>Get $100 Off Your First Order</h5>
-            <ul>
-                <li>Sign up for our newsletter</li>
-                <li>We will send your unique coupon code to your email</li>
-                <li>Redeem your coupon on orders over $1,500 excluding shipping, upon submitting your shipping address</li>
-            </ul>
-        </div>
-    </div>
     <div class="info-card coupon" id="coupon">
         <button type="button" class="btn btn-dismiss" data-target="coupon">&times;</button>
         <div class="header">
