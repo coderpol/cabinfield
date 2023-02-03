@@ -77,6 +77,28 @@
 </footer>
 <!-- footer area ends  -->
 
+<!-- couple info widget -->
+<div class="widget-area">
+    <button type="button" class="btn btn-secondary btn-coupon widget-trigger" data-target="coupon">
+        <i class="cabincon info size-24"></i> <span>Coupon info</span>
+    </button>
+    <div class="info-card coupon" id="coupon">
+        <button type="button" class="btn btn-dismiss" data-target="coupon">&times;</button>
+        <div class="header">
+            <h4>Coupon info</h4>
+        </div>
+        <div class="body">
+            <h5>Get $100 Off Your First Order</h5>
+            <ul>
+                <li>Sign up for our newsletter</li>
+                <li>We will send your unique coupon code to your email</li>
+                <li>Redeem your coupon on orders over $1,500 excluding shipping, upon submitting your shipping address</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- couple info widget ends-->
+
 <!-- the latest jquery  -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <!-- bootstrap latest js  -->
