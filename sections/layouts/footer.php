@@ -80,7 +80,7 @@
 <!-- couple info widget -->
 <div class="widget-area">
     <button type="button" class="btn btn-secondary btn-coupon widget-trigger" data-target="coupon">
-        <i class="cabincon info size-24"></i> <span>Coupon info</span>
+        <i class="cabincon info size-20"></i> <span>Coupon info</span>
     </button>
     <div class="info-card coupon" id="coupon">
         <button type="button" class="btn btn-dismiss" data-target="coupon">&times;</button>
