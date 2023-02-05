@@ -5,6 +5,7 @@
     bottom:0;
     right:0;
     z-index: 3000000000;
+    min-height:0;
     .btn{
         border-top-right-radius: 15px;
         padding:8px 12px;
@@ -89,9 +90,11 @@
 }
 
 @include phone-small{
-    .widget-area.active{
-        height:100%;
-        top:0;
+    .widget-area{
+        &.active{
+            height:100%;
+            top:0;
+        }
         .info-card{
             height:100%;
             width:100%;
