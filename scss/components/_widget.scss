@@ -3,10 +3,7 @@
     position:fixed;
     bottom:31px;
     right:135px;
-    @include upto-tablet{
-        position:relative;
-        margin-bottom:40px;
-    }
+    
     .btn{
         border-top-right-radius: 15px;
         padding:8px 12px;
@@ -34,6 +31,10 @@
         border-radius: 10px;
         background: #F8F8F8;
         display:none;
+        @include upto-phone{
+            position: absolute;
+            right: -115px;
+        }
         .btn-dismiss{
             position:absolute;
             top:16px;
