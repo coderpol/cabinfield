@@ -1,13 +1,13 @@
 .widget-area{
     text-align:right;
     position:fixed;
-    bottom:31px;
+    bottom:32px;
     right:135px;
     
     .btn{
         border-top-right-radius: 15px;
         padding:8px 12px;
-        @include font(16px,24px,500);
+        @include font(15px,23px,400);
         display: flex;
         i{
             color:$white;
