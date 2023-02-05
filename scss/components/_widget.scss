@@ -1,9 +1,11 @@
 .widget-area{
+    width:100%;
     text-align:right;
     position:fixed;
-    bottom:32px;
-    right:135px;
-    z-index: 300;
+    bottom:0;
+    right:0;
+    z-index: 3000000000;
+    
     .btn{
         border-top-right-radius: 15px;
         padding:8px 12px;
@@ -17,27 +19,27 @@
         &-coupon{
             background: #D8B17A;
             min-width: 145px;
+            position:absolute;
+            right: 135px;
+            bottom: 32px;
         }
         span{
             padding-left:5px;
         }
     }
+
     .info-card{
         text-align: left;
         position: absolute;
         width: 300px;
-        right: 0;
-        bottom: 44px;
+        right: 135px;
+        bottom: 80px;
         box-shadow: 0px 6px 15px 2px rgba(154, 154, 154, 0.2);
         border-radius: 10px;
         background: #F8F8F8;
+        overflow: scroll;
         display:none;
-        @include upto-phone{
-            position: absolute;
-            right: -130px;
-            width: 97vw;
-            max-width: 300px;
-        }
+        max-height:calc(100vh - 90px);
         .btn-dismiss{
             position:absolute;
             top:16px;
@@ -83,6 +85,22 @@
                     margin-bottom:18px;
                 }
             }
+        }
+    }
+}
+
+@include phone-small{
+    .widget-area{
+        height:100%;
+        top:0;
+        .info-card{
+            height:100%;
+            width:100%;
+            max-height:100%;
+            max-width:100%;
+            position:absolute;
+            bottom:0;
+            left:0;
         }
     }
 }
