@@ -13,7 +13,7 @@
                         <span class="heading-link" data-target="first-menu">Fine Furniture <span class="only-responsive arrow">></span></span>
                         <div class="dropdown-menu submenu-block" id="first-menu">
                             <h3><a href="fine-furniture.php">Fine Furniture</a></h3>
-                            <a href="collection-landing.php" class="link stock-link">Items in stocks</a>
+                            <!-- <a href="collection-landing.php" class="link stock-link">Items in stocks</a> -->
                             <div class="submenu-area">
                                 <div class="category">
                                     <h4><a href="#">Bedroom</a></h4>
@@ -83,7 +83,7 @@
                         <span class="heading-link" data-target="second-menu">Rustic Lodge <span class="only-responsive arrow">></span></span>
                         <div class="dropdown-menu submenu-block" id="second-menu">
                             <h3><a href="#">Rustic Lodge <span>Log, Hickory, Reclaimed & Rough Sawn Woods</span></a></h3>
-                            <a href="product-listing.php" class="link stock-link">Items in stocks</a>
+                            <!-- <a href="product-listing.php" class="link stock-link">Items in stocks</a> -->
                             <div class="submenu-area">
                                 <div class="category">
                                     <h4><a href="#">Bedrooms</a></h4>
@@ -174,7 +174,7 @@
                         <a class="heading-link" data-target="third-menu">Outdoor <span class="only-responsive arrow">></span></a>
                         <div class="dropdown-menu submenu-block" id="third-menu">
                             <h3><a href="#">Outdoor</a></h3>
-                            <a href="product-listing.php" class="link stock-link">Items in stocks</a>
+                            <!-- <a href="product-listing.php" class="link stock-link">Items in stocks</a> -->
                             <div class="submenu-area">
                                 <ul class="submenu">
                                     <li><a href="wood-sample.php">Historic Furniture</a></li>
