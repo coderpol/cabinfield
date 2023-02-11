@@ -253,6 +253,34 @@
                     margin-bottom:$m-90;
                 }
             }
+            
+        }
+    }
+    .point-section{
+        padding-bottom: 1rem;
+        .heading, .point{
+            color: #121212;
+        }
+        &:not(.only-point){
+            margin-bottom: 2.5rem;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .heading{
+            @include font(20px,23px,700);
+            margin-bottom: 15px;
+        }
+        .point{
+            border-bottom:1px solid $brand-color;
+            padding:1rem 1.25rem 1rem 0;
+            margin-bottom:1rem;
+            @include font(16px,20px);
+        }
+        &.only-point{
+            .heading{
+                border-bottom:1px solid $brand-color;
+                padding:1rem 1.25rem 1rem 0;
+                margin-bottom:1rem;
+            }
         }
     }
     
@@ -293,6 +321,7 @@
         .btn{
             @include rounded($m-5);
         }
+        
     }
     
     .filter-buttons{
