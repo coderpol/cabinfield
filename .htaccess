@@ -2,4 +2,3 @@
 RewriteEngine on
 RewriteCond %{HTTP_HOST} ^cabinfield\.palashbala\.com$
 RewriteRule ^/?$ "https\:\/\/cabinfield\.palashbala\.com\/" [R=301,L]
-
