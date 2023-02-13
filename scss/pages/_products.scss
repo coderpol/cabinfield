@@ -232,13 +232,9 @@
         }
         .addons-gray{
             background-color: #efefef;
-            // animation: placeholder-glow 2s ease-in-out infinite;
+            animation: placeholder-glow 2s ease-in-out infinite;
             min-height: 25px;
             margin-bottom:20px;
-            box-shadow:
-                // 0 0 6px 3px #fff,  /* inner white */
-                // 0 0 10px 6px #f0f, /* middle magenta */
-                0 0 8px 0px rgba(15, 161, 218, 0.5); /* outer cyan */
         }
         .button-area{
             margin:$m-20 0;
