@@ -58,7 +58,7 @@
                     <li class="done"><a href="virtual-gift-v2.php">Virtual Gift - V2</a></li>
                     <li class="done"><a href="gift-certificate.php">Gift Certificate</a></li>
                     <li class="done"><a href="product-listing-anim.php">Product Listing - Animation</a></li>
-                    <li class="done"><a href="product-1-loading.php">Product Customized - Animation</a></li>
+                    <li class="done"><a href="product-1-loading.php">Product Customized - Anim</a></li>
                 </ol>
             </div>
         </div>
