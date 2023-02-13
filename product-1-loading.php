@@ -52,8 +52,7 @@ include_once('sections/layouts/header.php')
                 <div class="tab-content" id="pills-tabContent">
                     <div class="tab-pane fade show active" id="pills-1" role="tabpanel" aria-labelledby="pills-1">
                         <form action="#" class="cabinform">
-                            <div class="loading-section rainbow-border">
-                                <div class="hourglass"></div>
+                            <div class="loading-section">
                                 <div class="loading-text">
                                     <p style="margin-bottom:0">Please Wait. Your product is loading...</p>
                                 </div>
