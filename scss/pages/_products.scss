@@ -7,6 +7,17 @@
             margin-bottom:0;
         }
     }
+    .loader{
+        width: 40px;
+        height: 40px;
+        border: 5px solid $brand-color;
+        border-bottom-color: rgb(255, 255, 255);
+        border-bottom-color: transparent;
+        border-radius: 50%;
+        display: inline-block;
+        box-sizing: border-box;
+        animation: rotation 1s linear infinite;
+    }
     .loading-section{
         margin-bottom:30px;
         display: flex;
@@ -20,14 +31,12 @@
         }
         .loading-text{
             padding-left:2em;
-            background: linear-gradient(to right, $brand-color 20%, $black 40%, $brand-color 80%);
-            background-size: 200% auto;
+            // background: linear-gradient(to right, $brand-color 20%, $black 40%, $brand-color 80%);
+            // background-size: 200% auto;
             color: #000;
-            background-clip: text;
-            text-fill-color: transparent;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            animation: shine 1s linear infinite;
+            // background-clip: text;
+            // text-fill-color: transparent;
+            // animation: shine 1s linear infinite;
             p{
                 font-size:1.25em;
                 font-weight: 700;
