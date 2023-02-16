@@ -512,162 +512,7 @@
         }
     }
     
-    .stack-area{
-        display:flex;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-        align-items: stretch;
-        margin-top:20px;
-        .stack{
-            flex-basis: 14%;
-            position: relative;
-            padding-left:0;
-            padding-right:0;
-            text-align: center;
-            @include from-pc{
-                margin-right:0.285%;
-            }
-            span{
-                margin-top:$m-10;
-            }
-            @include upto-phone{
-                flex-basis:25%;
-            }
-            margin-bottom:$m-20;
-            .open-details{
-                color:$brand-color;
-                margin:6px 0;
-                display: inline-block;
-                font-size:16px;
-                &:hover{
-                    color:$blue-darkest;
-                    cursor: pointer;
-                }
-            }
-            h5{
-                @include font($font-14,$line-18,$font-medium);
-                color:$blue-darkest;
-                @include phone-small{
-                    padding:0 5px;
-                }
-            }
-            .btn-check{
-                display: none;
-                
-                &:checked,&:active{
-                    &+.btn{
-                        background: none !important;
-                        border:$thin solid $brand-color;
-                        .overlay{
-                            display:flex;
-                            justify-content: center;
-                            align-items: center;
-                        }
-                    }
-                }
-            }
-            .btn{
-                border:0;
-                padding:5px;
-                display: block;
-                @include rounded(4px);
-                border:1px solid transparent;
-                img{
-                    @include rounded(4px);
-                }
-                span{
-                    color:$blue-darkest !important;
-                }
-                @include tablet-to-pc{
-                    height:164px;
-                    img{
-                        height:151px;
-                    }
-                }
-            }
-            .figure,.text{
-                position:relative;
-                margin-bottom:0;
-                margin-top:0;
-            }
-            
-            @include phone-small{
-                flex-basis: 33.33%;
-            }
-            @include phone-large{
-                flex-basis: 25%;
-            }
-            @include phone-to-tablet{
-                flex-basis: 20%;
-            }
-            .counter{
-                .btn{
-                    margin-top:0;
-                    height:auto !important;
-                    min-height:auto !important;
-                    @include rounded(30px);
-                }
-            }
-            
-            .text{
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
-                border: 1px solid $gray-500;
-                @include rounded(4px);
-                background-color: $white;
-                // margin-bottom: 48px;
-                // margin-top:6px;
-                p{
-                    margin-bottom:0;
-                }
-                span{
-                    margin-bottom:0;
-                    display: block;
-                    @include font($font-14,$line-18,500);
-                    @include upto-phone{
-                        margin-top:0;
-                    }
-                }
-                strong{
-                    display: block;
-                    padding:10px 20px;
-                    margin-top:15px;
-                    background: #EDEFF3;
-                    @include rounded(20px);
-                    color:$gray-light-3;
-                }
-                .overlay{
-                    background-color: rgba($black,0.4);
-                }
-            }
-            input[type=checkbox]{
-                display: none;
-            }
-        }
-        
-        
-        
-        
-        &.has-solid{
-            .stack{
-                .btn{
-                    .text{
-                        height:152px;
-                        width:100%;
-                    }
-                    @include upto-tablet{
-                        min-height:155px;
-                        img{
-                            height:151px;
-                        }
-                    }
-                }
-                
-            } 
-        }
-    }
+    
     .stack-tweleve{
         height: 450px;
         overflow-y: scroll;
@@ -845,3 +690,158 @@
     }
     
 }
+.stack-area{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    margin-top:20px;
+    .stack{
+        flex-basis: 14%;
+        position: relative;
+        padding-left:0;
+        padding-right:0;
+        text-align: center;
+        @include from-pc{
+            margin-right:0.285%;
+        }
+        span{
+            margin-top:$m-10;
+        }
+        @include upto-phone{
+            flex-basis:25%;
+        }
+        margin-bottom:$m-20;
+        .open-details{
+            color:$brand-color;
+            margin:6px 0;
+            display: inline-block;
+            font-size:16px;
+            &:hover{
+                color:$blue-darkest;
+                cursor: pointer;
+            }
+        }
+        h5{
+            @include font($font-14,$line-18,$font-medium);
+            color:$blue-darkest;
+            @include phone-small{
+                padding:0 5px;
+            }
+        }
+        .btn-check{
+            display: none;
+            
+            &:checked,&:active{
+                &+.btn{
+                    background: none !important;
+                    border:$thin solid $brand-color;
+                    .overlay{
+                        display:flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+            }
+        }
+        .btn{
+            border:0;
+            padding:5px;
+            display: block;
+            @include rounded(4px);
+            border:1px solid transparent;
+            img{
+                @include rounded(4px);
+            }
+            span{
+                color:$blue-darkest !important;
+            }
+            @include tablet-to-pc{
+                height:164px;
+                img{
+                    height:151px;
+                }
+            }
+        }
+        .figure,.text{
+            position:relative;
+            margin-bottom:0;
+            margin-top:0;
+        }
+        
+        @include phone-small{
+            flex-basis: 33.33%;
+        }
+        @include phone-large{
+            flex-basis: 25%;
+        }
+        @include phone-to-tablet{
+            flex-basis: 20%;
+        }
+        .counter{
+            .btn{
+                margin-top:0;
+                height:auto !important;
+                min-height:auto !important;
+                @include rounded(30px);
+            }
+        }
+        
+        .text{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid $gray-500;
+            @include rounded(4px);
+            background-color: $white;
+            // margin-bottom: 48px;
+            // margin-top:6px;
+            p{
+                margin-bottom:0;
+            }
+            span{
+                margin-bottom:0;
+                display: block;
+                @include font($font-14,$line-18,500);
+                @include upto-phone{
+                    margin-top:0;
+                }
+            }
+            strong{
+                display: block;
+                padding:10px 20px;
+                margin-top:15px;
+                background: #EDEFF3;
+                @include rounded(20px);
+                color:$gray-light-3;
+            }
+            .overlay{
+                background-color: rgba($black,0.4);
+            }
+        }
+        input[type=checkbox]{
+            display: none;
+        }
+    }    
+    
+    &.has-solid{
+        .stack{
+            .btn{
+                .text{
+                    height:152px;
+                    width:100%;
+                }
+                @include upto-tablet{
+                    min-height:155px;
+                    img{
+                        height:151px;
+                    }
+                }
+            }
+            
+        } 
+    }
+}
+
+@import '../components/stain-selection';

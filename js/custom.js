@@ -251,3 +251,16 @@ $('.btn-dismiss, .widget-trigger').click(function(e){
 //   };
 // }
 
+$('.select-stain').click(function(){
+  $(this).toggleClass('active');
+  // $(this + '.stain-selection').slideToggle();
+});
+
+$('.stain-selection .stack .btn').click(function(){
+  // get the value to show
+  var value = $(this).data('value');
+  var target_select = $(this).data('target');
+  console.log(value);
+  $("#"+target_select).val(value).removeClass('active');
+
+});
