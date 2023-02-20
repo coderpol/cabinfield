@@ -1,6 +1,7 @@
 .footer{
     border-top: $thin solid $gray;
     padding:$m-30 0;
+    padding-bottom:80px;
     a,p{
         color:$blue-darker-2;
     }
@@ -14,7 +15,9 @@
         align-content: center;
         justify-content: space-between;
         align-items: center;
-        
+        ul{
+            padding-left:0;
+        }
         .footer-logo{
             img{
                 margin:0 auto $m-20;
