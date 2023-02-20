@@ -22,21 +22,9 @@
             position:absolute;
             right: 135px;
             bottom: 32px;
-            @include upto-tablet{
-                &:hover, &:focus{
-                    background-color: #D8B17A;
-                }
-            }
         }
         span{
             padding-left:5px;
-        }
-    }
-    @include upto-tablet{
-        &.active{
-            .btn-coupon{
-                background-color: #121212;
-            }
         }
     }
 
