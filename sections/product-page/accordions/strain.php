@@ -18,12 +18,14 @@
                     for($i=1;$i<=14;$i++){
                 ?>
                 <div class="stack">
-                    <input type="radio" name="stain-type" class="btn-check" id="stain-<?php echo $i; ?>">
-                    <label class="btn" for="stain-<?php echo $i; ?>">
+                    <label class="image">
                         <img src="images/stain/stain-<?php echo rand(1,3); ?>.png" alt="">
+                        <div class="open-details" data-bs-toggle="modal" data-bs-target="#edit_zip">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
                     </label>
-                    <span class="open-details" data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-magnifying-glass"></i></span>
                     <h5>Medium OCS-110 </h5>
+                    <input type="radio" name="stain-type" class="form-check-input" id="stain-<?php echo $i; ?>">
                 </div>
                 <?php } ?>
                 

@@ -17,21 +17,21 @@
             <!-- use .has-solid class if you have the solid top in the options  -->
             <div class="stack-area has-solid">
                 <div class="stack">
-                    <input type="radio" name="leaf-type" class="btn-check" checked id="leaf-1">
-                    <label class="btn" for="leaf-1">
+                    <label class="image" for="leaf-1">
                         <div class="text">
                             <span>Solid Top</span> <strong>Standard</strong>
                         </div>
                     </label>
-                    <span class="open-details" data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-magnifying-glass"></i></span>
+                    <!-- <span class="open-details" data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-magnifying-glass"></i></span> -->
                     <h5>Medium OCS-110 </h5>
+                    <input type="radio" name="leaf-type" class="form-check-input" checked id="leaf-1">
                     <div class="counter">
                         <span class="btn" data-action="decrease">-</span>
                         <input type="number" class="count" value="1"> 
                         <span class="btn" data-action="increase">+</span>
                     </div>
                 </div>
-                <div class="stack">
+                <!-- <div class="stack">
                     <input type="radio" name="leaf-type" class="btn-check" id="leaf-2">
                     <label class="btn" for="leaf-2">
                         <img src="images/leaf/leaf-2.png" alt="">
@@ -56,7 +56,24 @@
                         <input type="number" class="count" value="1"> 
                         <span class="btn" data-action="increase">+</span>
                     </div>
+                </div> -->
+                <?php 
+                    for($i=2;$i<=3;$i++){
+                ?>
+                <div class="stack">
+                    <label class="image">
+                        <img src="images/leaf/leaf-<?php echo $i; ?>.png" alt="">
+                        <div class="open-details" data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-magnifying-glass"></i></div>
+                    </label>
+                    <h5>Medium OCS-110 </h5>
+                    <input type="radio" name="stain-type" class="form-check-input" id="stain-<?php echo $i; ?>">
+                    <div class="counter">
+                        <span class="btn" data-action="decrease">-</span>
+                        <input type="number" class="count" value="1"> 
+                        <span class="btn" data-action="increase">+</span>
+                    </div>
                 </div>
+                <?php } ?>
             </div>
         </div>
         <div class="button-area">
