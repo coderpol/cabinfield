@@ -22,10 +22,13 @@
                     <li class="done"><a href="style-landing.php">Style Landing</a></li>
                     <li class="done"><a href="collection-landing.php">Collection Landing</a></li>
                     <li class="done"><a href="product-listing.php">Product Listing</a></li>
+                    <li class="done"><a href="product-listing-2.php">Product Listing - V2</a></li>
+                    <li class="done"><a href="product-listing-anim.php">Product Listing - Animation</a></li>
                     <li class="done"><a href="list-of-pre-built-products-v1.php">List of Pre-built products - V1</a></li>
                     <li class="done"><a href="list-of-pre-built-products-v2.php">List of Pre-built products - V2</a></li>
                     <li class="done"><a href="product-1.php">Product - Customize</a></li>
                     <li class="done"><a href="product-2.php">Product - Customize -  V2</a></li>
+                    <li class="done"><a href="product-1-loading.php">Product Customized - Anim</a></li>
                     <li class="done"><a href="shopping-cart.php">Shopping Cart</a></li>
                     <li class="done"><a href="checkout-shipping.php">Checkout Shipping</a></li>
                     <li class="done"><a href="checkout-shipping-2.php">Checkout Shipping - 2</a></li>
@@ -58,8 +61,6 @@
                     <li class="done"><a href="virtual-gift.php">Virtual Gift</a></li>
                     <li class="done"><a href="virtual-gift-v2.php">Virtual Gift - V2</a></li>
                     <li class="done"><a href="gift-certificate.php">Gift Certificate</a></li>
-                    <li class="done"><a href="product-listing-anim.php">Product Listing - Animation</a></li>
-                    <li class="done"><a href="product-1-loading.php">Product Customized - Anim</a></li>
                 </ol>
             </div>
         </div>
