@@ -717,7 +717,6 @@
             margin-top:$m-10;
         }
         
-        
         h5{
             @include font($font-14,$line-18,$font-medium);
             color:$blue-darkest;
@@ -725,18 +724,19 @@
                 padding:0 5px;
             }
         }
-        .btn-check-input{            
-            &:checked,&:active{
-                &+.btn{
-                    background: none !important;
-                    border:$thin solid $brand-color;
-                    .overlay{
-                        display:flex;
-                        justify-content: center;
-                        align-items: center;
-                    }
-                }
-            }
+        .form-check-input{   
+            margin-left:auto;         
+            // &:checked,&:active{
+            //     &+.btn{
+            //         background: none !important;
+            //         border:$thin solid $brand-color;
+            //         .overlay{
+            //             display:flex;
+            //             justify-content: center;
+            //             align-items: center;
+            //         }
+            //     }
+            // }
         }
         .image{
             border:0 !important;
