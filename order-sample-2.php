@@ -72,10 +72,8 @@ include_once('sections/layouts/header.php')
                                     ?>
                                     <div class="stack">
                                         <div class="image">
-                                            <span class="btn" >
-                                                <img src="images/stain/stain-<?php echo rand(1,3); ?>.png" alt="">
-                                            </span>
-                                            <span class="open-details" data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-magnifying-glass"></i></span>
+                                            <img src="images/stain/stain-<?php echo rand(1,3); ?>.png" alt="">
+                                            <div class="open-details" data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-magnifying-glass"></i></div>
                                         </div>
                                         <h5>Medium OCS-<?php echo $i?></h5>
                                         <input type="radio" name="leaf-type-<?php echo $i?>" class="form-check-input" data-value="Medium OCS-110 - <?php echo $i?>" data-target="stain-1" id="stain-1<?php echo $i; ?>">
@@ -119,10 +117,8 @@ include_once('sections/layouts/header.php')
                                     ?>
                                     <div class="stack">
                                         <div class="image">
-                                            <span class="btn">
-                                                <img src="images/stain/stain-<?php echo rand(1,3); ?>.png" alt="">
-                                            </span>
-                                            <span class="open-details" data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-magnifying-glass"></i></span>
+                                            <img src="images/stain/stain-<?php echo rand(1,3); ?>.png" alt="">
+                                            <div class="open-details" data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-magnifying-glass"></i></div>
                                         </div>
                                         <h5>Medium OCS-<?php echo $i?></h5>
                                         <input type="radio" name="leaf-type-<?php echo $i?>" class="form-check-input" data-value="Medium OCS-110 - <?php echo $i?>" data-target="stain-2" id="stain-2<?php echo $i; ?>">
@@ -166,10 +162,8 @@ include_once('sections/layouts/header.php')
                                     ?>
                                     <div class="stack">
                                         <div class="image">
-                                            <span class="btn">
-                                                <img src="images/stain/stain-<?php echo rand(1,3); ?>.png" alt="">
-                                            </span>
-                                            <span class="open-details" data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-magnifying-glass"></i></span>
+                                            <img src="images/stain/stain-<?php echo rand(1,3); ?>.png" alt="">
+                                            <div class="open-details" data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-magnifying-glass"></i></div>
                                         </div>
                                         <h5>Medium OCS-<?php echo $i?></h5>
                                         <input type="radio" name="leaf-type-<?php echo $i?>" class="form-check-input" data-value="Medium OCS-110 - <?php echo $i?>" data-target="stain-3" id="stain-3<?php echo $i; ?>">
@@ -183,13 +177,11 @@ include_once('sections/layouts/header.php')
                 </div>
                 <!-- one combination ends -->
             </div>
-            
-
-
+        
         </form>
     </div>
 </div>
 
-
+<?php include_once('sections/product-page/edit-zip-modal.php') ?>
 <!-- inlcude page footer area  -->
 <?php include_once('sections/layouts/footer.php') ?>
