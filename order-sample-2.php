@@ -57,8 +57,6 @@ include_once('sections/layouts/header.php')
                                     <option value="2">Two</option>
                                     <option value="3">Three</option>
                                 </select>
-                                
-                                
                             </div>
                         </div>
                         <!-- slect wood ends -->
@@ -73,11 +71,14 @@ include_once('sections/layouts/header.php')
                                         for($i=1;$i<=9;$i++){
                                     ?>
                                     <div class="stack">
-                                        <span class="btn" data-value="Medium OCS-110 - <?php echo $i?>" data-target="stain-1">
-                                            <img src="images/stain/stain-<?php echo rand(1,3); ?>.png" alt="">
-                                        </span>
-                                        <span class="open-details" data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-magnifying-glass"></i></span>
-                                        <h5>Medium OCS-110</h5>
+                                        <div class="image">
+                                            <span class="btn" >
+                                                <img src="images/stain/stain-<?php echo rand(1,3); ?>.png" alt="">
+                                            </span>
+                                            <span class="open-details" data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-magnifying-glass"></i></span>
+                                        </div>
+                                        <h5>Medium OCS-<?php echo $i?></h5>
+                                        <input type="radio" name="leaf-type-<?php echo $i?>" class="form-check-input" data-value="Medium OCS-110 - <?php echo $i?>" data-target="stain-1" id="stain-1<?php echo $i; ?>">
                                     </div>
                                     <?php } ?>
                                 </div>
@@ -117,11 +118,14 @@ include_once('sections/layouts/header.php')
                                         for($i=1;$i<=9;$i++){
                                     ?>
                                     <div class="stack">
-                                        <span class="btn" data-value="Medium OCS-110 - <?php echo $i?>" data-target="stain-2">
-                                            <img src="images/stain/stain-<?php echo rand(1,3); ?>.png" alt="">
-                                        </span>
-                                        <span class="open-details" data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-magnifying-glass"></i></span>
-                                        <h5>Medium OCS-110</h5>
+                                        <div class="image">
+                                            <span class="btn">
+                                                <img src="images/stain/stain-<?php echo rand(1,3); ?>.png" alt="">
+                                            </span>
+                                            <span class="open-details" data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-magnifying-glass"></i></span>
+                                        </div>
+                                        <h5>Medium OCS-<?php echo $i?></h5>
+                                        <input type="radio" name="leaf-type-<?php echo $i?>" class="form-check-input" data-value="Medium OCS-110 - <?php echo $i?>" data-target="stain-2" id="stain-2<?php echo $i; ?>">
                                     </div>
                                     <?php } ?>
                                 </div>
@@ -161,11 +165,14 @@ include_once('sections/layouts/header.php')
                                         for($i=1;$i<=9;$i++){
                                     ?>
                                     <div class="stack">
-                                        <span class="btn" data-value="Medium OCS-110 - <?php echo $i?>" data-target="stain-3">
-                                            <img src="images/stain/stain-<?php echo rand(1,3); ?>.png" alt="">
-                                        </span>
-                                        <span class="open-details" data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-magnifying-glass"></i></span>
-                                        <h5>Medium OCS-110</h5>
+                                        <div class="image">
+                                            <span class="btn">
+                                                <img src="images/stain/stain-<?php echo rand(1,3); ?>.png" alt="">
+                                            </span>
+                                            <span class="open-details" data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-magnifying-glass"></i></span>
+                                        </div>
+                                        <h5>Medium OCS-<?php echo $i?></h5>
+                                        <input type="radio" name="leaf-type-<?php echo $i?>" class="form-check-input" data-value="Medium OCS-110 - <?php echo $i?>" data-target="stain-3" id="stain-3<?php echo $i; ?>">
                                     </div>
                                     <?php } ?>
                                 </div>

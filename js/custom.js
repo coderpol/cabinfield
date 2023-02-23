@@ -256,7 +256,7 @@ $('.select-stain').click(function(){
   // $(this + '.stain-selection').slideToggle();
 });
 
-$('.stain-selection .stack .btn').click(function(){
+$('.stain-selection .stack .form-check-input').click(function(){
   // get the value to show
   var value = $(this).data('value');
   var target_select = $(this).data('target');
