@@ -1,6 +1,6 @@
 <?php 
 // page title
-$page_title="Product Customized";
+$page_title="Product Customized - V2";
 
 // inlcude the header 
 include_once('sections/layouts/header.php') 
