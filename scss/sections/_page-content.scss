@@ -312,6 +312,40 @@
                 }
             }
         }
+        // for the unordered list <ul>
+        .points{
+            padding-left:1.75rem;
+            li{
+                @include font(16px,28px);
+                color:#514646;
+            }
+        }
+    }
+    
+    .gift-card-section{
+        .gift-card{
+            position:relative;
+            width:100%;
+            max-width: 570px;
+            .mask{
+                display: block;
+                position:absolute;
+                top:0;
+                left:0;
+                width:100%;
+                height:100%;
+                background: rgba(80, 80, 80, 0.35);
+                i{
+                    color:#fff;
+                    position:absolute;
+                    top:50%;
+                    left:50%;
+                    margin-top:-15px;
+                    margin-left:-15px;
+                    font-size:30px;
+                }
+            }
+        }
     }
     
     .balanceform{

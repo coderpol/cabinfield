@@ -39,6 +39,7 @@
                     <li class="done"><a href="thank-you-v2.php">Thank You - V2</a></li>
                     <li class="done"><a href="bedroom-landing.php">Bedroom Landing</a></li>
                     <li class="done"><a href="gift-card.php">Gift Card</a></li>
+                    <li class="done"><a href="gift-card-flow.php">Gift Card - Flow</a></li>
                     <li class="done"><a href="contact-us.php">Contact Us</a></li>
                     <li class="done"><a href="terms-of-use.php">Terms of Use</a></li>
                     <li class="done"><a href="policies-terms.php">Terms of Use - V2</a></li>

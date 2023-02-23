@@ -103,6 +103,9 @@
         display: block;
         font-size: 16px;
         color: $brand-color;
+        &.text-dark{
+            color:#737373 !important;
+        }
     }
     
     &.order-form{
