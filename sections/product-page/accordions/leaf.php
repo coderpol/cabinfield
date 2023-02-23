@@ -66,7 +66,7 @@
                         <div class="open-details" data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-magnifying-glass"></i></div>
                     </label>
                     <h5>Medium OCS-110 </h5>
-                    <input type="radio" name="stain-type" class="form-check-input" id="stain-<?php echo $i; ?>">
+                    <input type="radio" name="leaf-type" class="form-check-input" id="stain-<?php echo $i; ?>">
                     <div class="counter">
                         <span class="btn" data-action="decrease">-</span>
                         <input type="number" class="count" value="1"> 
