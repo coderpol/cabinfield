@@ -116,8 +116,8 @@ include_once('sections/layouts/header.php')
 <!-- .page-content starts  -->
 <div class="section page-content">
     <div class="container">
-        <div class="row">
-            <div class="col-12 gift-card-section">
+        <div class="row gift-card-section">
+            <div class="col-12">
                 <div class="gift-card">
                     <img src="images/gift-card-certificate.png" alt="">
                     <a class="mask" href="#" data-bs-toggle="modal" data-bs-target="#gift_card_modal">

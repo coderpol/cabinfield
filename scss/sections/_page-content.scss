@@ -323,6 +323,9 @@
     }
     
     .gift-card-section{
+        border-bottom:1px solid $gray;
+        padding-bottom:70px;
+        margin-bottom:-20px;
         .gift-card{
             position:relative;
             width:100%;
