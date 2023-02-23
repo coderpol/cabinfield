@@ -31,13 +31,21 @@
         }
         .loading-text{
             padding-left:2em;
-            // color: #000;
+            padding-right:33px;
+            position:relative;
             p{
                 font-size:1.25em;
                 font-weight: 700;
                 color:$blue;
+                
+            }
+            .spinner{
+                position:absolute;
+                right:0;
+                top:6px;
             }
         }
+
     }
     .product-gallery{
         position:relative;
