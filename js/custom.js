@@ -252,10 +252,18 @@ $('.btn-dismiss, .widget-trigger').click(function(e){
 // }
 
 $('.select-stain').click(function(){
+  $('.stainer.active').removeClass('active');
   $(this).toggleClass('active');
   // $(this + '.stain-selection').slideToggle();
 });
-
+// hide the stainer once user click outside
+$(document).click(function() {
+  var container = $(".stainer");
+  if (!container.is(event.target) && !container.has(event.target).length) {
+    $('.stainer.active').removeClass('active');
+  }
+});
+// selection
 $('.stain-selection .stack .form-check-input').click(function(){
   // get the value to show
   var value = $(this).data('value');
@@ -264,3 +272,6 @@ $('.stain-selection .stack .form-check-input').click(function(){
   $("#"+target_select).val(value).removeClass('active');
 
 });
+
+
+

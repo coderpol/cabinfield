@@ -62,11 +62,11 @@ include_once('sections/layouts/header.php')
                         <!-- slect wood ends -->
                         
                         <!-- slect stain -->
-                        <div class="row clearfix form-line select-train-area">
+                        <div class="row clearfix form-line select-stain-area">
                             <div class="col">
-                                <label for="stain-1" class="form-label">Select Stain</label>
-                                <input type="text" class="select-stain" name="" id="stain-1" placeholder="Select Your Stain here">
-                                <div class="clearfix stain-selection stack-area three-stack">
+                                <label for="stain-1" class="form-label stainer">Select Stain</label>
+                                <input type="text" class="select-stain stainer" name="" id="stain-1" placeholder="Select Your Stain here">
+                                <div class="clearfix stainer stain-selection stack-area three-stack" id="">
                                     <?php 
                                         for($i=1;$i<=9;$i++){
                                     ?>
@@ -76,7 +76,7 @@ include_once('sections/layouts/header.php')
                                             <div class="open-details" data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-magnifying-glass"></i></div>
                                         </div>
                                         <h5>Medium OCS-<?php echo $i?></h5>
-                                        <input type="radio" name="leaf-type-<?php echo $i?>" class="form-check-input" data-value="Medium OCS-110 - <?php echo $i?>" data-target="stain-1" id="stain-1<?php echo $i; ?>">
+                                        <input type="radio" name="leaf-type-1" class="form-check-input" data-value="Medium OCS-110 - <?php echo $i?>" data-target="stain-1" id="stain-1<?php echo $i; ?>">
                                     </div>
                                     <?php } ?>
                                 </div>
@@ -107,11 +107,11 @@ include_once('sections/layouts/header.php')
                         <!-- slect wood ends -->
                         
                         <!-- slect stain -->
-                        <div class="row clearfix form-line select-train-area">
+                        <div class="row clearfix form-line select-stain-area">
                             <div class="col">
-                                <label for="stain-2" class="form-label">Select Stain</label>
-                                <input type="text" class="select-stain" name="" id="stain-2" placeholder="Select Your Stain here">
-                                <div class="clearfix stain-selection stack-area three-stack">
+                                <label for="stain-2" class="form-label stainer">Select Stain</label>
+                                <input type="text" class="select-stain stainer" name="" id="stain-2" placeholder="Select Your Stain here">
+                                <div class="clearfix stainer stain-selection stack-area three-stack">
                                     <?php 
                                         for($i=1;$i<=9;$i++){
                                     ?>
@@ -121,7 +121,7 @@ include_once('sections/layouts/header.php')
                                             <div class="open-details" data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-magnifying-glass"></i></div>
                                         </div>
                                         <h5>Medium OCS-<?php echo $i?></h5>
-                                        <input type="radio" name="leaf-type-<?php echo $i?>" class="form-check-input" data-value="Medium OCS-110 - <?php echo $i?>" data-target="stain-2" id="stain-2<?php echo $i; ?>">
+                                        <input type="radio" name="leaf-type-2" class="form-check-input" data-value="Medium OCS-110 - <?php echo $i?>" data-target="stain-2" id="stain-2<?php echo $i; ?>">
                                     </div>
                                     <?php } ?>
                                 </div>
@@ -152,11 +152,11 @@ include_once('sections/layouts/header.php')
                         <!-- slect wood ends -->
                         
                         <!-- slect stain -->
-                        <div class="row clearfix form-line select-train-area">
+                        <div class="row clearfix form-line select-stain-area">
                             <div class="col">
-                                <label for="stain-3" class="form-label">Select Stain</label>
-                                <input type="text" class="select-stain" name="" id="stain-3" placeholder="Select Your Stain here">
-                                <div class="clearfix stain-selection stack-area three-stack">
+                                <label for="stain-3" class="form-label stainer">Select Stain</label>
+                                <input type="text" class="select-stain stainer" name="" id="stain-3" placeholder="Select Your Stain here">
+                                <div class="clearfix stainer stain-selection stack-area three-stack">
                                     <?php 
                                         for($i=1;$i<=9;$i++){
                                     ?>
@@ -166,7 +166,7 @@ include_once('sections/layouts/header.php')
                                             <div class="open-details" data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-magnifying-glass"></i></div>
                                         </div>
                                         <h5>Medium OCS-<?php echo $i?></h5>
-                                        <input type="radio" name="leaf-type-<?php echo $i?>" class="form-check-input" data-value="Medium OCS-110 - <?php echo $i?>" data-target="stain-3" id="stain-3<?php echo $i; ?>">
+                                        <input type="radio" name="leaf-type-3" class="form-check-input" data-value="Medium OCS-110 - <?php echo $i?>" data-target="stain-3" id="stain-3<?php echo $i; ?>">
                                     </div>
                                     <?php } ?>
                                 </div>
