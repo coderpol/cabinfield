@@ -55,7 +55,7 @@ include_once('sections/layouts/header.php')
             <!-- filter area ends -->
             
             <!-- main product listing area  -->
-            <div class="col-lg-9 col-md-12 main-content product-listing-area col-lg-12" id="product-listing-area">
+            <div class="col-lg-9 col-md-12 main-content product-listing-area" id="product-listing-area">
                 <div class="row listed-product">
                     <div class="col-md-12 section-title small">
                         <h2><span>Original</span> Size</h2>
