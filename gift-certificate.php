@@ -34,19 +34,19 @@
                     </div>
                     <div class="gift_fields">
                         <div class="clearfix field half_field">
-                            <p><span class="label w30">To:</span><span class="value">Lauren Harrison</span></p>
+                            <p><span class="label w30">To:</span><span class="value">.</span></p>
                         </div>
                         <div class="clearfix field half_field">
-                            <p><span class="label w57">From:</span><span class="value">Heather Hansen</span></p>
+                            <p><span class="label w57">From:</span><span class="value">.</span></p>
                         </div>
                         <div class="clearfix field half_field">
-                            <p><span class="label w105">Gift Value:</span><span class="value">$250</span></p>
+                            <p><span class="label w105">Gift Value:</span><span class="value">.</span></p>
                         </div>
                         <div class="clearfix field half_field ">
-                            <p><span class="label w124">Claim Code:</span><span class="value">DRGH-TLFCRR-GGSU</span></p>
+                            <p><span class="label w124">Claim Code:</span><span class="value">.</span></p>
                         </div>
                         <div class="clearfix field full_field">
-                            <p><span class="label w186">Personal Message:</span><span class="value">Lorem ipsum dolor sit amet consectetur adipisicing elit sed to eiusmodo</span></p>
+                            <p><span class="label w186">Personal Message:</span><span class="value">.</span></p>
                         </div>
                     </div>
                     <div class="tcenter footnote">

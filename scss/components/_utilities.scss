@@ -136,7 +136,9 @@
 .list-group{
     padding-left:0;
 }
-
+.modal-extra-lg{
+    max-width: 1200px;
+}
 @include upto-phone{
     .mobile-full{
         width:100% !important;

@@ -56,8 +56,8 @@ include_once('sections/layouts/header.php')
                 <!-- single input starts  -->
                 <div class="row form-line">
                     <div class="col-md-12">
-                        <label for="confirm-email" class="form-label">Re-type recipient’s email address</label>
-                        <input type="email" class="form-control" id="confirm-email" aria-label="Re-type recipient’s email address" required>
+                        <label for="confirm-email" class="form-label">Set Gift Certificate email delivery date</label>
+                        <input type="date" class="form-control" id="date" aria-label="Set Gift Certificate email delivery date" required>
                     </div>
                 </div>
                 <!-- single input ends  -->
