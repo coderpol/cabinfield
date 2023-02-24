@@ -485,53 +485,41 @@ a:hover {
   font-weight: 500;
   padding: 5px;
   display: inline-block;
+  color: #fff !important;
 }
 .front-page .container .content .page-list li:after {
   margin-left: 15px;
   color: inherit;
-  font-size: 0.8em;
+  font-size: 0.9em;
+  color: #fff !important;
+}
+.front-page .container .content .page-list li.working {
+  background-color: #2b47b9;
 }
 .front-page .container .content .page-list li.working:after {
   content: "(On Develop)";
 }
-.front-page .container .content .page-list li.working:after, .front-page .container .content .page-list li.working a {
-  color: #2b47b9;
-}
-.front-page .container .content .page-list li.review:after {
-  content: "(On Review)";
-}
-.front-page .container .content .page-list li.review:after, .front-page .container .content .page-list li.review a {
-  color: #B3522C;
-}
 .front-page .container .content .page-list li.check {
-  border: 1px solid #B3522C;
-  background-color: rgba(179, 82, 44, 0.2);
+  background-color: #B3522C;
 }
 .front-page .container .content .page-list li.check:after {
-  content: "(Please check)";
-}
-.front-page .container .content .page-list li.check:after, .front-page .container .content .page-list li.check a {
-  color: #000;
+  content: "(Fixes done, Please check)";
 }
 .front-page .container .content .page-list li.done {
-  border: 1px solid #031300;
   background-color: #167702;
 }
 .front-page .container .content .page-list li.done:after {
   content: "(Completed)";
 }
-.front-page .container .content .page-list li.done:after, .front-page .container .content .page-list li.done a {
-  color: #fff;
+.front-page .container .content .page-list li.hold {
+  background-color: #ac00c3;
 }
 .front-page .container .content .page-list li.hold:after {
   content: "(On Hold)";
 }
-.front-page .container .content .page-list li.hold:after, .front-page .container .content .page-list li.hold a {
-  color: #ac00c3;
+.front-page .container .content .page-list li.next {
+  background-color: #ff0000;
 }
 .front-page .container .content .page-list li.next:after {
   content: "(Next in routine)";
-}
-.front-page .container .content .page-list li.next:after, .front-page .container .content .page-list li.next a {
-  color: #ff0000;
 }

@@ -46,52 +46,46 @@
                         font-weight: $font-medium;
                         padding: 5px;
                         display: inline-block;
+                        color: #fff !important;
                     }
                     &:after{
                         margin-left:15px;
                         color:inherit;
-                        font-size:0.8em;
+                        font-size:0.9em;
+                        color: #fff !important;
                     }
+                    
+                    
                     &.working{
+                        background-color: #2b47b9;
                         &:after{
                             content:"(On Develop)";
                         }
-                        &:after, a{color:#2b47b9;}
-                    }
-                    &.review{
-                        &:after{
-                            content:"(On Review)";
-                        }
-                        &:after, a{color:$brand-color;}
                     }
                     &.check{
-                        border:1px solid $brand-color;
-                        background-color: rgba($brand-color, 0.2);
+                        background-color: $brand-color;
+                        
                         &:after{
-                            content:"(Please check)";
+                            content:"(Fixes done, Please check)";
                         }
-                        &:after, a{
-                            color:$black;}
                     }
                     &.done{
-                        border:1px solid darken(#167702, 20);
                         background-color: #167702;
                         &:after{
                             content:"(Completed)";
                         }
-                        &:after, a{color:$white;}
                     }
                     &.hold{
+                        background-color: #ac00c3;
                         &:after{
                             content:"(On Hold)";
                         }
-                        &:after, a{color:#ac00c3;}
                     }
                     &.next{
+                        background-color: #ff0000;
                         &:after{
                             content:"(Next in routine)";
                         }
-                        &:after, a{color:#ff0000;}
                     }
                 }
             }
