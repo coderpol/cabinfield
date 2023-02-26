@@ -7,45 +7,63 @@
             margin-bottom:0;
         }
     }
-    .loader{
-        width: 40px;
-        height: 40px;
-        border: 5px solid $blue-light-1;
-        border-bottom-color: rgb(255, 255, 255);
-        border-bottom-color: transparent;
-        border-radius: 50%;
-        display: inline-block;
-        box-sizing: border-box;
-        animation: rotation 1.5s linear infinite;
-    }
     .loading-section{
-        margin-bottom:30px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        margin: 0 auto 30px;
+        width: 380px;
+        // display: flex;
+        // align-items: center;
+        // justify-content: center;
         &.rainbow-border{
             &:before{
                 width:140%;
                 height:550%;
             }
         }
+        .loader{
+            width: 40px;
+            height: 40px;
+            border: 5px solid $blue-light-1;
+            border-bottom-color: rgb(255, 255, 255);
+            border-bottom-color: transparent;
+            border-radius: 50%;
+            display: inline-block;
+            box-sizing: border-box;
+            float:left;
+            animation: rotation 1.5s linear infinite;
+        }
         .loading-text{
-            padding-left:1em;
-            padding-right:26px;
+            padding-left: 14px;
+            padding-right:23px;
             position:relative;
+            float:left;
+            width:317px;
             p{
-                font-size:1.25em;
-                font-weight: 700;
+                @include font(16px,40px,700);
                 color:$blue;
                 
             }
             .spinner{
                 position:absolute;
                 right:0;
-                top:6px;
+                top:13px;
             }
         }
-
+        
+        @include smaller{
+            width:290px;
+            .loading-text{
+                width:250px;
+                padding-right:0;
+                p{
+                    line-height: 20px;
+                }
+                .spinner{
+                    right:auto;
+                    left:73px;
+                    top:22px;
+                }
+            }
+        }
     }
     .product-gallery{
         position:relative;
