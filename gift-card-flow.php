@@ -119,7 +119,7 @@ include_once('sections/layouts/header.php')
         <div class="row gift-card-section">
             <div class="col-12">
                 <div class="gift-card">
-                    <img src="images/gift-card-certificate.png" alt="">
+                    <img src="images/gift/certificate.png" alt="">
                     <a class="mask" href="#" data-bs-toggle="modal" data-bs-target="#gift_card_modal">
                         <i class="fa-solid fa-search"></i>
                     </a>

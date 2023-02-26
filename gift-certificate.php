@@ -50,7 +50,7 @@
                         </div>
                     </div>
                     <div class="tcenter footnote">
-                        <p>Handcrafed Amish furniture is a promise of forever.</p>
+                        <p>Handmade Amish furniture is a promise of forever</p>
                         <p>This gift certificate never expires.</p>
                     </div>
                 </div>
