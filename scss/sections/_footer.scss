@@ -19,8 +19,15 @@
             padding-left:0;
         }
         .footer-logo{
+            flex-basis:20%;
+            margin-right: 5%;
             img{
-                margin:0 auto $m-20;
+                @include upto-phone{
+                    margin:0 auto $m-20;
+                }
+                @include above-phone{
+                    margin-bottom:20px;
+                }
                 max-width:214px;
             }
             .copyright{
@@ -33,6 +40,7 @@
         }
         
         .footer-social{
+            flex-basis: 18%;
             .social-icons{
                 margin-left:0;
                 padding-left:0;
@@ -102,6 +110,11 @@
             }
         }
         .footer-rating{
+            flex-basis: 13%;
+            margin:0 5%;
+            ul{
+                padding-left:0;
+            }
             li{
                 &+li{
                     margin-top:10px;
@@ -110,6 +123,7 @@
         }
         .footer-links{
             .links{
+                padding-left:0;
                 li{
                     margin-bottom:$m-10;
                     a{
@@ -121,6 +135,13 @@
                         }
                     }
                 }
+            }
+            &.small{
+                flex-basis: 10%;
+                margin-right:3%;
+            }
+            &.large{
+                flex-basis: 21%;
             }
         }
     }
