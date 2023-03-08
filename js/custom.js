@@ -232,7 +232,7 @@ $('.heading-link').click(function(e){
 $('.btn-dismiss, .widget-trigger').click(function(e){
   $('.widget-area').toggleClass('active');
   var target = $(this).data('target');
-  $("#"+target).slideToggle();
+  $("#"+target).slideToggle(200);
 });
 
 // for desktop
