@@ -158,12 +158,14 @@ include_once('sections/layouts/header.php')
 
 <!-- Testimonial slider area  -->
 <div class="testimonial-area clearfix">
-    <div class="row">
-        <div class="container">
+    <div class="container">
+        <div class="row">
             <div class="col-md-12 section-title text-center">
                 <h3><span>Our Customers</span> Say it Best.</h3>
             </div>
         </div>
+    </div>
+    <div class="row">
         <!-- Slider part is going to be included here  -->
         <?php include_once('sections/testimonial-slider.php') ?>
     </div>
