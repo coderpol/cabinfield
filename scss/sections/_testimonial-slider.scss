@@ -25,11 +25,17 @@
                 margin:18px !important;
                 padding:30px 20px 20px;
             }
+            @include from-pc{
+                min-height:350px;
+            }
             p{
                 margin-bottom:0;
             }
             .image{
                 border-radius:$m-10;
+            }
+            blockquote{
+                font-style: italic;
             }
         }
     }
