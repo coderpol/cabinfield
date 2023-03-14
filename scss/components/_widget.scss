@@ -7,17 +7,19 @@
     z-index: 1050;
     min-height:0;
     .btn{
-        border-top-right-radius: 15px;
+        background: #D8B17A;
         padding:8px 12px;
         @include font(15px,23px,400);
-        display: flex;
+        // display: flex;
+        text-align: center;
+        display: inline-block;
         i{
             color:$white;
             float: left;
             margin-top: 1px;
         }
         &-coupon{
-            background: #D8B17A;
+            border-top-right-radius: 15px;
             min-width: 145px;
             position:absolute;
             right: 135px;
@@ -93,6 +95,7 @@
             }
             ul{
                 padding-left:10px;
+                margin-bottom:25px;
                 li{
                     @include font(12px,140%);
                     color: #514646;

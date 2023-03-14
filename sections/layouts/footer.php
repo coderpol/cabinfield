@@ -90,10 +90,10 @@
         <div class="body">
             <h5>Get $100 Off Your First Order</h5>
             <ul>
-                <li>Sign up for our newsletter</li>
-                <li>We will send your unique coupon code to your email</li>
-                <li>Redeem your coupon on orders over $1,500 excluding shipping, upon submitting your shipping address</li>
+                <li>Join our email list and get a coupon</li>
+                <li>Redeem your coupon on orders over $1,500 excluding shipping</li>
             </ul>
+			<a href="#" class="btn btn-secondary btn-block">Send me a coupon</a>
         </div>
     </div>
 </div>
