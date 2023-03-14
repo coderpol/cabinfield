@@ -391,7 +391,7 @@
                 color:$blue-light-3;
                 margin-left:3px;
             }
-            .item{
+            .item, .note{
                 display: inline-block;
                 margin-left:5px;
                 color: $blue;
@@ -464,6 +464,10 @@
             @include font($font-14,$line-18,$font-medium);
             span{
                 color:$blue;
+            }
+            &:hover{
+                border-color:$brand-color;
+                box-shadow: 0 0 5px rgba(0,0,0,.2);
             }
         }
         .form-check-inline{

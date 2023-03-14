@@ -3,6 +3,7 @@
         <div class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
             <h4>Wood type:</h4>
             <span class="item">Brown Maple</span>
+            <span class="note">(Click "Select a Stain" to view wood samples)</span>
         </div>
     </div>
     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo">
