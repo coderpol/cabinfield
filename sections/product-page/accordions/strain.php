@@ -20,9 +20,9 @@
                 <div class="stack">
                     <label class="image">
                         <img src="images/stain/stain-<?php echo rand(1,3); ?>.png" alt="">
-                        <div class="open-details" data-bs-toggle="modal" data-bs-target="#edit_zip">
+                        <a href="#" class="open-details" data-bs-toggle="modal" data-bs-target="#edit_zip">
                             <i class="fa-solid fa-magnifying-glass"></i>
-                        </div>
+                        </a>
                     </label>
                     <h5>Medium OCS-110 </h5>
                     <input type="radio" name="stain-type" class="form-check-input" id="stain-<?php echo $i; ?>">
