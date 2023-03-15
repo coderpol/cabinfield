@@ -397,6 +397,9 @@
                 color: $blue;
                 @include font($font-16,$line-21,$font-medium);
             }
+            .note{
+                font-weight: 400;
+            }
             &:after{
                 content:">";
                 background: none;
