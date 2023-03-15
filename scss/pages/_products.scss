@@ -780,7 +780,7 @@
                 color:$blue-darkest !important;
             }
             @include tablet-to-pc{
-                height:152px;
+                // height:152px;
                 img{
                     height:152px;
                 }
