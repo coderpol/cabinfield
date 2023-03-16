@@ -14,7 +14,6 @@
         flex-wrap: nowrap;
         align-content: center;
         justify-content: space-between;
-        align-items: center;
         ul{
             padding-left:0;
         }
@@ -40,18 +39,18 @@
         }
         
         .footer-social{
-            flex-basis: 18%;
+            flex-basis: 22%;
+            margin-right: 3%;
             .social-icons{
                 margin-left:0;
                 padding-left:0;
                 display: flex;
                 flex-direction: row;
                 flex-wrap: nowrap;
-                align-content: center;
-                justify-content: space-between;
-                align-items: center;
+                justify-content: flex-start;
                 margin-bottom:$m-25;
                 li{
+                    margin-right:25px;
                     a{
                         display:block;
                         width:$m-25+1px;
@@ -111,7 +110,7 @@
         }
         .footer-rating{
             flex-basis: 13%;
-            margin:0 5%;
+            
             ul{
                 padding-left:0;
             }
@@ -142,6 +141,7 @@
             }
             &.large{
                 flex-basis: 21%;
+                margin-right: 4%;
             }
         }
     }

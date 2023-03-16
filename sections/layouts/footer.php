@@ -6,7 +6,7 @@
 			<!-- the logo portion of footer area  -->
 			<div class="footer-logo">
 				<a href="home.php">
-					<img class="above-tablet" src="images/logo-small.svg" alt="Cabinfield"> <!-- gray version for bigger screen -->
+					<img class="above-tablet" src="images/cabinfield-logo.svg" alt="Cabinfield"> <!-- gray version for bigger screen -->
 					<img class="upto-tablet" src="images/logo.svg" alt="Cabinfield"> <!-- gray version for smaller screen -->
 				</a>
 				<p class="copyright">
@@ -15,6 +15,34 @@
 				All rights reserved.
 				</p>
 			</div>
+			
+			<!-- links area. larger in width  -->
+			<div class="footer-links large">
+				<ul class="links">
+					<li><a href="terms-of-use.php">Terms of Use</a></li>
+					<li><a href="privacy-policy.php">Privacy policy</a></li>
+					<li><a href="warranty.php">Warranty Disclaimer</a></li>
+					<li><a href="thank-you-v2.php">Cancellations/Returns Disclaimer</a></li>
+					<li><a href="thank-you-v2.php">Shipping and Delivery Disclaimer</a></li>
+					<li><a href="wood-sample.php">Gazebos & Playsets Disclaimer</a></li>
+				</ul>
+			</div>
+			<!-- links area ends  -->
+			
+			<!-- links area. smaller in width  -->
+			<div class="footer-links small">
+				<ul class="links">
+					<li><a href="about.php">About Us</a></li>
+					<li><a href="testimonials.php">Testimonials</a></li>
+					<li><a href="contact-us.php">Contact Us</a></li>
+					<li><a href="faq.php">FAQ</a></li>
+					<li><a href="gift-card.php">Promotions</a></li>
+					<li><a href="gift-card.php">Gift It!</a></li>
+				</ul>
+			</div>
+			<!-- links area ends  -->
+			
+			
 			<!-- social interaction area  -->
 			<div class="footer-social">
 				<!-- social icons  -->
@@ -45,32 +73,6 @@
 				<img src="images/bbb-rating.png" alt="">
 			</div>
 			<!-- rating score area ends -->
-			
-			<!-- links area. smaller in width  -->
-			<div class="footer-links small">
-				<ul class="links">
-					<li><a href="about.php">About Us</a></li>
-					<li><a href="testimonials.php">Testimonials</a></li>
-					<li><a href="contact-us.php">Contact Us</a></li>
-					<li><a href="faq.php">FAQ</a></li>
-					<li><a href="gift-card.php">Promotions</a></li>
-					<li><a href="gift-card.php">Gift It!</a></li>
-				</ul>
-			</div>
-			<!-- links area ends  -->
-			
-			<!-- links area. larger in width  -->
-			<div class="footer-links large">
-				<ul class="links">
-					<li><a href="terms-of-use.php">Terms of Use</a></li>
-					<li><a href="privacy-policy.php">Privacy policy</a></li>
-					<li><a href="warranty.php">Warranty Disclaimer</a></li>
-					<li><a href="thank-you-v2.php">Cancellations/Returns Disclaimer</a></li>
-					<li><a href="thank-you-v2.php">Shipping and Delivery Disclaimer</a></li>
-					<li><a href="wood-sample.php">Gazebos & Playsets Disclaimer</a></li>
-				</ul>
-			</div>
-			<!-- links area ends  -->
 		</div>
     </div>
   </div>
