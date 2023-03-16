@@ -8,7 +8,9 @@
         padding:$m-20 0;
         margin-top:$m-50;
         margin-bottom:$m-40 !important;
-        
+        @include from-pc{
+            max-height:395px;
+        }
         .slide{
             display: grid;
             grid-template-columns: auto 265px;
