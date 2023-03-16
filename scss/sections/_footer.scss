@@ -53,22 +53,23 @@
                     margin-right:25px;
                     a{
                         display:block;
-                        width:$m-25+1px;
-                        height:$m-25+1px;
-                        background:url('../images/footer-social-sprite.png') no-repeat;
+                        width:30px;
+                        height:30px;
+                        background:url('../images/footer-social-sprite.svg') no-repeat;
+                        background-size: 120px;
                         background-position:0 0;
                         font-size:0;
                         &.facebook{
-                            background-position:0 0;
+                            background-position:-10px -14px;
                         }
                         &.pinterest{
-                            background-position:0 -36px;
+                            background-position:-10px -55px;
                         }
                         &.instagram{
-                            background-position:0 -71px;
+                            background-position:-10px -96px;
                         }
                         &:hover{
-                            background-position-x: -32px !important;
+                            background-position-x: -47px !important;
                         }
                     }
                 }
@@ -158,11 +159,16 @@
             flex-wrap: wrap;
             position:relative;
             .footer-logo,.footer-links{
-                flex-basis:100%;
+                flex-basis:100% !important;
                 text-align:center;
             }
+            .footer-links{
+                &+.footer-links{
+                    border-top:1px solid #DDDDDD;
+                }
+            }
             .footer-logo{
-                padding-bottom: 60px;
+                padding-bottom: 20px;
                 img{
                     max-width: 161px;
                 }
@@ -172,14 +178,14 @@
             }
             .footer-social{
                 flex-basis:49%;
-                margin:$m-20 auto;
+                margin:$m-30 auto 20px;
                 text-align:center;
                 max-width: 200px;
                 .social-icons{
-                    position: absolute;
-                    width: 160px;
-                    top: 140px;
-                    left: calc(50% - 80px);
+                    // position: absolute;
+                    // width: 160px;
+                    // top: 140px;
+                    // left: calc(50% - 80px);
                 }
                 .telephone{
                     text-align:left;
@@ -195,7 +201,7 @@
             .footer-rating{
                 flex-basis:30%;
                 text-align:right;
-                margin:$m-20 auto;
+                margin:$m-30 auto 20px;
                 img{
                     max-width:120px;
                 }
