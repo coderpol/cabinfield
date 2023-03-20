@@ -1,3 +1,8 @@
+$widget_color : #596A58;
+$close_button_color: #242424;
+$list_color : #514646;
+$card_body_color: #F8F8F8;
+
 .widget-area{
     width:100%;
     text-align:right;
@@ -7,7 +12,7 @@
     z-index: 2147483000;
     min-height:0;
     .btn{
-        background: #D8B17A;
+        background: $widget_color;
         padding:8px 12px;
         @include font(15px,20px,400);
         // display: flex;
@@ -26,7 +31,7 @@
             bottom: 35px;
             @include upto-tablet{
                 &:hover, &:focus{
-                    background-color: #D8B17A;
+                    background-color: $widget_color;
                 }
             }
         }
@@ -37,7 +42,7 @@
     @include upto-tablet{
         &.active{
             .btn-coupon{
-                background-color: #121212;
+                background-color: $blue-darkest;
             }
         }
     }
@@ -50,7 +55,7 @@
         bottom: 80px;
         box-shadow: 0px 6px 15px 2px rgba(154, 154, 154, 0.2);
         border-radius: 10px;
-        background: #F8F8F8;
+        background: $card_body_color;
         display:none;
         max-height:calc(100vh - 90px);
         @include upto-phone{
@@ -63,23 +68,23 @@
             padding:0 5px 3px 5px;
             font-size:34px;
             line-height:24px;
-            background-color: rgba(#242424, 0.3);
+            background-color: rgba($close_button_color, 0.3);
             border-radius: 5px;
             color:$white;
             opacity:1;
             &:hover{
-                background-color: #242424;
+                background-color: $close_button_color;
             }
         }
         .header{
-            background: #D8B17A;
+            background: $widget_color;
             padding:32px;
             padding-bottom: 70px;
             border-radius: 10px 10px 0 0;
             
             h4{
                 @include font(24px,160%,700);
-                color:#fff;
+                color:$white;
             }
         }
         .body{
@@ -90,7 +95,7 @@
             border-radius: 10px 10px 0 0;
             h5{
                 @include font(14px,145%,700);
-                color: #121212;
+                color: $blue-darkest;
                 margin-bottom:25px;
             }
             ul{
@@ -98,7 +103,7 @@
                 margin-bottom:25px;
                 li{
                     @include font(12px,140%);
-                    color: #514646;
+                    color: $list_color;
                     margin-bottom:18px;
                 }
             }
