@@ -625,84 +625,7 @@
             }
         }
     }
-    .order-details{
-        margin-top:$m-60;
-        h4{
-            margin-top:$m-15;
-            @include font($font-16,$line-21,$font-medium);
-            a{
-                display: inline-block;
-                margin-left:5px;
-                color:$brand-color;
-            }
-        }
-        .option-area{
-            margin-bottom:$m-20;
-            .form-check{
-                // padding-left:20px;
-                margin-bottom:5px;
-                color:$blue;
-                .form-check-label{
-                    margin-left:10px;
-                }
-                .form-check-input{
-                    margin-right:0px;
-                }
-                label{
-                    width:100%;
-                    @include font($font-16,$line-26);
-                    color:#424F61;
-                    span{
-                        color:$brand-color;
-                        float: right;
-                        font-weight: 500;
-                        display: inline-block;
-                        width: 100px;
-                        @include upto-phone{
-                            float:none;
-                        }
-                    }
-                    &.black{
-                        color:$black;
-                    }
-                }
-            }
-            .shipping-option{
-                margin-bottom:10px;
-            }
-        }
-        a{
-            color:$brand-color;
-        }
-        p{
-            &.value{
-                @include font($font-36,$line-47,$font-bold);
-                color:$blue-darkest;
-            }
-            &.note{
-                color:#424F61;
-                line-height:$m-30;
-                span{
-                    &.shipping-price{
-                        color:$brand-color;
-                        margin-right:5px;
-                        font-weight: 500;
-                    }
-                    &.shipping-description{
-                        color:#424F61;
-                    }
-                }
-                
-            }
-        }
-        .submit-button{
-            margin-top:20px;
-            .btn{
-                min-width: 265px;
-                font-weight: 400;
-            }
-        }
-    }
+    
     .specs-area{
         padding-top:$m-20;
         .specs{
@@ -728,6 +651,30 @@
             &.links{
                 ul,ol{
                     color:$brand-color; 
+                }
+            }
+        }
+    }
+    &.in-stock{
+        .gallery-field{
+            position:relative;
+            overflow:hidden;
+            &:after{
+                content: "In Stock";
+                display: inline-block;
+                background-color: $brand-color;
+                @include font(28px,160%,500);
+                padding: 70px 90px 10px;
+                transform: rotate(-45deg);
+                position:absolute;
+                top:0;
+                left:0;
+                color:$white;
+                margin-top:-28px;
+                margin-left:-100px;
+                
+                @include upto-phone{
+                    font-size:20px;
                 }
             }
         }
@@ -898,5 +845,88 @@
         } 
     }
 }
-
+.order-details{
+    margin-top:$m-60;
+    .in-stock &{
+        margin-top:20px;
+        margin-bottom:20px;
+    }
+    h4{
+        margin-top:$m-15;
+        @include font($font-16,$line-21,$font-medium);
+        a{
+            display: inline-block;
+            margin-left:5px;
+            color:$brand-color;
+        }
+    }
+    .option-area{
+        margin-bottom:$m-20;
+        .form-check{
+            // padding-left:20px;
+            margin-bottom:5px;
+            color:$blue;
+            .form-check-label{
+                margin-left:10px;
+            }
+            .form-check-input{
+                margin-right:0px;
+            }
+            label{
+                width:100%;
+                @include font($font-16,$line-26);
+                color:#424F61;
+                span{
+                    color:$brand-color;
+                    float: right;
+                    font-weight: 500;
+                    display: inline-block;
+                    width: 100px;
+                    @include upto-phone{
+                        float:none;
+                    }
+                }
+                &.black{
+                    color:$black;
+                }
+            }
+        }
+        .shipping-option{
+            margin-bottom:10px;
+        }
+    }
+    a{
+        color:$brand-color;
+    }
+    p{
+        &.value{
+            @include font($font-36,$line-47,$font-bold);
+            color:$blue-darkest;
+        }
+        &.note{
+            color:#424F61;
+            line-height:$m-30;
+            span{
+                &.shipping-price{
+                    color:$brand-color;
+                    margin-right:5px;
+                    font-weight: 500;
+                }
+                &.shipping-description{
+                    color:#424F61;
+                }
+            }
+            
+        }
+    }
+    .submit-button{
+        margin-top:20px;
+        .btn{
+            &.btn-primary{
+                min-width: 265px;
+                font-weight: 400;
+            }
+        }
+    }
+}
 @import '../components/stain-selection';
