@@ -41,7 +41,7 @@ $("#filter-toggle").click(function(){
 });
 
 // add combination
-$("#btn-addition").on("click", function(){
+$("#btn-addition-1").on("click", function(){
   var existing_count = $('.combination').length;
   var new_id ="combination-"+(existing_count+1);
   
@@ -82,6 +82,61 @@ $("#btn-addition").on("click", function(){
   }
   // alert(existing_count);
 });
+
+// add combination
+$("#btn-addition").on("click", function(){
+  var existing_count = $('.combination').length;
+  var new_id ="combination-"+(existing_count+1);
+  
+  var new_block = "";  
+  new_block +='<div class="col-md-6 combination" id="'+new_id+'">';
+  new_block +='<div class="form-part">';
+  new_block +='<span class="remover" data-cabin-target="#'+new_id+'">&times Remove</span>';
+  new_block +='<h4 class="heading-20">Combination '+(existing_count+1)+'</h4>';
+  new_block +='<div class="row form-line">';
+  new_block +='<div class="col">';
+  new_block +='<label for="wood-1" class="form-label">Select Stain Type</label>';
+  new_block +='<select class="form-select" aria-label="Select Wood" id="wood-1">';
+  new_block +='<option selected>Select stain type here</option>';
+  new_block +='<option value="1">Standard stains</option>';
+  new_block +='<option value="2">Other OCS Stains</option>';
+  new_block +='<option value="3">Preferred Colors</option>';
+  new_block +='</select>';
+  new_block +='</div>';
+  new_block +='</div>';
+  new_block +='<div class="row form-line">';
+  new_block +='<div class="col">';
+  new_block +='<label for="" class="form-label">Select Wood</label>';
+  new_block +='<select class="form-select" aria-label="Select Wood">';
+  new_block +='<option selected>Select wood here</option>';
+  new_block +='<option value="1">One</option>';
+  new_block +='<option value="2">Two</option>';
+  new_block +='<option value="3">Three</option>';
+  new_block +='</select>';
+  new_block +='</div>';
+  new_block +='</div>';
+  new_block +='<div class="row form-line">';
+  new_block +='<div class="col">';
+  new_block +='<label for="" class="form-label">Select Strain</label>';
+  new_block +='<select class="form-select" aria-label="Select Wood">';
+  new_block +='<option selected>Select wood here</option>';
+  new_block +='<option value="1">One</option>';
+  new_block +='<option value="2">Two</option>';
+  new_block +='<option value="3">Three</option>';
+  new_block +='</select>';
+  new_block +='</div>';
+  new_block +='</div>';
+  new_block +='</div>';
+  new_block +='</div>';
+  if(existing_count<6){
+    // $(".combination:last-child").clone().appendTo("#combination-area");
+    $("#combination-area").append(new_block);
+  }else{
+    alert("You already have 6 combinations");
+  }
+  // alert(existing_count);
+});
+
 
 // remove combination
 $(document).on("click",".remover",function(){

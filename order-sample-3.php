@@ -1,6 +1,6 @@
 <?php 
 // dynamic page title
-$page_title="Order Sample";
+$page_title="Order Sample - Updated";
 
 // include header
 include_once('sections/layouts/header.php') 
@@ -13,7 +13,7 @@ include_once('sections/layouts/header.php')
             <div class="col-md-12 breadcrumb-area">
                 <!-- .dark for dark text, .reverse for back direction  -->
                 <ol class="breadcrumb dark reverse">
-                    <li class="active">Order Sample</li>
+                    <li class="active">Back</li>
                 </ol>
             </div>
         </div>
@@ -47,6 +47,20 @@ include_once('sections/layouts/header.php')
                 <div class="col-md-6 combination" id="combination-1">
                     <div class="form-part">
                         <h4 class="heading-20">Combination 1</h4>
+                        <!-- slect stain type  -->
+                        <div class="row form-line">
+                            <div class="col">
+                                <label for="wood-1" class="form-label">Select Stain Type</label>
+                                <select class="form-select" aria-label="Select Wood" id="wood-1">
+                                    <option selected>Select stain type here</option>
+                                    <option value="1">Standard stains</option>
+                                    <option value="2">Other OCS Stains</option>
+                                    <option value="3">Preferred Colors</option>
+                                </select>
+                            </div>
+                        </div>
+                        <!-- slect stain type ends -->
+                        
                         <!-- slect wood  -->
                         <div class="row form-line">
                             <div class="col">
@@ -82,12 +96,25 @@ include_once('sections/layouts/header.php')
                 <div class="col-md-6 combination" id="combination-2">
                     <div class="form-part">
                         <h4 class="heading-20">Combination 2</h4>
-                        <span class="remover" data-cabin-target="#combination-2">&times; Remove</span>
-                        <!-- slect wood -->
+                        <!-- slect stain type  -->
                         <div class="row form-line">
                             <div class="col">
-                                <label for="wood-2" class="form-label">Select Wood</label>
-                                <select class="form-select" aria-label="Select Wood" id="wood-2">
+                                <label for="wood-1" class="form-label">Select Stain Type</label>
+                                <select class="form-select" aria-label="Select Wood" id="wood-1">
+                                    <option selected>Select stain type here</option>
+                                    <option value="1">Standard stains</option>
+                                    <option value="2">Other OCS Stains</option>
+                                    <option value="3">Preferred Colors</option>
+                                </select>
+                            </div>
+                        </div>
+                        <!-- slect stain type ends -->
+                        
+                        <!-- slect wood  -->
+                        <div class="row form-line">
+                            <div class="col">
+                                <label for="wood-1" class="form-label">Select Wood</label>
+                                <select class="form-select" aria-label="Select Wood" id="wood-1">
                                     <option selected>Select wood here</option>
                                     <option value="1">One</option>
                                     <option value="2">Two</option>
@@ -100,8 +127,8 @@ include_once('sections/layouts/header.php')
                         <!-- slect strain -->
                         <div class="row form-line">
                             <div class="col">
-                                <label for="strain-2" class="form-label">Select Strain</label>
-                                <select class="form-select" aria-label="Select Wood" id="strain-2">
+                                <label for="strain-1" class="form-label">Select Strain</label>
+                                <select class="form-select" aria-label="Select Wood" id="strain-1">
                                     <option selected>Select wood here</option>
                                     <option value="1">One</option>
                                     <option value="2">Two</option>
@@ -109,6 +136,7 @@ include_once('sections/layouts/header.php')
                                 </select>
                             </div>
                         </div>
+                        <!-- slect strain -->
                     </div>
                 </div>
                 <!-- one combination ends -->
@@ -117,12 +145,25 @@ include_once('sections/layouts/header.php')
                 <div class="col-md-6 combination" id="combination-3">
                     <div class="form-part">
                         <h4 class="heading-20">Combination 3</h4>
-                        <span class="remover" data-cabin-target="#combination-3">&times; Remove</span>
-                        <!-- slect wood -->
+                        <!-- slect stain type  -->
                         <div class="row form-line">
                             <div class="col">
-                                <label for="wood-3" class="form-label">Select Wood</label>
-                                <select class="form-select" aria-label="Select Wood" id="wood-3">
+                                <label for="wood-1" class="form-label">Select Stain Type</label>
+                                <select class="form-select" aria-label="Select Wood" id="wood-1">
+                                    <option selected>Select stain type here</option>
+                                    <option value="1">Standard stains</option>
+                                    <option value="2">Other OCS Stains</option>
+                                    <option value="3">Preferred Colors</option>
+                                </select>
+                            </div>
+                        </div>
+                        <!-- slect stain type ends -->
+                        
+                        <!-- slect wood  -->
+                        <div class="row form-line">
+                            <div class="col">
+                                <label for="wood-1" class="form-label">Select Wood</label>
+                                <select class="form-select" aria-label="Select Wood" id="wood-1">
                                     <option selected>Select wood here</option>
                                     <option value="1">One</option>
                                     <option value="2">Two</option>
@@ -135,8 +176,8 @@ include_once('sections/layouts/header.php')
                         <!-- slect strain -->
                         <div class="row form-line">
                             <div class="col">
-                                <label for="strain-3" class="form-label">Select Strain</label>
-                                <select class="form-select" aria-label="Select Wood" id="strain-3">
+                                <label for="strain-1" class="form-label">Select Strain</label>
+                                <select class="form-select" aria-label="Select Wood" id="strain-1">
                                     <option selected>Select wood here</option>
                                     <option value="1">One</option>
                                     <option value="2">Two</option>
@@ -144,7 +185,7 @@ include_once('sections/layouts/header.php')
                                 </select>
                             </div>
                         </div>
-                        <!-- slect strain ends -->
+                        <!-- slect strain -->
                     </div>
                 </div>
                 <!-- one combination ends -->
@@ -153,7 +194,7 @@ include_once('sections/layouts/header.php')
             <!-- add button area  -->
             <div class="row border-bottom">
                 <div class="col-md-12 addition-area">
-                    <span class="btn btn-addition" id="btn-addition-1">+ Add Combination</span>
+                    <span class="btn btn-addition" id="btn-addition">+ Add Combination</span>
                 </div>
             </div>
             <!-- add button area ends  -->
