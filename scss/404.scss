@@ -55,6 +55,7 @@
         }
     }
     .search_submit{
+        top:10px !important;
         background-position: -43px 0px !important;
     }
     .fa-cart-shopping {
@@ -82,6 +83,7 @@
             margin-bottom:50px;
             color: #FFFFFF;
             text-shadow: 4px 12px 12px rgba(214, 214, 214, 0.6);
+            -webkit-text-stroke: 0.5px #00008038;
         }
         h3{
             color:$blue-darkest;
@@ -208,8 +210,9 @@
         .links{
             text-align:right;
             li{
-                display: inline;
+                display: inline-block;
                 margin-left:25px;
+                margin-bottom:10px;
             }
         }
         @include upto-phone{
@@ -217,10 +220,8 @@
             .links{
                 text-align:left;
                 li{
-                    margin-bottom:10px;
                     margin-left:0;
                     margin-right:25px;
-                    display: inline-block;
                 }
             }
         }
