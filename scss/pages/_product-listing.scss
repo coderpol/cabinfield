@@ -6,7 +6,6 @@
     }
     .breadcrumb-area{
         margin-top:0;
-        margin-bottom:35px;
         @include upto-tablet{
             margin-bottom:$m-25;
         }
@@ -22,6 +21,7 @@
         }
     }
     .highlight-text{
+        margin-top:35px;
         p{
             @include font($font-16,$line-26);
             color:#514646;
