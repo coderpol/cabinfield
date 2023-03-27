@@ -79,11 +79,12 @@
     .page-head{
         .superheading{
             text-align: center;
+            font-family: 'Inter', sans-serif;
             @include font(164px,130%,900);
             margin-bottom:50px;
             color: #FFFFFF;
             text-shadow: 4px 12px 12px rgba(214, 214, 214, 0.6);
-            -webkit-text-stroke: 0.5px #00008038;
+            
         }
         h3{
             color:$blue-darkest;
