@@ -84,7 +84,7 @@
             margin-bottom:50px;
             color: #FFFFFF;
             text-shadow: 4px 12px 12px rgba(214, 214, 214, 0.6);
-            animation: appear 5s;
+            animation: appear 4s;
         }
         h3{
             color:$blue-darkest;
@@ -110,9 +110,9 @@
             i{
                 background: url(../icons/minimal-icons.png) no-repeat !important;
                 background-size: 110px !important;
-                background-position: -55px 0 !important;
+                background-position: -57px 0 !important;
                 display: inline-block;
-                width: 28px;
+                width: 25px;
                 height: 25px;
                 
             }
@@ -250,6 +250,7 @@
 
 @keyframes appear{
     0%{opacity: 0;}
-    60%{opacity: 0.5;}
+    60%{opacity: 0.4;}
+    95%{opacity: 0.7;}
     100%{opacity: 1;}
 }
