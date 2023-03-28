@@ -84,7 +84,7 @@
             margin-bottom:50px;
             color: #FFFFFF;
             text-shadow: 4px 12px 12px rgba(214, 214, 214, 0.6);
-            
+            animation: appear 5s;
         }
         h3{
             color:$blue-darkest;
@@ -246,4 +246,10 @@
             }
         }
     }
+}
+
+@keyframes appear{
+    0%{opacity: 0;}
+    60%{opacity: 0.5;}
+    100%{opacity: 1;}
 }
