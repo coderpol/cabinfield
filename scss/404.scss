@@ -33,6 +33,11 @@
 // section scss
 @import 'sections/header-area';
 
+.search_submit, .cart{
+    display: inline-block;
+    background: url(../icons/sprite-icons.svg) no-repeat !important;
+}
+
 // only for 404 page
 .header-area {
     border-bottom:1px solid #DDDDDD;
@@ -42,12 +47,8 @@
         grid-column-gap:20px;
         grid-template-columns: 33.3fr 41.6fr 25%;
     }
-    .search_submit, .fa-cart-shopping {
-        background: url(../icons/minimal-icons.png) no-repeat !important;
-        background-size: 89px !important;
-        display: inline-block;
-        width: 23px;
-        height: 25px;
+    .search_submit, .cart {
+        @include square(28px);
     }
     .search-area{
         @include upto-tablet{
@@ -56,18 +57,30 @@
     }
     .search_submit{
         top:10px !important;
-        background-position: -43px 0px !important;
+        background-size: 155px !important;
+        background-position: -124px -11px !important;
     }
-    .fa-cart-shopping {
-        background-position: -21px 0px !important;
-        &:hover{
-            background-position: 1px 0px !important;
-        }
-        @include upto-tablet{
-            background-position: -68px 0 !important;
-            &:hover{
-                background-position: -68px 0 !important;
+    
+    .cart-link{
+        .cart {
+            background-size: 145px !important;
+            background-position: -44px -7px !important;
+            @include upto-tablet{
+                background-position-x: -81px !important;
             }
+        } 
+        &:hover{
+            .cart{
+                background-position-x: -6.65px !important;  
+                @include upto-tablet{
+                    background-position-x: -81px !important;
+                }
+            }
+        } 
+    }
+    .cart-area{
+        @include upto-tablet{
+            margin-right:15px;
         }
     }
 }
@@ -81,6 +94,9 @@
             text-align: center;
             font-family: 'Inter', sans-serif;
             @include font(164px,130%,900);
+            @include upto-tablet{
+                @include font(8rem,1.5em,900);
+            }
             margin-bottom:50px;
             color: #FFFFFF;
             text-shadow: 4px 12px 12px rgba(214, 214, 214, 0.6);
@@ -89,6 +105,9 @@
         h3{
             color:$blue-darkest;
             @include font(48px,130%,700);
+            @include upto-tablet{
+                @include font(2.25rem,1.3em,700);
+            }
             margin-bottom:30px;
         }
         p{
@@ -103,19 +122,13 @@
         }
         .search_submit{
             position:absolute;
-            left: 12px;
-            top: 17px;
+            left: 18px;
+            top: 16px;
             border: 0;
             background: transparent;
-            i{
-                background: url(../icons/minimal-icons.png) no-repeat !important;
-                background-size: 110px !important;
-                background-position: -57px 0 !important;
-                display: inline-block;
-                width: 25px;
-                height: 25px;
-                
-            }
+            background-size: 186px !important;
+            background-position: -151px -12px !important;
+            @include square(28px);
             &:hover{
                 box-shadow: none;
             }

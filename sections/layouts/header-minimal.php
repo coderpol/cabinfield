@@ -30,16 +30,15 @@
             <div class="search-area">
                 <form action="/search" class="searchform">
                     <input type="search" name="search" id="search" placeholder="Search our store">
-                    <button type="submit" class="search_submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <button type="submit" class="search_submit"></button>
                 </form>
             </div>
             
             <div class="cart-area">
                 <ul class="cart-list">
-                    <li><a href="login.php"><span class="above-pc">Sign In</span><i class="upto-pc fa-solid fa-user"></i></a></li>
+                    <li><a href="login.php"><span class="above-pc">Sign In</span></a></li>
                     <li class="above-pc"><a href="wishlist.php">My Wishlist</a></li>
-                    <li class="upto-pc"><a href="tel:+866-450-9663"><i class="fa-solid fa-phone"></i></a></li>
-                    <li><a href="shopping-cart.php"><i class="fa-solid fa-cart-shopping"></i> <span class="counter">0</span></a></li>
+                    <li><a href="shopping-cart.php" class="cart-link"><i class="cart"></i> <span class="counter">0</span></a></li>
                 </ul>
             </div>
         </div>

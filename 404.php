@@ -13,7 +13,7 @@ include_once('sections/layouts/header-minimal.php')
         <div class="row search-area">
             <form action="/search" class="searchform">
                 <input type="search" name="search" id="search" placeholder="Search our store">
-                <button type="submit" class="search_submit"><i></i></button>
+                <button type="submit" class="search_submit"></button>
             </form>
         </div>
         <div class="links-area">
