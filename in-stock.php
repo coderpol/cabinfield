@@ -69,7 +69,7 @@ include_once('sections/layouts/header.php')
             <div class="col-md-12">
                 <ul class="nav nav-pills mb-4" id="pills-tab" role="tablist">
                     <li class="nav-item" role="presentation">
-                        <span class="nav-link active" data-bs-toggle="pill" data-bs-target="#pills-11" role="tab" aria-controls="pills-11" aria-selected="true">Features & Options</span>
+                        <span class="nav-link active" data-bs-toggle="pill" data-bs-target="#pills-11" role="tab" aria-controls="pills-11" aria-selected="true">Customer Reviews</span>
                     </li>
                     <li class="nav-item" role="presentation">
                         <span class="nav-link" data-bs-toggle="pill" data-bs-target="#pills-12" role="tab" aria-controls="pills-12" aria-selected="false">Testimonials</span>
