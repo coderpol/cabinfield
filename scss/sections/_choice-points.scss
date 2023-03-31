@@ -14,7 +14,7 @@
         align-items: stretch;
         justify-items: stretch;
         grid-template-columns: repeat(3,1fr);
-        grid-row-gap: 10px0;
+        grid-row-gap: 100px;
         grid-column-gap: 80px;
         margin-top:80px;
         .point{
@@ -71,7 +71,7 @@
     
     .action-area{
         text-align: center;
-        margin-top:10px0;
+        margin-top:100px;
         margin-bottom:40px;
         @include upto-tablet{
             margin-top:30px;
@@ -126,7 +126,7 @@
                 position: relative;
                 @include upto-tablet{
                     text-align:center;
-                    padding:0 5px0;
+                    padding:0 50px;
                     &+.point{
                         margin-top:80px;
                     }
@@ -134,7 +134,7 @@
                 &:before{
                     content:"";
                     display: block;
-                    height:5px0;
+                    height:50px;
                     width:80px;
                     position:absolute;
                     background:url('../images/number-sprite.png') no-repeat;

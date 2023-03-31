@@ -44,7 +44,7 @@ $icon-sizes: 15,18,20,22,24,55,70;
         padding:15px;
         display: inline-block;
         margin-bottom:30px;
-        @include rounded(5px0);
+        @include rounded(50px);
         i{
             color:$green;
             font-size:65px;

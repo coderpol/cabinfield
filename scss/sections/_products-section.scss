@@ -1,5 +1,5 @@
 .products-section{
-    margin-bottom:5px0;
+    margin-bottom:50px;
     .products-area{
         &.type-a{
             display: flex;
@@ -12,7 +12,7 @@
                 flex-basis:48%;
                 margin-bottom:30px;
                 @include upto-phone{
-                    margin-bottom:5px0;
+                    margin-bottom:50px;
                 }
                 @include upto-tablet{
                     flex-basis:100%;
@@ -74,15 +74,15 @@
         &.type-b{
             .product{
                 border-bottom: 1px solid #ccc;
-                padding-bottom:5px0;
+                padding-bottom:50px;
                 @include upto-phone{
                     &:first-child{
                         border-top: 1px solid #ccc;
-                        padding-top:5px0;
+                        padding-top:50px;
                     }
                 }
                 &+.product{
-                    margin-top:5px0;
+                    margin-top:50px;
                 }
                 &:last-child{
                     border-bottom:none;
