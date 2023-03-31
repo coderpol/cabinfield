@@ -1,5 +1,5 @@
 .products-section{
-    margin-bottom:$m-50;
+    margin-bottom:5px0;
     .products-area{
         &.type-a{
             display: flex;
@@ -10,9 +10,9 @@
             align-content: space-around;
             .product{
                 flex-basis:48%;
-                margin-bottom:$m-30;
+                margin-bottom:30px;
                 @include upto-phone{
-                    margin-bottom:$m-50;
+                    margin-bottom:5px0;
                 }
                 @include upto-tablet{
                     flex-basis:100%;
@@ -20,9 +20,9 @@
                 &>a{
                     display: block;
                     overflow: hidden;
-                    margin-bottom:$m-25;
+                    margin-bottom:25px;
                     @include upto-phone{
-                        margin-bottom:$m-35;
+                        margin-bottom:35px;
                     }
                     // img{
                     //     transition: all 0.4s ease;
@@ -36,7 +36,7 @@
                 figure{
                     box-shadow: 0 0 2px rgba(3, 1, 1, 0.2);
                     transition: all 0.5s ease-in-out;
-                    margin-bottom:$m-25;
+                    margin-bottom:25px;
                     &:hover{
                         box-shadow: 0 0 4px rgba(3, 1, 1, 0.3);
                         img{
@@ -44,7 +44,7 @@
                         }
                     }
                     @include upto-phone{
-                        margin-bottom:$m-35;
+                        margin-bottom:35px;
                     }
                     a{
                         display: block;
@@ -55,8 +55,8 @@
                     a{display: inline;}
                 }
                 h3,h4{
-                    @include font($font-24,$line-31,$font-bold);
-                    margin-bottom:$m-5;
+                    @include font(24px,31px,700);
+                    margin-bottom:5px;
                     @include upto-phone{
                         text-align:center;
                         margin-bottom:15px;
@@ -66,47 +66,47 @@
                     }
                 }
                 p{
-                    @include font($font-16,$m-25);
+                    @include font(16px,25px);
                     color:$gray-dark-3;
                 }
             }
         }
         &.type-b{
             .product{
-                border-bottom: $thin solid #ccc;
-                padding-bottom:$m-50;
+                border-bottom: 1px solid #ccc;
+                padding-bottom:5px0;
                 @include upto-phone{
                     &:first-child{
-                        border-top: $thin solid #ccc;
-                        padding-top:$m-50;
+                        border-top: 1px solid #ccc;
+                        padding-top:5px0;
                     }
                 }
                 &+.product{
-                    margin-top:$m-50;
+                    margin-top:5px0;
                 }
                 &:last-child{
                     border-bottom:none;
-                    padding-bottom:$m-30;
+                    padding-bottom:30px;
                 }
                 .details{
                     img{
-                        margin-bottom:$m-20;
+                        margin-bottom:20px;
                     }
                     p{
-                        @include font($font-16,$line-26);
+                        @include font(16px,26px);
                         color:$blue-darkest;
                     }
                 }
                 .action-area{
                     .action{
                         background-color: $whitish-1;
-                        padding:$m-20;
-                        border-radius: $m-10;
-                        margin-bottom:$m-20;
+                        padding:20px;
+                        border-radius: 10px;
+                        margin-bottom:20px;
                         h4{
-                            @include font($font-20,$line-26,$font-bold);
+                            @include font(20px,26px,700);
                             color:$blue-darkest;
-                            margin-bottom:$m-20;
+                            margin-bottom:20px;
                             @include upto-phone{
                                 text-align:center;
                             }
@@ -117,21 +117,21 @@
                             }
                             ul,ol{
                                 color:$gray-dark-3;
-                                @include font($font-14,$line-18);
+                                @include font(14px,18px);
                                 padding-left:0;
-                                margin-left:$m-20;
+                                margin-left:20px;
                                 li{
-                                    margin-bottom:$m-10;
+                                    margin-bottom:10px;
                                 }
                             }
                         }
                         .btn{
                             padding:15px;
-                            box-shadow: 0 $m-10 $m-15 $m-5 rgba($black,0.1);
+                            box-shadow: 0 10px 15px 5px rgba($black,0.1);
                             @include upto-phone{
                                 display: block;
                                 width:80%;
-                                margin:$m-45 auto 0;
+                                margin:45px auto 0;
                             }
                         }
                     }
@@ -186,8 +186,8 @@
     .ordered-items-list{
         margin-top:0;
         .ordered-item{
-            padding:$m-20 0;
-            border-bottom: $thin solid $gray;
+            padding:20px 0;
+            border-bottom: 1px solid $gray;
             @include upto-phone{
                 border-bottom:0;
             }
@@ -196,8 +196,8 @@
             }
             .image{
                 @include upto-phone{
-                    margin-bottom:$m-25;
-                    border-top: $thin solid $gray;
+                    margin-bottom:25px;
+                    border-top: 1px solid $gray;
                 }
                 img{
                     max-width: 190px;
@@ -212,16 +212,16 @@
             }  
             .description{
                 h4,h3{
-                    @include font($font-24, $line-31,$font-bold);
-                    margin-bottom:$m-15;
+                    @include font(24px, 31px,700);
+                    margin-bottom:15px;
                 }
                 .subtotal{
-                    @include font($font-16,$line-23);
+                    @include font(16px,23px);
                     color: $blue;
                     span{
                         color:$brand-color;
-                        font-weight: $font-bold;
-                        @include font($font-22,$line-29,$font-bold);
+                        font-weight: 700;
+                        @include font(22px,29px,700);
                         margin-top:3px;
                     }
                 }

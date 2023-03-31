@@ -1,12 +1,12 @@
 .summary-list{
-    margin-bottom:$m-10;
+    margin-bottom:10px;
     li, .list-item{
-        padding: $m-10 0;
+        padding: 10px 0;
         border-bottom: 1px solid $gray;
         color:$gray-dark-3;
         span{
             float: right;
-            font-weight: $font-bold;
+            font-weight: 700;
             color:$blue-darkest;
         }
         &:last-child{
@@ -14,7 +14,7 @@
         }
         &.total{
             border-bottom:0;
-            @include font($font-18,$line-23,$font-bold);
+            @include font(18px,23px,700);
             color:$black;
         }
     }
@@ -27,13 +27,13 @@
     li{
         color:$black;
         vertical-align: middle;
-        @include font($font-16,$line-23,$font-medium);
+        @include font(16px,23px,500);
         margin-bottom:10px;
         span{
             color:$blue;
             margin-left:5px;
             display:inline;
-            font-weight: $font-normal;
+            font-weight: 400;
         }
         i{
             color: #B9B0B0;

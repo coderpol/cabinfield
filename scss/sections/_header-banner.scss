@@ -2,7 +2,7 @@
     // background-attachment: fixed;
     background-position: center center;
     background-size: cover;
-    margin-bottom:$m-20;
+    margin-bottom:20px;
     
     .breadcrumb{
         li{
@@ -21,22 +21,22 @@
             text-align:center;
         }
         .tagline{
-            @include font($font-30,160%);
+            @include font(30px,160%);
         }
         .heading{
-            @include font($font-54,130%,$font-bold);
-            margin-bottom: $m-25;
+            @include font(54px,130%,700);
+            margin-bottom: 25px;
         }
         .btn{
-            padding:$m-15 $m-50;
-            @include font($font-16,$line-26,$font-medium);
+            padding:15px 5px0;
+            @include font(16px,26px,500);
             color:$blue-darker-2;
             &:hover{
                 color:$white;
             }
         }
         p{
-            @include font($font-16,$line-26);
+            @include font(16px,26px);
             letter-spacing: 0.2px;
         }
     }
@@ -49,10 +49,10 @@
             margin: 33px 0;
             padding: 0 30px 60px;
             .tagline{
-                @include font($font-18,160%,$font-medium);
+                @include font(18px,160%,500);
             }
             .heading{
-                @include font(36px,160%,$font-bold);
+                @include font(36px,160%,700);
             }
             .btn{
                 min-width: 60%;
@@ -63,7 +63,7 @@
                 padding-bottom: 0px;
             }
             .heading{
-                @include font(32px,130%,$font-bold);
+                @include font(32px,130%,700);
             }
         }
     }

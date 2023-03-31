@@ -1,7 +1,7 @@
 .contact-section{
     .contact-area{
         background:$blue;
-        padding:$m-25;
+        padding:25px;
         padding-bottom:0;
         position:relative;
         overflow:hidden;
@@ -23,7 +23,7 @@
         }
         .tag{
             display: block;
-            @include font($font-14,$line-18);
+            @include font(14px,18px);
             text-transform: uppercase;
             letter-spacing: 2px;
             color:rgba($white,50%);
@@ -31,25 +31,25 @@
         .number{
             display: block;
             color:$white;
-            @include font($font-16,$line-21);
+            @include font(16px,21px);
             a{
                 color:$white;
             }
         }
         p{
             margin:0;
-            @include font($font-16,$line-29);
+            @include font(16px,29px);
             color:rgba($white,50%);
         }
         .contact-list{
-            margin-top:$m-25;
+            margin-top:25px;
             padding-left:0;
             .contact{
-                padding:$m-25 0;
+                padding:25px 0;
                 border-top: 1px dashed rgba($white,50%);
                 display: grid;
                 grid-template-columns: 1fr 11fr;
-                grid-column-gap:$m-20;
+                grid-column-gap:20px;
                 align-items: center;
                 .icon{
                     background:rgba($white,12%);
@@ -60,7 +60,7 @@
                     display: block;
                     font-size: 20px;
                     line-height: 50px;
-                    @include rounded($m-50);
+                    @include rounded(5px0);
                 }
             }
         }
@@ -71,18 +71,18 @@
             border:1px solid $gray;
             border-left:0;
         }
-        padding:$m-40;
+        padding:40px;
         
         .nav-pills{
-            margin-bottom:$m-30;
+            margin-bottom:30px;
             .nav-link{
                 color:$gray-dark-4;
                 background:none;
                 border-radius:0;
-                @include font($font-16,$line-21,$font-medium);
+                @include font(16px,21px,500);
                 &.active{
                     color:$blue-darkest;
-                    border-bottom:$semi solid $brand-color;
+                    border-bottom:2px solid $brand-color;
                 }
             }
         }

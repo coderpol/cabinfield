@@ -1,7 +1,7 @@
 .product-section{
     .product-gallery-area{
-        margin-top:$m-20;
-        margin-bottom:$m-60;
+        margin-top:20px;
+        margin-bottom:60px;
         @include upto-phone{
             margin-top:0;
             margin-bottom:0;
@@ -90,7 +90,7 @@
                     backdrop-filter: blur(10px);
                     margin-bottom:0;
                     color:$gray-dark-3;
-                    @include font($font-14,$line-18,$font-medium);
+                    @include font(14px,18px,500);
                 }
             }
         }
@@ -106,7 +106,7 @@
                 // align-items: center;
                 background: $white;
                 // @include square(95px);
-                @include rounded($m-10);
+                @include rounded(10px);
                 cursor:pointer;
                 border:1px solid $white;
                 margin:10px 12px;
@@ -174,7 +174,7 @@
         .button-area{
             position:absolute;
             bottom:15px;
-            right:$m-20;
+            right:20px;
             z-index: 30;
             .icon{
                 @include square(42px);
@@ -182,7 +182,7 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                @include rounded($m-30);
+                @include rounded(30px);
                 &:hover{
                     background-color: $brand-color;
                     text-decoration: none;
@@ -194,7 +194,7 @@
     .product-details{
         position:relative;
         p{
-            @include font($font-16,$line-29);
+            @include font(16px,29px);
             color:$gray-dark-3;
             span{
                 display: inline-block;
@@ -209,7 +209,7 @@
             justify-content: flex-start;
             align-items: center;
             li{
-                margin-right:$m-20;
+                margin-right:20px;
                 &:last-child{
                     margin-right:0;
                 }
@@ -220,19 +220,19 @@
             p{
                 color:$brand-color;
                 display:block;
-                font-weight: $font-medium;
+                font-weight: 500;
                 margin-bottom:0;
                 &.price{
-                    @include font($font-36,$line-47,$font-bold);
+                    @include font(36px,47px,700);
                     margin-bottom:10px;
                     color:$blue-darkest;
                     &.discounted{
                         span{
                             &:last-child{
-                                @include font(26px,39px,$font-bold);
+                                @include font(26px,39px,700);
                             }
                             &:first-child{
-                                @include font(30px,39px,$font-bold);
+                                @include font(30px,39px,700);
                                 color:#627590;
                                 text-decoration: line-through;
                                 margin-right:15px;
@@ -246,7 +246,7 @@
         .addons{
             span{
                 display: inline;
-                @include font($font-16,$line-21,$font-medium);
+                @include font(16px,21px,500);
                 color:$brand-color;
             }
             a{
@@ -262,7 +262,7 @@
             margin-bottom:20px;
         }
         .button-area{
-            margin:$m-20 0;
+            margin:20px 0;
             .btn-large{
                 padding:15px 30px;
             }
@@ -291,8 +291,17 @@
         }
         
         h3{
-            @include font($font-20,$line-26,$font-medium);
-            margin-bottom:$m-15;
+            @include font(20px,26px,500);
+            margin-bottom:15px;
+        }
+        ul{
+            margin:15px 0;
+            padding-left:15px;
+            list-style-position: outside;
+            li{
+                @include font(16px,24px);
+                color:$gray-dark-3;
+            }
         }
         
     }
@@ -301,10 +310,10 @@
         border-bottom:1px solid $gray;
         .nav-item{
             .nav-link{
-                @include font($font-16,160%,$font-medium);
+                @include font(16px,160%,500);
                 border-bottom:4px solid transparent;
                 color:$blue;
-                padding:$m-10 0;
+                padding:10px 0;
                 border-radius: 0;
                 cursor: pointer;
                 outline: 0;
@@ -349,7 +358,7 @@
                         margin-right: 5px;
                         &::after{
                             content:",";
-                            @include font($font-18,$line-18,$font-bold);
+                            @include font(18px,18px,700);
                         }
                         &:last-child,&:only-child{
                             &:after{
@@ -358,7 +367,7 @@
                         }
                     }
                     a{
-                        @include font($font-16,$line-21,$font-medium);
+                        @include font(16px,21px,500);
                         color:$blue;
                         &:hover{
                             color:$blue-darkest;
@@ -382,12 +391,12 @@
         }
         .accordion-button{
             border-radius:0 !important;
-            padding:$m-20 10px;
+            padding:20px 10px;
             border:1px solid $white;
             border-bottom:1px solid $whitish-2;
             cursor: pointer;
             h4{
-                @include font($font-16,$line-21,$font-medium);
+                @include font(16px,21px,500);
                 margin-bottom:0;
             }
             i{
@@ -398,7 +407,7 @@
                 display: inline-block;
                 margin-left:5px;
                 color: $blue;
-                @include font($font-16,$line-21,$font-medium);
+                @include font(16px,21px,500);
             }
             .note{
                 @include font(14px,21px,400);
@@ -447,7 +456,7 @@
         .info{
             a{
                 color:#B3522C;
-                @include font($font-14,$line-18);
+                @include font(14px,18px);
                 text-decoration: underline;
             }
         }
@@ -468,7 +477,7 @@
             background: $white;
             color:$blue-darkest;
             border: 1px solid rgba($black,0.12);
-            @include font($font-14,$line-18,$font-medium);
+            @include font(14px,18px,500);
             span{
                 color:$blue;
             }
@@ -478,7 +487,7 @@
             }
         }
         .form-check-inline{
-            margin: $m-20 $m-15 0 0;
+            margin: 20px 15px 0 0;
             padding:0;
         }
         .btn-check{
@@ -506,12 +515,12 @@
             }
             .btn{
                 @include square(30px);
-                @include rounded($m-30);
+                @include rounded(30px);
                 box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.1);
                 padding:6px;
                 background-color: $white;
                 color:$blue-darker-2;
-                @include font($font-30,16px);
+                @include font(30px,16px);
                 cursor:pointer;
                 &:hover{
                     background-color: $brand-color;
@@ -519,10 +528,10 @@
                 }
             }
             .count{
-                margin:0 $m-5;
+                margin:0 5px;
                 @include square(30px);
                 text-align: center;
-                @include font($font-20,44px,$font-medium);
+                @include font(20px,44px,500);
                 color:$black;
                 border:0;
             }
@@ -533,24 +542,24 @@
     }
     .alert{
         background: #EDEFF3;
-        padding:$m-20;
-        padding-left:$m-50;
+        padding:20px;
+        padding-left:5px0;
         position:relative;
         color:#424C5B;
         margin-bottom: 1rem;
         border: 1px solid transparent;
-        @include rounded($m-10);
-        margin-top:$m-20;
+        @include rounded(10px);
+        margin-top:20px;
         i{
             position:absolute;
-            left:$m-20;
-            top:$m-20;
-            font-size:$font-20;
+            left:20px;
+            top:20px;
+            font-size:20px;
         }
         p{
             margin-bottom:0;
             color:#424C5B;
-            @include font($font-16,$line-21,$font-medium);
+            @include font(16px,21px,500);
         }
     }
     
@@ -562,7 +571,7 @@
         width: calc(100% + 9px);
         padding-right:9px;
         .stack{
-            margin-bottom:$m-20;
+            margin-bottom:20px;
             text-align: center;
             flex-basis: 7.55%;
             @include upto-phone{
@@ -581,7 +590,7 @@
                 span{
                     margin-bottom:0;
                     margin-top:5px;
-                    @include font($font-14,$font-16,$font-medium);
+                    @include font(14px,16px,500);
                     color:$blue-darkest;
                     
                 }
@@ -590,7 +599,7 @@
                 }
                 .figure{
                     @include rounded(5px);
-                    margin-bottom:$m-0;
+                    margin-bottom:0px;
                     .overlay{
                         // background: rgba($black,.5);
                     }
@@ -613,7 +622,7 @@
                     right:0;
                 }
                 .form-check-label{
-                    @include font($font-16,$line-21,$font-medium);
+                    @include font(16px,21px,500);
                     color:#121212;
                     padding-right: 40px;
                 }
@@ -627,18 +636,18 @@
     }
     
     .specs-area{
-        padding-top:$m-20;
+        padding-top:20px;
         .specs{
             h3{
-                @include font($font-20,$line-26,$font-bold);
-                margin-bottom:$m-15;
+                @include font(20px,26px,700);
+                margin-bottom:15px;
             }
             ul,ol{
-                padding-left:$m-20;
+                padding-left:20px;
                 color:$blue;
                 li{
-                    @include font($font-16,$line-23);
-                    margin-bottom:$m-10;
+                    @include font(16px,23px);
+                    margin-bottom:10px;
                 }
             }
             a{
@@ -694,11 +703,11 @@
         text-align: center;
         margin:0 0.39% 20px;
         span{
-            margin-top:$m-10;
+            margin-top:10px;
         }
         
         h5{
-            @include font($font-14,$line-18,$font-medium);
+            @include font(14px,18px,500);
             color:$blue-darkest;
             @include phone-small{
                 padding:0 5px;
@@ -709,7 +718,7 @@
             // &:checked,&:active{
             //     &+.btn{
             //         background: none !important;
-            //         border:$thin solid $brand-color;
+            //         border:1px solid $brand-color;
             //         .overlay{
             //             display:flex;
             //             justify-content: center;
@@ -805,7 +814,7 @@
             span{
                 margin-bottom:0;
                 display: block;
-                @include font($font-14,$line-18,500);
+                @include font(14px,18px,500);
                 @include upto-phone{
                     margin-top:0;
                 }
@@ -846,14 +855,14 @@
     }
 }
 .order-details{
-    margin-top:$m-60;
+    margin-top:60px;
     .in-stock &{
         margin-top:20px;
         margin-bottom:20px;
     }
     h4{
-        margin-top:$m-15;
-        @include font($font-16,$line-21,$font-medium);
+        margin-top:15px;
+        @include font(16px,21px,500);
         a{
             display: inline-block;
             margin-left:5px;
@@ -861,7 +870,7 @@
         }
     }
     .option-area{
-        margin-bottom:$m-20;
+        margin-bottom:20px;
         .form-check{
             // padding-left:20px;
             margin-bottom:5px;
@@ -874,7 +883,7 @@
             }
             label{
                 width:100%;
-                @include font($font-16,$line-26);
+                @include font(16px,26px);
                 color:#424F61;
                 span{
                     color:$brand-color;
@@ -900,12 +909,12 @@
     }
     p{
         &.value{
-            @include font($font-36,$line-47,$font-bold);
+            @include font(36px,47px,700);
             color:$blue-darkest;
         }
         &.note{
             color:#424F61;
-            line-height:$m-30;
+            line-height:30px;
             span{
                 &.shipping-price{
                     color:$brand-color;

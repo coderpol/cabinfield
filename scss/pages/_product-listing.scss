@@ -1,5 +1,5 @@
 .page-highlight-area{
-    margin-bottom:$m-60;
+    margin-bottom:60px;
     padding:30px 0 35px;
     @include upto-tablet{
         // text-align:center;
@@ -7,15 +7,15 @@
     .breadcrumb-area{
         margin-top:0;
         @include upto-tablet{
-            margin-bottom:$m-25;
+            margin-bottom:25px;
         }
         ul,ol{
             margin-bottom:0;
         }
     }
     .highlight-title{
-        @include font($font-30,150%,$font-bold);
-        margin-bottom:$m-20;
+        @include font(30px,150%,700);
+        margin-bottom:20px;
         @include upto-phone{
             line-height: 130%;
         }
@@ -23,7 +23,7 @@
     .highlight-text{
         margin-top:35px;
         p{
-            @include font($font-16,$line-26);
+            @include font(16px,26px);
             color:#514646;
             margin-bottom:0;
             &+p{
@@ -95,11 +95,11 @@
         }
     }
     .listed-product{
-        margin-bottom:$m-20;
+        margin-bottom:20px;
         .section-title{
-            margin-bottom:$m-20;
+            margin-bottom:20px;
             @include upto-tablet{
-                margin-bottom:$m-15;
+                margin-bottom:15px;
             }
             h3,h4{
                 margin-bottom:0;
@@ -107,19 +107,19 @@
             }
         }
         .category-sub-title{
-            padding-bottom:$m-20;
+            padding-bottom:20px;
             h4,h5{
                 border-top:1px solid $gray;
-                padding-top:$m-15;
-                @include font($m-20,$line-26,$font-medium);
+                padding-top:15px;
+                @include font(20px,26px,500);
                 color:$blue-darker-2;
                 margin-bottom:0;
             }
         }
         .product{
             position:relative;
-            margin-top:$m-20;
-            margin-bottom:$m-30;
+            margin-top:20px;
+            margin-bottom:30px;
             @include upto-phone{
                 flex-basis:50%;
             }
@@ -141,17 +141,17 @@
                 position: absolute;
                 top: 15px;
                 right: 20px;
-                @include rounded($m-30);
-                @include square($m-40);
+                @include rounded(30px);
+                @include square(40px);
                 box-shadow: 0 0 10px rgba($black,0.1);
                 a,button,button.selected:hover{
                     display: block;
                     @include square(100%);
-                    // @include rounded($m-20);
+                    // @include rounded(20px);
                     background-color: white;
                     border:none;
                     i{
-                        @include font($font-18,$m-40);
+                        @include font(18px,40px);
                         color:$blue;
                     }
                     &:hover,&.selected{
@@ -164,18 +164,18 @@
                 }
             }
             .title{
-                @include font($font-18,$line-26,$font-bold);
+                @include font(18px,26px,700);
                 color:$blue-darkest;
                 a{
                     color:$blue-darkest;
                 }
                 @include upto-phone{
-                    @include font($font-16,22px,$font-bold); 
+                    @include font(16px,22px,700); 
                 }
             }
             .details{
                 color:$gray-dark-3;
-                @include font($font-14,$line-18);
+                @include font(14px,18px);
                 margin-bottom:10px;
             }
             .price{
@@ -184,21 +184,21 @@
                 font-weight: bold;
                 margin-bottom:0;
                 @include upto-phone{
-                    @include font($font-14,$line-18,$font-bold); 
+                    @include font(14px,18px,700); 
                 }
                 .value{
                     color:$brand-color;
-                    @include font($font-18,$line-18,$font-medium);
+                    @include font(18px,18px,500);
                 }
             }
             .availability{
                 display:inline-block;
-                @include font(12px,100%,$font-medium);
-                padding:5px $m-10;
+                @include font(12px,100%,500);
+                padding:5px 10px;
                 background: rgba(179, 82, 44, 0.14);
                 color:$brand-color-2;
-                @include rounded($m-30);
-                margin-top:$m-15;
+                @include rounded(30px);
+                margin-top:15px;
             }
         }
         .blank-product{
@@ -258,17 +258,17 @@
         justify-content: center;
         align-items: center;
         .page-item{
-            margin:0 $m-15;
+            margin:0 15px;
             @include upto-phone{
-                margin:0 $m-10;
+                margin:0 10px;
             }
             a{
-                @include square($m-40);
-                @include rounded($m-20);
-                @include font($font-16,$line-29);
+                @include square(40px);
+                @include rounded(20px);
+                @include font(16px,29px);
                 color:$blue-darkest;
                 border:none;
-                box-shadow: 0 0 $m-10 rgba($black,0.1);
+                box-shadow: 0 0 10px rgba($black,0.1);
                 &:hover{
                     text-decoration: none;
                     background-color: $brand-color;
@@ -276,10 +276,10 @@
                 }
             }
             &:first-child,&:last-child{
-                @include rounded($m-20);
+                @include rounded(20px);
                 a{
-                    @include square($m-35);
-                    line-height: $line-23;
+                    @include square(35px);
+                    line-height: 23px;
                 }
             }
             &.active{
@@ -304,7 +304,7 @@
             .section-title{
                 flex-basis: 100%;
                 h1,h2, h3,h4{
-                    // @include font($font-24,$line-31,$font-bold);
+                    // @include font(24px,31px,700);
                     width:100% !important;
                 }
             }
@@ -312,7 +312,7 @@
         }
         .filter-buttons{
             justify-content: space-between !important;
-            margin-top:$m-10;
+            margin-top:10px;
             li{
                 margin-left:auto;
                 margin-right:auto;
@@ -348,7 +348,7 @@
             position: absolute;
             background: $white;
             z-index: 100;
-            border-radius: $m-20;
+            border-radius: 20px;
             box-shadow: 0 0 30px 5px rgb(0 0 0 / 10%);
             width: calc(100% - 25px);
             margin-left: 10px;

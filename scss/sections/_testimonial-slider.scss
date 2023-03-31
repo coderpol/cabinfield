@@ -1,29 +1,29 @@
 .testimonial-area{
-    padding:$m-15 0 $m-45;
+    padding:15px 0 45px;
     overflow: hidden;
     @include upto-pc{
-        padding:$m-20;
+        padding:20px;
     }
     .testimonial-slider{
-        padding:$m-20 0;
-        margin-top:$m-50;
-        margin-bottom:$m-40 !important;
+        padding:20px 0;
+        margin-top:5px0;
+        margin-bottom:40px !important;
         @include from-pc{
             max-height:395px;
         }
         .slide{
             display: grid;
             grid-template-columns: auto 265px;
-            grid-column-gap:$m-90;
-            grid-row-gap:$m-90;
-            margin:0 $m-20;
-            border-radius:$m-20;
+            grid-column-gap:90px;
+            grid-row-gap:90px;
+            margin:0 20px;
+            border-radius:20px;
             box-shadow: 0px 18px 64px rgba(98, 117, 144, 0.18);
-            padding: $m-40 $m-50;
+            padding: 40px 5px0;
             @include upto-pc{
-                box-shadow: 0 0 $m-25 rgba($black,0.1);
+                box-shadow: 0 0 25px rgba($black,0.1);
                 // box-shadow: none;
-                // border:$thin solid rgba($black,0.1);
+                // border:1px solid rgba($black,0.1);
                 margin:18px !important;
                 padding:30px 20px 20px;
             }
@@ -41,7 +41,7 @@
                 margin-bottom:0;
             }
             .image{
-                border-radius:$m-10;
+                border-radius:10px;
             }
             blockquote{
                 font-style: italic;
@@ -58,20 +58,20 @@
         &:before{
             content:'';
             display: block;
-            height:$m-45;
-            width:$m-60;
+            height:45px;
+            width:60px;
             background: url('../images/blockquote.png') no-repeat;
-            background-size:$m-60;
+            background-size:60px;
         }
         blockquote, &>p{
-            margin:$m-30 0;
+            margin:30px 0;
             color:$blue-darker-4;
-            @include font($font-16,$m-25,$font-medium);
+            @include font(16px,25px,500);
         }
         p{
             letter-spacing: 0.3px;
             .author{
-                @include font($font-20,$m-25);
+                @include font(20px,25px);
                 color:$blue-darkest;
                 display: inline-block;
                 position:relative;
@@ -82,21 +82,21 @@
                     &:after{
                         content:"";
                         display: block;
-                        width:$m-20;
-                        height:$m-20;
+                        width:20px;
+                        height:20px;
                         background:url('../images/verified.svg') no-repeat;
-                        background-size:$m-20;
+                        background-size:20px;
                         position:absolute;
                         bottom:3px;
-                        right: -$m-25;
+                        right: -25px;
                     }
                 }
             }
             .address{
                 display:block;
                 color:$gray-dark-1;
-                @include font($font-16,$m-20);
-                margin-top:$m-5;
+                @include font(16px,20px);
+                margin-top:5px;
             }
             img{
                 width: auto;

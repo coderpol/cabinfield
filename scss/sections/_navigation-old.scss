@@ -1,6 +1,6 @@
 .navigation-area{
     background: $whitish-1;
-    padding:$m-5;
+    padding:5px;
     .navbar{
         padding:0;
     }
@@ -26,10 +26,10 @@
             display:block;
             &>a{
                 color:$blue-darker-3 !important;
-                font-weight: $font-medium;
+                font-weight: 500;
                 display:inline-block;
-                padding:$m-10 $m-30;
-                font-size:$font-18;
+                padding:10px 30px;
+                font-size:18px;
                 position:relative;
                 text-transform: uppercase;
                 letter-spacing: 2.5px;
@@ -41,9 +41,9 @@
                 &:before{
                     content:"";
                     display:inline-block;
-                    height: $m-5;
-                    width: $m-5;
-                    border-radius: $m-5;
+                    height: 5px;
+                    width: 5px;
+                    border-radius: 5px;
                     background-color: $blue-darker-3;
                     position: absolute;
                     right: -2px;
@@ -52,7 +52,7 @@
                 }
                 &:after{
                     content:"";
-                    @include triangle($m-10, up, #fff);
+                    @include triangle(10px, up, #fff);
                     border-top:0;
                     position: absolute;
                     left: 50%;
@@ -75,9 +75,9 @@
                 left:0;
                 width:fit-content;
                 background:$white;
-                padding:$m-30;
-                border-radius:$m-10;
-                box-shadow: 0 7px $m-10 rgb(0 0 0 / 10%);
+                padding:30px;
+                border-radius:10px;
+                box-shadow: 0 7px 10px rgb(0 0 0 / 10%);
                 margin-top: 0;
                 border: none;
                 @extend .animate;
@@ -89,9 +89,9 @@
                     width:100%;
                 }
                 h3{
-                    @include font($font-24,$line-31,$font-bold);
+                    @include font(24px,31px,700);
                     text-transform: capitalize;
-                    margin-bottom:$m-25;
+                    margin-bottom:25px;
                     a{
                         color:$blue-darkest;
                     }
@@ -103,7 +103,7 @@
                     text-decoration: underline;
                     color:$brand-color;
                     width: auto;
-                    @include font($font-16,$line-21,$font-bold);
+                    @include font(16px,21px,700);
                     &:hover{
                         color:$blue-darkest;
                     }
@@ -117,8 +117,8 @@
                 }
                 .category{
                     h4{
-                        margin-bottom:$m-15;
-                        @include font($font-16,$line-21,$font-medium);
+                        margin-bottom:15px;
+                        @include font(16px,21px,500);
                         text-transform: capitalize;
                     }
                     .submenu{
@@ -166,12 +166,12 @@
                     list-style-type: none;
                     list-style-position: inside;
                     color:$blue;
-                    margin-left:$m-0;
+                    margin-left:0px;
                     padding-left:0;
                     li{
                         margin:12px 0;
                         a{
-                            @include font($font-16,$line-18,$font-medium);
+                            @include font(16px,18px,500);
                             text-transform: capitalize;
                         }
                     }
@@ -185,8 +185,8 @@
                     .submenu-area{
                         display: grid;
                         grid-template-columns: repeat(4,1fr);
-                        grid-column-gap: $m-25;
-                        grid-row-gap: $m-30;
+                        grid-column-gap: 25px;
+                        grid-row-gap: 30px;
                     }
                 }
             }
@@ -204,7 +204,7 @@
             }
             &.nav-item{
                 &>a{
-                    padding:$m-10 $m-30;
+                    padding:10px 30px;
                 }
                 
             }
@@ -266,19 +266,19 @@
                         display: grid !important;
                         width:100%;
                         grid-template-columns: repeat(2, 1fr) !important;
-                        grid-row-gap: $m-10 !important;
-                        margin-bottom:$m-15;
+                        grid-row-gap: 10px !important;
+                        margin-bottom:15px;
                         .category{
-                            margin-top:$m-10;
+                            margin-top:10px;
                             .submenu{
                                 color:rgba($blue-darkest,60%) !important;
                             }
                             h4,.accordion-button{
-                                @include font($font-14,$line-26,$font-medium);
+                                @include font(14px,26px,500);
                             }
                             li{
                                 a{
-                                    @include font($font-14,$line-23);
+                                    @include font(14px,23px);
                                     color:rgba($blue-darkest,60%) !important;
                                     margin-left: -5px;
                                 }
@@ -329,7 +329,7 @@
                 .dropdown-menu{
                     padding:0;
                     .submenu-area{
-                        margin-top:$m-30;
+                        margin-top:30px;
                     }
                 }
                 .dropdown-toggle{
@@ -337,7 +337,7 @@
                         float:right;
                     }
                     &.show{
-                        font-weight: $font-bold;
+                        font-weight: 700;
                         .arrow{
                             transform: rotate(90deg);
                         }
@@ -349,7 +349,7 @@
             display: block;
             margin-top:25px;
             .title{
-                @include font($font-16,$line-21,$font-medium);
+                @include font(16px,21px,500);
                 color:rgba($blue-darkest,0.4);
             }
             ul{
@@ -360,7 +360,7 @@
                     a{
                         display: block;
                         padding: 10px 0;
-                        @include font($font-16,$line-21,$font-medium);
+                        @include font(16px,21px,500);
                         color:$blue-darkest;
                     }
                 }
@@ -374,7 +374,7 @@
     //         content: ">";
     //         position: absolute;
     //         right: 12px;
-    //         @include font($font-18,$line-23);
+    //         @include font(18px,23px);
     //         top: 14px;
     //         display: inline-block;
     //         height: 16px;

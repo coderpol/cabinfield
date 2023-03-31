@@ -1,16 +1,16 @@
 .popular-section{
-    margin:$m-100 0;
+    margin:10px0 0;
     @include upto-phone{
         margin-bottom:20px;
     }
     .section-title{
-        margin-bottom:$m-40;
+        margin-bottom:40px;
     }
     &.type-box{
         .popular-area{
             .popular-sample{
                 flex-basis:23%;
-                border-radius:$m-20;
+                border-radius:20px;
                 border:1px solid $gray;
                 padding:0;
                 margin:1%;
@@ -27,14 +27,14 @@
                     margin:3%;
                 }
                 .text{
-                    padding:$m-15;
+                    padding:15px;
                     h4{
-                        @include font($font-20,$line-26,$font-bold);
-                        margin-bottom:$m-10;
-                        margin-top:$m-15;
+                        @include font(20px,26px,700);
+                        margin-bottom:10px;
+                        margin-top:15px;
                     }
                     p{
-                        @include font($font-16,$line-26);
+                        @include font(16px,26px);
                         color:$gray-dark-3;
                     }
                 }
@@ -47,17 +47,17 @@
     
     &.type-row{
         .popular-sample{
-            margin:$m-20 0;
-            border:$thin solid $gray;
-            padding:$m-20;
-            @include rounded($m-20);
+            margin:20px 0;
+            border:1px solid $gray;
+            padding:20px;
+            @include rounded(20px);
             @include upto-phone{
-                margin:$m-0 auto $m-40;
+                margin:0px auto 40px;
                 flex-basis: 90%;
             }
             p{
                 color:$gray-dark-3;
-                @include font($font-16, $m-25);
+                @include font(16px, 25px);
                 @include upto-phone{
                     &:last-child,&:only-child{
                         margin-bottom:0;
@@ -67,12 +67,12 @@
             .image{
                 margin-bottom:0;
                 padding-left:0;
-                @include rounded($m-20);
+                @include rounded(20px);
                 display: block;
                 overflow: hidden;
                 @include upto-phone{
-                    // @include rounded($m-40);
-                    margin-bottom:$m-20;
+                    // @include rounded(40px);
+                    margin-bottom:20px;
                     padding-right:0;
                     img{
                         max-height: 192px;
@@ -82,9 +82,9 @@
             
             .sample-details{
                 h3{
-                    @include font($font-24, $line-31,$font-bold);
+                    @include font(24px, 31px,700);
                     color:$blue-darkest;
-                    margin-bottom:$m-10;
+                    margin-bottom:10px;
                 }
                 @include upto-phone{
                     padding:0;
@@ -92,12 +92,12 @@
             }
             .sample-use{
                 h4{
-                    @include font($font-18, $line-23,$font-bold);
-                    margin-bottom:$m-15;
+                    @include font(18px, 23px,700);
+                    margin-bottom:15px;
                 }
                 @include upto-phone{
                     padding:0;
-                    margin-top:$m-30;
+                    margin-top:30px;
                     
                 }
             }

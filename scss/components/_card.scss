@@ -9,50 +9,50 @@
         }
     }
     &.summary-card{
-        padding:0 $m-10 $m-30;
+        padding:0 10px 30px;
         &.no-padding{
             padding:0;
             @include upto-phone{
-                padding:0 $m-10 $m-30;
+                padding:0 10px 30px;
             }
         }
         @include upto-phone{
-            padding-top:$m-30;
+            padding-top:30px;
         }
         .btn{
-            margin:$m-10 0;
+            margin:10px 0;
             padding: 15px;
             @include upto-phone{
-                margin:$m-10 auto;
+                margin:10px auto;
                 max-width:350px;
                 display: block;
             }
         }
         .card-title{
-            @include font($font-20,$line-26,$font-bold);
-            margin-bottom:$m-20;
+            @include font(20px,26px,700);
+            margin-bottom:20px;
             color:$blue-darkest;
         }
         .card-body{
             flex:none;
-            padding:$m-30 $m-25;
-            @include rounded($m-15);
+            padding:30px 25px;
+            @include rounded(15px);
             .list-group{
                 list-style-type: none;
             }
             
             @include upto-phone{
-                margin-bottom:$m-30;
+                margin-bottom:30px;
                 box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1) !important;
             }
         }
         .note{
-            margin-top:$m-20;
+            margin-top:20px;
             background: #EAEDF1;
-            @include rounded($m-15);
+            @include rounded(15px);
             p{
                 color:$blue;
-                @include font($font-14,$line-23);
+                @include font(14px,23px);
                 padding:15px;
                 margin-bottom:0;
             }
@@ -68,10 +68,10 @@
         .thin-border{
             background-color: $gray-dark-1;
             height:1px;
-            margin:$m-70 0 $m-20;
+            margin:70px 0 20px;
         }
         .card-body{
-            @include rounded($m-15);
+            @include rounded(15px);
         }
     }
     

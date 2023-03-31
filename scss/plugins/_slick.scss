@@ -21,7 +21,7 @@
     padding: 0;
     @include upto-pc{
         overflow:hidden;
-        margin:0 0 $m-30 0 !important;
+        margin:0 0 30px 0 !important;
     }
     &:focus {
         outline: none;
@@ -128,10 +128,10 @@
 
 .slick-prev,
 .slick-next {
-    height: $m-65;
-    width: $m-65;
-    border-radius:$m-60;
-    box-shadow: 0px 0px $m-10 rgba($black,0.1);
+    height: 65px;
+    width: 65px;
+    border-radius:60px;
+    box-shadow: 0px 0px 10px rgba($black,0.1);
     line-height: 0px;
     font-size: 0px;
     cursor: pointer;
@@ -145,7 +145,7 @@
     margin-top: -32px;
     z-index:999;
     background-position:center center !important;
-    border: $thin solid $white;
+    border: 1px solid $white;
     &:hover, &:focus {
         outline: none;
         border-color: $brand-color;
@@ -182,7 +182,7 @@
         display: inline-block;
         height: 4px;
         width: 4px;
-        margin: 0 $m-10;
+        margin: 0 10px;
         padding: 0;
         cursor: pointer;
         button {

@@ -1,7 +1,7 @@
 .topbar-area{
     background: $blue;
     color:$white;
-    height:$m-40;
+    height:40px;
     @include upto-tablet{
         display:none;
     }
@@ -24,7 +24,7 @@
         }
         @include from-pc{
             &+li{
-                margin-left:$m-20;
+                margin-left:20px;
             }
         }
     }
@@ -34,7 +34,7 @@
             float:left;
             padding-left:0;
             li{
-                margin-right: $m-10;
+                margin-right: 10px;
                 a{
                    text-transform: capitalize;
                 }
@@ -44,16 +44,16 @@
             // width:40%;
             float:left;
             text-align: right;
-            padding: $m-10;
+            padding: 10px;
             li{
                 i{
-                    margin-right:$m-5;
+                    margin-right:5px;
                 }
                 a{
                     padding:0;
                 }
                 &+li{
-                    margin-left:$m-20;
+                    margin-left:20px;
                 }
             }
         }

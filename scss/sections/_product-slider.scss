@@ -1,13 +1,13 @@
 .product-slider-section{
     .slider-row{
         position:relative;
-        margin-bottom:$m-60;
+        margin-bottom:60px;
         .more{
             position:absolute;
             top:7px;
             right:20px;
             color:$brand-color;
-            @include font($font-16,$line-21);
+            @include font(16px,21px);
             @include upto-phone{
                 display: none;
             }
@@ -24,7 +24,7 @@
             position:relative;
             @include above-phone{
                 max-width: 254px;
-                margin:1px $m-20;
+                margin:1px 20px;
             }
             @include upto-phone{
                 padding:10px;
@@ -38,7 +38,7 @@
                 text-align: center;
                 // background: $whitish-1;
                 width:100%;
-                padding:$m-10;
+                padding:10px;
                 @include above-phone{
                     &:hover{
                         box-shadow: 0 0 4px rgba(3, 1, 1, 0.3);
@@ -64,16 +64,16 @@
                 position: absolute;
                 top: 15px;
                 right: 20px;
-                @include rounded($m-30);
+                @include rounded(30px);
                 box-shadow: 0 0 10px rgba($black,0.1);
                 a,button{
                     display: block;
-                    @include square($m-40);
-                    @include rounded($m-30);
+                    @include square(40px);
+                    @include rounded(30px);
                     border:none;
                     background-color: white;
                     i{
-                        @include font($font-18,$m-40);
+                        @include font(18px,40px);
                         color:$blue;
                     }
                     &:hover, &.selected{
@@ -85,7 +85,7 @@
                 }
             }
             .title{
-                @include font($font-18,$line-26,$font-bold);
+                @include font(18px,26px,700);
                 color:$blue-darkest;
                 a{
                     color:$blue-darkest;
@@ -93,7 +93,7 @@
             }
             .details{
                 color:$gray-dark-3;
-                @include font($font-14,$line-18);
+                @include font(14px,18px);
                 margin-bottom:10px;
             }
             .price{
@@ -102,16 +102,16 @@
                 font-weight: bold;
                 .value{
                     color:$brand-color;
-                    @include font($font-18,$line-18,$font-medium);
+                    @include font(18px,18px,500);
                 }
             }
             .availability{
                 display:inline-block;
-                @include font(12px,100%,$font-medium);
-                padding:5px $m-10;
+                @include font(12px,100%,500);
+                padding:5px 10px;
                 background: rgba(179, 82, 44, 0.14);
                 color:$brand-color;
-                @include rounded($m-30);
+                @include rounded(30px);
             }
         }
         .slick-arrow{

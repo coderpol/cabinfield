@@ -1,11 +1,11 @@
 .cabinform{
     
     .form-line{
-        margin-bottom:$m-15;
+        margin-bottom:15px;
     }
     label,.form-label{
-        @include font($font-16,$line-23,$font-medium);
-        margin-bottom:$m-10;
+        @include font(16px,23px,500);
+        margin-bottom:10px;
         color:$black;
         &.compact{
             letter-spacing: -0.5px;
@@ -21,7 +21,7 @@
             line-height:30px;
             margin-bottom:0;
             color:$blue-darker-1;
-            font-weight: $font-normal;
+            font-weight: 400;
         }
         &:checked{
             background-color:$brand-color;
@@ -63,7 +63,7 @@
             @include from-pc{
                 margin-bottom:0;
                 &+.form-line{
-                    margin-top:$m-25;
+                    margin-top:25px;
                 }
                 .form-control{
                     margin-bottom:0;
@@ -80,7 +80,7 @@
         }
         .accordion-button{
             border-bottom:none !important;
-            @include font($font-18,$line-23,$font-bold);
+            @include font(18px,23px,700);
             color:$blue-darkest;
             &:after{
                 color:$blue-darkest !important;
@@ -88,10 +88,10 @@
         }
         .accordion-body{
             .form-check{
-                margin-bottom:$m-5;
+                margin-bottom:5px;
             }
             .form-check-label{
-                @include font($font-16,$line-29);
+                @include font(16px,29px);
                 color:$blue-darkest;
                 max-width: 170px;
             }
@@ -110,17 +110,17 @@
     
     &.order-form{
         .form-part{
-            border:$thin solid $gray;
-            @include rounded($m-15);
-            padding:$m-20;
-            margin-bottom:$m-30;
+            border:1px solid $gray;
+            @include rounded(15px);
+            padding:20px;
+            margin-bottom:30px;
             position:relative;
             .remover{
                 position:absolute;
                 top:20px;
                 right:20px;
                 color:$brand-color;
-                @include font($font-16,$line-21,$font-bold);
+                @include font(16px,21px,700);
                 cursor:pointer;
                 &:hover{
                     color:$blue-darkest;

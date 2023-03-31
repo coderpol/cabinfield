@@ -9,7 +9,7 @@
         max-height: 174px;
     }
     .title{
-        @include font($font-24,$line-31,$font-bold);
+        @include font(24px,31px,700);
         margin-top:26px;
         margin-bottom:10px;
         text-align:left;
@@ -22,7 +22,7 @@
         li{
             margin:7px 0;
             color:$blue-darkest;
-            @include font($font-16,$line-21,$font-medium);
+            @include font(16px,21px,500);
             span{
                 color:$blue;
             }

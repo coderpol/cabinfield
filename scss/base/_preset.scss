@@ -112,10 +112,10 @@ img {
 input,
 select,
 textarea {
-    padding: $m-10 $m-5;
+    padding: 10px 5px;
     border: 1px solid darken($white,50%);
-    font-size: $base-font-size;
-    margin-bottom: $m-10;
+    font-size: 14px;
+    margin-bottom: 10px;
 }
 input:focus,
 select:focus,
@@ -135,7 +135,7 @@ input{
     &[type="checkbox"]{
         width:auto;
         transform: scale(1.75);
-        margin-right:$m-10;
+        margin-right:10px;
     }
 }
 input[type=number] {
@@ -158,9 +158,9 @@ input::-webkit-inner-spin-button {
 /* body preset */
 body {
     font-family: $font-dm;
-    font-size: $base-font-size;
-    line-height: $base-line-height;
-    font-weight: $font-normal;
+    font-size: 14px;
+    line-height: 1.428571429em;
+    font-weight: 400;
     -webkit-font-smoothing: antialiased;
     position: relative;
     overflow-x: hidden;

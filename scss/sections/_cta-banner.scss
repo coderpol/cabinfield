@@ -1,10 +1,10 @@
 .cta-banner{
     .banner{
-        padding:$m-100;
-        border-radius:$m-20;
+        padding:10px0;
+        border-radius:20px;
         text-align:center;
-        margin-top:$m-50;
-        margin-bottom:$m-100;
+        margin-top:5px0;
+        margin-bottom:10px0;
         &.home-cta{
             background: url('../images/bg/jumbo.svg') no-repeat;
             background-size: cover;
@@ -15,12 +15,12 @@
             }
             .btn{
                 box-shadow: 0px 12px 48px rgba(0, 0, 0, 0.14);
-                @include font($font-16,$line-21);
+                @include font(16px,21px);
                 @include from-pc{
-                    padding:$m-15 $m-50;
+                    padding:15px 5px0;
                 }
                 @include upto-phone{
-                    padding:$m-15 $m-20;
+                    padding:15px 20px;
                     width:100%;
                 }
             }
@@ -29,25 +29,25 @@
             color:$white;
         }
         h3{
-            @include font($font-44,140%,$font-bold);
-            margin-bottom:$m-30;
+            @include font(44px,140%,700);
+            margin-bottom:30px;
             @include upto-phone{
-                @include font($font-36,$line-47,$font-bold); 
+                @include font(36px,47px,700); 
             }
         }
         h4{
-            @include font($font-30,$m-40,$font-bold);
-            margin-bottom:$m-40;
+            @include font(30px,40px,700);
+            margin-bottom:40px;
             @include upto-phone{
-                @include font($font-18,180&,$font-medium); 
+                @include font(18px,180&,500); 
             }
         }
         p{
-            @include font($font-18,160%);
-            margin-bottom:$m-20;
-            font-weight: $font-normal;
+            @include font(18px,160%);
+            margin-bottom:20px;
+            font-weight: 400;
             a{
-                font-weight: $font-bold;
+                font-weight: 700;
             }
         }
     }
@@ -59,7 +59,7 @@
             width:90%;
             margin-left:auto;
             margin-right:auto;
-            padding:$m-50 $m-20;
+            padding:5px0 20px;
         }
     }
 }

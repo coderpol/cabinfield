@@ -1,49 +1,49 @@
 .wishlist-section{
-    padding:$m-80 0;
+    padding:80px 0;
     .wishlist-area{
         @include from-tablet{
-            margin-bottom:$m-100;
+            margin-bottom:10px0;
         }
-        // padding:0 $m-15;
+        // padding:0 15px;
     }
     .wishlist-item{
-        padding:$m-30 0;
+        padding:30px 0;
         border-bottom:1px solid $border-color;
         img{
             max-width: 275px;
         }
         .item-details{
             @include upto-phone{
-                margin:$m-30 0;
+                margin:30px 0;
             }
             @include from-tablet{
-                padding-top:$m-40;
+                padding-top:40px;
             }
             h3,h4{
                 color:$blue-darkest;
-                @include font($font-24,$line-31,$font-bold);
+                @include font(24px,31px,700);
                 margin-bottom:5px;
             }
             .price{
                 color:$blue;
-                @include font($font-24,$line-21);
+                @include font(24px,21px);
                 @include upto-tablet{
-                    @include font($font-18,$line-21);
+                    @include font(18px,21px);
                 }
                 span{
                     color:$brand-color;
-                    font-weight: $font-bold;
+                    font-weight: 700;
                 }
             }
         }
         .action{
             @include from-tablet{
-                padding-top:$m-40;
+                padding-top:40px;
                 
             }
             .buttons{
                 .btn{
-                    margin-bottom:$m-15;
+                    margin-bottom:15px;
                     padding: 12px;
                     max-width: 400px;
                 }

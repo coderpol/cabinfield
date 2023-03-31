@@ -6,8 +6,8 @@ button{
 }
 .btn{
     display: inline-block;
-    padding:$m-10 $m-30;
-    border-radius:$m-50;
+    padding:10px 30px;
+    border-radius:5px0;
     text-align: center;
     background-color: $black;
     color:$white;
@@ -28,16 +28,16 @@ button{
     }
     
     &.btn-large{
-        padding:$m-15 $m-60;
-        @include font($font-16,160%,$font-bold);
+        padding:15px 60px;
+        @include font(16px,160%,700);
     }
     &.btn-medium{
-        padding:$m-15 $m-40;
-        @include font($font-14,160%,$font-bold);
+        padding:15px 40px;
+        @include font(14px,160%,700);
     }
     &.btn-wide{
-        padding:$m-10 $m-60;
-        font-size:$font-14;
+        padding:10px 60px;
+        font-size:14px;
     }
     
     &:hover{
@@ -46,7 +46,7 @@ button{
         color:$white;
     }
     .shadow{
-        box-shadow: 0 $m-10 $m-15 $m-5 rgba($black,0.1);
+        box-shadow: 0 10px 15px 5px rgba($black,0.1);
     }
     &.btn-block{
         width:100%;
@@ -68,9 +68,9 @@ button{
     
     &.btn-thanks{
         text-align:left;
-        padding: $m-15 $m-45;
+        padding: 15px 45px;
         @include from-pc{
-            margin-right: $m-15;
+            margin-right: 15px;
         }
         
         .title{
@@ -90,7 +90,7 @@ button{
             }
         }
         @include upto-phone{
-            margin-bottom:$m-20;
+            margin-bottom:20px;
             border:0;
             padding:0;
             border-radius:0;
@@ -112,8 +112,8 @@ button{
         @include rounded(12px);
         background-color: #F7F7F7;
         color:$blue-darker-2;
-        @include font($font-20,$line-26);
-        padding:$m-20;
+        @include font(20px,26px);
+        padding:20px;
         &:hover{
             background:$blue-darkest;
             color:$white;

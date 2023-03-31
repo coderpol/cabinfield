@@ -9,8 +9,8 @@
 .container{
     width:100%;
     max-width:1200px;
-    margin:$m-0 auto;
-    padding:$m-0 $m-20;
+    margin:0px auto;
+    padding:0px 20px;
     &.small{
         max-width: 720px;
     }
@@ -137,7 +137,7 @@
             width:100%;
             border-radius: 40px;
             padding: 16px 10px 16px 55px;
-            border:$thin solid $blue-light-2;
+            border:1px solid $blue-light-2;
             margin-bottom:0;
             appearance: none;
             font-size:20px;
@@ -185,8 +185,8 @@
 
 
 .footer{
-    border-top: $thin solid $gray;
-    padding:$m-30 0;
+    border-top: 1px solid $gray;
+    padding:30px 0;
     padding-bottom:80px;
     a,p{
         color:$blue-darker-2;
@@ -200,7 +200,7 @@
         margin-right: 5%;
         img{
             @include upto-phone{
-                // margin:0 auto $m-20;
+                // margin:0 auto 20px;
             }
             @include above-phone{
                 margin-bottom:20px;
@@ -209,7 +209,7 @@
         }
         .copyright{
             color:$blue-darker-2;
-            @include font($font-16,$font-24);
+            @include font(16px,24px);
             @include upto-tablet{
                 color:$brand-color;
             }

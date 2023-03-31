@@ -1,7 +1,7 @@
 .page-content{
-    padding:$m-20 0 $m-50;
+    padding:20px 0 5px0;
     p{
-        @include font($font-16,$line-26);
+        @include font(16px,26px);
         // color:$gray-dark-3;
         color:$blue-darkest;
         .primary{
@@ -16,9 +16,9 @@
         }
     }
     .article{
-        margin-bottom:$m-80;
+        margin-bottom:80px;
         .rounded-samples{
-            margin:$m-40 auto $m-30;
+            margin:40px auto 30px;
             display: flex;
             flex-direction: row;
             flex-wrap: nowrap;
@@ -34,14 +34,14 @@
                 }
                 span,p{
                     display:inline-block;
-                    margin-top:$m-20;
-                    @include font($font-20, $line-26, $font-bold);
+                    margin-top:20px;
+                    @include font(20px, 26px, 700);
                     color:$blue-darkest;
                 }
             }
             @include upto-phone{
                 flex-direction: column;
-                margin-bottom:$m-0;
+                margin-bottom:0px;
                 li{
                     img{
                         display: block;
@@ -49,7 +49,7 @@
                     }
                     flex-basis:100%;
                     text-align:center;
-                    margin-bottom:$m-50;
+                    margin-bottom:5px0;
                     &:last-child{
                         margin-bottom:0;
                     }
@@ -58,13 +58,13 @@
         }
     }
     .edit-icon{
-        width:$m-40;
-        height:$m-40;
+        width:40px;
+        height:40px;
         display: inline-block;
-        padding:$m-10;
+        padding:10px;
     }
     .review-item{
-        margin-bottom:$m-40;
+        margin-bottom:40px;
         @include from-pc{
             padding-right:15%;
         }
@@ -76,31 +76,31 @@
             max-width: 200px;
             @include upto-phone{
                 max-width: 160px;
-                margin-top:$m-20;
+                margin-top:20px;
             }
         }
     }
     .quotation-area{
-        margin:$m-30 0 $m-80;
+        margin:30px 0 80px;
         .quotation{
             border-top:1px solid $gray;
-            padding:$m-50 0 $m-40;
+            padding:5px0 0 40px;
             &:last-child{
                 border-bottom:1px solid $gray;
             }
             &:before{
-                width:$m-40;
-                height:$m-35;
-                background-size: $m-40;
+                width:40px;
+                height:35px;
+                background-size: 40px;
             }
             blockquote{
-                margin:$m-10 0 $m-15;
-                font-weight: $font-medium;
+                margin:10px 0 15px;
+                font-weight: 500;
                 color:$blue-darker-4;
             }
             p{
                 .author{
-                    @include font($font-16,$line-23,$font-medium);
+                    @include font(16px,23px,500);
                     color:$blue-darkest;
                     margin-bottom:0;
                     &.verified{
@@ -111,10 +111,10 @@
                     }
                 }
                 .address{
-                    @include font($font-14,$line-18);
+                    @include font(14px,18px);
                 }
                 &.history{
-                    @include font($font-16,$line-23,$font-bold);
+                    @include font(16px,23px,700);
                     a{
                         color:$brand-color;
                         text-decoration: none;
@@ -129,20 +129,20 @@
     
     .page-sidebar{
         @include upto-phone{
-            margin-bottom:$m-50;
+            margin-bottom:5px0;
         }
         .card-body{
-            padding:$m-25;
-            @include rounded($m-15);
+            padding:25px;
+            @include rounded(15px);
         }
         .page-list{
             padding-left:0;
             list-style-type: none;
             li{
                 border-bottom:1px solid $gray;
-                padding:$m-15 0;
+                padding:15px 0;
                 a{
-                    @include font($font-16,$m-20);
+                    @include font(16px,20px);
                     @include upto-phone{
                         display: block;
                         padding:3px 0;
@@ -155,7 +155,7 @@
                 }
                 &.active{
                     a{
-                        font-weight: $font-medium;
+                        font-weight: 500;
                         color:$brand-color;
                     }
                 }
@@ -165,10 +165,10 @@
     
     .accordion-area{
         .accordion{
-            margin-bottom:$m-40;
+            margin-bottom:40px;
             &.no-section-heading{
                 .accordion-button{
-                    @include font($font-20,$line-23,$font-bold);
+                    @include font(20px,23px,700);
                     color:$blue-darkest;
                 }
                 .accordion-item{
@@ -184,14 +184,14 @@
         .accordion-button{
             padding-left:0;
             position:relative;
-            padding-right:$m-50;
+            padding-right:5px0;
             
-            border-bottom:$thin solid $brand-color;
+            border-bottom:1px solid $brand-color;
             color:$brand-color;
             &:after{
                 content:">";
                 background-image: none;
-                @include font($font-20,$font-20,$font-bold);
+                @include font(20px,20px,700);
                 position: absolute;
                 right: 20px;
                 top: 23px;
@@ -222,7 +222,7 @@
         }
         .accordion-flush{
             .accordion-item{
-                border-bottom: $thin solid $gray-light-1;
+                border-bottom: 1px solid $gray-light-1;
             }
         }
         &.faq-accordion{
@@ -231,7 +231,7 @@
             }
             .accordion-collapse{
                 .accordion-body{
-                    padding-left:$m-25;
+                    padding-left:25px;
                     background-color: #F7F7F7;
                     p{
                         color:$gray-dark-3;
@@ -246,11 +246,11 @@
             color:$blue-darkest;
         }
         .sub-article{
-            margin-bottom:$m-40;
+            margin-bottom:40px;
             
             @include from-pc{
                 &:last-child{
-                    margin-bottom:$m-90;
+                    margin-bottom:90px;
                 }
             }
             
@@ -288,27 +288,27 @@
         border:1px solid $gray;
         border-left:0;
         border-right:0;
-        padding:$m-50 0;
+        padding:5px0 0;
         .work-point{
             text-align:center;
-            padding:0 $m-25;
+            padding:0 25px;
             
             .icon{
                 display:inline-block;
-                width: $m-65;
-                height:$m-65;
-                @include rounded($m-40);
+                width: 65px;
+                height:65px;
+                @include rounded(40px);
                 background: $brand-color;
-                padding:$m-15;
-                margin-bottom:$m-30;
+                padding:15px;
+                margin-bottom:30px;
             }
             h3,h4{
-                @include font($font-24,$line-31,$font-bold);
+                @include font(24px,31px,700);
                 color:$blue-darkest;
             }
             &+.work-point{
                 @include upto-phone{
-                    margin-top:$m-40;
+                    margin-top:40px;
                 }
             }
         }
@@ -356,7 +356,7 @@
             padding: 10px;
         }
         .btn{
-            @include rounded($m-5);
+            @include rounded(5px);
         }
         
     }
@@ -371,16 +371,16 @@
         // justify-content: flex-end;
         // align-items: center;
         li{
-            margin-left:$m-20;
+            margin-left:20px;
         }
         .btn{
-            @include font($font-16,160%,$font-medium);
+            @include font(16px,160%,500);
             &.btn-white{
                 background-color: $white;
                 color:$blue-darkest;
                 i{
                     color:$brand-color;
-                    margin-right:$m-15;
+                    margin-right:15px;
                 } 
                 &:hover{
                     color:$brand-color;
@@ -393,8 +393,8 @@
         
         .sort-by{
             span{
-                @include font($font-16,$m-50,$font-medium);
-                margin-right: $m-20;
+                @include font(16px,5px0,500);
+                margin-right: 20px;
             }
             select{
                 text-align:left;

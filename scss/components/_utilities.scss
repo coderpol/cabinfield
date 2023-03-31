@@ -2,29 +2,29 @@
     align-items: center;
 }
 .border-bottom{
-    border-bottom:$thin solid $gray;
-    padding-bottom:$m-50;
-    margin-bottom:$m-50;
+    border-bottom:1px solid $gray;
+    padding-bottom:5px0;
+    margin-bottom:5px0;
     &.border-only{
-        padding-bottom:$m-10;
-        margin-bottom:$m-10;
+        padding-bottom:10px;
+        margin-bottom:10px;
     }
 }
 
 .border-right{
     @include from-pc{
-        border-right:$thin solid $gray;
+        border-right:1px solid $gray;
     }
 }
 
 .billing-area{
     @include upto-phone{
-        margin-top:$m-40;
+        margin-top:40px;
     }
 }
 
 .mb-100{
-    margin-bottom:$m-100 !important;
+    margin-bottom:10px0 !important;
 }
 
 .rotate-90{
@@ -38,7 +38,7 @@
 }
 
 .rating-block{
-    margin-bottom:$m-15;
+    margin-bottom:15px;
     display: flex;
     .rating,.rating-value{
         width:110px;
@@ -59,7 +59,7 @@
         }
     }
     .value{
-        @include font($font-22,$line-26,$font-bold);
+        @include font(22px,26px,700);
         color:$brand-color;
         padding-left:10px;
     }
@@ -69,7 +69,7 @@
     .rating-bar,.rating-value{
         display: block;
         height:6px;
-        @include rounded($m-10);
+        @include rounded(10px);
     }
     .rating-bar{
         background: #E5DFDD;
@@ -87,7 +87,7 @@
             position:absolute;
             top:-9px;
             right:-45px;
-            @include font($font-14,$line-21);
+            @include font(14px,21px);
             color:$gray-dark-3;
         }
     }

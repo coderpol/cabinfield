@@ -1,33 +1,29 @@
 .order-confirmation-section{
     .confirmation-box{
-        margin-top:$m-80;
-        margin-bottom:$m-100 *2+$m-40;
+        margin:80px 0;
         @include upto-phone{
-            margin: $m-20 0 $m-100;
+            margin: 20px 0 10px;
         }
         h2{
-            font-size:$font-40;
+            font-size:40px;
             line-height: 150%;
             color:$blue-darkest;
-            font-weight: $font-bold;
+            font-weight: 700;
         }
         h3{
-            font-size:$font-24;
-            line-height: $line-31;
-            font-weight: $font-bold;
+            font-size:24px;
+            line-height: 31px;
+            font-weight: 700;
             color:$blue-darkest;
             span{
                 color:$brand-color;
             }
         }
         p{
-            font-size:$font-16;
-            line-height: $font-24;
+            font-size:16px;
+            line-height: 24px;
             color:$gray-dark-3; 
-            margin-bottom:$m-40;
-        }
-        .btn{
-            
+            margin-bottom:40px;
         }
     }
 }

@@ -7,28 +7,28 @@
             text-align:left;
             @include upto-phone{
                 text-align: center;
-                margin-top:$m-40;
+                margin-top:40px;
             }
             h1,h2,h3,h4{
-                @include font($font-36,120%,$font-bold);
+                @include font(36px,120%,700);
             }
             
         }
         .button-area{
             text-align:right;
             .btn{
-                box-shadow: 0 $m-10 $m-15 $m-5 rgba($black,0.1);
+                box-shadow: 0 10px 15px 5px rgba($black,0.1);
                 @include upto-phone{
-                    padding:$m-15 $m-30;
+                    padding:15px 30px;
                 }
             }
         }
     }
     .heading-text{
-        margin-top:$m-60;
-        margin-bottom:$m-30;
+        margin-top:60px;
+        margin-bottom:30px;
         .head{
-            @include font($font-24,$line-31,$font-bold);
+            @include font(24px,31px,700);
             color:$blue-darkest;
             @include upto-phone{
                 text-align: center;
@@ -38,23 +38,23 @@
         }
         p{
             color:$gray-dark-3;
-            @include font($font-16,$line-26);
+            @include font(16px,26px);
         }
     }
 }
 .section-title{
     p{
         color:$gray-dark-3;
-        @include font($font-16,$line-26);
+        @include font(16px,26px);
         &+p{
-            margin-top:$m-30;
+            margin-top:30px;
         }
     }
 }
 
 .breadcrumb-section{
     &+.page-heading-section{
-        margin-top:$m-30;
+        margin-top:30px;
     }
 }
 
@@ -64,13 +64,13 @@
         .page-headline{
             .button-area{
                 text-align:center;
-                margin-top:$m-20;
+                margin-top:20px;
             }
         }
     }
     .breadcrumb-section{
         &+.page-heading-section{
-            margin-top:$m-0;
+            margin-top:0px;
         }
     }
 }

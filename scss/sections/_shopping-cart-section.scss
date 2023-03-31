@@ -1,13 +1,13 @@
 .shopping-cart-section{
-    margin-bottom:$m-70;
+    margin-bottom:70px;
     .section-title{
         p{
-            @include font($font-18,$line-23);
+            @include font(18px,23px);
             color:$gray-dark-3;
         }
     }
     @include upto-phone{
-        margin-bottom: $m-20;
+        margin-bottom: 20px;
     }
     .cart-item{
         border-bottom:1px solid $gray;
@@ -15,9 +15,9 @@
         &:last-child{
             border-bottom:0;
         }
-        padding:$m-40 0;
+        padding:40px 0;
         @include from-pc{
-            margin-right:$m-20;
+            margin-right:20px;
             .action{
                 padding-right:0;
             }
@@ -28,19 +28,19 @@
             }
         }
         .item-details{
-            @include font($font-18,$line-23);
+            @include font(18px,23px);
             @include from-pc{
                 width:38%;
             }
             .title{
-                margin-bottom:$m-15;
+                margin-bottom:15px;
                 p{
-                    @include font($font-18,$line-23,$font-bold);
+                    @include font(18px,23px,700);
                     margin-bottom:5px;
                     color:$blue-darkest;
                 }
                 h3,h4{
-                    @include font($font-18,$line-23,$font-medium);
+                    @include font(18px,23px,500);
                     color:$brand-color;
                 }
                 a{
@@ -53,13 +53,13 @@
                 border-bottom:1px solid $gray;
                 p{
                     color:$blue-darkest;
-                    @include font($font-18,$line-23,$font-bold);
+                    @include font(18px,23px,700);
                     @include upto-phone{
-                       margin-bottom:$m-20;
+                       margin-bottom:20px;
                     }
                     span{
                         display: block;
-                        font-weight: $font-normal;
+                        font-weight: 400;
                         margin-top:5px;
                         color:$blue;
                         @include upto-phone{
@@ -74,12 +74,12 @@
                     }
                     .btn{
                         @include square(44px);
-                        @include rounded($m-30);
+                        @include rounded(30px);
                         box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.1);
                         padding:0;
                         background-color: $white;
                         color:$blue-darker-2;
-                        @include font($font-40,41px);
+                        @include font(40px,41px);
                         cursor:pointer;
                         &:hover{
                             background-color: $brand-color;
@@ -87,10 +87,10 @@
                         }
                     }
                     .count{
-                        margin:0 $m-20;
+                        margin:0 20px;
                         @include square(44px);
                         text-align: center;
-                        @include font($font-20,44px,$font-medium);
+                        @include font(20px,44px,500);
                         color:$black;
                         border:0;
                     }
@@ -109,12 +109,12 @@
                 li{
                     color:$blue-darkest;
                     margin-bottom:15px;
-                    font-weight: $font-medium;
+                    font-weight: 500;
                     &:last-child{
                         margin-bottom:0px;
                     }
                     span{
-                        font-weight: $font-normal;
+                        font-weight: 400;
                         color:$blue;
                     }
                 }
@@ -128,17 +128,17 @@
                 margin-top:15px;
             }
             .price-title{
-                @include font($font-18,$line-23,$font-bold);
-                margin-bottom:$m-10;
+                @include font(18px,23px,700);
+                margin-bottom:10px;
                 color:$blue-darkest;
                 @include upto-phone{
-                    margin-top:$m-20;
+                    margin-top:20px;
                 }
                 span{
-                    @include font($font-22,$line-26,$font-medium);
+                    @include font(22px,26px,500);
                     color:$brand-color;
                     display: block;
-                    margin:$m-10 0;
+                    margin:10px 0;
                 }
             }
             .price-details{
@@ -151,7 +151,7 @@
                     }
                 }
                 span{
-                    @include font($font-22,$line-26,$font-medium);
+                    @include font(22px,26px,500);
                     display: inline-block;
                     margin-right:10px;
                     flex-basis: 48%;
@@ -174,7 +174,7 @@
             .buttons{
                 .btn{
                     font-size: 16px;
-                    margin-top:$m-20;
+                    margin-top:20px;
                     padding:15px 10px;
                     max-width: 180px;
                     &.cart-item-remover{
@@ -191,7 +191,7 @@
             p{
                 color:$brand-color;
                 margin-bottom:0;
-                @include font(22px,29px,$font-medium);
+                @include font(22px,29px,500);
                 .greeting{
                     color:$black;
                 }
@@ -200,7 +200,7 @@
         
         .only-details{
             p{
-                @include font($font-20,$font-26,$font-medium);
+                @include font(20px,26px,500);
                 color:$blue-darkest;
                 span{
                     color:$brand-color;
@@ -211,7 +211,7 @@
     
     .card{
         .btn{
-            @include font($font-16,$line-18);
+            @include font(16px,18px);
         }
     }
     .sample-item{
@@ -224,7 +224,7 @@
         .heading{
             margin-bottom:50px;
             h3{
-                @include font(30px,39px,$font-bold);
+                @include font(30px,39px,700);
                 color:$blue-darkest;
                 margin-bottom:0;
             }

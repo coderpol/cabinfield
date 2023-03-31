@@ -51,11 +51,11 @@
         
         border:1px solid $gray;
         text-align:center;
-        @include rounded($m-20);
-        // margin-bottom:$m-20;
+        @include rounded(20px);
+        // margin-bottom:20px;
         h3,h4{
-            @include font($font-18,$font-26,$font-medium);
-            padding: $m-20 $m-15;
+            @include font(18px,26px,500);
+            padding: 20px 15px;
             margin-bottom: 0;
         }
         &.image_padding{

@@ -1,6 +1,6 @@
 .footer{
-    border-top: $thin solid $gray;
-    padding:$m-30 0;
+    border-top: 1px solid $gray;
+    padding:30px 0;
     padding-bottom:80px;
     a,p{
         color:$blue-darker-2;
@@ -22,7 +22,7 @@
             margin-right: 5%;
             img{
                 @include upto-phone{
-                    margin:0 auto $m-20;
+                    margin:0 auto 20px;
                 }
                 @include above-phone{
                     margin-bottom:20px;
@@ -31,7 +31,7 @@
             }
             .copyright{
                 color:$blue-darker-2;
-                @include font($font-16,$font-24);
+                @include font(16px,24px);
                 @include upto-tablet{
                     color:$brand-color;
                 }
@@ -48,7 +48,7 @@
                 flex-direction: row;
                 flex-wrap: nowrap;
                 justify-content: flex-start;
-                margin-bottom:$m-25;
+                margin-bottom:25px;
                 li{
                     margin-right:25px;
                     a{
@@ -82,15 +82,15 @@
                     align-items: center;
                 }
                 a{
-                    line-height: $line-23;
+                    line-height: 23px;
                     @include upto-phone{
-                        line-height:$line-18;
+                        line-height:18px;
                     }
                     i{
                         
                         // display:block;
-                        // width:$m-25+1px;
-                        // height:$m-25+1px;
+                        // width:25px+1px;
+                        // height:25px+1px;
                         // background:url('../images/footer-social-sprite.png') no-repeat;
                         // background-position:0 -107px;
                     }
@@ -104,7 +104,7 @@
                 i{
                     font-size:22px;
                     color:$blue;
-                    margin-right:$m-10;
+                    margin-right:10px;
                     font-weight: 400;
                 }
             }
@@ -125,10 +125,10 @@
             .links{
                 padding-left:0;
                 li{
-                    margin-bottom:$m-10;
+                    margin-bottom:10px;
                     a{
-                        font-size:$font-14;
-                        line-height:$font-16;
+                        font-size:14px;
+                        line-height:16px;
                         &:hover{
                             color:$brand-color;
                             
@@ -173,12 +173,12 @@
                     max-width: 161px;
                 }
                 .copyright{
-                    @include font($font-14,16px);
+                    @include font(14px,16px);
                 }
             }
             .footer-social{
                 flex-basis:49%;
-                margin:$m-30 auto 20px;
+                margin:30px auto 20px;
                 text-align:center;
                 max-width: 200px;
                 .social-icons{
@@ -201,7 +201,7 @@
             .footer-rating{
                 flex-basis:30%;
                 text-align:right;
-                margin:$m-30 auto 20px;
+                margin:30px auto 20px;
                 img{
                     max-width:120px;
                 }
@@ -212,7 +212,7 @@
                     margin-bottom:0;
                     li{
                         border-bottom:1px solid $gray;
-                        margin:$m-0;
+                        margin:0px;
                         a{
                             display:block;
                             padding:8px 0;
@@ -242,7 +242,7 @@
 //                 text-align:left;
 //             }
 //             .footer-social, .footer-rating, .footer-links{
-//                 margin-top:$m-40;
+//                 margin-top:40px;
 //             }
 //             .footer-social{
 //                 .social-icons{

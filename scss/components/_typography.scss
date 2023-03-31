@@ -1,30 +1,30 @@
 .section-title{
-    font-weight: $font-medium;
+    font-weight: 500;
     span{
         color:$brand-color;
     }
     h1,h2,h3,h4{
-        @include font($font-44,$line-57,$font-bold);
-        margin-bottom:$m-20;
+        @include font(44px,57px,700);
+        margin-bottom:20px;
         @include upto-phone{
-            @include font($font-32,$line-42,$font-bold); 
+            @include font(32px,42px,700); 
         }
     }
     &.medium{
         h1,h2,h3,h4{
-            @include font($font-40,$line-52,$font-bold); 
+            @include font(40px,52px,700); 
         }
     }
     &.small{
         h1,h2,h3,h4{
-            @include font($font-36,$line-47,$font-bold); 
-            margin-bottom:$m-15;
+            @include font(36px,47px,700); 
+            margin-bottom:15px;
             
         }
         &.has-mobile-sizing{
             h1,h2,h3,h4{
                 @include upto-phone{
-                    @include font($font-24,$line-31,$font-bold); 
+                    @include font(24px,31px,700); 
                 }
             }
         }
@@ -34,50 +34,50 @@
 
 .section-sub-title{
     h1,h2,h3,h4{
-        @include font($font-24,$line-31,$font-bold);
+        @include font(24px,31px,700);
         color:$blue-darkest;
     }
 }
 .heading-22{
     h1,h2,h3,h4{
-        @include font($font-22,$line-29,$font-medium);
+        @include font(22px,29px,500);
         color:$blue-darkest;
-        margin-bottom:$m-30;
+        margin-bottom:30px;
     }
 }
 .heading-20, .accordion-section-title{
     h1,h2,h3,h4{
-        @include font($font-20,$line-23,$font-bold);
+        @include font(20px,23px,700);
         color:$blue-darkest;
-        margin-bottom:$m-15;
+        margin-bottom:15px;
     }
 }
 .heading-18{
     h2,h3,h4{
-        @include font($font-18,$line-23,$font-bold);
+        @include font(18px,23px,700);
         color:$blue-darkest;
-        margin-bottom:$m-15;
+        margin-bottom:15px;
     }
 }
 
 .article-title{
     h2,h3,h4{
-        @include font($font-24,$line-31,$font-medium);
+        @include font(24px,31px,500);
         color:$brand-color;
-        margin-bottom:$m-20;
+        margin-bottom:20px;
     }
 }
 
 .article-subtitle{
-    @include font($font-16,$line-21,$font-bold);
+    @include font(16px,21px,700);
     color:$blue-darkest;
-    margin-bottom:$m-15;
+    margin-bottom:15px;
 }
 
 h4{
-    @include font($font-18,$line-23,$font-bold);
+    @include font(18px,23px,700);
     color:$blue-darkest;
-    margin-bottom:$m-15;
+    margin-bottom:15px;
 }
 
 .uppercase{
@@ -100,8 +100,8 @@ h4{
 
 .form-section-title{
     h2,h3,h4,h5{
-        @include font($font-24,$line-31,$font-medium);
+        @include font(24px,31px,500);
         color:$black;
-        margin-bottom:$m-20;
+        margin-bottom:20px;
     }
 }
