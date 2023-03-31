@@ -28,6 +28,7 @@
                     <li class="done"><a href="list-of-pre-built-products-v2.php">List of Pre-built products - V2</a></li>
                     <li class="done"><a href="product-1.php">Product - Customize</a></li>
                     <li class="done"><a href="product-2.php">Product - Customize -  V2</a></li>
+                    <li class="working"><a href="product-3.php">Product - Customize -  V3</a></li>
                     <li class="done"><a href="product-1-loading.php">Product Customized - Anim</a></li>
                     <li class="working"><a href="in-stock.php">In Stock</a></li>
                     <li class="done"><a href="shopping-cart.php">Shopping Cart</a></li>
