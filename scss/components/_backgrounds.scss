@@ -1,5 +1,5 @@
 .primary-gradient{
-    @include gradient(rgba(179,82,44,1), rgba(179,82,44,0),linear);
+    @include gradient(rgba(179,82,44,0.8), rgba(179,82,44,0),linear);
 }
 .blue-gradient{
     @include gradient(rgba(98, 117, 144,1), rgba(98, 117, 144,0),linear);

@@ -36,7 +36,7 @@
     </div>
     <div class="row form-line">
         <div class="col-md-6 col-12">
-            <label for="phone" class="form-label">Phone Number <span>(optional)</span></label>
+            <label for="phone" class="form-label">Phone Number <span class="blue">(optional)</span></label>
             <input type="text" class="form-control" id="phone" aria-label="Phone Number" required>
         </div>
         <div class="col-md-6 col-12">
