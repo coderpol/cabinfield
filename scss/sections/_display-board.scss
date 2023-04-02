@@ -19,6 +19,15 @@
                 img{
                     border-radius:10px;
                 }
+                .display-slider {
+                    overflow: hidden;
+                }
+                .slick-next{
+                    right:1px;
+                }
+                .slick-prev{
+                    left:1px;
+                }
             }
             .display-text{
                 // width: 51%;
@@ -56,7 +65,7 @@
                     padding-right:0;
                     padding-left:15px;
                 }
-            }//dd
+            }
            
         }
     }

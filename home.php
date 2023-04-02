@@ -110,15 +110,17 @@ include_once('sections/layouts/header.php')
                         <img src="images/display/fine-furniture.png" alt="">
                     </figure> -->
 
-                    <div class="col-md-6 col-12 display-image display-slider" id="slider-bed">
-                        <div class="slide">
-                            <img src="images/display/fine-furniture.png" alt="">
-                        </div>
-                        <div class="slide">
-                            <img src="images/display/fine-furniture.png" alt="">
-                        </div>
-                        <div class="slide">
-                            <img src="images/display/fine-furniture.png" alt="">
+                    <div class="col-md-6 col-12 display-image">
+                        <div class="display-slider" id="slider-furniture">
+                            <div class="slide">
+                                <img src="images/display/fine-furniture.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="images/display/fine-furniture.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="images/display/fine-furniture.png" alt="">
+                            </div>
                         </div>
                     </div>
                     <article class="col-md-6 col-12 display-text">
@@ -134,9 +136,19 @@ include_once('sections/layouts/header.php')
                 
                 <!-- one category display  -->
                 <div class="display clearfix">
-                    <figure class="col-md-6 col-12 display-image">
-                        <img src="images/display/rustic-live-edge.png" alt="">
-                    </figure>
+                    <div class="col-md-6 col-12 display-image">
+                        <div class="display-slider" id="slider-rustic">
+                            <div class="slide">
+                                <img src="images/display/rustic-live-edge.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="images/display/rustic-live-edge.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="images/display/rustic-live-edge.png" alt="">
+                            </div>
+                        </div>
+                    </div>
                     <article class="col-md-6 col-12 display-text">
                         <header class="section-title">
                             <h3><a href="#"><span>Rustics</span>  & Live Edge</a></h3>
@@ -150,9 +162,19 @@ include_once('sections/layouts/header.php')
 
                 <!-- one category display  -->
                 <div class="display clearfix">
-                    <figure class="col-md-6 col-12 display-image">
-                        <img src="images/display/outdoor.png" alt="">
-                    </figure>
+                    <div class="col-md-6 col-12 display-image">
+                        <div class="display-slider" id="slider-outdoor">
+                            <div class="slide">
+                                <img src="images/display/outdoor.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="images/display/outdoor.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="images/display/outdoor.png" alt="">
+                            </div>
+                        </div>
+                    </div>
                     <article class="col-md-6 col-12 display-text">
                         <header class="section-title">
                             <h3><a href="#"><span>Outdoor</span>  Living</a></h3>

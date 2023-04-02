@@ -1,7 +1,9 @@
 // testimonial slider
 // slick slider
 
-$('#slider-bed').slick();
+$('#slider-furniture').slick();
+$('#slider-rustic').slick();
+$('#slider-outdoor').slick();
 
 $('#testimonial-slider').slick({
   centerMode: true,
