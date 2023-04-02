@@ -106,9 +106,21 @@ include_once('sections/layouts/header.php')
             <div class="col-md-12 display-area">
                 <!-- one category display  -->
                 <div class="display clearfix">
-                    <figure class="col-md-6 col-12 display-image">
+                    <!-- <figure class="col-md-6 col-12 display-image">
                         <img src="images/display/fine-furniture.png" alt="">
-                    </figure>
+                    </figure> -->
+
+                    <div class="col-md-6 col-12 display-image display-slider" id="slider-bed">
+                        <div class="slide">
+                            <img src="images/display/fine-furniture.png" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="images/display/fine-furniture.png" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="images/display/fine-furniture.png" alt="">
+                        </div>
+                    </div>
                     <article class="col-md-6 col-12 display-text">
                         <header class="section-title">
                             <h3><a href="#"><span>Fine</span> Furniture</a></h3>

@@ -1,6 +1,8 @@
 // testimonial slider
 // slick slider
 
+$('#slider-bed').slick();
+
 $('#testimonial-slider').slick({
   centerMode: true,
   dots: true,
