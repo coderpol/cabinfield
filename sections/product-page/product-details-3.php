@@ -30,7 +30,7 @@
 </div>
 <h3>Product Information:</h3>
 <p>With a handcrafted wood kitchen set mealtimes will become the special bonding time you’ve always dreamed of. Solidly constructed fan back chairs are optionally stained in 2 tones.</p>
-<ul>
+<ul class="small-dot">
     <li>Choice of wood species & stains</li>
     <li>Dovetail slat construction</li>
     <li>Available in twin, full queen, king, and California king sizes</li>

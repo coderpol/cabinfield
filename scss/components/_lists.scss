@@ -41,3 +41,16 @@
         }
     }
 }
+.small-dot{
+    list-style-type: none;
+    li{
+        position: relative;
+        &:before{
+            content: "•";
+            font-size: 20px;
+            position: absolute;
+            left: -15px;
+            top: 0px;
+        }
+    }
+}
