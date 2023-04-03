@@ -37,7 +37,8 @@ include_once('sections/layouts/header.php')
                     <p>If you have an account with us, please log in.</p>
                 </div>
                 <div class="alert alert-danger" role="alert">
-                    A simple danger alert—check it out!
+                    <p>We're sorry, but the Username or Password you have entered is invalid. Your Username is your E-mail address.</p>
+                    <p class="mb-0">If you have forgotten your password, please <a href="https://www.cabinfield.com/reset-password/request">click here to reset your password</a>. </p>
                 </div>
                 <form action="" class="cabinform">
                     <div class="row form-line">
@@ -50,7 +51,7 @@ include_once('sections/layouts/header.php')
                         <div class="col-12">
                             <label for="password" class="form-label">Password</label>
                             <input type="password" class="form-control" id="password" aria-label="Password" required>
-                            <a href="#" class="forgot-link">Forgot Your Password</a>
+                            <a href="#" class="forgot-link">Forgot Your Password?</a>
                         </div>
                     </div>
                     <div class="row form-line">
