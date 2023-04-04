@@ -336,6 +336,18 @@
         }
         
     }
+    .tab-content{
+        .tab-pane{
+            .text {
+                a{
+                    @include font(16px,21px,700);
+                    text-decoration: underline;
+                    color:$brand-color;
+                    margin-top:15px;
+                }
+            }
+        }
+    }
     .accordion-item{
         border:0;
         &+.accordion-item{
@@ -536,6 +548,7 @@
                 border:0;
             }
         }
+        
         img{
             width:auto;
         }
