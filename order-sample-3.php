@@ -30,6 +30,7 @@ include_once('sections/layouts/header.php')
                 <h1><span>Order</span> Sample</h1>
                 <p>Choosing the perfect furniture to complement your space can be stressful.</p>
                 <p>Leave the stress and guesswork behind. Make a well-informed purchase by ordering free samples so you can better visualize your unique, final product. Feel the authenticity, watch it take the light, and imagine it as part of your space.</p>
+                <p><a href="#" class="btn btn-primary btn-large">About Our Samples</a></p>
             </div>
         </div>
         <!-- page heading, medium size ends  -->

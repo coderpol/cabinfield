@@ -14,6 +14,7 @@ button{
     border:none;
     outline: none;
     cursor:pointer;
+    text-decoration: none !important;
     transition:all 0.3s ease-in-out;
     &.btn-white{
       background-color: $white;  
@@ -41,9 +42,9 @@ button{
     }
     
     &:hover{
-        text-decoration: none;
+        text-decoration: none !important;
         background-color: $blue-darkest;
-        color:$white;
+        color:$white !important;
     }
     .shadow{
         box-shadow: 0 10px 15px 5px rgba($black,0.1);
