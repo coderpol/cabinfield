@@ -1,7 +1,7 @@
 // testimonial slider
 // slick slider
 
-$('#slider-furniture').slick();
+$('#furniture-slider').slick();
 $('#slider-rustic').slick();
 $('#slider-outdoor').slick();
 
@@ -10,19 +10,23 @@ $('#slider-outdoor').slick();
 $('.slider-thumbs .thumb').on("click",function(){
   $(".display-slider .slick-slide").removeClass("slick-current slick-active").attr("aria-hidden","true");
   let target = $(this).data("slide-target");
-  let parent = "#" + $(this).data("slide-parent");
-  
+  // split the target
+  let target_split = target.split("-");
+  let target_text = target_split[0];
+  let target_number = target_split[1];
+  // make the parent div
+  let parent = "#" + target_text + "-slider";  
   let slide =  parent +" #"+target;
   let track =  parent + " .slick-track";
-  let number = target.split("-");
   let width = $(slide).width();
-  let translet = number[1] * width;
+  let translet = target_number * width;
   
-  let thumbs = parent + " + .slider-thumbs .thumb";
+  // remove active class from all thumbs
+  let thumbs = "#" + target_text + "-thumbs .thumb";
   $(thumbs).removeClass("active");
-  
+  // add active for only this thumb
   $(this).addClass("active");
-  // console.log(thumbs);
+  console.log(thumbs);
   $(slide).addClass("slick-current slick-active").attr("aria-hidden","false");
   $(track).css({
     "transform" : "translate3d(-"+translet+"px, 0px, 0px)",

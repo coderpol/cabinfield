@@ -111,7 +111,7 @@ include_once('sections/layouts/header.php')
                     </figure> -->
 
                     <div class="col-md-6 col-12 display-image">
-                        <div class="display-slider" id="slider-furniture">
+                        <div class="display-slider" id="furniture-slider">
                             <div class="slide" id="furniture-1">
                                 <img src="images/display/slider/main/furniture-1.png" alt="">
                             </div>
@@ -128,20 +128,20 @@ include_once('sections/layouts/header.php')
                                 <img src="images/display/fine-furniture.png" alt="">
                             </div>
                         </div>
-                        <div id="thumb-furniture" class="slider-thumbs">
-                            <div class="thumb" data-slide-target="furniture-1" data-slide-parent="slider-furniture">
+                        <div id="furniture-thumbs" class="slider-thumbs">
+                            <div class="thumb" data-slide-target="furniture-1">
                                 <img src="images/display/slider/thumbs/slider-1-thumb-1.png" alt="">
                             </div>
-                            <div class="thumb" data-slide-target="furniture-2" data-slide-parent="slider-furniture">
+                            <div class="thumb" data-slide-target="furniture-2">
                                 <img src="images/display/slider/thumbs/slider-1-thumb-2.png" alt="">
                             </div>
-                            <div class="thumb" data-slide-target="furniture-3" data-slide-parent="slider-furniture">
+                            <div class="thumb" data-slide-target="furniture-3">
                                 <img src="images/display/slider/thumbs/slider-1-thumb-3.png" alt="">
                             </div>
-                            <div class="thumb" data-slide-target="furniture-4" data-slide-parent="slider-furniture">
+                            <div class="thumb" data-slide-target="furniture-4">
                                 <img src="images/display/slider/thumbs/slider-1-thumb-4.png" alt="">
                             </div>
-                            <div class="thumb" data-slide-target="furniture-5" data-slide-parent="slider-furniture">
+                            <div class="thumb" data-slide-target="furniture-5">
                                 <img src="images/display/slider/thumbs/slider-1-thumb-5.png" alt="">
                             </div>
                         </div>
