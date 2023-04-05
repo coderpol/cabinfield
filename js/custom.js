@@ -5,6 +5,32 @@ $('#slider-furniture').slick();
 $('#slider-rustic').slick();
 $('#slider-outdoor').slick();
 
+
+// for the thumnails
+$('.slider-thumbs .thumb').on("click",function(){
+  $(".display-slider .slick-slide").removeClass("slick-current slick-active").attr("aria-hidden","true");
+  let target = $(this).data("slide-target");
+  let parent = "#" + $(this).data("slide-parent");
+  
+  let slide =  parent +" #"+target;
+  let track =  parent + " .slick-track";
+  let number = target.split("-");
+  let width = $(slide).width();
+  let translet = number[1] * width;
+  
+  let thumbs = parent + " + .slider-thumbs .thumb";
+  $(thumbs).removeClass("active");
+  
+  $(this).addClass("active");
+  // console.log(thumbs);
+  $(slide).addClass("slick-current slick-active").attr("aria-hidden","false");
+  $(track).css({
+    "transform" : "translate3d(-"+translet+"px, 0px, 0px)",
+    "transition":"transform 500ms ease 0s"
+  });
+});
+
+
 $('#testimonial-slider').slick({
   centerMode: true,
   dots: true,
