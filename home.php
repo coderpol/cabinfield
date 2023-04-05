@@ -106,45 +106,16 @@ include_once('sections/layouts/header.php')
             <div class="col-md-12 display-area">
                 <!-- one category display  -->
                 <div class="display clearfix">
-                    <!-- <figure class="col-md-6 col-12 display-image">
-                        <img src="images/display/fine-furniture.png" alt="">
-                    </figure> -->
-
                     <div class="col-md-6 col-12 display-image">
-                        <div class="display-slider" id="furniture-slider">
-                            <div class="slide" id="furniture-1">
-                                <img src="images/display/slider/main/furniture-1.png" alt="">
-                            </div>
-                            <div class="slide" id="furniture-2">
-                                <img src="images/display/fine-furniture.png" alt="">
-                            </div>
-                            <div class="slide" id="furniture-3">
-                                <img src="images/display/fine-furniture.png" alt="">
-                            </div>
-                            <div class="slide" id="furniture-4">
-                                <img src="images/display/fine-furniture.png" alt="">
-                            </div>
-                            <div class="slide" id="furniture-5">
-                                <img src="images/display/fine-furniture.png" alt="">
-                            </div>
-                        </div>
-                        <div id="furniture-thumbs" class="slider-thumbs">
-                            <div class="thumb" data-slide-target="furniture-1">
-                                <img src="images/display/slider/thumbs/slider-1-thumb-1.png" alt="">
-                            </div>
-                            <div class="thumb" data-slide-target="furniture-2">
-                                <img src="images/display/slider/thumbs/slider-1-thumb-2.png" alt="">
-                            </div>
-                            <div class="thumb" data-slide-target="furniture-3">
-                                <img src="images/display/slider/thumbs/slider-1-thumb-3.png" alt="">
-                            </div>
-                            <div class="thumb" data-slide-target="furniture-4">
-                                <img src="images/display/slider/thumbs/slider-1-thumb-4.png" alt="">
-                            </div>
-                            <div class="thumb" data-slide-target="furniture-5">
-                                <img src="images/display/slider/thumbs/slider-1-thumb-5.png" alt="">
-                            </div>
-                        </div>
+                        <?php  
+                            // fixed variable
+                            $slider = "furniture";
+                            
+                            // code structure is same for every slider
+                            // the $slider variable will do the tricks (to be distinguished) for every slider
+                            // you can mannual coding too if you like
+                            include("sections/home-product-slider-template.php");
+                        ?>
                     </div>
                     <article class="col-md-6 col-12 display-text">
                         <header class="section-title">
@@ -160,17 +131,15 @@ include_once('sections/layouts/header.php')
                 <!-- one category display  -->
                 <div class="display clearfix">
                     <div class="col-md-6 col-12 display-image">
-                        <div class="display-slider" id="slider-rustic">
-                            <div class="slide">
-                                <img src="images/display/rustic-live-edge.png" alt="">
-                            </div>
-                            <div class="slide">
-                                <img src="images/display/rustic-live-edge.png" alt="">
-                            </div>
-                            <div class="slide">
-                                <img src="images/display/rustic-live-edge.png" alt="">
-                            </div>
-                        </div>
+                        <?php  
+                            // fixed variable
+                            $slider = "rustic";
+                            
+                            // code structure is same for every slider
+                            // the $slider variable will do the tricks (to be distinguished) for every slider
+                            // you can mannual coding too if you like
+                            include("sections/home-product-slider-template.php");
+                        ?>
                     </div>
                     <article class="col-md-6 col-12 display-text">
                         <header class="section-title">
@@ -182,21 +151,19 @@ include_once('sections/layouts/header.php')
                     </article>
                 </div>
                 <!-- one category display end  -->
-
+                
                 <!-- one category display  -->
                 <div class="display clearfix">
                     <div class="col-md-6 col-12 display-image">
-                        <div class="display-slider" id="slider-outdoor">
-                            <div class="slide">
-                                <img src="images/display/outdoor.png" alt="">
-                            </div>
-                            <div class="slide">
-                                <img src="images/display/outdoor.png" alt="">
-                            </div>
-                            <div class="slide">
-                                <img src="images/display/outdoor.png" alt="">
-                            </div>
-                        </div>
+                        <?php  
+                            // fixed variable
+                            $slider = "outdoor";
+                            
+                            // code structure is same for every slider
+                            // the $slider variable will do the tricks (to be distinguished) for every slider
+                            // you can mannual coding too if you like
+                            include("sections/home-product-slider-template.php");
+                        ?>
                     </div>
                     <article class="col-md-6 col-12 display-text">
                         <header class="section-title">

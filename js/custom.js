@@ -1,9 +1,7 @@
 // testimonial slider
 // slick slider
 
-$('#furniture-slider').slick();
-$('#slider-rustic').slick();
-$('#slider-outdoor').slick();
+$('#furniture-slider, #rustic-slider, #outdoor-slider').slick();
 
 
 // for the thumnails
@@ -26,11 +24,29 @@ $('.slider-thumbs .thumb').on("click",function(){
   $(thumbs).removeClass("active");
   // add active for only this thumb
   $(this).addClass("active");
-  console.log(thumbs);
+  // console.log(thumbs);
   $(slide).addClass("slick-current slick-active").attr("aria-hidden","false");
   $(track).css({
     "transform" : "translate3d(-"+translet+"px, 0px, 0px)",
     "transition":"transform 500ms ease 0s"
+  });
+});
+
+
+
+// move active status of the slider on clicking on the arrows
+$(document).ready(function() {
+  $(".slick-arrow").on("click",function(){
+    let parentDiv = $(this).parent();
+    let target = parentDiv[0]["id"];
+    let thumb_slider_id = "#" + target + " .slick-active";
+    let target_div = $(thumb_slider_id).attr("id");
+    let target_split = target_div.split("-");
+    let target_text = target_split[0];
+    let target_number = target_split[1];
+    let thumbs = "#" + target_text + "-thumbs .thumb";
+    $(thumbs).removeClass("active");
+    $(thumbs+":nth-child("+target_number+")").addClass("active");
   });
 });
 
