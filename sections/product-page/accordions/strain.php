@@ -13,7 +13,7 @@
                 <i class="fa-solid fa-circle-info"></i>
                 <p>Please note that the stain or paint colors shown may not appear the same on all computer monitors. Actual results on your furniture may also vary due to natural variations in the color, grain, and texture of the wood. Please click here to request samples.</p>
             </div>
-            <h5 class="area-title">Most Popular Stain Samples</h5>
+            <h5 class="area-title">Most Popular Stain Samples <i class="fa fa-question-circle" aria-hidden="true"></i></h5>
             <div class="stack-area">
                 <?php 
                     for($i=1;$i<=12;$i++){
@@ -30,7 +30,7 @@
                 </div>
                 <?php } ?>
             </div>
-            <h5 class="area-title">Most Popular Stain Samples</h5>
+            <h5 class="area-title">Most Popular Stain Samples <i class="fa fa-question-circle" aria-hidden="true"></i></h5>
             <div class="stack-area">
                 <?php 
                     for($i=1;$i<=20;$i++){
