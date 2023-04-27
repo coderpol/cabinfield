@@ -22,7 +22,7 @@ include_once('sections/layouts/header.php')
 
 <!-- .page-content starts  -->
 <div class="section clearfix page-content">
-    <div class="container border-bottom">
+    <div class="container">
         <!-- page heading  -->
         <div class="row">
             <header class="col-md-12 section-title medium mb-3">
@@ -45,18 +45,18 @@ include_once('sections/layouts/header.php')
                 Everyone loves choosing their own favorite woods, stains, and styles.<br>
                 Purchase a Gift Certificate and your recipient can use the certificate towards their very own personalized order.</p>
                 
-                <p><a class="btn btn-primary" href="#">Purchase Gift Certificate</a></p>
+                <div class="mt-4"><a class="btn btn-primary btn-medium" href="#">Purchase Gift Certificate</a></p>
 
                 <div class="section-sub-title">
                     <h4>2. A Cabinfield Handcrafted Gift with Virtual Pre-Gift Email</h4>
                 </div>
 
-                <p>Do you already have a specific handcrafted Cabinfield gift in mind?<br>Order it for your loved one and Gift It! with our Virtual Pre-Gifting option.</p>
+                <p>Do you already have a specific handcrafted Cabinfield gift in mind?<br>Order it for your loved one and <strong>Gift It!</strong> with our <span class="orange"><strong>Virtual Pre-Gifting option</strong></a>.</p>
 
-                <p class="mb-0"><strong>What’s a Virtual Pre-Gift?</strong></p>
+                <h4 class="article-subtitle"><strong>What’s a Virtual Pre-Gift?</strong></h4>
                 <p>Due to the unique, individually handcrafted nature of our products, the heirloom-quality furniture or other exceptional item you choose for them may not be ready on the day of the event; however, when you choose this thoughtful option, your own personal note is delivered via email on that special day informing the recipient that their very distinctive gift is being created just for them and will soon be on its way!</p>
 
-                <p class="mb-0"><strong>How does Virtual Pre-Gifting work?</strong></p>
+                <h4 class="article-subtitle"><strong>How does Virtual Pre-Gifting work?</strong></h4>
                 <ul>
                     <li>Place your order</li>
                     <li>Contact us at sales@cabinfield or 866-450-9663 and request Virtual Pre-Gifting</li>
