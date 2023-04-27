@@ -45,6 +45,7 @@
                     <li class="done"><a href="gift-card.php">Gift Card</a></li>
                     <li class="check"><a href="gift-card-flow.php">Gift Card - Flow</a></li>
                     <li class="check"><a href="gift-certificate.php">Gift Certificate</a></li>
+                    <li class="working"><a href="gift-it-2.php">Gift It -2</a></li>
                     <li class="done"><a href="contact-us.php">Contact Us</a></li>
                     <li class="done"><a href="terms-of-use.php">Terms of Use</a></li>
                     <li class="done"><a href="policies-terms.php">Terms of Use - V2</a></li>
