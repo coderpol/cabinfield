@@ -302,6 +302,20 @@
                 @include font(16px,24px);
                 color:$gray-dark-3;
             }
+            &.links{
+                list-style-type: none;
+                padding-left: 0;
+                margin-top: 30px;
+                li{
+                    margin-bottom:15px;
+                }
+                a{
+                    text-decoration: underline;
+                    font-weight: 700;
+                    color:$brand-color;
+                    line-height: 21px;
+                }
+            }
         }
         
     }

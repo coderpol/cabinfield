@@ -33,7 +33,7 @@ include_once('sections/layouts/header.php')
                 <?php include_once('sections/product-page/gallery-area.php'); ?>
             </div>
             <div class="col-lg-6 col-md-12 product-details">
-                <?php include_once('sections/product-page/product-details-4.php'); ?>
+                <?php include_once('sections/product-page/product-details-5.php'); ?>
             </div>
         </div>
         <div class="row">
@@ -43,16 +43,13 @@ include_once('sections/layouts/header.php')
                         <span class="nav-link active" data-bs-toggle="pill" data-bs-target="#pills-1" role="tab" aria-controls="pills-1" aria-selected="true">Customize & Order</span>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <span class="nav-link" data-bs-toggle="pill" data-bs-target="#pills-2" role="tab" aria-controls="pills-2" aria-selected="false">Details & Options</span>
+                        <span class="nav-link" data-bs-toggle="pill" data-bs-target="#pills-2" role="tab" aria-controls="pills-2" aria-selected="false">Optional Features</span>
                     </li>
                     <li class="nav-item" role="presentation">
                         <span class="nav-link" data-bs-toggle="pill" data-bs-target="#pills-3" role="tab" aria-controls="pills-3" aria-selected="false">Lead Time</span>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <span class="nav-link" data-bs-toggle="pill" data-bs-target="#pills-4" role="tab" aria-controls="pills-4" aria-selected="false">Order Wood and Stain Sample</span>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <span class="nav-link" data-bs-toggle="pill" data-bs-target="#pills-5" role="tab" aria-controls="pills-5" aria-selected="false">Order Upholstery Samples</span>
+                        <span class="nav-link" data-bs-toggle="pill" data-bs-target="#pills-4" role="tab" aria-controls="pills-4" aria-selected="false">Details</span>
                     </li>
                 </ul>
                 <div class="tab-content" id="pills-tabContent">
