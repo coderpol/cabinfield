@@ -45,7 +45,8 @@
                 }
             }
             @include upto-phone{
-                flex-basis:49.5%;
+                flex-basis:49%;
+                margin-bottom:15px;
             }
             
         }

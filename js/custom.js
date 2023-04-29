@@ -77,6 +77,15 @@ $('#testimonial-slider').slick({
     }
   ]
 });
+$('#home-banner-slider').slick({
+  dots: true,
+  infinite: true,
+  speed: 500,
+  cssEase: 'linear',
+  autoplay: true,
+  autoplaySpeed: 6000,
+  arrows:false,
+});
 
 // for billing address input hide
 $('input#shipping_address_trigger').click(function(){

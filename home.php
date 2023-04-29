@@ -6,7 +6,15 @@ include_once('sections/layouts/header.php')
 ?>
 
 <!-- Big banner of the page  starts -->
-<div class="header-banner home-banner clearfix" style="background-image: url('images/header-banner/banner-home.jpg');">
+<div class="header-banner home-banner clearfix">
+    <div id="home-banner-slider" class="banner-slider">
+        <div class="slide" style="background-image:url('images/header-banner/banner-home.jpg')">
+        
+        </div>
+        <div class="slide" style="background-image:url('images/header-banner/banner-home.jpg')">
+
+        </div>
+    </div>
     <div class="primary-gradient">
         <div class="container">
             <div class="row">

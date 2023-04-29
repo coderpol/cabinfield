@@ -3,7 +3,8 @@
     background-position: center center;
     background-size: cover;
     margin-bottom:20px;
-    
+    position: relative;
+    overflow: hidden;
     .breadcrumb{
         li{
             &.active{
@@ -40,6 +41,37 @@
             letter-spacing: 0.2px;
         }
     }
+    .banner-slider{
+        position: absolute;
+        top:0;
+        left:0;
+        height: 100%;
+        width: 100%;
+        margin-bottom: 0 !important;
+        .slick-list{
+            z-index: -10;
+            margin-bottom: 0 !important;
+            .slide{
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center center;
+                    @include from-pc{
+                        min-height: 630px;
+                    }
+                    
+                    @include upto-pc{
+                        min-height: 350px;
+                    }
+                    @include phone-small{
+                        min-height:470px;
+                    }
+            }
+        }
+        .slick-dots{
+            bottom: 25px;
+            z-index: 100;
+        }
+    }
 }
 
 
@@ -60,7 +92,7 @@
         }
         &.home-banner{
             .banner-text{
-                padding-bottom: 0px;
+                padding-bottom: 30px;
             }
             .heading{
                 @include font(32px,130%,700);
