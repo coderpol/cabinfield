@@ -19,4 +19,4 @@ include_once('order-details.php');
  ?>
 <p>This is a prebuilt product. To view the full range of choices for this product (with our standard delivery time frame) please <a href="#">click here</a>.</p>
 
-<?php include_once('sections/product-page/edit-zip-modal.php') ?>
+<?php include_once('sections/modal/edit-zip.php') ?>

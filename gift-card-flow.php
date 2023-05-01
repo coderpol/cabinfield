@@ -132,7 +132,7 @@ include_once('sections/layouts/header.php')
 
 <?php 
 // include the modal you want to use
-include_once('sections/product-page/modal/gift-certificate.php'); 
+include_once('sections/modal/gift-certificate.php'); 
 ?>
 
 

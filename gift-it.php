@@ -51,7 +51,7 @@ include_once('sections/layouts/header.php')
                     <h4>2. A Cabinfield Handcrafted Gift with Virtual Pre-Gift Email</h4>
                 </div>
 
-                <p>Do you already have a specific handcrafted Cabinfield gift in mind?<br>Order it for your loved one and <strong>Gift It!</strong> with our <span class="orange"><strong>Virtual Pre-Gifting option</strong></a>.</p>
+                <p>Do you already have a specific handcrafted Cabinfield gift in mind?<br>Order it for your loved one and <strong>Gift It!</strong> with our <a class="mask orange" href="#" data-bs-toggle="modal" data-bs-target="#gift_card_modal"><strong>Virtual Pre-Gifting option</strong></a>.</p>
 
                 <h4 class="article-subtitle"><strong>What’s a Virtual Pre-Gift?</strong></h4>
                 <p>Due to the unique, individually handcrafted nature of our products, the heirloom-quality furniture or other exceptional item you choose for them may not be ready on the day of the event; however, when you choose this thoughtful option, your own personal note is delivered via email on that special day informing the recipient that their very distinctive gift is being created just for them and will soon be on its way!</p>
@@ -67,6 +67,9 @@ include_once('sections/layouts/header.php')
         </div>
     </div>
 </div>
-
+<?php 
+// include the modal you want to use
+include_once('sections/modal/gift-certificate.php'); 
+?>
 <!-- include footer  -->
 <?php include_once('sections/layouts/footer.php') ?>

@@ -94,7 +94,7 @@ include_once('sections/layouts/header.php')
         <div class="border-bottom mb-90"></div>
         <?php include_once('sections/product-page/review-testimonial-section-4.php'); ?>
     </div>
-    <?php include_once('sections/product-page/edit-zip-modal.php') ?>
+    <?php include_once('sections/modal/edit-zip.php') ?>
 </div>
 
 

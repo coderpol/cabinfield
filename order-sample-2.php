@@ -182,6 +182,6 @@ include_once('sections/layouts/header.php')
     </div>
 </div>
 
-<?php include_once('sections/product-page/edit-zip-modal.php') ?>
+<?php include_once('sections/modal/edit-zip.php') ?>
 <!-- inlcude page footer area  -->
 <?php include_once('sections/layouts/footer.php') ?>
