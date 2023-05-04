@@ -136,29 +136,7 @@ include_once('sections/layouts/header.php')
                 </div>
                 <!-- one category display end  -->
                 
-                <!-- one category display  -->
-                <div class="display clearfix">
-                    <div class="col-md-6 col-12 display-image">
-                        <?php  
-                            // fixed variable
-                            $slider = "rustic";
-                            
-                            // code structure is same for every slider
-                            // the $slider variable will do the tricks (to be distinguished) for every slider
-                            // you can mannual coding too if you like
-                            include("sections/home-product-slider-template.php");
-                        ?>
-                    </div>
-                    <article class="col-md-6 col-12 display-text">
-                        <header class="section-title">
-                            <h3><a href="#"><span>Rustics</span>  & Live Edge</a></h3>
-                        </header>
-                        <p>Introduce a rural warmth and add texture, color, and character to your space. Designed by nature, rustic furniture is as authentic as it gets.</p>
-                        
-                        <a href="product-listing.php" class="btn btn-primary btn-large">Shop Now</a>
-                    </article>
-                </div>
-                <!-- one category display end  -->
+                
                 
                 <!-- one category display  -->
                 <div class="display clearfix">
@@ -183,6 +161,30 @@ include_once('sections/layouts/header.php')
                     </article>
                 </div>
                 <!-- one category display end -->
+                
+                <!-- one category display  -->
+                <div class="display clearfix">
+                    <div class="col-md-6 col-12 display-image">
+                        <?php  
+                            // fixed variable
+                            $slider = "rustic";
+                            
+                            // code structure is same for every slider
+                            // the $slider variable will do the tricks (to be distinguished) for every slider
+                            // you can mannual coding too if you like
+                            include("sections/home-product-slider-template.php");
+                        ?>
+                    </div>
+                    <article class="col-md-6 col-12 display-text">
+                        <header class="section-title">
+                            <h3><a href="#"><span>Rustics</span>  & Live Edge</a></h3>
+                        </header>
+                        <p>Introduce a rural warmth and add texture, color, and character to your space. Designed by nature, rustic furniture is as authentic as it gets.</p>
+                        
+                        <a href="product-listing.php" class="btn btn-primary btn-large">Shop Now</a>
+                    </article>
+                </div>
+                <!-- one category display end  -->
             </div>
         </div>
     </div>

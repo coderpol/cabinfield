@@ -69,7 +69,7 @@ include_once('sections/layouts/header.php')
 </div>
 <?php 
 // include the modal you want to use
-include_once('sections/modal/gift-certificate.php'); 
+include_once('sections/modal/virtual-pre-gift.php'); 
 ?>
 <!-- include footer  -->
 <?php include_once('sections/layouts/footer.php') ?>
