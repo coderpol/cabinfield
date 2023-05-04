@@ -510,6 +510,7 @@
             &:hover{
                 border-color:$brand-color;
                 box-shadow: 0 0 5px rgba(0,0,0,.2);
+                color:$blue-darkest !important;
             }
         }
         .form-check-inline{
