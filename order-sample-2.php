@@ -66,19 +66,37 @@ include_once('sections/layouts/header.php')
                             <div class="col">
                                 <label for="stain-1" class="form-label stainer">Select Stain</label>
                                 <input type="text" class="select-stain stainer" name="" id="stain-1" placeholder="Select Your Stain here">
-                                <div class="clearfix stainer stain-selection stack-area three-stack" id="">
-                                    <?php 
-                                        for($i=1;$i<=9;$i++){
-                                    ?>
-                                    <div class="stack">
-                                        <div class="image">
-                                            <img src="images/stain/stain-<?php echo rand(1,3); ?>.png" alt="">
-                                            <div class="open-details" data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-magnifying-glass"></i></div>
+                                <div class="clearfix stainer stain-selection" id="">
+                                    <h3 class="option-title">Our Most popular Stain Choice</h3>
+                                    <div class="stack-area three-stack">
+                                        <?php 
+                                            for($i=1;$i<=3;$i++){
+                                        ?>
+                                        <div class="stack">
+                                            <div class="image">
+                                                <img src="images/stain/stain-<?php echo rand(1,3); ?>.png" alt="">
+                                                <div class="open-details" data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-magnifying-glass"></i></div>
+                                            </div>
+                                            <h5>Medium OCS-<?php echo $i?></h5>
+                                            <input type="radio" name="leaf-type-2" class="form-check-input" data-value="Medium OCS-110 - <?php echo $i?>" data-target="stain-2" id="stain-2<?php echo $i; ?>">
                                         </div>
-                                        <h5>Medium OCS-<?php echo $i?></h5>
-                                        <input type="radio" name="leaf-type-1" class="form-check-input" data-value="Medium OCS-110 - <?php echo $i?>" data-target="stain-1" id="stain-1<?php echo $i; ?>">
+                                        <?php } ?>
                                     </div>
-                                    <?php } ?>
+                                    <h3 class="option-title">Another heading goes here</h3>
+                                    <div class="stack-area three-stack">
+                                        <?php 
+                                            for($i=1;$i<=3;$i++){
+                                        ?>
+                                        <div class="stack">
+                                            <div class="image">
+                                                <img src="images/stain/stain-<?php echo rand(1,3); ?>.png" alt="">
+                                                <div class="open-details" data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-magnifying-glass"></i></div>
+                                            </div>
+                                            <h5>Medium OCS-<?php echo $i?></h5>
+                                            <input type="radio" name="leaf-type-2" class="form-check-input" data-value="Medium OCS-110 - <?php echo $i?>" data-target="stain-2" id="stain-2<?php echo $i; ?>">
+                                        </div>
+                                        <?php } ?>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -111,19 +129,37 @@ include_once('sections/layouts/header.php')
                             <div class="col">
                                 <label for="stain-2" class="form-label stainer">Select Stain</label>
                                 <input type="text" class="select-stain stainer" name="" id="stain-2" placeholder="Select Your Stain here">
-                                <div class="clearfix stainer stain-selection stack-area three-stack">
-                                    <?php 
-                                        for($i=1;$i<=9;$i++){
-                                    ?>
-                                    <div class="stack">
-                                        <div class="image">
-                                            <img src="images/stain/stain-<?php echo rand(1,3); ?>.png" alt="">
-                                            <div class="open-details" data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-magnifying-glass"></i></div>
+                                <div class="clearfix stainer stain-selection">
+                                    <h3 class="option-title">Our Most popular Stain Choice</h3>
+                                    <div class="stack-area three-stack">
+                                        <?php 
+                                            for($i=1;$i<=3;$i++){
+                                        ?>
+                                        <div class="stack">
+                                            <div class="image">
+                                                <img src="images/stain/stain-<?php echo rand(1,3); ?>.png" alt="">
+                                                <div class="open-details" data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-magnifying-glass"></i></div>
+                                            </div>
+                                            <h5>Medium OCS-<?php echo $i?></h5>
+                                            <input type="radio" name="leaf-type-2" class="form-check-input" data-value="Medium OCS-110 - <?php echo $i?>" data-target="stain-2" id="stain-2<?php echo $i; ?>">
                                         </div>
-                                        <h5>Medium OCS-<?php echo $i?></h5>
-                                        <input type="radio" name="leaf-type-2" class="form-check-input" data-value="Medium OCS-110 - <?php echo $i?>" data-target="stain-2" id="stain-2<?php echo $i; ?>">
+                                        <?php } ?>
                                     </div>
-                                    <?php } ?>
+                                    <h3 class="option-title">Another heading goes here</h3>
+                                    <div class="stack-area three-stack">
+                                        <?php 
+                                            for($i=1;$i<=3;$i++){
+                                        ?>
+                                        <div class="stack">
+                                            <div class="image">
+                                                <img src="images/stain/stain-<?php echo rand(1,3); ?>.png" alt="">
+                                                <div class="open-details" data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-magnifying-glass"></i></div>
+                                            </div>
+                                            <h5>Medium OCS-<?php echo $i?></h5>
+                                            <input type="radio" name="leaf-type-2" class="form-check-input" data-value="Medium OCS-110 - <?php echo $i?>" data-target="stain-2" id="stain-2<?php echo $i; ?>">
+                                        </div>
+                                        <?php } ?>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -156,19 +192,37 @@ include_once('sections/layouts/header.php')
                             <div class="col">
                                 <label for="stain-3" class="form-label stainer">Select Stain</label>
                                 <input type="text" class="select-stain stainer" name="" id="stain-3" placeholder="Select Your Stain here">
-                                <div class="clearfix stainer stain-selection stack-area three-stack">
-                                    <?php 
-                                        for($i=1;$i<=9;$i++){
-                                    ?>
-                                    <div class="stack">
-                                        <div class="image">
-                                            <img src="images/stain/stain-<?php echo rand(1,3); ?>.png" alt="">
-                                            <div class="open-details" data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-magnifying-glass"></i></div>
+                                <div class="clearfix stainer stain-selection">
+                                    <h3 class="option-title">Our Most popular Stain Choice</h3>
+                                    <div class="stack-area three-stack">
+                                        <?php 
+                                            for($i=1;$i<=3;$i++){
+                                        ?>
+                                        <div class="stack">
+                                            <div class="image">
+                                                <img src="images/stain/stain-<?php echo rand(1,3); ?>.png" alt="">
+                                                <div class="open-details" data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-magnifying-glass"></i></div>
+                                            </div>
+                                            <h5>Medium OCS-<?php echo $i?></h5>
+                                            <input type="radio" name="leaf-type-2" class="form-check-input" data-value="Medium OCS-110 - <?php echo $i?>" data-target="stain-2" id="stain-2<?php echo $i; ?>">
                                         </div>
-                                        <h5>Medium OCS-<?php echo $i?></h5>
-                                        <input type="radio" name="leaf-type-3" class="form-check-input" data-value="Medium OCS-110 - <?php echo $i?>" data-target="stain-3" id="stain-3<?php echo $i; ?>">
+                                        <?php } ?>
                                     </div>
-                                    <?php } ?>
+                                    <h3 class="option-title">Another heading goes here</h3>
+                                    <div class="stack-area three-stack">
+                                        <?php 
+                                            for($i=1;$i<=3;$i++){
+                                        ?>
+                                        <div class="stack">
+                                            <div class="image">
+                                                <img src="images/stain/stain-<?php echo rand(1,3); ?>.png" alt="">
+                                                <div class="open-details" data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-magnifying-glass"></i></div>
+                                            </div>
+                                            <h5>Medium OCS-<?php echo $i?></h5>
+                                            <input type="radio" name="leaf-type-2" class="form-check-input" data-value="Medium OCS-110 - <?php echo $i?>" data-target="stain-2" id="stain-2<?php echo $i; ?>">
+                                        </div>
+                                        <?php } ?>
+                                    </div>
                                 </div>
                             </div>
                         </div>

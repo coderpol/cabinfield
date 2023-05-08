@@ -15,7 +15,7 @@
         
     }
 }
-.stack-area{
+.stainer{
     &.stain-selection{
         background: #FFFFFF;
         border: 1px solid #DDDDDD;
@@ -28,12 +28,26 @@
         overflow-y: scroll;
         width:calc(100% - 2.5rem);
         margin-top:0px;
+        .option-title{
+            @include font(16px,21px,500);
+            color: #627590;
+        }
+        .stack-area{
+            display: grid;
+            margin:20px 0;
+            &.three-stack{
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-gap:15px;
+                @include upto-phone{
+                    grid-template-columns: 1fr 1fr;
+                }
+            }
+        }
+        
         .stack{
-            flex-basis: 32.26%;
-            margin-bottom:5px;
+            margin-bottom:0;
             h5{
                 margin-top:10px;
-                margin-bottom:5px;
             }
             .btn{
                 background: none;
@@ -44,15 +58,12 @@
                     border-color: $brand-color;
                 }
             }
-            @include upto-phone{
-                flex-basis:49%;
-                margin-bottom:15px;
-            }
+           
             
         }
         display: none;
         .select-stain.active + &{
-            display: flex;
+            display: block;
         }
         .image{
             border:0 !important;
