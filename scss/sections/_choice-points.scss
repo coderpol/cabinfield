@@ -138,6 +138,7 @@
                     width:80px;
                     position:absolute;
                     background:url('../images/number-sprite.png') no-repeat;
+                    background-size:80px;
                     background-position:0 0;
                     top: -15px;
                     left: -74px;
@@ -158,27 +159,27 @@
                 }
                 &:nth-child(2){
                     &:before{
-                        background-position-y:-68px
+                        background-position-y:-102px
                     }
                 }
                 &:nth-child(3){
                     &:before{
-                        background-position-y:-140px
+                        background-position-y:-204px
                     }
                 }
                 &:nth-child(4){
                     &:before{
-                        background-position-y:-210px
+                        background-position-y:-306px
                     }
                 }
                 &:nth-child(5){
                     &:before{
-                        background-position-y:-280px
+                        background-position-y:-408px
                     }
                 } 
                 &:nth-child(6){
                     &:before{
-                        background-position-y:-348px;
+                        background-position-y:-512px;
                     }
                 }
             }
