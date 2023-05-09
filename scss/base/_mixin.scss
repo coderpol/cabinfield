@@ -95,7 +95,7 @@ $breakpoint-xxl : 1400px;
 
 // from 1200px to 1399px
 @mixin only-pc {
-    @media only screen and (min-width:$breakpoint-xl) and (max-width:($breakpoint-xxl - 1px)) {
+    @media only screen and (min-width:($breakpoint-xl - 1px)) and (max-width:($breakpoint-xxl - 1px)) {
         @content;
     }
 }

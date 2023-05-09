@@ -122,6 +122,11 @@
             @include upto-tablet{
                 grid-column-gap: 40px;
             }
+            @include only-pc{
+                max-width:1080px;
+                // margin-right: auto;
+                margin-left: auto;
+            }
             .point{
                 position: relative;
                 @include upto-tablet{
@@ -143,9 +148,9 @@
                     top: -15px;
                     left: -74px;
                     z-index:100;
-                    @include upto-tablet{
+                    @include upto-pc{
                         left:50%;
-                        margin-left:-107px;
+                        margin-left:-104px;
                     }
                 }
                 .icon{
@@ -159,27 +164,27 @@
                 }
                 &:nth-child(2){
                     &:before{
-                        background-position-y:-102px
+                        background-position-y:-60px
                     }
                 }
                 &:nth-child(3){
                     &:before{
-                        background-position-y:-204px
+                        background-position-y:-123px
                     }
                 }
                 &:nth-child(4){
                     &:before{
-                        background-position-y:-306px
+                        background-position-y:-186px
                     }
                 }
                 &:nth-child(5){
                     &:before{
-                        background-position-y:-408px
+                        background-position-y:-249px
                     }
                 } 
                 &:nth-child(6){
                     &:before{
-                        background-position-y:-512px;
+                        background-position-y:-311px;
                     }
                 }
             }
