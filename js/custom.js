@@ -1,7 +1,9 @@
 // testimonial slider
 // slick slider
 
-$('#furniture-slider, #rustic-slider, #outdoor-slider').slick();
+$('#furniture-slider, #rustic-slider, #outdoor-slider').slick({
+  draggable: false,
+});
 
 
 // for the thumnails
