@@ -1,3 +1,9 @@
 .promotion{
     background-color: #ce7f5f;
+    &.memorial{
+        background-color: #005b82;
+    }
+    &.memorial-brand{
+        background-color: #c17e63;
+    }
 }
