@@ -9,7 +9,7 @@ $card_body_color: #F8F8F8;
     position:fixed;
     bottom:0;
     right:0;
-    z-index: 2147483000;
+    z-index: 1000;
     min-height:0;
     .btn{
         background: $widget_color;
@@ -110,7 +110,10 @@ $card_body_color: #F8F8F8;
         }
     }
 }
-
+#freshworks-container {
+    z-index: 1000 !important;
+    position: relative;
+}
 
 @include phone-small{
     #launcher-frame {
