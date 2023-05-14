@@ -1,6 +1,6 @@
 <?php 
 $page_title="Fine Furniture"; // dynamic page title for every page
-
+$promo_banner = "blue";
 // include header
 include_once('sections/layouts/header.php') 
 ?>

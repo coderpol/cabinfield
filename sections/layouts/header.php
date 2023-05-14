@@ -73,6 +73,12 @@
 
 <?php include_once('sections/components/navigation.php') ?>
 
-<?php 
-include_once('sections/promotion/memorial-day-promotion.php');
+<?php
+if(isset($promo_banner) || $promo_banner=="blue"){
+    $class = "memorial-blue";
+    include_once('sections/promotion/memorial-day-promotion-2.php');
+}else{
+    $class = "memorial-brand";
+    include_once('sections/promotion/memorial-day-promotion.php');
+}
  ?>
