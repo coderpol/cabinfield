@@ -74,7 +74,8 @@
 <?php include_once('sections/components/navigation.php') ?>
 
 <?php
-if(isset($promo_banner) || $promo_banner=="blue"){
+$promo_banner = isset($promo_banner) ? $promo_banner : "brand";
+if($promo_banner=="blue"){
     $class = "memorial-blue";
     include_once('sections/promotion/memorial-day-promotion-2.php');
 }else{
