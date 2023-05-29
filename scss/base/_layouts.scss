@@ -4,7 +4,9 @@
     // margin:0px auto;
     // padding:0px 20px;
     @include upto-phone{
-        overflow-x: hidden;
+        &:not(.testimonial-slider){
+            overflow-x: hidden;
+        }
     }
     &.small{
        
