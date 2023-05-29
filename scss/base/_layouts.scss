@@ -3,8 +3,11 @@
     max-width:1200px;
     // margin:0px auto;
     // padding:0px 20px;
-    overflow-x: hidden;
+    @include upto-phone{
+        overflow-x: hidden;
+    }
     &.small{
-        max-width: 720px;
+       
+       max-width: 720px;
     }
 }
