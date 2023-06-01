@@ -105,10 +105,6 @@ sub {
   bottom: -0.25em;
 }
 
-sup {
-  top: -0.5em;
-}
-
 svg {
   overflow: hidden;
 }
@@ -423,6 +419,14 @@ a:hover {
   .above-tablet {
     display: none;
   }
+}
+
+sup.symbol, sub.symbol {
+  font-size: 1.25em;
+}
+
+sup.symbol {
+  top: 0;
 }
 
 .front-page {

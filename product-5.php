@@ -65,6 +65,9 @@ include_once('sections/layouts/header.php')
                                 <!-- third accordion  -->
                                 <?php include_once('sections/product-page/accordions/strain.php') ?>
                                 
+                                <!-- offer accordion new  -->
+                                <?php include_once('sections/product-page/accordions/new-offer.php') ?>
+                                
                                 <!-- fourth accordion  -->
                                 <?php include_once('sections/product-page/accordions/leaf.php') ?>
                                 

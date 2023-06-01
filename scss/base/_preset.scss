@@ -198,3 +198,13 @@ a:hover{
         display: none;
     }
 }
+sup,sub{
+    &.symbol{
+        font-size:1.25em;
+    }
+}
+sup{
+    &.symbol{
+        top:0;
+    }
+}
