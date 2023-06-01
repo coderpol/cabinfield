@@ -31,6 +31,7 @@
                     <li class="working"><a href="product-3.php">Product - Customize -  V3</a></li>
                     <li class="working"><a href="product-4.php">Product - Customize -  V4</a></li>
                     <li class="working"><a href="product-5.php">Product - Customize -  V5</a></li>
+                    <li class="working"><a href="product-6.php">Product - Customize -  V6</a></li>
                     <li class="done"><a href="product-1-loading.php">Product Customized - Anim</a></li>
                     <li class="working"><a href="in-stock.php">In Stock</a></li>
                     <li class="done"><a href="shopping-cart.php">Shopping Cart</a></li>
