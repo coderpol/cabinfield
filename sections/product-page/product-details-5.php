@@ -14,11 +14,16 @@
         <span>$1,371.00</span>
     </p>
 </div>
-<p class="addons"><span>+ $30.40</span> <strong>Standard curbside delivery to 10001</strong></p>
+<p class="addons">
+    <span>Zip code: 85750</span> <a href="#" data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-pen-to-square"></i> Edit</a>
+    <br>
+    <span>+ $135.34 - Standard curbside delivery</span><br>
+    <span>+ $184.04 - White-glove inside devlivery</span>
+</p>
 
 <div class="rating-block">
     <div class="rating">
-        <div class="rating-value" style="width:85%"></div>
+        <div class="rating-value" style="width:80%"></div>
     </div>
 </div>
 <div class="button-area">
