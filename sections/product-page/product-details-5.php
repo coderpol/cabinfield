@@ -18,7 +18,7 @@
     <span>Zip code: 85750</span> <a href="#" data-bs-toggle="modal" data-bs-target="#edit_zip"><i class="fa-solid fa-pen-to-square"></i> Edit</a>
     <br>
     <span>+ $135.34 - Standard curbside delivery</span><br>
-    <span>+ $184.04 - White-glove inside devlivery</span>
+    <span>+ $184.04 - White-glove inside delivery</span>
 </p>
 
 <div class="rating-block">
