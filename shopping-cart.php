@@ -83,7 +83,7 @@ include_once('sections/layouts/header.php')
                             </div>
                         </div>
                         <?php 
-                            $number = 1;
+                            $number = 2;
                             $collapse = true;
                             include('sections/form/pre-gifting.php'); 
                         ?>
@@ -130,7 +130,7 @@ include_once('sections/layouts/header.php')
                             </div>
                         </div>
                         <?php 
-                            $number = 1;
+                            $number = 3;
                             $collapse = true;
                             include('sections/form/pre-gifting.php'); 
                         ?>
@@ -188,7 +188,7 @@ include_once('sections/layouts/header.php')
                             </div>
                         </div>
                         <?php 
-                            $number = 1;
+                            $number = 4;
                             $collapse = true;
                             include('sections/form/pre-gifting.php'); 
                         ?>
