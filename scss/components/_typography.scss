@@ -38,6 +38,13 @@
         color:$blue-darkest;
     }
 }
+.heading-30{
+    h1,h2,h3,h4{
+        @include font(30px,39px,700);
+        color:$blue-darkest;
+        margin-bottom:40px;
+    }
+}
 .heading-22{
     h1,h2,h3,h4{
         @include font(22px,29px,500);

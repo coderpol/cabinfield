@@ -39,6 +39,11 @@ include_once('sections/layouts/header.php')
                                 <span class="btn" data-action="increase">+</span>
                             </div>
                         </div>
+                        <?php 
+                            $number = 1;
+                            $collapse = false;
+                            include('sections/form/pre-gifting.php'); 
+                        ?>
                         <ul class="detail">
                             <li>Wood: <span>Oak</span></li>
                             <li>Oak Stain: <span>Natural</span></li>
@@ -77,6 +82,11 @@ include_once('sections/layouts/header.php')
                                 <span class="btn" data-action="increase">+</span>
                             </div>
                         </div>
+                        <?php 
+                            $number = 1;
+                            $collapse = true;
+                            include('sections/form/pre-gifting.php'); 
+                        ?>
                         <ul class="detail">
                             <li>Wood: <span>Oak</span></li>
                             <li>Oak Stain: <span>Natural</span></li>
@@ -119,6 +129,11 @@ include_once('sections/layouts/header.php')
                                 <span class="btn" data-action="increase">+</span>
                             </div>
                         </div>
+                        <?php 
+                            $number = 1;
+                            $collapse = true;
+                            include('sections/form/pre-gifting.php'); 
+                        ?>
                         <ul class="detail wider">
                             <li>Bed Size: <span>California Kingak</span></li>
                             <li>Nightstand: <span>Open with pullout shelf</span></li>
@@ -172,6 +187,11 @@ include_once('sections/layouts/header.php')
                                 <span class="btn" data-action="increase">+</span>
                             </div>
                         </div>
+                        <?php 
+                            $number = 1;
+                            $collapse = true;
+                            include('sections/form/pre-gifting.php'); 
+                        ?>
                         <ul class="detail">
                             <li>Wood: <span>Oak</span></li>
                             <li>Oak Stain: <span>Natural</span></li>
@@ -199,6 +219,25 @@ include_once('sections/layouts/header.php')
                     </div>
                 </div>
                 <!-- one item ends -->
+                
+                <!-- one item  -->
+                <div class="row cart-item sample-item">
+                    <div class="heading-30">
+                        <h3>Cabinfield Gift Card</h3>
+                    </div>
+                    <figure class="col-md-9 figure card-figure">
+                        <img src="images/gift/card.png" class="img-responsive" alt="">
+                    </figure>
+                    <div class="col-md-3 action">
+                        <p class="price-title">Subtotal: <span>$1371.00</span></p>
+                        <div class="buttons">
+                            <button class="btn btn-empty btn-block cart-item-remover"><i class="fa-solid fa-trash-can"></i> Remove</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- one item ends -->
+                
+                
                 
                 <div class="row sample-item">
                     <div class="col-md-12 heading">
@@ -261,12 +300,7 @@ include_once('sections/layouts/header.php')
             </div>
              <!-- summary card area ends -->
         </div>
-        
-        <div class="row shopping-sample-area">
-            <div class="col-md-8">
-                
-            </div>
-        </div>
+    
     </div>
 </div>
 
