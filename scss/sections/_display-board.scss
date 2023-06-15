@@ -35,6 +35,12 @@
                 .slick-arrow{
                     display: block !important;
                     box-shadow: 0px 14px 40px rgba(0, 0, 0, 0.14);
+                    &.slick-disabled{
+                        cursor: not-allowed;
+                        &:hover{
+                            border:none;
+                        }
+                    }
                 }
                 .slick-next{
                     right:-32px;
