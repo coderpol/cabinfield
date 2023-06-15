@@ -55,9 +55,9 @@
                     <li class="done"><a href="faq.php">FAQ</a></li>
                     <li class="done"><a href="about.php">About</a></li>
                     <li class="done"><a href="wood-sample.php">Wood Sample</a></li>
-                    <li class="done"><a href="order-sample.php">Order Sample</a></li>
-                    <li class="done"><a href="order-sample-2.php">Order Sample - 2</a></li>
-                    <li class="done"><a href="order-sample-3.php">Order Sample - (Updated)</a></li>
+                    <li class="check"><a href="order-sample.php">Order Sample</a></li>
+                    <li class="check"><a href="order-sample-2.php">Order Sample - 2</a></li>
+                    <li class="check"><a href="order-sample-3.php">Order Sample - (Updated)</a></li>
                     <li class="done"><a href="fabric-sample.php">Fabric Sample</a></li>
                     <li class="done"><a href="order-confirmation.php">Order Confirmation</a></li>
                     <li class="done"><a href="login.php">Login</a></li>
