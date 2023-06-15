@@ -3,6 +3,7 @@
 
 $('#furniture-slider, #rustic-slider, #outdoor-slider').slick({
   draggable: false,
+  infinite: false,
 });
 
 
@@ -19,7 +20,8 @@ $('.slider-thumbs .thumb').on("click",function(){
   let slide =  parent +" #"+target;
   let track =  parent + " .slick-track";
   let width = $(slide).width();
-  let translet = target_number * width;
+  // let translet = target_number * width;
+  let translet = (target_number - 1) * width;
   
   // remove active class from all thumbs
   let thumbs = "#" + target_text + "-thumbs .thumb";
