@@ -44,9 +44,15 @@
                 }
                 .slick-next{
                     right:-32px;
+                    @include upto-tablet{
+                        right:-10px;
+                    }
                 }
                 .slick-prev{
                     left:-32px;
+                    @include upto-tablet{
+                        left:-10px;
+                    }
                 }
                 .slick-slide{
                     border-radius: 10px;
