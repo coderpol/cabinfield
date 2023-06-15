@@ -402,9 +402,20 @@
         }
     }
     
-    
 }
 
+.extra-link{
+    padding-bottom:0;
+    margin-bottom:42px;
+    .link{
+        @include font(16px,160%,500);
+        text-decoration: underline;
+        color:$brand-color;
+        &:hover{
+            color:$blue-darkest;
+        }
+    }
+}
 .payment-text{
     margin:20px 0 60px;
     h4,h3,h5{

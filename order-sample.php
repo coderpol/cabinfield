@@ -13,7 +13,7 @@ include_once('sections/layouts/header.php')
             <div class="col-md-12 breadcrumb-area">
                 <!-- .dark for dark text, .reverse for back direction  -->
                 <ol class="breadcrumb dark reverse">
-                    <li class="active">Order Sample</li>
+                    <li class="active">Back</li>
                 </ol>
             </div>
         </div>
@@ -21,9 +21,13 @@ include_once('sections/layouts/header.php')
 </div>
 <!-- breadcrumb section ends  -->
 
-
-<div class="section page-content mb-5 clearfix">
+<div class="section page-content mb-5 pt-0 clearfix">
     <div class="container">
+        <div class="row extra-link">
+            <div class="col-md-12">
+                <a href="#" class="link">Order Upholstery Samples</a>
+            </div>
+        </div>
         <!-- page heading, medium size  -->
         <div class="row page-headline mb-5">
             <div class="col-md-12 col-12 mt-3 section-title medium">
