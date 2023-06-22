@@ -135,6 +135,11 @@ $card_body_color: #F8F8F8;
         }
         .btn-coupon{
             right:22px;
+            padding: 8px 7px;
+            min-width: 95px;
+            span{
+                font-size: 11px;
+            }
         }
     }
 }
