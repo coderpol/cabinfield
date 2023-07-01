@@ -55,12 +55,15 @@ include_once('sections/layouts/header.php')
                             <div class="clearfix loading-section">
                                 <div class="loader"></div>
                                 <div class="loading-text">
-                                    <p style="margin-bottom:0">Please Wait. Your product is loading</p>
-                                    <div class="spinner">
-                                        <div class="bounce1"></div>
-                                        <div class="bounce2"></div>
-                                        <div class="bounce3"></div>
-                                    </div>
+                                    <p style="margin-bottom:0">
+                                    Please Wait. Your product is loading
+                                    <span class="spinner">
+                                        <span class="bounce1"></span>
+                                        <span class="bounce2"></span>
+                                        <span class="bounce3"></span>
+                                    </span>
+                                    </p>
+                                    
                                 </div>
                             </div>
                             <div class="accordion" id="customizations">
