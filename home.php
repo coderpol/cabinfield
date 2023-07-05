@@ -4,7 +4,6 @@ $page_title="Homepage"; // dynamic page title for every page
 // include header
 include_once('sections/layouts/header.php') 
 ?>
-
 <!-- Big banner of the page  starts -->
 <div class="header-banner home-banner clearfix">
     <div id="home-banner-slider" class="banner-slider">
@@ -122,7 +121,7 @@ include_once('sections/layouts/header.php')
                             // code structure is same for every slider
                             // the $slider variable will do the tricks (to be distinguished) for every slider
                             // you can mannual coding too if you like
-                            include("sections/home-product-slider-template.php");
+                            include("sections/home-extra-slider-template.php");
                         ?>
                     </div>
                     <article class="col-md-6 col-12 display-text">
@@ -148,7 +147,7 @@ include_once('sections/layouts/header.php')
                             // code structure is same for every slider
                             // the $slider variable will do the tricks (to be distinguished) for every slider
                             // you can mannual coding too if you like
-                            include("sections/home-product-slider-template.php");
+                            include("sections/home-extra-slider-template.php");
                         ?>
                     </div>
                     <article class="col-md-6 col-12 display-text">
@@ -172,7 +171,7 @@ include_once('sections/layouts/header.php')
                             // code structure is same for every slider
                             // the $slider variable will do the tricks (to be distinguished) for every slider
                             // you can mannual coding too if you like
-                            include("sections/home-product-slider-template.php");
+                            include("sections/home-extra-slider-template.php");
                         ?>
                     </div>
                     <article class="col-md-6 col-12 display-text">
