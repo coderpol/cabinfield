@@ -13,7 +13,7 @@
                         <span class="heading-link" data-target="first-menu">Fine Furniture <span class="only-responsive arrow">></span></span>
                         <div class="dropdown-menu submenu-block" id="first-menu">
                             <h3><a href="fine-furniture.php">Fine Furniture</a></h3>
-                            <!-- <a href="collection-landing.php" class="link stock-link">Items in stocks</a> -->
+                            <a href="collection-landing.php" class="link stock-link">Items in stocks</a>
                             <div class="submenu-area">
                                 <div class="category">
                                     <h4><a href="#">Bedroom</a></h4>

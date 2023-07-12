@@ -121,6 +121,9 @@
                         padding:0 !important;
                         color:$blue !important;
                     }
+                    &+.submenu-area{
+                        margin-top:36px;
+                    }
                 }
                 .category{
                     h4{
