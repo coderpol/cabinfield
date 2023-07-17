@@ -31,18 +31,19 @@
     .topbar-nav{
         .top-nav{
             // width:60%;
-            float:left;
+            // float:left;
             padding-left:0;
+            margin-bottom:0;
             li{
                 margin-right: 10px;
                 a{
-                   text-transform: capitalize;
+                    text-transform: capitalize;
                 }
             }
         }
         .contact-details{
             // width:40%;
-            float:left;
+            margin-bottom:0;
             text-align: right;
             padding: 10px;
             li{
