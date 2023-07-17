@@ -170,21 +170,64 @@
                             </div>
                         </div>
                     </li>
-                    <li class="menu-item">
-                        <a class="heading-link" data-target="third-menu">Outdoor <span class="only-responsive arrow">></span></a>
+                    
+                    <li class="menu-item has_submenu megamenu">
+                        <span class="heading-link" data-target="third-menu">Outdoor <span class="only-responsive arrow">></span></span>
                         <div class="dropdown-menu submenu-block" id="third-menu">
-                            <h3><a href="#">Outdoor</a></h3>
-                            <!-- <a href="product-listing.php" class="link stock-link">Items in stocks</a> -->
+                            <h3><a href="fine-furniture.php">Outdoor</a></h3>
+                            <a href="#" class="link stock-link">Items in stocks</a>
                             <div class="submenu-area">
-                                <ul class="submenu">
-                                    <li><a href="wood-sample.php">Historic Furniture</a></li>
-                                    <li><a href="list-of-pre-built-products-v1.php">Log furniture</a></li>
-                                    <li><a href="list-of-pre-built-products-v1.php">Rough Swan Elegance</a></li>
-                                    <li><a href="wood-sample.php">Reclaimed Barnwood</a></li>
-                                    <li><a href="list-of-pre-built-products-v1.php">Live edge</a></li>
-                                    <li><a href="list-of-pre-built-products-v1.php">Rustic Sophisticates</a></li>
-                                    <li><a href="list-of-pre-built-products-v1.php">Farmhouse</a></li>
-                                </ul>
+                                <div class="category">
+                                    <h4><a href="#">Playsets</a></h4>
+                                    <ul class="submenu">
+                                        <li><a href="#">link 1</a></li>
+                                        <li><a href="#">Link 2</a></li>
+                                        <li><a href="#">Link 3</a></li>
+                                    </ul>
+                                    <h4><a href="#">Gazebos & Outdoor Structures</a></h4>
+                                    <ul class="submenu">
+                                        <li><a href="#">Gazebos</a></li>
+                                        <li><a href="#">Arbors</a></li>
+                                    </ul>
+                                </div>
+                                <div class="category">
+                                    <h4><a href="#">Outdoor Dining Furniture</a></h4>
+                                    <ul class="submenu">
+                                        <li><a href="#">Outdoor Dining Sets</a></li>
+                                        <li><a href="#">Patio Dining Tables</a></li>
+                                        <li><a href="#">Patio Dining Chairs</a></li>
+                                        <li><a href="#">Patio Dining Benches</a></li>
+                                        <li><a href="#">Picnic Tables</a></li>
+                                    </ul>
+                                    <h4><a href="#">Outdoor Bar Furniture</a></h4>
+                                    <ul class="submenu">
+                                        <li><a href="#">Patio Bar Sets</a></li>
+                                        <li><a href="#">Outdoor Bars & Stools</a></li>
+                                    </ul>
+                                </div>
+                                <div class="category">
+                                    <h4><a href="#">Outdoor Sitting</a></h4>
+                                    <ul class="submenu">
+                                        <li><a href="#">Patio Dining Sets</a></li>
+                                        <li><a href="#">Patio Lounge & Deck Chairs</a></li>
+                                        <li><a href="#">Adirondack Chairs</a></li>
+                                        <li><a href="#">Patio Sofas, Loveseats and Sectionals</a></li>
+                                        <li><a href="#">Outdoor Accent Table</a></li>
+                                        <li><a href="#">Outdoor Benches</a></li>
+                                    </ul>
+                                    <ul class="additional-menu">
+                                        <li><a href="#">Quick Ship</a></li>
+                                    </ul>
+                                </div>
+                                <div class="category">
+                                    <h4><a href="#">Swings, Rockers & Canopy Gliders</a></h4>
+                                    <ul class="submenu">
+                                        <li><a href="#">Canopy Gliders</a></li>
+                                        <li><a href="#">Porcg Gliders</a></li>
+                                        <li><a href="#">Porch Swings</a></li>
+                                        <li><a href="#">Porch Rockers</a></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </li>
@@ -197,7 +240,9 @@
                         <li><a href="faq.php">FAQs</a></li>
                         <li><a href="contact-us.php">Contact</a></li>
                         <li><a href="gift-card.php">Gifting</a></li>
-                        <li><a href="#">blog</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Samples</a></li>
+                        <li><a href="#">In Stock Furniture</a></li>
                     </ul>
                     <ul class="col-md-12 clearfix">
                         <li><a href="tel:+866-450-9663"><i class="fa-solid fa-phone"></i> 866-450-9663</a></li>

@@ -141,6 +141,9 @@
                         list-style-type: disc; 
                         list-style-position: outside;
                         margin-left: 20px;
+                        &+h4{
+                            margin-top: 25px;
+                        }
                     }
                     .additional-menu{
                         list-style-type: none;
