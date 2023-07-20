@@ -1,3 +1,11 @@
+@import 'bootstrap/functions';
+@import 'bootstrap/variables';
+@import 'bootstrap/mixins';
+@import 'bootstrap/buttons';
+@import 'bootstrap/modal';
+@import 'bootstrap/forms/form-control';
+@import 'bootstrap/transitions';
+
 @import 'base/variables';
 @import 'base/mixin';
 // @import "components/icons";
@@ -31,4 +39,72 @@
     transition:all 0.3s ease-in-out;
     -webkit-appearance: button;
 }
-@import 'components/widget'
+@import 'components/widget';
+
+
+
+.widget-area{
+    font-family: DM Sans,sans-serif;
+    .info-card{
+        .header{
+            h4{
+                padding:0;
+                margin:0;
+                margin-bottom:15px;
+            }
+        }
+        .body{
+            h5{
+                margin-top:0;
+            }
+        }
+    }
+    .btn{
+        display: block;
+        
+        &:hover{
+            background-color: #000;
+        }
+    }
+}
+.modal{
+    font-family: DM Sans,sans-serif;
+    .btn{
+        background-color: $brand-color;
+        cursor:pointer;
+        &:hover{
+            background-color:#000;
+        }
+    }
+    .btn-close{
+        cursor:pointer;
+        display: inline-block;
+        outline: none;
+        border: none;
+        color: #887e7e;
+        background: transparent url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/%3E%3C/svg%3E") 50%/1em auto no-repeat;
+        border: 0;
+        border-radius: .25rem;
+        box-sizing: content-box;
+        color: #000;
+        height: 1em;
+        opacity: .5;
+        padding: .25em;
+        width: 1em;
+    }
+    .modal-title{
+        margin-top:0;
+        font-weight: 500;
+    }
+    .form-control{
+        box-sizing: border-box;
+    }
+    .form-label{
+        display: block;
+        font-size: 14px;
+        margin-bottom: 0.5rem;
+    }
+}
+.col-12{
+    width:100%;
+}

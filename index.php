@@ -69,7 +69,8 @@
                     <li class="done"><a href="update-password.php">Change Password</a></li>
                     <li class="done"><a href="virtual-gift.php">Virtual Gift</a></li>
                     <li class="done"><a href="virtual-gift-v2.php">Virtual Gift - V2</a></li>
-                    <li class="working"><a href="404.php">404 Page</a></li>
+                    <li class="done"><a href="404.php">404 Page</a></li>
+                    <li class="check"><a href="widget-modal.php">Widget & Modal Page</a></li>
                 </ol>
             </div>
         </div>
