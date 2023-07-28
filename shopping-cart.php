@@ -51,7 +51,7 @@ include_once('sections/layouts/header.php')
                             <li>Standard Fabric: <span>4-10 Dove</span></li>
                         </ul>
                         <div class="pre-gift-trigger">
-                            <p class="trigger"><span data-bs-toggle="collapse" href="#pre-gift-<?php echo $number; ?>" role="button" aria-expanded="false" aria-controls="collapseExample">Click here</span> to use virtual Pre-Gifting</p>
+                            <p class="trigger">Ordering for a loved one? <span data-bs-toggle="collapse" href="#pre-gift-<?php echo $number; ?>" role="button" aria-expanded="false" aria-controls="collapseExample">Click here</span> to <strong>Gift It!</strong> with a <strong>Cabinfield Virtual Pre-Gifting Card</strong>.</p>
                         </div>
                     </div>
                     <div class="col-md-3 action">
@@ -97,7 +97,7 @@ include_once('sections/layouts/header.php')
                             <li>Standard Fabric: <span>4-10 Dove</span></li>
                         </ul>
                         <div class="pre-gift-trigger">
-                            <p class="trigger"><span data-bs-toggle="collapse" href="#pre-gift-<?php echo $number; ?>" role="button" aria-expanded="false" aria-controls="collapseExample">Click here</span> to use virtual Pre-Gifting</p>
+                            <p class="trigger">Ordering for a loved one? <span data-bs-toggle="collapse" href="#pre-gift-<?php echo $number; ?>" role="button" aria-expanded="false" aria-controls="collapseExample">Click here</span> to <strong>Gift It!</strong> with a <strong>Cabinfield Virtual Pre-Gifting Card</strong>.</p>
                         </div>
                     </div>
                     <div class="col-md-3 action">
@@ -153,7 +153,7 @@ include_once('sections/layouts/header.php')
                             <li>Extra Nightstand: <span>3 drawer nightstand</span></li>
                         </ul>
                         <div class="pre-gift-trigger">
-                            <p class="trigger"><span data-bs-toggle="collapse" href="#pre-gift-<?php echo $number; ?>" role="button" aria-expanded="false" aria-controls="collapseExample">Click here</span> to use virtual Pre-Gifting</p>
+                            <p class="trigger">Ordering for a loved one? <span data-bs-toggle="collapse" href="#pre-gift-<?php echo $number; ?>" role="button" aria-expanded="false" aria-controls="collapseExample">Click here</span> to <strong>Gift It!</strong> with a <strong>Cabinfield Virtual Pre-Gifting Card</strong>.</p>
                         </div>
                     </div>
                     <div class="col-md-3 action">
@@ -208,7 +208,7 @@ include_once('sections/layouts/header.php')
                             <li>Standard Fabric: <span>4-10 Dove</span></li>
                         </ul>
                         <div class="pre-gift-trigger">
-                            <p class="trigger"><span data-bs-toggle="collapse" href="#pre-gift-<?php echo $number; ?>" role="button" aria-expanded="false" aria-controls="collapseExample">Click here</span> to use virtual Pre-Gifting</p>
+                            <p class="trigger">Ordering for a loved one? <span data-bs-toggle="collapse" href="#pre-gift-<?php echo $number; ?>" role="button" aria-expanded="false" aria-controls="collapseExample">Click here</span> to <strong>Gift It!</strong> with a <strong>Cabinfield Virtual Pre-Gifting Card</strong>.</p>
                         </div>
                     </div>
                     <div class="col-md-3 action">
