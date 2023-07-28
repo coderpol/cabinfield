@@ -49,7 +49,6 @@
             }
             .price{
                 margin:25px 0 0;
-                padding-bottom:25px;
                 // border-bottom:1px solid $gray;
                 p{
                     color:$blue-darkest;
@@ -61,7 +60,7 @@
                         display: block;
                         font-weight: 400;
                         margin-top:5px;
-                        color:$blue;
+                        color:$blue-darkest;
                         @include upto-phone{
                             display: inline;
                         }
@@ -81,9 +80,9 @@
                         color:$blue-darker-2;
                         @include font(40px,41px);
                         cursor:pointer;
-                        &:hover{
-                            background-color: $brand-color;
-                            color:$white;
+                        &:hover, &:focus{
+                            // background-color: $brand-color;
+                            color:$brand-color !important;
                         }
                     }
                     .count{
@@ -123,19 +122,12 @@
                 border-bottom:1px solid $gray;
                 margin-bottom:24px;
                 padding-bottom:24px;
-                .trigger{
-                    margin-bottom:0;
-                    color:$brand-color;
-                    span{
-                        font-weight: 700;
-                        text-decoration: underline;
-                    }
-                }
                 .form-area{
                     margin-top:15px;
                     p{
                         @include font(14px,18px);
                         color:#514646;
+                        padding-top:10px;
                     }
                     .form-label{
                         font-style: normal;
@@ -148,6 +140,18 @@
                         font-weight: 700;
                         margin-top:20px;
                         display: block;
+                        text-decoration: underline;
+                    }
+                }
+            }
+            .pre-gift-trigger{
+                margin-top:30px;
+                .trigger{
+                    margin-bottom:0;
+                    color:$brand-color;
+                    span{
+                        font-weight: 700;
+                        text-decoration: underline;
                     }
                 }
             }

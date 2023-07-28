@@ -1,7 +1,6 @@
 <div class="pre-gift-form">
-    <p class="trigger"><span data-bs-toggle="collapse" href="#pre-gift-<?php echo $number; ?>" role="button" aria-expanded="false" aria-controls="collapseExample">Click here</span> to use virtual Pre-Gifting</p>
     <div class="form-area <?php echo ($collapse) ? "collapse" : "show" ?>" id="pre-gift-<?php echo $number; ?>">
-        <p>Please enter your free personal message to your Virtual Pre-Gifting recipient here</p>
+        <p>Please enter your free personal message to your Virtual Pre-Gifting here</p>
         <div class="form-line">
             <label for="occassion-<?php echo $number; ?>" class="form-label">Occassion</label>
             <select name="occassion-<?php echo $number; ?>" id="occassion-<?php echo $number; ?>" class="form-select">

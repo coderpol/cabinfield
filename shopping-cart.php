@@ -41,7 +41,7 @@ include_once('sections/layouts/header.php')
                         </div>
                         <?php 
                             $number = 1;
-                            $collapse = false;
+                            $collapse = true;
                             include('sections/form/pre-gifting.php'); 
                         ?>
                         <ul class="detail">
@@ -50,6 +50,9 @@ include_once('sections/layouts/header.php')
                             <li>Upholstery: <span>Standard Fabric</span></li>
                             <li>Standard Fabric: <span>4-10 Dove</span></li>
                         </ul>
+                        <div class="pre-gift-trigger">
+                            <p class="trigger"><span data-bs-toggle="collapse" href="#pre-gift-<?php echo $number; ?>" role="button" aria-expanded="false" aria-controls="collapseExample">Click here</span> to use virtual Pre-Gifting</p>
+                        </div>
                     </div>
                     <div class="col-md-3 action">
                         <p class="price-title">Extended Price</p>
@@ -93,6 +96,9 @@ include_once('sections/layouts/header.php')
                             <li>Upholstery: <span>Standard Fabric</span></li>
                             <li>Standard Fabric: <span>4-10 Dove</span></li>
                         </ul>
+                        <div class="pre-gift-trigger">
+                            <p class="trigger"><span data-bs-toggle="collapse" href="#pre-gift-<?php echo $number; ?>" role="button" aria-expanded="false" aria-controls="collapseExample">Click here</span> to use virtual Pre-Gifting</p>
+                        </div>
                     </div>
                     <div class="col-md-3 action">
                         <p class="price-title">Extended Price</p>
@@ -146,6 +152,9 @@ include_once('sections/layouts/header.php')
                             <li>Other Hardware Choices for Doors: <span>Standard</span></li>
                             <li>Extra Nightstand: <span>3 drawer nightstand</span></li>
                         </ul>
+                        <div class="pre-gift-trigger">
+                            <p class="trigger"><span data-bs-toggle="collapse" href="#pre-gift-<?php echo $number; ?>" role="button" aria-expanded="false" aria-controls="collapseExample">Click here</span> to use virtual Pre-Gifting</p>
+                        </div>
                     </div>
                     <div class="col-md-3 action">
                         <p class="price-title">
@@ -198,6 +207,9 @@ include_once('sections/layouts/header.php')
                             <li>Upholstery: <span>Standard Fabric</span></li>
                             <li>Standard Fabric: <span>4-10 Dove</span></li>
                         </ul>
+                        <div class="pre-gift-trigger">
+                            <p class="trigger"><span data-bs-toggle="collapse" href="#pre-gift-<?php echo $number; ?>" role="button" aria-expanded="false" aria-controls="collapseExample">Click here</span> to use virtual Pre-Gifting</p>
+                        </div>
                     </div>
                     <div class="col-md-3 action">
                         <p class="price-title">Extended Price</p>
