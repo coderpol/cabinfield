@@ -17,7 +17,7 @@
             
             <div class="content">
                 <ol class="page-list">
-                    <li class="check"><a href="home.php">Homepage</a></li>
+                    <li class="done"><a href="home.php">Homepage</a></li>
                     <li class="done"><a href="fine-furniture.php">Fine Furniture</a></li>
                     <li class="done"><a href="style-landing.php">Style Landing</a></li>
                     <li class="done"><a href="collection-landing.php">Collection Landing</a></li>
@@ -30,10 +30,10 @@
                     <li class="done"><a href="product-2.php">Product - Customize -  V2</a></li>
                     <li class="done"><a href="product-3.php">Product - Customize -  V3</a></li>
                     <li class="done"><a href="product-4.php">Product - Customize -  V4</a></li>
-                    <li class="check"><a href="product-5.php">Product - Customize -  V5</a></li>
+                    <li class="done"><a href="product-5.php">Product - Customize -  V5</a></li>
                     <li class="done"><a href="product-1-loading.php">Product Customized - Anim</a></li>
                     <li class="done"><a href="in-stock.php">In Stock</a></li>
-                    <li class="done"><a href="shopping-cart.php">Shopping Cart</a></li>
+                    <li class="check"><a href="shopping-cart.php">Shopping Cart</a></li>
                     <li class="done"><a href="checkout-shipping.php">Checkout Shipping</a></li>
                     <li class="done"><a href="checkout-shipping-2.php">Checkout Shipping - 2</a></li>
                     <li class="done"><a href="checkout-payment-info.php">Checkout Payment - V1</a></li>
@@ -55,9 +55,9 @@
                     <li class="done"><a href="faq.php">FAQ</a></li>
                     <li class="done"><a href="about.php">About</a></li>
                     <li class="done"><a href="wood-sample.php">Wood Sample</a></li>
-                    <li class="check"><a href="order-sample.php">Order Sample</a></li>
-                    <li class="check"><a href="order-sample-2.php">Order Sample - 2</a></li>
-                    <li class="check"><a href="order-sample-3.php">Order Sample - (Updated)</a></li>
+                    <li class="done"><a href="order-sample.php">Order Sample</a></li>
+                    <li class="done"><a href="order-sample-2.php">Order Sample - 2</a></li>
+                    <li class="done"><a href="order-sample-3.php">Order Sample - (Updated)</a></li>
                     <li class="done"><a href="fabric-sample.php">Fabric Sample</a></li>
                     <li class="done"><a href="order-confirmation.php">Order Confirmation</a></li>
                     <li class="done"><a href="login.php">Login</a></li>
