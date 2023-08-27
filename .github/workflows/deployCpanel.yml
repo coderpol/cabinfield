@@ -1,13 +1,17 @@
 name: CI -> Deploy to My website
+
 on:
   push:
-    branches: [ master, main ]
+    branches: [master, main]
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v2
-      # Here is the deployment action
+      - name: Checkout code
+        uses: actions/checkout@v2
+
       - name: Upload from public_html via FTP
         uses: airvzxf/ftp-deployment-action@latest
         with:
@@ -16,14 +20,14 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           local_dir: "./public_html"
           remote_dir: "/home/palashba/public_html/cabinfield"
-          delete: "true"
-          max_retries: "7"
-          no_symlinks: "false"
-          ftp_ssl_allow: "true"
-          ftp_use_feat: "true"
-          ftp_nop_interval: "9"
-          net_max_retries: "0"
-          net_persist_retries: "11"
-          net_timeout: "13s"
-          dns_max_retries: "17"
-          dns_fatal_timeout: "never"
+          delete: true
+          max_retries: 7
+          no_symlinks: false
+          ftp_ssl_allow: true
+          ftp_use_feat: true
+          ftp_nop_interval: 9
+          net_max_retries: 0
+          net_persist_retries: 11
+          net_timeout: 13s
+          dns_max_retries: 17
+          dns_fatal_timeout: never
