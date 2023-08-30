@@ -18,8 +18,8 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           user: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local_dir: "./public_html"
-          remote_dir: "/home/palashba/public_html/cabinfield"
+          local_dir: "./cabinfield"  # Make sure this path is correct
+          remote_dir: "/home/palashba/public_html/cabinfield"  # Check the remote path
           delete: true
           max_retries: 7
           no_symlinks: false
