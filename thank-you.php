@@ -36,7 +36,7 @@ include_once('sections/layouts/header.php')
             <div class="col-md-8">
                 <div class="row">
                     <!-- order details  -->
-                    <div class="col-md-6">
+                    <div class="col-md-6 mb-5">
                         <h4 class="form-label">Order #9566275496</h4>
                         <p>Thank you for your order. Our bearded Amish woodsmen have been set off to cut trees for your furniture. We will contact you as soon as it is ready to be shipped.</p>
                         <p>To cancel items or edit yor order please contact us</p>
@@ -58,6 +58,11 @@ include_once('sections/layouts/header.php')
                         </address>
                     </div>
                     <!-- billing address ends -->
+                    
+                    <div class="col-md-12 mt-5 text-greyish-color">
+                        <p class="form-label mb-0"><strong>What's next on your wishlist?</strong></p>
+                        <p>Your Gift Certificate has a <strong>xxxx</strong> credit towards another handcrafter treasure.</p>
+                    </div>
                 </div>
             </div>
             
