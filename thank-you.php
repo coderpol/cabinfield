@@ -61,7 +61,7 @@ include_once('sections/layouts/header.php')
                     
                     <div class="col-md-12 mt-5 text-greyish-color">
                         <p class="form-label mb-0"><strong>What's next on your wishlist?</strong></p>
-                        <p>Your Gift Certificate has a <strong>xxxx</strong> credit towards another handcrafter treasure.</p>
+                        <p>Your Gift Certificate has a <strong>xxxx</strong> credit towards another handcrafted treasure.</p>
                     </div>
                 </div>
             </div>
