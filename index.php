@@ -33,7 +33,7 @@
                     <li class="done"><a href="product-5.php">Product - Customize -  V5</a></li>
                     <li class="done"><a href="product-1-loading.php">Product Customized - Anim</a></li>
                     <li class="done"><a href="in-stock.php">In Stock</a></li>
-                    <li class="done"><a href="shopping-cart.php">Shopping Cart</a></li>
+                    <li class="check"><a href="shopping-cart.php">Shopping Cart</a></li>
                     <li class="done"><a href="checkout-shipping.php">Checkout Shipping</a></li>
                     <li class="done"><a href="checkout-shipping-2.php">Checkout Shipping - 2</a></li>
                     <li class="done"><a href="checkout-payment-info.php">Checkout Payment - V1</a></li>
