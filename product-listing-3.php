@@ -16,8 +16,9 @@ include_once('sections/layouts/header.php')
                     <li><a href="home.php"><i class="fa-solid fa-house"></i></a></li>
                     <li><a href="bedroom-landing.php">Bedroom</a></li>
                     <li><a href="style-landing.php">Shop Style</a></li>
-                    <li><a href="collection-landing.php">Shop Collection</a></li>
-                    <li class="active">Product Listing</li>
+                    <li><a href="collection-landing.php">Shop by Furniture Type</a></li>
+                    <li><a href="collection-landing.php">Beds & Headboards</a></li>
+                    <li class="active">Sleigh Beds</li>
                 </ol>
             </div>
             <!-- breadcrumb ends  -->
