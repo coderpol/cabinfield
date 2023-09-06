@@ -232,6 +232,15 @@ include_once('sections/layouts/header.php')
                 </div>
                 <!-- one item ends -->
                 
+                 <!-- one item  -->
+                 <div class="row cart-item">
+                    <div class="col-md-12 only-details">
+                        <p>Ordering for a loved one?</p>
+                        <p><a href="#">Gift It!</a> With a <a href="#">Cabinfield Virtual Pre-Gifting Card</a></p>
+                    </div>
+                </div>
+                <!-- one item ends -->
+                
                 <!-- one item  -->
                 <div class="row cart-item sample-item">
                     <div class="heading-30">

@@ -241,7 +241,7 @@
             p{
                 @include font(20px,26px,500);
                 color:$blue-darkest;
-                span{
+                span, a{
                     color:$brand-color;
                 }
             }
@@ -304,4 +304,5 @@
             }
         }
     }
+
 }
