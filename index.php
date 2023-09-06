@@ -23,6 +23,7 @@
                     <li class="done"><a href="collection-landing.php">Collection Landing</a></li>
                     <li class="done"><a href="product-listing.php">Product Listing</a></li>
                     <li class="done"><a href="product-listing-2.php">Product Listing - V2</a></li>
+                    <li class="check"><a href="product-listing-3.php">Product Listing - V3</a></li>
                     <li class="done"><a href="product-listing-anim.php">Product Listing - Animation</a></li>
                     <li class="done"><a href="list-of-pre-built-products-v1.php">List of Pre-built products - V1</a></li>
                     <li class="done"><a href="list-of-pre-built-products-v2.php">List of Pre-built products - V2</a></li>
