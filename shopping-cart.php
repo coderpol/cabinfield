@@ -40,9 +40,10 @@ include_once('sections/layouts/header.php')
                             </div>
                         </div>
                         <?php 
-                            $number = 1;
-                            $collapse = true;
-                            include('sections/form/pre-gifting.php'); 
+                            // just keeping a sample code here
+                            // $number = 1;
+                            // $collapse = true;
+                            // include('sections/form/pre-gifting.php'); 
                         ?>
                         <ul class="detail">
                             <li>Wood: <span>Oak</span></li>
@@ -50,9 +51,13 @@ include_once('sections/layouts/header.php')
                             <li>Upholstery: <span>Standard Fabric</span></li>
                             <li>Standard Fabric: <span>4-10 Dove</span></li>
                         </ul>
-                        <div class="pre-gift-trigger">
+                        
+                        <!--
+                         #just keeping a sample code here
+                         
+                         <div class="pre-gift-trigger">
                             <p class="trigger">Ordering for a loved one? <span data-bs-toggle="collapse" href="#pre-gift-<?php echo $number; ?>" role="button" aria-expanded="false" aria-controls="collapseExample">Click here</span> to <strong>Gift It!</strong> with a <strong>Cabinfield Virtual Pre-Gifting Card</strong>.</p>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="col-md-3 action">
                         <p class="price-title">Extended Price</p>
@@ -85,20 +90,12 @@ include_once('sections/layouts/header.php')
                                 <span class="btn" data-action="increase">+</span>
                             </div>
                         </div>
-                        <?php 
-                            $number = 2;
-                            $collapse = true;
-                            include('sections/form/pre-gifting.php'); 
-                        ?>
                         <ul class="detail">
                             <li>Wood: <span>Oak</span></li>
                             <li>Oak Stain: <span>Natural</span></li>
                             <li>Upholstery: <span>Standard Fabric</span></li>
                             <li>Standard Fabric: <span>4-10 Dove</span></li>
                         </ul>
-                        <div class="pre-gift-trigger">
-                            <p class="trigger">Ordering for a loved one? <span data-bs-toggle="collapse" href="#pre-gift-<?php echo $number; ?>" role="button" aria-expanded="false" aria-controls="collapseExample">Click here</span> to <strong>Gift It!</strong> with a <strong>Cabinfield Virtual Pre-Gifting Card</strong>.</p>
-                        </div>
                     </div>
                     <div class="col-md-3 action">
                         <p class="price-title">Extended Price</p>
@@ -135,11 +132,6 @@ include_once('sections/layouts/header.php')
                                 <span class="btn" data-action="increase">+</span>
                             </div>
                         </div>
-                        <?php 
-                            $number = 3;
-                            $collapse = true;
-                            include('sections/form/pre-gifting.php'); 
-                        ?>
                         <ul class="detail wider">
                             <li>Bed Size: <span>California Kingak</span></li>
                             <li>Nightstand: <span>Open with pullout shelf</span></li>
@@ -152,9 +144,6 @@ include_once('sections/layouts/header.php')
                             <li>Other Hardware Choices for Doors: <span>Standard</span></li>
                             <li>Extra Nightstand: <span>3 drawer nightstand</span></li>
                         </ul>
-                        <div class="pre-gift-trigger">
-                            <p class="trigger">Ordering for a loved one? <span data-bs-toggle="collapse" href="#pre-gift-<?php echo $number; ?>" role="button" aria-expanded="false" aria-controls="collapseExample">Click here</span> to <strong>Gift It!</strong> with a <strong>Cabinfield Virtual Pre-Gifting Card</strong>.</p>
-                        </div>
                     </div>
                     <div class="col-md-3 action">
                         <p class="price-title">
@@ -196,20 +185,12 @@ include_once('sections/layouts/header.php')
                                 <span class="btn" data-action="increase">+</span>
                             </div>
                         </div>
-                        <?php 
-                            $number = 4;
-                            $collapse = true;
-                            include('sections/form/pre-gifting.php'); 
-                        ?>
                         <ul class="detail">
                             <li>Wood: <span>Oak</span></li>
                             <li>Oak Stain: <span>Natural</span></li>
                             <li>Upholstery: <span>Standard Fabric</span></li>
                             <li>Standard Fabric: <span>4-10 Dove</span></li>
                         </ul>
-                        <div class="pre-gift-trigger">
-                            <p class="trigger">Ordering for a loved one? <span data-bs-toggle="collapse" href="#pre-gift-<?php echo $number; ?>" role="button" aria-expanded="false" aria-controls="collapseExample">Click here</span> to <strong>Gift It!</strong> with a <strong>Cabinfield Virtual Pre-Gifting Card</strong>.</p>
-                        </div>
                     </div>
                     <div class="col-md-3 action">
                         <p class="price-title">Extended Price</p>
@@ -257,8 +238,6 @@ include_once('sections/layouts/header.php')
                     </div>
                 </div>
                 <!-- one item ends -->
-                
-                
                 
                 <div class="row sample-item">
                     <div class="col-md-12 heading">
