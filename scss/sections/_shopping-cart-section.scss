@@ -118,43 +118,7 @@
                     }
                 }
             }
-            .pre-gift-form{
-                border-bottom:1px solid $gray;
-                margin-bottom:24px;
-                padding-bottom:24px;
-                .form-area{
-                    margin-top:15px;
-                    p{
-                        @include font(14px,18px);
-                        color:#514646;
-                        padding-top:10px;
-                    }
-                    .form-label{
-                        font-style: normal;
-                        font-weight: 500;
-                        font-size: 16px;
-                        line-height: 22px;
-                    }
-                    a{
-                        color:$brand-color;
-                        font-weight: 700;
-                        margin-top:20px;
-                        display: block;
-                        text-decoration: underline;
-                    }
-                }
-            }
-            .pre-gift-trigger{
-                margin-top:30px;
-                .trigger{
-                    margin-bottom:0;
-                    color:$brand-color;
-                    span{
-                        font-weight: 700;
-                        text-decoration: underline;
-                    }
-                }
-            }
+            
         }
         .card-figure{
             width:71.3%;
@@ -237,13 +201,66 @@
             }
         }
         
-        .only-details{
-            p{
-                @include font(20px,26px,500);
-                color:$blue-darkest;
-                span, a{
-                    color:$brand-color;
+        
+    }
+    .only-details{
+        p{
+            @include font(20px,26px,500);
+            color:$blue-darkest;
+            span, a{
+                color:$brand-color;
+                &.link{
+                    text-decoration: underline;
+                    &:hover{
+                        text-decoration: none;
+                    }
                 }
+            }
+        }
+    }
+    .pre-gift-form{
+        // border-bottom:1px solid $gray;
+        // margin-bottom:24px;
+        // padding-bottom:24px;
+        .form-area{
+            // margin-top:15px;
+            .form-line{
+                margin-bottom:20px;
+            }
+            p{
+                @include font(14px,18px);
+                color:#514646;
+                padding-top:10px;
+            }
+            .form-label{
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 22px;
+            }
+            a{
+                color:$brand-color;
+                font-weight: 700;
+                margin-top:20px;
+                display: block;
+                text-decoration: underline;
+                &.link{
+                    text-decoration: underline;
+                    &:hover{
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+    .pre-gift-trigger{
+        margin-top:30px;
+        .trigger{
+            margin-bottom:0;
+            color:$brand-color;
+            span{
+                font-weight: 700;
+                text-decoration: underline;
             }
         }
     }

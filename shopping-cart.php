@@ -39,25 +39,14 @@ include_once('sections/layouts/header.php')
                                 <span class="btn" data-action="increase">+</span>
                             </div>
                         </div>
-                        <?php 
-                            // just keeping a sample code here
-                            // $number = 1;
-                            // $collapse = true;
-                            // include('sections/form/pre-gifting.php'); 
-                        ?>
+                        
                         <ul class="detail">
                             <li>Wood: <span>Oak</span></li>
                             <li>Oak Stain: <span>Natural</span></li>
                             <li>Upholstery: <span>Standard Fabric</span></li>
                             <li>Standard Fabric: <span>4-10 Dove</span></li>
                         </ul>
-                        
-                        <!--
-                         #just keeping a sample code here
-                         
-                         <div class="pre-gift-trigger">
-                            <p class="trigger">Ordering for a loved one? <span data-bs-toggle="collapse" href="#pre-gift-<?php echo $number; ?>" role="button" aria-expanded="false" aria-controls="collapseExample">Click here</span> to <strong>Gift It!</strong> with a <strong>Cabinfield Virtual Pre-Gifting Card</strong>.</p>
-                        </div> -->
+                    
                     </div>
                     <div class="col-md-3 action">
                         <p class="price-title">Extended Price</p>
@@ -217,7 +206,56 @@ include_once('sections/layouts/header.php')
                  <div class="row cart-item">
                     <div class="col-md-12 only-details">
                         <p>Ordering for a loved one?</p>
-                        <p><a href="#">Gift It!</a> With a <a href="#">Cabinfield Virtual Pre-Gifting Card</a></p>
+                        <p><span class="link" data-bs-toggle="collapse" href="#pre-gifting-card" role="button" aria-expanded="false" aria-controls="collapseExample">Gift It!</span> With a <span>Cabinfield Virtual Pre-Gifting Card</span></p>
+                    </div>
+                    <div class="col-md-6 pre-gift-form">
+                        <div class="form-area collapse" id="pre-gifting-card">
+                            <div class="col-md-9">
+                                <p>Please enter your free personal message to your Virtual Pre-Gifting recipient here</p>
+                            </div>
+                            <div class="form-line">
+                                <label for="occassion" class="form-label">Occassion</label>
+                                <select name="occassion" id="occassion" class="form-select">
+                                    <option value="" selected disabled>--select--</option>
+                                    <option value="value-1">Value 1</option>
+                                    <option value="value-2">Value 2</option>
+                                    <option value="value-3">Value 3</option>
+                                    <option value="value-4">Value 4</option>
+                                    <option value="value-5">Value 5</option>
+                                    <option value="value-6">Value 6</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-line">
+                                <label for="to" class="form-label">To</label>
+                                <input type="text" name="to" id="to" class="form-control">
+                            </div>
+                            
+                            <div class="form-line">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea name="message" id="message" cols="30" rows="3" class="form-control"></textarea>
+                            </div>
+                            
+                            <div class="form-line">
+                                <label for="closing" class="form-label">Clossing</label>
+                                <select name="closing" id="closing" class="form-select">
+                                    <option value="" selected disabled>--select--</option>
+                                    <option value="value-1">Value 1</option>
+                                    <option value="value-2">Value 2</option>
+                                    <option value="value-3">Value 3</option>
+                                    <option value="value-4">Value 4</option>
+                                    <option value="value-5">Value 5</option>
+                                    <option value="value-6">Value 6</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-line">
+                                <label for="from" class="form-label">From</label>
+                                <input type="text" name="form" id="form" class="form-control">
+                            </div>
+                            
+                            <a href="#" class="link">View a Sample</a>
+                        </div>
                     </div>
                 </div>
                 <!-- one item ends -->
