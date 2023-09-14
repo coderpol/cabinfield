@@ -227,6 +227,12 @@
             // margin-top:15px;
             .form-line{
                 margin-bottom:20px;
+                select{
+                    color:#6B7481;
+                    &:focus{
+                        color:$blue-darkest;
+                    }
+                }
             }
             p{
                 @include font(14px,18px);
