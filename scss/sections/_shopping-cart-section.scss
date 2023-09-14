@@ -48,8 +48,9 @@
                 }
             }
             .price{
-                margin:25px 0 0;
-                // border-bottom:1px solid $gray;
+                margin:25px 0;
+                padding-bottom:25px;
+                border-bottom:1px solid $gray;
                 p{
                     color:$blue-darkest;
                     @include font(18px,23px,700);
