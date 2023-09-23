@@ -50,6 +50,7 @@
 					<li><a href="index.php" class="facebook">Facebook</a></li>
 					<li><a href="index.php" class="pinterest">Pinterest</a></li>
 					<li><a href="index.php" class="instagram">Instagram</a></li>
+					<li><a href="index.php" class="youtube">Youtube</a></li>
 				</ul>
 				<!-- social icons  ends -->
 				
