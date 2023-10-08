@@ -1,126 +1,84 @@
-// homepage extra slider
+$(document).ready(function () {
+  // Function to initialize a slider
+  function initializeSlider(sliderId) {
+    const sliderContainer = $("#" + sliderId + "-slider");
+    const slider = $("#" + sliderId + "-slider");
+    const slides = slider.find(".slide");
+    const prevButton = slider.find(".btn-prev");
+    const nextButton = slider.find(".btn-next");
+    const thumbs = $("#" + sliderId + "-thumbs .thumb");
 
-let slider_width = $("#furniture-slider").width();
-$(".extra-track").css("width", slider_width*5+"px");
-$(".extra-track .slide").css("width", slider_width+"px");
-$(".slider-thumbs .thumb:nth-child(1)").addClass('active');
+    let currentSlideIndex = 0;
+    let isAnimating = false;
+    
+    function showSlide(index) {
+      if (isAnimating) return;
+      isAnimating = true;
 
-$('.slider-thumbs .thumb').on("click",function(){
-  $(".slider-slider .slide").removeClass("current active");
-  let target = $(this).data("slide-target");
-  let target_split = target.split("-");
-  let target_text = target_split[0];
-  let target_number = target_split[1];
-  let parent = "#" + target_text + "-slider";  
-  let slide =  parent +" #"+target;
-  let track =  parent + " .extra-track";
-  let width = $(slide).width();
-  let translet = (target_number - 1) * width;
-  let thumbs = "#" + target_text + "-thumbs .thumb";
-  $(thumbs).removeClass("active");
-  $(this).addClass("active");
-  $(slide).addClass("current active");
-  $(track).css({
-    "transform" : "translate3d(-"+translet+"px, 0px, 0px)",
-    "transition":"transform 500ms ease 0s"
-  });
-});
+      slides.removeClass("active");
+      slides.eq(index).addClass("active");
 
-let counter_furniture = 1;
-let counter_outdoor = 1;
-let counter_rustic = 1;
-$(".extra-slider .btn").on("click",function(){
-  let target_text = $(this).data("slide");
-  let target_class = $(this).attr('class');
-  
-  if(target_text=="furniture"){
-    let parent = "#furniture-slider";
-    let track =  parent + " .extra-track";
-    let slide =  parent +" #"+target_text+"-"+counter_furniture;
-    let width = $(slide).width();
+      setTimeout(function () {
+        isAnimating = false;
+      }, 500); // Match the transition duration in CSS
+    }
+
+    // Function to update the active thumb
+    function updateActiveThumb(index) {
+      thumbs.removeClass("active").eq(index).addClass("active");
+    }
     
-    if(target_class == "btn btn-next" || target_class == "btn btn-next disabled"){
-      if(counter_furniture<5){counter_furniture++;}
-    }else{
-      if(counter_furniture>1){counter_furniture--;}
+    // Function to set the container height based on the tallest slide
+    function setSliderHeight() {
+      const tallestSlideHeight = Math.max(...slides.map(function () {
+        return $(this).outerHeight();
+      }));
+      sliderContainer.css("height", tallestSlideHeight + "px");
     }
-    if(counter_furniture<6 && counter_furniture>0){
-      let translet = (counter_furniture - 1) * width;
-      $(track).css({
-        "transform" : "translate3d(-"+translet+"px, 0px, 0px)",
-        "transition":"transform 500ms ease 0s"
-      });
-    }
-    let thumbs = "#" + target_text + "-thumbs .thumb";
-    $(thumbs).removeClass("active");
-    $(thumbs+":nth-child("+counter_furniture+")").addClass("active");
-    if(counter_furniture==5){
-      $(parent +" .btn-next").addClass('disabled');
-    }else if(counter_furniture==1){
-      $(parent +" .btn-prev").addClass('disabled');
-    }else{
-      $(parent +" .btn").removeClass('disabled');
-    }
+
+    // Initialize the slider
+    showSlide(currentSlideIndex);
+    updateActiveThumb(currentSlideIndex);
+    setSliderHeight();
+
+    // Next button click event
+    nextButton.on("click", function () {
+      currentSlideIndex++;
+      if (currentSlideIndex >= slides.length) {
+        currentSlideIndex = 0;
+      }
+      showSlide(currentSlideIndex);
+      updateActiveThumb(currentSlideIndex);
+      setSliderHeight();
+    });
+
+    // Prev button click event
+    prevButton.on("click", function () {
+      currentSlideIndex--;
+      if (currentSlideIndex < 0) {
+        currentSlideIndex = slides.length - 1;
+      }
+      showSlide(currentSlideIndex);
+      updateActiveThumb(currentSlideIndex);
+      setSliderHeight();
+    });
+
+    // Thumbnail click event
+    thumbs.on("click", function () {
+      const newIndex = thumbs.index(this);
+      if (newIndex !== currentSlideIndex) {
+        currentSlideIndex = newIndex;
+        showSlide(currentSlideIndex);
+        updateActiveThumb(currentSlideIndex);
+        setSliderHeight();
+      }
+    });
   }
-  if(target_text=="outdoor"){
-    let parent = "#outdoor-slider";
-    let track =  parent + " .extra-track";
-    let slide =  parent +" #"+target_text+"-"+counter_outdoor;
-    let width = $(slide).width();
-    
-    if(target_class == "btn btn-next" || target_class == "btn btn-next disabled"){
-      if(counter_outdoor<5){counter_outdoor++;}
-    }else{
-      if(counter_outdoor>1){counter_outdoor--;}
-    }
-    if(counter_outdoor<6 && counter_outdoor>0){
-      let translet = (counter_outdoor - 1) * width;
-      $(track).css({
-        "transform" : "translate3d(-"+translet+"px, 0px, 0px)",
-        "transition":"transform 500ms ease 0s"
-      });
-    }
-    let thumbs = "#" + target_text + "-thumbs .thumb";
-    $(thumbs).removeClass("active");
-    $(thumbs+":nth-child("+counter_outdoor+")").addClass("active");
-    if(counter_outdoor==5){
-      $(parent +" .btn-next").addClass('disabled');
-    }else if(counter_outdoor==1){
-      $(parent +" .btn-prev").addClass('disabled');
-    }else{
-      $(parent +" .btn").removeClass('disabled');
-    }
-  }
-  if(target_text=="rustic"){
-    let parent = "#rustic-slider";
-    let track =  parent + " .extra-track";
-    let slide =  parent +" #"+target_text+"-"+counter_rustic;
-    let width = $(slide).width();
-    
-    if(target_class == "btn btn-next" || target_class == "btn btn-next disabled"){
-      if(counter_rustic<5){counter_rustic++;}
-    }else{
-      if(counter_rustic>1){counter_rustic--;}
-    }
-    if(counter_rustic<6 && counter_rustic>0){
-      let translet = (counter_rustic - 1) * width;
-      $(track).css({
-        "transform" : "translate3d(-"+translet+"px, 0px, 0px)",
-        "transition":"transform 500ms ease 0s"
-      });
-    }
-    let thumbs = "#" + target_text + "-thumbs .thumb";
-    $(thumbs).removeClass("active");
-    $(thumbs+":nth-child("+counter_rustic+")").addClass("active");
-    if(counter_rustic==5){
-      $(parent +" .btn-next").addClass('disabled');
-    }else if(counter_rustic==1){
-      $(parent +" .btn-prev").addClass('disabled');
-    }else{
-      $(parent +" .btn").removeClass('disabled');
-    }
-  }
-  
+
+  // Initialize each slider
+  initializeSlider("furniture");
+  initializeSlider("outdoor");
+  initializeSlider("rustic");
 });
 
 // testimonial slider

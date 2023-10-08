@@ -219,6 +219,5 @@ include_once('sections/layouts/header.php')
 </div>
 <!-- The call to action banner starts  ends-->
 
-
 <!-- Includes the footer area -->
 <?php include_once('sections/layouts/footer.php') ?>

@@ -1,19 +1,17 @@
-<div class="display-slider extra-slider" id="<?php echo $slider; ?>-slider">
-    <button class="btn btn-prev disabled" data-slide="<?php echo $slider; ?>">Prev</button>
-    <div class="extra-list">
-        <div class="extra-track">
-            <?php 
-                for($i=1;$i<6;$i++){
-                ?>
-                <figure class="slide" id="<?php echo $slider."-".$i; ?>">
-                    <img src="images/display/slider/main/<?php echo $slider."-".$i; ?>.png" alt="">
-                </figure>
-                <?php
-                    }
-                ?>
-            </div>
+<div class="extra-slider" id="<?php echo $slider; ?>-slider">
+    <?php 
+        for($i=1;$i<6;$i++){
+    ?>
+        <figure class="slide" id="<?php echo $slider."-".$i; ?>">
+            <img src="images/display/slider/main/<?php echo $slider."-".$i; ?>.png" alt="">
+        </figure>
+    <?php
+            }
+    ?>
+    <div class="slider-nav">
+        <button class="btn btn-prev" data-slide="<?php echo $slider; ?>">Prev</button>
+        <button class="btn btn-next" data-slide="<?php echo $slider; ?>">Next</button>
     </div>
-    <button class="btn btn-next" data-slide="<?php echo $slider; ?>">Next</button>
 </div>
 
 <div id="<?php echo $slider; ?>-thumbs" class="slider-thumbs">
