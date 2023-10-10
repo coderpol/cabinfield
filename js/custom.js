@@ -21,11 +21,13 @@ $(document).ready(function () {
       setTimeout(function () {
         isAnimating = false;
       }, 500); // Match the transition duration in CSS
+      console.log("Slide changed");
     }
 
     // Function to update the active thumb
     function updateActiveThumb(index) {
       thumbs.removeClass("active").eq(index).addClass("active");
+      console.log("Thumb changed");
     }
     
     // Function to set the container height based on the tallest slide
@@ -50,6 +52,7 @@ $(document).ready(function () {
       showSlide(currentSlideIndex);
       updateActiveThumb(currentSlideIndex);
       setSliderHeight();
+      console.log("Next clicked");
     });
 
     // Prev button click event
@@ -61,6 +64,7 @@ $(document).ready(function () {
       showSlide(currentSlideIndex);
       updateActiveThumb(currentSlideIndex);
       setSliderHeight();
+      console.log("Prev clicked");
     });
 
     // Thumbnail click event
@@ -72,6 +76,7 @@ $(document).ready(function () {
         updateActiveThumb(currentSlideIndex);
         setSliderHeight();
       }
+      console.log("Thumb clicked");
     });
   }
 
