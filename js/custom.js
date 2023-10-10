@@ -20,7 +20,7 @@ $(document).ready(function () {
 
       setTimeout(function () {
         isAnimating = false;
-      }, 500); // Match the transition duration in CSS
+      }, 0); // Match the transition duration in CSS
       console.log("Slide changed");
     }
 
