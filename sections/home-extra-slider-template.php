@@ -18,7 +18,7 @@
     <?php 
         for($i=1;$i<6;$i++){
     ?>
-    <div class="thumb" data-slide-target="<?php echo $slider."-".$i; ?>">
+    <div class="thumb">
         <img src="images/display/slider/thumbs/<?php echo $slider; ?>-thumb-<?php echo $i; ?>.png" alt="">
     </div>
     <?php
