@@ -284,7 +284,8 @@ html, body {
   background-size: cover;
 }
 .giftpage p, .giftpage a {
-  font-family: "DM Sans", serif;
+  font-family: "DM Sans", sans-serif;
+  font-display: swap;
   margin: 0;
 }
 .giftpage .certificate {
@@ -320,6 +321,7 @@ html, body {
   font-size: 93px;
   line-height: 1.2em;
   font-weight: 400;
+  font-display: swap;
   color: #B3522C;
   margin: 0;
 }
@@ -330,6 +332,7 @@ html, body {
   font-size: 24px;
   line-height: 1.25em;
   font-weight: 400;
+  font-display: swap;
   margin-bottom: 0;
   color: #828282;
 }
@@ -344,6 +347,7 @@ html, body {
   font-size: 22px;
   line-height: 1.2em;
   font-weight: 400;
+  font-display: swap;
 }
 .giftpage .certificate .gift_fields .field p span {
   float: left;
@@ -426,6 +430,7 @@ html, body {
   font-size: 22px;
   line-height: 1.2em;
   font-weight: 400;
+  font-display: swap;
 }
 
 .certificate_footer {
@@ -463,6 +468,7 @@ html, body {
   font-size: 20px;
   line-height: 1.2em;
   font-weight: 400;
+  font-display: swap;
 }
 .certificate_footer .slogan {
   float: right;

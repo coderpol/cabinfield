@@ -157,6 +157,7 @@
 @include upto-tablet{
     .footer{
         font-family: $helvetica;
+        font-display: swap;
         margin-bottom: 80px;
         .footer-area{
             max-width:500px;

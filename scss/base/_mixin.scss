@@ -160,6 +160,7 @@ $breakpoint-xxl : 1400px;
     font-size:$size;
     line-height:$line-height;
     font-weight: $weight;
+    font-display: swap;
 }
 
 @mixin square($size){
