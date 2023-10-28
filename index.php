@@ -23,7 +23,7 @@
                     <li class="done"><a href="collection-landing.php">Collection Landing</a></li>
                     <li class="done"><a href="product-listing.php">Product Listing</a></li>
                     <li class="done"><a href="product-listing-2.php">Product Listing - V2</a></li>
-                    <li class="check"><a href="product-listing-3.php">Product Listing - V3</a></li>
+                    <li class="done"><a href="product-listing-3.php">Product Listing - V3</a></li>
                     <li class="done"><a href="product-listing-anim.php">Product Listing - Animation</a></li>
                     <li class="done"><a href="list-of-pre-built-products-v1.php">List of Pre-built products - V1</a></li>
                     <li class="done"><a href="list-of-pre-built-products-v2.php">List of Pre-built products - V2</a></li>
@@ -34,13 +34,13 @@
                     <li class="done"><a href="product-5.php">Product - Customize -  V5</a></li>
                     <li class="done"><a href="product-1-loading.php">Product Customized - Anim</a></li>
                     <li class="done"><a href="in-stock.php">In Stock</a></li>
-                    <li class="check"><a href="shopping-cart.php">Shopping Cart</a></li>
+                    <li class="done"><a href="shopping-cart.php">Shopping Cart</a></li>
                     <li class="done"><a href="checkout-shipping.php">Checkout Shipping</a></li>
                     <li class="done"><a href="checkout-shipping-2.php">Checkout Shipping - 2</a></li>
                     <li class="done"><a href="checkout-payment-info.php">Checkout Payment - V1</a></li>
                     <li class="done"><a href="checkout-payment-info-2.php">Checkout Payment - V2</a></li>
                     <li class="done"><a href="checkout-info.php">Checkout Info</a></li>
-                    <li class="check"><a href="thank-you.php">Thank You</a></li>
+                    <li class="done"><a href="thank-you.php">Thank You</a></li>
                     <li class="done"><a href="thank-you-v2.php">Thank You - V2</a></li>
                     <li class="done"><a href="bedroom-landing.php">Bedroom Landing</a></li>
                     <li class="done"><a href="gift-card.php">Gift Card</a></li>
