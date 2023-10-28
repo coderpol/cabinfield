@@ -1,7 +1,10 @@
 .page-content{
     padding:20px 0 50px;
-    p{
+    p,li{
         @include font(16px,26px);
+    }
+    
+    p{
         // color:$gray-dark-3;
         color:$blue-darkest;
         .primary{
@@ -280,6 +283,11 @@
                 border-bottom:1px solid $brand-color;
                 padding:1rem 1.25rem 1rem 0;
                 margin-bottom:1rem;
+            }
+        }
+        li{
+            &+li{
+                margin-top:10px;
             }
         }
     }
