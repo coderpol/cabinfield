@@ -51,7 +51,7 @@
                     <li class="done"><a href="terms-of-use.php">Terms of Use</a></li>
                     <li class="done"><a href="policies-terms.php">Terms of Use - V2</a></li>
                     <li class="check"><a href="policies-terms-updated.php">Terms of Use - V3 (Updated)</a></li>
-                    <li class="done"><a href="privacy-policy.php">Privacy Policy</a></li>
+                    <li class="check"><a href="privacy-policy.php">Privacy Policy</a></li>
                     <li class="done"><a href="warranty.php">Warranty</a></li>
                     <li class="done"><a href="testimonials.php">Testimonials</a></li>
                     <li class="done"><a href="faq.php">FAQ</a></li>
