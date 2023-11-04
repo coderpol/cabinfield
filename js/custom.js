@@ -37,7 +37,7 @@ $(document).ready(function () {
     }
 
     // Initialize the slider
-    setSliderHeight();
+    // setSliderHeight();
     showSlide(currentSlideIndex);
     updateActiveThumb(currentSlideIndex);
 
@@ -47,7 +47,7 @@ $(document).ready(function () {
       if (currentSlideIndex >= slides.length) {
         currentSlideIndex = 0;
       }
-      setSliderHeight();
+      // setSliderHeight();
       showSlide(currentSlideIndex);
       updateActiveThumb(currentSlideIndex);
     });
@@ -58,7 +58,7 @@ $(document).ready(function () {
       if (currentSlideIndex < 0) {
         currentSlideIndex = slides.length - 1;
       }
-      setSliderHeight();
+      // setSliderHeight();
       showSlide(currentSlideIndex);
       updateActiveThumb(currentSlideIndex);
     });
@@ -68,7 +68,7 @@ $(document).ready(function () {
       const newIndex = thumbs.index(this);
       if (newIndex !== currentSlideIndex) {
         currentSlideIndex = newIndex;
-        setSliderHeight();
+        // setSliderHeight();
         showSlide(currentSlideIndex);
         updateActiveThumb(currentSlideIndex);
       }

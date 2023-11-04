@@ -49,15 +49,36 @@
         right: 0;
         border-radius:15px;
         overflow:hidden;
-      }
+    }
     
-      .slide.active {
+    .slide.active {
         opacity: 1;
-      }
+    }
     
-      .slider {
+    .slider {
         position: relative;
         width: 100%;
         overflow: hidden;
-      }
+    }
+    @include tablet-to-pc{
+        height:38vw !important;
+    }
+    @include from-pc{
+        height:476px !important;
+    }
+    @include phone-to-tablet{
+        height:76vw !important;
+    }
+    @include phone-to-tablet{
+        height:76vw !important;
+    }
+    @include phone-large{
+        height:74vw !important;
+    }
+    @include phone-small{
+        height:72vw !important;
+    }
+    @include smaller{
+        height:68vw !important;
+    }
 }
