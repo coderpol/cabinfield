@@ -37,9 +37,9 @@ $(document).ready(function () {
     }
 
     // Initialize the slider
+    setSliderHeight();
     showSlide(currentSlideIndex);
     updateActiveThumb(currentSlideIndex);
-    setSliderHeight();
 
     // Next button click event
     nextButton.on("click", function () {
@@ -47,9 +47,9 @@ $(document).ready(function () {
       if (currentSlideIndex >= slides.length) {
         currentSlideIndex = 0;
       }
+      setSliderHeight();
       showSlide(currentSlideIndex);
       updateActiveThumb(currentSlideIndex);
-      setSliderHeight();
     });
 
     // Prev button click event
@@ -58,9 +58,9 @@ $(document).ready(function () {
       if (currentSlideIndex < 0) {
         currentSlideIndex = slides.length - 1;
       }
+      setSliderHeight();
       showSlide(currentSlideIndex);
       updateActiveThumb(currentSlideIndex);
-      setSliderHeight();
     });
 
     // Thumbnail click event
@@ -68,9 +68,9 @@ $(document).ready(function () {
       const newIndex = thumbs.index(this);
       if (newIndex !== currentSlideIndex) {
         currentSlideIndex = newIndex;
+        setSliderHeight();
         showSlide(currentSlideIndex);
         updateActiveThumb(currentSlideIndex);
-        setSliderHeight();
       }
     });
   }
