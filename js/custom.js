@@ -27,17 +27,8 @@ $(document).ready(function () {
     function updateActiveThumb(index) {
       thumbs.removeClass("active").eq(index).addClass("active");
     }
-    
-    // Function to set the container height based on the tallest slide
-    function setSliderHeight() {
-      const tallestSlideHeight = Math.max(...slides.map(function () {
-        return $(this).outerHeight();
-      }));
-      sliderContainer.css("height", tallestSlideHeight + "px");
-    }
 
     // Initialize the slider
-    // setSliderHeight();
     showSlide(currentSlideIndex);
     updateActiveThumb(currentSlideIndex);
 
@@ -47,7 +38,6 @@ $(document).ready(function () {
       if (currentSlideIndex >= slides.length) {
         currentSlideIndex = 0;
       }
-      // setSliderHeight();
       showSlide(currentSlideIndex);
       updateActiveThumb(currentSlideIndex);
     });
@@ -58,7 +48,6 @@ $(document).ready(function () {
       if (currentSlideIndex < 0) {
         currentSlideIndex = slides.length - 1;
       }
-      // setSliderHeight();
       showSlide(currentSlideIndex);
       updateActiveThumb(currentSlideIndex);
     });
@@ -68,7 +57,6 @@ $(document).ready(function () {
       const newIndex = thumbs.index(this);
       if (newIndex !== currentSlideIndex) {
         currentSlideIndex = newIndex;
-        // setSliderHeight();
         showSlide(currentSlideIndex);
         updateActiveThumb(currentSlideIndex);
       }
