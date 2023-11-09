@@ -350,15 +350,18 @@ include_once('sections/layouts/header.php')
                         <li class="list-item">Shipping & handling: <span class="value">$135.00</span></li>
                         <li class="list-item">Savings on combined shipping: <span class="value"> - $128.24</span></li>
                         <li class="list-item">Total before tax: <span class="value">$1,371.00</span></li>
-                        <li class="list-item">Estimated Sales Tax: <span class="value">$0.00</span></li>
+                        <li class="list-item">Sales Tax: <span class="value">$0.00</span></li>
                         <li class="list-item total">Order total: <span class="value">$1,371.00</span></li>
-                        <!-- <li class="list-item">Due today: <span class="value">$0.00</span></li> -->
                     </ul>
+                    <form action="#" class="cabinform">
+                        <div class="policy-check clearfix form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="terms_accepted" checked>
+                            <label class="form-check-label" for="terms_accepted">
+                                I have read and agree to the Terms of Use and Privacy Policy
+                            </label>
+                        </div>
+                    </form>
                     <button type="submit" class="btn btn-primary btn-block">Continue to Payment</button>
-                    <hr class="dropdown-divider">
-                    <div class="note">
-                        <p>By clicking “Place Your Order” above you agree to Cabinfield’s updated <a href="terms-of-use.php">Terms of Use</a> and <a href="privacy-policy.php">Privacy Policy</a>. </p>
-                    </div>
                 </div>
             </div>
             <!-- summary card endss  -->

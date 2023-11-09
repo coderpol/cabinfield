@@ -17,7 +17,7 @@ $breakpoint-xxl : 1400px;
         @content;
     }
 }
-// less than 360px
+// less than 410px
 @mixin smaller {
     @media only screen and (max-width:410px) {
         @content;
