@@ -1,6 +1,6 @@
-<div class="promotion veteran-day">
-    <img class="upto-phone" src="images/promotion/veteran-day-sale-mobile.png" alt="">
+<div class="promotion" style="background: #874027;">
+    <img class="upto-phone" src="images/promotion/thanks-giving-small.png" alt="">
     <div class="container above-phone">
-        <img  src="images/promotion/veteran-day-sale-large.png" alt="">
+        <img  src="images/promotion/thanks-giving-large.png" alt="">
     </div>
 </div>
