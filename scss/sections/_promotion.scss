@@ -1,5 +1,8 @@
 .promotion{
     background-color: #CC7654;
+    .container{
+        position:relative;
+    }
     &.memorial-brand{
         background-color: #c27e63;
     }
@@ -15,5 +18,20 @@
     &.veteran-day{
         background-color: #6c7f96;
         background: linear-gradient(90deg, rgba(126,143,165,1) 0%, rgba(126,143,165,1) 46%, rgba(108,127,150,1) 60%, rgba(108,127,150,1) 100%);
+    }
+    &.thanks-giving{
+        background: rgb(176,77,45);
+        background: linear-gradient(90deg, rgba(176,77,45,1) 0%, rgba(176,77,45,1) 47%, rgba(135,64,39,1) 49%, rgba(135,64,39,1) 100%);
+        .container{
+            &:before{
+                content: "";
+                position: absolute;
+                left: 0;
+                top: 0;
+                height: 100%;
+                width: 50px;
+                background: linear-gradient(90deg, rgba(176,77,45,1) 0%, rgba(166,74,44,1) 35%, rgba(135,64,39,0) 100%);
+            }
+        }
     }
 }
