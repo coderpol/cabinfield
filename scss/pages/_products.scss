@@ -616,15 +616,16 @@
         .stack{
             margin-bottom:20px;
             text-align: center;
-            flex-basis: 7.55%;
+            flex-basis: 8%;
+            margin:0 .165% 20px;
             @include upto-phone{
                 flex-basis:19.22%;
             }
             @include phone-small{
-                flex-basis:24.22%;
+                flex-basis:32.22%;
             }
             @include phone-to-tablet{
-                flex-basis: 9.22%;
+                flex-basis: 11.8%;
             }
             .btn{
                 @include rounded(5px);
@@ -648,8 +649,20 @@
                     }
                 }
             }
+            .image{
+                img{
+                    height: 92px;
+
+                    @include phone-to-tablet{
+                        height:98px;
+                    }
+                    @include tablet-to-pc{
+                        height:90px;
+                    }
+                }
+            }
             h5{
-                padding:0 10px;
+                padding:0 5px;
             }
         }
     }
@@ -738,6 +751,7 @@
     justify-content: flex-start;
     align-items: stretch;
     margin-top:20px;
+    padding-left: 0;
     .stack{
         flex-basis: 13.5%;
         position: relative;
