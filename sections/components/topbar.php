@@ -11,6 +11,7 @@
                     <li><a href="#">blog</a></li>
                     <li><a href="#">Samples</a></li>
                     <li><a href="#">In Stock Furniture</a></li>
+                    <li><a href="#">Lead Time</a></li>
                 </ul>
                 <ul class="col-md-4 contact-details mb-0">
                     <li><a href="tel:+866-450-9663"><i class="fa-solid fa-phone"></i> 866-450-9663</a></li>
