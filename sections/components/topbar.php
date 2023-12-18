@@ -7,7 +7,7 @@
                     <li><a href="testimonials.php">Testimonials</a></li>
                     <li><a href="faq.php">FAQs</a></li>
                     <li><a href="contact-us.php">Contact</a></li>
-                    <li><a href="gift-card.php">Gifting</a></li>
+                    <li><a href="gift-card.php">Virtual Pre-Gifting</a></li>
                     <li><a href="#">blog</a></li>
                     <li><a href="#">Samples</a></li>
                     <li><a href="#">In Stock Furniture</a></li>
