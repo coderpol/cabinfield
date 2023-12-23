@@ -21,6 +21,9 @@
         a{
             color:white;
             display: inline-block;
+            @include upto-pc{
+                padding: 2px 3px;
+            }
         }
         @include from-pc{
             &+li{
@@ -35,7 +38,6 @@
             padding-left:0;
             margin-bottom:0;
             li{
-                margin-right: 10px;
                 a{
                     text-transform: capitalize;
                 }
