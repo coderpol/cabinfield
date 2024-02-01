@@ -206,6 +206,9 @@
             animation: placeholder-glow 2s ease-in-out infinite
         }
     }   
+    .load-more{
+        margin:50px auto 80px;
+    }
 }
 
 .filter-options{
@@ -253,6 +256,7 @@
 }
 
 .pagination-area{
+    margin-bottom:30px;
     .pagination{
         justify-content: center;
         align-items: center;
