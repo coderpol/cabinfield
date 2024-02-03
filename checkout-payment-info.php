@@ -43,7 +43,8 @@ include_once('sections/layouts/header.php')
             <div class="col-md-4">
                 <div class="row form-line">
                     <div class="col-md-12">
-                        <label for="cardno" class="form-label">Card number</label>
+                        <label for="cardno" class="form-label mb-1">Card number</label>
+                        <p class="mb-1">We accept Visa, Mastercard, and Discover.</p>
                         <input type="text" class="form-control" id="cardno" aria-label="Card Number" aria-describedby="cardhelp" placeholder="•••• •••• •••• ••••" required>
                         <span id="cardhelp" class="form-text">Pay by Check</span>
                     </div>
