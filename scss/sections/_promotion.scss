@@ -1,19 +1,19 @@
 .promotion{
-    background-color: #CC7654;
-    background: linear-gradient(90deg, #213241 0%, #213241 50%, #dedede 51%, #dedede 100%);
+    background-color: #dedede;
+    // background: linear-gradient(90deg, #dedede 0%, #dedede 50%, #dedede 51%, #dedede 100%);
     .above-phone{
         position: relative;
         &::before{
             content:"";
             display: block;
-            width:40px;
+            width:30px;
             height: 100%;
             position:absolute;
             top:0;
-            left:10px;
+            left:13px;
             z-index: 2;
-            // background: linear-gradient(90deg,rgba(33,50,65,0) 0%, #918475 60%,rgba(145,132,117,0) 100%);
-            background: linear-gradient(90deg, #213241 0%, #213241 10%, rgba(0,0,0,0) 100%);
+            background: linear-gradient(90deg,#dedede 0%,#dedede7a 60%,rgba(145,132,117,0) 100%)
+            // background: linear-gradient(90deg, #213241 0%, #213241 10%, rgba(0,0,0,0) 100%);
         }
     }
 }
