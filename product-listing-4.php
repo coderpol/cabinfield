@@ -199,23 +199,11 @@ include_once('sections/layouts/header.php')
                         }
                     ?>
                 </div>
-                <div class="load-more col-12 col-md-3 mx-auto">
+                <div class="load-more col-12 col-md-3 mx-auto text-center">
+                    <p>18 out of 84 items displayed</p>
                     <a href="#" class="btn btn-empty btn-block btn-large">Load More</a>
                 </div>
-                
-                <!-- pagination area  -->
-                <div class="row text-center pagination-area">
-                    <ul class="clearfix pagination">
-                        <li class="page-item"><a class="page-link" href="list-of-pre-built-products-v1.php" aria-label="Previous"><i class="fa-solid fa-angle-left"></i></a></li>
-                        <li class="page-item active"><a class="page-link" href="list-of-pre-built-products-v1.php">1</a></li>
-                        <li class="page-item"><a class="page-link" href="list-of-pre-built-products-v1.php">2</a></li>
-                        <li class="page-item"><a class="page-link" href="list-of-pre-built-products-v1.php">3</a></li>
-                        <li class="page-item"><a class="page-link" href="list-of-pre-built-products-v1.php">4</a></li>
-                        <li class="page-item"><a class="page-link" href="list-of-pre-built-products-v1.php">5</a></li>
-                        <li class="page-item"><a class="page-link" href="list-of-pre-built-products-v1.php" aria-label="Next"><i class="fa-solid fa-angle-right"></i></a></li>
-                    </ul>
-                </div>
-                <!-- pagination area ends -->
+            
             </div>
         </div>
     </div>
