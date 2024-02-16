@@ -74,9 +74,9 @@ include_once('sections/layouts/header.php')
             <!-- main product listing area  -->
             <div class="col-lg-9 col-md-12 main-content product-listing-area <?php if($visibility==0){echo "col-lg-12";} ?>" id="product-listing-area">
                 <div class="row listed-product">
-                    <div class="col-md-12 filter-info">
+                    <!-- <div class="col-md-12 filter-info">
                         <p>Showing 25 of 64 items</p>
-                    </div>
+                    </div> -->
                     <?php 
                         for($i=1;$i<=3;$i++){
                     ?>
