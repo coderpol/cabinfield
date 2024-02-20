@@ -1,0 +1,10 @@
+.line-flex{
+    display: flex;
+    align-content: flex-start;
+    align-items: flex-start;
+    .form-check{
+        .counter{
+            margin-bottom:20px;
+        }
+    }
+}

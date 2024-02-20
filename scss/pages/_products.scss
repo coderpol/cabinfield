@@ -525,11 +525,22 @@
             span{
                 color:$blue;
             }
+            &.next-button{
+                color:#fff;
+                background-color: #B3522C;
+                @extend .btn-large;
+                &:hover{
+                    color:$white !important;
+                    background-color: $blue-darkest !important;
+                    border-color:$blue-darkest !important;
+                }
+            }
             &:hover{
                 border-color:$brand-color;
                 box-shadow: 0 0 5px rgba(0,0,0,.2);
                 color:$blue-darkest !important;
             }
+            
         }
         .form-check-inline{
             margin: 20px 15px 0 0;
