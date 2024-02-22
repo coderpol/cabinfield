@@ -18,8 +18,10 @@ include_once('sections/layouts/header.php')
         <div class="container">
             <div class="row">
                 <div class="col-md-8 banner-text">
-                    <h1 class="tagline">Authenticity. Beauty. Craftmanship.</h1>
-                    <h2 class="heading">Fine Amish Furniture You'll Treasure for a Lifetime.<br>Indoor & Outdoor Sets.</h2>
+                    <h1>
+                        <span class="tagline">Authenticity. Beauty. Craftmanship.</span>
+                        <span class="heading">Fine Amish Furniture You'll Treasure for a Lifetime.</span>
+                    </h1>
                     <a href="product-listing.php" class="btn btn-white">Shop Now</a>
                 </div>
             </div>

@@ -22,8 +22,12 @@
             width:100%;
             text-align:center;
         }
+        span{
+            display: block
+        }
         .tagline{
             @include font(30px,160%);
+            margin-bottom:0.5rem;
         }
         .heading{
             @include font(54px,130%,700);
