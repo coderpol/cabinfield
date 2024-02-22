@@ -10,7 +10,7 @@
         <div class="info">
             <a href="#" data-bs-toggle="modal" data-bs-target="#edit_zip">More Information About this Option</a>
         </div>
-        <div class="accordion-body">
+        <div class="accordion-body with-line-flex">
             <div class="line-flex">
                 <div class="form-check form-check-inline">
                     <input type="radio" name="wood-type" class="btn-check" id="wood-1">

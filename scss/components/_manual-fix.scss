@@ -1,10 +1,12 @@
-.line-flex{
-    display: flex;
-    align-content: flex-start;
-    align-items: flex-start;
-    .form-check{
-        .counter{
-            margin-bottom:20px;
+.with-line-flex{
+    .line-flex{
+        display: flex;
+        align-content: flex-start;
+        align-items: flex-start;
+        .form-check{
+            .counter{
+                margin-bottom:20px;
+            }
         }
     }
 }
