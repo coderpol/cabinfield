@@ -23,6 +23,13 @@
                 }
             }
         }
+        .heading-description{
+            margin-top:20px;
+            p{
+                @include font(16px,26px);
+                color: #514646;
+            }
+        }
     }
     .heading-text{
         margin-top:60px;

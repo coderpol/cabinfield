@@ -20,6 +20,7 @@
                     <li class="done"><a href="home.php">Homepage</a></li>
                     <li class="done"><a href="fine-furniture.php">Fine Furniture</a></li>
                     <li class="done"><a href="style-landing.php">Style Landing</a></li>
+                    <li class="working"><a href="style-landing-2.php">Style Landing - V2</a></li>
                     <li class="done"><a href="collection-landing.php">Collection Landing</a></li>
                     <li class="done"><a href="product-listing.php">Product Listing</a></li>
                     <li class="done"><a href="product-listing-2.php">Product Listing - V2</a></li>
