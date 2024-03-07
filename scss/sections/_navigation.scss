@@ -31,6 +31,10 @@
                 position:relative;
                 text-transform: uppercase;
                 letter-spacing: 2.5px;
+                @include tablet-to-pc{
+                    padding:10px 20px;
+                    letter-spacing: 1px;
+                }
                 cursor: pointer;
                 &:hover{
                     text-decoration: none;
