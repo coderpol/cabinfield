@@ -58,3 +58,8 @@
 .alpha{
     list-style-type: lower-alpha;
 }
+ul,ol{
+    &.left-aligned{
+        padding-left:20px;
+    }
+}
