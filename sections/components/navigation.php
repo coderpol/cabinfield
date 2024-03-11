@@ -10,7 +10,7 @@
                 <span id="nav-close"><i class="fa-solid fa-xmark"></i></span>
                 <ul class="main-nav navbar-nav">
                     <li class="menu-item has_submenu megamenu">
-                        <span class="heading-link" data-target="menu-11">Bedrooms <span class="only-responsive arrow">></span></span>
+                        <span class="heading-link" data-target="menu-11">Bedroom <span class="only-responsive arrow">></span></span>
                         <div class="dropdown-menu submenu-block" id="menu-11">
                             <h3><a href="fine-furniture.php">Outdoor</a></h3>
                             <a href="#" class="link stock-link">Items in stocks</a>
