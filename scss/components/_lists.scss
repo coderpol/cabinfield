@@ -46,12 +46,14 @@
     list-style-type: none;
     li{
         position: relative;
+        @include font(16px,26px,500);
         &:before{
             content: "•";
             font-size: 20px;
             position: absolute;
             left: -15px;
             top: 0px;
+            color:#627590;
         }
     }
 }

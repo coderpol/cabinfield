@@ -5,48 +5,38 @@ $page_title="Style Landing - V2"; // dynamic page title for every page
 include_once('sections/layouts/header.php') 
 ?>
 
-<!-- breadcrumb for the page  -->
-<div class="breadcrumb-section">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 breadcrumb-area">
-                <!-- use class "dark" as the color of the breadcrumb is dark  -->
-                <ol class="breadcrumb dark">
-                    <li><a href="home.php"><i class="fa-solid fa-house"></i></a></li>
-                    <li><a href="#">Fine Furniture</a></li>
-                    <li class="active">Office</li>
-                </ol>
+<!-- Big banner of the page  starts -->
+<div class="header-banner clearfix mb-100" style="background-image: url('images/header-banner/amish.png');">
+    <div class="no-gradient">
+        <div class="container">
+            <div class="row">
+                <nav class="col-md-12 breadcrumb-area" aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li><a href="home.php"><i class="fa-solid fa-house"></i></a></li>
+                        <li><a href="#">Fine Furniture</a></li>
+                        <li class="active">Office</li>
+                    </ol>
+                </nav>
+                <div class="col-md-12 banner-text">
+                    <h1 class="heading">Amish Dining Room & Kitchen Furniture</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
             </div>
         </div>
     </div>
 </div>
-<!-- breadcrumb for the page ends -->
-
-<!-- page heading section  -->
-<div class="section page-heading-section clearfix">
-    <div class="container">
-        <div class="row page-headline">
-            <div class="col-12 section-title">
-                <h1><span>Amish</span> Room & Kitchen Furniture</h1>
-            </div>
-            <div class="col-md-12 heading-description mb-100">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- page heading section  ends -->
+<!-- Big banner of the page  ends -->
 
 <!-- collection display area  -->
 <div class="section products-section clearfix">
     <div class="container">
-        <div class="row">
+        <div class="row border-bottom">
             <div class="col-md-3 page-sidebar">
-                <div class="border-bottom pb-4 mb-4">
+                <div class="sorting-box">
                     <div class="heading-18">
                         <h4>Shop By Furniture</h4>
                     </div>
-                    <ul class="small-dot left-aligned mb-0">
+                    <ul class="small-dot sort-listing">
                         <li><a href="#">Dining Room Sets</a></li>
                         <li><a href="#">Dining Tables</a></li>
                         <li><a href="#">Dining Chairs, Benches & Bar Stools</a></li>
@@ -58,11 +48,11 @@ include_once('sections/layouts/header.php')
                     </ul>
                 </div>
 
-                <div class="border-bottom pb-4 mb-4">
+                <div class="sorting-box">
                     <div class="heading-18">
                         <h4>Shop By Style</h4>
                     </div>
-                    <ul class="small-dot left-aligned mb-0">
+                    <ul class="small-dot sort-listing">
                         <li><a href="#">Mission</a></li>
                         <li><a href="#">Traditional</a></li>
                         <li><a href="#">Contemporary</a></li>
@@ -76,11 +66,11 @@ include_once('sections/layouts/header.php')
                     </ul>
                 </div>
                 
-                <div class="pb-4 mb-4">
+                <div class="sorting-box">
                     <div class="heading-18">
                         <h4>Shop By Quick Ship</h4>
                     </div>
-                    <ul class="small-dot left-aligned mb-0">
+                    <ul class="small-dot sort-listing">
                         <li><a href="#">Quick Ship Dining Sets</a></li>
                         <li><a href="#">Quick Ship Dining Tables</a></li>
                         <li><a href="#">Quick Ship Dining Chairs & Seating</a></li>
@@ -91,9 +81,9 @@ include_once('sections/layouts/header.php')
             </div>
             <div class="col-lg-9 col-md-12 main-content">
                 <div class="row border-bottom">
-                    <div class="section-title small mb-4">
+                    <!-- <div class="section-title small mb-4">
                         <h2>Shop by Furniture Type</h2>
-                    </div>
+                    </div> -->
                     <!-- The "type-a" class is for the layout  -->
                     <div class="products-area type-a">
                         <!-- product collection  -->
@@ -339,7 +329,7 @@ include_once('sections/layouts/header.php')
                     </div>
                 </div>
                 
-                <div class="row border-bottom">
+                <div class="row">
                     <div class="section-title small mb-4">
                         <h2>Shop by Furniture Ship</h2>
                     </div>
