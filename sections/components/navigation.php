@@ -9,164 +9,51 @@
             <nav class="main-navigation">
                 <span id="nav-close"><i class="fa-solid fa-xmark"></i></span>
                 <ul class="main-nav navbar-nav">
-                    <li class="menu-item has_submenu megamenu">
+                    <li class="menu-item has_submenu">
                         <span class="heading-link" data-target="menu-11">Bedroom <span class="only-responsive arrow">></span></span>
                         <div class="dropdown-menu submenu-block" id="menu-11">
                             <h3><a href="fine-furniture.php">Outdoor</a></h3>
-                            <a href="#" class="link stock-link">Items in stocks</a>
                             <div class="submenu-area">
                                 <div class="category">
-                                    <h4><a href="#">Category Heading</a></h4>
+                                    <h4><a href="#">Shop By Furniture Type</a></h4>
                                     <ul class="submenu">
-                                        <li><a href="#">link 1</a></li>
-                                        <li><a href="#">Link 2</a></li>
-                                        <li><a href="#">Link 3</a></li>
-                                    </ul>
-                                    <h4><a href="#">Gazebos & Outdoor Structures</a></h4>
-                                    <ul class="submenu">
-                                        <li><a href="#">Gazebos</a></li>
-                                        <li><a href="#">Arbors</a></li>
-                                    </ul>
-                                </div>
-                                <div class="category">
-                                    <h4><a href="#">Category Heading</a></h4>
-                                    <ul class="submenu">
-                                        <li><a href="#">Outdoor Dining Sets</a></li>
-                                        <li><a href="#">Patio Dining Tables</a></li>
-                                        <li><a href="#">Patio Dining Chairs</a></li>
-                                        <li><a href="#">Patio Dining Benches</a></li>
-                                        <li><a href="#">Picnic Tables</a></li>
-                                    </ul>
-                                    <h4><a href="#">Category Heading</a></h4>
-                                    <ul class="submenu">
-                                        <li><a href="#">Patio Bar Sets</a></li>
-                                        <li><a href="#">Outdoor Bars & Stools</a></li>
-                                    </ul>
-                                </div>
-                                <div class="category">
-                                    <h4><a href="#">Category Heading</a></h4>
-                                    <ul class="submenu">
-                                        <li><a href="#">Patio Dining Sets</a></li>
-                                        <li><a href="#">Patio Lounge & Deck Chairs</a></li>
-                                        <li><a href="#">Adirondack Chairs</a></li>
-                                        <li><a href="#">Patio Sofas, Loveseats and Sectionals</a></li>
-                                        <li><a href="#">Outdoor Accent Table</a></li>
-                                        <li><a href="#">Outdoor Benches</a></li>
-                                    </ul>
-                                    <ul class="additional-menu">
-                                        <li><a href="#">Quick Ship</a></li>
-                                    </ul>
-                                </div>
-                                <div class="category">
-                                    <h4><a href="#">Category Heading</a></h4>
-                                    <ul class="submenu">
-                                        <li><a href="#">Canopy Gliders</a></li>
-                                        <li><a href="#">Porcg Gliders</a></li>
-                                        <li><a href="#">Porch Swings</a></li>
-                                        <li><a href="#">Porch Rockers</a></li>
+                                        <li><a href="#">Bedroom Furniture Sets</a></li>
+                                        <li><a href="#">Bed & Headboards</a></li>
+                                        <li><a href="#">Dressers & Nightstands</a></li>
+                                        <li><a href="#">Blanket Chests and Trunks</a></li>
+                                        <li><a href="#">Vanities Jewelary Chests & Mirrors</a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                     </li>
-                    <li class="menu-item has_submenu megamenu">
+                    <li class="menu-item has_submenu">
                         <span class="heading-link" data-target="menu-12">Living Room <span class="only-responsive arrow">></span></span>
                         <div class="dropdown-menu submenu-block" id="menu-12">
-                            <h3><a href="fine-furniture.php">Outdoor</a></h3>
-                            <a href="#" class="link stock-link">Items in stocks</a>
+                            <h3><a href="fine-furniture.php">Living Room</a></h3>
                             <div class="submenu-area">
                                 <div class="category">
-                                    <h4><a href="#">Category Heading</a></h4>
+                                    <h4><a href="#">Shop By Furniture Type</a></h4>
                                     <ul class="submenu">
-                                        <li><a href="#">link 1</a></li>
-                                        <li><a href="#">Link 2</a></li>
-                                        <li><a href="#">Link 3</a></li>
-                                    </ul>
-                                    <h4><a href="#">Gazebos & Outdoor Structures</a></h4>
-                                    <ul class="submenu">
-                                        <li><a href="#">Gazebos</a></li>
-                                        <li><a href="#">Arbors</a></li>
-                                    </ul>
-                                </div>
-                                <div class="category">
-                                    <h4><a href="#">Category Heading</a></h4>
-                                    <ul class="submenu">
-                                        <li><a href="#">Outdoor Dining Sets</a></li>
-                                        <li><a href="#">Patio Dining Tables</a></li>
-                                        <li><a href="#">Patio Dining Chairs</a></li>
-                                        <li><a href="#">Patio Dining Benches</a></li>
-                                        <li><a href="#">Picnic Tables</a></li>
-                                    </ul>
-                                    <h4><a href="#">Category Heading</a></h4>
-                                    <ul class="submenu">
-                                        <li><a href="#">Patio Bar Sets</a></li>
-                                        <li><a href="#">Outdoor Bars & Stools</a></li>
-                                    </ul>
-                                </div>
-                                <div class="category">
-                                    <h4><a href="#">Category Heading</a></h4>
-                                    <ul class="submenu">
-                                        <li><a href="#">Patio Dining Sets</a></li>
-                                        <li><a href="#">Patio Lounge & Deck Chairs</a></li>
-                                        <li><a href="#">Adirondack Chairs</a></li>
-                                        <li><a href="#">Patio Sofas, Loveseats and Sectionals</a></li>
-                                        <li><a href="#">Outdoor Accent Table</a></li>
-                                        <li><a href="#">Outdoor Benches</a></li>
-                                    </ul>
-                                    <ul class="additional-menu">
-                                        <li><a href="#">Quick Ship</a></li>
-                                    </ul>
-                                </div>
-                                <div class="category">
-                                    <h4><a href="#">Category Heading</a></h4>
-                                    <ul class="submenu">
-                                        <li><a href="#">Canopy Gliders</a></li>
-                                        <li><a href="#">Porcg Gliders</a></li>
-                                        <li><a href="#">Porch Swings</a></li>
-                                        <li><a href="#">Porch Rockers</a></li>
+                                        <li><a href="#">Living Room Sets</a></li>
+                                        <li><a href="#">Sofas, Recliners & Rockers</a></li>
+                                        <li><a href="#">Fully Upholstered Sofas & Recliners</a></li>
+                                        <li><a href="#">Accent Tables</a></li>
+                                        <li><a href="#">TV Stands & Entertainment Centers</a></li>
+                                        <li><a href="#">Hallway Furniture & Benches</a></li>
+                                        <li><a href="#">Crurios & Display Cabinets</a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                     </li>
-                    <li class="menu-item has_submenu megamenu">
+                    <li class="menu-item has_submenu">
                         <span class="heading-link" data-target="first-menu">Kitchen & Dining <span class="only-responsive arrow">></span></span>
                         <div class="dropdown-menu submenu-block" id="first-menu">
-                            <h3><a href="fine-furniture.php">Fine Furniture</a></h3>
-                            <a href="collection-landing.php" class="link stock-link">Items in stocks</a>
+                            <h3><a href="fine-furniture.php">Kitchen & Dining</a></h3>
                             <div class="submenu-area">
                                 <div class="category">
-                                    <h4><a href="#">Bedroom</a></h4>
-                                    <ul class="submenu">
-                                        <li><a href="bedroom-landing.php">Bedrooms Furnitures Sets</a></li>
-                                        <li><a href="collection-landing.php">Beds & Headboards</a></li>
-                                        <li><a href="product-listing.php">Dressers, Chests & Nightstands</a></li>
-                                        <li><a href="#">Vanities, Jewelry Chests & Mirror</a></li>
-                                        <li><a href="#">Storage Chests & Boxes</a></li>
-                                    </ul>
-                                    <ul class="additional-menu">
-                                        <li><a href="#">Shop by quick Ship</a></li>
-                                        <li><a href="#">Shop by Style</a></li>
-                                    </ul>
-                                </div>
-                                <div class="category">
-                                    <h4><a href="#">Living Rooms & entertainment</a></h4>
-                                    <ul class="submenu">
-                                        <li><a href="style-landing.php">Living Room Sets</a></li>
-                                        <li><a href="wood-sample.php">Living Room Seating</a></li>
-                                        <li><a href="list-of-pre-built-products-v1.php">Accent Tables</a></li>
-                                        <li><a href="#">TV Stands & entertainment centers</a></li>
-                                        <li><a href="#">Hallway Furniture & Benches</a></li>
-                                        <li><a href="#">Gun Cabinet</a></li>
-                                        <li><a href="#">Curios & display cabinets</a></li>
-                                    </ul>
-                                    <ul class="additional-menu">
-                                        <li><a href="#">Shop by quick Ship</a></li>
-                                        <li><a href="#">Shop by Style</a></li>
-                                    </ul>
-                                </div>
-                                <div class="category">
-                                    <h4><a href="#">Kitchen & dining space</a></h4>
+                                    <h4><a href="#">Shop By Furniture Type</a></h4>
                                     <ul class="submenu">
                                         <li><a href="fabric-sample.php">Dining Room Sets</a></li>
                                         <li><a href="wood-sample.php">Dining tables</a></li>
@@ -177,83 +64,24 @@
                                         <li><a href="#">Kitchen Islands</a></li>
                                         <li><a href="#">Breakfast Nooks</a></li>
                                     </ul>
-                                    <ul class="additional-menu">
-                                        <li><a href="#">Shop by quick Ship</a></li>
-                                        <li><a href="#">Shop by Style</a></li>
-                                    </ul>
-                                </div>
-                                <div class="category">
-                                    <h4><a href="#">Office</a></h4>
-                                    <ul class="submenu">
-                                        <li><a href="bedroom-landing.php">Office Furniture sets</a></li>
-                                        <li><a href="collection-landing.php">Desk & Tables</a></li>
-                                        <li><a href="product-listing.php">Bookcases, Filing Cabinets & credenzas</a></li>
-                                        <li><a href="#">Desk Chairs</a></li>
-                                        <li><a href="#">Workbenches</a></li>
-                                    </ul>
-                                    <ul class="additional-menu">
-                                        <li><a href="#">Shop by quick Ship</a></li>
-                                        <li><a href="#">Shop by Style</a></li>
-                                    </ul>
                                 </div>
                             </div>
                         </div>
                     </li>
-                    <li class="menu-item has_submenu megamenu">
+                    <li class="menu-item has_submenu">
                         <span class="heading-link" data-target="menu-13">Office <span class="only-responsive arrow">></span></span>
                         <div class="dropdown-menu submenu-block" id="menu-13">
-                            <h3><a href="fine-furniture.php">Outdoor</a></h3>
-                            <a href="#" class="link stock-link">Items in stocks</a>
+                            <h3><a href="fine-furniture.php">Office</a></h3>
                             <div class="submenu-area">
                                 <div class="category">
-                                    <h4><a href="#">Category Heading</a></h4>
+                                    <h4><a href="#">Shop By Furniture Type</a></h4>
                                     <ul class="submenu">
                                         <li><a href="#">link 1</a></li>
                                         <li><a href="#">Link 2</a></li>
                                         <li><a href="#">Link 3</a></li>
-                                    </ul>
-                                    <h4><a href="#">Gazebos & Outdoor Structures</a></h4>
-                                    <ul class="submenu">
-                                        <li><a href="#">Gazebos</a></li>
-                                        <li><a href="#">Arbors</a></li>
-                                    </ul>
-                                </div>
-                                <div class="category">
-                                    <h4><a href="#">Category Heading</a></h4>
-                                    <ul class="submenu">
-                                        <li><a href="#">Outdoor Dining Sets</a></li>
-                                        <li><a href="#">Patio Dining Tables</a></li>
-                                        <li><a href="#">Patio Dining Chairs</a></li>
-                                        <li><a href="#">Patio Dining Benches</a></li>
-                                        <li><a href="#">Picnic Tables</a></li>
-                                    </ul>
-                                    <h4><a href="#">Category Heading</a></h4>
-                                    <ul class="submenu">
-                                        <li><a href="#">Patio Bar Sets</a></li>
-                                        <li><a href="#">Outdoor Bars & Stools</a></li>
-                                    </ul>
-                                </div>
-                                <div class="category">
-                                    <h4><a href="#">Category Heading</a></h4>
-                                    <ul class="submenu">
-                                        <li><a href="#">Patio Dining Sets</a></li>
-                                        <li><a href="#">Patio Lounge & Deck Chairs</a></li>
-                                        <li><a href="#">Adirondack Chairs</a></li>
-                                        <li><a href="#">Patio Sofas, Loveseats and Sectionals</a></li>
-                                        <li><a href="#">Outdoor Accent Table</a></li>
-                                        <li><a href="#">Outdoor Benches</a></li>
-                                    </ul>
-                                    <ul class="additional-menu">
-                                        <li><a href="#">Quick Ship</a></li>
-                                    </ul>
-                                </div>
-                                <div class="category">
-                                    <h4><a href="#">Category Heading</a></h4>
-                                    <ul class="submenu">
-                                        <li><a href="#">Canopy Gliders</a></li>
-                                        <li><a href="#">Porcg Gliders</a></li>
-                                        <li><a href="#">Porch Swings</a></li>
-                                        <li><a href="#">Porch Rockers</a></li>
+                                        <li><a href="#">Link 3</a></li>
+                                        <li><a href="#">Link 3</a></li>
+                                        <li><a href="#">Link 3</a></li>
                                     </ul>
                                 </div>
                             </div>
