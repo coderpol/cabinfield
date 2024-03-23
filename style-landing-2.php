@@ -80,7 +80,7 @@ include_once('sections/layouts/header.php')
                 </div>
             </div>
             <div class="col-lg-9 col-md-12 main-content">
-                <div class="row border-bottom">
+                <div class="row bottom-divider">
                     <!-- <div class="section-title small mb-4">
                         <h2>Shop by Furniture Type</h2>
                     </div> -->
@@ -191,7 +191,7 @@ include_once('sections/layouts/header.php')
                         <!-- product collection ends -->
                     </div>
                 </div>
-                <div class="row border-bottom">
+                <div class="row bottom-divider">
                     <div class="section-title small mb-4">
                         <h2>Shop by Furniture Style</h2>
                     </div>
