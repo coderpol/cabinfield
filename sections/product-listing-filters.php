@@ -13,7 +13,7 @@
                             data-bs-toggle="tooltip" data-bs-placement="right" data-bs-html="true" 
                             data-bs-title='<ul>
                                 <li>This unit includes an interlock drawer system, allowing only one drawer to open at a time in compliance with STURDY Act.</li>
-                                <li>The STURDY Act is an acronym for “Stop Tip-overs of Unstable, Risky Dressers on Youth”. By law, as of 2023 all clothing storage units are built in compliance to these mandatory safety standards.</li>
+                                <li>The STURDY Act is an acronym for "Stop Tip-overs of Unstable, Risky Dressers on Youth". By law, as of 2023 all clothing storage units are built in compliance to these mandatory safety standards.</li>
                             </ul>'
                             ><i class="fa-solid fa-circle-info"></i></span>
                         </label>
@@ -61,7 +61,7 @@
                             data-bs-toggle="tooltip" data-bs-placement="right" data-bs-html="true" 
                             data-bs-title='<ul>
                                 <li>This unit includes an interlock drawer system, allowing only one drawer to open at a time in compliance with STURDY Act.</li>
-                                <li>The STURDY Act is an acronym for “Stop Tip-overs of Unstable, Risky Dressers on Youth”. By law, as of 2023 all clothing storage units are built in compliance to these mandatory safety standards.</li>
+                                <li>The STURDY Act is an acronym for "Stop Tip-overs of Unstable, Risky Dressers on Youth". By law, as of 2023 all clothing storage units are built in compliance to these mandatory safety standards.</li>
                             </ul>'
                             ><i class="fa-solid fa-circle-info"></i></span></label>
                     </div>
@@ -93,7 +93,7 @@
                             data-bs-toggle="tooltip" data-bs-placement="right" data-bs-html="true" 
                             data-bs-title='<ul>
                                 <li>This unit includes an interlock drawer system, allowing only one drawer to open at a time in compliance with STURDY Act.</li>
-                                <li>The STURDY Act is an acronym for “Stop Tip-overs of Unstable, Risky Dressers on Youth”. By law, as of 2023 all clothing storage units are built in compliance to these mandatory safety standards.</li>
+                                <li>The STURDY Act is an acronym for "Stop Tip-overs of Unstable, Risky Dressers on Youth". By law, as of 2023 all clothing storage units are built in compliance to these mandatory safety standards.</li>
                             </ul>'
                             ><i class="fa-solid fa-circle-info"></i></span></label>
                     </div>
