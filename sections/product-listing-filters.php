@@ -1,4 +1,4 @@
-<div class="col-md-3 page-sidebar accordion-area" id="filter-area" style="display:<?php if($visibility==0){echo "none";} ?>" >
+<div class="col-md-3 page-sidebar accordion-area" id="filter-area">
     <form action="#" class="accordion accordion-flush cabinform filter-form" id="filters">
         <div class="accordion-item">
             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#filter-collapse-1" aria-expanded="false" aria-controls="filter-collapse-1">
