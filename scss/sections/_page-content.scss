@@ -439,7 +439,18 @@
     }
 }
 .bottom-divider{
-    border-bottom:1px solid #E0E0E0!important;
-    padding-bottom:30px;
+    // border-bottom:1px solid #E0E0E0!important;
+    position:relative;
+    padding-bottom:50px;
     margin-bottom:60px;
+    &:after{
+        content:"";
+        display: block;
+        width:calc(100% - 24px);
+        height:1px;
+        position:absolute;
+        left:12px;
+        bottom:0;
+        background-color: #E0E0E0;
+    }
 }

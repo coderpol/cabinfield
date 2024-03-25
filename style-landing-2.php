@@ -30,7 +30,7 @@ include_once('sections/layouts/header.php')
 <!-- collection display area  -->
 <div class="section products-section clearfix">
     <div class="container">
-        <div class="row border-bottom">
+        <div class="row bottom-divider">
             <div class="col-md-3 page-sidebar">
                 <div class="sorting-box">
                     <div class="heading-18">
@@ -84,8 +84,8 @@ include_once('sections/layouts/header.php')
                     <!-- <div class="section-title small mb-4">
                         <h2>Shop by Furniture Type</h2>
                     </div> -->
-                    <!-- The "type-a" class is for the layout  -->
-                    <div class="products-area type-a">
+                    <!-- The "type-c" class is for the layout  -->
+                    <div class="products-area type-c">
                         <!-- product collection  -->
                         <div class="product">
                             <figure>
@@ -191,12 +191,13 @@ include_once('sections/layouts/header.php')
                         <!-- product collection ends -->
                     </div>
                 </div>
+                <!-- <div class="bottom-divider"></div> -->
                 <div class="row bottom-divider">
                     <div class="section-title small mb-4">
                         <h2>Shop by Furniture Style</h2>
                     </div>
-                    <!-- The "type-a" class is for the layout  -->
-                    <div class="col-md-12 products-area type-a">
+                    <!-- The "type-c" class is for the layout  -->
+                    <div class="col-md-12 products-area type-c">
                         <!-- product collection  -->
                         <div class="product">
                             <figure>
@@ -334,7 +335,7 @@ include_once('sections/layouts/header.php')
                         <h2>Shop by Furniture Ship</h2>
                     </div>
                     <!-- The "type-a" class is for the layout  -->
-                    <div class="col-md-12 products-area type-a">
+                    <div class="col-md-12 products-area type-c">
                         <!-- product collection  -->
                         <div class="product">
                             <figure>

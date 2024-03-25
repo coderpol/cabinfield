@@ -159,6 +159,51 @@
                 }
             }
         }
+        &.type-c{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-row-gap:30px;
+            grid-column-gap:40px;
+            .product{
+
+                figure{
+                    box-shadow: 0 0 2px rgba(3, 1, 1, 0.2);
+                    transition: all 0.5s ease-in-out;
+                    margin-bottom:25px;
+                    &:hover{
+                        box-shadow: 0 0 4px rgba(3, 1, 1, 0.3);
+                        img{
+                            transform: scale(1.04);
+                        }
+                    }
+                    @include upto-phone{
+                        margin-bottom:35px;
+                    }
+                    a{
+                        display: block;
+                        margin-bottom:0;
+                    }
+                }
+                p{
+                    a{display: inline;}
+                }
+                h3,h4{
+                    @include font(24px,31px,700);
+                    margin-bottom:5px;
+                    @include upto-phone{
+                        text-align:center;
+                        margin-bottom:15px;
+                    }
+                    a{
+                        color:$blue-darkest;
+                    }
+                }
+                p{
+                    @include font(16px,25px);
+                    color:$gray-dark-3;
+                }
+            }
+        }
     }
 }
 
