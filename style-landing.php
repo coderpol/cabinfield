@@ -49,7 +49,7 @@ include_once('sections/layouts/header.php')
     <div class="container">
         <div class="row">
             <!-- The "type-a" class is for the layout  -->
-            <div class="col-md-12 products-area type-a">
+            <div class="col-md-12 products-area type-c bottom-divider">
                 <!-- product collection  -->
                 <div class="product">
                     <figure>
@@ -132,6 +132,19 @@ include_once('sections/layouts/header.php')
                     <p>Complete your bedroom set with our Amish bedroom accessories collection, featuring full length beveled mirrors, cheval mirrors, jewelry storage, tie racks, shoe storage, vanity tables and more. Create innovative bedroom décor with solid wood bedroom accent furniture in an array of styles and designs.</p> 
                 </div>
                 <!-- product collection ends -->
+            </div>
+
+            <div class="col-md-12 textarea mb-3">
+                <div class="heading-18">
+                    <h2>When Were Wingback Chairs Popular? - H2</h2>
+                </div>
+                <div class="heading-18">
+                    <h3>When Were Wingback Chairs Popular? - H3</h2>
+                </div>
+                <div class="heading-18">
+                    <h4>When Were Wingback Chairs Popular? - H4</h2>
+                </div>
+                <p>Wingback chairs gained popularity in the 17th century and have remained cherished pieces of furniture through the centuries. While their designs have evolved, they have never gone out of style, standing as a testament to their enduring appeal.</p>
             </div>
         </div>
     </div>

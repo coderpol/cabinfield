@@ -162,7 +162,7 @@
         &.type-c{
             display: grid;
             grid-template-columns: 1fr 1fr;
-            grid-row-gap:30px;
+            grid-row-gap:50px;
             grid-column-gap:40px;
             .product{
 
@@ -186,6 +186,9 @@
                 }
                 p{
                     a{display: inline;}
+                    &:last-child{
+                        margin-bottom:0;
+                    }
                 }
                 h3,h4{
                     @include font(24px,31px,700);
