@@ -80,7 +80,7 @@ include_once('sections/layouts/header.php')
                 </div>
             </div>
             <div class="col-lg-9 col-md-12 main-content">
-                <div class="row bottom-divider">
+                <div class="row">
                     <!-- <div class="section-title small mb-4">
                         <h2>Shop by Furniture Type</h2>
                     </div> -->
@@ -191,230 +191,140 @@ include_once('sections/layouts/header.php')
                         <!-- product collection ends -->
                     </div>
                 </div>
-                <!-- <div class="bottom-divider"></div> -->
-                <div class="row bottom-divider">
-                    <div class="section-title small mb-4">
-                        <h2>Shop by Furniture Style</h2>
-                    </div>
-                    <!-- The "type-c" class is for the layout  -->
-                    <div class="col-md-12 products-area type-c">
-                        <!-- product collection  -->
-                        <div class="product">
-                            <figure>
-                                <a href="#">
-                                    <img src="images/products/type-a/style-1a.png" alt="">
-                                </a>
-                            </figure>
-                                
-                            <h4><a href="#">Mission</a></h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam do eiusmod.</p> 
-                        </div>
-                        <!-- product collection ends -->
-                        
-                        <!-- product collection  -->
-                        <div class="product">
-                            <figure>
-                                <a href="#">
-                                    <img src="images/products/type-a/style-1b.png" alt="">
-                                </a>
-                            </figure>
-                                
-                            <h4><a href="#">Traditional</a></h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam do eiusmod.</p> 
-                        </div>
-                        <!-- product collection ends -->
-                        
-                        <!-- product collection  -->
-                        <div class="product">
-                            <figure>
-                                <a href="#">
-                                    <img src="images/products/type-a/style-1c.png" alt="">
-                                </a>
-                            </figure>
-                                
-                            <h4><a href="#">Contemporary</a></h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam do eiusmod.</p> 
-                        </div>
-                        <!-- product collection ends -->
-                        
-                        <!-- product collection  -->
-                        <div class="product">
-                            <figure>
-                                <a href="#">
-                                    <img src="images/products/type-a/style-1d.png" alt="">
-                                </a>
-                            </figure>
-                                
-                            <h4><a href="#">Legacy World</a></h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam do eiusmod.</p> 
-                        </div>
-                        <!-- product collection ends -->
-                        
-                        <!-- product collection  -->
-                        <div class="product">
-                            <figure>
-                                <a href="#">
-                                    <img src="images/products/type-a/style-1e.png" alt="">
-                                </a>
-                            </figure>
-                                
-                            <h4><a href="#">Art Deco</a></h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam do eiusmod.</p> 
-                        </div>
-                        <!-- product collection ends -->
-                        
-                        <!-- product collection  -->
-                        <div class="product">
-                            <figure>
-                                <a href="#">
-                                    <img src="images/products/type-a/style-1f.png" alt="">
-                                </a>
-                            </figure>
-                                
-                            <h4><a href="#">Eclectic</a></h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam do eiusmod.</p> 
-                        </div>
-                        <!-- product collection ends -->
-                        
-                        <!-- product collection  -->
-                        <div class="product">
-                            <figure>
-                                <a href="#">
-                                    <img src="images/products/type-a/style-1g.png" alt="">
-                                </a>
-                            </figure>
-                                
-                            <h4><a href="#">Live Edge</a></h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam do eiusmod.</p> 
-                        </div>
-                        <!-- product collection ends -->
-                        
-                        <!-- product collection  -->
-                        <div class="product">
-                            <figure>
-                                <a href="#">
-                                    <img src="images/products/type-a/style-1h.png" alt="">
-                                </a>
-                            </figure>
-                                
-                            <h4><a href="#">Farmhouse Elegance</a></h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam do eiusmod.</p> 
-                        </div>
-                        <!-- product collection ends -->
-                        
-                        <!-- product collection  -->
-                        <div class="product">
-                            <figure>
-                                <a href="#">
-                                    <img src="images/products/type-a/style-1i.png" alt="">
-                                </a>
-                            </figure>
-                                
-                            <h4><a href="#">Reclaimed Barnwood</a></h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam do eiusmod.</p> 
-                        </div>
-                        <!-- product collection ends -->
-                        
-                        <!-- product collection  -->
-                        <div class="product">
-                            <figure>
-                                <a href="#">
-                                    <img src="images/products/type-a/style-1j.png" alt="">
-                                </a>
-                            </figure>
-                                
-                            <h4><a href="#">Prime Value Dining Room</a></h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam do eiusmod.</p> 
-                        </div>
-                        <!-- product collection ends -->
-                    </div>
-                </div>
+
+            </div>
+        </div>
+
+        <div class="row border-bottom">
+            <!-- section title  -->
+            <header class="col-md-12 section-title small">
+                <h3>Shop By Style</h3>
+            </header>
+            <!-- section title ends  -->
+            
+            <!-- collection area  -->
+            <div class="col-md-12  collection-area">
+                <!-- single collection  -->
+                <a href="collection-landing.php" class="collection">
+                    <img src="images/collections/style/style-1.png" alt="">
+                    <h4>Mission</h4>
+                </a>
+                <!-- single collection -->
                 
-                <div class="row">
-                    <div class="section-title small mb-4">
-                        <h2>Shop by Furniture Ship</h2>
-                    </div>
-                    <!-- The "type-a" class is for the layout  -->
-                    <div class="col-md-12 products-area type-c">
-                        <!-- product collection  -->
-                        <div class="product">
-                            <figure>
-                                <a href="#">
-                                    <img src="images/products/type-a/ship-1a.png" alt="">
-                                </a>
-                            </figure>
-                                
-                            <h4><a href="#">Quick Ship Dining Room Sets</a></h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam do eiusmod.</p> 
-                        </div>
-                        <!-- product collection ends -->
-                        
-                        <!-- product collection  -->
-                        <div class="product">
-                            <figure>
-                                <a href="#">
-                                    <img src="images/products/type-a/ship-1b.png" alt="">
-                                </a>
-                            </figure>
-                                
-                            <h4><a href="#">Quick Ship Dining Tables</a></h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam do eiusmod.</p> 
-                        </div>
-                        <!-- product collection ends -->
-                        
-                        <!-- product collection  -->
-                        <div class="product">
-                            <figure>
-                                <a href="#">
-                                    <img src="images/products/type-a/ship-1c.png" alt="">
-                                </a>
-                            </figure>
-                                
-                            <h4><a href="#">Quick Ship Dining Chairs & Seating</a></h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam do eiusmod.</p> 
-                        </div>
-                        <!-- product collection ends -->
-                        
-                        <!-- product collection  -->
-                        <div class="product">
-                            <figure>
-                                <a href="#">
-                                    <img src="images/products/type-a/ship-1d.png" alt="">
-                                </a>
-                            </figure>
-                                
-                            <h4><a href="#">Quick Ship Hutches & Buffets</a></h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam do eiusmod.</p> 
-                        </div>
-                        <!-- product collection ends -->
-                        
-                        <!-- product collection  -->
-                        <div class="product">
-                            <figure>
-                                <a href="#">
-                                    <img src="images/products/type-a/ship-1e.png" alt="">
-                                </a>
-                            </figure>
-                                
-                            <h4><a href="#">Quick Ship Kitchen Islands</a></h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam do eiusmod.</p> 
-                        </div>
-                        <!-- product collection ends -->
-                        
-                        <!-- product collection  -->
-                        <div class="product">
-                            <figure>
-                                <a href="#">
-                                    <img src="images/products/type-a/ship-1f.png" alt="">
-                                </a>
-                            </figure>
-                                
-                            <h4><a href="#">Shop By Style</a></h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam do eiusmod.</p> 
-                        </div>
-                        <!-- product collection ends -->
-                    </div>
-                </div>
+                <!-- single collection ends -->
+                <a href="collection-landing.php"  class="collection">
+                    <img src="images/collections/style/style-2.png" alt="">
+                    <h4>Traditional</h4>
+                </a>
+                <!-- single collection -->
+                
+                <!-- single collection ends -->
+                <a href="collection-landing.php"  class="collection">
+                    <img src="images/collections/style/style-3.png" alt="">
+                    <h4>Contemporary</h4>
+                </a>
+                <!-- single collection -->
+                
+                <!-- single collection ends -->
+                <a href="collection-landing.php"  class="collection">
+                    <img src="images/collections/style/style-4.png" alt="">
+                    <h4>Legacy World</h4>
+                </a>
+                <!-- single collection -->
+                
+                <!-- single collection ends -->
+                <a href="collection-landing.php"  class="collection">
+                    <img src="images/collections/style/style-5.png" alt="">
+                    <h4>Art Deco</h4>
+                </a>
+                <!-- single collection -->
+                <!-- single collection  -->
+                <a href="collection-landing.php" class="collection">
+                    <img src="images/collections/style/style-6.png" alt="">
+                    <h4>Eclectic</h4>
+                </a>
+                <!-- single collection -->
+                
+                <!-- single collection ends -->
+                <a href="collection-landing.php"  class="collection">
+                    <img src="images/collections/style/style-7.png" alt="">
+                    <h4>Live Edge</h4>
+                </a>
+                <!-- single collection -->
+                
+                <!-- single collection ends -->
+                <a href="collection-landing.php"  class="collection">
+                    <img src="images/collections/style/style-8.png" alt="">
+                    <h4>Farmhouse Elegance</h4>
+                </a>
+                <!-- single collection -->
+                
+                <!-- single collection ends -->
+                <a href="collection-landing.php"  class="collection">
+                    <img src="images/collections/style/style-9.png" alt="">
+                    <h4>Reclaimed Barnwood</h4>
+                </a>
+                <!-- single collection -->
+                
+                <!-- single collection ends -->
+                <a href="collection-landing.php"  class="collection">
+                    <img src="images/collections/style/style-10.png" alt="">
+                    <h4>Prime Value Dining Room</h4>
+                </a>
+                <!-- single collection -->
+            </div>
+        </div>
+
+        <div class="row border-bottom">
+            <!-- section title  -->
+            <header class="col-md-12 section-title small">
+                <h3>Shop By Quick Ship</h3>
+            </header>
+            <!-- section title ends  -->
+            
+            <!-- collection area  -->
+            <div class="col-md-12  collection-area image_padding">
+                <!-- single collection  -->
+                <a href="collection-landing.php" class="collection">
+                    <img src="images/collections/ship/ship-1.jpg" alt="">
+                    <h4>Quick Ship Dining Room Sets</h4>
+                </a>
+                <!-- single collection -->
+                
+                <!-- single collection ends -->
+                <a href="collection-landing.php"  class="collection">
+                    <img src="images/collections/ship/ship-2.jpg" alt="">
+                    <h4>Quick Ship Dining Tables</h4>
+                </a>
+                <!-- single collection -->
+                
+                <!-- single collection ends -->
+                <a href="collection-landing.php"  class="collection">
+                    <img src="images/collections/ship/ship-3.jpg" alt="">
+                    <h4>Quick Ship Dining Chairs & Seating</h4>
+                </a>
+                <!-- single collection -->
+                
+                <!-- single collection ends -->
+                <a href="collection-landing.php"  class="collection">
+                    <img src="images/collections/ship/ship-4.jpg" alt="">
+                    <h4>Quick Ship Hutches & Buffets</h4>
+                </a>
+                <!-- single collection -->
+                
+                <!-- single collection ends -->
+                <a href="collection-landing.php"  class="collection">
+                    <img src="images/collections/ship/ship-5.jpg" alt="">
+                    <h4>Quick Ship Kitchen Islands</h4>
+                </a>
+                <!-- single collection -->
+                
+                <!-- single collection ends -->
+                <a href="collection-landing.php"  class="collection">
+                    <img src="images/collections/ship/ship-5.jpg" alt="">
+                    <h4>Shop By Style</h4>
+                </a>
+                <!-- single collection -->
             </div>
         </div>
         
