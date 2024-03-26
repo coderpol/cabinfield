@@ -35,8 +35,8 @@
     }
     .product-tips{
         position:absolute;
-        right:0;
-        top:0;
+        right:-4px;
+        top:6px;
         &:hover{
             i{color:$brand-color}
         }

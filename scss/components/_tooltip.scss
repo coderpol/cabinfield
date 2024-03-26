@@ -38,9 +38,18 @@
         }
     }
     &.product-hints{
+        &.bs-tooltip-end{
+            margin-left:15px !important;
+        }
+        &.bs-tooltip-start{
+            margin-right:15px !important;
+        }
         .tooltip-inner{
-            min-width: 400px !important;
+            min-width: 530px !important;
             padding:20px 15px !important;
+            @include upto-phone{
+                min-width: 250px !important;
+            }
         }
         ul{
             padding-left: 15px;

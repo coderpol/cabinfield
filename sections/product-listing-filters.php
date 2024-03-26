@@ -15,7 +15,7 @@
                                 <li>This unit includes an interlock drawer system, allowing only one drawer to open at a time in compliance with STURDY Act.</li>
                                 <li>The STURDY Act is an acronym for "Stop Tip-overs of Unstable, Risky Dressers on Youth". By law, as of 2023 all clothing storage units are built in compliance to these mandatory safety standards.</li>
                             </ul>'
-                            ><i class="fa-solid fa-circle-info"></i></span>
+                            ><i class="cabin-info"></i></span>
                         </label>
                     </div>
                     <div class="form-check clearfix">
@@ -63,7 +63,7 @@
                                 <li>This unit includes an interlock drawer system, allowing only one drawer to open at a time in compliance with STURDY Act.</li>
                                 <li>The STURDY Act is an acronym for "Stop Tip-overs of Unstable, Risky Dressers on Youth". By law, as of 2023 all clothing storage units are built in compliance to these mandatory safety standards.</li>
                             </ul>'
-                            ><i class="fa-solid fa-circle-info"></i></span></label>
+                            ><i class="cabin-info"></i></span></label>
                     </div>
                     <div class="form-check clearfix">
                         <input class="form-check-input" type="checkbox" value="" id="opt23">
@@ -95,7 +95,7 @@
                                 <li>This unit includes an interlock drawer system, allowing only one drawer to open at a time in compliance with STURDY Act.</li>
                                 <li>The STURDY Act is an acronym for "Stop Tip-overs of Unstable, Risky Dressers on Youth". By law, as of 2023 all clothing storage units are built in compliance to these mandatory safety standards.</li>
                             </ul>'
-                            ><i class="fa-solid fa-circle-info"></i></span></label>
+                            ><i class="cabin-info"></i></span></label>
                     </div>
                     <div class="form-check clearfix">
                         <input class="form-check-input" type="checkbox" value="" id="opt33">

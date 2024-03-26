@@ -54,3 +54,13 @@ $icon-sizes: 15,18,20,22,24,55,70;
 .brand-color{
     color:$brand-color;
 }
+.cabin-info{
+    display:block;
+    @include square(17px);
+    background:url('../icons/info.png') no-repeat;
+    background-size:17px;
+    background-position:0 0;
+    &:hover{
+        background-position:0 -20px;
+    }
+}
