@@ -195,7 +195,7 @@ include_once('sections/layouts/header.php')
             </div>
         </div>
 
-        <div class="row border-bottom">
+        <div class="row bottom-divider">
             <!-- section title  -->
             <header class="col-md-12 section-title small">
                 <h3>Shop By Style</h3>
@@ -275,7 +275,7 @@ include_once('sections/layouts/header.php')
             </div>
         </div>
 
-        <div class="row border-bottom">
+        <div class="row bottom-divider">
             <!-- section title  -->
             <header class="col-md-12 section-title small">
                 <h3>Shop By Quick Ship</h3>
