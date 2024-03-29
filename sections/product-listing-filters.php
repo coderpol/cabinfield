@@ -11,10 +11,8 @@
                         <label class="form-check-label" for="opt11">Bedroom Furniture Set 
                             <span class="product-tips" data-bs-custom-class="product-hints"
                             data-bs-toggle="tooltip" data-bs-placement="right" data-bs-html="true" 
-                            data-bs-title='<ul>
-                                <li>This unit includes an interlock drawer system, allowing only one drawer to open at a time in compliance with STURDY Act.</li>
-                                <li>The STURDY Act is an acronym for "Stop Tip-overs of Unstable, Risky Dressers on Youth". By law, as of 2023 all clothing storage units are built in compliance to these mandatory safety standards.</li>
-                            </ul>'
+                            data-bs-title='<p>This unit includes an interlock drawer system, allowing only one drawer to open at a time in compliance with STURDY Act.</p> 
+                            <p>The STURDY Act is an acronym for "Stop Tip-overs of Unstable, Risky Dressers on Youth". By law, as of 2023 all clothing storage units are built in compliance to these mandatory safety standards.</p>'
                             ><i class="cabin-info"></i></span>
                         </label>
                     </div>
@@ -59,10 +57,8 @@
                         <input class="form-check-input" type="checkbox" checked value="" id="opt22">
                         <label class="form-check-label" for="opt22">Spring Field <span class="product-tips" data-bs-custom-class="product-hints"
                             data-bs-toggle="tooltip" data-bs-placement="right" data-bs-html="true" 
-                            data-bs-title='<ul>
-                                <li>This unit includes an interlock drawer system, allowing only one drawer to open at a time in compliance with STURDY Act.</li>
-                                <li>The STURDY Act is an acronym for "Stop Tip-overs of Unstable, Risky Dressers on Youth". By law, as of 2023 all clothing storage units are built in compliance to these mandatory safety standards.</li>
-                            </ul>'
+                            data-bs-title='<p>This unit includes an interlock drawer system, allowing only one drawer to open at a time in compliance with STURDY Act.</p> 
+                            <p>The STURDY Act is an acronym for "Stop Tip-overs of Unstable, Risky Dressers on Youth". By law, as of 2023 all clothing storage units are built in compliance to these mandatory safety standards.</p>'
                             ><i class="cabin-info"></i></span></label>
                     </div>
                     <div class="form-check clearfix">

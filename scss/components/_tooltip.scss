@@ -38,6 +38,7 @@
         }
     }
     &.product-hints{
+        
         .tooltip-arrow{
             display:none;
         }
@@ -64,21 +65,24 @@
         .tooltip-inner{
             border: 1px solid #DDDDDD;
             min-width: 530px !important;
-            padding:20px 15px !important;
+            padding:25px !important;
             @include upto-phone{
                 min-width: 250px !important;
             }
-        }
-        ul{
-            padding-left: 15px;
-            margin-bottom:0;
-            li{
-                color:#B3522C;
-                font-size: 14px;
-                font-weight: 400;
-                line-height: 24px;
-                text-align: left;
-                
+            color:#B3522C;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 24px;
+            text-align: left;
+            ul{
+                padding-left: 15px;
+                margin-bottom:0;
+            }
+            p{
+                margin-bottom:0;
+                &+p{
+                    margin-top:5px;
+                }
             }
         }
     }
