@@ -48,9 +48,10 @@ include_once('sections/layouts/header.php')
         </div>
         <!-- The top functional area with buttons ends -->
         
-        <div class="row">
+        <div class="row bottom-divider">
             <!-- filter area  -->
             <?php 
+                $visibility = "1"; // to hide the left pannel by default
                 include_once('sections/product-listing-filters.php');
             ?>
             <!-- filter area ends -->
@@ -204,6 +205,10 @@ include_once('sections/layouts/header.php')
                 </div> -->
                 <!-- pagination area ends -->
             </div>
+        </div>
+        
+        <div class="row">
+        <?php include_once('sections/listing-page-bottom-text.php'); ?>
         </div>
     </div>
 </div>
