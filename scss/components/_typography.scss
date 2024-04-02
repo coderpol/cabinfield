@@ -48,6 +48,13 @@
         margin-bottom:40px;
     }
 }
+.heading-24{
+    h1,h2,h3,h4{
+        @include font(24px,26px,700);
+        color:$blue-darkest;
+        margin-bottom:20px;
+    }
+}
 .heading-22{
     h1,h2,h3,h4{
         @include font(22px,29px,500);

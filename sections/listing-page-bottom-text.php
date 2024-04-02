@@ -1,4 +1,4 @@
-<div class="col-md-12 textarea mb-3 heading-18">
+<div class="col-md-12 textarea mb-3 heading-24">
     <h2>When Were Wingback Chairs Popular? - H2</h2>
     <h3>When Were Wingback Chairs Popular? - H3</h2>
     <h4>When Were Wingback Chairs Popular? - H4</h2>
