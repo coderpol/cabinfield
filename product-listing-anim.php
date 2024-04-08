@@ -50,12 +50,13 @@ include_once('sections/layouts/header.php')
         <div class="row bottom-divider">
             <!-- filter area  -->
             <?php 
+                $visibility = "0"; // to hide the left pannel by default
                 include_once('sections/product-listing-filters.php');
             ?>
             <!-- filter area ends -->
             
             <!-- main product listing area  -->
-            <div class="col-lg-9 col-md-12 main-content product-listing-area" id="product-listing-area">
+            <div class="col-md-9 main-content product-listing-area <?php if($visibility==0){echo "col-md-12";} ?>" id="product-listing-area">
                 <div class="row listed-product">
                     <!-- single product  -->
                     <div class="col-md-4 product">
