@@ -31,7 +31,7 @@ include_once('sections/layouts/header.php')
 <div class="section products-section clearfix">
     <div class="container">
         <div class="row bottom-divider">
-            <div class="col-md-3 page-sidebar">
+            <div class="col-lg-3 col-md-3 page-sidebar">
                 <div class="sorting-box">
                     <div class="heading-18">
                         <h4>Shop By Furniture</h4>
@@ -79,7 +79,7 @@ include_once('sections/layouts/header.php')
                     </ul>
                 </div>
             </div>
-            <div class="col-lg-9 col-md-12 main-content">
+            <div class="col-lg-9 col-md-9 main-content">
                 <div class="row">
                     <!-- <div class="section-title small mb-4">
                         <h2>Shop by Furniture Type</h2>
