@@ -34,7 +34,7 @@ include_once('sections/layouts/header.php')
             <div class="col-lg-3 col-md-3 page-sidebar">
                 <div class="sorting-box">
                     <div class="heading-18">
-                        <h4>Shop By Furniture</h4>
+                        <h4><a href="#">Shop By Furniture</a></h4>
                     </div>
                     <ul class="small-dot sort-listing">
                         <li><a href="#">Dining Room Sets</a></li>
@@ -50,7 +50,7 @@ include_once('sections/layouts/header.php')
 
                 <div class="sorting-box">
                     <div class="heading-18">
-                        <h4>Shop By Style</h4>
+                        <h4><a href="#">Shop By Style</a></h4>
                     </div>
                     <ul class="small-dot sort-listing">
                         <li><a href="#">Mission</a></li>
@@ -68,7 +68,7 @@ include_once('sections/layouts/header.php')
                 
                 <div class="sorting-box">
                     <div class="heading-18">
-                        <h4>Shop By Quick Ship</h4>
+                        <h4><a href="#">Shop By Quick Ship</a></h4>
                     </div>
                     <ul class="small-dot sort-listing">
                         <li><a href="#">Quick Ship Dining Sets</a></li>
