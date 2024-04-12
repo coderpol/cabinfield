@@ -1,4 +1,4 @@
-<section class="navigation-area clearfix">
+<div class="navigation-area clearfix">
     <div class="container">
 
         <div class="row nav-area">
