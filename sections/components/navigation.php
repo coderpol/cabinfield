@@ -260,4 +260,4 @@
             </nav>
         </div>
     </div>
-</section>
+</div>
