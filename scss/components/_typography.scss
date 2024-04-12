@@ -97,6 +97,23 @@ h4{
     margin-bottom:15px;
 }
 
+.section-title,
+.section-sub-title,
+.heading-30,
+.heading-24,
+.heading-22
+.heading-20,
+.heading-18,
+.article-title
+{
+    a{
+        color:$blue-darkest; 
+    }
+    h2,h3,h4,h5,h6{
+        
+    }
+}
+
 .uppercase{
     text-transform: uppercase;
 }

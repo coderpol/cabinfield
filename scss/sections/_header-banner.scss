@@ -6,6 +6,7 @@
     position: relative;
     overflow: hidden;
     .breadcrumb{
+        margin-bottom:0;
         li{
             &.active{
                 color:$white;
@@ -15,7 +16,7 @@
     
     .banner-text{
         color:$white;
-        margin:128px 0;
+        margin:66px 0 52px;
         position: relative;
         // width: 60%;
         @include upto-tablet{
@@ -30,8 +31,8 @@
             margin-bottom:0.5rem;
         }
         .heading{
-            @include font(54px,130%,700);
-            margin-bottom: 25px;
+            @include font(54px,66px,700);
+            margin-bottom: 20px;
         }
         .btn{
             padding:15px 50px;
@@ -43,7 +44,7 @@
         }
         p{
             @include font(16px,26px);
-            letter-spacing: 0.2px;
+            // letter-spacing: 0.2px;
         }
     }
     .banner-slider{

@@ -17,8 +17,8 @@ include_once('sections/layouts/header.php')
                         <li class="active">Office</li>
                     </ol>
                 </nav>
-                <div class="col-md-7 banner-text">
-                    <h1 class="heading">Amish Dining Room & Kitchen Furniture</h1>
+                <div class="col-md-8 banner-text">
+                    <h1 class="heading">Amish Dining Room <br>& Kitchen Furniture</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
             </div>
@@ -198,7 +198,7 @@ include_once('sections/layouts/header.php')
         <div class="row bottom-divider">
             <!-- section title  -->
             <header class="col-md-12 section-title small">
-                <h3>Shop By Style</h3>
+                <h3><a href="#">Shop By Style</a></h3>
             </header>
             <!-- section title ends  -->
             
@@ -278,7 +278,7 @@ include_once('sections/layouts/header.php')
         <div class="row bottom-divider">
             <!-- section title  -->
             <header class="col-md-12 section-title small">
-                <h3>Shop By Quick Ship</h3>
+                <h3><a href="#">Shop By Quick Ship</a></h3>
             </header>
             <!-- section title ends  -->
             
