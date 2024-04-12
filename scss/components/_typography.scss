@@ -1,11 +1,30 @@
+.section-title,
+.section-sub-title,
+.heading-30,
+.heading-24,
+.heading-22
+.heading-20,
+.heading-18,
+.heading-16,
+.article-title,
+.accordion-section-title
+{
+    h2,h3,h4,h5,h6{
+        margin-bottom:0;
+        color:$blue-darkest;
+    }
+    a{
+        color:$blue-darkest; 
+    }
+}
 .section-title{
     font-weight: 500;
+    margin-bottom:20px;
     span{
         color:$brand-color;
     }
     h1,h2,h3,h4{
         @include font(44px,57px,700);
-        margin-bottom:20px;
         @include upto-phone{
             @include font(32px,42px,700); 
         }
@@ -16,10 +35,9 @@
         }
     }
     &.small{
+        margin-bottom:15px;
         h1,h2,h3,h4{
             @include font(36px,47px,700); 
-            margin-bottom:15px;
-            
         }
         &.has-mobile-sizing{
             h1,h2,h3,h4{
@@ -38,50 +56,51 @@
 .section-sub-title{
     h1,h2,h3,h4{
         @include font(24px,31px,700);
-        color:$blue-darkest;
     }
 }
 .heading-30{
+    margin-bottom:40px;
     h1,h2,h3,h4{
         @include font(30px,39px,700);
-        color:$blue-darkest;
-        margin-bottom:40px;
     }
 }
 .heading-24{
+    margin-bottom:20px;
     h1,h2,h3,h4{
         @include font(24px,26px,700);
-        color:$blue-darkest;
-        margin-bottom:20px;
     }
 }
 .heading-22{
+    margin-bottom:30px;
     h1,h2,h3,h4{
         @include font(22px,29px,500);
-        color:$blue-darkest;
-        margin-bottom:30px;
+        
     }
 }
 .heading-20, .accordion-section-title{
+    margin-bottom:15px;
     h1,h2,h3,h4{
         @include font(20px,23px,700);
-        color:$blue-darkest;
-        margin-bottom:15px;
+        
     }
 }
 .heading-18{
+    margin-bottom:15px;
     h2,h3,h4{
-        @include font(18px,23px,700);
-        color:$blue-darkest;
-        margin-bottom:15px;
+        @include font(18px,23px,700);        
+    }
+}
+.heading-16{
+    margin-bottom:10px;
+    h2,h3,h4{
+        @include font(16px,26px,700);
     }
 }
 
 .article-title{
+    margin-bottom:20px;
     h2,h3,h4{
         @include font(24px,31px,500);
-        color:$brand-color;
-        margin-bottom:20px;
     }
 }
 
@@ -97,22 +116,7 @@ h4{
     margin-bottom:15px;
 }
 
-.section-title,
-.section-sub-title,
-.heading-30,
-.heading-24,
-.heading-22
-.heading-20,
-.heading-18,
-.article-title
-{
-    a{
-        color:$blue-darkest; 
-    }
-    h2,h3,h4,h5,h6{
-        
-    }
-}
+
 
 .uppercase{
     text-transform: uppercase;
