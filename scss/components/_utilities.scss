@@ -23,10 +23,6 @@
     }
 }
 
-.mb-100{
-    margin-bottom:100px !important;
-}
-
 .rotate-90{
     transform:rotate(90deg);
 }
@@ -212,13 +208,18 @@
     }
 }
 
-$margins-level: 0, 5,10,15,20,25,30,40,50,60,70,80,90,100;
+$margins-level: 0, 5,10,15,20,25,30,40,50,55,60,70,80,90,100;
 
 @each $size in $margins-level{
     .mb-#{$size}{
-        margin-bottom:#{$size}px;
+        margin-bottom:#{$size}px !important;
     }
     .mt-#{$size}{
-        margin-bottom:#{$size}px;
+        margin-bottom:#{$size}px !important;
+    }
+    @include upto-phone{
+        .mobile-mb-#{$size}{
+            margin-bottom:#{$size}px !important;
+        }
     }
 }

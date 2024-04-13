@@ -5,13 +5,17 @@
             height:1px;
             width:90%;
             max-width: 250px;
+            @include upto-phone{
+                width:100%;
+                max-width: 100%;
+            }
             display: block;
             background: #DDDDDD;
             margin:20px 0;
         }
         .sort-listing{
             padding-left: 20px;
-            margin:10px 0 0 0;
+            margin:0px 0 20px 0;
         }
         li{
             color:#627590;
@@ -39,6 +43,63 @@
         top:6px;
         &:hover{
             i{color:$brand-color}
+        }
+    }
+    
+    &.accordion-flush{
+        .accordion-item{
+            margin-bottom:20px;
+            @include above-phone{
+                border:none;
+                box-shadow:none;
+            }
+
+            &.sorting-box{
+                &:after{
+                    @include above-phone{
+                        margin-top:0;
+                    }
+                    @include upto-phone{
+                        content:none;
+                    }
+                }
+                .accordion-collapse{
+                    
+                    @include above-phone{
+                        &.show{
+                            transition: none;
+                        }
+                        display: block !important;
+                        transition:none;
+                    }
+                    // .sort-listing{
+                    //     padding-bottom:20px;
+                    // }
+                }
+            }
+            @include upto-phone{
+                &:last-child{
+                    border-bottom: 1px solid rgba(0,0,0,0.125);
+                }
+            }
+            .accordion-button{
+                padding:0;
+                
+                &:after{
+                    background-image: url("../icons/down-arrow-acc.png");
+                    @include above-phone{
+                        content:none;
+                    }
+                }
+                &:not(.collapsed){
+                    background-color: white;
+                    box-shadow: 0 0 0;
+                    color:#000000;
+                    &:after{
+                        background-image: url("../icons/down-arrow-acc.png");
+                    }
+                }
+            }
         }
     }
 }
