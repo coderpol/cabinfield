@@ -212,10 +212,13 @@
     }
 }
 
-$margins-level: 5,10,15,20,25,30,40,50,60,70,80,90,100;
+$margins-level: 0, 5,10,15,20,25,30,40,50,60,70,80,90,100;
 
 @each $size in $margins-level{
     .mb-#{$size}{
+        margin-bottom:#{$size}px;
+    }
+    .mt-#{$size}{
         margin-bottom:#{$size}px;
     }
 }

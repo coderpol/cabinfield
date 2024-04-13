@@ -134,50 +134,56 @@ include_once('sections/layouts/header.php')
                 <!-- product collection ends -->
             </div>
 
-            <div class="col-md-9 textarea">
-                <div class="heading-24 mb-30">
-                    <h3>How do I choose an outdoor dining bench?</h2>
-                </div>
-                <div class="textarea mb-30">
-                    <div class="heading-16">
-                        <h4>1. Measure your space</h4>
+            <div class="col-md-9 faq-area">
+                <div class="textarea single-faq parts-faq">
+                    <div class="heading-24 mb-30">
+                        <h3>How do I choose an outdoor dining bench?</h2>
                     </div>
-                    <p>Wingback chairs gained popularity in the 17th century and have remained cherished pieces of furniture through the centuries. While their designs have evolved, they have never gone out of style, standing as a testament to their enduring appeal.</p>
-
-                    <div class="heading-16">
-                        <h4>2. Choose colors and styles</h4>
+                    <div class="part">
+                        <div class="heading-16">
+                            <h4>1. Measure your space</h4>
+                        </div>
+                        <p>Wingback chairs gained popularity in the 17th century and have remained cherished pieces of furniture through the centuries. While their designs have evolved, they have never gone out of style, standing as a testament to their enduring appeal.</p>
                     </div>
-                    <p>What colors do you want to use? Is there a particular style of outdoor dining bench that will work magic with your outdoor area?</p>
 
-                    <div class="heading-16">
-                        <h4>3. Decide on the number of people you will seat</h4>
+                    <div class="part">
+                        <div class="heading-16">
+                            <h4>2. Choose colors and styles</h4>
+                        </div>
+                        <p>What colors do you want to use? Is there a particular style of outdoor dining bench that will work magic with your outdoor area?</p>
                     </div>
-                    <p>Are you looking for a standalone bench set, or a bench to set beside the table? Take into account the number of people you will seat at the table. Don’t forget to leave space to maneuver around the bench! No one likes to be asked to stand up so that someone can get past.</p>
+
+                    <div class="part">
+                        <div class="heading-16">
+                            <h4>3. Decide on the number of people you will seat</h4>
+                        </div>
+                        <p>Are you looking for a standalone bench set, or a bench to set beside the table? Take into account the number of people you will seat at the table. Don’t forget to leave space to maneuver around the bench! No one likes to be asked to stand up so that someone can get past.</p>
+                    </div>
                 </div>
 
-                <div class="heading-24">
-                    <h3>What is the best material for outdoor dining benches?</h2>
-                </div>
-                <div class="textarea mb-30">
+                <div class="textarea single-faq">
+                    <div class="heading-24">
+                        <h3>What is the best material for outdoor dining benches?</h2>
+                    </div>
                     <p>Consider durability, weather resistance, and appearance.</p>
                     <p>The natural beauty of wood outdoor benches is what many homeowners are looking for. But no one wants the maintenance of protecting the wood from the wet. Poly patio dining benches are available in wood-look-alike variations so that you can have both the beauty of wood and the easy care and longevity of poly.</p>
                     <p>Poly is a maintenance-free material made of recycled plastics. Patio dining sets with benches are available in an array of exciting colors if you prefer a more modern, trendy look.</p>
                 </div>
 
-                <div class="heading-24">
-                    <h3>Should a patio dining set have a bench?</h2>
-                </div>
-                <div class="textarea mb-30">
+                <div class="textarea single-faq">
+                    <div class="heading-24">
+                        <h3>Should a patio dining set have a bench?</h2>
+                    </div>
                     <p>It depends on your needs.</p>
                     <p>Patio dining sets with a bench are great for maximizing seating space. Choose an outdoor dining set with benches and chairs if you host different-sized gatherings. You can easily store the patio dining bench when the group is smaller.</p>
                     <p>Measure your space and see if you have enough room for a patio dining bench with a back. The back adds to the space you will need around the table. If you have less than 30" all around the table, choose a backless patio dining bench.</p>
                     <p>Do you prefer an outdoor dining set with a bench and chairs? Or a patio dining table with a bench on one side? Getting your outdoor dining setup right will make spending time outdoors relaxing. You deserve to enjoy nature, and a comfortable outdoor space makes it easy.</p>
                 </div>
 
-                <div class="heading-24">
-                    <h3>I'm ready! How do I buy a patio dining bench online?</h2>
-                </div>
-                <div class="textarea mb-30">
+                <div class="textarea single-faq">
+                    <div class="heading-24">
+                        <h3>I'm ready! How do I buy a patio dining bench online?</h2>
+                    </div>
                     <p>Once you decide on size, colors, and materials, you're ready to place your order. Use our online order form or call in, our friendly sales reps are always happy to help. In approximately two months, your outdoor dining bench will arrive at your home.</p>
                     <p>Finally, you get to gather family and friends on your patio. There's room for all! Everyone loves spending time outside in the warm, fresh air on a summer evening. Your outdoor bench dining sets will be the setting for family fun season after season.</p>
                 </div>

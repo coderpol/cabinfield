@@ -457,3 +457,23 @@
         margin-bottom:0 !important;
     }
 }
+
+// faq area for style-landing page
+.faq-area{
+    .single-faq{
+        margin-bottom:30px;
+        p{
+            margin-bottom:10px;
+        }
+        &.parts-faq{
+            .part{
+                margin-bottom:20px;
+                p{
+                    &:last-child{
+                        margin-bottom:0;
+                    }
+                }
+            }
+        }
+    }
+}
