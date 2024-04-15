@@ -1,0 +1,58 @@
+// faq area for style-landing page
+.faq-area{
+    // .single-faq{
+    //     margin-bottom:30px;
+    //     p{
+    //         margin-bottom:10px;
+    //     }
+    //     &.parts-faq{
+    //         .part{
+    //             margin-bottom:20px;
+    //             p{
+    //                 &:last-child{
+    //                     margin-bottom:0;
+    //                 }
+    //             }
+    //         }
+    //     }
+    // }
+    h3,h4{
+        margin-bottom:20px;
+        @include font(24px,26px,700);
+        color:$blue-darkest;
+    }
+    p,li{
+        @include font(16px,26px);
+        color:#514646;
+        margin-bottom:10px;
+        &+h3,&+h4{
+            margin-top:20px;
+        }
+        &:last-child{
+            margin-bottom:0;
+        }
+    }
+    ol,ul{
+        padding-left:0px;
+        margin-top:10px;
+        margin-bottom:30px;
+        list-style-position: inside;
+        color:$blue-darkest;
+        li{
+            font-weight:700;
+            margin-bottom:20px;
+            color:$blue-darkest;
+            &:last-child{
+                margin-bottom:0;
+            }
+            strong{
+                color:$blue-darkest;
+            }
+            p{
+                display: block;
+                font-weight: 400;
+            }
+        }
+    }
+    
+}
