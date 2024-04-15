@@ -14,10 +14,26 @@
     justify-content: flex-start;
     align-items: flex-start;
     .collection{
-        flex-basis:18%;
-        margin-right:2.5%;
+        flex-basis:19%;
+        margin-right:1.25%;
         margin-bottom:20px;
+        @include upto-phone{
+            margin-bottom:15px;
+        }
         transition: all 0.5s ease-in;
+        .title{
+            min-height:90px;
+            padding:20px 10px;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            align-content: center;
+            @include upto-phone{
+                padding:10px;
+                align-items: center;
+                min-height:70px;
+            }
+        }
         @include above-phone{
             &:nth-child(5n){
                 margin-right:0;
@@ -41,8 +57,8 @@
             }
         }
         @include phone-small{
-            flex-basis:48%;
-            margin-right:4% !important;
+            flex-basis:49%;
+            margin-right:2% !important;
             &:nth-child(2n){
                 margin-right:0 !important;
             }
@@ -55,8 +71,10 @@
         // margin-bottom:20px;
         h3,h4{
             @include font(18px,26px,500);
-            padding: 20px 15px;
             margin-bottom: 0;
+            @include upto-phone{
+                @include font(16px,21px,500);
+            }
         }
         &.image_padding{
             padding-top:10px;

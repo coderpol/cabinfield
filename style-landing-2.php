@@ -17,7 +17,7 @@ include_once('sections/layouts/header.php')
                         <li class="active">Office</li>
                     </ol>
                 </nav>
-                <div class="col-md-8 banner-text">
+                <div class="col-md-8 banner-text text-start">
                     <h1 class="heading">Amish Dining Room <br>& Kitchen Furniture</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
@@ -34,7 +34,7 @@ include_once('sections/layouts/header.php')
             <div class="col-lg-3 col-md-3 page-sidebar mb-60 accordion accordion-flush" id="sorting">
                 <div class="accordion-item sorting-box ">
                     <div class="accordion-header heading-18" id="sorting-heading-1">
-                        <h4 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sorting-collapse-1" aria-expanded="false" aria-controls="sorting-collapse-1"><a href="#">Shop By Furniture</a></h4>
+                        <h4 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sorting-collapse-1" aria-expanded="false" aria-controls="sorting-collapse-1"><a href="#">Shop By Furniture Type:</a></h4>
                     </div>
                     <div class="accordion-collapse collapse" id="sorting-collapse-1" aria-labelledby="customizations-heading-1" data-bs-parent="#sorting">
                         <ul class="small-dot sort-listing"  >
@@ -52,7 +52,7 @@ include_once('sections/layouts/header.php')
 
                 <div class="accordion-item sorting-box">
                     <div class="accordion-header heading-18" id="sorting-heading-2">
-                        <h4 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sorting-collapse-2" aria-expanded="false" aria-controls="sorting-collapse-2"><a href="#">Shop By Style</a></h4>
+                        <h4 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sorting-collapse-2" aria-expanded="false" aria-controls="sorting-collapse-2"><a href="#">Shop By Style:</a></h4>
                     </div>
 
                     <div class="accordion-collapse collapse" id="sorting-collapse-2" aria-labelledby="customizations-heading-2" data-bs-parent="#sorting">
@@ -73,7 +73,7 @@ include_once('sections/layouts/header.php')
                 
                 <div class="accordion-item sorting-box">
                     <div class="accordion-header heading-18" id="sorting-heading-3">
-                        <h4 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sorting-collapse-3" aria-expanded="false" aria-controls="sorting-collapse-3"><a href="#">Shop By Quick Ship</a></h4>
+                        <h4 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sorting-collapse-3" aria-expanded="false" aria-controls="sorting-collapse-3"><a href="#">Shop By Quick Ship:</a></h4>
                     </div>
                     <div class="accordion-collapse collapse" id="sorting-collapse-3" aria-labelledby="customizations-heading-3" data-bs-parent="#sorting">
                         <ul class="small-dot sort-listing">
@@ -214,69 +214,89 @@ include_once('sections/layouts/header.php')
                 <!-- single collection  -->
                 <a href="collection-landing.php" class="collection">
                     <img src="images/collections/style/style-1.png" alt="">
-                    <h4>Mission</h4>
+                    <div class="title">
+                        <h4>Mission</h4>
+                    </div>
                 </a>
                 <!-- single collection -->
                 
                 <!-- single collection ends -->
                 <a href="collection-landing.php"  class="collection">
                     <img src="images/collections/style/style-2.png" alt="">
-                    <h4>Traditional</h4>
+                    <div class="title">
+                        <h4>Traditional</h4>
+                    </div>
                 </a>
                 <!-- single collection -->
                 
                 <!-- single collection ends -->
                 <a href="collection-landing.php"  class="collection">
                     <img src="images/collections/style/style-3.png" alt="">
-                    <h4>Contemporary</h4>
+                    <div class="title">
+                        <h4>Contemporary</h4>
+                    </div>
                 </a>
                 <!-- single collection -->
                 
                 <!-- single collection ends -->
                 <a href="collection-landing.php"  class="collection">
                     <img src="images/collections/style/style-4.png" alt="">
-                    <h4>Legacy World</h4>
+                    <div class="title">
+                        <h4>Legacy World</h4>
+                    </div>
                 </a>
                 <!-- single collection -->
                 
                 <!-- single collection ends -->
                 <a href="collection-landing.php"  class="collection">
                     <img src="images/collections/style/style-5.png" alt="">
-                    <h4>Art Deco</h4>
+                    <div class="title">
+                        <h4>Art Deco</h4>
+                    </div>
                 </a>
                 <!-- single collection -->
                 <!-- single collection  -->
                 <a href="collection-landing.php" class="collection">
                     <img src="images/collections/style/style-6.png" alt="">
-                    <h4>Eclectic</h4>
+                    <div class="title">
+                        <h4>Eclectic</h4>
+                    </div>
                 </a>
                 <!-- single collection -->
                 
                 <!-- single collection ends -->
                 <a href="collection-landing.php"  class="collection">
                     <img src="images/collections/style/style-7.png" alt="">
-                    <h4>Live Edge</h4>
+                    <div class="title">
+                        <h4>Live Edge</h4>
+                    </div>
                 </a>
                 <!-- single collection -->
                 
                 <!-- single collection ends -->
                 <a href="collection-landing.php"  class="collection">
                     <img src="images/collections/style/style-8.png" alt="">
-                    <h4>Farmhouse Elegance</h4>
+                    <div class="title">
+                        <h4>Farmhouse Elegance</h4>
+                    </div>
                 </a>
                 <!-- single collection -->
                 
                 <!-- single collection ends -->
                 <a href="collection-landing.php"  class="collection">
                     <img src="images/collections/style/style-9.png" alt="">
-                    <h4>Reclaimed Barnwood</h4>
+                    <div class="title">
+                        <h4>Reclaimed Barnwood</h4>
+                    </div>
                 </a>
                 <!-- single collection -->
                 
                 <!-- single collection ends -->
                 <a href="collection-landing.php"  class="collection">
                     <img src="images/collections/style/style-10.png" alt="">
-                    <h4>Prime Value Dining Room</h4>
+                    <div class="title">
+                        <h4>Prime Value Dining Room</h4>
+                    </div>
                 </a>
                 <!-- single collection -->
             </div>
@@ -294,42 +314,54 @@ include_once('sections/layouts/header.php')
                 <!-- single collection  -->
                 <a href="collection-landing.php" class="collection">
                     <img src="images/collections/ship/ship-1.jpg" alt="">
-                    <h4>Quick Ship Dining Room Sets</h4>
+                    <div class="title">
+                        <h4>Quick Ship Dining Room Sets</h4>
+                    </div>
                 </a>
                 <!-- single collection -->
                 
                 <!-- single collection ends -->
                 <a href="collection-landing.php"  class="collection">
                     <img src="images/collections/ship/ship-2.jpg" alt="">
-                    <h4>Quick Ship Dining Tables</h4>
+                    <div class="title">
+                        <h4>Quick Ship Dining Tables</h4>
+                    </div>
                 </a>
                 <!-- single collection -->
                 
                 <!-- single collection ends -->
                 <a href="collection-landing.php"  class="collection">
                     <img src="images/collections/ship/ship-3.jpg" alt="">
-                    <h4>Quick Ship Dining Chairs & Seating</h4>
+                    <div class="title">
+                        <h4>Quick Ship Dining Chairs & Seating</h4>
+                    </div>
                 </a>
                 <!-- single collection -->
                 
                 <!-- single collection ends -->
                 <a href="collection-landing.php"  class="collection">
                     <img src="images/collections/ship/ship-4.jpg" alt="">
-                    <h4>Quick Ship Hutches & Buffets</h4>
+                    <div class="title">
+                        <h4>Quick Ship Hutches & Buffets</h4>
+                    </div>
                 </a>
                 <!-- single collection -->
                 
                 <!-- single collection ends -->
                 <a href="collection-landing.php"  class="collection">
                     <img src="images/collections/ship/ship-5.jpg" alt="">
-                    <h4>Quick Ship Kitchen Islands</h4>
+                    <div class="title">
+                        <h4>Quick Ship Kitchen Islands</h4>
+                    </div>
                 </a>
                 <!-- single collection -->
                 
                 <!-- single collection ends -->
                 <a href="collection-landing.php"  class="collection">
                     <img src="images/collections/ship/ship-5.jpg" alt="">
-                    <h4>Shop By Style</h4>
+                    <div class="title">
+                        <h4>Shop By Style</h4>
+                    </div>
                 </a>
                 <!-- single collection -->
             </div>

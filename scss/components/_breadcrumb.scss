@@ -1,8 +1,8 @@
 .breadcrumb-area{
     margin-top:25px;
-    
+    margin-bottom:20px;
     &+.banner-text{
-        margin-top:5vw !important;
+        // margin-top:5vw !important;
     }
 }
 .breadcrumb{
@@ -11,6 +11,7 @@
     align-items: center;
     align-content: center;
     padding:0;
+    margin-bottom:0;
     li{
         color:$white;
         font-size: 16px;

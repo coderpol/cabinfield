@@ -16,7 +16,7 @@
     
     .banner-text{
         color:$white;
-        margin:66px 0 52px;
+        padding:46px 0 52px;
         position: relative;
         // width: 60%;
         @include upto-tablet{
@@ -45,6 +45,10 @@
         p{
             @include font(16px,26px);
             // letter-spacing: 0.2px;
+            margin-bottom:0;
+            &+p{
+                margin-top:1rem;
+            }
         }
     }
     .banner-slider{
@@ -89,7 +93,7 @@
 @include upto-pc{
     .header-banner{
         .banner-text{
-            margin: 33px 0;
+            margin: 33px 0 0;
             padding: 0 30px 60px;
             .tagline{
                 @include font(18px,160%,500);
