@@ -190,7 +190,7 @@ include_once('sections/layouts/header.php')
             </div> -->
             
             <div class="col-md-9 faq-area">
-                <h3>How do I choose an outdoor dining bench?</h2>
+                <h2>How do I choose an outdoor dining bench?</h2>
                 <ol>
                     <li><strong>Measure your space</strong><p>Wingback chairs gained popularity in the 17th century and have remained cherished pieces of furniture through the centuries. While their designs have evolved, they have never gone out of style, standing as a testament to their enduring appeal.</p></li>
                     <li><strong>Choose colors and styles</strong><p>What colors do you want to use? Is there a particular style of outdoor dining bench that will work magic with your outdoor area?</p></li>
