@@ -72,5 +72,7 @@
 
 <?php include_once('sections/components/navigation.php'); ?>
 
-<?php // include_once('sections/promotion/promotion.php'); ?>
+<?php 
+include_once('sections/promotion/promotion.php'); 
+?>
 
