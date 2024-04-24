@@ -8,7 +8,7 @@
     <!-- <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0"> -->
     <meta name="description" content="Cabinfield | Classic Amish Craftmanship">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <title><?php echo (isset($page_title)?$page_title : "Homepage") ?> - Cabinfield</title>
+    <title><?php echo (isset($page_title)?$page_title : "Homepage") ?> - Palash Dev</title>
     <!-- including google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
