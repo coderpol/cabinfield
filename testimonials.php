@@ -30,6 +30,13 @@ include_once('sections/layouts/header.php')
                     <h1>Testimonials</h1>
                 </header>
                 <!-- page title ends -->
+                
+                <div class="col-md-6 col-12 mb-40 search-area">
+                    <form action="/search" class="searchform">
+                        <input type="search" name="testimonial" id="testimonial" placeholder="Search Testimonials">
+                        <button type="submit" class="search_submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </div>
 
                 <p>We at Cabinfield are very proud of our Amish craftsmen whose skill in workmanship and artistry in design work together to create products fine enough to grace the most distinguished homes. From details that include such care as mortise-and-tenon joinery, dovetailed drawers, stretcher-based construction on chairs, inset screws, extra coatings on hand-applied, smooth-as-glass finishes, and so much more, our craftsmen truly exemplify America’s best.</p>
 
