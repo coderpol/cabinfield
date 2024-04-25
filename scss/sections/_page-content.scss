@@ -134,6 +134,7 @@
         .search-area{
             margin-top: 19px;
             margin-bottom: 43px;
+            margin-left: -1px;
             @include upto-tablet{
                 .searchform{
                     width: 100%;
