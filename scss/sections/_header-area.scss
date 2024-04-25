@@ -41,7 +41,14 @@
     }
     .search-area {
         float: left;
+        position: relative;
         // .searchform is sperated from here
+        .searchform{
+            position: absolute;
+            left: 43px;
+            top: 7px;
+            
+        }
     }
     .cart-area{
         // width:21%;
@@ -56,6 +63,7 @@
             // margin-top: 18px;
             margin-bottom:0;
             padding-left: 0;
+            margin-top: 16px;
             li{
                 a{
                     display:inline-block;
@@ -83,7 +91,7 @@
                     }
                 }
                 &+li{
-                    margin-left:35px;
+                    margin-left:40px;
                 }
                 &:hover{
                     .counter{
@@ -112,25 +120,26 @@
         }
         .search-area{
             width: calc(100% - 80px);
-            max-width: 325px !important;
+            max-width: 326px !important;
             z-index: 1000;
             padding:14px 0;
             position:absolute;
-            top: 70px;
-            right: 20px;
-            max-width: 500px;
+            top: 76px;
+            left: 18px;
             .searchform{
                 margin-top:0;
+                width:100%;
                 .search_submit{
-                    top: 7px;
-                    right: 10px;
+                    top: 9px;
+                    right: 18px;
                     left:auto;
                 }
-                input{
+                .searchbar{
                     padding-left:15px;
                     padding-right:45px;
                     height:37px;
                     font-size: 16px;
+                    
                 }
             }
         }

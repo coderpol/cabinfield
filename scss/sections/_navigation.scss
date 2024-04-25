@@ -26,11 +26,11 @@
                 color:$blue-darker-3 !important;
                 font-weight: 500;
                 display:inline-block;
-                padding:10px 30px;
+                padding:9px 32px;
                 font-size:18px;
                 position:relative;
                 text-transform: uppercase;
-                letter-spacing: 2.5px;
+                letter-spacing: 2.6px;
                 @include tablet-to-pc{
                     padding:10px 20px;
                     letter-spacing: 1px;
@@ -242,10 +242,10 @@
         box-shadow: 0px 6px 20px 10px rgb(98 117 144 / 14%);
         .nav-toggle-area{
             margin-top: 10px;
-            margin-left: -10px;
+            margin-left: -8px;
             text-align:left;
             .nav-toggle{
-                font-size: 25px;
+                font-size: 22px;
             }
         }
     }

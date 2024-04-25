@@ -130,6 +130,18 @@
         }
     }
     
+    &.testimonial-section{
+        .search-area{
+            margin-top: 19px;
+            margin-bottom: 43px;
+            @include upto-tablet{
+                .searchform{
+                    width: 100%;
+                }
+            }
+        }
+    }
+    
     .page-sidebar{
         @include upto-phone{
             margin-bottom:50px;

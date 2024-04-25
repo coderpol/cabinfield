@@ -12,6 +12,7 @@
     h2,h3,h4,h5,h6{
         margin-bottom:0;
         color:$blue-darkest;
+        
     }
     a{
         color:$blue-darkest; 
@@ -25,6 +26,9 @@
     }
     h1,h2,h3,h4{
         @include font(44px,57px,700);
+        @include above-phone{
+            letter-spacing: -0.5px;
+        }
         @include upto-phone{
             @include font(32px,42px,700); 
         }

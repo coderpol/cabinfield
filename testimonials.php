@@ -31,10 +31,10 @@ include_once('sections/layouts/header.php')
                 </header>
                 <!-- page title ends -->
                 
-                <div class="col-md-6 col-12 mb-40 search-area">
+                <div class="search-area">
                     <form action="/search" class="searchform">
-                        <input type="search" name="testimonial" id="testimonial" placeholder="Search Testimonials">
-                        <button type="submit" class="search_submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        <input type="search" class="searchbar" name="testimonial" id="testimonial" placeholder="Search Testimonials">
+                        <input type="submit" class="search_submit">
                     </form>
                 </div>
 

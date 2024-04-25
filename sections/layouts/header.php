@@ -40,7 +40,7 @@
 
 <header class="header-area clearfix">
     <div class="container">
-        <div class="row vertically-middle">
+        <div class="row">
             <div class="col-md-4 col-12 logo-area">
                 <div class="logo-block">
                     <a href="home.php" class="logo">
@@ -52,8 +52,8 @@
             
             <div class="col-md-5 col-5 search-area">
                 <form action="/search" class="searchform">
-                    <input type="search" name="search" id="search" placeholder="Search our store">
-                    <button type="submit" class="search_submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <input type="search" class="searchbar" name="search" id="search" placeholder="Search Furniture">
+                    <input type="submit" class="search_submit">
                 </form>
             </div>
             
@@ -73,6 +73,6 @@
 <?php include_once('sections/components/navigation.php'); ?>
 
 <?php 
-include_once('sections/promotion/promotion.php'); 
+// include_once('sections/promotion/promotion.php'); 
 ?>
 
