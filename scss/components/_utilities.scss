@@ -135,6 +135,23 @@
 .modal-extra-lg{
     max-width: 1200px;
 }
+
+.page-content{
+    .note{
+        p{
+            font-size: 14px;
+            line-height: 21px;
+            font-weight: 400;
+            font-display: swap;
+            color: #767676;
+            margin-bottom:0;
+            &+p{
+                margin-top:10px;
+            }
+        }
+    }
+}
+
 @include upto-phone{
     .mobile-full{
         width:100% !important;
