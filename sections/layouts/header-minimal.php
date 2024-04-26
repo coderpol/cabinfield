@@ -29,8 +29,8 @@
             
             <div class="search-area">
                 <form action="/search" class="searchform">
-                    <input type="search" name="search" id="search" placeholder="Search our store">
-                    <button type="submit" class="search_submit"></button>
+                    <input type="search" class="searchbar" name="search" id="search" placeholder="Search Furniture">
+                    <input type="submit" class="search_submit">
                 </form>
             </div>
             

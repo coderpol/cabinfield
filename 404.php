@@ -7,12 +7,12 @@ include_once('sections/layouts/header-minimal.php')
     <div class="container small">
         <div class="row page-head">
             <h2 class="superheading">404</h2>
-            <h3>Oops! The Requested resource can't be found.</h3>
-            <p>You can try using the search field below or browse the links to find the category the page should be in.</p>
+            <h3>Oops! The requested resource can't be found.</h3>
+            <p>You can try using the search field below or<br> browse the links to find the category the page should be in.</p>
         </div>
         <div class="row search-area">
             <form action="/search" class="searchform">
-                <input type="search" name="search" id="search" placeholder="Search our store">
+                <input type="search" name="search" id="search" placeholder="Search Furniture">
                 <button type="submit" class="search_submit"></button>
             </form>
         </div>
