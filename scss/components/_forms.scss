@@ -161,11 +161,12 @@
         appearance: none;
         padding: 9px 5px 9px 43px;
         font-size: 15px;
+        cursor: unset;
         &:focus{
             outline:0;
             border-color:$brand-color;
-            
         }
+        
     }
     .search_submit{
         position:absolute;

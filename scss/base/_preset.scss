@@ -95,7 +95,7 @@ a {
 a,
 button,
 select,
-input,
+input[type="submit"],
 label {
     cursor: pointer;
 }
