@@ -326,6 +326,9 @@ include_once('sections/layouts/header.php')
                 <div class="card-body shadow">
                     <h4 class="card-title">Calculate Shipping</h4>
                     <form action="#">
+                        <div class="info">
+                            <p>We ship all over the continental USA. Additional charges may apply to locations that may not be accessible to the delivery truck or require special transportation (such as a ferry). If you are unsure if this applies to you, please contact us before you place your order. We will let you know if an additional delivery fee is necessary.</p>
+                        </div>
                         <div class="row form-line">
                             <div class="col-md-12">
                                 <input type="text" class="form-control" placeholder="Enter Zip" aria-label="Calculate Shipping" required>

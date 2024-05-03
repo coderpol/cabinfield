@@ -57,6 +57,17 @@
                 margin-bottom:0;
             }
         }
+        .info{
+            p{
+                color:#536379;
+                @include font(16px, 21px,400);
+                margin-bottom:0;
+                &+p{
+                    margin-top:15px;
+                }
+            }
+            margin-bottom:20px;
+        }
     }
     &.gift-card{
         .input-group-text{

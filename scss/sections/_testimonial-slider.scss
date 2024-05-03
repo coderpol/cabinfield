@@ -67,6 +67,9 @@
             margin:30px 0;
             color:$blue-darker-4;
             @include font(16px,25px,500);
+            em, span{
+                display: block;
+            }
         }
         p{
             letter-spacing: 0.3px;
