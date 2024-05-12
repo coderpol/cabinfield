@@ -50,6 +50,12 @@
                 margin-top:1rem;
             }
         }
+        a{
+            color:white;
+            &:hover{
+                color:#ffa0b2;
+            }
+        }
     }
     .banner-slider{
         position: absolute;
