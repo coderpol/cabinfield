@@ -128,6 +128,16 @@
                 }
             }
         }
+        .result-area{
+            border:1px solid $gray;
+            border-left:none;
+            border-right:none;
+            padding:50px 0;
+            h2,h3,h4{
+                @include font(24px,34px,500);
+                color:#3F4B5C;
+            }
+        }
     }
     
     &.testimonial-section{

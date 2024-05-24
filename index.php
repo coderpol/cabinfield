@@ -56,6 +56,7 @@
                     <li class="done"><a href="privacy-policy.php">Privacy Policy</a></li>
                     <li class="done"><a href="warranty.php">Warranty</a></li>
                     <li class="check"><a href="testimonials.php">Testimonials</a></li>
+                    <li class="check"><a href="testimonials-no-result.php">Testimonials - No Result</a></li>
                     <li class="done"><a href="faq.php">FAQ</a></li>
                     <li class="done"><a href="about.php">About</a></li>
                     <li class="done"><a href="wood-sample.php">Wood Sample</a></li>
