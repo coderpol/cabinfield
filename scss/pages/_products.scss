@@ -8,38 +8,45 @@
         }
     }
     .loading-section{
+        $section-width:700px;
+        $loader-width:40px;
+        $loader-space: $loader-width+10px;
+        
         margin: 0 auto 30px;
-        width: 400px;
+        width: $section-width;
+        position:relative;
+        min-height: $loader-width+10px;;
         // display: flex;
         // align-items: center;
         // justify-content: center;
-        &.rainbow-border{
-            &:before{
-                width:140%;
-                height:550%;
-            }
-        }
+        // &.rainbow-border{
+        //     &:before{
+        //         width:140%;
+        //         height:550%;
+        //     }
+        // }
         .loader{
-            width: 40px;
-            height: 40px;
+            width: $loader-width;
+            height: $loader-width;
             border: 5px solid $blue-light-1;
             border-bottom-color: rgb(255, 255, 255);
             border-bottom-color: transparent;
             border-radius: 50%;
             display: inline-block;
             box-sizing: border-box;
-            float:left;
             animation: rotation 1.5s linear infinite;
-            
+            position:absolute;
+            top:5px;
+            left:0; 
         }
         .loading-text{
             padding-left: 14px;
             padding-right:23px;
-            position:relative;
-            float:left;
-            width:350px;
+            position:absolute;
+            left:$loader-space;
+            width:$section-width - $loader-width - 10px;
             p{
-                @include font(16px,40px,700);
+                @include font(16px,26px,700);
                 color:$blue;
                 
             }
@@ -52,17 +59,21 @@
         
         @include upto-phone{
             width: 100%;
+            min-height: 2 * $loader-space;
             .loader{
-                float:none;
+                // float:none;
                 display:block;
                 margin:0 auto 15px;
+                position:relative;
             }
             .loading-text{
                 text-align: center;
-                float:none;
+                // float:none;
                 width: 100%;
+                position:relative;
+                left:0;
                 p{
-                    line-height: 20px;
+                    // line-height: 20px;
                 }
                 .spinner{
                     // right:auto;

@@ -52,11 +52,11 @@ include_once('sections/layouts/header.php')
                 <div class="tab-content" id="pills-tabContent">
                     <div class="tab-pane fade show active" id="pills-1" role="tabpanel" aria-labelledby="pills-1">
                         <form action="#" class="cabinform">
-                            <div class="clearfix loading-section">
+                            <div class="loading-section">
                                 <div class="loader"></div>
                                 <div class="loading-text">
                                     <p style="margin-bottom:0">
-                                    Please Wait. Your product is loading
+                                    Custom crafting takes a bit longer.<br>Happy customers promise it't worth the wait. Preparing your options
                                     <span class="spinner">
                                         <span class="bounce1"></span>
                                         <span class="bounce2"></span>
