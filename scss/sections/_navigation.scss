@@ -289,12 +289,15 @@
                         }
                         .arrow{
                             float:right;
+                            &.active{
+                                transform: rotate(90deg);
+                            }
                         }
                         &.active{
                             font-weight: 700;
                             color:$brand-color;
                             .arrow{
-                                transform: rotate(90deg);
+                                
                             }
                         }
                     }

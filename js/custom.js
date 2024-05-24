@@ -356,7 +356,7 @@ $('#nav-close').click(function(e){
 });
 
 // for mobile
-$('.heading-link').click(function(e){
+$('.heading-link .arrow').click(function(e){
   var target = $(this).data('target');
   $("#"+target).toggleClass('active');
   $(this).toggleClass('active');

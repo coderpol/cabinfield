@@ -10,7 +10,7 @@
                 <span id="nav-close"><i class="fa-solid fa-xmark"></i></span>
                 <ul class="main-nav navbar-nav">
                     <li class="menu-item has_submenu">
-                        <span class="heading-link" data-target="menu-11">Bedroom <span class="only-responsive arrow">></span></span>
+                        <span class="heading-link"><a href="#">Bedroom</a> <span class="only-responsive arrow" data-target="menu-11">></span></span>
                         <div class="dropdown-menu submenu-block" id="menu-11">
                             <h3><a href="fine-furniture.php">Outdoor</a></h3>
                             <div class="submenu-area">
@@ -28,7 +28,7 @@
                         </div>
                     </li>
                     <li class="menu-item has_submenu">
-                        <span class="heading-link" data-target="menu-12">Living Room <span class="only-responsive arrow">></span></span>
+                        <span class="heading-link"><a href="#">Living Room</a> <span class="only-responsive arrow" data-target="menu-12">></span></span>
                         <div class="dropdown-menu submenu-block" id="menu-12">
                             <h3><a href="fine-furniture.php">Living Room</a></h3>
                             <div class="submenu-area">
@@ -48,8 +48,8 @@
                         </div>
                     </li>
                     <li class="menu-item has_submenu">
-                        <span class="heading-link" data-target="first-menu">Kitchen & Dining <span class="only-responsive arrow">></span></span>
-                        <div class="dropdown-menu submenu-block" id="first-menu">
+                        <span class="heading-link"><a href="#">Kitchen & Dining</a> <span class="only-responsive arrow" data-target="menu-13">></span></span>
+                        <div class="dropdown-menu submenu-block" id="menu-13">
                             <h3><a href="fine-furniture.php">Kitchen & Dining</a></h3>
                             <div class="submenu-area">
                                 <div class="category">
@@ -69,8 +69,8 @@
                         </div>
                     </li>
                     <li class="menu-item has_submenu">
-                        <span class="heading-link" data-target="menu-13">Office <span class="only-responsive arrow">></span></span>
-                        <div class="dropdown-menu submenu-block" id="menu-13">
+                        <span class="heading-link"><a href="#">Office</a> <span class="only-responsive arrow" data-target="menu-14">></span></span>
+                        <div class="dropdown-menu submenu-block" id="menu-14">
                             <h3><a href="fine-furniture.php">Office</a></h3>
                             <div class="submenu-area">
                                 <div class="category">
@@ -88,8 +88,8 @@
                         </div>
                     </li>
                     <li class="menu-item has_submenu megamenu">
-                        <span class="heading-link" data-target="second-menu">Rustic Lodge <span class="only-responsive arrow">></span></span>
-                        <div class="dropdown-menu submenu-block" id="second-menu">
+                        <span class="heading-link"><a href="#">Rustic Lodge</a> <span class="only-responsive arrow" data-target="menu-15">></span></span>
+                        <div class="dropdown-menu submenu-block" id="menu-15">
                             <h3><a href="#">Rustic Lodge <span>Log, Hickory, Reclaimed & Rough Sawn Woods</span></a></h3>
                             <!-- <a href="product-listing.php" class="link stock-link">Items in stocks</a> -->
                             <div class="submenu-area">
@@ -180,8 +180,8 @@
                     </li>
                     
                     <li class="menu-item has_submenu megamenu">
-                        <span class="heading-link" data-target="third-menu">Outdoor <span class="only-responsive arrow">></span></span>
-                        <div class="dropdown-menu submenu-block" id="third-menu">
+                        <span class="heading-link"><a href="#">Outdoor</a> <span class="only-responsive arrow" data-target="menu-16">></span></span>
+                        <div class="dropdown-menu submenu-block" id="menu-16">
                             <h3><a href="fine-furniture.php">Outdoor</a></h3>
                             <a href="#" class="link stock-link">Items in stocks</a>
                             <div class="submenu-area">
