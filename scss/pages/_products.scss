@@ -12,8 +12,8 @@
         $loader-width:40px;
         $loader-space: $loader-width+10px;
         
-        margin: 0 auto 30px;
-        width: $section-width;
+        margin: 0 0 30px;
+        // width: $section-width;
         position:relative;
         min-height: $loader-width+10px;;
         // display: flex;
@@ -44,7 +44,8 @@
             padding-right:23px;
             position:absolute;
             left:$loader-space;
-            width:$section-width - $loader-width - 10px;
+            // width:$section-width - $loader-width - 10px;
+            width: calc(100% - $loader-space);
             p{
                 @include font(16px,26px,700);
                 color:$blue;
