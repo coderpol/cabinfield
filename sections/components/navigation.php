@@ -12,10 +12,10 @@
                     <li class="menu-item has_submenu">
                         <span class="heading-link"><a href="#">Bedroom</a> <span class="only-responsive arrow" data-target="menu-11">></span></span>
                         <div class="dropdown-menu submenu-block" id="menu-11">
-                            <h3><a href="fine-furniture.php">Outdoor</a></h3>
+                            <h3><a href="fine-furniture.php">Shop Bedroom</a></h3>
                             <div class="submenu-area">
                                 <div class="category">
-                                    <h4><a href="#">Shop By Furniture Type</a></h4>
+                                    <!-- <h4><a href="#">Shop By Furniture Type</a></h4> -->
                                     <ul class="submenu">
                                         <li><a href="#">Bedroom Furniture Sets</a></li>
                                         <li><a href="#">Bed & Headboards</a></li>
@@ -24,16 +24,19 @@
                                         <li><a href="#">Vanities Jewelary Chests & Mirrors</a></li>
                                     </ul>
                                 </div>
+                                <div class="category">
+                                    <h4><a href="#">Shop by Style</a></h4>
+                                </div>
                             </div>
                         </div>
                     </li>
                     <li class="menu-item has_submenu">
                         <span class="heading-link"><a href="#">Living Room</a> <span class="only-responsive arrow" data-target="menu-12">></span></span>
                         <div class="dropdown-menu submenu-block" id="menu-12">
-                            <h3><a href="fine-furniture.php">Living Room</a></h3>
+                            <h3><a href="fine-furniture.php">Shop Living Room</a></h3>
                             <div class="submenu-area">
                                 <div class="category">
-                                    <h4><a href="#">Shop By Furniture Type</a></h4>
+                                    <!-- <h4><a href="#">Shop By Furniture Type</a></h4> -->
                                     <ul class="submenu">
                                         <li><a href="#">Living Room Sets</a></li>
                                         <li><a href="#">Sofas, Recliners & Rockers</a></li>
@@ -50,10 +53,10 @@
                     <li class="menu-item has_submenu">
                         <span class="heading-link"><a href="#">Kitchen & Dining</a> <span class="only-responsive arrow" data-target="menu-13">></span></span>
                         <div class="dropdown-menu submenu-block" id="menu-13">
-                            <h3><a href="fine-furniture.php">Kitchen & Dining</a></h3>
+                            <h3><a href="fine-furniture.php">Shop Kitchen & Dining</a></h3>
                             <div class="submenu-area">
                                 <div class="category">
-                                    <h4><a href="#">Shop By Furniture Type</a></h4>
+                                    <!-- <h4><a href="#">Shop By Furniture Type</a></h4> -->
                                     <ul class="submenu">
                                         <li><a href="fabric-sample.php">Dining Room Sets</a></li>
                                         <li><a href="wood-sample.php">Dining tables</a></li>
@@ -71,10 +74,10 @@
                     <li class="menu-item has_submenu">
                         <span class="heading-link"><a href="#">Office</a> <span class="only-responsive arrow" data-target="menu-14">></span></span>
                         <div class="dropdown-menu submenu-block" id="menu-14">
-                            <h3><a href="fine-furniture.php">Office</a></h3>
+                            <h3><a href="fine-furniture.php">Shop Office</a></h3>
                             <div class="submenu-area">
                                 <div class="category">
-                                    <h4><a href="#">Shop By Furniture Type</a></h4>
+                                    <!-- <h4><a href="#">Shop By Furniture Type</a></h4> -->
                                     <ul class="submenu">
                                         <li><a href="#">link 1</a></li>
                                         <li><a href="#">Link 2</a></li>
@@ -90,7 +93,7 @@
                     <li class="menu-item has_submenu megamenu">
                         <span class="heading-link"><a href="#">Rustic Lodge</a> <span class="only-responsive arrow" data-target="menu-15">></span></span>
                         <div class="dropdown-menu submenu-block" id="menu-15">
-                            <h3><a href="#">Rustic Lodge <span>Log, Hickory, Reclaimed & Rough Sawn Woods</span></a></h3>
+                            <h3><a href="#">Shop Rustic Lodge <span>Log, Hickory, Reclaimed & Rough Sawn Woods</span></a></h3>
                             <!-- <a href="product-listing.php" class="link stock-link">Items in stocks</a> -->
                             <div class="submenu-area">
                                 <div class="category">
@@ -182,7 +185,7 @@
                     <li class="menu-item has_submenu megamenu">
                         <span class="heading-link"><a href="#">Outdoor</a> <span class="only-responsive arrow" data-target="menu-16">></span></span>
                         <div class="dropdown-menu submenu-block" id="menu-16">
-                            <h3><a href="fine-furniture.php">Outdoor</a></h3>
+                            <h3><a href="fine-furniture.php">Shop Outdoor</a></h3>
                             <a href="#" class="link stock-link">Items in stocks</a>
                             <div class="submenu-area">
                                 <div class="category">
