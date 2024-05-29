@@ -433,6 +433,16 @@
         }
     }
     
+    &.search-result{
+        min-height: 70vh;;
+        .section-sub-title{
+            h2,h3,h4{
+                color: #3F4B5C;
+                line-height:36px;
+            }
+        }
+    }
+    
 }
 
 .extra-link{

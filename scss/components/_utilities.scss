@@ -232,7 +232,7 @@ $margins-level: 0, 5,10,15,20,25,30,40,50,55,60,70,80,90,100;
         margin-bottom:#{$size}px !important;
     }
     .mt-#{$size}{
-        margin-bottom:#{$size}px !important;
+        margin-top:#{$size}px !important;
     }
     @include upto-phone{
         .mobile-mb-#{$size}{
