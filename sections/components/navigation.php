@@ -25,7 +25,7 @@
                                     </ul>
                                 </div>
                                 <div class="category">
-                                    <h4><a href="#">Shop by Style</a></h4>
+                                    <h4><a href="#">Shop Furniture Styles</a></h4>
                                 </div>
                             </div>
                         </div>
@@ -46,6 +46,9 @@
                                         <li><a href="#">Hallway Furniture & Benches</a></li>
                                         <li><a href="#">Crurios & Display Cabinets</a></li>
                                     </ul>
+                                </div>
+                                <div class="category">
+                                    <h4><a href="#">Shop Furniture Styles</a></h4>
                                 </div>
                             </div>
                         </div>
@@ -68,6 +71,9 @@
                                         <li><a href="#">Breakfast Nooks</a></li>
                                     </ul>
                                 </div>
+                                <div class="category">
+                                    <h4><a href="#">Shop Furniture Styles</a></h4>
+                                </div>
                             </div>
                         </div>
                     </li>
@@ -86,6 +92,9 @@
                                         <li><a href="#">Link 3</a></li>
                                         <li><a href="#">Link 3</a></li>
                                     </ul>
+                                </div>
+                                <div class="category">
+                                    <h4><a href="#">Shop Furniture Styles</a></h4>
                                 </div>
                             </div>
                         </div>

@@ -170,7 +170,7 @@ a:hover{
 
 .only-responsive{
     display: none;
-    @include upto-phone{
+    @include upto-tablet{
         display: inline-block;
     }
 }
