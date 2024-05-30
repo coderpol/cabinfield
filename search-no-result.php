@@ -10,7 +10,7 @@ include_once('sections/layouts/header.php')
 <div class="section page-content search-result">
     <div class="container">
         <div class="row mt-30">
-            <div class="col-12 section-title small  bottom-divider">
+            <div class="col-12 section-title small mb-0 bottom-divider">
                 <h2><span>Search</span> result for "X"</h2>
             </div>
             <div class="col-12 mt-50 section-sub-title bottom-divider">
