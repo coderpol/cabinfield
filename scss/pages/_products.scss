@@ -191,6 +191,20 @@
             }
         }
         
+        &.small{
+            .gallery-thumb{
+                .slick-list{
+                    // overflow: hidden;
+                    // padding:20px 0px 0px;
+                }
+                .slick-arrow{
+                    width: 15px;
+                    height:34px;
+                    background-size: 11px;
+                }
+            }
+        }
+        
         .button-area{
             position:absolute;
             bottom:15px;
@@ -753,27 +767,64 @@
             }
         }
     }
-    &.in-stock{
+    
+    &.in-stock, &.bar-height{
         .gallery-field{
             position:relative;
             overflow:hidden;
-            &:after{
-                content: "In Stock";
+            &:after,&:before{
+                content:"";
                 display: inline-block;
                 background-color: $brand-color;
-                @include font(28px,160%,500);
-                padding:  75px 85px 10px;
+                color:$white;
                 transform: rotate(-45deg);
                 position:absolute;
                 top:0;
                 left:0;
-                color:$white;
+            }
+        }
+    }
+    
+    &.in-stock{
+        .gallery-field{
+            &:after{
+                content: "In Stock";
+                @include font(28px,160%,500);
+                padding:  75px 85px 10px;
                 margin-top:-28px;
                 margin-left:-100px;
                 
                 @include upto-phone{
                     font-size:20px;
                 }
+            }
+        }
+    }
+    
+    &.bar-height{
+        .gallery-field{
+            &:before{
+                content: "Bar Height Upon Request";
+                @include font(16px,26px,700);
+                padding:  10px 75px;
+                margin-top: 60px;
+                margin-left: -87px;
+                @include upto-phone{
+                    font-size:14px;
+                }
+            }
+            &:after{
+                @include square(51px);
+                background:url("../icons/bar-chair.png") no-repeat;
+                transform: rotate(0);
+                left:32px;
+                top:32px;
+            }
+        }
+        .order-details{
+            margin-top:20px;
+            a.btn{
+                color:#fff;
             }
         }
     }

@@ -46,9 +46,9 @@
     }
     .rating{
         position: relative;
-        background-position: bottom left;
+        background-position: left -23px;
         .rating-value{
-            background-position: top left;
+            background-position: 0 0;
             position:absolute;
             top:0;
             left:0;
@@ -58,6 +58,25 @@
         @include font(22px,26px,700);
         color:$brand-color;
         padding-left:10px;
+    }
+    
+    &.yellow{
+        margin-bottom:5px;
+        .rating,.rating-value{
+            width:91px;
+            height:18px;
+            background-size: 18px;
+            background-position: left -18.5px;
+            }
+        .rating-value{
+            background-position: left -36px;
+        }
+        .review-number{
+            color:#333333;
+            margin-left:3px;
+            display: inline;
+            @include font(12px,22px,400);
+        }
     }
 }
 
@@ -239,4 +258,31 @@ $margins-level: 0, 5,10,15,20,25,30,40,50,55,60,70,80,90,100;
             margin-bottom:#{$size}px !important;
         }
     }
+}
+
+.bottom-divider{
+    // border-bottom:1px solid #E0E0E0!important;
+    position:relative;
+    padding-bottom:50px;
+    margin-bottom:50px;
+    &:after{
+        content:"";
+        display: block;
+        width:calc(100% - 24px);
+        height:1px;
+        position:absolute;
+        left:12px;
+        bottom:0;
+        background-color: #E0E0E0;
+    }
+    .load-more{
+        margin-bottom:0 !important;
+    }
+}
+
+.separator{
+    height:1px;
+    background-color: #DDDDDD;
+    display: block;
+    margin:30px 0;
 }

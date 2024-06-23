@@ -34,6 +34,7 @@
                     <li class="done"><a href="product-3.php">Product - Customize -  V3</a></li>
                     <li class="done"><a href="product-4.php">Product - Customize -  V4</a></li>
                     <li class="done"><a href="product-5.php">Product - Customize -  V5</a></li>
+                    <li class="check"><a href="product-bar-height.php">Product - Bar Height</a></li>
                     <li class="done"><a href="product-1-loading.php">Product Customized - Anim</a></li>
                     <li class="done"><a href="in-stock.php">In Stock</a></li>
                     <li class="check"><a href="shopping-cart.php">Shopping Cart</a></li>
