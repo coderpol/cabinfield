@@ -86,6 +86,19 @@ include_once('sections/layouts/header.php')
     </div>
 </div>
 
+<div class="section video-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 video-container">
+                <video class="responsive" width="800" height="600" autoplay controls loop>
+                    <source src="https://www.cabinfield.com/video/viztech.mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!-- choice points with icons area starts  -->
 <div class="section choice-points about-choice smaller with-counter clearfix">
     <div class="container">

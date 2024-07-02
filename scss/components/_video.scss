@@ -1,0 +1,21 @@
+.video-section{
+    margin-top:100px;
+    margin-bottom:70px;
+    .video-container{
+        // box-shadow: inset 10px 10px 10px 0 rgba(0,0,0,0.5);
+        position:relative;
+        min-height:400px;
+        video{
+            border-radius: 20px;
+        }
+    }
+}
+
+video.responsive{
+    width:100%;
+    // position: absolute;
+    // left:0;
+    // top:0;
+    max-width: 100%;
+    height: auto;
+}
