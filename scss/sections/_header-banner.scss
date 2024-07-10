@@ -57,6 +57,17 @@
             }
         }
     }
+
+    
+    &.image-banner{
+        margin-bottom:100px;
+        .banner-text{
+            margin-top:174px;
+            margin-bottom:174px;
+            padding:0;
+        }
+    }
+    
     .banner-slider{
         position: absolute;
         top:0;

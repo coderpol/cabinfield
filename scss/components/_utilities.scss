@@ -244,7 +244,7 @@
     }
 }
 
-$margins-level: 0, 5,10,15,20,25,30,40,50,55,60,70,80,90,100;
+$margins-level: 0,10,15,20,25,30,40,50,55,60,70,80,90,100;
 
 @each $size in $margins-level{
     .mb-#{$size}{
@@ -258,6 +258,14 @@ $margins-level: 0, 5,10,15,20,25,30,40,50,55,60,70,80,90,100;
             margin-bottom:#{$size}px !important;
         }
     }
+}
+
+// only to avoid overridding the margins mb-5, mt-5
+.m-b-5{
+    margin-bottom:5px !important;
+}
+.m-t-5{
+    margin-top:5px;
 }
 
 .bottom-divider{

@@ -19,13 +19,13 @@
                 <ol class="page-list">
                     <li class="done"><a href="home.php">Homepage</a></li>
                     <li class="done"><a href="fine-furniture.php">Fine Furniture</a></li>
-                    <li class="check"><a href="style-landing.php">Style Landing</a></li>
-                    <li class="check"><a href="style-landing-2.php">Style Landing - V2</a></li>
+                    <li class="done"><a href="style-landing.php">Style Landing</a></li>
+                    <li class="done"><a href="style-landing-2.php">Style Landing - V2</a></li>
                     <li class="done"><a href="collection-landing.php">Collection Landing</a></li>
-                    <li class="check"><a href="product-listing.php">Product Listing</a></li>
+                    <li class="done"><a href="product-listing.php">Product Listing</a></li>
                     <li class="done"><a href="product-listing-2.php">Product Listing - V2</a></li>
                     <li class="done"><a href="product-listing-3.php">Product Listing - V3</a></li>
-                    <li class="check"><a href="product-listing-4.php">Product Listing - V4</a></li>
+                    <li class="done"><a href="product-listing-4.php">Product Listing - V4</a></li>
                     <li class="done"><a href="product-listing-anim.php">Product Listing - Animation</a></li>
                     <li class="done"><a href="list-of-pre-built-products-v1.php">List of Pre-built products - V1</a></li>
                     <li class="done"><a href="list-of-pre-built-products-v2.php">List of Pre-built products - V2</a></li>
@@ -34,10 +34,10 @@
                     <li class="done"><a href="product-3.php">Product - Customize -  V3</a></li>
                     <li class="done"><a href="product-4.php">Product - Customize -  V4</a></li>
                     <li class="done"><a href="product-5.php">Product - Customize -  V5</a></li>
-                    <li class="check"><a href="product-bar-height.php">Product - Bar Height</a></li>
+                    <li class="done"><a href="product-bar-height.php">Product - Bar Height</a></li>
                     <li class="done"><a href="product-1-loading.php">Product Customized - Anim</a></li>
                     <li class="done"><a href="in-stock.php">In Stock</a></li>
-                    <li class="check"><a href="shopping-cart.php">Shopping Cart</a></li>
+                    <li class="done"><a href="shopping-cart.php">Shopping Cart</a></li>
                     <li class="done"><a href="checkout-shipping.php">Checkout Shipping</a></li>
                     <li class="done"><a href="checkout-shipping-2.php">Checkout Shipping - 2</a></li>
                     <li class="done"><a href="checkout-payment-info.php">Checkout Payment - V1</a></li>
@@ -56,8 +56,8 @@
                     <li class="done"><a href="policies-terms-updated.php">Terms of Use - V3 (Updated)</a></li>
                     <li class="done"><a href="privacy-policy.php">Privacy Policy</a></li>
                     <li class="done"><a href="warranty.php">Warranty</a></li>
-                    <li class="check"><a href="testimonials.php">Testimonials</a></li>
-                    <li class="check"><a href="testimonials-no-result.php">Testimonials - No Result</a></li>
+                    <li class="done"><a href="testimonials.php">Testimonials</a></li>
+                    <li class="done"><a href="testimonials-no-result.php">Testimonials - No Result</a></li>
                     <li class="done"><a href="faq.php">FAQ</a></li>
                     <li class="done"><a href="about.php">About</a></li>
                     <li class="done"><a href="wood-sample.php">Wood Sample</a></li>

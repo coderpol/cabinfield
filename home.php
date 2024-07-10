@@ -5,7 +5,7 @@ $page_title="Homepage"; // dynamic page title for every page
 include_once('sections/layouts/header.php') 
 ?>
 <!-- Big banner of the page  starts -->
-<div class="header-banner home-banner clearfix">
+<div class="header-banner image-banner clearfix">
     <div id="home-banner-slider" class="banner-slider">
         <div class="slide" style="background-image:url('images/header-banner/banner-home.jpg')">
         

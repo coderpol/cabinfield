@@ -8,7 +8,7 @@ include_once('sections/layouts/header.php')
 
 
 <!-- header banner section starts  -->
-<div class="header-banner clearfix mb-5" style="background-image: url('images/header-banner/banner-about.png'); background-position: center right;">
+<div class="header-banner image-banner clearfix" style="background-image: url('images/header-banner/banner-about.png'); background-position: center right;">
     <div class="dark-overlay">
         <div class="container">
             <div class="row">
@@ -90,7 +90,7 @@ include_once('sections/layouts/header.php')
     <div class="container">
         <div class="row">
             <div class="col-md-12 video-container">
-                <video class="responsive" width="800" height="600" autoplay controls loop muted>
+                <video class="responsive" width="800" height="600" autoplay loop muted>
                     <source src="https://www.cabinfield.com/video/viztech.mp4">
                     Your browser does not support the video tag.
                 </video>

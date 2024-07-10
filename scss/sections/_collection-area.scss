@@ -72,6 +72,7 @@
         h3,h4{
             @include font(18px,26px,500);
             margin-bottom: 0;
+            padding:20px 5px;
             @include upto-phone{
                 @include font(16px,21px,500);
             }
