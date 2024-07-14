@@ -209,6 +209,12 @@
             }
         }
     }
+    &.about-display{
+        .display-image{
+            border-radius: 12px;
+            overflow: hidden;
+        }
+    }
 }
 
 @include upto-tablet{
