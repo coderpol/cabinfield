@@ -8,8 +8,8 @@ include_once('sections/layouts/header.php')
 
 
 <!-- header banner section starts  -->
-<div class="header-banner image-banner clearfix" style="background-image: url('images/header-banner/banner-about.png'); background-position: center right;">
-    <div class="dark-overlay">
+<div class="header-banner image-banner clearfix" style="background-image: url('images/header-banner/about-us.png'); background-position: center right;">
+    <div class="dark-gradient">
         <div class="container">
             <div class="row">
                 <!-- breadcrumb area starts  -->

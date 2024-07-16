@@ -60,9 +60,12 @@
 
     
     &.image-banner{
+        .breadcrumb-area{
+            margin-bottom:0;
+        }
         margin-bottom:100px;
         .banner-text{
-            margin-top:174px;
+            margin-top:124px;
             margin-bottom:174px;
             padding:0;
         }
