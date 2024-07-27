@@ -90,7 +90,7 @@ include_once('sections/layouts/header.php')
 <div class="section video-section">
     <div class="container">
         <div class="row">
-            <div class="col-md-12 video-container">
+            <div class="col-md-8 central video-container">
                 <video class="responsive" width="800" height="600" autoplay loop muted>
                     <source src="https://www.cabinfield.com/video/viztech.mp4">
                     Your browser does not support the video tag.
