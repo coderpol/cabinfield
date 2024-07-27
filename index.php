@@ -60,7 +60,7 @@
                     <li class="done"><a href="testimonials.php">Testimonials</a></li>
                     <li class="done"><a href="testimonials-no-result.php">Testimonials - No Result</a></li>
                     <li class="done"><a href="faq.php">FAQ</a></li>
-                    <li class="done"><a href="about.php">About</a></li>
+                    <li class="check"><a href="about.php">About Us</a></li>
                     <li class="done"><a href="wood-sample.php">Wood Sample</a></li>
                     <li class="done"><a href="order-sample.php">Order Sample</a></li>
                     <li class="done"><a href="order-sample-2.php">Order Sample - 2</a></li>

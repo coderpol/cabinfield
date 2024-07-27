@@ -41,7 +41,7 @@ include_once('sections/layouts/header.php')
                 <!-- single display  -->
                 <div class="display clearfix">
                     <figure class="col-md-6 col-12 display-image">
-                        <img src="images/display/about-1.png" alt="">
+                        <img src="images/display/about-us-1.png" alt="">
                     </figure>
                     <article class="col-md-6 col-12 display-text">
                         <header class="section-title">
@@ -56,7 +56,7 @@ include_once('sections/layouts/header.php')
                 <!-- single display start -->
                 <div class="display clearfix">
                     <figure class="col-md-6 col-12 display-image">
-                        <img src="images/display/about-1.png" alt="">
+                        <img src="images/display/about-us-2.png" alt="">
                     </figure>
                     <article class="col-md-6 col-12 display-text">
                         <header class="section-title">
@@ -70,11 +70,12 @@ include_once('sections/layouts/header.php')
                 <!-- single display start -->
                 <div class="display clearfix">
                     <figure class="col-md-6 col-12 display-image">
-                        <img src="images/display/about-3.png" alt="">
+                        <img src="images/display/about-us-3.png" alt="">
                     </figure>
                     <article class="col-md-6 col-12 display-text">
                         <header class="section-title">
-                            <h3><span class="break-on-pc">Eco-Friendly,</span> You-Friendly</h3>
+                            <!-- add .break-on-pc to the span, if you want to break the text in two lines -->
+                            <h3><span class="">Eco-Friendly,</span> You-Friendly</h3> 
                         </header>
                         <p>Cabinfield is proud to bring you inspired designs that are not only good for you, but good for the environment too. Authentic Amish furniture is crafted from sustainably harvested, locally-sourced wood, with a low-VOC varnish to finish it off in the healthiest way possible.</p>
                         <p>We also offer outdoor furniture made of recycled materials. These environmentally smart materials are strong and are designed to resist water, fungi, insects, stains, fading, and scratches. Look for this Eco-Friendly Optimized logo on products using innovative Green technology.</p>
