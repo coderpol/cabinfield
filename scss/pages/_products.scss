@@ -804,11 +804,12 @@
     &.bar-height{
         .gallery-field{
             &:before{
-                content: "Bar Height Upon Request";
-                @include font(16px,26px,700);
-                padding:  10px 75px;
+                content: "Bar Height Available Upon Request";
+                @include font(12px,16px,700);
+                padding:  13px 75px;
                 margin-top: 60px;
                 margin-left: -87px;
+                height:42px;
                 @include upto-phone{
                     font-size:14px;
                 }
