@@ -34,10 +34,11 @@
                     <li class="done"><a href="product-3.php">Product - Customize -  V3</a></li>
                     <li class="done"><a href="product-4.php">Product - Customize -  V4</a></li>
                     <li class="done"><a href="product-5.php">Product - Customize -  V5</a></li>
-                    <li class="done"><a href="product-bar-height.php">Product - Bar Height</a></li>
+                    <li class="check"><a href="product-bar-height.php">Product - Bar Height</a></li>
                     <li class="done"><a href="product-1-loading.php">Product Customized - Anim</a></li>
                     <li class="done"><a href="in-stock.php">In Stock</a></li>
-                    <li class="done"><a href="shopping-cart.php">Shopping Cart</a></li>
+                    <li class="check"><a href="shopping-cart.php">Shopping Cart</a></li>
+                    <li class="check"><a href="shopping-cart-empty.php">Shopping Cart (Empty)</a></li>
                     <li class="done"><a href="checkout-shipping.php">Checkout Shipping</a></li>
                     <li class="done"><a href="checkout-shipping-2.php">Checkout Shipping - 2</a></li>
                     <li class="done"><a href="checkout-payment-info.php">Checkout Payment - V1</a></li>
@@ -77,7 +78,7 @@
                     <li class="done"><a href="virtual-gift-v2.php">Virtual Gift - V2</a></li>
                     <li class="done"><a href="404.php">404 Page</a></li>
                     <li class="done"><a href="widget-modal.php">Widget & Modal Page</a></li>
-                    <li class="check"><a href="search-no-result.php">Search No Result Page</a></li>
+                    <li class="done"><a href="search-no-result.php">Search No Result Page</a></li>
                 </ol>
             </div>
         </div>

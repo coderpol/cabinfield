@@ -1,5 +1,6 @@
 .shopping-cart-section{
     margin-bottom:70px;
+    min-height:400px;
     .section-title{
         p{
             @include font(18px,23px);
@@ -10,12 +11,22 @@
         margin-bottom: 20px;
     }
     .cart-item{
-        border-bottom:1px solid $gray;
+        &:after{
+            content:"";
+            height:1px;
+            width:calc(100% - 1.5rem);
+            background-color: $gray;
+            margin-top: 40px;
+            margin-bottom:40px;
+            margin-left:.75rem;
+        }
         
         &:last-child{
-            border-bottom:0;
+            &:after{
+                content:none;
+                display: none;
+            }
         }
-        padding:40px 0;
         @include from-pc{
             margin-right:20px;
             .action{
@@ -204,6 +215,25 @@
         
         
     }
+    .cart-id{
+        // border:1px solid #cccccc;
+        border-left:0;
+        border-right:0;
+        // padding:32px 0;
+        p{
+            margin:0;
+            @include font(20px,26px,500);
+            .cart-id-no{
+                font-weight: 700;
+            }
+        }
+    }
+    .empty-cart{
+        .cart-id{
+            padding-top:40px;
+        }
+    }
+    
     .only-details{
         p{
             @include font(20px,26px,500);
@@ -278,7 +308,7 @@
         }
     }
     .sample-item{
-        padding-top:40px;
+        // padding-top:40px;
         @include from-tablet{
             .col-md-9{
                 width:69%;

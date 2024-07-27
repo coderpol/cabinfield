@@ -202,6 +202,12 @@ include_once('sections/layouts/header.php')
                 </div>
                 <!-- one item ends -->
                 
+                <div class="row cart-item cart-id">
+                    <div class="col-12">
+                        <p>Cart ID: <span class="orange cart-id-no">12345</span></p>
+                    </div>
+                </div>
+                
                  <!-- one item  -->
                  <div class="row cart-item">
                     <div class="col-md-12 only-details">
