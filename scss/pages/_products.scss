@@ -768,7 +768,7 @@
         }
     }
     
-    &.in-stock, &.bar-height{
+    &.in-stock, &.bar-height, &.poly-pack{
         .gallery-field{
             position:relative;
             overflow:hidden;
@@ -801,7 +801,7 @@
         }
     }
     
-    &.bar-height{
+    &.bar-height, &.poly-pack{
         .gallery-field{
             &:before{
                 content: "Bar Height Available Upon Request";
@@ -829,6 +829,20 @@
             }
         }
     }
+    
+    &.poly-pack{
+        .gallery-field{
+            &:before{
+                content: "Available in Poly Upon Request";
+                @include font(14px,16px,700);
+                margin-left: -98px;
+            }
+            &:after{
+                background:url("../icons/poly-pack.png") no-repeat;
+            }
+        }
+    }
+    
 }
 .stack-area{
     display:flex;
