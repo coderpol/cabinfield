@@ -243,14 +243,15 @@
     .footer-logo{
         flex-basis:20%;
         margin-right: 5%;
+        grid-template-columns: 1.2fr 0.80fr;
         img{
             @include upto-phone{
                 // margin:0 auto 20px;
             }
             @include above-phone{
-                margin-bottom:20px;
+                margin-bottom:18px;
             }
-            max-width:214px;
+            max-width:190px;
         }
         .copyright{
             color:$blue-darker-2;
@@ -270,7 +271,7 @@
             text-align:right;
             li{
                 display: inline-block;
-                margin-left:25px;
+                margin-left:23px;
                 margin-bottom:10px;
             }
         }
@@ -287,20 +288,42 @@
     }
     .footer-bottom{
         border-top:1px solid #DDDDDD;
-        padding:15px 0 15px;
+        padding-top:10px;
         margin-top:25px;
         .links{
             li{
-                display: inline;
-                &:after{
-                    content:"|";
-                    margin:0 5px;
-                    font-size:14px;
+                display: inline-block;
+                margin-bottom: 4px;
+                @include from-tablet{
+                    &:after{
+                        content:"|";
+                        margin:0 5px;
+                        font-size:14px;
+                    }
+                    &:last-child{
+                        &:after{
+                            content:none;
+                        }
+                    }
                 }
                 @include upto-phone{
-                    margin-bottom:10px;
-                    display: inline-block;
+                    display: block;
+                    border-bottom:1px solid #dedede;
+                    text-align: center;
+                    a{
+                        adding: 5px 0 13px;
+                        display: inline-block;
+                    }
                 }
+                // @include upto-phone{
+                //     margin-bottom:10px;
+                //     display: inline-block;
+                // }
+            }
+        }
+        p{
+            @include upto-phone{
+                text-align:center;
             }
         }
     }

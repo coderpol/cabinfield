@@ -22,7 +22,6 @@
                     <li><a href="testimonials.php">Testimonials</a></li>
                     <li><a href="contact-us.php">Contact Us</a></li>
                     <li><a href="faq.php">FAQ</a></li>
-                    <li><a href="gift-card.php">Promotions</a></li>
                     <li><a href="gift-card.php">Gift It!</a></li>
                 </ul>
             </div>
@@ -39,8 +38,8 @@
                 <li><a href="thank-you-v2.php">Cancellations/Returns Disclaimer</a></li>
                 <li><a href="thank-you-v2.php">Shipping and Delivery Disclaimer</a></li>
                 <li><a href="wood-sample.php">Gazebos & Playsets Disclaimer</a></li>
-                <li><a href="wood-sample.php">View Complete Terms of Use, Last Updated February 2023</a></li>
             </ul>
+            <p><a href="wood-sample.php">View Complete Terms of Use, Last Updated February 2023</a></p>
         </div>
     </div>
   </div>

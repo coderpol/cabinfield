@@ -10,7 +10,7 @@
 					<img class="upto-tablet" src="images/logo.svg" alt="Cabinfield"> <!-- gray version for smaller screen -->
 				</a>
 				<p class="copyright">
-				Copyright &copy; 2005-2018<br/>
+				Copyright &copy; 2005-2024<br/>
 				Cabinfield Woodworking LLC.<br/>
 				All rights reserved.
 				</p>
@@ -21,10 +21,7 @@
 				<ul class="links">
 					<li><a href="terms-of-use.php">Terms of Use</a></li>
 					<li><a href="privacy-policy.php">Privacy policy</a></li>
-					<li><a href="warranty.php">Warranty Disclaimer</a></li>
 					<li><a href="thank-you-v2.php">Cancellations/Returns Disclaimer</a></li>
-					<li><a href="thank-you-v2.php">Shipping and Delivery Disclaimer</a></li>
-					<li><a href="wood-sample.php">Gazebos & Playsets Disclaimer</a></li>
 				</ul>
 			</div>
 			<!-- links area ends  -->
@@ -36,7 +33,6 @@
 					<li><a href="testimonials.php">Testimonials</a></li>
 					<li><a href="contact-us.php">Contact Us</a></li>
 					<li><a href="faq.php">FAQ</a></li>
-					<li><a href="gift-card.php">Promotions</a></li>
 					<li><a href="gift-card.php">Gift It!</a></li>
 				</ul>
 			</div>
@@ -57,8 +53,7 @@
 				
 				<!-- Newsletter button -->
 				<p class="newsletter">
-					<i class="fa-solid fa-envelope"></i>
-					<a href="index.php">Subscribe for Newsletter</a>
+					<a href="index.php" class="email"></i>Get Amish furniture coupon</a>
 				</p>
 				<!-- Newsletter button ends -->
 				
@@ -71,7 +66,11 @@
 			
 			<!-- rating score area  -->
 			<div class="footer-rating">
-				<img src="images/bbb-rating.png" alt="">
+				<ul>
+					<li><img src="images/bbb-rating.png" alt=""></li>
+					<li><img src="images/secured-seal.png" alt=""></li>
+					<li><img src="images/godaddy.png" alt=""></li>
+				</ul>
 			</div>
 			<!-- rating score area ends -->
 		</div>
