@@ -6,17 +6,19 @@ include_once('sections/layouts/header.php')
 ?>
 
 <!-- Big banner of the page  starts -->
-<div class="header-banner image-banner clearfix mb-5" style="background-image: url('images/header-banner/fine-furniture.png');">
+<div class="banner clearfix large-size" style="background-image: url('images/header-banner/fine-furniture.png');">
     <div class="blue-gradient">
         <div class="container">
-            <div class="row">
-                <nav class="col-md-12 breadcrumb-area" aria-label="breadcrumb">
-                    <ol class="breadcrumb">
-                        <li><a href="home.php"><i class="fa-solid fa-house"></i></a></li>
-                        <li class="active">Fine Furniture</li>
-                    </ol>
-                </nav>
-                <div class="col-md-8 banner-text">
+            <!-- breadcrumb area starts  -->
+            <nav class="row breadcrumb-area" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li><a href="home.php"><i class="fa-solid fa-house"></i></a></li>
+                    <li class="active">Fine Furniture</li>
+                </ol>
+            </nav>
+            <!-- breadcrumb area ends  -->
+            <div class="row banner-body">
+                <div class="col banner-text">
                     <h1 class="heading">Fine Furniture</h1>
                     <a href="#" class="btn btn-white">Shop Now</a>
                 </div>

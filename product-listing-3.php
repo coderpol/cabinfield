@@ -5,34 +5,29 @@ $page_title="Product Lisitng - V3"; // dynamic page title for every page
 include_once('sections/layouts/header.php') 
 ?>
 
-<!--highlighted area starts  -->
-<div class="section page-content orange-gradient page-highlight-area">
+<!--banner area starts  -->
+<div class="banner small-size text-banner">
     <div class="container">
-        <div class="row">
-            <!-- breadcrumb starts  -->
-            <div class="col-md-12 breadcrumb-area">
-                <!-- use class "dark" as the color of the breadcrumb is dark  -->
-                <ol class="breadcrumb dark">
-                    <li><a href="home.php"><i class="fa-solid fa-house"></i></a></li>
-                    <li><a href="bedroom-landing.php">Bedroom</a></li>
-                    <li><a href="style-landing.php">Shop Style</a></li>
-                    <li><a href="collection-landing.php">Shop by Furniture Type</a></li>
-                    <li><a href="collection-landing.php">Beds & Headboards</a></li>
-                    <li class="active">Sleigh Beds</li>
-                </ol>
-            </div>
-            <!-- breadcrumb ends  -->
-            
-            <!-- Highlighted text starts  -->
-            <div class="col-md-12 highlight-text">
-                
+        <!-- breadcrumb area starts  -->
+        <nav class="row breadcrumb-area" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li><a href="home.php"><i class="fa-solid fa-house"></i></a></li>
+                <li><a href="bedroom-landing.php">Bedroom</a></li>
+                <li><a href="style-landing.php">Shop Style</a></li>
+                <li><a href="collection-landing.php">Shop Collection</a></li>
+                <li class="active">Product Listing</li>
+            </ol>
+        </nav>
+        <!-- breadcrumb area ends  -->
+        <div class="row banner-body">           
+            <div class="col banner-text">
+                <h2 class="heading">Timelessly trendy, our contemporary Amish dining chairs combine heirloom quality craftsmanship with modern chair designs.</h2>
                 <p>Anchor your bedroom décor in romantic style with an Amish sleigh bed, distinguished by its curved headboard. From classic to contemporary and beyond, these wooden sleigh beds charm.</p>
             </div>
-            <!-- Highlighted text ends  -->
         </div>
     </div>
 </div>
-<!-- highlight area ends  -->
+<!-- banner area ends  -->
 
 <!-- product listing area starts  -->
 <div class="section page-content product-listing-section">

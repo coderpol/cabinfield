@@ -1,137 +1,214 @@
-.header-banner{
+.banner{
     // background-attachment: fixed;
     background-position: center center;
     background-size: cover;
     margin-bottom:20px;
     position: relative;
     overflow: hidden;
-    .breadcrumb{
-        margin-bottom:0;
-        li{
-            &.active{
-                color:$white;
-            }
+    @include upto-tablet{
+        margin-bottom:60px;
+    }
+    @include from-pc{
+        &.large-size, &.medium-size {
+            margin-bottom:100px;
+        }
+        &.small-size {
+            margin-bottom:60px;
         }
     }
-    
-    .banner-text{
-        color:$white;
-        padding:46px 0 52px;
+    .container{
         position: relative;
-        // width: 60%;
-        @include upto-tablet{
-            width:100%;
-            text-align:center;
-        }
-        span{
-            display: block
-        }
-        .tagline{
-            @include font(30px,130%);
-            margin-bottom:0.5rem;
-        }
-        .heading{
-            @include font(54px,66px,700);
-            margin-bottom: 20px;
-        }
-        .btn{
-            padding:15px 50px;
-            @include font(16px,26px,500);
-            color:$blue-darker-2;
-            &:hover{
-                color:$white;
-            }
-        }
-        p{
-            @include font(16px,26px);
-            // letter-spacing: 0.2px;
-            margin-bottom:0;
-            &+p{
-                margin-top:1rem;
-            }
-        }
-        a{
-            color:white;
-            &:hover{
-                color:#ffa0b2;
-            }
-        }
     }
 
-    
-    &.image-banner{
-        .breadcrumb-area{
-            margin-bottom:0;
-        }
-        margin-bottom:100px;
-        .banner-text{
-            margin-top:124px;
-            margin-bottom:174px;
-            padding:0;
-        }
-    }
-    
-    .banner-slider{
-        position: absolute;
-        top:0;
-        left:0;
-        height: 100%;
-        width: 100%;
-        margin-bottom: 0 !important;
-        .slick-list{
-            z-index: -10;
+    &.with-slider{
+        .banner-slider{
+            position: absolute;
+            top:0;
+            left:0;
+            height: 100%;
+            width: 100%;
             margin-bottom: 0 !important;
-            .slide{
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center center;
-                    @include from-pc{
-                        min-height: 630px;
-                    }
-                    
-                    @include upto-pc{
-                        min-height: 350px;
+            .slick-list{
+                z-index: -10;
+                margin-bottom: 0 !important;
+                .slide{
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center center;
+                    height:500px;
+                        
+                    @include upto-phone{
+                        height:296px;
                     }
                     @include phone-small{
-                        min-height:470px;
+                        height:330px;
                     }
+                }
+            }
+            .slick-dots{
+                bottom: 25px;
+                z-index: 100;
+                @include upto-phone{
+                    margin-left:-5px;
+                }
             }
         }
-        .slick-dots{
-            bottom: 25px;
-            z-index: 100;
+    }
+
+    .breadcrumb-area{
+        position: absolute;
+        left:25px;
+        top:0px;
+        .breadcrumb{
+            margin-bottom:0;
+            flex-wrap: nowrap;
+            // overflow-x: auto;
+            white-space: nowrap;
+            li{
+                &.active{
+                    color:$white;
+                }
+            }
         }
     }
-    &.mobile-mb-55{
+}
+
+.banner-body{
+    display: flex;
+    align-content: center;
+    .large-size &{
+        height:500px;
         @include upto-phone{
-            margin-bottom:55px !important;
+            height:296px;
         }
+    }
+    .with-slider &{
+        @include phone-small{
+            height:330px;
+        }
+    }
+    .medium-size &{
+        height:420px;
+        @include upto-phone{
+            height:auto;
+            min-height:500px;
+        }
+    }
+    .small-size &{
+        min-height:280px;
+        padding-bottom:30px;
+        @include upto-tablet{
+            height:auto;
+            padding-top:100px !important;
+            padding-bottom:50px;
+        }
+    }
+
+    &.with-text{
+        padding-top:40px;
     }
 }
 
+.banner-text{
+    color:$white;
+    max-width: 770px;
+    position: relative;
+    
+    span{
+        display: block
+    }
+    .tagline{
+        @include font(30px,48px);
+        margin-bottom:0.5rem;
+    }
+    .heading{
+        @include font(54px,70px,700);
+        margin-bottom: 20px;
+        .medium-size &{
+            line-height: 66px;
+        }
+        .text-banner &{
+            @include font(30px,45px,700);
+            color:#121212;
+        }
+    }
+    .btn{
+        padding:15px 50px;
+        @include font(16px,26px,500);
+        color:$blue-darker-2;
+        &:hover{
+            color:$white;
+        }
+    }
+    p{
+        @include font(16px,26px);
+        // letter-spacing: 0.2px;
+        margin-bottom:0;
+        &+p{
+            margin-top:1rem;
+        }
+        .text-banner &{
+            color:#514646;
+            letter-spacing: -0.1px;
+        }
+    }
+    a{
+        color:white;
+        &:hover{
+            color:#ffa0b2;
+        }
+    }
 
-@include upto-pc{
-    .header-banner{
-        .banner-text{
-            margin: 33px 0 0;
-            padding: 0 30px 60px;
-            .tagline{
-                @include font(18px,160%,500);
-            }
+    @include upto-phone{
+        width:100%;
+        text-align:center;
+        .tagline{
+            @include font(18px,28px);
+        }
+        .heading{
+            @include font(32px,41px);
+        }
+
+        .with-text &{
+            text-align:left;
             .heading{
-                @include font(36px,130%,700);
+                @include font(36px,46px);
             }
-            .btn{
-                min-width: 60%;
+            p{
+                letter-spacing: -0.1px;
             }
         }
-        &.home-banner{
-            .banner-text{
-                padding-bottom: 30px;
-            }
+
+        .text-banner &{
             .heading{
-                @include font(32px,130%,700);
+                @include font(30px,39px.700);
+            }
+        }
+
+        
+    }
+}  
+  
+
+.text-banner{
+    background: linear-gradient(180deg, rgba(248, 236, 232, 0.6) 0%, rgba(236, 206, 194, 0.6) 100%);
+    height:auto;
+    .breadcrumb{
+        li{
+            a, &:after{
+                color:#121212 !important;
+            }
+            &.active{
+                color: $brand-color !important;
             }
         }
     }
+    .banner-body{
+        padding-top:80px;
+    }
+    .banner-text{
+        max-width:100%;
+    }
+
 }
+    

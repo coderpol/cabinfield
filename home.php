@@ -5,19 +5,18 @@ $page_title="Homepage"; // dynamic page title for every page
 include_once('sections/layouts/header.php') 
 ?>
 <!-- Big banner of the page  starts -->
-<div class="header-banner image-banner clearfix">
+<div class="banner clearfix with-slider large-size">
     <div id="home-banner-slider" class="banner-slider">
-        <div class="slide" style="background-image:url('images/header-banner/banner-home.jpg')">
-        
-        </div>
-        <div class="slide" style="background-image:url('images/header-banner/banner-home.jpg')">
-
-        </div>
+        <!-- any number of slides can be added with this line of code -->
+         <!-- single slider image  -->
+         <div class="slide" style="background-image:url('images/header-banner/banner-home.jpg')"></div>
+         <!-- single slider image  -->
+        <div class="slide" style="background-image:url('images/header-banner/banner-home.jpg')"></div>
     </div>
     <div class="primary-gradient">
         <div class="container">
-            <div class="row">
-                <div class="col-md-8 banner-text">
+            <div class="row banner-body">
+                <div class="col banner-text">
                     <h1>
                         <span class="tagline">Authenticity. Beauty. Craftmanship.</span>
                         <span class="heading">Fine Amish Furniture You'll Treasure for a Lifetime.</span>

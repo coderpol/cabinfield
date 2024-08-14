@@ -5,33 +5,29 @@ $page_title="Product Lisitng - V1"; // dynamic page title for every page
 include_once('sections/layouts/header.php') 
 ?>
 
-<!--highlighted area starts  -->
-<div class="section page-content orange-gradient page-highlight-area">
+<!--banner area starts  -->
+<div class="banner small-size text-banner">
     <div class="container">
-        <div class="row">
-            <!-- breadcrumb starts  -->
-            <div class="col-md-12 breadcrumb-area">
-                <!-- use class "dark" as the color of the breadcrumb is dark  -->
-                <ol class="breadcrumb dark">
-                    <li><a href="home.php"><i class="fa-solid fa-house"></i></a></li>
-                    <li><a href="bedroom-landing.php">Bedroom</a></li>
-                    <li><a href="style-landing.php">Shop Style</a></li>
-                    <li><a href="collection-landing.php">Shop Collection</a></li>
-                    <li class="active">Product Listing</li>
-                </ol>
-            </div>
-            <!-- breadcrumb ends  -->
-            
-            <!-- Highlighted text starts  -->
-            <div class="col-md-12 highlight-text">
-                <h2 class="highlight-title">Timelessly trendy, our contemporary Amish dining chairs combine heirloom quality craftsmanship with modern chair designs.</h2>
+        <!-- breadcrumb area starts  -->
+        <nav class="row breadcrumb-area" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li><a href="home.php"><i class="fa-solid fa-house"></i></a></li>
+                <li><a href="bedroom-landing.php">Bedroom</a></li>
+                <li><a href="style-landing.php">Shop Style</a></li>
+                <li><a href="collection-landing.php">Shop Collection</a></li>
+                <li class="active">Product Listing</li>
+            </ol>
+        </nav>
+        <!-- breadcrumb area ends  -->
+        <div class="row banner-body">           
+            <div class="col banner-text">
+                <h2 class="heading">Timelessly trendy, our contemporary Amish dining chairs combine heirloom quality craftsmanship with modern chair designs.</h2>
                 <p>Customize your Amish dining room set with hardwood selections, seat styles and attractive upgrade options. Our extensive collection includes upholstered dining chairs, ladder back chairs, Parson’s chairs, Amish bar stools and more. Heirloom quality Amish dining room furniture with contemporary allure.</p>
             </div>
-            <!-- Highlighted text ends  -->
         </div>
     </div>
 </div>
-<!-- highlight area ends  -->
+<!-- banner area ends  -->
 
 <!-- product listing area starts  -->
 <div class="section page-content product-listing-section">

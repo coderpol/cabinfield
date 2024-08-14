@@ -8,32 +8,31 @@ include_once('sections/layouts/header.php')
 
 
 <!-- header banner section starts  -->
-<div class="header-banner image-banner clearfix" style="background-image: url('images/header-banner/about-us.png'); background-position: center right;">
+<div class="banner clearfix large-size" style="background-image: url('images/header-banner/about-us.png'); background-position: center center;">
     <div class="dark-gradient">
         <div class="container">
-            <div class="row">
-                <!-- breadcrumb area starts  -->
-                <div class="col-md-12 breadcrumb-area">
-                    <ol class="breadcrumb">
-                        <li><a href="home.php"><i class="fa-solid fa-house"></i></a></li>
-                        <li class="active">About</li>
-                    </ol>
-                </div>
-                <!-- breadcrumb area ends  -->
-                
-                <!-- banner text starts  -->
-                <div class="col-md-8 banner-text">
+            <!-- breadcrumb area starts  -->
+            <nav class="row breadcrumb-area" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li><a href="home.php"><i class="fa-solid fa-house"></i></a></li>
+                    <li class="active">About</li>
+                </ol>
+            </nav>
+            <!-- breadcrumb area ends  -->
+            <!-- banner body starts  -->
+            <div class="row banner-body">
+                <div class="col banner-text">
                     <h1 class="heading">Welcome to<br/>Cabinfield</h1>
                 </div>
-                <!-- banner text ends  -->
             </div>
+            <!-- banner body ends  -->
         </div>
     </div>
 </div>
 <!-- header banner section ends  -->
 
 <!-- display board section starts -->
-<div class="display-board about-display text-on-top mt-5 mb-0 clearfix">
+<div class="display-board about-display text-on-top mb-0 clearfix">
     <div class="container">
         <div class="row">
             <!-- display area  -->

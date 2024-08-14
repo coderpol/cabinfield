@@ -1,12 +1,9 @@
 .breadcrumb-area{
-    margin-top:25px;
+    margin-top:28px;
     @include upto-tablet{
         margin-top:20px;
     }
     margin-bottom:30px;
-    &+.banner-text{
-        // margin-top:5vw !important;
-    }
 }
 .breadcrumb{
     background:none;

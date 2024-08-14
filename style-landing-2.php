@@ -6,20 +6,25 @@ include_once('sections/layouts/header.php')
 ?>
 
 <!-- Big banner of the page  starts -->
-<div class="header-banner clearfix mb-100 mobile-mb-55 " style="background-image: url('images/header-banner/amish.png');">
+<div class="banner clearfix medium-size" style="background-image: url('images/header-banner/amish.png');">
     <div class="no-gradient">
         <div class="container">
-            <div class="row">
-                <nav class="col-md-12 breadcrumb-area" aria-label="breadcrumb">
-                    <ol class="breadcrumb">
-                        <li><a href="home.php"><i class="fa-solid fa-house"></i></a></li>
-                        <li><a href="#">Fine Furniture</a></li>
-                        <li class="active">Office</li>
-                    </ol>
-                </nav>
-                <div class="col-md-8 banner-text text-start">
+
+            <!-- breadcrumb area starts  -->
+            <nav class="row breadcrumb-area" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li><a href="home.php"><i class="fa-solid fa-house"></i></a></li>
+                    <li><a href="#">Fine Furniture</a></li>
+                    <li><a href="#">Kitchen & Dining Room</a></li>
+                    <li class="active">Shop By Furniture Type</li>
+                </ol>
+            </nav>
+            <!-- breadcrumb area ends  -->
+
+            <div class="row banner-body with-text">
+                <div class="col banner-text">
                     <h1 class="heading">Amish Dining Room <br>& Kitchen Furniture</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur <a href="#">adipiscing</a> elit. Sed do eiusmod tempor <a href="#">incididunt ut</a> labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <a href="#">exercitation</a> ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in <a href="#">voluptate velit esse cillum dolore</a> eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint officia deserunt mollit anim id est laborum.</p>
                 </div>
             </div>
         </div>
