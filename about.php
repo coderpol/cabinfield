@@ -163,7 +163,7 @@ include_once('sections/layouts/header.php')
                 <!-- single point ends -->
             </div>
             
-            <div class="col-md-12 text-center action-area mb-5">
+            <div class="col-md-12 text-center action-area">
                 <a href="product-listing.php" class="btn btn-primary btn-large shadow mobile-full">Shop Now</a>
             </div>
         </div>
@@ -175,8 +175,8 @@ include_once('sections/layouts/header.php')
 <div class="cta-banner clearfix">
     <div class="container">
         <div class="row">
-            <section class="col-md-12 banner home-cta">
-                <h3>Cabinfield Cares.</h3>
+            <section class="col-md-12 banner about-cta">
+                <h3 class="heading">Cabinfield Cares.</h3>
                 <p>With rapid response time and exceptional support, we make the buying process a real pleasure—from start to finish. Our support staff is eager to assist you and to answer your questions.</p>
                 <p>Email us at <a href="mailto:service@cabinfield.com">service@cabinfield.com</a> or call <a href="tel:866-450-WOOD(9663)">866-450-WOOD (9663)</a> during business hours and see for yourself what makes Cabinfield’s service a cut above the rest.</p>
             </section>

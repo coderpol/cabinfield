@@ -1,14 +1,25 @@
 .cta-banner{
+    margin-top:60px;
+    margin-bottom:100px;
     .banner{
-        padding:100px;
+        
+        @include upto-tablet{
+            padding:63px 25px;
+            width:90%;
+            margin:0 5%;
+        }
         border-radius:20px;
-        text-align:center;
-        margin-top:50px;
-        margin-bottom:100px;
-        &.home-cta{
-            background: url('../images/bg/jumbo.svg') no-repeat;
-            background-size: cover;
+        background: url('../images/bg/jumbo.svg') no-repeat;
+        background-size: cover;
+        color:$white;
+        position:relative;
+        
+        h2,h3,h4,h5,p,a{
             color:$white;
+        }
+        
+        &.home-cta{
+            padding:95px 100px 77px;
             @include upto-phone{
                 margin-top:0;
                 padding:90px 25px;
@@ -24,42 +35,80 @@
                     width:100%;
                 }
             }
+            .heading{
+                @include font(30px,42px,700);
+                margin-bottom:40px;
+                @include upto-phone{
+                    @include font(24px,33px,70h0); 
+                }
+            }
+            .logo{
+                position:absolute;
+                right:100px;
+                bottom:84px;
+                width:222px;
+                @include upto-tablet{
+                    display:none;
+                }
+            }
         }
-        h2,h3,h4,h5,p,a{
-            color:$white;
-        }
-        h3{
-            @include font(44px,140%,700);
-            margin-bottom:30px;
+        
+        &.about-cta{
+            text-align:center;
+            padding:80px 65px 113px;
             @include upto-phone{
-                @include font(36px,47px,700); 
+                margin-top:0;
+                padding:65px 22px;
+            }
+            .heading{
+                @include font(44px,62px,700);
+                margin-bottom:30px;
+                @include upto-phone{
+                    @include font(32px,44px,700); 
+                }
+            }
+            
+            p{
+                @include font(18px,28px);
+                margin-bottom:0px;
+                &+p{
+                    margin-top:24px;
+                }
+                a{
+                    font-weight: 700;
+                }
             }
         }
-        h4{
-            @include font(30px,40px,700);
-            margin-bottom:40px;
-            @include upto-phone{
-                @include font(18px,180&,500); 
+        
+        
+        .cta-form{
+            width:100%;
+            @include above-phone{
+                max-width: 370px;
             }
-        }
-        p{
-            @include font(18px,160%);
-            margin-bottom:20px;
-            font-weight: 400;
-            a{
-                font-weight: 700;
+            fieldset{
+                margin-bottom:24px;
+                label{
+                    display:block;
+                    margin-bottom:10px;
+                    @include font(20px,22px,700);
+                }
+                input{
+                    width:100%;
+                    border:1px solid #D4DAE2;
+                    border-radius:6px;
+                    background:#fff;
+                    padding:12px;
+                    @include font(16px,22px,500);
+                    outline:0;
+                    &:focus{
+                        border-color: $blue-darkest;
+                    }
+                }
             }
-        }
-    }
-}
-
-@include upto-pc{
-    .cta-banner{
-        .home-cta{
-            width:90%;
-            margin-left:auto;
-            margin-right:auto;
-            padding:50px 20px;
+            button{
+                margin-top:5px;
+            }
         }
     }
 }
