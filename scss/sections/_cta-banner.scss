@@ -51,6 +51,15 @@
                     display:none;
                 }
             }
+            .success-message{
+                max-width: 280px;
+                display: none;
+                padding-top:68px;
+                p{
+                    @include font(26px,36px,700);
+                    margin-bottom:0;
+                }
+            }
         }
         
         &.about-cta{

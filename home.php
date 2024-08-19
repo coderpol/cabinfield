@@ -214,7 +214,7 @@ include_once('sections/layouts/header.php')
             <section class="col-md-12 banner home-cta">
                 <h4 class="heading">You love beautiful, natural wood. Get inspiration, product news, and promotions to your inbox, so you can eep checking those items off your whishlist.</h4>
                 
-                <form class="cta-form" method="post">
+                <form class="cta-form" id="cta-home-form" method="post" onsubmit="successMgs('cta-home-success-message'); return false;">
                     <fieldset>
                         <label for="name">Name</label>
                         <input type="text" name="name" id="name" placeholder="First name">
@@ -225,6 +225,9 @@ include_once('sections/layouts/header.php')
                     </fieldset>
                     <button class="btn btn-large btn-blue">Sign up for Cabinfield treasures</button>
                 </form>
+                <div class="success-message" id="cta-home-success-message">
+                    <p>Thank you for subscribing to your newsletter. You will receive an email asking you to confirm your subscription.</p>
+                </div>
                 <img src="images/logo-white-larger.png" alt="" class="logo">
             </section>
         </div>
