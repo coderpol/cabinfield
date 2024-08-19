@@ -58,6 +58,11 @@
                 p{
                     @include font(26px,36px,700);
                     margin-bottom:0;
+                    
+                }
+                @include upto-tablet{
+                    padding-top:70px;
+                    @include font(24px,33px,700);
                 }
             }
         }
