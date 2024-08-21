@@ -212,21 +212,24 @@ include_once('sections/layouts/header.php')
     <div class="container">
         <div class="row">
             <section class="col-md-12 banner home-cta">
-                <h4 class="heading">You love beautiful, natural wood. Get inspiration, product news, and promotions to your inbox, so you can eep checking those items off your whishlist.</h4>
-                
-                <form class="cta-form" id="cta-home-form" method="post" onsubmit="successMgs('cta-home-success-message'); return false;">
-                    <fieldset>
-                        <label for="name">Name</label>
-                        <input type="text" name="name" id="name" placeholder="First name">
-                    </fieldset>
-                    <fieldset>
-                        <label for="email">Email Address</label>
-                        <input type="email" name="email" id="email" placeholder="I want 100$ off my first purchase">
-                    </fieldset>
-                    <button class="btn btn-large btn-blue">Sign up for Cabinfield treasures</button>
-                </form>
+                <div id="cta-form-area">
+                    <h4 class="heading">You love beautiful, natural wood. Get inspiration, product news, and promotions to your inbox, so you can eep checking those items off your whishlist.</h4>
+                    
+                    <form class="cta-form" id="cta-home-form" method="post" onsubmit="successMgs('cta-home-success-message'); return false;">
+                        <fieldset>
+                            <label for="name">Name</label>
+                            <input type="text" name="name" id="name" placeholder="First name">
+                        </fieldset>
+                        <fieldset>
+                            <label for="email">Email Address</label>
+                            <input type="email" name="email" id="email" placeholder="I want 100$ off my first purchase">
+                        </fieldset>
+                        <button class="btn btn-large btn-blue">Sign up for Cabinfield treasures</button>
+                    </form>
+                </div>
                 <div class="success-message" id="cta-home-success-message">
                     <p>Thank you for subscribing to your newsletter. You will receive an email asking you to confirm your subscription.</p>
+                    <img src="images/logo-white-larger.png" alt="" class="logo">
                 </div>
                 <img src="images/logo-white-larger.png" alt="" class="logo">
             </section>

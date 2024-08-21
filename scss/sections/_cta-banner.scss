@@ -22,7 +22,8 @@
             padding:95px 100px 77px;
             @include upto-phone{
                 margin-top:0;
-                padding:90px 25px;
+                padding:63px 25px;
+                height: 663px;
             }
             .btn{
                 box-shadow: 0px 12px 48px rgba(0, 0, 0, 0.14);
@@ -47,22 +48,31 @@
                 right:100px;
                 bottom:84px;
                 width:222px;
-                @include upto-tablet{
+                @include upto-phone{
                     display:none;
                 }
             }
             .success-message{
                 max-width: 280px;
                 display: none;
-                padding-top:68px;
+                margin-top:232px;
                 p{
                     @include font(26px,36px,700);
                     margin-bottom:0;
                     
                 }
-                @include upto-tablet{
-                    padding-top:70px;
-                    @include font(24px,33px,700);
+                @include upto-phone{
+                    margin-top:0px;
+                    
+                    p{
+                        @include font(24px,33px,700);
+                    }
+                    .logo{
+                        display: block;
+                        left: 50%;
+                        bottom: 63px;
+                        margin-left: -111px;
+                    }
                 }
             }
         }

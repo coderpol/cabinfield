@@ -450,7 +450,6 @@ $('.stain-selection .stack .form-check-input').click(function(){
 
 
 function successMgs(id){
-  var formID = "#" + event.target.id;
-  $(formID).hide();
+  $("#cta-form-area").hide();
   $("#"+id).fadeIn();
 }
