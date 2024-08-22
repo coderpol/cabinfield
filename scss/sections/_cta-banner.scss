@@ -11,6 +11,10 @@
         border-radius:20px;
         background: url('../images/bg/jumbo.svg') no-repeat;
         background-size: cover;
+        @include upto-phone{
+            background: url('../images/bg/jumbo-small.svg') no-repeat;
+            background-size: cover;
+        }
         color:$white;
         position:relative;
         
@@ -63,7 +67,7 @@
                 }
                 @include upto-phone{
                     margin-top:0px;
-                    
+                    max-width: 240px;
                     p{
                         @include font(24px,33px,700);
                     }
