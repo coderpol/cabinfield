@@ -38,13 +38,13 @@ include_once('sections/layouts/header.php')
             <!-- display area  -->
             <div class="col-md-12 display-area">
                 <!-- single display  -->
-                <div class="display clearfix">
+                <div class="display clearfix">/:""
                     <figure class="col-md-6 col-12 display-image">
                         <img src="images/display/about-us-1.png" alt="">
                     </figure>
                     <article class="col-md-6 col-12 display-text">
                         <header class="section-title">
-                            <h3><span>Our</span> Story</h3>
+                            <h3><span>Ouv iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiir</span> Story</h3>
                         </header>
                         <p>On a family trip through the American heartland, we stumbled upon a treasure trove. Tucked in the charming hills and valleys of Ohio, Indiana, and Pennsylvania, we discovered the shops of Amish craftsmen. Enthralled by their exquisite creations, we were sold.</p>
                         <p>Since 2005, our family-owned business has partnered with the finest Amish artisans for high-quality, custom furnishings that are as unique as the people they serve. Our relationship with the craftsmen affords you the furniture you love…. minus the hefty price tag. We’re passionate about bringing you pieces you can purchase confidently, display proudly, and cherish eternally.</p>

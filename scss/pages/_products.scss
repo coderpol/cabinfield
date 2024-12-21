@@ -830,6 +830,20 @@
         }
     }
     
+    &.bar-height{
+        .gallery-field{
+            &:before{
+                content:"Extra long Upon Request";
+                margin-left: 0;
+                margin-top: 0;
+                text-align: center;
+                width:340px;
+                left:-84px;
+                top:60px;
+            }
+        }
+    }
+    
     &.poly-pack{
         .gallery-field{
             &:before{
