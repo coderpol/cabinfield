@@ -95,7 +95,7 @@
             display: block;
             position:relative;
             overflow:hidden;
-            padding-top:7px;
+            margin-top:7px;
             @include upto-tablet{
                 padding:0;
             }
@@ -768,27 +768,20 @@
         }
     }
     
-    &.in-stock, &.bar-height, &.poly-pack{
+    
+    &.in-stock{
         .gallery-field{
             position:relative;
             overflow:hidden;
-            &:after,&:before{
-                content:"";
+            &:after{
+                content: "In Stock";
                 display: inline-block;
                 background-color: $brand-color;
                 color:$white;
                 transform: rotate(-45deg);
                 position:absolute;
-                top:0;
+                top:0; 
                 left:0;
-            }
-        }
-    }
-    
-    &.in-stock{
-        .gallery-field{
-            &:after{
-                content: "In Stock";
                 @include font(28px,160%,500);
                 padding:  75px 85px 10px;
                 margin-top:-28px;
@@ -801,58 +794,123 @@
         }
     }
     
-    &.bar-height, &.poly-pack{
+    // &.bar-height, &.poly-pack{
+    //     .gallery-field{
+    //         &:before{
+    //             content: "Bar Height Available Upon Request";
+    //             padding:  13px 75px;
+    //             margin-top: 60px;
+    //             margin-left: -87px;
+    //             height:42px;
+    //             @include font(12px,16px,700);
+    //             @include upto-phone{
+    //                 font-size:14px;
+    //             }
+    //         }
+    //         &:after{
+    //             @include square(51px);
+    //             background:url("../icons/bar-chair.png") no-repeat;
+    //             transform: rotate(0);
+    //             left:32px;
+    //             top:32px;
+    //         }
+    //     }
+    //     .order-details{
+    //         margin-top:20px;
+    //         a.btn{
+    //             color:#fff;
+    //         }
+    //     }
+    // }
+    
+    // &.bar-height{
+    //     .gallery-field{
+    //         &:before{
+    //             content:"Extra long Upon Request";
+    //             margin-left: 0;
+    //             margin-top: 0;
+    //             text-align: center;
+    //             width:340px;
+    //             left:-84px;
+    //             top:60px;
+    //         }
+    //     }
+    // }
+    
+    // &.poly-pack{
+    //     .gallery-field{
+    //         &:before{
+    //             content: "Available in Poly Upon Request";
+    //             @include font(14px,16px,700);
+    //             margin-left: -98px;
+    //         }
+    //         &:after{
+    //             background:url("../icons/poly-pack.png") no-repeat;
+    //         }
+    //     }
+    // }
+    
+    &.has-note{
         .gallery-field{
+            position:relative;
+            overflow:hidden;
+            z-index:100;
             &:before{
-                content: "Bar Height Available Upon Request";
-                @include font(12px,16px,700);
-                padding:  13px 75px;
-                margin-top: 60px;
-                margin-left: -87px;
-                height:42px;
+                content:"";
+                position: absolute;
+                left:0;
+                top:0;
+                font-weight: 700;
+                height: 42px;
+                background-color: $brand-color;
+                transform: rotate(-45deg);
+                text-align:center;
+                width: 400px;
+                top: 60px;
+                left: -120px;
+                z-index:100;
+                color:$white;
+                @include font(12px,42px,700);
                 @include upto-phone{
                     font-size:14px;
                 }
             }
             &:after{
+                position: absolute;
+                content:"";
                 @include square(51px);
-                background:url("../icons/bar-chair.png") no-repeat;
-                transform: rotate(0);
-                left:32px;
-                top:32px;
+                background: none;
+                left:0;
+                top:0;
+                left: 32px;
+                top: 32px;
+                z-index:200;
             }
         }
+        
+        // note icons here
+        .note-icon-chair:after{
+            background: url("../icons/bar-chair.png") no-repeat;
+        }
+        .note-icon-poly:after{
+            background:url("../icons/poly-pack.png") no-repeat;
+        }
+        // note text here
+        .note-bar-height:before{
+            content:"Bar Height Available Upon Request"
+        }
+        .note-poly-pack:before{
+            content:"Available in Poly Upon Request";
+        }
+        .note-extra-long:before{
+            content:"Extra long Upon Request"
+        }
+        
+        // order details here
         .order-details{
             margin-top:20px;
             a.btn{
                 color:#fff;
-            }
-        }
-    }
-    
-    &.bar-height{
-        .gallery-field{
-            &:before{
-                content:"Extra long Upon Request";
-                margin-left: 0;
-                margin-top: 0;
-                text-align: center;
-                width:340px;
-                left:-84px;
-                top:60px;
-            }
-        }
-    }
-    
-    &.poly-pack{
-        .gallery-field{
-            &:before{
-                content: "Available in Poly Upon Request";
-                @include font(14px,16px,700);
-                margin-left: -98px;
-            }
-            &:after{
-                background:url("../icons/poly-pack.png") no-repeat;
             }
         }
     }

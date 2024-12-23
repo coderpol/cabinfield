@@ -1,6 +1,6 @@
 <?php 
 // page title
-$page_title="Poly Upon Request";
+$page_title="Bar Height Upon Request";
 
 // inlcude the header 
 include_once('sections/layouts/header.php') 
@@ -31,27 +31,28 @@ include_once('sections/layouts/header.php')
         <div class="row product-gallery-area">
             <div class="col-lg-6 col-md-12 product-gallery">
                 <?php 
-                // if the section has-note class in the parent, 
-                // then define 2 classes here
-                // 1 for icon and another for the text
-                /*
-                Available classes
-                For text: note-bar-height, note-poly-pack, note-extra-long,
-                For icons: note-icon-chair, note-icon-poly
-                */                
-                $note_classes = "note-poly-pack note-icon-poly";
-                
-                // set the values of needed variables first
-                $gallery_image_link = "images/products/gallery/park.png";
-                $gallery_caption = "Small castle with optional swing set<br>Dimensions: 7'L x 8'W x 7'4\"H";
-                $gallery_slider_part = "sections/product-page/poly-pack/gallery-thumb-slider.php";
-                
-                // now call the structure
-                include_once('sections/product-page/gallery-area.php'); 
+                    // if the section has-note class in the parent, 
+                    // then define 2 classes here
+                    // 1 for icon and another for the text
+                    /*
+                    Available classes
+                    For text: note-bar-height, note-poly-pack, note-extra-long,
+                    For icons: note-icon-chair, note-icon-poly
+                    */                
+                    $note_classes = "note-extra-long note-icon-chair";
+                    
+                    // set the values of needed variables first
+                    $gallery_image_link = "images/products/gallery/park.png";
+                    $gallery_caption = "Shown in quartersawn white oak with Asbury stain<br>and optional leather upholstery <br> Please see Details for dimensions.";
+                    $gallery_slider_part = "sections/product-page/poly-pack/gallery-thumb-slider.php";
+                    
+                    // now call the structure
+                    include_once('sections/product-page/gallery-area.php'); 
                 ?>
             </div>
+            
             <div class="col-lg-6 col-md-12 product-details">
-                <?php include_once('sections/product-page/poly-pack/product-details.php'); ?>
+                <?php include_once('sections/product-page/bar-height/product-details.php'); ?>
             </div>
         </div>
         <div class="row">

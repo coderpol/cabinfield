@@ -30,7 +30,25 @@ include_once('sections/layouts/header.php')
     <div class="container">
         <div class="row product-gallery-area">
             <div class="col-lg-6 col-md-12 product-gallery">
-                <?php include_once('sections/product-page/bar-height/gallery-area.php'); ?>
+            <?php 
+                    // if the section has-note class in the parent, 
+                    // then define 2 classes here
+                    // 1 for icon and another for the text
+                    /*
+                    Available classes
+                    For text: note-bar-height, note-poly-pack, note-extra-long,
+                    For icons: note-icon-chair, note-icon-poly
+                    */                
+                    $note_classes = "note-bar-height note-icon-chair";
+                    
+                    // set the values of needed variables first
+                    $gallery_image_link = "images/products/gallery/rocking-chair.png";
+                    $gallery_caption = "Shown in quartersawn white oak with Asbury stain<br>and optional leather upholstery <br> Please see Details for dimensions.";
+                    $gallery_slider_part = "sections/product-page/gallery-thumb-slider.php";
+                    
+                    // now call the structure
+                    include_once('sections/product-page/gallery-area.php'); 
+                ?>
             </div>
             <div class="col-lg-6 col-md-12 product-details">
                 <?php include_once('sections/product-page/bar-height/product-details.php'); ?>
