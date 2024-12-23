@@ -26,11 +26,14 @@ include_once('sections/layouts/header.php')
 <!-- breadcrumb-section ends  -->
 
 <!-- .product-section starts  -->
-<div class="section page-content product-section poly-pack">
+<div class="section page-content product-section has-note">
     <div class="container">
         <div class="row product-gallery-area">
             <div class="col-lg-6 col-md-12 product-gallery">
-                <?php include_once('sections/product-page/poly-pack/gallery-area.php'); ?>
+                <?php 
+                $gallery_caption = "Shown in quartersawn white oak with Asbury stain<br>and optional leather upholstery <br> Please see Details for dimensions.";
+                include_once('sections/product-page/poly-pack/gallery-area.php'); 
+                ?>
             </div>
             <div class="col-lg-6 col-md-12 product-details">
                 <?php include_once('sections/product-page/poly-pack/product-details.php'); ?>

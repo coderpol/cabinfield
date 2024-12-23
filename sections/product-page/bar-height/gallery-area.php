@@ -1,5 +1,5 @@
 <div class="gallery-full">
-    <div class="gallery-field">
+    <div class="gallery-field note-bar-height note-icon-chair">
         <img class="full" src="images/products/gallery/rocking-chair.png" alt="">
     </div>
     <div id="caption">

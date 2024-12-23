@@ -26,7 +26,7 @@ include_once('sections/layouts/header.php')
 <!-- breadcrumb-section ends  -->
 
 <!-- .product-section starts  -->
-<div class="section page-content product-section bar-height">
+<div class="section page-content product-section has-note">
     <div class="container">
         <div class="row product-gallery-area">
             <div class="col-lg-6 col-md-12 product-gallery">

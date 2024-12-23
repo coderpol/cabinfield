@@ -1,5 +1,5 @@
 <div class="gallery-full">
-    <div class="gallery-field">
+    <div class="gallery-field note-poly-pack note-icon-poly">
         <img class="full" src="images/products/gallery/park.png" alt="">
     </div>
     <div id="caption">
