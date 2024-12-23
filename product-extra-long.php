@@ -1,6 +1,6 @@
 <?php 
 // page title
-$page_title="Bar Height Upon Request";
+$page_title="Extra long Upon Request";
 
 // inlcude the header 
 include_once('sections/layouts/header.php') 
