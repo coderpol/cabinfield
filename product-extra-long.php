@@ -37,7 +37,7 @@ include_once('sections/layouts/header.php')
                     /*
                     Available classes
                     For text: note-bar-height, note-poly-pack, note-extra-long,
-                    For icons: note-icon-chair, note-icon-poly
+                    For icons: note-icon-chair, note-icon-poly, note-icon-table-blue, note-icon-table-brown
                     */                
                     $note_classes = "note-extra-long note-icon-chair";
                     
