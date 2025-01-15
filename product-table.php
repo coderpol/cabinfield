@@ -1,6 +1,6 @@
 <?php 
 // page title
-$page_title="Extra long Upon Request";
+$page_title="Extra Table Icon";
 
 // inlcude the header 
 include_once('sections/layouts/header.php') 
@@ -39,7 +39,7 @@ include_once('sections/layouts/header.php')
                     For text: note-bar-height, note-poly-pack, note-extra-long,
                     For icons: note-icon-chair, note-icon-poly, note-icon-table
                     */                
-                    $note_classes = "note-extra-long note-icon-chair";
+                    $note_classes = "note-extra-long note-icon-table";
                     
                     // set the values of needed variables first
                     $gallery_image_link = "images/products/gallery/park.png";

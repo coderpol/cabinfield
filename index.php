@@ -37,6 +37,7 @@
                     <li class="check"><a href="product-bar-height.php">Product - Bar Height</a></li>
                     <li class="check"><a href="product-poly-pack.php">Product - Poly</a></li>
                     <li class="check"><a href="product-extra-long.php">Product - Extra Long</a></li>
+                    <li class="check"><a href="product-table.php">Product - Table</a></li>
                     <li class="done"><a href="product-1-loading.php">Product Customized - Anim</a></li>
                     <li class="done"><a href="in-stock.php">In Stock</a></li>
                     <li class="check"><a href="shopping-cart.php">Shopping Cart</a></li>
