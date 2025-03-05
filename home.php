@@ -5,14 +5,7 @@ $page_title="Homepage"; // dynamic page title for every page
 include_once('sections/layouts/header.php') 
 ?>
 <!-- Big banner of the page  starts -->
-<div class="banner clearfix with-slider large-size">
-    <div id="home-banner-slider" class="banner-slider">
-        <!-- any number of slides can be added with this line of code -->
-         <!-- single slider image  -->
-         <div class="slide" style="background-image:url('images/header-banner/banner-home.jpg')"></div>
-         <!-- single slider image  -->
-        <div class="slide" style="background-image:url('images/header-banner/banner-home.jpg')"></div>
-    </div>
+<div class="banner clearfix large-size" style="background-image:url('images/header-banner/banner-home.jpg')" data-mobile-bg="images/header-banner/banner-home-small.png">
     <div class="primary-gradient">
         <div class="container">
             <div class="row banner-body">

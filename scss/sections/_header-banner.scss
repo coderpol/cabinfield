@@ -20,40 +20,40 @@
         position: relative;
     }
 
-    &.with-slider{
-        .banner-slider{
-            position: absolute;
-            top:0;
-            left:0;
-            height: 100%;
-            width: 100%;
-            margin-bottom: 0 !important;
-            .slick-list{
-                z-index: -10;
-                margin-bottom: 0 !important;
-                .slide{
-                    background-repeat: no-repeat;
-                    background-size: cover;
-                    background-position: center center;
-                    height:500px;
+    // &.with-slider{
+    //     .banner-slider{
+    //         position: absolute;
+    //         top:0;
+    //         left:0;
+    //         height: 100%;
+    //         width: 100%;
+    //         margin-bottom: 0 !important;
+    //         .slick-list{
+    //             z-index: -10;
+    //             margin-bottom: 0 !important;
+    //             .slide{
+    //                 background-repeat: no-repeat;
+    //                 background-size: cover;
+    //                 background-position: center center;
+    //                 height:500px;
                         
-                    @include upto-phone{
-                        height:296px;
-                    }
-                    @include phone-small{
-                        height:330px;
-                    }
-                }
-            }
-            .slick-dots{
-                bottom: 25px;
-                z-index: 100;
-                @include upto-phone{
-                    margin-left:-5px;
-                }
-            }
-        }
-    }
+    //                 @include upto-phone{
+    //                     height:296px;
+    //                 }
+    //                 @include phone-small{
+    //                     height:330px;
+    //                 }
+    //             }
+    //         }
+    //         .slick-dots{
+    //             bottom: 25px;
+    //             z-index: 100;
+    //             @include upto-phone{
+    //                 margin-left:-5px;
+    //             }
+    //         }
+    //     }
+    // }
 
     .breadcrumb-area{
         position: absolute;

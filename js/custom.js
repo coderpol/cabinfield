@@ -69,7 +69,22 @@ $(document).ready(function () {
   initializeSlider("rustic");
 });
 
+// change banner for mobile 
+document.addEventListener("DOMContentLoaded", function() {
+    // Check if the device is mobile
+    if (window.innerWidth <= 768) { // Adjust the width as needed for mobile detection
+        var banner = document.querySelector('.banner');
+        var mobileBg = banner.getAttribute('data-mobile-bg');
+        
+        // Set the background image for the banner
+        if (mobileBg) {
+            banner.style.backgroundImage = 'url(' + mobileBg + ')';
+        }
+    }
+});
+
 // testimonial slider
+
 $('#testimonial-slider').slick({
   centerMode: true,
   dots: true,
@@ -96,15 +111,18 @@ $('#testimonial-slider').slick({
     }
   ]
 });
-$('#home-banner-slider').slick({
-  dots: true,
-  infinite: true,
-  speed: 500,
-  cssEase: 'linear',
-  autoplay: true,
-  autoplaySpeed: 6000,
-  arrows:false,
-});
+// $('#home-banner-slider').slick({
+//   dots: true,
+//   infinite: true,
+//   speed: 500,
+//   cssEase: 'linear',
+//   autoplay: true,
+//   autoplaySpeed: 6000,
+//   arrows:false,
+// });
+
+
+
 
 // for billing address input hide
 $('input#shipping_address_trigger').click(function(){
