@@ -70,18 +70,15 @@ $(document).ready(function () {
 });
 
 // change banner for mobile 
-document.addEventListener("DOMContentLoaded", function() {
-    // Check if the device is mobile
-    if (window.innerWidth <= 768) { // Adjust the width as needed for mobile detection
-        var banner = document.querySelector('.banner');
-        var mobileBg = banner.getAttribute('data-mobile-bg');
-        
-        // Set the background image for the banner
-        if (mobileBg) {
-            banner.style.backgroundImage = 'url(' + mobileBg + ')';
-        }
-    }
-});
+var banner = document.querySelector('.banner');
+var desktopBg = banner.getAttribute('data-desktop-bg');
+var mobileBg = banner.getAttribute('data-mobile-bg');
+  // Check if the device is mobile
+  if (window.innerWidth <= 768) { // Adjust the width as needed for mobile detection
+    banner.style.backgroundImage = 'url(' + mobileBg + ')';
+  }else{
+    banner.style.backgroundImage = 'url(' + desktopBg + ')';
+  }
 
 // testimonial slider
 
