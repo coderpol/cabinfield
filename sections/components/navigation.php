@@ -213,9 +213,9 @@
                                 <div class="category">
                                     <h4><a href="#">Outdoor Dining Furniture</a></h4>
                                     <ul class="submenu">
-                                        <li><a href="#">Outdoor Dining Sets</a></li>
+                                        <li class="featured"><a href="#">Outdoor Dining Sets</a></li>
                                         <li><a href="#">Patio Dining Tables</a></li>
-                                        <li><a href="#">Patio Dining Chairs</a></li>
+                                        <li><a href="#" class="featured">Patio Dining Chairs</a></li>
                                         <li><a href="#">Patio Dining Benches</a></li>
                                         <li><a href="#">Picnic Tables</a></li>
                                     </ul>
@@ -228,11 +228,11 @@
                                 <div class="category">
                                     <h4><a href="#">Outdoor Sitting</a></h4>
                                     <ul class="submenu">
-                                        <li><a href="#">Patio Dining Sets</a></li>
+                                        <li ><a href="#">Patio Dining Sets</a></li>
                                         <li><a href="#">Patio Lounge & Deck Chairs</a></li>
-                                        <li><a href="#">Adirondack Chairs</a></li>
+                                        <li class="featured"><a href="#">Adirondack Chairs</a></li>
                                         <li><a href="#">Patio Sofas, Loveseats and Sectionals</a></li>
-                                        <li><a href="#">Outdoor Accent Table</a></li>
+                                        <li><a href="#" class="featured">Outdoor Accent Table</a></li>
                                         <li><a href="#">Outdoor Benches</a></li>
                                     </ul>
                                     <ul class="additional-menu">
@@ -242,7 +242,7 @@
                                 <div class="category">
                                     <h4><a href="#">Swings, Rockers & Canopy Gliders</a></h4>
                                     <ul class="submenu">
-                                        <li><a href="#">Canopy Gliders</a></li>
+                                        <li class="featured"><a href="#">Canopy Gliders</a></li>
                                         <li><a href="#">Porcg Gliders</a></li>
                                         <li><a href="#">Porch Swings</a></li>
                                         <li><a href="#">Porch Rockers</a></li>

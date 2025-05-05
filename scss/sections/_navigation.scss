@@ -173,13 +173,23 @@
                     padding-left:0;
                     li{
                         margin:12px 0;
-                        color:#B3522C;
                         a{
                             @include font(16px,18px,500);
                             text-transform: capitalize;
+                            &.featured{
+                                color:#B3522C;
+                                &:hover{
+                                    text-decoration:underline;
+                                }
+                            }
+                        }
+                        &.featured{
                             color:#B3522C;
-                            &:hover{
-                                text-decoration:underline;
+                            a{
+                                color:#B3522C;
+                                &:hover{
+                                    text-decoration:underline;
+                                }
                             }
                         }
                     }
