@@ -153,13 +153,14 @@
                         list-style-type: none;
                         padding-left: 0;
                         margin-top: 25px;
+                        margin-bottom:25px;
                         a{
                             @include font(16px,32px,500); 
                             color:$brand-color;
                         }
                     }
                     &+.category{
-                        margin-top:0px;
+                        margin-top:25px;
                         h4{
                             margin-bottom:0;
                         }
@@ -205,6 +206,9 @@
                         grid-template-columns: repeat(4,1fr);
                         grid-column-gap: 25px;
                         grid-row-gap: 30px;
+                    }
+                    .category{
+                        margin-top:0;
                     }
                 }
             }
