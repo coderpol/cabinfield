@@ -31,11 +31,11 @@
                 position:relative;
                 text-transform: uppercase;
                 letter-spacing: 2.6px;
+                cursor: pointer;
                 @include tablet-to-pc{
                     padding:10px 20px;
                     letter-spacing: 1px;
                 }
-                cursor: pointer;
                 &:hover{
                     text-decoration: none;
                     color:$brand-color !important;
@@ -194,7 +194,6 @@
                             }
                         }
                     }
-                    
                 }
             }
             &.megamenu{
@@ -221,14 +220,12 @@
                 }
                 .submenu-block{
                     display: block;
-                    
                 }
             }
             &.nav-item{
                 &>a{
                     padding:10px 30px;
                 }
-                
             }
         }
     }
@@ -239,7 +236,6 @@
             }
         }
     }
-    
     
     #nav-close{
         position: absolute;
@@ -321,9 +317,7 @@
                         &.active{
                             font-weight: 700;
                             color:$brand-color;
-                            .arrow{
-                                
-                            }
+                            .arrow{}
                         }
                     }
                     h3{
@@ -378,7 +372,6 @@
                                         margin-left: -5px;
                                     }
                                 }
-                                
                             }
                         }
                         .stock-link{
@@ -400,8 +393,6 @@
         }
         &.active{
             display: block;
-            
-            
         }
     }
     .nav-toggle-area{
