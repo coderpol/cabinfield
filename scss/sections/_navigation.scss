@@ -209,6 +209,17 @@
                     }
                     .category{
                         margin-top:0;
+                        &.compact{
+                            .submenu{
+                                &+h4{
+                                    margin-top:15px;
+                                }
+                            }
+                            .additional-menu{
+                                margin-top:10px;
+                                margin-bottom:10px;
+                            }
+                        }
                     }
                 }
             }

@@ -5,7 +5,7 @@
             <div class="nav-toggle-area">
                 <span class="nav-toggle"><i class="fa-solid fa-bars"></i></span>
             </div>
-            
+
             <nav class="main-navigation">
                 <span id="nav-close"><i class="fa-solid fa-xmark"></i></span>
                 <ul class="main-nav navbar-nav">
@@ -120,7 +120,7 @@
                                         <li><a href="#">Bedroom Media Consoles</a></li>
                                         <li><a href="#">Cheval Mirros</a></li>
                                     </ul>
-                                   
+
                                     <ul class="additional-menu">
                                         <li><a href="#">Shop by quick Ship</a></li>
                                         <li><a href="#">Shop by Rustic Lodge</a></li>
@@ -171,7 +171,7 @@
                                         <li><a href="#">Reclaimed Barnwood</a></li>
                                     </ul>
                                 </div>
-                                
+
                                 <div class="category">
                                     <h4><a href="#">Office</a></h4>
                                     <ul class="submenu">
@@ -190,7 +190,7 @@
                             </div>
                         </div>
                     </li>
-                    
+
                     <li class="menu-item has_submenu megamenu">
                         <span class="heading-link"><a href="#">Outdoor</a> <span class="only-responsive arrow" data-target="menu-16">></span></span>
                         <div class="dropdown-menu submenu-block" id="menu-16">
@@ -228,7 +228,7 @@
                                 <div class="category">
                                     <h4><a href="#">Outdoor Sitting</a></h4>
                                     <ul class="submenu">
-                                        <li ><a href="#">Patio Dining Sets</a></li>
+                                        <li><a href="#">Patio Dining Sets</a></li>
                                         <li><a href="#">Patio Lounge & Deck Chairs</a></li>
                                         <li class="featured"><a href="#">Adirondack Chairs</a></li>
                                         <li><a href="#">Patio Sofas, Loveseats and Sectionals</a></li>
@@ -239,13 +239,23 @@
                                         <li><a href="#">Quick Ship</a></li>
                                     </ul>
                                 </div>
-                                <div class="category">
-                                    <h4><a href="#">Swings, Rockers & Canopy Gliders</a></h4>
+                                <div class="category compact">
+                                    <h4><a href="/amish-outdoor-furniture/outdoor-playsets-5860">Outdoor Playsets</a></h4>
+                                    <ul class="submenu"></ul>
+
+                                    <h4><a href="/amish-outdoor-furniture/arbors-5997">Arbors</a></h4>
+                                    <ul class="submenu"></ul>
+                                    <ul class="additional-menu">
+                                        <li><a href="/amish-outdoor-furniture/in-stock-ready-to-ship-9644">In-Stock &amp; Ready to Ship</a></li>
+                                    </ul>
+                                    <h4><a href="/amish-outdoor-furniture/shop-outdoor-styles-10568">Shop Outdoor Styles</a></h4>
                                     <ul class="submenu">
-                                        <li class="featured"><a href="#">Canopy Gliders</a></li>
-                                        <li><a href="#">Porcg Gliders</a></li>
-                                        <li><a href="#">Porch Swings</a></li>
-                                        <li><a href="#">Porch Rockers</a></li>
+                                        <li><a href="/amish-outdoor-furniture/shop-outdoor-styles/coastal-10569">Coastal</a></li>
+                                        <li><a href="/amish-outdoor-furniture/shop-outdoor-styles/adirondack-10570">Adirondack</a></li>
+                                        <li><a href="/amish-outdoor-furniture/shop-outdoor-styles/mission-10571">Mission</a></li>
+                                        <li><a href="/amish-outdoor-furniture/shop-outdoor-styles/traditional-10572">Traditional</a></li>
+                                        <li><a href="/amish-outdoor-furniture/shop-outdoor-styles/contemporary-10573">Contemporary</a></li>
+                                        <li><a href="/amish-outdoor-furniture/shop-outdoor-styles/rustic-10574">Rustic</a></li>
                                     </ul>
                                 </div>
                             </div>
